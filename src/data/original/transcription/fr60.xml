@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr60</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Ljubljana</settlement>
+          <repository>Narodna in univerzitetna knjižnica, Ms. 1553</repository>
+          <idno>Ms. 1553</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr60</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 255.21-26, 256.29-257.5, 258.6-11, 259.15-21, 281.17-282.25, 282.26-284.4, 284.5-285.16, 285.15-286.23</note>
+<note>255.21-257.05 transkribiert von OBA ab Farbfotos (Studio) am 25.05.2010.</note>
+<note>258.6-286.23 transkribiert von SFa ab Farbfotos (Studio) August 2013.</note>
+<note>Der erste Buchstabe jedes Verses ist jeweils abgesetzt.</note>
+<note>Gegengelesen von JLa ab Farbfotos im August 2013.</note>
+<note>Endredaktion von JKL am 17.12.2016.</note>
+<note>11.10.2018, MiGe: sek-Tags ergänzt und teilweise Zweifeltags entfernt. Quelle: Janez Stanonik, Ostanki Srednjeve?kega nem?kega slovstva na Kranjskem (mit dt. Zusammenfassung: Die Überreste der deutschen Literatur des Mittelalters in Krain), Diss. Ljubljana 1957, S. 19-26 (Abdruck).</note>
+<pb xml:id="fr60001r"/><cb xml:id="fr60001ra"/>
+<l xml:id="fr60_255.21">Do &#x017F;prach er liebev niftel mein</l>
+<l xml:id="fr60_255.22">Tuet bezzern willen gein mir &#x017F;chein</l>
+<l xml:id="fr60_255.23">Jch wandelz han ich iht getan</l>
+<l xml:id="fr60_255.24">Jr &#x017F;v&#x0364;lt wandels &#x017F;ein erlan</l>
+<l xml:id="fr60_255.25">Sprach dev magt mir i&#x017F;t wol bec<unclear reason="Zweifel">han</unclear>t</l>
+<note resp="#MiGe_Gegenleser" target="#?1_255.25 #Fr60001ra"><ref>bec<unclear reason="Zweifel">han</unclear>t</ref>: Stanonik gibt <ref>bekannt</ref> an, was aber in sprachlicher Hinsicht eher unwahrscheinlich ist.</note>
+<l xml:id="fr60_255.26">Ze mvnt&#x017F;chalva&#x017F;che an ev v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;want</l>
+<cb xml:id="fr60001rb"/>
+<l xml:id="fr60_256.29">wan<gap reason="unleserlich" extent="unbekannt"/> rait ein <gap reason="Fragmentverlust" extent="unbekannt"/>e wert</l>
+<l xml:id="fr60_256.30">De<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied> &#x017F;<gap reason="unleserlich" extent="unbekannt"/> kvn<supplied reason="unleserlich" resp="Sekundärliteratur">ri</supplied><gap reason="Fragmentverlust" extent="unbekannt"/> pf&#x00E6;rt</l>
+<l xml:id="fr60_257.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>a <gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">o</supplied>vf ein <gap reason="Fragmentverlust" extent="unbekannt"/>te</l>
+<l xml:id="fr60_257.02">Smal an alle <gap reason="Fragmentverlust" extent="unbekannt"/>e</l>
+<l xml:id="fr60_257.03">Ge&#x017F;chelle vnt b<gap reason="Fragmentverlust" extent="unbekannt"/> v<choice><am>&#x0309;</am><ex>er</ex></choice>reret</l>
+<l xml:id="fr60_257.04">Groz zadel dara<gap reason="Fragmentverlust" extent="unbekannt"/>meret</l>
+<l xml:id="fr60_257.05">D<choice><am>&#x0309;</am><ex>er</ex></choice> frowen tr<supplied reason="unleserlich" resp="Sekundärliteratur">ovric</supplied> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#JKl_Transkribent" target="#?1_257.05 #fr60001rb">:Unterer Teil der Zeile abgeschnitten.</note>
+<pb xml:id="fr60001v"/><cb xml:id="fr60001va"/>
+<l xml:id="fr60_258.06">Da von i&#x017F;t laide m<gap reason="Fragmentverlust" extent="unbekannt"/>e&#x017F;chehen</l>
+<l xml:id="fr60_258.07">Doch mvez ev frev<gap reason="Fragmentverlust" extent="unbekannt"/> ere</l>
+<l xml:id="fr60_258.08"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>ot imm<choice><am>&#x0309;</am><ex>er</ex></choice> Geben m<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_258.09"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>enn ir vmb mi<gap reason="Fragmentverlust" extent="unbekannt"/>ient hat</l>
+<l xml:id="fr60_258.10"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> i&#x017F;t nv ermer <gap reason="Fragmentverlust" extent="unbekannt"/> wat</l>
+<l xml:id="fr60_258.11"><gap reason="unleserlich" extent="unbekannt"/>n ir &#x017F;i <subst hand="#sr"><del>*</del><add>ivn<gap reason="Fragmentverlust" extent="unbekannt"/></add></subst>ahet</l>
+<cb xml:id="fr60001vb"/>
+<l xml:id="fr60_259.15">Er &#x017F;prach vrowe w&#x00E6;r n&#x00E6;m vns daz lebn</l>
+<l xml:id="fr60_259.16">Daz hat vns gotes chraft gegebe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_259.17">Ob des gert ein <subst hand="#sr"><del>gantze*</del><add>gantzez</add></subst> her</l>
+<l xml:id="fr60_259.18">Man &#x017F;&#x00E6;h m<supplied reason="unleserlich" resp="Sekundärliteratur">ich</supplied> fvr vns zewer</l>
+<l xml:id="fr60_259.19">Si &#x017F;prach ez gert ein werder degen</l>
+<l xml:id="fr60_259.20">Der hat &#x017F;ich &#x017F;treites &#x017F;o be wegen</l>
+<l xml:id="fr60_259.21">Ewer &#x017F;ehs choemens in arbait</l>
+<pb xml:id="fr60002r"/><cb xml:id="fr60002ra"/>
+<l xml:id="fr60_281.17"><gap reason="Fragmentverlust" extent="unbekannt"/>waz man ie von im ge&#x017F;prach</l>
+<l xml:id="fr60_281.18"><gap reason="Fragmentverlust" extent="unbekannt"/>einen pfing&#x017F;ten daz ge&#x017F;ach</l>
+<l xml:id="fr60_281.19"><gap reason="Fragmentverlust" extent="unbekannt"/>d<choice><am>&#x0309;</am><ex>er</ex></choice> indes maien blvemen zeit</l>
+<l xml:id="fr60_281.20"><gap reason="Fragmentverlust" extent="unbekannt"/>az man im &#x017F;vezes lvftes geit</l>
+<l xml:id="fr60_281.21"><gap reason="Fragmentverlust" extent="unbekannt"/>az m&#x00E6;r i&#x017F;t hie va&#x017F;te vnd<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;niten</l>
+<l xml:id="fr60_281.22"><gap reason="Fragmentverlust" extent="unbekannt"/>z barrieret &#x017F;ich mit &#x017F;enewes &#x017F;iten</l>
+<l xml:id="fr60_281.23"><gap reason="Fragmentverlust" extent="unbekannt"/>eine valchn&#x00E6;re von Karidol</l>
+<l xml:id="fr60_281.24"><gap reason="Fragmentverlust" extent="unbekannt"/>itens haben den <add hand="#sr">vorm</add> Brimizol</l>
+<l xml:id="fr60_281.25"><gap reason="Fragmentverlust" extent="unbekannt"/>vrch baizen da &#x017F;i &#x017F;chaden chvrn</l>
+<l xml:id="fr60_281.26"><gap reason="Fragmentverlust" extent="unbekannt"/>r be&#x017F;ten valchen &#x017F;i v<choice><am>&#x0309;</am><ex>er</ex></choice>lvrn</l>
+<l xml:id="fr60_281.27"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>&#x0309;</am><ex>er</ex></choice></supplied> gahte von in balde</l>
+<l xml:id="fr60_281.28"><gap reason="Fragmentverlust" extent="unbekannt"/>nt &#x017F;tuent die naht ze walde</l>
+<l xml:id="fr60_281.29"><gap reason="Fragmentverlust" extent="unbekannt"/>on v&#x0364;b<choice><am>&#x0309;</am><ex>er</ex></choice> chrvpfe da<supplied reason="unleserlich" resp="Sekundärliteratur">z</supplied> ge&#x017F;chach</l>
+<l xml:id="fr60_281.30"><gap reason="Fragmentverlust" extent="unbekannt"/>az im was von d<supplied reason="unleserlich" resp="Sekundärliteratur">em</supplied> <gap reason="unleserlich" extent="unbekannt"/>en gach</l>
+<l xml:id="fr60_282.01"><gap reason="Fragmentverlust" extent="unbekannt"/>ie naht bei barcifal er &#x017F;tuent</l>
+<l xml:id="fr60_282.02">da in beden d<choice><am>&#x0309;</am><ex>er</ex></choice> walt was vnchvnt</l>
+<l xml:id="fr60_282.03"><gap reason="Fragmentverlust" extent="unbekannt"/>nt da &#x017F;i bede &#x017F;ere fro&#x0364;s</l>
+<l xml:id="fr60_282.04"><gap reason="Fragmentverlust" extent="unbekannt"/>o barcifal den tach erchos</l>
+<l xml:id="fr60_282.05"><gap reason="Fragmentverlust" extent="unbekannt"/>m was v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;neit &#x017F;ein pfades pan</l>
+<l xml:id="fr60_282.06"><gap reason="Fragmentverlust" extent="unbekannt"/>il vngev<choice><am>&#x0309;</am><ex>er</ex></choice>tes rait er dan</l>
+<l xml:id="fr60_282.07"><gap reason="Fragmentverlust" extent="unbekannt"/>ber ronen vnt v&#x0364;b<choice><am>&#x0309;</am><ex>er</ex></choice> mangen &#x017F;tain</l>
+<l xml:id="fr60_282.08"><gap reason="Fragmentverlust" extent="unbekannt"/> tach ie lanch ho&#x0364;her &#x017F;chain</l>
+<l xml:id="fr60_282.09"><gap reason="Fragmentverlust" extent="unbekannt"/>vch begvnde lichten &#x017F;ich d<choice><am>&#x0309;</am><ex>er</ex></choice> walt</l>
+<l xml:id="fr60_282.10"><unclear reason="Zweifel">W</unclear>an <supplied reason="unleserlich" resp="Sekundärliteratur">d</supplied>az ein ron was gevalt</l>
+<l xml:id="fr60_282.11"><gap reason="Fragmentverlust" extent="unbekannt"/>f einem plan zv dem er &#x017F;laich</l>
+<l xml:id="fr60_282.12"><gap reason="Fragmentverlust" extent="unbekannt"/>v&#x017F;es valche mit im &#x017F;traich</l>
+<l xml:id="fr60_282.13"><gap reason="Fragmentverlust" extent="unbekannt"/> wol tov&#x017F;ent gen&#x017F;e lagen</l>
+<l xml:id="fr60_282.14"><gap reason="Fragmentverlust" extent="unbekannt"/> wart ein michel gragen</l>
+<l xml:id="fr60_282.15"><gap reason="Fragmentverlust" extent="unbekannt"/>erte floech er vnd<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;i</l>
+<l xml:id="fr60_282.16"><gap reason="Fragmentverlust" extent="unbekannt"/>lch vnt &#x017F;luech ir aine hi</l>
+<l xml:id="fr60_282.17"><gap reason="Fragmentverlust" extent="unbekannt"/>arte daz &#x017F;i im chovme enbra&#x017F;t</l>
+<l xml:id="fr60_282.18"><gap reason="Fragmentverlust" extent="unbekannt"/><choice><am>&#x0309;</am><ex>er</ex></choice> des gevallen ronen a&#x017F;t</l>
+<l xml:id="fr60_282.19"><gap reason="Fragmentverlust" extent="unbekannt"/>hohem fluge wart ir we</l>
+<l xml:id="fr60_282.20"><gap reason="Fragmentverlust" extent="unbekannt"/> ir wunden ovf de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ne</l>
+<l xml:id="fr60_282.21"><gap reason="Fragmentverlust" extent="unbekannt"/> die bluetes zah<choice><am>&#x0309;</am><ex>er</ex></choice> roet.</l>
+<l xml:id="fr60_282.22"><gap reason="Fragmentverlust" extent="unbekannt"/> <subst hand="#sr"><del>parcevals</del><add>parcevale<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> fuegten noet</l>
+<l xml:id="fr60_282.23"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;inen trevwen daz ge&#x017F;chach</l>
+<l xml:id="fr60_282.24"><gap reason="Fragmentverlust" extent="unbekannt"/>r die bluetes z&#x00E6;h<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ach</l>
+<l xml:id="fr60_282.25"><gap reason="Fragmentverlust" extent="unbekannt"/> dem &#x017F;ne d<choice><am>&#x0309;</am><ex>er</ex></choice> wa&#x017F; al weiz</l>
+<cb xml:id="fr60002rb"/>
+<l xml:id="fr60_282.26">Do daht er wer <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_282.27">Gewendet an di<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_282.28">Kvndwir amvr<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_282.29">Di&#x017F;ev varwe dir <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_282.30">Mich wil <gap reason="unleserlich" extent="unbekannt"/> &#x017F;&#x00E6;ld<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">S</seg>eit ich dir hie g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.02">ge e&#x0302;ret &#x017F;ei dev <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.03">Vnt al div div c<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.04">Kvndwir amvrs <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.05"><subst hand="#sr"><del>Si</del><add>Seit</add></subst> d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ne dem p<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.06">Vnt ez den &#x017F;ne &#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.07">Kvndwir amvrs</l>
+<l xml:id="fr60_283.08">Dem geleichet &#x017F;ic<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.09">De&#x017F; bi&#x017F;t dv niht er<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.10">Des heldes ovgen <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.11">Waz dort was erg<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.12">Zwene z&#x00E6;h<choice><am>&#x0309;</am><ex>er</ex></choice> an ir <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.13">Den dritten an ir <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.14">Er &#x017F;prach d<choice><am>&#x0309;</am><ex>er</ex></choice> warn <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.15">Gein ir gar ane w<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.16">Svs begund er &#x017F;ich <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.17">So daz er vnv<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;vnn<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.18">Dev &#x017F;tarche minn<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.19">Al &#x017F;o&#x0364;lher noet half <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_283.20">Dirre varwe trvech geleichen leip</l>
+<l xml:id="fr60_283.21">Von pelrapeir dev chvn<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr60_283.22">Dev zvht im witzichleichen <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr60_283.23">Svs hielt er als er &#x017F;liefe</l>
+<l xml:id="fr60_283.24">Wer da zv im <subst hand="#sr"><del>r</del><add>liefe</add></subst></l>
+<l xml:id="fr60_283.25">Kvnwaren gartzovn was genan<supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></l>
+<l xml:id="fr60_283.26">D<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;olde gein lalant</l>
+<l xml:id="fr60_283.27">Er &#x017F;ach an den &#x017F;tunden</l>
+<l xml:id="fr60_283.28">Einen helm mit manig<choice><am>&#x0309;</am><ex>er</ex></choice> wunde<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_283.29">Vnt einen &#x017F;chilt gar v<choice><am>&#x0309;</am><ex>er</ex></choice>hovwen</l>
+<l xml:id="fr60_283.30">Jn dien&#x017F;t des chnappen vrowen</l>
+<l xml:id="fr60_284.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>a hielt gelimiert ein degn</l>
+<l xml:id="fr60_284.02">Als er tio&#x017F;tirens wolde pflegen</l>
+<l xml:id="fr60_284.03">Gevaerwet mit ovf gerahtem &#x017F;per</l>
+<l xml:id="fr60_284.04">Der garzv&#x0366;n huep &#x017F;ich wid<choice><am>&#x0309;</am><ex>er</ex></choice> her</l>
+<pb xml:id="fr60002v"/><cb xml:id="fr60002va"/>
+<l xml:id="fr60_284.05"><gap reason="Fragmentverlust" extent="unbekannt"/>eit erc<hi>h</hi>ant</l>
+<l xml:id="fr60_284.06"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;chreit</l>
+<l xml:id="fr60_284.07"><gap reason="Fragmentverlust" extent="unbekannt"/>t<choice><am>&#x0309;</am><ex>er</ex></choice> w&#x00E6;re</l>
+<l xml:id="fr60_284.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_284.09"><gap reason="Fragmentverlust" extent="unbekannt"/>vz <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr60_284.10"><gap reason="Fragmentverlust" extent="unbekannt"/> vngewin</l>
+<l xml:id="fr60_284.11"><gap reason="Fragmentverlust" extent="unbekannt"/>n verlos</l>
+<l xml:id="fr60_284.12"><gap reason="Fragmentverlust" extent="unbekannt"/> was ovch los.</l>
+<l xml:id="fr60_284.13"><gap reason="Fragmentverlust" extent="unbekannt"/>ppen krie</l>
+<l xml:id="fr60_284.14"></l>
+<l xml:id="fr60_284.15"><gap reason="Fragmentverlust" extent="unbekannt"/> vertane</l>
+<l xml:id="fr60_284.16"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_284.17"><gap reason="Fragmentverlust" extent="unbekannt"/>t<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft</l>
+<l xml:id="fr60_284.18"><gap reason="Fragmentverlust" extent="unbekannt"/>rei&#x017F;es chraft</l>
+<l xml:id="fr60_284.19"><gap reason="Fragmentverlust" extent="unbekannt"/>vn</l>
+<l xml:id="fr60_284.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr60_284.21"><gap reason="Fragmentverlust" extent="unbekannt"/>ge&#x017F;ant</l>
+<l xml:id="fr60_284.22"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;nvere gerant</l>
+<l xml:id="fr60_284.23"><gap reason="Fragmentverlust" extent="unbekannt"/>grozer &#x017F;chal</l>
+<l xml:id="fr60_284.24"><gap reason="Fragmentverlust" extent="unbekannt"/> v&#x0364;b<choice><am>&#x0309;</am><ex>er</ex></choice> al</l>
+<l xml:id="fr60_284.25"><gap reason="Fragmentverlust" extent="unbekannt"/>r getan</l>
+<l xml:id="fr60_284.26"><gap reason="Fragmentverlust" extent="unbekannt"/>n man</l>
+<l xml:id="fr60_284.27"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;t gerait</l>
+<l xml:id="fr60_284.28"><gap reason="Fragmentverlust" extent="unbekannt"/>bde lait</l>
+<l xml:id="fr60_284.29"><gap reason="Fragmentverlust" extent="unbekannt"/>npfiench</l>
+<l xml:id="fr60_284.30">So balde daz er niht er giench</l>
+<l xml:id="fr60_285.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">B</seg>aider lief vnde &#x017F;pranch</l>
+<l xml:id="fr60_285.02">Segremors d<choice><am>&#x0309;</am><ex>er</ex></choice> ie nach &#x017F;treite ranch</l>
+<l xml:id="fr60_285.03"><gap reason="Fragmentverlust" extent="unbekannt"/>wa d<choice><am>&#x0309;</am><ex>er</ex></choice> vehten wande vinden</l>
+<l xml:id="fr60_285.04"><gap reason="Fragmentverlust" extent="unbekannt"/>a mves man in binden</l>
+<l xml:id="fr60_285.05"><gap reason="Fragmentverlust" extent="unbekannt"/>b er wolde d<choice><am>&#x0309;</am><ex>er</ex></choice>mit &#x017F;ein</l>
+<l xml:id="fr60_285.06">Nind<choice><am>&#x0309;</am><ex>er</ex></choice> i&#x017F;t &#x017F;o brait d<choice><am>&#x0309;</am><ex>er</ex></choice> rein</l>
+<l xml:id="fr60_285.07">S&#x00E6;he er &#x017F;treiten an dem and<choice><am>&#x0309;</am><ex>er</ex></choice>n &#x017F;tade</l>
+<l xml:id="fr60_285.08">Da wurde wenich nach dem bade</l>
+<l xml:id="fr60_285.09">Gefragt <subst hand="#sr"><del>er</del><add>ez</add></subst> w&#x00E6;r warm od<choice><am>&#x0309;</am><ex>er</ex></choice> chalt</l>
+<l xml:id="fr60_285.10">Er viel &#x017F;vs dar an d<choice><am>&#x0309;</am><ex>er</ex></choice> helt balt</l>
+<l xml:id="fr60_285.11">Svs chom d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;nelle ivngelinch</l>
+<l xml:id="fr60_285.12">Ze hove an artv&#x017F;es rinch</l>
+<l xml:id="fr60_285.13">D<choice><am>&#x0309;</am><ex>er</ex></choice> werde chvnich va&#x017F;te &#x017F;lief</l>
+<l xml:id="fr60_285.14">Sigemors im dvrch die &#x017F;nvre <subst hand="#sr"><del>rief</del><add>lief</add></subst></l>
+<cb xml:id="fr60002vb"/>
+<l xml:id="fr60_285.15">Zer pavilvns tu&#x0364;r dranch er in</l>
+<l xml:id="fr60_285.16">Ein dechelachen zobelin</l>
+<l xml:id="fr60_285.17">Zvht er ab in die da lage<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_285.18">Vnt &#x017F;vezes &#x017F;lafes pflage<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_285.19">So daz &#x017F;i mve&#x017F;en wache<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_285.20">Vnt &#x017F;ein<choice><am>&#x0309;</am><ex>er</ex></choice> vngefuege lache<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_285.21">Do &#x017F;prach zed<choice><am>&#x0309;</am><ex>er</ex></choice> niftel &#x017F;ein</l>
+<l xml:id="fr60_285.22">Gynover vrowe kvnigein</l>
+<l xml:id="fr60_285.23">Vn&#x017F;er &#x017F;ippe i&#x017F;t des erchant</l>
+<l xml:id="fr60_285.24">Man waiz wol vb<choice><am>&#x0309;</am><ex>er</ex></choice> lant</l>
+<l xml:id="fr60_285.25">Daz ich genaden wart an dich</l>
+<l xml:id="fr60_285.26">Nv hilf vrowe vnde &#x017F;prich</l>
+<l xml:id="fr60_285.27">Gein artv&#x017F;e deine<choice><am>&#x0304;</am><ex>m</ex></choice> man</l>
+<l xml:id="fr60_285.28">Daz ich von im mveze han</l>
+<l xml:id="fr60_285.29">Ein aventevr dev <subst hand="#sr"><del>&#x017F;</del><add>i&#x017F;t</add></subst> hie bei</l>
+<l xml:id="fr60_285.30">Daz ich zer tio&#x017F;t d<choice><am>&#x0309;</am><ex>er</ex></choice> e&#x017F;te &#x017F;ei.</l>
+<l xml:id="fr60_286.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>rtvs ze &#x017F;igremor&#x017F; &#x017F;prach</l>
+<l xml:id="fr60_286.02">Dein &#x017F;icherhait mir des v<choice><am>&#x0309;</am><ex>er</ex></choice>iach</l>
+<l xml:id="fr60_286.03">Dv &#x017F;olde&#x017F;t nach meine<choice><am>&#x0304;</am><ex>m</ex></choice> willen varn</l>
+<l xml:id="fr60_286.04">Vnt dein vmbe&#x017F;chaidenhait bewarn</l>
+<l xml:id="fr60_286.05">Wirt hie ein tio&#x017F;t von dir getan</l>
+<l xml:id="fr60_286.06">Da nach w&#x00E6;nt manich werd<choice><am>&#x0309;</am><ex>er</ex></choice> man</l>
+<l xml:id="fr60_286.07">Daz ich in laze reiten</l>
+<l xml:id="fr60_286.08">Vnt nach prei&#x017F;e &#x017F;treite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr60_286.09">Da mit chrenchet &#x017F;ich mein wer</l>
+<l xml:id="fr60_286.10">Wir nahen anforta&#x017F; her</l>
+<l xml:id="fr60_286.11">Daz von mvnt&#x017F;alvat&#x017F;che vert</l>
+<l xml:id="fr60_286.12">Vnt ditze forei&#x017F;t mit &#x017F;treite wert</l>
+<l xml:id="fr60_286.13">Welt ir niht wizze<choice><am>&#x0304;</am><ex>n</ex></choice> wa daz &#x017F;tet</l>
+<l xml:id="fr60_286.14">Ze arbaite<choice><am>&#x0304;</am><ex>n</ex></choice> ez leiht vns er get</l>
+<l xml:id="fr60_286.15">Gynov<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;prach ze <subst hand="#sr"><del>ar*</del><add>artv&#x017F;e</add></subst> &#x017F;o</l>
+<l xml:id="fr60_286.16">Des &#x017F;igremors wart al vro</l>
+<l xml:id="fr60_286.17">Do &#x017F;i im die aventevr er warp</l>
+<l xml:id="fr60_286.18">Wan daz er niht vor liebe &#x017F;tarp</l>
+<l xml:id="fr60_286.19">Daz and<choice><am>&#x0309;</am><ex>er</ex></choice> was da gar ge&#x017F;chehen</l>
+<l xml:id="fr60_286.20">Vngerne het er do ver iehn</l>
+<l xml:id="fr60_286.21">Seins chomen des prei&#x017F;es pflihte</l>
+<l xml:id="fr60_286.22">Jemen and<choice><am>&#x0309;</am><ex>er</ex></choice> ge&#x017F;chihte</l>
+<l xml:id="fr60_286.23">Der &#x017F;toltze ivnge ane bart</l>
+</body>
+</text>
+</TEI>

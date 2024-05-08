@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr9</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <idno>fr9</idno>
+        </msIdentifier>
+        <msFrag>
+          <msIdentifier>
+            <settlement>"Gotha"</settlement>
+            <repository>"Forschungsbibliothek"</repository>
+            <idno>"Memb. I 130"</idno>
+            <altIdentifier type="Parzival-Projekt">
+              <idno>fr9A</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+          <handDesc>
+          <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+          <handNote xml:id="sr">Schreiber</handNote>
+          </handDesc>
+          </physDesc>
+        </msFrag>
+        <msFrag>
+          <msIdentifier>
+            <settlement>"Sonderhausen"</settlement>
+            <repository>"Schlossmuseum"</repository>
+            <idno>"Germ. lit. 2"</idno>
+            <altIdentifier type="Parzival-Projekt">
+              <idno>fr9B</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </msFrag>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <listPrefixDef>
+    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+      <p>"regp" verweist auf die Personennamen.</p>
+    </prefixDef>
+    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"rego" verweist auf die Ortsnamen.</p>
+    </prefixDef>
+    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+    </prefixDef>
+  </listPrefixDef>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 15.13-24.26</note>
+<note>Abschnitt 48.27-50.02; 50.03-51.08; 51.14-53.26; 63.09-68.02</note>
+<note>Transkribiert von YCh am 11.01.2010 ab Farbfotos (Studio).</note>
+<note>Die Anfangsbuchstaben werden allgemein als Majuskel transkribiert.</note>
+<note>An Richtlinien angepasst im Mai 2013 JKl</note>
+<note>Endredaktion ab Farb-Fotos (Studio) am 13.12.2016 von JKl, unl-Stellen nachbearb. am 20.12.2016.</note>
+<note>Autopsie Gotha 25.09.2017 durch SiLa.</note>
+<note>Korrekturen aus Autopsie eingearbeitet am 09.11.2017 durch SiLa.</note>
+<note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+<note>sek-Tags ergänzt am 5.9.2018 von MiGe. Quellen: 1. Franz Pfeiffer, Quellenmaterial zu altdeutschen Dichtungen II, in: Denkschriften der kaiserl. Akademie der Wissenschaften zu Wien, phil.-hist. Classe, Bd. 17 Erste Abtlg., Wien 1868, S. 33-122, hier S. 35 (Nr. 33), 79-82 (mit Abdruck der Gothaer Teile), 2. Otto Behaghel, Arnstädter Bruchstücke II. Bruchstück des Parzival, in: Germania 35 (1890), S. 388-390 (mit Teilkollation der Teile aus Sondershausen).</note>
+<note>Alle Anfangsbuchstaben jedes zweiten Verses in Fr9 sind am linken Rand der Spalte herausgestellt.</note>
+<note>Grundsätzlich wurde alle Anfangsbuchstaben jedes zweiten Verses in Fr9 mit einem durchgehenden Strich rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<pb xml:id="fr9001r"/><cb xml:id="fr9001ra"/>
+<l xml:id="fr9_15.13-01"><note type="Notiz"><unclear reason="Zweifel">Turck &#x017F;terir <lb/> Ampt wa&#x017F;&#x017F;er<gap reason="unleserlich" extent="2" unit="Buchstabe"/>ourg <lb/> Er&#x017F;te fri&#x017F;t letare <lb/> 1542 <lb/> dobey&#x0308; auch die andre <lb/> vnnd dritte fri&#x017F;t</unclear></note></l>
+<l xml:id="fr9_15.13-02"><note type="Notiz">No. Zo. Cap. I. Tit. V.</note></l>
+<l xml:id="fr9_15.13">Als mir de auentivre giet.</l>
+<l xml:id="fr9_15.14">Jch ne han nv mer gezuges niet.</l>
+<l xml:id="fr9_15.15">Div &#x017F;aget &#x017F;in manliche kraft.</l>
+<l xml:id="fr9_15.16">Behielt den pris in heiden&#x017F;caft.</l>
+<l xml:id="fr9_15.17">Zv&#x0366; marroch vnde zv&#x0366; per&#x017F;y&#x0307;a.</l>
+<l xml:id="fr9_15.18">Sin hant bezalte ouch ander&#x017F;wa.</l>
+<l xml:id="fr9_15.19">Zv&#x0366; dama&#x017F;che vnde zv&#x0366; halap.</l>
+<l xml:id="fr9_15.20">Vnde &#x017F;wa man ritter&#x017F;cefte gap.</l>
+<l xml:id="fr9_15.21">Zv&#x0366; araby&#x0307;e vnde zv&#x0366; araby&#x0307;.</l>
+<l xml:id="fr9_15.22">Daz her was iegen &#x017F;trites vry&#x0307;.</l>
+<l xml:id="fr9_15.23">Vu&#x0366;r ie&#x017F;lichem <subst hand="#sr"><del>ey&#x0307;nem</del><add>ey&#x0307;nen</add></subst> man.</l>
+<l xml:id="fr9_15.24">Di&#x017F;&#x017F;en ruft her da gewan.</l>
+<l xml:id="fr9_15.25">Sines hertzen gir nach pri&#x017F;e greif.</l>
+<l xml:id="fr9_15.26">Jr aller tat vu&#x0366;r y&#x0307;m zv&#x0366; &#x017F;leif.</l>
+<l xml:id="fr9_15.27">Vnde was vil nach vnt nichtet.</l>
+<l xml:id="fr9_15.28">Sus was ie der berichtet.</l>
+<l xml:id="fr9_15.29">Der gegen y&#x0307;m ziv&#x017F;terens phlach.</l>
+<l xml:id="fr9_15.30">Man iach y&#x0307;m des zv&#x0366; baldach.</l>
+<l xml:id="fr9_16.01">Sin ellen &#x017F;t<choice><am>&#x0309;</am><ex>r</ex></choice>ebete &#x017F;vnder wanc.</l>
+<l xml:id="fr9_16.02">Von dan vu&#x0366;r her gegen zazamanc.</l>
+<l xml:id="fr9_16.03">Jn daz kvnincriche.</l>
+<l xml:id="fr9_16.04">Die klageten al geliche.</l>
+<l xml:id="fr9_16.05">Y&#x0307;&#x017F;enharten der den lip.</l>
+<l xml:id="fr9_16.06">Zv&#x0366; ey&#x0307;ner zio&#x017F;t vu&#x0366;rlos vmme ey&#x0307;n wip.</l>
+<l xml:id="fr9_16.07">Des dwanc in belekane.</l>
+<l xml:id="fr9_16.08">Div &#x017F;uze val&#x017F;ches ane.</l>
+<l xml:id="fr9_16.09">Daz &#x017F;ie y&#x0307;m ir my&#x0307;nne nie gebot.</l>
+<l xml:id="fr9_16.10">Des lach her nach ir my&#x0307;nne tot.</l>
+<l xml:id="fr9_16.11">Den rachen &#x017F;y&#x0307;ne mage.</l>
+<l xml:id="fr9_16.12">Offenliche vnde ander lage.</l>
+<l xml:id="fr9_16.13">Die vrouwen dwngen &#x017F;ie mit here.</l>
+<l xml:id="fr9_16.14">Die was mit ellenthafter were.</l>
+<l xml:id="fr9_16.15"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o gamvret quam in ir lant.</l>
+<l xml:id="fr9_16.16">Daz von &#x017F;cotten vridebrant.</l>
+<l xml:id="fr9_16.17">Mit &#x017F;chiffes here vu&#x0366;r brante.</l>
+<l xml:id="fr9_16.18">E. daz her dannen wante.</l>
+<cb xml:id="fr9001rb"/>
+<l xml:id="fr9_16.19">Nv horet wie vn&#x017F;er ritter vare.</l>
+<l xml:id="fr9_16.20">Daz mere warf in mit &#x017F;torme dare</l>
+<l xml:id="fr9_16.21">So daz her kvme genas.</l>
+<l xml:id="fr9_16.22">Gegen der kvningy&#x0307;nne palas.</l>
+<l xml:id="fr9_16.23">Quam her ge&#x017F;igelet in die habe.</l>
+<l xml:id="fr9_16.24">Da wart her vil ge&#x017F;couwet abe.</l>
+<l xml:id="fr9_16.25">Da &#x017F;ach her vz an daz velt</l>
+<l xml:id="fr9_16.26">Da was ge&#x017F;lagen manich zelt.</l>
+<l xml:id="fr9_16.27">Al vmme die &#x017F;tat wen gegen dem mere.</l>
+<l xml:id="fr9_16.28">Da lagen zwey&#x0307; kreftige here.</l>
+<l xml:id="fr9_16.29">Da hiez her vragen der mere.</l>
+<l xml:id="fr9_16.30">Wes div burch were.</l>
+<l xml:id="fr9_17.01"></l>
+<l xml:id="fr9_17.02"></l>
+<l xml:id="fr9_17.03">Sie taten &#x017F;ynen boten kvnt.</l>
+<l xml:id="fr9_17.04">Jz were patelamvnt.</l>
+<l xml:id="fr9_17.05">Daz wart innichlichen enboten.</l>
+<l xml:id="fr9_17.06">Se manten in bi iren goten.</l>
+<l xml:id="fr9_17.07">Daz her in hulfe des were in not.</l>
+<l xml:id="fr9_17.08">Sie ne rvngen nicht wan vmme den tot</l>
+<l xml:id="fr9_17.09"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>o der ivnge anzevy&#x0307;n</l>
+<l xml:id="fr9_17.10">Vu&#x0366;r nam ir kvmberlichen py&#x0307;n</l>
+<l xml:id="fr9_17.11">Her bot &#x017F;in diene&#x017F;t vmme gu&#x0366;t.</l>
+<l xml:id="fr9_17.12">Al&#x017F;o noch vil dicke ey&#x0307;n ritter tu&#x0366;t.</l>
+<l xml:id="fr9_17.13">Oder daz &#x017F;ie y&#x0307;m &#x017F;ageten vmme waz.</l>
+<l xml:id="fr9_17.14">Her &#x017F;olte dolen der viende haz.</l>
+<l xml:id="fr9_17.15">Do &#x017F;prach vz ey&#x0307;nem mvnde.</l>
+<l xml:id="fr9_17.16">De<choice><am>&#x0309;</am><ex>r</ex></choice> &#x017F;ieche vnde der ge&#x017F;vnde.</l>
+<l xml:id="fr9_17.17">Daz y&#x0307;m were al gemey&#x0307;ne.</l>
+<l xml:id="fr9_17.18">Jr golt vnde ir ge&#x017F;tey&#x0307;ne.</l>
+<l xml:id="fr9_17.19">Des &#x017F;v&#x0366;lte her alles herre we&#x017F;en.</l>
+<l xml:id="fr9_17.20">vn<choice><am>&#x0304;</am><ex>de</ex></choice> her mv&#x0366;chte wol by&#x0307; in <gap reason="Fragmentverlust" extent="unbekannt"/>ne&#x017F;en.</l>
+<l xml:id="fr9_17.21">Doch dorfte her weinich <gap reason="Fragmentverlust" extent="unbekannt"/>s.</l>
+<l xml:id="fr9_17.22">Von arabi des goldes.</l>
+<l xml:id="fr9_17.23">Hete her manigen knollen bracht.</l>
+<l xml:id="fr9_17.24">Livte din&#x017F;ter &#x017F;o div nacht</l>
+<l xml:id="fr9_17.25">Waren alle die von zazamanc.</l>
+<l xml:id="fr9_17.26">By&#x0307; den duchte y&#x0307;n die wile lanc.</l>
+<pb xml:id="fr9001v"/><cb xml:id="fr9001va"/>
+<l xml:id="fr9_17.27">Do hiez her herberge nemen.</l>
+<l xml:id="fr9_17.28">Des mv&#x0366;chte ouch &#x017F;e vil wol gezemen.</l>
+<l xml:id="fr9_17.29">Daz &#x017F;e y&#x0307;m de be&#x017F;ten gaben.</l>
+<l xml:id="fr9_17.30">Die vrouwen hetten &#x017F;ich erhaben.</l>
+<l xml:id="fr9_18.01">Zv&#x0366; den ven&#x017F;teren vnde &#x017F;agen dar.</l>
+<l xml:id="fr9_18.02">Sie namen des vil gu&#x0366;te war.</l>
+<l xml:id="fr9_18.03">Vmme de knaben vnde &#x017F;y&#x0307;n <subst hand="#sr"><del>harna&#x017F;c</del><add>harna&#x017F;<hi rend="rasur"><gap/></hi></add></subst>.</l>
+<l xml:id="fr9_18.04">We daz gefay&#x0307;teret was.</l>
+<l xml:id="fr9_18.05">Doch tru&#x0366;ch der helt milte.</l>
+<l xml:id="fr9_18.06">Of ey&#x0307;nem hermy&#x0307;nen &#x017F;chilte.</l>
+<l xml:id="fr9_18.07">Jch ne weiz wie manigen zabel balc.</l>
+<l xml:id="fr9_18.08">Der kvningy&#x0307;nne mar&#x017F;chalc.</l>
+<l xml:id="fr9_18.09">Het iz vu&#x0366;r ey&#x0307;nen anker groz.</l>
+<l xml:id="fr9_18.10">Zv&#x0366; &#x017F;ehene in wenich dar vu&#x0366;r droz.</l>
+<l xml:id="fr9_18.11">Do mv&#x017F;en &#x017F;y&#x0307;n ougen ien.</l>
+<l xml:id="fr9_18.12">Daz her hete ge&#x017F;en.</l>
+<l xml:id="fr9_18.13">Di&#x017F;en ritter oder &#x017F;y&#x0307;nen &#x017F;chin</l>
+<l xml:id="fr9_18.14">Daz mv&#x017F;e zv&#x0366; alexandry&#x0307;e &#x017F;y&#x0307;n.</l>
+<l xml:id="fr9_18.15">Do der baruch <subst hand="#sr"><del>dar</del><add>da<hi rend="rasur"><gap/></hi></add></subst> vu&#x0366;re lach.</l>
+<l xml:id="fr9_18.16">Sy&#x0307;nen pris dar nieman wider wach.</l>
+<l xml:id="fr9_18.17-01"><hi rend="rot"><note type="Kapitelüberschrift">Hie tu&#x0366;t diz mere v&#x0302; kvnt <lb/> aventivre von patelamvnt</note></hi></l>
+<l xml:id="fr9_18.17"><seg type="Initiale" subtype="Prachtinitiale" n="8">S</seg>vs vu&#x0366;r des mv&#x0366;tes <lb/> riche.</l>
+<l xml:id="fr9_18.18">Jn div &#x017F;tat <lb/> behageliche.</l>
+<l xml:id="fr9_18.19">Zen &#x017F;ovmere hiez her <lb/> vazzen.</l>
+<l xml:id="fr9_18.20">Die zoge<lb/>ten hin die gazze<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
+<l xml:id="fr9_18.21">Da riten zwen<lb/>zich knabe<hi rend="rot">N</hi> <lb/> nach.</l>
+<l xml:id="fr9_18.22">Sin <gap reason="Fragmentverlust" extent="unbekannt"/>obel man dort vu&#x0366;r <subst hand="#sr"><del>im</del><add>ir</add></subst> &#x017F;ach</l>
+<note resp="#MiGe_Gegenleser" target="#?1_18.22 #Fr9001va"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>obel</ref>: Pfeiffer gibt <ref>dobel</ref> an. Die Lesung ist möglich, aber nicht gesichert.</note>
+<l xml:id="fr9_18.23">Garzune. <hi rend="rot">K</hi>oche. vnde ir knaben.</l>
+<l xml:id="fr9_18.24">Heten &#x017F;ich hin vu&#x0366;re gehaben.</l>
+<l xml:id="fr9_18.25">Stoltz was &#x017F;in ge&#x017F;y&#x0307;nde.</l>
+<l xml:id="fr9_18.26">Zwelf wol geborner ky&#x0307;nde.</l>
+<note resp="#SiLa_Lektor" target="#?1_18.26 #9001va">: Letzte Zeile in 1va freigelassen.</note>
+<cb xml:id="fr9001vb"/>
+<l xml:id="fr9_18.27">Do hinden nach den knaben riten</l>
+<l xml:id="fr9_18.28">An gu&#x0366;ter zucht mit &#x017F;uzen &#x017F;iten.</l>
+<l xml:id="fr9_18.29">Ete&#x017F;licher was ey&#x0307;n &#x017F;arrazin.</l>
+<l xml:id="fr9_18.30">Dar nach mv&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice> ouch getrecket &#x017F;in.</l>
+<l xml:id="fr9_19.01">Achte ros mit zindale.</l>
+<l xml:id="fr9_19.02">Vu&#x0366;r decket al zv&#x0366; male.</l>
+<l xml:id="fr9_19.03">Daz nvnde &#x017F;y&#x0307;nen &#x017F;atel tru&#x0366;ch.</l>
+<l xml:id="fr9_19.04">Ey&#x0307;nen &#x017F;chilt des ich e gevu&#x0366;ch.</l>
+<l xml:id="fr9_19.05">Den vu&#x0366;rte eyn knabe gemeit.</l>
+<l xml:id="fr9_19.06">Dar bi nach dem &#x017F;elben reit.</l>
+<l xml:id="fr9_19.07">Ey&#x0307;n bu&#x017F;vnre der man noch bedarf.</l>
+<l xml:id="fr9_19.08">Ey&#x0307;n ta<choice><am>&#x0304;</am><ex>m</ex></choice>burre &#x017F;lu&#x0366;ch vnde warf.</l>
+<l xml:id="fr9_19.09">Hohe &#x017F;y&#x0307;nen tambur.</l>
+<l xml:id="fr9_19.10">Den herren nam vil vntur.</l>
+<l xml:id="fr9_19.11">Da ne riten floy&#x0307;terre bi.</l>
+<l xml:id="fr9_19.12">Vnde gu&#x0366;ter videlere dri.</l>
+<l xml:id="fr9_19.13">Den was allen nicht zv&#x0366; gach.</l>
+<l xml:id="fr9_19.14">Selbe reit her hinden nach.</l>
+<l xml:id="fr9_19.15">Vnde &#x017F;in marnere.</l>
+<l xml:id="fr9_19.16">Der uui&#x017F;e vnde der mere.</l>
+<l xml:id="fr9_19.17">Swaz da was volkes y&#x0307;nne.</l>
+<l xml:id="fr9_19.18">More. vnde mory&#x0307;nne.</l>
+<l xml:id="fr9_19.19">Was beide wip vnde man.</l>
+<l xml:id="fr9_19.20">Der herre &#x017F;couwen began.</l>
+<l xml:id="fr9_19.21">Manigen &#x017F;chilt zv&#x0366; brochen.</l>
+<l xml:id="fr9_19.22">Vnde mit &#x017F;peren durch &#x017F;tochen.</l>
+<l xml:id="fr9_19.23">Der was da vil gehangen vu&#x0366;r.</l>
+<l xml:id="fr9_19.24">An die wende. vnde an die tu&#x0366;r.</l>
+<l xml:id="fr9_19.25">Sie heten iamer vnde guft.</l>
+<l xml:id="fr9_19.26">Jn die vin&#x017F;ter gigen der luft.</l>
+<l xml:id="fr9_19.27">Was gebettet manigem wunden man.</l>
+<l xml:id="fr9_19.28">Swenner dan arzat gewan.</l>
+<l xml:id="fr9_19.29">Daz her doch nicht mv&#x0366;chte gene&#x017F;en.</l>
+<l xml:id="fr9_19.30">Der was bi vienden gewe&#x017F;en.</l>
+<l xml:id="fr9_20.01">Sus warp ie der vngerne vloch.</l>
+<l xml:id="fr9_20.02">vil ro&#x017F;&#x017F;e man y&#x0307;me wider zoch.</l>
+<pb xml:id="fr9002r"/><cb xml:id="fr9002ra"/>
+<l xml:id="fr9_20.03">Durch &#x017F;tochen vnde vu&#x0366;r houwen.</l>
+<l xml:id="fr9_20.04">Manige tvnkele vrouwen.</l>
+<l xml:id="fr9_20.05">Sach her beidenthalben &#x017F;y&#x0307;n.</l>
+<l xml:id="fr9_20.06">Nach rabens varwe was ir &#x017F;cy&#x0307;n.</l>
+<l xml:id="fr9_20.07">Sin wirt in my&#x0307;nnichliche vntfienc.</l>
+<l xml:id="fr9_20.08">Daz im nach vreuden &#x017F;it ergienc.</l>
+<l xml:id="fr9_20.09">Daz was ein ellens richer man.</l>
+<l xml:id="fr9_20.10">Mit <subst hand="#sr"><del>&#x017F;inen</del><add>&#x017F;ine<hi rend="rasur">r</hi></add></subst> hant hete her ouch getan.</l>
+<l xml:id="fr9_20.11">Manigen &#x017F;tich vnde &#x017F;lach.</l>
+<l xml:id="fr9_20.12">Wante her ey&#x0307;ner phorten phlach.</l>
+<l xml:id="fr9_20.13">Bi dem her ouch manigen ritter vant.</l>
+<l xml:id="fr9_20.14">Die ir hende hiengen in die bant.</l>
+<l xml:id="fr9_20.15">vn<choice><am>&#x0304;</am><ex>de</ex></choice> den ir houbete waren vu&#x0366;r bvnden.</l>
+<l xml:id="fr9_20.16">Die heten &#x017F;ulhe wunden.</l>
+<l xml:id="fr9_20.17">Daz &#x017F;e doch taten ritter&#x017F;caft.</l>
+<l xml:id="fr9_20.18">Wante in nicht war an ir kraft.</l>
+<l xml:id="fr9_20.19"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>er burcgraue von der &#x017F;tat.</l>
+<l xml:id="fr9_20.20">Sy&#x0307;nen ga&#x017F;t do my&#x0307;nnichliche bat.</l>
+<l xml:id="fr9_20.21">Daz her nicht vu&#x0366;r bere.</l>
+<l xml:id="fr9_20.22">Al daz &#x017F;in wille were</l>
+<l xml:id="fr9_20.23">V&#x0366;ber &#x017F;in gu&#x0366;t. vnde &#x017F;y&#x0307;nen lip.</l>
+<l xml:id="fr9_20.24">Her vu&#x0366;rte in da her vant &#x017F;in wip.</l>
+<l xml:id="fr9_20.25">De gamvreten kv&#x017F;te.</l>
+<l xml:id="fr9_20.26">Des in wey&#x0307;nich doch gelu&#x017F;te.</l>
+<l xml:id="fr9_20.27">Dar nach vu&#x0366;r her inbizen &#x017F;an.</l>
+<l xml:id="fr9_20.28">Do diz was al&#x017F;us getan.</l>
+<l xml:id="fr9_20.29">Der mar&#x017F;calc vu&#x0366;r von in zv&#x0366; hant.</l>
+<l xml:id="fr9_20.30">Da her die kvningy&#x0307;nne vant.</l>
+<l xml:id="fr9_21.01">Vnde ie&#x017F;ch vil groz ein botenbrot.</l>
+<l xml:id="fr9_21.02">Do &#x017F;prach her vrouwe vn&#x017F;er not.</l>
+<l xml:id="fr9_21.03">J&#x017F;t mit vreuden ergangen.</l>
+<l xml:id="fr9_21.04">Den wir hie haben vntfangen.</l>
+<l xml:id="fr9_21.05">Daz i&#x017F;t ey&#x0307;n ritter &#x017F;o getan.</l>
+<l xml:id="fr9_21.06">Daz wir zv&#x0366; vliehene y&#x0307;mmer han.</l>
+<l xml:id="fr9_21.07">Vn&#x017F;eren goten die in vns brachten.</l>
+<l xml:id="fr9_21.08">Daz &#x017F;ie des ie gedachten.</l>
+<cb xml:id="fr9002rb"/>
+<l xml:id="fr9_21.09">Nv &#x017F;age mir of die truwe dy&#x0307;n.</l>
+<l xml:id="fr9_21.10">Wer der ritter mv&#x0366;ge &#x017F;y&#x0307;n.</l>
+<l xml:id="fr9_21.11">Vrouwe iz i&#x017F;t ey&#x0307;n degen fier.</l>
+<l xml:id="fr9_21.12">Des baruches &#x017F;oldier.</l>
+<l xml:id="fr9_21.13">Ey&#x0307;n anzevin von hoher art.</l>
+<l xml:id="fr9_21.14">Avoy&#x0307;. wie wey&#x0307;nich wirt ge&#x017F;part.</l>
+<l xml:id="fr9_21.15">Sin lip &#x017F;wa man in leizet ane.</l>
+<l xml:id="fr9_21.16">Wie rechte her dar vnde dane.</l>
+<l xml:id="fr9_21.17">Vntwichet vnde keret.</l>
+<l xml:id="fr9_21.18">Die viende her &#x017F;caden leret.</l>
+<l xml:id="fr9_21.19">Jch &#x017F;ach in &#x017F;triten &#x017F;chone.</l>
+<l xml:id="fr9_21.20">Da die von baby&#x0307;lone.</l>
+<l xml:id="fr9_21.21">Alexandry&#x0307;e lo&#x017F;en &#x017F;olten.</l>
+<l xml:id="fr9_21.22">Vnde do &#x017F;e dannen wolten.</l>
+<l xml:id="fr9_21.23">Den baruch triben mit gewalt.</l>
+<l xml:id="fr9_21.24">Waz ir dar ny&#x0307;der wart gevalt.</l>
+<l xml:id="fr9_21.25">An der &#x017F;chvmfertivre.</l>
+<l xml:id="fr9_21.26"><subst hand="#sr"><del>D*</del><add>D<hi rend="rasur">a</hi></add></subst> begienc der gehivre.</l>
+<l xml:id="fr9_21.27">Mit &#x017F;y&#x0307;me libe &#x017F;ulhe tat.</l>
+<l xml:id="fr9_21.28">Sie ne heten vliehens dechey&#x0307;nen rat.</l>
+<l xml:id="fr9_21.29">Dar zv&#x0366; hort ich in nennen.</l>
+<l xml:id="fr9_21.30">Man &#x017F;olte wol <subst hand="#sr"><del>i*</del><add>i<hi rend="rasur">r</hi></add></subst> kennen.</l>
+<l xml:id="fr9_22.01">Daz her den pris vber manich lant.</l>
+<l xml:id="fr9_22.02">Hete al ey&#x0307;ne zv&#x0366; &#x017F;y&#x0307;ner hant.</l>
+<l xml:id="fr9_22.03"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">N</seg>v &#x017F;ich ot wenne oder we.</l>
+<l xml:id="fr9_22.04">vn<choice><am>&#x0304;</am><ex>de</ex></choice> vu&#x0366;ge daz her mich &#x017F;preche hie.</l>
+<l xml:id="fr9_22.05">Wante wir han vride al di&#x017F;&#x017F;en tac.</l>
+<l xml:id="fr9_22.06">Da von der helt wol riten mac.</l>
+<l xml:id="fr9_22.07">Her of zv&#x0366; mir oder &#x017F;ol ich dar.</l>
+<l xml:id="fr9_22.08">Her i&#x017F;t anders <subst hand="#sr"><del>der</del><add>den</add></subst> wir gevar.</l>
+<l xml:id="fr9_22.09">Owe ne tete y&#x0307;n daz nicht we.</l>
+<l xml:id="fr9_22.10">Daz hette ich gerne ervunden e.</l>
+<l xml:id="fr9_22.11"><subst hand="#sr"><del>O*</del><add>O<hi rend="rasur">b mir iz die myne</hi></add></subst> rieten.</l>
+<l xml:id="fr9_22.12"><subst hand="#sr"><del>*ieten</del><add><hi rend="rasur">Jch &#x017F;olte im ere b</hi>ieten</add></subst>.</l>
+<l xml:id="fr9_22.13"><subst hand="#sr"><del>G*r</del><add>G<hi rend="rasur">eru&#x0366;chet her my&#x0307;</hi>r</add></subst> nahen.</l>
+<l xml:id="fr9_22.14">Wie &#x017F;ol ich in vntphahen.</l>
+<pb xml:id="fr9002v"/><cb xml:id="fr9002va"/>
+<l xml:id="fr9_22.15-0"><note type="Notiz"><unclear reason="Zweifel">Reg.W.z / z. N.10.</unclear></note></l>
+<l xml:id="fr9_22.15">J&#x017F;t her mir dar zv&#x0366; wol geborn.</l>
+<l xml:id="fr9_22.16">Daz my&#x0307;n kus nicht &#x017F;i vu&#x0366;r lorn.</l>
+<l xml:id="fr9_22.17">Vrouwe her i&#x017F;t von kvninges kvnne irkant</l>
+<l xml:id="fr9_22.18">Des &#x017F;y my&#x0307;n lip genennet phant.</l>
+<l xml:id="fr9_22.19">Vrouwe ich wil uweren vur&#x017F;ten &#x017F;agen.</l>
+<l xml:id="fr9_22.20">Daz &#x017F;ie riche kleider tragen.</l>
+<l xml:id="fr9_22.21">Vnde daz &#x017F;e vu&#x0366;r v&#x0302; biten.</l>
+<l xml:id="fr9_22.22">Vnz daz wir zv&#x0366; v&#x0302; riten.</l>
+<l xml:id="fr9_22.23">Vnde &#x017F;aget iz ouch uwern vrouwen gar.</l>
+<l xml:id="fr9_22.24">Swenich nv hin nider var.</l>
+<l xml:id="fr9_22.25">So bringe ich v&#x0302; den werden ga&#x017F;t.</l>
+<l xml:id="fr9_22.26">Dem &#x017F;uzer my&#x0307;nne nie gebra&#x017F;t.</l>
+<l xml:id="fr9_22.27"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">H</seg>arte wey&#x0307;nich des vu&#x0366;r tarp.</l>
+<l xml:id="fr9_22.28">Vil behendelichen warp.</l>
+<l xml:id="fr9_22.29">Der mar&#x017F;calc &#x017F;yner vrouwen bete.</l>
+<l xml:id="fr9_22.30">Balde wart do gamvrete.</l>
+<l xml:id="fr9_23.01">Riche kleider da getragen.</l>
+<l xml:id="fr9_23.02">De tete her an &#x017F;us horte ich &#x017F;agen.</l>
+<l xml:id="fr9_23.03">Die harte tivre weren.</l>
+<l xml:id="fr9_23.04">Anker die &#x017F;weren.</l>
+<l xml:id="fr9_23.05">Von arabi&#x017F;cheme <subst hand="#sr"><del>gol*</del><add>gol<hi rend="rasur">te.</hi></add></subst></l>
+<l xml:id="fr9_23.06">Waren dar offe al&#x017F; er wolte</l>
+<l xml:id="fr9_23.07">Do &#x017F;az der my&#x0307;nnen geltes lon.</l>
+<l xml:id="fr9_23.08">Of ey&#x0307;n ros daz ey&#x0307;n baby&#x0307;lon.</l>
+<l xml:id="fr9_23.09">Kegen y&#x0307;m durch ziu&#x017F;teren reit.</l>
+<l xml:id="fr9_23.10">Den &#x017F;tach her dar af iz was dem leit.</l>
+<l xml:id="fr9_23.11">Ob &#x017F;in wirt icht mit y&#x0307;m <subst hand="#sr"><del>ware</del><add><hi rend="rasur">v</hi>are</add></subst>.</l>
+<l xml:id="fr9_23.12">Her. vnde &#x017F;yne ritter gare.</l>
+<l xml:id="fr9_23.13">Die warens y&#x0307;nnichliche vro.</l>
+<l xml:id="fr9_23.14">Vnde riten mit ey&#x0307;n ander do.</l>
+<l xml:id="fr9_23.15">Sie irbeizten vu&#x0366;r dem palas.</l>
+<l xml:id="fr9_23.16">Da manich ritter offe was.</l>
+<l xml:id="fr9_23.17">Die mv&#x017F;en wol gekleidet &#x017F;in.</l>
+<l xml:id="fr9_23.18">Sy&#x0307;ne kinder liefen vu&#x0366;r y&#x0307;m y&#x0307;n.</l>
+<l xml:id="fr9_23.19">Je zwei ein ander an der hant.</l>
+<l xml:id="fr9_23.20">Jr herre manige vrouwen vant.</l>
+<cb xml:id="fr9002vb"/>
+<l xml:id="fr9_23.21">Gekleidet wnnichliche</l>
+<l xml:id="fr9_23.22">Der kvninginnen riche</l>
+<l xml:id="fr9_23.23">Jr ougen &#x017F;uchten hoen <subst hand="#sr"><del>*</del><add><hi rend="rasur">pin</hi></add></subst>.</l>
+<l xml:id="fr9_23.24">Do &#x017F;ie ge&#x017F;ach den anzevin.</l>
+<l xml:id="fr9_23.25"><subst hand="#ls1u"><del>De</del><add>Der</add></subst> was &#x017F;o my&#x0307;nnichlicher vare</l>
+<l xml:id="fr9_23.26">Daz her vnt&#x017F;loz ir hertze gare.</l>
+<l xml:id="fr9_23.27">Jz were ir liep oder leit.</l>
+<l xml:id="fr9_23.28">Daz be&#x017F;loz da vu&#x0366;r ir wipheit.</l>
+<l xml:id="fr9_23.29">Ein wey&#x0307;nich &#x017F;ie do kegen im trat.</l>
+<l xml:id="fr9_23.30">Jrn ga&#x017F;t &#x017F;ie &#x017F;ich ku&#x017F;&#x017F;en bat.</l>
+<l xml:id="fr9_24.01">Sie nam in &#x017F;elben bi der hant.</l>
+<l xml:id="fr9_24.02">Kegen den vienden an die want.</l>
+<l xml:id="fr9_24.03">Sazen &#x017F;ie an die ven&#x017F;ter wit.</l>
+<l xml:id="fr9_24.04">Of ey&#x0307;nen kolter ge&#x017F;teppet &#x017F;amit.</l>
+<l xml:id="fr9_24.05">Dar vnder ey&#x0307;n <subst hand="#sr"><del>weichet</del><add>weichez</add></subst> bette lac.</l>
+<l xml:id="fr9_24.06">J&#x017F;t icht lechteres den der tac.</l>
+<l xml:id="fr9_24.07">Dem gelichete nicht die kvningin.</l>
+<l xml:id="fr9_24.08"><subst hand="#sr"><del>*ie</del><add><hi rend="rasur">S</hi>ie</add></subst> hete wiplichen &#x017F;in</l>
+<l xml:id="fr9_24.09">Vnde was ouch anders ritterlich.</l>
+<l xml:id="fr9_24.10">Der touwegen ro&#x017F;en vngelich.</l>
+<l xml:id="fr9_24.11">Nach &#x017F;wartzer varwe was ir &#x017F;cin.</l>
+<l xml:id="fr9_24.12">Jr krone ey&#x0307;n liechter robin.</l>
+<l xml:id="fr9_24.13">Jr houbet man dar durch &#x017F;ach.</l>
+<l xml:id="fr9_24.14">Die wertin zv&#x0366; dem ga&#x017F;te &#x017F;prach.</l>
+<l xml:id="fr9_24.15">Daz ir liep were &#x017F;in komen.</l>
+<l xml:id="fr9_24.16">Herre ich han von v&#x0302; vu&#x0366;r nomen.</l>
+<l xml:id="fr9_24.17">Vil ritterlicher wirdicheit.</l>
+<l xml:id="fr9_24.18">Durch uwer zucht lat v nicht leit.</l>
+<l xml:id="fr9_24.19">Ob ich v my&#x0307;nen kvmber klage</l>
+<l xml:id="fr9_24.20">Den ich &#x017F;o nahe my&#x0307;me hertzen trage.</l>
+<l xml:id="fr9_24.21"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">M</seg>in helfe vch vrouwe nicht irret.</l>
+<l xml:id="fr9_24.22">Swaz v&#x0302; war oder wirret.</l>
+<l xml:id="fr9_24.23">Swa daz wenden kan my&#x0307;n hant.</l>
+<l xml:id="fr9_24.24">Die &#x017F;i zv&#x0366; diene&#x017F;te dar gewant.</l>
+<l xml:id="fr9_24.25">Jch bin nicht wen ey&#x0307;n man.</l>
+<l xml:id="fr9_24.26">Swer v tu&#x0366;t oder hat getan.</l>
+<pb xml:id="fr9003r"/><cb xml:id="fr9003ra"/>
+<l xml:id="fr9_48.27-01"><note type="Notiz"><gap reason="unleserlich" extent="unbekannt"/></note></l>
+<l xml:id="fr9_48.27-02"><note type="Notiz"><unclear reason="Zweifel">Dem erbar<gap reason="unleserlich" extent="1" unit="Buchstabe"/> wund<gap reason="unleserlich" extent="unbekannt"/>&#x017F;tem</unclear> Heinrich von <lb/> Ro&#x017F;la dem Jungen <gap reason="unleserlich" extent="unbekannt"/> guntigen <unclear reason="Zweifel">junchern</unclear> Zu aigen hannd</note></l>
+<l xml:id="fr9_48.27">Hie waren durch den &#x017F;cotten.</l>
+<l xml:id="fr9_48.28">Die werlichen rotten.</l>
+<l xml:id="fr9_48.29">Jm quamen von grvnlanden.</l>
+<l xml:id="fr9_48.30">Helede zv&#x0366;n handen.</l>
+<l xml:id="fr9_49.01">Zwene kvninge mit grozer kraft.</l>
+<l xml:id="fr9_49.02">Die vlu&#x0366;t von der ritter&#x017F;caft.</l>
+<l xml:id="fr9_49.03">Sie brachten y&#x0307;m vil manigen kiel.</l>
+<l xml:id="fr9_49.04">Die rote mir vil wol geviel.</l>
+<l xml:id="fr9_49.05">Hie was ouch morolt durch in</l>
+<l xml:id="fr9_49.06">Des &#x017F;trit hat kraft vnde &#x017F;in.</l>
+<l xml:id="fr9_49.07">Die &#x017F;int nv hin gekeret.</l>
+<l xml:id="fr9_49.08">Swie my&#x0307;n vrouwe leret.</l>
+<l xml:id="fr9_49.09">Al&#x017F;o tvn ich mit den my&#x0307;nen.</l>
+<l xml:id="fr9_49.10">Min diene&#x017F;t &#x017F;ol ir &#x017F;chy&#x0307;nen.</l>
+<l xml:id="fr9_49.11">Du ne darft mir dien&#x017F;tes danken nicht.</l>
+<l xml:id="fr9_49.12">Wante is die &#x017F;ippe &#x017F;us vu&#x0366;r gicht.</l>
+<l xml:id="fr9_49.13">Die mori&#x017F;chen helde &#x017F;int nv din.</l>
+<l xml:id="fr9_49.14">Weren &#x017F;ie getouft &#x017F;o die my&#x0307;n.</l>
+<l xml:id="fr9_49.15">Vnde an der hut nach in getan.</l>
+<l xml:id="fr9_49.16">So ne wart gekronet niechein man.</l>
+<l xml:id="fr9_49.17">Her ne hete &#x017F;trites von in genv&#x0366;ch.</l>
+<l xml:id="fr9_49.18">Mich wundert waz dich her vu&#x0366;rtru&#x0366;ch.</l>
+<l xml:id="fr9_49.19">Daz &#x017F;age mir rechte vnde wie.</l>
+<l xml:id="fr9_49.20">Jch quam ge&#x017F;tre. hivte bin ich hie.</l>
+<l xml:id="fr9_49.21">Worden herre vber diz lant.</l>
+<l xml:id="fr9_49.22">Mich vienc div kvningin mit ir hant.</l>
+<l xml:id="fr9_49.23">Do werte ich mich mit my&#x0307;nne.</l>
+<l xml:id="fr9_49.24">Sus rieten mir de &#x017F;y&#x0307;nne.</l>
+<l xml:id="fr9_49.25">Jch wene dir hat din &#x017F;uze were.</l>
+<l xml:id="fr9_49.26">Betwngen beidenthalp die here.</l>
+<l xml:id="fr9_49.27">Du mene&#x017F;t vmme daz ich dir entran.</l>
+<l xml:id="fr9_49.28">Va&#x017F;te riefe du mich an.</l>
+<l xml:id="fr9_49.29">Waz woltes du an mir ir twingen</l>
+<l xml:id="fr9_49.30">La mich &#x017F;us mit dir dingen.</l>
+<l xml:id="fr9_50.01">Ja ne irkante ich nicht des ankers din.</l>
+<l xml:id="fr9_50.02">Miner mv&#x0366;men man gandin.</l>
+<cb xml:id="fr9003rb"/>
+<l xml:id="fr9_50.03">H<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_50.04">D<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_50.05">A<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_50.06">D<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_50.07"><seg type="Initiale" subtype="Fleuronee" n="7" rend="Farbe: blau-rot">J</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_50.08"><gap reason="Fragmentverlust" extent="unbekannt"/>heit vil leit.</l>
+<l xml:id="fr9_50.09">Die <gap reason="Fragmentverlust" extent="unbekannt"/> man.</l>
+<l xml:id="fr9_50.10">D<gap reason="Fragmentverlust" extent="unbekannt"/>u&#x0366;t getan.</l>
+<l xml:id="fr9_50.11">Mir <gap reason="Fragmentverlust" extent="unbekannt"/> al&#x017F;am ge&#x017F;chen.</l>
+<l xml:id="fr9_50.12">Jch<gap reason="Fragmentverlust" extent="unbekannt"/>ivele ihen.</l>
+<l xml:id="fr9_50.13">Des <gap reason="Fragmentverlust" extent="unbekannt"/>r werde vro.</l>
+<l xml:id="fr9_50.14">He<gap reason="Fragmentverlust" extent="unbekannt"/>alten &#x017F;o.</l>
+<l xml:id="fr9_50.15">An f<gap reason="Fragmentverlust" extent="unbekannt"/> din lip.</l>
+<l xml:id="fr9_50.16">Vu&#x0366;<gap reason="Fragmentverlust" extent="unbekannt"/> die wip.</l>
+<l xml:id="fr9_50.17">Din <gap reason="Fragmentverlust" extent="unbekannt"/>v&#x0366; vil vu&#x0366;r gicht.</l>
+<l xml:id="fr9_50.18">Ne<gap reason="Fragmentverlust" extent="unbekannt"/>ichet nicht.</l>
+<l xml:id="fr9_50.19">Nim<gap reason="Fragmentverlust" extent="unbekannt"/>elfe war.</l>
+<l xml:id="fr9_50.20">S<gap reason="Fragmentverlust" extent="unbekannt"/>n dar.</l>
+<l xml:id="fr9_50.21">Mit <gap reason="Fragmentverlust" extent="unbekannt"/>o kay&#x0307;let.</l>
+<l xml:id="fr9_50.22">V<gap reason="Fragmentverlust" extent="unbekannt"/> gamvret.</l>
+<l xml:id="fr9_50.23">Mit <gap reason="Fragmentverlust" extent="unbekannt"/>ngen.</l>
+<l xml:id="fr9_50.24">H<gap reason="Fragmentverlust" extent="unbekannt"/>gen.</l>
+<l xml:id="fr9_50.25">Jch<gap reason="Fragmentverlust" extent="unbekannt"/>vu&#x0366;r irkant.</l>
+<l xml:id="fr9_50.26">Da<gap reason="Fragmentverlust" extent="unbekannt"/> daz lant.</l>
+<l xml:id="fr9_50.27">Mit <gap reason="Fragmentverlust" extent="unbekannt"/>r wirt ge&#x017F;part.</l>
+<l xml:id="fr9_50.28">Si<gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;enhart.</l>
+<l xml:id="fr9_50.29">Ald<gap reason="Fragmentverlust" extent="unbekannt"/>lte tragen.</l>
+<l xml:id="fr9_50.30">H<gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;te ir&#x017F;lagen.</l>
+<l xml:id="fr9_51.01">Die <gap reason="Fragmentverlust" extent="unbekannt"/>en wip.</l>
+<l xml:id="fr9_51.02">V<gap reason="Fragmentverlust" extent="unbekannt"/> er gap den lip.</l>
+<l xml:id="fr9_51.03">Daz<gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;ie vu&#x0366;r korn.</l>
+<l xml:id="fr9_51.04">Jch<gap reason="Fragmentverlust" extent="unbekannt"/>n<choice><am>&#x0304;</am><ex>de</ex></choice> den mac vu&#x0366;r lorn.</l>
+<l xml:id="fr9_51.05"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">W</seg><gap reason="Fragmentverlust" extent="unbekannt"/>en &#x017F;v&#x0366;n.</l>
+<l xml:id="fr9_51.06">R<gap reason="Fragmentverlust" extent="unbekannt"/> tv&#x0366;n.</l>
+<l xml:id="fr9_51.07">Daz e<gap reason="Fragmentverlust" extent="unbekannt"/>zen &#x017F;in.</l>
+<l xml:id="fr9_51.08">So v<gap reason="Fragmentverlust" extent="unbekannt"/> hende my&#x0307;n</l>
+<pb xml:id="fr9003v"/><cb xml:id="fr9003va"/>
+<l xml:id="fr9_51.13"><unclear reason="Zweifel">Alle ta</unclear>g<unclear reason="Zweifel">e ich &#x017F;in</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.14">Sit y&#x0307;m diz &#x017F;per <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.15">Daz zoch er vz d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.16">An ey&#x0307;ner &#x017F;nor <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.17">Hin wider hieng<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.18">Vu&#x0366;r &#x017F;yne bru&#x017F;t <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.19">Jz i&#x017F;t noch vil h<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.20">Wil my&#x0307;n her k<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.21">Gentz ir werben <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.22">So ritent im d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.23">Ein vingery&#x0307;n <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.24">Die nach der he<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.25">Die quamen &#x017F;wa<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.26">Durch die &#x017F;tat <gap reason="Fragmentverlust" extent="unbekannt"/>s.</l>
+<l xml:id="fr9_51.27">Do liech <name ref="regp:p0094" type="Person">gamvre<gap reason="Fragmentverlust" extent="unbekannt"/></name> <lb/> Mit vanen hin <gap reason="Fragmentverlust" extent="unbekannt"/>t.</l>
+<l xml:id="fr9_51.28"></l>
+<l xml:id="fr9_51.29">Jr iegelich was <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_51.30">Doch bliep der <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.01">Gamvrete ir her<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.02">Die &#x017F;elbe<choice><am>&#x0304;</am><ex>n</ex></choice> ware<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.03"></l>
+<l xml:id="fr9_52.04"></l>
+<l xml:id="fr9_52.05"></l>
+<l xml:id="fr9_52.06"></l>
+<l xml:id="fr9_52.07"></l>
+<l xml:id="fr9_52.08"></l>
+<l xml:id="fr9_52.09">Do hete proty&#x0307;zila<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.10">Der von art ei<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.11">Gelazen ein her<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.12">Daz liez her de<gap reason="Fragmentverlust" extent="unbekannt"/>v&#x0366;m.</l>
+<l xml:id="fr9_52.13">Mit &#x017F;y&#x0307;ner hant <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.14">Kegen &#x017F;trite he<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.15">Lach fille ro&#x017F;t &#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.16">Nam iz mit va<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.17"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">U</seg>on azagou<gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">r</unclear>.</l>
+<l xml:id="fr9_52.18">Namen den <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.19">Vnde gatzy&#x0307;eren <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr9_52.20">Sie giengen v<gap reason="Fragmentverlust" extent="unbekannt"/>.</l>
+<cb xml:id="fr9003vb"/>
+<l xml:id="fr9_52.21">Der liez &#x017F;ie liedich vmme ir bete.</l>
+<l xml:id="fr9_52.22">Des dancketen &#x017F;ie gamvrete.</l>
+<l xml:id="fr9_52.23">Hutegern den &#x017F;cotten.</l>
+<l xml:id="fr9_52.24">Sie baten &#x017F;vnder &#x017F;potten.</l>
+<l xml:id="fr9_52.25">Laz my&#x0307;nem herren daz gezelt.</l>
+<l xml:id="fr9_52.26">Hie. vmme aventivren gelt.</l>
+<l xml:id="fr9_52.27">Jz zuget vns y&#x017F;enhartes leben.</l>
+<l xml:id="fr9_52.28">Daz vridebrande wart gegeben.</l>
+<l xml:id="fr9_52.29">Her was zierde vn&#x017F;es landes.</l>
+<l xml:id="fr9_52.30">Sin vreude die &#x017F;tvnt phandes.</l>
+<l xml:id="fr9_53.01">Her &#x017F;tet hie ouch &#x017F;elbe an me re.</l>
+<l xml:id="fr9_53.02">Vnvu&#x0366;rgulten diene&#x017F;t im tete zv&#x0366; we.</l>
+<l xml:id="fr9_53.03">Gewy&#x0307;nnet ouch im den helm. der was.</l>
+<l xml:id="fr9_53.04">Von &#x017F;iner givte ein adamas.</l>
+<l xml:id="fr9_53.05">Dicke. vnde herte.</l>
+<l xml:id="fr9_53.06">Jn &#x017F;trite ein gu&#x0366;t geverte.</l>
+<l xml:id="fr9_53.07">Do gelobete hutegeres hant.</l>
+<l xml:id="fr9_53.08">Swenner queme in &#x017F;ynes herren lant.</l>
+<l xml:id="fr9_53.09">Daz er iz wolte ir werben gar.</l>
+<l xml:id="fr9_53.10">Vnde &#x017F;enten wider wol gevar.</l>
+<l xml:id="fr9_53.11">Daz teter vmbetwungen.</l>
+<l xml:id="fr9_53.12">Nach vrlobe do trvngen.</l>
+<l xml:id="fr9_53.13">Zv&#x0366; me kvninge &#x017F;waz da vur&#x017F;ten was.</l>
+<l xml:id="fr9_53.14">Do rvmeten &#x017F;ie den palas.</l>
+<l xml:id="fr9_53.15">Swie vu&#x0366;r wu&#x0366;&#x017F;tet were &#x017F;in lant.</l>
+<l xml:id="fr9_53.16">Doch kvnde gamvretes hant.</l>
+<l xml:id="fr9_53.17">Swenken &#x017F;ulher gabe &#x017F;olt.</l>
+<l xml:id="fr9_53.18">Als al die bovme tru&#x0366;gen golt.</l>
+<l xml:id="fr9_53.19">Her teilete groze gabe.</l>
+<l xml:id="fr9_53.20">Sine man die habe.</l>
+<l xml:id="fr9_53.21">Namen vnde des heldes gu&#x0366;t.</l>
+<l xml:id="fr9_53.22">Daz was der kvningy&#x0307;nne mv&#x0366;t.</l>
+<l xml:id="fr9_53.23">Der brutloufte hocgezit.</l>
+<l xml:id="fr9_53.24">Hete da vu&#x0366;r manigen grozen &#x017F;trit.</l>
+<l xml:id="fr9_53.25">Die wu&#x0366;rten &#x017F;us zv&#x0366; &#x017F;vne bracht.</l>
+<l xml:id="fr9_53.26">Jch ne han mirs &#x017F;elbe nicht irdacht.</l>
+<pb xml:id="fr9004r"/><cb xml:id="fr9004ra"/>
+<l xml:id="fr9_63.09">Eine rey&#x0307;&#x017F;enote &#x017F;ie blie&#x017F;en.</l>
+<l xml:id="fr9_63.10">Nv ne &#x017F;ule wir nicht vu&#x0366;rlie&#x017F;en.</l>
+<l xml:id="fr9_63.11">Wie der herre komen &#x017F;i.</l>
+<l xml:id="fr9_63.12">Dem riten videlere bi.</l>
+<l xml:id="fr9_63.13">Do leite der degen wert.</l>
+<l xml:id="fr9_63.14">Ein beyn <unclear reason="Zweifel">v</unclear>ur &#x017F;ich offiz phert.</l>
+<l xml:id="fr9_63.15">Zwene &#x017F;tival vber bloze bein.</l>
+<l xml:id="fr9_63.16">Sin mvnt im als ein ru&#x0366;bin &#x017F;cein.</l>
+<l xml:id="fr9_63.17">Vu&#x0366;r der rote. als ob er brvnne.</l>
+<l xml:id="fr9_63.18">Her was dicke. vn<choice><am>&#x0304;</am><ex>de</ex></choice> nicht zv&#x0366; dvnne.</l>
+<l xml:id="fr9_63.19">Sin lip was allenthalben klar.</l>
+<l xml:id="fr9_63.20">Liecht reidelecht was im &#x017F;in har.</l>
+<l xml:id="fr9_63.21">Swa man daz vu&#x0366;r der hvte &#x017F;ach.</l>
+<l xml:id="fr9_63.22">Der was ein tivre houbet dach.</l>
+<l xml:id="fr9_63.23">Grv&#x0366;ne &#x017F;amit was der mantel &#x017F;in.</l>
+<l xml:id="fr9_63.24">Ein zobel da vu&#x0366;re gap &#x017F;wartzen &#x017F;cin.</l>
+<l xml:id="fr9_63.25">Vber ey&#x0307;me hemede daz was blanc.</l>
+<l xml:id="fr9_63.26">Von &#x017F;couwene wart da groz gedranc.</l>
+<l xml:id="fr9_63.27">Vil dicke alda gevraget wart.</l>
+<l xml:id="fr9_63.28">Wer were der ritter ane bart.</l>
+<l xml:id="fr9_63.29">Der da vu&#x0366;rte &#x017F;ulche richeit.</l>
+<l xml:id="fr9_63.30">Vil &#x017F;chiere wart daz mere breit.</l>
+<l xml:id="fr9_64.01">Sie &#x017F;agetenz in vu&#x0366;r vmbetrogen.</l>
+<l xml:id="fr9_64.02">Do begvnden &#x017F;ie an die brucke zogen.</l>
+<l xml:id="fr9_64.03">Ander volc. vnde ouch die &#x017F;ine.</l>
+<l xml:id="fr9_64.04">Von dem liechten &#x017F;chine.</l>
+<l xml:id="fr9_64.05">Der von der kvninginnen &#x017F;chein.</l>
+<l xml:id="fr9_64.06">Des zvchter neben &#x017F;ich &#x017F;in bein.</l>
+<l xml:id="fr9_64.07">Of richte &#x017F;ich der degen wert.</l>
+<l xml:id="fr9_64.08">Als ein vider&#x017F;pil daz gert.</l>
+<l xml:id="fr9_64.09">Die herberge duchte in gu&#x0366;t.</l>
+<l xml:id="fr9_64.10">Al&#x017F;o &#x017F;tvnt des heldes mv&#x0366;t.</l>
+<l xml:id="fr9_64.11">Ouch dolte in wol die wirtin.</l>
+<l xml:id="fr9_64.12">Von waleis div kvningin.</l>
+<l xml:id="fr9_64.13"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>o vrei&#x017F;ch der kvninc von &#x017F;pane.</l>
+<l xml:id="fr9_64.14">Daz of der lewe plane.</l>
+<cb xml:id="fr9004rb"/>
+<l xml:id="fr9_64.15">Stvnde ein gezelt daz gamvrete.</l>
+<l xml:id="fr9_64.16">Durch des kv&#x0366;nen razaliges bete.</l>
+<l xml:id="fr9_64.17">Bliep vu&#x0366;r patelamvnt.</l>
+<l xml:id="fr9_64.18">Daz tete im ein ritter kvnt.</l>
+<l xml:id="fr9_64.19">Do vu&#x0366;r her &#x017F;pringende als ein tier.</l>
+<l xml:id="fr9_64.20">Her was der vreuden &#x017F;oldier.</l>
+<l xml:id="fr9_64.21">Der &#x017F;elbe ritter aber &#x017F;prach.</l>
+<l xml:id="fr9_64.22">Uwer mv&#x0366;men &#x017F;vn ich &#x017F;ach.</l>
+<l xml:id="fr9_64.23">Komende als er e&#x0302;. was fier.</l>
+<l xml:id="fr9_64.24">Jz &#x017F;in wol hvndert banier.</l>
+<l xml:id="fr9_64.25">Zv&#x0366; eime &#x017F;cilte of grv&#x0366;ne velt.</l>
+<l xml:id="fr9_64.26">Ge&#x017F;tozen vu&#x0366;r &#x017F;in hoch gezelt.</l>
+<l xml:id="fr9_64.27">Die &#x017F;int ouch alle grv&#x0366;ne.</l>
+<l xml:id="fr9_64.28">Ouch hat der helt kv&#x0366;ne.</l>
+<l xml:id="fr9_64.29">Drie hermy&#x0307;n anker liecht gemal.</l>
+<l xml:id="fr9_64.30">Of ie&#x017F;lichem zindal.</l>
+<l xml:id="fr9_65.01">Sus i&#x017F;t er ge ziemeret hie.</l>
+<l xml:id="fr9_65.02">Avoy&#x0307;. nv &#x017F;ol man &#x017F;couwen wie.</l>
+<l xml:id="fr9_65.03">Sin lip den poy&#x0307;nder irret.</l>
+<l xml:id="fr9_65.04">Wie her iz mit hurte wirret.</l>
+<l xml:id="fr9_65.05">Der &#x017F;toltze kvninc hardy&#x0307;z.</l>
+<l xml:id="fr9_65.06">Hat mit zorne &#x017F;y&#x0307;nen vliz.</l>
+<l xml:id="fr9_65.07">Nv lange va&#x017F;te an mich gewant.</l>
+<l xml:id="fr9_65.08">Den &#x017F;ol hie gamvretes hant.</l>
+<l xml:id="fr9_65.09">Mit &#x017F;iner zy&#x0307;o&#x017F;te ney&#x0307;gen</l>
+<l xml:id="fr9_65.10">Min &#x017F;elde i&#x017F;t nicht der vey&#x0307;gen.</l>
+<l xml:id="fr9_65.11">Sine boten &#x017F;ante er &#x017F;an</l>
+<l xml:id="fr9_65.12">Da Gatzy&#x0307;er der norman.</l>
+<l xml:id="fr9_65.13">Mit &#x017F;y&#x0307;ner ma&#x017F;&#x017F;eny&#x0307;e lach.</l>
+<l xml:id="fr9_65.14">Vnde der liechte killiriakach.</l>
+<l xml:id="fr9_65.15">Die waren da durch &#x017F;ine bete.</l>
+<l xml:id="fr9_65.16">Zv&#x0366; dem paulvne &#x017F;ie mit kaile<unclear reason="Zweifel">t</unclear>e.</l>
+<l xml:id="fr9_65.17">Vu&#x0366;ren mit ge&#x017F;elle&#x017F;caft.</l>
+<l xml:id="fr9_65.18">vn<choice><am>&#x0304;</am><ex>de</ex></choice> vntfiengen da von liebe kraft.</l>
+<l xml:id="fr9_65.19">Den werden kvninc von zazamanc.</l>
+<l xml:id="fr9_65.20">Sie duchtez beiden gar zv&#x0366; lanc.</l>
+<pb xml:id="fr9004v"/><cb xml:id="fr9004va"/>
+<l xml:id="fr9_65.21-0"><note type="Notiz"><unclear reason="Zweifel">A<choice><am>&#x0304;</am><ex>m</ex></choice>pte Arn&#x017F;tadt Rechnu ung. <lb/> Virzig vnd einvndvirzigi&#x017F;ten <gap reason="unleserlich" extent="unbekannt"/></unclear></note></l>
+<l xml:id="fr9_65.21">Daz &#x017F;ie in nicht e en&#x017F;ahen.</l>
+<l xml:id="fr9_65.22">Des &#x017F;ie mit truwen iahen.</l>
+<l xml:id="fr9_65.23">Do vragete er &#x017F;ie der mere.</l>
+<l xml:id="fr9_65.24">Wer da ritter were.</l>
+<l xml:id="fr9_65.25"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o &#x017F;prach &#x017F;iner mv&#x0366;men kint.</l>
+<l xml:id="fr9_65.26">Vz verren landen hie &#x017F;int.</l>
+<l xml:id="fr9_65.27">Ritter die div my&#x0307;nne iaget.</l>
+<l xml:id="fr9_65.28">Vil kv&#x0366;ner helte vnvu&#x0366;rzaget.</l>
+<l xml:id="fr9_65.29">Hie hat manigen by&#x0307;rtvn.</l>
+<l xml:id="fr9_65.30">Der kvninc vte pandragvn.</l>
+<l xml:id="fr9_66.01"><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>y&#x0307;n mere in &#x017F;tichet als ein dorn.</l>
+<l xml:id="fr9_66.02">Daz er &#x017F;in wip hat vu&#x0366;r lorn.</l>
+<l xml:id="fr9_66.03">Div artu&#x017F;es mv&#x0366;ter was.</l>
+<l xml:id="fr9_66.04">Ein phaffe der wol zouber las.</l>
+<l xml:id="fr9_66.05"><unclear reason="Zweifel">M</unclear>it dem die vrouwe i&#x017F;t hin gewant.</l>
+<l xml:id="fr9_66.06">Dem i&#x017F;t artus nach gerant.</l>
+<l xml:id="fr9_66.07"><gap reason="Fragmentverlust" extent="unbekannt"/>z i&#x017F;t nv in daz dritte iar.</l>
+<l xml:id="fr9_66.08">Daz er vu&#x0366;rlos wip vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;vn vu&#x0366;r war.</l>
+<l xml:id="fr9_66.09"><gap reason="Fragmentverlust" extent="unbekannt"/>ie i&#x017F;t ouch &#x017F;iner tochter man.</l>
+<l xml:id="fr9_66.10">Der wol mit ritter&#x017F;cefte kan.</l>
+<l xml:id="fr9_66.11"><gap reason="Fragmentverlust" extent="unbekannt"/>oth von norwege.</l>
+<l xml:id="fr9_66.12"><gap reason="Fragmentverlust" extent="unbekannt"/>egen val&#x017F;cheit der trege.</l>
+<l xml:id="fr9_66.13"><gap reason="Fragmentverlust" extent="unbekannt"/> der &#x017F;nelle kegen dem pri&#x017F;e.</l>
+<l xml:id="fr9_66.14">Der kv&#x0366;ne vn<gap reason="unleserlich" extent="1" unit="Buchstabe"/> der wi&#x017F;e.</l>
+<l xml:id="fr9_66.15">Hie i&#x017F;t ouch gawan &#x017F;in &#x017F;vn.</l>
+<l xml:id="fr9_66.16">So kranc da<gap reason="unleserlich" extent="unbekannt"/> mac getvn.</l>
+<l xml:id="fr9_66.17">Ritter&#x017F;caft nech<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr9_66.18">Her was bi m<gap reason="unleserlich" extent="unbekannt"/>ne.</l>
+<l xml:id="fr9_66.19">Her &#x017F;prichet m<gap reason="unleserlich" extent="1" unit="Buchstabe"/>chte <gap reason="unleserlich" extent="unbekannt"/>y&#x0307;nen &#x017F;caft.</l>
+<l xml:id="fr9_66.20">Gebrechen. tro&#x017F;te in d<gap reason="unleserlich" extent="2" unit="Buchstabe"/> <unclear reason="Zweifel">&#x017F;in</unclear> kraft.</l>
+<l xml:id="fr9_66.21">So teter gerne ritter<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr9_66.22">Wie vro &#x017F;in ger begv<gap reason="unleserlich" extent="1" unit="Buchstabe"/>nen hat.</l>
+<l xml:id="fr9_66.23">Hie hat der kvninc <gap reason="unleserlich" extent="unbekannt"/>igalt.</l>
+<l xml:id="fr9_66.24"><unclear reason="Zweifel">V</unclear>on &#x017F;peren ey&#x0307;nen gantzen walt.</l>
+<l xml:id="fr9_66.25">Des vu&#x0366;re i&#x017F;t g<gap reason="unleserlich" extent="unbekannt"/> da kegen ein wint.</l>
+<l xml:id="fr9_66.26">Wante die von portigal hie &#x017F;int.</l>
+<cb xml:id="fr9004vb"/>
+<l xml:id="fr9_66.27">Die heize wir die vrechen</l>
+<l xml:id="fr9_66.28">Sie wilt durch &#x017F;cilte &#x017F;techen.</l>
+<l xml:id="fr9_66.29"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">H</seg>ie hant die provenzale.</l>
+<l xml:id="fr9_66.30">Scilte wol gemale.</l>
+<l xml:id="fr9_67.01">Hie &#x017F;int die walei&#x017F;e.</l>
+<l xml:id="fr9_67.02">Daz &#x017F;ie behabent ir rei&#x017F;e.</l>
+<l xml:id="fr9_67.03">Durch den poy&#x0307;nder &#x017F;wa &#x017F;e is gern.</l>
+<l xml:id="fr9_67.04">Von ir lant kraft &#x017F;ie des wern.</l>
+<l xml:id="fr9_67.05">Hie i&#x017F;t manich ritter durch die wip.</l>
+<l xml:id="fr9_67.06">Des nicht ir kennen mac my&#x0307;n lip.</l>
+<l xml:id="fr9_67.07">Al die ich hie benennet han.</l>
+<l xml:id="fr9_67.08">Die ligent mit warheit &#x017F;vnder wan.</l>
+<l xml:id="fr9_67.09">Mit grozer vu&#x0366;re in der &#x017F;tat.</l>
+<l xml:id="fr9_67.10">Als vns div kvninginne bat.</l>
+<l xml:id="fr9_67.11">Jch &#x017F;age dir wer zv&#x0366; velde liget.</l>
+<l xml:id="fr9_67.12">Die vn&#x017F;er were vil ringe wiget.</l>
+<l xml:id="fr9_67.13">Der werde kvninc von a&#x017F;calvn.</l>
+<l xml:id="fr9_67.14">vn<choice><am>&#x0304;</am><ex>de</ex></choice> der &#x017F;toltze kvninc von arragvn.</l>
+<l xml:id="fr9_67.15">Cidega&#x017F;t die logrois.</l>
+<l xml:id="fr9_67.16">vn<choice><am>&#x0304;</am><ex>de</ex></choice> der kvninc von pvntertoy&#x0307;s.</l>
+<l xml:id="fr9_67.17">Der heizet brandelidelin.</l>
+<l xml:id="fr9_67.18">Hie i&#x017F;t ouch der kv&#x0366;ne lehelin.</l>
+<l xml:id="fr9_67.19">Vnde morolt von y&#x0307;ralant.</l>
+<l xml:id="fr9_67.20">Der i&#x017F;t von grozer kraft ir kant.</l>
+<l xml:id="fr9_67.21">Da ligent ouch of dem plane.</l>
+<l xml:id="fr9_67.22">Die &#x017F;toltzen alemane.</l>
+<l xml:id="fr9_67.23">Der hertzoge von brabant</l>
+<l xml:id="fr9_67.24">Der i&#x017F;t ge&#x017F;trichen in diz lant.</l>
+<l xml:id="fr9_67.25">Durch den kvninc hardizen.</l>
+<l xml:id="fr9_67.26">Sine &#x017F;we&#x017F;ter alizen.</l>
+<l xml:id="fr9_67.27">Gap im der kvninc von ga&#x017F;con.</l>
+<l xml:id="fr9_67.28">Sin diene&#x017F;t hat vu&#x0366;r vntfangen lon.</l>
+<l xml:id="fr9_67.29">Die &#x017F;int mit zorne hie kegen mir.</l>
+<l xml:id="fr9_67.30">Nu &#x017F;ol ich wol getruwen dir.</l>
+<l xml:id="fr9_68.01">Daz tu gedenkes an die &#x017F;ippe din.</l>
+<l xml:id="fr9_68.02">Durch rechte liebe vn<choice><am>&#x0304;</am><ex>de</ex></choice> warte my&#x0307;n.</l>
+</body>
+</text>
+</TEI>

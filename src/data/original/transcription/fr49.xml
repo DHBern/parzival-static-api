@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr49</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>27.03.23</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Berlin</settlement>
+          <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
+          <idno>Ms. germ. fol. 923 Nr. 38</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr49</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="sr">Schreiber</handNote>
+        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 473.19-478.24; 490.01-495.07</note>
+<note>Transkribiert nach Farbfotos (Studio) von JKl am 10.4.2012.</note>
+<note>Gegengelesen nach Farbfotos (Studio) von MiGe am 24.4.2012.</note>
+<note>Endredaktion 2017 AB</note>
+<note>14.9.2018, MiGe: sek-Tag ergänzt und ggf. Zweifeltags entfernt. Quellen: 1. Franz Pfeiffer, Quellenmaterial zu altdeutschen Dichtungen II, in: Denkschriften der kaiserl. Akademie der Wissenschaften zu Wien, phil.-hist. Classe, Bd. 17 Erste Abtlg., Wien 1868, S. 33-122, hier S. 35 (Nr. 35), 98-100; 2. Willy Scheel, Die Berliner Sammelmappe deutscher Fragmente (Ms. Germ. fol. 923), in: Festgabe an Karl Weinhold. Ihrem Ehrenmitgliede zu seinem 50jährigen Doktorjubiläum dargebracht von der Gesellschaft für deutsche Philologie in Berlin (Festschriften der Gesellschaft für deutsche Philologie 12), Leipzig 1896, S. 31-90, hier S. 64f. (Nachkollation zu Pfeiffer).</note>
+<note>Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr49 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<pb xml:id="fr49001r"/><cb xml:id="fr49001ra"/>
+<l xml:id="fr49_473.19">Daz er nit vragt dez wirtez &#x017F;chade<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_473.20">er waz mit chumb<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;o geladen</l>
+<l xml:id="fr49_473.21">Ez w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t nie erchant &#x017F;o hoh<choice><am>&#x0309;</am><ex>er</ex></choice> pein</l>
+<l xml:id="fr49_473.22">da vor chom roys Lehelein</l>
+<l xml:id="fr49_473.23">Cze prupanie an de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;e gerite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_473.24">durch tio&#x017F;t het &#x017F;ein da gepite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_473.25">Libeals d<choice><am>&#x0309;</am><ex>er</ex></choice> w<choice><am>&#x0309;</am><ex>er</ex></choice>de helt</l>
+<l xml:id="fr49_473.26">dez tot mit tio&#x017F;t w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t erwelt</l>
+<l xml:id="fr49_473.27">Er waz gebor von prinlacors</l>
+<l xml:id="fr49_473.28">Lehelin dez heldez ors</l>
+<l xml:id="fr49_473.29">Danne<choice><am>&#x0304;</am><ex>n</ex></choice> zoch mit &#x017F;ein<choice><am>&#x0309;</am><ex>er</ex></choice> hant</l>
+<l xml:id="fr49_473.30">da w<supplied reason="unleserlich" resp="Sekundärliteratur">art</supplied> d<choice><am>&#x0309;</am><ex>er</ex></choice> reraup bechant</l>
+<l xml:id="fr49_474.01">Herre &#x017F;eit irs lehelein</l>
+<l xml:id="fr49_474.02">So &#x017F;tet in dem &#x017F;talle mein</l>
+<l xml:id="fr49_474.03">Den or&#x017F;en ein ors gleich geuar</l>
+<l xml:id="fr49_474.04">die <subst hand="#sru"><del>d</del><add>da</add></subst> hore<choice><am>&#x0304;</am><ex>n</ex></choice>t in dez g<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>lez &#x017F;char</l>
+<l xml:id="fr49_474.05">An dem &#x017F;atel ein tu&#x036F;rtltaub &#x017F;tet</l>
+<l xml:id="fr49_474.06">daz o&#x036F;rs von munt&#x017F;chalual&#x017F;ch get</l>
+<l xml:id="fr49_474.07">Dev wappe<choice><am>&#x0304;</am><ex>n</ex></choice> Gab im Anfortas.</l>
+<l xml:id="fr49_474.08">do er d<choice><am>&#x0309;</am><ex>er</ex></choice> vreud h<choice><am>&#x0309;</am><ex>er</ex></choice>re waz.</l>
+<l xml:id="fr49_474.09">Jr &#x017F;chilte &#x017F;int vor alt<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;o</l>
+<l xml:id="fr49_474.10">Titurel &#x017F;i p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>chte do</l>
+<l xml:id="fr49_474.11">An &#x017F;eine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;un roy&#x0308; Frimutel</l>
+<l xml:id="fr49_474.12">dar vnder v<choice><am>&#x0309;</am><ex>er</ex></choice>los d<choice><am>&#x0309;</am><ex>er</ex></choice> dege<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;nel</l>
+<l xml:id="fr49_474.13">Von ein<choice><am>&#x0309;</am><ex>er</ex></choice> tio&#x017F;t &#x017F;eine<choice><am>&#x0304;</am><ex>n</ex></choice> leip</l>
+<l xml:id="fr49_474.14">der mi<choice><am>&#x0304;</am><ex>n</ex></choice>nte &#x017F;ein &#x017F;elbez weip</l>
+<l xml:id="fr49_474.15">Daz nie vo<choice><am>&#x0304;</am><ex>n</ex></choice> mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne mere</l>
+<l xml:id="fr49_474.16">weip w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t geminet &#x017F;o &#x017F;ere</l>
+<l xml:id="fr49_474.17">Jch main mit rechte<choice><am>&#x0304;</am><ex>n</ex></choice> trewe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_474.18">Sein &#x017F;it &#x017F;u&#x036F;lt ir newe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_474.19">Vnd mi<choice><am>&#x0304;</am><ex>n</ex></choice>net von herze<choice><am>&#x0304;</am><ex>n</ex></choice> ew<choice><am>&#x0309;</am><ex>er</ex></choice> kone<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_474.20">Seine &#x017F;it &#x017F;ult ir wone<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_474.21">Ew<choice><am>&#x0309;</am><ex>er</ex></choice> varb im t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>it geleich mal</l>
+<cb xml:id="fr49001rb"/>
+<l xml:id="fr49_474.30">H<choice><am>&#x0309;</am><ex>er</ex></choice>re durch <supplied reason="unleserlich" resp="Sekundärliteratur">ew</supplied><choice><am>&#x0309;</am><ex>er</ex></choice> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr49_475.01">Sult ir in nem<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr49_475.02">Mein vat<choice><am>&#x0309;</am><ex>er</ex></choice> hiez <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr49_475.03">Er waz von <supplied reason="unleserlich" resp="Sekundärliteratur">art ein</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr49_475.04">herre ich pins nit lehelein</l>
+<l xml:id="fr49_475.05">Genam ich ie den reraup</l>
+<l xml:id="fr49_475.06">So waz ich an wicze<choice><am>&#x0304;</am><ex>n</ex></choice> taup</l>
+<l xml:id="fr49_475.07">Ez i&#x017F;t idoch von mir ge&#x017F;chehen</l>
+<l xml:id="fr49_475.08">der &#x017F;elbe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;und muz ich iehen</l>
+<l xml:id="fr49_475.09">Jkern von Kucum<choice><am>&#x0309;</am><ex>er</ex></choice>lant</l>
+<l xml:id="fr49_475.10">den &#x017F;luc mein &#x017F;undigev hant</l>
+<l xml:id="fr49_475.11">Jch legt in tote<choice><am>&#x0304;</am><ex>n</ex></choice> auf daz gras</l>
+<l xml:id="fr49_475.12">vnd nam waz an im waz</l>
+<l xml:id="fr49_475.13">Owe w<choice><am>&#x0309;</am><ex>er</ex></choice>lt wie tu&#x017F;tu &#x017F;o</l>
+<l xml:id="fr49_475.14">Sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt d<choice><am>&#x0309;</am><ex>er</ex></choice> w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t dez m<choice><am>&#x0309;</am><ex>er</ex></choice>s vnvr<supplied reason="unleserlich" resp="Sekundärliteratur">o</supplied></l>
+<l xml:id="fr49_475.15">Du gei&#x017F;t den leute<choice><am>&#x0304;</am><ex>n</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>cze<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;er</l>
+<l xml:id="fr49_475.16">vnd rewebers chum<choice><am>&#x0309;</am><ex>er</ex></choice>s mer</l>
+<l xml:id="fr49_475.17">Danne d<choice><am>&#x0309;</am><ex>er</ex></choice> vreude wie &#x017F;tet de<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr49_475.18">Sus endet &#x017F;ich dez iam<choice><am>&#x0309;</am><ex>er</ex></choice>s don</l>
+<l xml:id="fr49_475.19">Do &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch er lieb<choice><am>&#x0309;</am><ex>er</ex></choice> swe&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;un</l>
+<l xml:id="fr49_475.20">waz ratez <subst hand="#sr"><del>moch</del><add>mocht</add></subst> ich dir nu <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr49_475.21">Du ha&#x017F;t dein a&#x0302;igen v<choice><am>&#x0309;</am><ex>er</ex></choice>ch er&#x017F;lag<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr49_475.22">wildu fu&#x036F;r got die &#x017F;chulde <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr49_475.23">Seit daz ir bede w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t ein plu&#x036F;t</l>
+<l xml:id="fr49_475.24">ob got recht gerichte tut</l>
+<l xml:id="fr49_475.25">So gilt im dein aige<choice><am>&#x0304;</am><ex>n</ex></choice> Lebe<supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied></l>
+<l xml:id="fr49_475.26">waz wiltu im da ze gelte g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr49_475.27">Jthern von Cahauis</l>
+<l xml:id="fr49_475.28">der rechte<choice><am>&#x0304;</am><ex>n</ex></choice> w<choice><am>&#x0309;</am><ex>er</ex></choice>dichait genis</l>
+<l xml:id="fr49_475.29">Dez du w<choice><am>&#x0309;</am><ex>er</ex></choice>lt waz gera&#x0302;inet</l>
+<l xml:id="fr49_475.30">het got an im er&#x017F;chainet</l>
+<l xml:id="fr49_476.01">Mi&#x017F;wend waz &#x017F;ein <supplied reason="unleserlich" resp="Sekundärliteratur">rewe</supplied></l>
+<l xml:id="fr49_476.02">er wal&#x017F;am ob d<choice><am>&#x0309;</am><ex>er</ex></choice> trewe</l>
+<pb xml:id="fr49001v"/><cb xml:id="fr49001va"/>
+<l xml:id="fr49_476.11"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">gefrum</supplied>te&#x017F;t &#x017F;olhe not</l>
+<l xml:id="fr49_476.12"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;we</supplied>e&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> lac auch nach dir tot</l>
+<l xml:id="fr49_476.13"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">la<unclear reason="Zweifel">n</unclear>d</supplied> dein mut<choice><am>&#x0309;</am><ex>er</ex></choice></l>
+<l xml:id="fr49_476.14"><supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied>eina h<choice><am>&#x0309;</am><ex>er</ex></choice>re <supplied reason="unleserlich" resp="Sekundärliteratur">gut</supplied>er</l>
+<l xml:id="fr49_476.15"><supplied reason="unleserlich" resp="Sekundärliteratur">W</supplied>az &#x017F;agt ir nu &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch Parzifal</l>
+<l xml:id="fr49_476.16">w<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>r ich dan h<choice><am>&#x0309;</am><ex>er</ex></choice>re vb<choice><am>&#x0309;</am><ex>er</ex></choice> de<choice><am>&#x0304;</am><ex>n</ex></choice> gral</l>
+<l xml:id="fr49_476.17"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>er mocht mich ergeze<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear> niht</l>
+<l xml:id="fr49_476.18">dez m<choice><am>&#x0309;</am><ex>er</ex></choice>s mir ew<choice><am>&#x0309;</am><ex>er</ex></choice> munt gicht</l>
+<l xml:id="fr49_476.19"><supplied reason="unleserlich" resp="Sekundärliteratur">B</supplied>in ich ew<choice><am>&#x0309;</am><ex>er</ex></choice>rr &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> ch<unclear reason="Zweifel">i&#x0302;</unclear>nt</l>
+<l xml:id="fr49_476.20">So tut alz die mit t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>we<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;int</l>
+<l xml:id="fr49_476.21"><supplied reason="unleserlich" resp="Sekundärliteratur">V</supplied>nd &#x017F;agt mir &#x017F;und<choice><am>&#x0309;</am><ex>er</ex></choice> wa<choice><am>&#x0304;</am><ex>n</ex></choice>chez uar</l>
+<l xml:id="fr49_476.22">Sint di&#x017F;e m<unclear reason="Zweifel">a&#x0364;</unclear>r beide war</l>
+<l xml:id="fr49_476.23"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>o &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch ab<choice><am>&#x0309;</am><ex>er</ex></choice> der gut man</l>
+<l xml:id="fr49_476.24">ich pins nit der da t<unclear reason="Zweifel"><choice><am rend="hochgestellt">i</am><ex>ri</ex></choice></unclear>ge<choice><am>&#x0304;</am><ex>n</ex></choice> chan</l>
+<l xml:id="fr49_476.25"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>ein<choice><am>&#x0309;</am><ex>er</ex></choice> mut<choice><am>&#x0309;</am><ex>er</ex></choice> daz ir t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>we erwarb</l>
+<l xml:id="fr49_476.26">da du vo<choice><am>&#x0304;</am><ex>n</ex></choice> ir &#x017F;chiede ze ha<choice><am>&#x0304;</am><ex>n</ex></choice>t &#x017F;i &#x017F;tarb</l>
+<l xml:id="fr49_476.27"><supplied reason="unleserlich" resp="Sekundärliteratur">Du</supplied> <subst hand="#sr"><del>wart</del><add>waert</add></subst> daz tier daz &#x017F;i &#x017F;luc</l>
+<l xml:id="fr49_476.28">vnd d<choice><am>&#x0309;</am><ex>er</ex></choice> t<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>che d<choice><am>&#x0309;</am><ex>er</ex></choice> von ir da vluc</l>
+<l xml:id="fr49_476.29"><supplied reason="unleserlich" resp="Sekundärliteratur">E</supplied>z wid<choice><am>&#x0309;</am><ex>er</ex></choice> fur ir in &#x017F;laffe gar</l>
+<l xml:id="fr49_476.30">E daz dev &#x017F;uzze dich gepar</l>
+<l xml:id="fr49_477.01"><supplied reason="unleserlich" resp="Sekundärliteratur">M</supplied>ein<choice><am>&#x0309;</am><ex>er</ex></choice> ge&#x017F;wistreit zway noch &#x017F;i<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_477.02"><supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied>ein &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> Sco&#x017F;ian ein chi<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_477.03"><supplied reason="unleserlich" resp="Sekundärliteratur">G</supplied>epar der frucht lac &#x017F;i tot</l>
+<l xml:id="fr49_477.04">der h<choice><am>&#x0309;</am><ex>er</ex></choice>zoge Kiot</l>
+<l xml:id="fr49_477.05"><supplied reason="unleserlich" resp="Sekundärliteratur">V</supplied>on Katelange<choice><am>&#x0304;</am><ex>n</ex></choice> waz ir man</l>
+<l xml:id="fr49_477.06">der wolt auch &#x017F;eit nit vreud han</l>
+<l xml:id="fr49_477.07"><supplied reason="unleserlich" resp="Sekundärliteratur">Si</supplied>gun dez &#x017F;elben tocht<choice><am>&#x0309;</am><ex>er</ex></choice>le&#x0302;in</l>
+<l xml:id="fr49_477.08">beualch man d<choice><am>&#x0309;</am><ex>er</ex></choice> mut<choice><am>&#x0309;</am><ex>er</ex></choice> dein</l>
+<l xml:id="fr49_477.09"><gap reason="Fragmentverlust" extent="unbekannt"/>frau tot mich Sm<choice><am>&#x0309;</am><ex>er</ex></choice>czen</l>
+<l xml:id="fr49_477.10">Mus in meine<choice><am>&#x0304;</am><ex>n</ex></choice> herzen</l>
+<l xml:id="fr49_477.11"><gap reason="Fragmentverlust" extent="unbekannt"/>weipleich hercz waz &#x017F;o gut</l>
+<l xml:id="fr49_477.12"><supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>in art fur vncheu&#x036F;&#x017F;ch vlut</l>
+<l xml:id="fr49_477.13"><gap reason="Fragmentverlust" extent="unbekannt"/>n magt mein &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> pfligt noch</l>
+<cb xml:id="fr49001vb"/>
+<l xml:id="fr49_477.22">Dem i&#x017F;t laid<choice><am>&#x0309;</am><ex>er</ex></choice> vreud v<choice><am>&#x0309;</am><ex>er</ex></choice>re</l>
+<l xml:id="fr49_477.23">Wan daz er hat gedi<choice><am>&#x0304;</am><ex>n</ex></choice>gen</l>
+<l xml:id="fr49_477.24">in &#x017F;u&#x036F;ll &#x017F;ein chum<choice><am>&#x0309;</am><ex>er</ex></choice> p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>nge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_477.25">Zu dem endlo&#x017F;in gemache</l>
+<l xml:id="fr49_477.26">mit wund<choice><am>&#x0309;</am><ex>er</ex></choice>leich &#x017F;ache</l>
+<l xml:id="fr49_477.27">J&#x017F;t ez im chome<choice><am>&#x0304;</am><ex>n</ex></choice> an rewes zil</l>
+<l xml:id="fr49_477.28">alz ich dir neue chunde<choice><am>&#x0304;</am><ex>n</ex></choice> wil</l>
+<l xml:id="fr49_477.29">Pflige&#x017F;tu dann t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>we</l>
+<l xml:id="fr49_477.30">So erparmt dich &#x017F;ein rewe</l>
+<l xml:id="fr49_478.01">Do Frimuntel den leip v<choice><am>&#x0309;</am><ex>er</ex></choice>loz</l>
+<l xml:id="fr49_478.02">Mein vat<choice><am>&#x0309;</am><ex>er</ex></choice> man nach im da chos</l>
+<l xml:id="fr49_478.03">Seine<choice><am>&#x0304;</am><ex>n</ex></choice> elti&#x017F;ten &#x017F;un ze chu<choice><am>&#x0304;</am><ex>n</ex></choice>ge dar</l>
+<l xml:id="fr49_478.04">vb<choice><am>&#x0309;</am><ex>er</ex></choice> den gral vnd dez g<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>lez &#x017F;char</l>
+<l xml:id="fr49_478.05">Daz waz mein prud<choice><am>&#x0309;</am><ex>er</ex></choice> anfortas</l>
+<l xml:id="fr49_478.06">Der chron vnd reicheit wu&#x036F;rdic <lb/> waz</l>
+<l xml:id="fr49_478.07">Dannoch wir wenc ware<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_478.08">do mein prud<choice><am>&#x0309;</am><ex>er</ex></choice> gein de<choice><am>&#x0304;</am><ex>n</ex></choice> iare<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_478.09">Chom fu&#x036F;r d<choice><am>&#x0309;</am><ex>er</ex></choice> grane&#x017F;pru<choice><am>&#x0304;</am><ex>n</ex></choice>ge zeit</l>
+<l xml:id="fr49_478.10">Mit &#x017F;olch<choice><am>&#x0309;</am><ex>er</ex></choice> iugent hat mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne ir &#x017F;t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>it</l>
+<l xml:id="fr49_478.11">So twinget &#x017F;i ir vreunt &#x017F;o &#x017F;<choice><am>&#x0309;</am><ex>er</ex></choice>e</l>
+<l xml:id="fr49_478.12">Man mag ir ez iehe<choice><am>&#x0304;</am><ex>n</ex></choice> ze vnere</l>
+<l xml:id="fr49_478.13">Welchs grales h<choice><am>&#x0309;</am><ex>er</ex></choice>re mine g<choice><am>&#x0309;</am><ex>er</ex></choice>t</l>
+<l xml:id="fr49_478.14">And<choice><am>&#x0309;</am><ex>er</ex></choice>s dann der &#x017F;chrift w<choice><am>&#x0309;</am><ex>er</ex></choice>t</l>
+<l xml:id="fr49_478.15">Der muz dez chome<choice><am>&#x0304;</am><ex>n</ex></choice> in arbeit</l>
+<l xml:id="fr49_478.16">vnd in <subst hand="#sr"><del>&#x017F;euftpar</del><add>&#x017F;euftpaer</add></subst> h<choice><am>&#x0309;</am><ex>er</ex></choice>cze<choice><am>&#x0304;</am><ex>n</ex></choice>la&#x0302;it</l>
+<l xml:id="fr49_478.17">Mein h<choice><am>&#x0309;</am><ex>er</ex></choice>re vnd d<choice><am>&#x0309;</am><ex>er</ex></choice> prud<choice><am>&#x0309;</am><ex>er</ex></choice> mein</l>
+<l xml:id="fr49_478.18">chos im ein <subst hand="#sr"><del>frau</del><add>freundein</add></subst></l>
+<l xml:id="fr49_478.19">Dez in dauchte mit gute<choice><am>&#x0304;</am><ex>m</ex></choice> &#x017F;it</l>
+<l xml:id="fr49_478.20">wer dev waz daz &#x017F;ey da mit</l>
+<l xml:id="fr49_478.21">Jn ir din&#x017F;t er &#x017F;ich zoch</l>
+<l xml:id="fr49_478.22">So daz dev zagheit in vloch</l>
+<l xml:id="fr49_478.23">Dez w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t vo<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;einer clare<choice><am>&#x0304;</am><ex>n</ex></choice> ha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_478.24">durchel manc &#x017F;chiltes rant</l>
+<pb xml:id="fr49002r"/><cb xml:id="fr49002ra"/>
+<l xml:id="fr49_490.01">Da half not fur die and<choice><am>&#x0309;</am><ex>er</ex></choice> not</l>
+<l xml:id="fr49_490.02">da w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t daz &#x017F;per plutic rot</l>
+<l xml:id="fr49_490.03">Etleich &#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice>n chom<choice><am>&#x0304;</am><ex>en</ex></choice> in de<choice><am>&#x0304;</am><ex>n</ex></choice> tage</l>
+<l xml:id="fr49_490.04">die de<unclear reason="Zweifel">v&#x036F;</unclear> diet lerte<choice><am>&#x0304;</am><ex>n</ex></choice> iam<choice><am>&#x0309;</am><ex>er</ex></choice>s clage</l>
+<l xml:id="fr49_490.05">Die &#x017F;o hoch ob ein and<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_490.06">vnd vngeleich wid<choice><am>&#x0309;</am><ex>er</ex></choice> gent</l>
+<l xml:id="fr49_490.07">Vnd dez mane<choice><am>&#x0304;</am><ex>n</ex></choice> wid<choice><am>&#x0309;</am><ex>er</ex></choice>chere</l>
+<l xml:id="fr49_490.08">Sit hat auch zu d<choice><am>&#x0309;</am><ex>er</ex></choice> wu<choice><am>&#x0304;</am><ex>n</ex></choice>de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;<choice><am>&#x0309;</am><ex>er</ex></choice>e</l>
+<l xml:id="fr49_490.09">Di&#x017F;e zeit di ich hie bene<choice><am>&#x0304;</am><ex>n</ex></choice>net han</l>
+<l xml:id="fr49_490.10">So muz d<choice><am>&#x0309;</am><ex>er</ex></choice> chunch rewe han</l>
+<l xml:id="fr49_490.11">So tut dem chu<choice><am>&#x0304;</am><ex>n</ex></choice>ge fro&#x017F;t &#x017F;o we</l>
+<l xml:id="fr49_490.12">Sein flei&#x017F;ch wirt chelt<choice><am>&#x0309;</am><ex>er</ex></choice> da<choice><am>&#x0304;</am><ex>n</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ne</l>
+<l xml:id="fr49_490.13">Seit man daz gelu&#x036F;ppe hais</l>
+<l xml:id="fr49_490.14">an dem &#x017F;per ei&#x017F;en <subst hand="#sr"><del>w*</del><add>weis</add></subst></l>
+<l xml:id="fr49_490.15">Die zeit mans auf die wu<choice><am>&#x0304;</am><ex>n</ex></choice>de <lb/> leit</l>
+<l xml:id="fr49_490.16">dez fro&#x017F;t ez auz dem leib t<choice><am rend="hochgestellt">a</am><ex>re</ex></choice>it</l>
+<l xml:id="fr49_490.17">Al vmb daz &#x017F;per glaz var als ein eis</l>
+<l xml:id="fr49_490.18">daz mocht aber chain weis</l>
+<l xml:id="fr49_490.19">Von dem &#x017F;per niema<choice><am>&#x0304;</am><ex>n</ex></choice> p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>nge<choice><am>&#x0304;</am><ex>n</ex></choice> dan</l>
+<l xml:id="fr49_490.20">wan Trebuchet d<choice><am>&#x0309;</am><ex>er</ex></choice> weis man</l>
+<l xml:id="fr49_490.21">Der worcht zwei me&#x017F;&#x017F;er di ez &#x017F;nite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_490.22">auze<choice><am>&#x0304;</am><ex>m</ex></choice> &#x017F;ilber diu ez nit v<choice><am>&#x0309;</am><ex>er</ex></choice>niten</l>
+<l xml:id="fr49_490.23">Den li&#x017F;t tet im ein &#x017F;ege<choice><am>&#x0304;</am><ex>n</ex></choice> chu<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_490.24">der an dez chu&#x036F;nges &#x017F;tunt</l>
+<l xml:id="fr49_490.25">Mang<choice><am>&#x0309;</am><ex>er</ex></choice> i&#x017F;t d<choice><am>&#x0309;</am><ex>er</ex></choice> g<choice><am>&#x0309;</am><ex>er</ex></choice>ne gicht</l>
+<l xml:id="fr49_490.26">A&#x017F;pende daz holz p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>ne ni&#x0302;t</l>
+<l xml:id="fr49_490.27">So di&#x017F;es gla&#x017F;es drauf it &#x017F;pra<choice><am>&#x0304;</am><ex>n</ex></choice>ch</l>
+<l xml:id="fr49_490.28">fewrez loche<choice><am>&#x0304;</am><ex>n</ex></choice> da nah<choice><am>&#x0309;</am><ex>er</ex></choice> <subst hand="#sr"><del>&#x017F;pra<choice><am>&#x0304;</am><ex>n</ex></choice>ch</del><add>&#x017F;wanc</add></subst></l>
+<l xml:id="fr49_490.29">A&#x017F;pende da vo<choice><am>&#x0304;</am><ex>n</ex></choice> v<choice><am>&#x0309;</am><ex>er</ex></choice>pran</l>
+<l xml:id="fr49_490.30">waz wund<choice><am>&#x0309;</am><ex>er</ex></choice>s dicz geluppe chan</l>
+<l xml:id="fr49_491.01">Er mac gereite<choice><am>&#x0304;</am><ex>n</ex></choice> noch gigen</l>
+<l xml:id="fr49_491.02">d<choice><am>&#x0309;</am><ex>er</ex></choice> chunch gelige<choice><am>&#x0304;</am><ex>n</ex></choice> noch ge&#x017F;ten</l>
+<l xml:id="fr49_491.03">Er la&#x0302;int ane &#x017F;i&#x0302;cze<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_491.04"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Mit &#x017F;us gepare<choice><am>&#x0304;</am><ex>n</ex></choice> wi&#x0302;cze<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_491.05"><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/><unclear reason="Zweifel"><g ref="#alin1"/></unclear>we=<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<cb xml:id="fr49002rb"/>
+<l xml:id="fr49_491.13">Da von chom vns ein m<choice><am>&#x0309;</am><ex>er</ex></choice>e</l>
+<l xml:id="fr49_491.14">ez w<choice><am>&#x0309;</am><ex>er</ex></choice> ein vi&#x017F;chere</l>
+<l xml:id="fr49_491.15">Daz m<choice><am>&#x0309;</am><ex>er</ex></choice>e mu&#x017F;t leide</l>
+<l xml:id="fr49_491.16">Salme<choice><am>&#x0304;</am><ex>n</ex></choice> lampride</l>
+<l xml:id="fr49_491.17">Het er doch luczel veile</l>
+<l xml:id="fr49_491.18">d<choice><am>&#x0309;</am><ex>er</ex></choice> trauri&#x0302;g vnd nit d<choice><am>&#x0309;</am><ex>er</ex></choice> ga&#x0302;ile</l>
+<l xml:id="fr49_491.19"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">P</seg>arci&#x0302;fal &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch alzeha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_491.20">auf dem &#x017F;e de<choice><am>&#x0304;</am><ex>n</ex></choice> chu<choice><am>&#x0304;</am><ex>n</ex></choice>c ich vant</l>
+<l xml:id="fr49_491.21">Geanchert auf dem wage</l>
+<l xml:id="fr49_491.22">ich wand durch vi&#x017F;chens lage</l>
+<l xml:id="fr49_491.23">Od<choice><am>&#x0309;</am><ex>er</ex></choice> durch and<choice><am>&#x0309;</am><ex>er</ex></choice> churczwe&#x0302;ile</l>
+<l xml:id="fr49_491.24">ich het mange meile</l>
+<l xml:id="fr49_491.25">Dez tages dar ge&#x017F;t<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>chen</l>
+<l xml:id="fr49_491.26">pailrapir ich waz entwi&#x0302;che<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_491.27">Recht vmb den mitte<choice><am>&#x0304;</am><ex>n</ex></choice> morge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_491.28">dez abendez pflac ich &#x017F;orge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_491.29">Wa der h<choice><am>&#x0309;</am><ex>er</ex></choice>w<choice><am>&#x0309;</am><ex>er</ex></choice>g mo&#x036F;chte &#x017F;e&#x0302;in</l>
+<l xml:id="fr49_491.30">d<choice><am>&#x0309;</am><ex>er</ex></choice> beriet mich d<choice><am>&#x0309;</am><ex>er</ex></choice> oheim mein</l>
+<l xml:id="fr49_492.01">Du ritt ein en&#x017F;tle&#x0302;iche vart</l>
+<l xml:id="fr49_492.02">&#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt die w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t &#x017F;i&#x0302;nt bew<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t</l>
+<l xml:id="fr49_492.03">Jgleiche &#x017F;o be&#x017F;ezze<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#sr"><del><unclear reason="Zweifel">&#x017F;</unclear></del><add>i&#x017F;t</add></subst></l>
+<l xml:id="fr49_492.04">Mit rotte<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;elte<choice><am>&#x0304;</am><ex>n</ex></choice> iemans li&#x0302;&#x017F;t</l>
+<l xml:id="fr49_492.05">Jm hilfet gein d<choice><am>&#x0309;</am><ex>er</ex></choice> ra&#x0302;i&#x017F;e</l>
+<l xml:id="fr49_492.06">er chert ie gein d<choice><am>&#x0309;</am><ex>er</ex></choice> vra&#x0302;i&#x017F;e</l>
+<l xml:id="fr49_492.07">Wenn ein her<choice><am rend="hochgestellt">a</am><ex>re</ex></choice> dar zu in ra&#x0302;it</l>
+<l xml:id="fr49_492.08">Si name<choice><am>&#x0304;</am><ex>n</ex></choice> ni&#x0302;emans &#x017F;i&#x0302;cherha&#x0302;it</l>
+<l xml:id="fr49_492.09">Si wagte<choice><am>&#x0304;</am><ex>n</ex></choice> ir lebe<choice><am>&#x0304;</am><ex>n</ex></choice> gein iens leb<choice><am>&#x0304;</am><ex>e</ex></choice>n</l>
+<l xml:id="fr49_492.10">daz i&#x017F;t fu&#x036F;r &#x017F;u&#x036F;nd in da gigeben</l>
+<l xml:id="fr49_492.11">Nu chom ich ane &#x017F;t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>iten</l>
+<l xml:id="fr49_492.12">an den &#x017F;elbe<choice><am>&#x0304;</am><ex>n</ex></choice> ze&#x0302;ite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_492.13">Gerite<choice><am>&#x0304;</am><ex>n</ex></choice> da d<choice><am>&#x0309;</am><ex>er</ex></choice> chu&#x036F;<choice><am>&#x0304;</am><ex>n</ex></choice>ch waz</l>
+<l xml:id="fr49_492.14">Sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch parcifal dez palaz</l>
+<l xml:id="fr49_492.15">Sach ich dez abenez iam<choice><am>&#x0309;</am><ex>er</ex></choice>s vol</l>
+<pb xml:id="fr49002v"/><cb xml:id="fr49002va"/>
+<l xml:id="fr49_492.24"><hi rend="rot">W</hi><choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t dem chunge nie &#x017F;o we</l>
+<l xml:id="fr49_492.25">wan do &#x017F;ein chome<choice><am>&#x0304;</am><ex>n</ex></choice> zaigte &#x017F;us</l>
+<l xml:id="fr49_492.26">der &#x017F;tern Saturnus</l>
+<l xml:id="fr49_492.27">Der mit groze<choice><am>&#x0304;</am><ex>m</ex></choice> vro&#x017F;te waz chom<choice><am>&#x0304;</am><ex>en</ex></choice></l>
+<l xml:id="fr49_492.28">drauf lege<choice><am>&#x0304;</am><ex>n</ex></choice> mag vns nit gefrom<choice><am>&#x0304;</am><ex>en</ex></choice></l>
+<l xml:id="fr49_492.29">Alz man ez drauf lige<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ach</l>
+<l xml:id="fr49_492.30">daz &#x017F;per man in die wunde<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;tach.</l>
+<l xml:id="fr49_493.01">Saturnus laufet &#x017F;o hoch enpar</l>
+<l xml:id="fr49_493.02">daz ez dew wunde we&#x017F;&#x017F;e var</l>
+<l xml:id="fr49_493.03">E d<choice><am>&#x0309;</am><ex>er</ex></choice> ander vro&#x017F;t cho&#x036F;m h<choice><am>&#x0309;</am><ex>er</ex></choice>nach</l>
+<l xml:id="fr49_493.04">dem &#x017F;ne waz nind<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;o gach</l>
+<l xml:id="fr49_493.05">Er viel all<choice><am>&#x0309;</am><ex>er</ex></choice>er&#x017F;t an d<choice><am>&#x0309;</am><ex>er</ex></choice> and<choice><am>&#x0309;</am><ex>er</ex></choice>n nacht</l>
+<l xml:id="fr49_493.06">ind<choice><am>&#x0309;</am><ex>er</ex></choice>. <subst hand="#sr"><del>&#x017F;u&#x036F;m<choice><am>&#x0309;</am><ex>er</ex></choice>leich*</del><add>&#x017F;u&#x036F;m<choice><am>&#x0309;</am><ex>er</ex></choice>leichen</add></subst> macht</l>
+<l xml:id="fr49_493.07">Do man dez chu&#x036F;<choice><am>&#x0304;</am><ex>n</ex></choice>gez vro&#x017F;t &#x017F;us w<choice><am>&#x0309;</am><ex>er</ex></choice>te</l>
+<l xml:id="fr49_493.08">die diet ez vreude herte</l>
+<l xml:id="fr49_493.09">Do &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch der cheu&#x036F;&#x017F;ch Tre&#x0302;uiczent</l>
+<l xml:id="fr49_493.10">Si enpfi&#x0302;nge<choice><am>&#x0304;</am><ex>n</ex></choice> iam<choice><am>&#x0309;</am><ex>er</ex></choice>s &#x017F;oldi&#x0302;me<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_493.11">Daz &#x017F;per in vreud enpfurte</l>
+<l xml:id="fr49_493.12">daz ir h<choice><am>&#x0309;</am><ex>er</ex></choice>cze<choice><am>&#x0304;</am><ex>n</ex></choice> v<choice><am>&#x0309;</am><ex>er</ex></choice>ch &#x017F;us rurte</l>
+<l xml:id="fr49_493.13">Do macht ir iam<choice><am>&#x0309;</am><ex>er</ex></choice>s t<choice><am rend="hochgestellt">e</am><ex>re</ex></choice>we</l>
+<l xml:id="fr49_493.14">dez taufes ler al newe</l>
+<l xml:id="fr49_493.15">Parcifal zu dem wirte &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch</l>
+<l xml:id="fr49_493.16">fu&#x036F;mf vnd zwa&#x0302;inczik maid ich &#x017F;ach</l>
+<l xml:id="fr49_493.17">Die uor dem chu&#x036F;nge &#x017F;tunden</l>
+<l xml:id="fr49_493.18">vnd wol mit zuchte<choice><am>&#x0304;</am><ex>n</ex></choice> chunde<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_493.19">Der wi&#x0302;rt &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch ez &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch ez &#x017F;ulle<choice><am>&#x0304;</am><ex>n</ex></choice> meid <lb/><g ref="#alin1"/> pflege<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_493.20">dez hat &#x017F;ich gein im bewege<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_493.21">Dez gralez dem &#x017F;i da diente<choice><am>&#x0304;</am><ex>n</ex></choice> vu&#x036F;r</l>
+<l xml:id="fr49_493.22">der gral i&#x017F;t mit hoh<choice><am>&#x0309;</am><ex>er</ex></choice> chu&#x036F;r</l>
+<l xml:id="fr49_493.23">So &#x017F;ulle<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ein ritt<choice><am>&#x0309;</am><ex>er</ex></choice> hu&#x036F;ten</l>
+<l xml:id="fr49_493.24"><supplied reason="unleserlich" resp="Sekundärliteratur">mit cheu&#x017F;ch</supplied>le&#x0302;iche<choice><am>&#x0304;</am><ex>n</ex></choice> gu&#x036F;te<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_493.25">Der hohe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice>ne chome<choice><am>&#x0304;</am><ex>n</ex></choice>dev zeit</l>
+<l xml:id="fr49_493.26">d<choice><am>&#x0309;</am><ex>er</ex></choice> diet alda groze<choice><am>&#x0304;</am><ex>n</ex></choice> iam<choice><am>&#x0309;</am><ex>er</ex></choice> ge&#x0302;it</l>
+<cb xml:id="fr49002vb"/>
+<l xml:id="fr49_494.05">Si enpfahent chlaine chindel dar</l>
+<l xml:id="fr49_494.06">von hoh<choice><am>&#x0309;</am><ex>er</ex></choice> art vnd wol geuar</l>
+<l xml:id="fr49_494.07">Wirt in der h<choice><am>&#x0309;</am><ex>er</ex></choice>re loz ein lant</l>
+<l xml:id="fr49_494.08">erche<choice><am>&#x0304;</am><ex>n</ex></choice>net &#x017F;i&#x036F; da dev gotez ha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="fr49_494.09">So daz dev diet eins h<choice><am>&#x0309;</am><ex>er</ex></choice>n g<choice><am>&#x0309;</am><ex>er</ex></choice>t</l>
+<l xml:id="fr49_494.10">von dez G<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>lez &#x017F;char i&#x017F;t &#x017F;i gew<choice><am>&#x0309;</am><ex>er</ex></choice>t</l>
+<l xml:id="fr49_494.11">Dez mu&#x036F;ze<choice><am>&#x0304;</am><ex>n</ex></choice> auch &#x017F;i mit zu&#x036F;chte<choice><am>&#x0304;</am><ex>n</ex></choice> pflege<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_494.12">Sein hu&#x036F;tet alda d<choice><am>&#x0309;</am><ex>er</ex></choice> gotez &#x017F;egen</l>
+<l xml:id="fr49_494.13">Got &#x017F;chaffet v<choice><am>&#x0309;</am><ex>er</ex></choice>holn dann die man</l>
+<l xml:id="fr49_494.14">die meid offenleiche<choice><am>&#x0304;</am><ex>n</ex></choice> dan</l>
+<l xml:id="fr49_494.15">Du &#x017F;olt dez &#x017F;ein vil gewiz</l>
+<l xml:id="fr49_494.16">daz d<choice><am>&#x0309;</am><ex>er</ex></choice> chunc<supplied reason="unleserlich" resp="Sekundärliteratur">h</supplied> Ca&#x017F;tis</l>
+<l xml:id="fr49_494.17">Herzenlaude gerte</l>
+<l xml:id="fr49_494.18">der man in &#x017F;chon w<choice><am>&#x0309;</am><ex>er</ex></choice>te</l>
+<l xml:id="fr49_494.19">Dein mut<choice><am>&#x0309;</am><ex>er</ex></choice> gab ma<choice><am>&#x0304;</am><ex>n</ex></choice> im ze chone<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_494.20">er &#x017F;olt aber mit ir mi&#x0302;<choice><am>&#x0304;</am><ex>n</ex></choice>ne wone<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_494.21">Der tot in leit in daz grab</l>
+<l xml:id="fr49_494.22">da vor er dein<choice><am>&#x0309;</am><ex>er</ex></choice> mut<choice><am>&#x0309;</am><ex>er</ex></choice> gab</l>
+<l xml:id="fr49_494.23">Waleis vnd <subst hand="#sr"><del>ne*</del><add>norgals</add></subst></l>
+<l xml:id="fr49_494.24">kanfoleis vnd <subst hand="#sr"><del>niri</del><add>kirinals</add></subst></l>
+<l xml:id="fr49_494.25">Daz ir mit &#x017F;eld w<choice><am rend="hochgestellt">a</am><ex>ar</ex></choice>t gegebe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_494.26">d<choice><am>&#x0309;</am><ex>er</ex></choice> chu&#x036F;nch nit leng<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;olt leb<choice><am>&#x0304;</am><ex>e</ex></choice>n</l>
+<l xml:id="fr49_494.27">Daz waz auf &#x017F;ein<choice><am>&#x0309;</am><ex>er</ex></choice> rai&#x017F;e wider</l>
+<l xml:id="fr49_494.28">d<choice><am>&#x0309;</am><ex>er</ex></choice> chunch leit &#x017F;ich &#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice>b<choice><am>&#x0304;</am><ex>e</ex></choice>n nid<choice><am>&#x0309;</am><ex>er</ex></choice></l>
+<l xml:id="fr49_494.29">Do truc &#x017F;i cron v&#x036F;ber zwai lant</l>
+<l xml:id="fr49_494.30">do erwarp &#x017F;i Gam<choice><am>&#x1DD1;</am><ex>ur</ex></choice>etez hant</l>
+<l xml:id="fr49_495.01">Sus geit man vo<choice><am>&#x0304;</am><ex>n</ex></choice> de<choice><am>&#x0304;</am><ex>m</ex></choice> gral dan</l>
+<l xml:id="fr49_495.02">off<choice><am>&#x0304;</am><ex>e</ex></choice>nleich di meid v<choice><am>&#x0309;</am><ex>er</ex></choice>holn die man</l>
+<l xml:id="fr49_495.03">Durch frucht zedin&#x017F;t wid<choice><am>&#x0309;</am><ex>er</ex></choice> dar</l>
+<l xml:id="fr49_495.04">ob ir chint dez g<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>les &#x017F;char</l>
+<l xml:id="fr49_495.05">Mit din&#x017F;t &#x017F;ulle<choice><am>&#x0304;</am><ex>n</ex></choice> mere<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_495.06">dez chan &#x017F;i got wol lere<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="fr49_495.07">W<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ich din&#x017F;t dem g<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>l hat bewege<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+</body>
+</text>
+</TEI>

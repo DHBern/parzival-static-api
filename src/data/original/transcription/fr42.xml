@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr42</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>28.02.23</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>München</settlement>
+          <repository>Bayerische Staatsbibliothek</repository>
+          <idno>Cgm 5249/3b</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr42</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="ls1">Leser</handNote>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 463.08-474.09</note>
+<note>Für die Diss. ab Bildschirm transkribiert von RSo am 16.2.07.</note>
+<note>Abschnitt 469.1-30 von OBa und YCh gegengelesen.</note>
+<note>Blatt 1rv (Abschnitt 463.08-468.24, Versidentifizierung von Bonath/Lomnitzer übernommen) bis auf wenige Initialen komplett unleserlich. Dadurch ist die Bestimmung von Spalteninhalte auch unmöglich. Deswegen werden die vier Spalten 1ra, 1rv, 1va, 1vb zu "1rv" nach Bonath/Lomnitzer zusammengefasst.</note>
+<note>Gegengelesen ab Farbfotos (Studio) und Korrekturen eingefügt von SiLa im November 2016.</note>
+<note>Autopsie am Original am 12.4.2017. von SiLa.</note>
+<note>Korrekturen aus Autopsie und Endredaktion 1 am 24.4.2017 von SiLa.</note>
+<note>Endredaktion 1 abgeschlossen am 4.5.2017 von SiLa.</note>
+<note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+<note>Der Abdruck des Fragments in der Dissertation von Robert Schöller (Robert Schöller, Die Fassung *T des 'Parzival' Wolframs von Eschenbach. Untersuchungen zur Überlieferung und zum Textprofil (Quellen und Forschungen zur Literatur- und Kulturgeschichte 56 (290)), Berlin/New York 2009, S. 120-124, S. 420-424.) wird in der vorliegenden Transkription nicht berücksichtigt, weil Robert Schöller selbst die Transkription erstellt hat.</note>
+<pb xml:id="fr42001r"/><cb xml:id="fr42001ra"/>
+<l xml:id="fr42_463.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_463.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.01"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<cb xml:id="fr42001rb"/>
+<l xml:id="fr42_464.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_464.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_465.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<pb xml:id="fr42001v"/><cb xml:id="fr42001va"/>
+<l xml:id="fr42_466.01"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_466.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.01"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">P</seg><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<cb xml:id="fr42001vb"/>
+<l xml:id="fr42_467.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_467.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.13"><gap reason="unleserlich" extent="unbekannt"/> <unclear reason="Zweifel">h</unclear><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.17"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">P</seg><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.20"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.23">d<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_468.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<pb xml:id="fr42002r"/><cb xml:id="fr42002ra"/>
+<l xml:id="fr42_468.25">ze<gap reason="unleserlich" extent="1" unit="Buchstabe"/>r mvn&#x017F;alvah&#x017F;e bi dem gral</l>
+<l xml:id="fr42_468.26">durch aventivre. div alle mal</l>
+<l xml:id="fr42_468.27">ritent manege rei&#x017F;e</l>
+<l xml:id="fr42_468.28">die &#x017F;elben Templei&#x017F;e</l>
+<l xml:id="fr42_468.29">&#x017F;wa <unclear reason="Zweifel">&#x017F;</unclear>i kvmber od<choice><am>&#x0309;</am><ex>er</ex></choice> p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>&#x017F; beiagent</l>
+<l xml:id="fr42_468.30">vur ir &#x017F;vnde &#x017F;i daz tragent</l>
+<l xml:id="fr42_469.01">da von ein werlichir &#x017F;char</l>
+<l xml:id="fr42_469.02">ich wil i&#x0302;v kvnden vmbe ir nar</l>
+<l xml:id="fr42_469.03">&#x017F;i lebnt von einem &#x017F;teine</l>
+<l xml:id="fr42_469.04">de&#x017F; ge&#x017F;lehte i&#x017F;t vil reine</l>
+<l xml:id="fr42_469.05">habt ir de&#x017F; niht erkennet</l>
+<l xml:id="fr42_469.06">d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt i&#x0302;v hie genennet</l>
+<l xml:id="fr42_469.07">er heizet ja&#x017F;pis exillis</l>
+<l xml:id="fr42_469.08">von d<choice><am>&#x0309;</am><ex>er</ex></choice> craft <subst hand="#sr"><del>die</del><add>d<choice><am>&#x0309;</am><ex>er</ex></choice></add></subst> fenis</l>
+<note resp="#SiLa_Lektor" target="#fr42_469.08 #42002ra"><ref><subst hand="#sr"><del>die</del><add>d<choice><am>&#x0309;</am><ex>er</ex></choice></add></subst></ref>: Zusätzlich vom Rubrikator gestrichen.</note>
+<l xml:id="fr42_469.09">v<choice><am>&#x0309;</am><ex>er</ex></choice>brinnet daz er ze a&#x017F;chen wirt</l>
+<l xml:id="fr42_469.10">div e&#x017F;che im abr lebn birt</l>
+<l xml:id="fr42_469.11">Svs rert d<choice><am>&#x0309;</am><ex>er</ex></choice> fenix die mv&#x0302;ze &#x017F;in</l>
+<l xml:id="fr42_469.12">vn<choice><am>&#x0304;</am><ex>d</ex></choice> git danach vil liehten &#x017F;chin</l>
+<l xml:id="fr42_469.13">d<choice><am>c</am><ex>az</ex></choice> er &#x017F;cho&#x0364;ne wirt al&#x017F; e&#x0302;</l>
+<l xml:id="fr42_469.14">o&#x036E;ch wart nie men&#x017F;chen &#x017F;o we&#x0302;</l>
+<l xml:id="fr42_469.15">&#x017F;welhe&#x017F; tage&#x017F; ez den &#x017F;tein &#x017F;iht</l>
+<l xml:id="fr42_469.16">die wochen magez er&#x017F;terben niht</l>
+<l xml:id="fr42_469.17">div aller &#x017F;chiere&#x017F;t da nach ge&#x017F;tet</l>
+<l xml:id="fr42_469.18">&#x017F;in varwe im ouch niem<choice><am>&#x0309;</am><ex>er</ex></choice> zer get</l>
+<l xml:id="fr42_469.19">man mv&#x0366;z im &#x017F;elher varwe iehen</l>
+<l xml:id="fr42_469.20">da mit ez hat den &#x017F;tein ge&#x017F;ehen</l>
+<l xml:id="fr42_469.21">ez &#x017F;i magt od<choice><am>&#x0309;</am><ex>er</ex></choice> man</l>
+<l xml:id="fr42_469.22">al&#x017F; do &#x017F;in be&#x017F;te zil hu&#x0366;p an</l>
+<l xml:id="fr42_469.23">Sehe&#x017F; den &#x017F;tein zwei hvndert iar</l>
+<l xml:id="fr42_469.24">im wurde gra &#x017F;in har</l>
+<l xml:id="fr42_469.25">Selhe craft den men&#x017F;chen git d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tein</l>
+<l xml:id="fr42_469.26">daz im vlei&#x017F;ch vn<choice><am>&#x0304;</am><ex>d</ex></choice> bein</l>
+<l xml:id="fr42_469.27">ivgent enpfahnt &#x017F;vnd<choice><am>&#x0309;</am><ex>er</ex></choice> twal</l>
+<l xml:id="fr42_469.28">d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tein i&#x017F;t o&#x036E;ch genant d<choice><am>&#x0309;</am><ex>er</ex></choice> gral</l>
+<l xml:id="fr42_469.29">dar vf kvmt hivte ein bote&#x017F;chaft</l>
+<l xml:id="fr42_469.30">dar an doch liget &#x017F;in hohe&#x017F;te craft</l>
+<l xml:id="fr42_470.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">E</seg>z i&#x017F;t hivte d<choice><am>&#x0309;</am><ex>er</ex></choice> karvrietac</l>
+<l xml:id="fr42_470.02">daz man v<choice><am>&#x0309;</am><ex>er</ex></choice>war da warten mac</l>
+<l xml:id="fr42_470.03">ein <subst hand="#sr"><del>to&#x036E;.</del><add>tvbe</add></subst> von himele &#x017F;winget</l>
+<l xml:id="fr42_470.04">vffen &#x017F;tein div bringet</l>
+<l xml:id="fr42_470.05">ein cleine wi&#x0302;z oblat</l>
+<l xml:id="fr42_470.06">vffe dem &#x017F;teine &#x017F;i div lat</l>
+<cb xml:id="fr42002rb"/>
+<l xml:id="fr42_470.07">div tu&#x0302;be i&#x017F;t durchlivhtic blanc</l>
+<l xml:id="fr42_470.08">ze himele tu&#x0366;t &#x017F;i wider wa<gap reason="unleserlich" extent="2" unit="Buchstabe"/></l>
+<l xml:id="fr42_470.09">iem<choice><am>&#x0309;</am><ex>er</ex></choice> alle <subst hand="#sr"><del>v</del><add>kar<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ri&#x0302;etage</add></subst></l>
+<l xml:id="fr42_470.10">bringet &#x017F;i vffen &#x017F;tein al&#x017F;ich i&#x0302;v &#x017F;age</l>
+<l xml:id="fr42_470.11">da von d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tein <gap reason="unleserlich" extent="2" unit="Buchstabe"/>pfe&#x0302;het</l>
+<l xml:id="fr42_470.12">&#x017F;waz gu&#x0366;te&#x017F; vf <gap reason="unleserlich" extent="2" unit="Buchstabe"/> erden dre&#x0302;het</l>
+<l xml:id="fr42_470.13">von trinchen<gap reason="unleserlich" extent="unbekannt"/> von &#x017F;pi&#x017F;e</l>
+<l xml:id="fr42_470.14">al&#x017F; den wun&#x017F;ch<gap reason="unleserlich" extent="unbekannt"/>parady&#x017F;e</l>
+<l xml:id="fr42_470.15">ich meine &#x017F;waz<gap reason="unleserlich" extent="unbekannt"/> erde <add hand="#sr">mac</add> gebern</l>
+<l xml:id="fr42_470.16">d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tein &#x017F;i vurb<gap reason="unleserlich" extent="2" unit="Buchstabe"/><unclear reason="Zweifel">m</unclear>e &#x017F;ol wern</l>
+<l xml:id="fr42_470.17">&#x017F;waz wilde&#x017F; vnde<gap reason="unleserlich" extent="1" unit="Buchstabe"/>m lufte lebt</l>
+<l xml:id="fr42_470.18">ez vliege. ez <unclear reason="Zweifel">lov</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">e</unclear> od<choice><am>&#x0309;</am><ex>er</ex></choice> ez &#x017F;webt</l>
+<l xml:id="fr42_470.19">d<choice><am>&#x0309;</am><ex>er</ex></choice> riterlichen <unclear reason="Zweifel">bru&#x0366;</unclear><gap reason="unleserlich" extent="2" unit="Buchstabe"/>r&#x017F;chaft</l>
+<l xml:id="fr42_470.20">die pfrv&#x0366;nde in <gap reason="unleserlich" extent="unbekannt"/> gral&#x017F; craft</l>
+<l xml:id="fr42_470.21">die abr zem g<gap reason="unleserlich" extent="unbekannt"/> benant</l>
+<l xml:id="fr42_470.22">horet wie die <gap reason="unleserlich" extent="unbekannt"/>e<gap reason="unleserlich" extent="unbekannt"/>nt</l>
+<l xml:id="fr42_470.23">zende an de&#x017F; &#x017F;t<gap reason="unleserlich" extent="unbekannt"/> dr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">m</unclear></l>
+<l xml:id="fr42_470.24">von karacter<gap reason="unleserlich" extent="unbekannt"/>p<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">vn</unclear></l>
+<l xml:id="fr42_470.25">&#x017F;eit &#x017F;inen n<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_470.26">&#x017F;<unclear reason="Zweifel">wer</unclear><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_470.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_470.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_470.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_470.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">S</seg><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.03"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.07"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.08"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.09"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.10"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.11"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.12"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.13"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.14"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.15"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.16"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.17"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr42_471.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<pb xml:id="fr42002v"/><cb xml:id="fr42002va"/>
+<l xml:id="fr42_471.19">die edeln vn<choice><am>&#x0304;</am><ex>d</ex></choice> die werden</l>
+<l xml:id="fr42_471.20">mv&#x0366;&#x017F;en vf die erden</l>
+<l xml:id="fr42_471.21">ze dem &#x017F;elben &#x017F;teine</l>
+<l xml:id="fr42_471.22">d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tein i&#x017F;t iemer reine</l>
+<l xml:id="fr42_471.23"><gap reason="Fragmentverlust" extent="unbekannt"/>chn weiz ob got uf &#x017F;i v<choice><am>&#x0309;</am><ex>er</ex></choice>ko&#x0302;&#x017F;</l>
+<l xml:id="fr42_471.24"><gap reason="Fragmentverlust" extent="unbekannt"/>d<choice><am>&#x0309;</am><ex>er</ex></choice> ob er &#x017F;i vurbaz v<choice><am>&#x0309;</am><ex>er</ex></choice>lo&#x0302;s</l>
+<l xml:id="fr42_471.25"><unclear reason="Zweifel">w</unclear>az daz &#x017F;in reht er nam &#x017F;i wider</l>
+<l xml:id="fr42_471.26"><unclear reason="Zweifel">d</unclear>e&#x017F; &#x017F;teine&#x017F; pfligt iem<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ider</l>
+<l xml:id="fr42_471.27"><unclear reason="Zweifel">d</unclear>ie got dar zv&#x0366; benande</l>
+<l xml:id="fr42_471.28"><gap reason="Fragmentverlust" extent="unbekannt"/>n<choice><am>&#x0304;</am><ex>d</ex></choice> in &#x017F;inen engel &#x017F;ande</l>
+<l xml:id="fr42_471.29"><gap reason="Fragmentverlust" extent="unbekannt"/>erre &#x017F;vs &#x017F;tet ez vmben gral.</l>
+<l xml:id="fr42_471.30"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch abr parcifal</l>
+<l xml:id="fr42_472.01"><unclear reason="Zweifel">m</unclear>ac riter&#x017F;chaft de&#x017F; libe&#x017F; pri&#x017F;</l>
+<l xml:id="fr42_472.02">vn<choice><am>&#x0304;</am><ex>d</ex></choice> doch d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ele parady&#x017F;</l>
+<l xml:id="fr42_472.03"><gap reason="Fragmentverlust" extent="unbekannt"/>agen. mit &#x017F;chilte vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit &#x017F;per.</l>
+<l xml:id="fr42_472.04"><add hand="#sr">So waz <lb/><g ref="#alin1"/>ie riter&#x017F;cat min ger</add></l>
+<note resp="#SiLa_Gegenleser" target="#fr42_472.04 #42002va">: Fehlender Vers an die regulären Verse angefügt, über den Bereich von zwei Zeilen.</note>
+<l xml:id="fr42_472.05"><gap reason="Fragmentverlust" extent="unbekannt"/>ch &#x017F;treit ie &#x017F;wa man &#x017F;triten vant</l>
+<l xml:id="fr42_472.06">&#x017F;o daz min werliche hant</l>
+<l xml:id="fr42_472.07">&#x017F;ich nahte dem p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>&#x017F;e</l>
+<l xml:id="fr42_472.08"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;t got an&#x017F;trite wi&#x017F;e</l>
+<l xml:id="fr42_472.09">der &#x017F;ol mich dar benennen</l>
+<l xml:id="fr42_472.10"><unclear reason="Zweifel">d</unclear>a&#x017F;&#x017F;i mich da bekennen</l>
+<l xml:id="fr42_472.11"><gap reason="Fragmentverlust" extent="unbekannt"/>in hant da dien&#x017F;t niht v<choice><am>&#x0309;</am><ex>er</ex></choice>birt.</l>
+<l xml:id="fr42_472.12"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch abr &#x017F;in kiv&#x017F;cer wirt</l>
+<l xml:id="fr42_472.13"><gap reason="Fragmentverlust" extent="unbekannt"/>r mv&#x0364;zet ald<gap reason="unleserlich" extent="1" unit="Buchstabe"/> vor hochvart</l>
+<l xml:id="fr42_472.14"><gap reason="Fragmentverlust" extent="unbekannt"/>it &#x017F;enften willen &#x017F;in <subst hand="#sr"><del>be&#x017F;part</del><add>bewart</add></subst></l>
+<l xml:id="fr42_472.15"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">i&#x0302;</unclear>v v<choice><am>&#x0309;</am><ex>er</ex></choice>leite lihte iuwer ivgent</l>
+<l xml:id="fr42_472.16"><unclear reason="Zweifel">d</unclear><choice><am>c</am><ex>az</ex></choice> ir der kiv&#x017F;che brechet ir tvgent</l>
+<l xml:id="fr42_472.17"><gap reason="Fragmentverlust" extent="unbekannt"/>offart ie &#x017F;e&#x0302;ic vn<choice><am>&#x0304;</am><ex>d</ex></choice> <subst hand="#sr"><del>neic</del><add>viel</add></subst></l>
+<l xml:id="fr42_472.18"><gap reason="Fragmentverlust" extent="unbekannt"/>p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt. ietwederz o&#x036E;ge im wiel</l>
+<l xml:id="fr42_472.19"><gap reason="Fragmentverlust" extent="unbekannt"/>o er an daz mere gedahte</l>
+<l xml:id="fr42_472.20"><gap reason="Fragmentverlust" extent="unbekannt"/>az er da mit rede vol brahte.</l>
+<l xml:id="fr42_472.21"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch er herre ein kvnec da wa&#x017F;</l>
+<l xml:id="fr42_472.22">der hiez vn<choice><am>&#x0304;</am><ex>d</ex></choice> heizet noch anforta&#x017F;</l>
+<l xml:id="fr42_472.23"><gap reason="Fragmentverlust" extent="unbekannt"/>az &#x017F;oli&#x0302;v vn<choice><am>&#x0304;</am><ex>d</ex></choice> mich <subst hand="#sr"><del>erb armen</del><add>armen</add></subst></l>
+<l xml:id="fr42_472.24"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">e</unclear>mer mer erbarmen</l>
+<l xml:id="fr42_472.25"><gap reason="Fragmentverlust" extent="unbekannt"/>mbe &#x017F;ine herzebere not</l>
+<l xml:id="fr42_472.26"><gap reason="Fragmentverlust" extent="unbekannt"/>ie hoch var<gap reason="unleserlich" extent="1" unit="Buchstabe"/> im ze lo&#x0302;ne bot</l>
+<l xml:id="fr42_472.27"><gap reason="Fragmentverlust" extent="unbekannt"/>n ivgent vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;in richeit</l>
+<l xml:id="fr42_472.28"><gap reason="Fragmentverlust" extent="unbekannt"/><choice><am>&#x0309;</am><ex>er</ex></choice> werlte an im vu&#x0366;cte leit</l>
+<l xml:id="fr42_472.29"><gap reason="Fragmentverlust" extent="unbekannt"/>n<choice><am>&#x0304;</am><ex>d</ex></choice> daz er gerte minne</l>
+<l xml:id="fr42_472.30"><gap reason="Fragmentverlust" extent="unbekannt"/>er halp der kiv&#x017F;che &#x017F;inne</l>
+<l xml:id="fr42_473.01"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;ite i&#x017F;t niht dem grale reht</l>
+<cb xml:id="fr42002vb"/>
+<l xml:id="fr42_473.02">da mv&#x0366;z d<choice><am>&#x0309;</am><ex>er</ex></choice> riter vn<choice><am>&#x0304;</am><ex>d</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> kneht</l>
+<l xml:id="fr42_473.03">bewarn &#x017F;ich <subst hand="#sr"><del>v<choice><am>&#x0309;</am><ex>er</ex></choice></del><add>vor</add></subst> lo&#x017F;heit</l>
+<l xml:id="fr42_473.04">demv&#x0366;t. hochvart ie vber &#x017F;treit</l>
+<l xml:id="fr42_473.05">da von ein werdiv bru&#x0366;d<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft</l>
+<l xml:id="fr42_473.06">die hant mit werlichivcher craft</l>
+<l xml:id="fr42_473.07">erwert mit ir handen</l>
+<l xml:id="fr42_473.08">der diet von allen landen</l>
+<l xml:id="fr42_473.09">daz d<choice><am>&#x0309;</am><ex>er</ex></choice> gral i&#x017F;t vmbe kant</l>
+<l xml:id="fr42_473.10">wan <subst hand="#sr"><del>dier</del><add>die</add></subst> dar &#x017F;int benant</l>
+<l xml:id="fr42_473.11">ze mvn&#x017F;alvah&#x017F;e an&#x017F; gral&#x017F; &#x017F;char</l>
+<l xml:id="fr42_473.12">wan ein riter kom <subst hand="#sr"><del>vngennet</del><add>vngenennet</add></subst> dar</l>
+<l xml:id="fr42_473.13">d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;elbe waz ein tvmber man</l>
+<l xml:id="fr42_473.14">vn<choice><am>&#x0304;</am><ex>d</ex></choice> vu&#x0366;rte o&#x036E;ch &#x017F;vnde mit im dan</l>
+<l xml:id="fr42_473.15">daz er niht zem wirte &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch</l>
+<l xml:id="fr42_473.16">vmbe den kvmber den er an im &#x017F;ach</l>
+<l xml:id="fr42_473.17"><unclear reason="Zweifel"><add hand="#ls1">in &#x017F;olte niemen &#x017F;c<unclear reason="Zweifel">e</unclear>lten</add></unclear></l>
+<note resp="#SiLa_Lektor" target="#fr42_473.17 #42002vb">: Rasur anhand der Pergamentbeschaffenheit nicht festzumachen.</note>
+<l xml:id="fr42_473.18">doch mv&#x0366;z <add hand="#ls1">er</add> &#x017F;vnde engelten</l>
+<l xml:id="fr42_473.19">daz er niht vragte de&#x017F; <subst hand="#sr"><del>*</del><add>wirte&#x017F;</add></subst> &#x017F;chaden</l>
+<l xml:id="fr42_473.20">er waz mit kvmbere &#x017F;o beladen</l>
+<l xml:id="fr42_473.21">ezn wart nie bekant &#x017F;o hoher pin</l>
+<l xml:id="fr42_473.22">da von kom roi&#x017F; lehelin</l>
+<l xml:id="fr42_473.23">ze Brvmbange an den &#x017F;e&#x0302; geriten</l>
+<l xml:id="fr42_473.24">durch tio&#x017F;t hete in da erbiten</l>
+<l xml:id="fr42_473.25">lybbeal&#x017F; der werde helt</l>
+<l xml:id="fr42_473.26">de&#x017F; tot mit tio&#x017F;t wart er welt</l>
+<l xml:id="fr42_473.27">er waz geborn von prienlaior&#x017F;</l>
+<l xml:id="fr42_473.28">lehelin de&#x017F; helde&#x017F; ors</l>
+<l xml:id="fr42_473.29">dannoch zoch mit &#x017F;iner hant</l>
+<l xml:id="fr42_473.30">da wart der re&#x0302; rovb erkant</l>
+<l xml:id="fr42_474.01">herre &#x017F;it irz lehelin</l>
+<l xml:id="fr42_474.02">&#x017F;o &#x017F;tet in dem &#x017F;talle <subst hand="#sr"><del>mit</del><add>min</add></subst></l>
+<l xml:id="fr42_474.03">den or&#x017F;en ein glich gevar</l>
+<l xml:id="fr42_474.04">die da horent an&#x017F; gral&#x017F; &#x017F;char</l>
+<l xml:id="fr42_474.05">An dem &#x017F;atel ein tvrteltvbe &#x017F;tet</l>
+<l xml:id="fr42_474.06">daz or&#x017F; von Mvn&#x017F;alvah&#x017F;e get</l>
+<l xml:id="fr42_474.07">div wapen gap in Anforta&#x017F;</l>
+<l xml:id="fr42_474.08">do er d<choice><am>&#x0309;</am><ex>er</ex></choice> vro&#x0364;den herre wa&#x017F;</l>
+<l xml:id="fr42_474.09">ir &#x017F;chilte &#x017F;int von alter &#x017F;o</l>
+<note resp="#MiGe_Gegenleser" target="#fr42_474.09 #42002vb">: Die restlichen vier Zeilen der Spalte sind unbeschriftet.</note>
+</body>
+</text>
+</TEI>

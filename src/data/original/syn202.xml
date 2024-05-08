@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Synoptische Fassungsedition des Dreissigers 202</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>26.09.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Digital born.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Dreissiger" subtype="D" n="202">
+<div type="Textteil" subtype="D" n="202">
+<head>*D</head>
+<l n="*D 202.01"><seg type="große_Variante" n="a1">vüegent</seg> mit ir zarte.</l>
+<l n="*D 202.02"><seg type="große_Variante" n="a1">des</seg> mâze ie sich bewarte,</l>
+<l n="*D 202.03"><seg type="Initiale" subtype="Majuskel">D</seg>er getriwe, st&#x00E6;te man,</l>
+<l n="*D 202.04">wol vriwendinne <seg type="große_Variante" n="a1">sch&#x0153;nen</seg> kan.</l>
+<l n="*D 202.05">er <seg type="große_Variante" n="a1">denket</seg>, als ez <seg type="große_Variante" n="b1">ist lîhte</seg> wâr:</l>
+<l n="*D 202.06">"ich hân gedienet mîniu jâr</l>
+<l n="*D 202.07">nâch lône disem wîbe.</l>
+<l n="*D 202.08">diu <seg type="große_Variante" n="a1">hât</seg> mîme lîbe</l>
+<l n="*D 202.09"><seg type="große_Variante" n="a1">erboten</seg> trôst. <seg type="große_Variante" n="b1">nû</seg> lige ich hie.</l>
+<l n="*D 202.10"><seg type="große_Variante" n="a1">des</seg> hete mich genüeget ie,</l>
+<l n="*D 202.11">ob ich mit mîner <seg type="große_Variante" n="a1">blôzen</seg> hant</l>
+<l n="*D 202.12"><seg type="große_Variante" n="a1">müese</seg> rüeren ir gewant.</l>
+<l n="*D 202.13">ob ich nû <seg type="große_Variante" n="a1">gîtes</seg> gerte,</l>
+<l n="*D 202.14">untriwe <seg type="große_Variante" n="a1">es</seg> vür mich werte.</l>
+<l n="*D 202.15">solt ich si arbeiten,</l>
+<l n="*D 202.16">unser beider last<reg type="Synkope">e</reg>r <seg type="große_Variante" n="a1">breiten</seg>?</l>
+<l n="*D 202.17">vor slâfe süeziu m&#x00E6;re</l>
+<l n="*D 202.18">sint vrouwen <seg type="große_Variante" n="a1">site geb&#x00E6;re</seg>."</l>
+<l n="*D 202.19"><seg type="Initiale" subtype="Majuskel">S</seg>us lac der <name ref="regp:p0322" type="Person">Waleise</name>:</l>
+<l n="*D 202.20">kranc was sîn vreise.</l>
+<l n="*D 202.21">den man <seg type="große_Variante" n="a1">den rôten</seg> ritt<reg type="Synkope">e</reg>r hiez,</l>
+<l n="*D 202.22">die künegîn er maget liez.</l>
+<l n="*D 202.23">si wânde <seg type="große_Variante" n="a1">i<reg type="Synkope">e</reg>doch</seg>, si w&#x00E6;re sîn wîp.</l>
+<l n="*D 202.24">durch sînen minneclîchen lîp</l>
+<l n="*D 202.25">des morgen<corr type="Emendation">s</corr> si ir houbet bant.</l>
+<l n="*D 202.26">dô gab im <seg type="große_Variante" n="a1">bürge</seg> unt lant</l>
+<l n="*D 202.27"><seg type="kleine_Variante" n="a1">disiu</seg> <seg type="kleine_Variante" n="b1">magetb&#x00E6;riu</seg> brût,</l>
+<l n="*D 202.28">wand er was ir herzen trût.</l>
+<l n="*D 202.29"><seg type="Initiale">S</seg>i <seg type="große_Variante" n="a1">wâren mit</seg> ein and<reg type="Synkope">e</reg>r <seg type="große_Variante" n="b1">sô</seg>,</l>
+<l n="*D 202.30">daz si durch liebe wâren vrô</l>
+</div>
+<div><listApp type="Verteilung" subtype="D" n="202"><app><rdg>
+<wit>D</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="D" n="202">
+ <app type="Gliederung" loc="*D 202.01"></app>
+ <app type="Gliederung" loc="*D 202.02"></app>
+<app type="Gliederung" loc="*D 202.03">
+<rdg><note>Majuskel</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 202.04"></app>
+ <app type="Gliederung" loc="*D 202.05"></app>
+ <app type="Gliederung" loc="*D 202.06"></app>
+ <app type="Gliederung" loc="*D 202.07"></app>
+ <app type="Gliederung" loc="*D 202.08"></app>
+ <app type="Gliederung" loc="*D 202.09"></app>
+ <app type="Gliederung" loc="*D 202.10"></app>
+ <app type="Gliederung" loc="*D 202.11"></app>
+ <app type="Gliederung" loc="*D 202.12"></app>
+ <app type="Gliederung" loc="*D 202.13"></app>
+ <app type="Gliederung" loc="*D 202.14"></app>
+ <app type="Gliederung" loc="*D 202.15"></app>
+ <app type="Gliederung" loc="*D 202.16"></app>
+ <app type="Gliederung" loc="*D 202.17"></app>
+ <app type="Gliederung" loc="*D 202.18"></app>
+<app type="Gliederung" loc="*D 202.19">
+<rdg><note>Majuskel</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 202.20"></app>
+ <app type="Gliederung" loc="*D 202.21"></app>
+ <app type="Gliederung" loc="*D 202.22"></app>
+ <app type="Gliederung" loc="*D 202.23"></app>
+ <app type="Gliederung" loc="*D 202.24"></app>
+ <app type="Gliederung" loc="*D 202.25"></app>
+ <app type="Gliederung" loc="*D 202.26"></app>
+ <app type="Gliederung" loc="*D 202.27"></app>
+ <app type="Gliederung" loc="*D 202.28"></app>
+<app type="Gliederung" loc="*D 202.29">
+<rdg><note>Initiale</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 202.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="D" n="202">
+ <app type="Lesart" loc="*D 202.01"></app>
+ <app type="Lesart" loc="*D 202.02"></app>
+ <app type="Lesart" loc="*D 202.03"></app>
+ <app type="Lesart" loc="*D 202.04"></app>
+ <app type="Lesart" loc="*D 202.05"></app>
+ <app type="Lesart" loc="*D 202.06"></app>
+ <app type="Lesart" loc="*D 202.07"></app>
+ <app type="Lesart" loc="*D 202.08"></app>
+ <app type="Lesart" loc="*D 202.09"></app>
+ <app type="Lesart" loc="*D 202.10"></app>
+ <app type="Lesart" loc="*D 202.11"></app>
+ <app type="Lesart" loc="*D 202.12"></app>
+ <app type="Lesart" loc="*D 202.13"></app>
+ <app type="Lesart" loc="*D 202.14"></app>
+ <app type="Lesart" loc="*D 202.15"></app>
+ <app type="Lesart" loc="*D 202.16"></app>
+ <app type="Lesart" loc="*D 202.17"></app>
+ <app type="Lesart" loc="*D 202.18"></app>
+ <app type="Lesart" loc="*D 202.19"></app>
+ <app type="Lesart" loc="*D 202.20"></app>
+ <app type="Lesart" loc="*D 202.21"></app>
+<app type="Lesart" loc="*D 202.22">
+<lem>die</lem><rdg><subst><del>div</del><add>die</add></subst> <wit>D</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 202.23"></app>
+ <app type="Lesart" loc="*D 202.24"></app>
+<app type="Lesart" loc="*D 202.25">
+<lem>morgens</lem><rdg>morgen <wit>D</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 202.26"></app>
+ <app type="Lesart" loc="*D 202.27"></app>
+ <app type="Lesart" loc="*D 202.28"></app>
+ <app type="Lesart" loc="*D 202.29"></app>
+ <app type="Lesart" loc="*D 202.30"></app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="m" n="202">
+<div type="Textteil" subtype="m" n="202">
+<head>*m</head>
+<l n="*m 202.01"><seg type="große_Variante" n="a1">vüegent</seg> mit ir zarte.</l>
+<l n="*m 202.02"><seg type="große_Variante" n="a1">des</seg> mâze ie sich bewarte,</l>
+<l n="*m 202.03">der getriuwe, st&#x00E6;te man,</l>
+<l n="*m 202.04">wol vriundinne <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">schouwen</seg></seg> kan.</l>
+<l n="*m 202.05">er <seg type="große_Variante" n="a1">denket</seg>, als ez <seg type="große_Variante" n="b2">lîhte ist</seg> wâr:</l>
+<l n="*m 202.06">"ich hân gedienet mîniu jâr</l>
+<l n="*m 202.07">nâch lône disem wîbe.</l>
+<l n="*m 202.08">diu <seg type="große_Variante" n="a1">hât</seg> mînem lîbe</l>
+<l n="*m 202.09"><seg type="große_Variante" n="a1">erboten</seg> trôst. <seg type="große_Variante" n="b1">nû</seg> lig ich hie.</l>
+<l n="*m 202.10"><seg type="große_Variante" n="a1">des</seg> <seg type="singuläre_Lesart">h<corr type="Emendation">e</corr>te</seg> mich genuoget ie,</l>
+<l n="*m 202.11">ob ich mit mîner <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">grôzen</seg></seg> hant</l>
+<l n="*m 202.12"><seg type="große_Variante" n="a1">müese</seg> rüeren ir gewant.</l>
+<l n="*m 202.13">ob ich nû <seg type="große_Variante" n="a1"><seg type="singuläre_Lesart">gîtes</seg></seg> gerte,</l>
+<l n="*m 202.14">untriuwe <seg type="große_Variante" n="a1">es</seg> vür mich werte.</l>
+<l n="*m 202.15">solte ich si arbeiten,</l>
+<l n="*m 202.16">unser beide<corr type="Emendation">r</corr> laster <seg type="große_Variante" n="a2">bereiten</seg>?</l>
+<l n="*m 202.17">vor slâfe süeziu m&#x00E6;re</l>
+<l n="*m 202.18">sint vrouwen <seg type="große_Variante" n="a1">site geb&#x00E6;re</seg>."</l>
+<l n="*m 202.19">sus lac der <name ref="regp:p0322" type="Person">Waleise</name>:</l>
+<l n="*m 202.20"><corr type="Emendation">k</corr>ranc was sîn vreise.</l>
+<l n="*m 202.21">den man '<seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">der rôte</seg></seg> ritter' hiez,</l>
+<l n="*m 202.22"><corr type="Emendation">d</corr>ie küniginne er maget liez.</l>
+<l n="*m 202.23">si wânde <seg type="große_Variante" n="a2">doch</seg>, si w&#x00E6;re sîn wîp.</l>
+<l n="*m 202.24">durch sînen minneclîchen lîp</l>
+<l n="*m 202.25">des morgens si ir houbet bant.</l>
+<l n="*m 202.26">dô gap ime <seg type="große_Variante" n="a1">bürge</seg> und lant</l>
+<l n="*m 202.27"><seg type="kleine_Variante" n="a1">disiu</seg> <seg type="kleine_Variante" n="b2">magetb&#x00E6;re</seg> brût,</l>
+<l n="*m 202.28">wand er was ir herzen trût.</l>
+<l n="*m 202.29">si <seg type="große_Variante" n="a1">wâren mit</seg> ein ander <seg type="große_Variante" n="b1">sô</seg>,</l>
+<l n="*m 202.30">daz si durch liebe wâren <corr type="Emendation">vrô</corr></l>
+</div>
+<div><listApp type="Verteilung" subtype="m" n="202"><app><rdg>
+<wit>mk</wit> <wit>nk</wit> <wit>ok</wit> <wit>Fr69</wit> <note>(202.3-6, 20-23 und 27-30)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="m" n="202">
+ <app type="Gliederung" loc="*m 202.01"></app>
+ <app type="Gliederung" loc="*m 202.02"></app>
+ <app type="Gliederung" loc="*m 202.03"></app>
+ <app type="Gliederung" loc="*m 202.04"></app>
+ <app type="Gliederung" loc="*m 202.05"></app>
+ <app type="Gliederung" loc="*m 202.06"></app>
+ <app type="Gliederung" loc="*m 202.07"></app>
+ <app type="Gliederung" loc="*m 202.08"></app>
+ <app type="Gliederung" loc="*m 202.09"></app>
+ <app type="Gliederung" loc="*m 202.10"></app>
+ <app type="Gliederung" loc="*m 202.11"></app>
+ <app type="Gliederung" loc="*m 202.12"></app>
+ <app type="Gliederung" loc="*m 202.13"></app>
+ <app type="Gliederung" loc="*m 202.14"></app>
+ <app type="Gliederung" loc="*m 202.15"></app>
+ <app type="Gliederung" loc="*m 202.16"></app>
+ <app type="Gliederung" loc="*m 202.17"></app>
+ <app type="Gliederung" loc="*m 202.18"></app>
+ <app type="Gliederung" loc="*m 202.19"></app>
+ <app type="Gliederung" loc="*m 202.20"></app>
+ <app type="Gliederung" loc="*m 202.21"></app>
+ <app type="Gliederung" loc="*m 202.22"></app>
+ <app type="Gliederung" loc="*m 202.23"></app>
+ <app type="Gliederung" loc="*m 202.24"></app>
+ <app type="Gliederung" loc="*m 202.25"></app>
+ <app type="Gliederung" loc="*m 202.26"></app>
+ <app type="Gliederung" loc="*m 202.27"></app>
+ <app type="Gliederung" loc="*m 202.28"></app>
+ <app type="Gliederung" loc="*m 202.29"></app>
+ <app type="Gliederung" loc="*m 202.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="m" n="202">
+ <app type="Lesart" loc="*m 202.01"></app>
+<app type="Lesart" loc="*m 202.02">
+<lem>ie</lem><rdg>E <wit>nk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.03"></app>
+<app type="Lesart" loc="*m 202.04">
+<lem>vriundinne</lem><rdg>frunden <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.04">
+<lem>schouwen</lem><rdg>scho̽nen <wit>nk</wit> schonen <wit>ok</wit> (<wit>Fr69</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 202.05">
+<lem>denket</lem><rdg>dancket <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.06">
+<lem>mîniu</lem><rdg>nún <wit>nk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.07"></app>
+ <app type="Lesart" loc="*m 202.08"></app>
+<app type="Lesart" loc="*m 202.09">
+<lem>erboten</lem><rdg>Gebotten <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.10">
+<lem>hete</lem><rdg>hertte <wit>mk</wit> hat <wit>nk</wit> <note>om.</note> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.10">
+<lem>mich</lem><rdg><subst><del>mit</del><add>mich</add></subst> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.11">
+<lem>grôzen</lem><rdg>blossen <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.12">
+<lem>müese</lem><rdg>Musse <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.13">
+<lem>gîtes</lem><rdg>gu̽tes <wit>nk</wit> gattez <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.14"></app>
+ <app type="Lesart" loc="*m 202.15"></app>
+<app type="Lesart" loc="*m 202.16">
+<lem>beider</lem><rdg>beide <wit>mk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.17"></app>
+ <app type="Lesart" loc="*m 202.18"></app>
+<app type="Lesart" loc="*m 202.19">
+<lem>Waleise</lem><rdg>wageleise <wit>ok</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 202.20">
+<lem>kranc</lem><rdg>Drang <wit>mk</wit> Trang <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.21">
+<lem>der rôte</lem><rdg>den roten <wit>nk</wit> <wit>ok</wit> (<wit>Fr69</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 202.22">
+<lem>die</lem><rdg>Der die <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.22">
+<lem>er</lem><rdg><note>om.</note> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.23"></app>
+ <app type="Lesart" loc="*m 202.24"></app>
+<app type="Lesart" loc="*m 202.25">
+<lem>bant</lem><rdg>ban <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.26"></app>
+<app type="Lesart" loc="*m 202.27">
+<lem>brût</lem><rdg>brúgt <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 202.28">
+<lem>ir</lem><rdg>irs <wit>mk</wit> (<wit>nk</wit>) <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 202.29"></app>
+<app type="Lesart" loc="*m 202.30">
+<lem>vrô</lem><rdg><note>om.</note> <wit>mk</wit> by <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="G" n="202">
+<div type="Textteil" subtype="G" n="202">
+<head>*G</head>
+<l n="*G 202.01"><seg type="große_Variante" n="a2">vüeget</seg> mi<corr type="Emendation">t ir</corr> zarte.</l>
+<l n="*G 202.02"><seg type="große_Variante" n="a1">des</seg> mâze ie sich bewarte,</l>
+<l n="*G 202.03">der getriwe, st&#x00E6;te man,</l>
+<l n="*G 202.04">wol vriundinne <seg type="große_Variante" n="a3">schônen</seg> kan.</l>
+<l n="*G 202.05">er <seg type="große_Variante" n="a1">denket</seg>, als ez <seg type="große_Variante" n="b2">lîht ist</seg> wâr:</l>
+<l n="*G 202.06">"ich hân gedienet mîniu jâr</l>
+<l n="*G 202.07">nâch lône disem wîbe.</l>
+<l n="*G 202.08">diu <seg type="große_Variante" n="a1">hât</seg> mînem lîbe</l>
+<l n="*G 202.09"><seg type="große_Variante" n="a1">erboten</seg> trôst. <seg type="große_Variante" n="b1">nû</seg> lige ich hie.</l>
+<l n="*G 202.10"><seg type="große_Variante" n="a2">es</seg> hete mich genüeget ie,</l>
+<l n="*G 202.11">obe ich mit mîner <seg type="große_Variante" n="a1">blôzen</seg> hant</l>
+<l n="*G 202.12"><seg type="große_Variante" n="a2">solte</seg> rüeren ir gewant.</l>
+<l n="*G 202.13">obe ich nû <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">ihtes</seg></seg> gerte,</l>
+<l n="*G 202.14">untriwe <seg type="große_Variante" n="a1">es</seg> vür mich werte.</l>
+<l n="*G 202.15">solt ich si arbeiten,</l>
+<l n="*G 202.16">unser beider laster <seg type="große_Variante" n="a1">breiten</seg>?</l>
+<l n="*G 202.17">vor slâfe süeziu m&#x00E6;re</l>
+<l n="*G 202.18">sint vrouwen <seg type="große_Variante" n="a2">siteb&#x00E6;re</seg>."</l>
+<l n="*G 202.19"><seg type="Initiale">S</seg>us lac der <name ref="regp:p0322" type="Person">Waleise</name>:</l>
+<l n="*G 202.20">kranc was sîn vreise.</l>
+<l n="*G 202.21">den man <seg type="große_Variante" n="a1">den rôten</seg> rîter hiez,</l>
+<l n="*G 202.22">die kün<reg type="Synkope">i</reg>ginne er maget liez.</l>
+<l n="*G 202.23">si wânde <seg type="große_Variante" n="a1">iedoch</seg>, si w&#x00E6;re sîn wîp.</l>
+<l n="*G 202.24">durch sînen minn<reg type="Synkope">i</reg>clîchen lîp</l>
+<l n="*G 202.25">des morgens si ir houbet bant.</l>
+<l n="*G 202.26">dô gap im <seg type="große_Variante" n="a2">liute</seg> unde lant</l>
+<l n="*G 202.27"><seg type="kleine_Variante" n="a1">disiu</seg> <seg type="kleine_Variante" n="b2">magetb&#x00E6;re</seg> brût,</l>
+<l n="*G 202.28">wan er was ir herzen trût.</l>
+<l n="*G 202.29">si <seg type="große_Variante" n="a1">wâren mit</seg> ein ander <seg type="große_Variante" n="b1">sô</seg>,</l>
+<l n="*G 202.30">daz si durch liebe wâren vrô</l>
+</div>
+<div><listApp type="Verteilung" subtype="G" n="202"><app><rdg>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>M</wit> <wit>Q</wit> <wit>R</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="G" n="202">
+ <app type="Gliederung" loc="*G 202.01"></app>
+ <app type="Gliederung" loc="*G 202.02"></app>
+ <app type="Gliederung" loc="*G 202.03"></app>
+ <app type="Gliederung" loc="*G 202.04"></app>
+<app type="Gliederung" loc="*G 202.05">
+<rdg><note>Initiale</note> <wit>I</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 202.06"></app>
+ <app type="Gliederung" loc="*G 202.07"></app>
+ <app type="Gliederung" loc="*G 202.08"></app>
+<app type="Gliederung" loc="*G 202.09">
+<rdg><note>Initiale</note> <wit>R</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 202.10"></app>
+ <app type="Gliederung" loc="*G 202.11"></app>
+ <app type="Gliederung" loc="*G 202.12"></app>
+<app type="Gliederung" loc="*G 202.13">
+<rdg><note>Initiale</note> <wit>Q</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 202.14"></app>
+ <app type="Gliederung" loc="*G 202.15"></app>
+ <app type="Gliederung" loc="*G 202.16"></app>
+ <app type="Gliederung" loc="*G 202.17"></app>
+ <app type="Gliederung" loc="*G 202.18"></app>
+<app type="Gliederung" loc="*G 202.19">
+<rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit></rdg>
+</app>
+<app type="Gliederung" loc="*G 202.19">
+<rdg><note>Capitulumzeichen</note> <wit>L</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 202.20"></app>
+ <app type="Gliederung" loc="*G 202.21"></app>
+ <app type="Gliederung" loc="*G 202.22"></app>
+ <app type="Gliederung" loc="*G 202.23"></app>
+ <app type="Gliederung" loc="*G 202.24"></app>
+ <app type="Gliederung" loc="*G 202.25"></app>
+ <app type="Gliederung" loc="*G 202.26"></app>
+ <app type="Gliederung" loc="*G 202.27"></app>
+ <app type="Gliederung" loc="*G 202.28"></app>
+<app type="Gliederung" loc="*G 202.29">
+<rdg><note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 202.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="G" n="202">
+<app type="Lesart" loc="*G 202.01">
+<lem>vüeget</lem><rdg>Fv&#x0366;gent <wit>O</wit> (<wit>M</wit> <wit>Q</wit> <wit>Z</wit>) Fu̽gte <wit>L</wit> Fv&#x0366;gten <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.01">
+<lem>mit ir</lem><rdg>mir <wit>G</wit> mir iz <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.02">
+<lem>des</lem><rdg>der <wit>I</wit> (<wit>L</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 202.02">
+<lem>ie sich</lem><rdg>er si <wit>I</wit> sich îe <wit>O</wit> (<wit>Q</wit> <wit>R</wit> <wit>Fr21</wit>) er ie sich <wit>L</wit> ie <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.02">
+<lem>bewarte</lem><rdg>bewart <wit>I</wit> gewarte <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 202.03"></app>
+<app type="Lesart" loc="*G 202.04">
+<lem>wol</lem><rdg>der wol <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.04">
+<lem>schônen</lem><rdg>schowen <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.05">
+<lem>er denket</lem><rdg>Erdencken <wit>Q</wit> Er gedenket <wit>R</wit> <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.05">
+<lem>als ez lîht</lem><rdg>liht als ez <wit>I</wit> (<wit>L</wit>) licht daz <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.06">
+<lem>gedienet</lem><rdg>gedien <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.06">
+<lem>mîniu</lem><rdg>manigiv <wit>O</wit> menig <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.07">
+<lem>wîbe</lem><rdg>libe <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.08">
+<lem>hât</lem><rdg>hat nach lon <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.09">
+<lem>lige ich</lem><rdg>lige <wit>I</wit> lege ich <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.10">
+<lem>genüeget</lem><rdg>benvget <wit>L</wit> (<wit>Z</wit>) nenúget <wit>Q</wit> gerowen <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.11">
+<lem>ich</lem><rdg>ich mich <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.11">
+<lem>mîner blôzen</lem><rdg>plosser <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.12">
+<lem>solte</lem><rdg>So so <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.12">
+<lem>rüeren</lem><rdg>bru̽rren <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.13">
+<lem>nû</lem><rdg><note>om.</note> <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.13">
+<lem>ihtes</lem><rdg>gu&#x0364;tes <wit>I</wit> (<wit>L</wit>) gites <wit>O</wit> <wit>Q</wit> (<wit>R</wit>) <wit>Z</wit> <wit>Fr21</wit> <note>om.</note> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.14">
+<lem>untriwe</lem><rdg>Vntriwes <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.14">
+<lem>es vür</lem><rdg>fvr <wit>O</wit> fv&#x0366;re <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.15">
+<lem>si</lem><rdg>sin <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.16">
+<lem>beider</lem><rdg>zweier <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.16">
+<lem>breiten</lem><rdg>bereiten <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.17">
+<lem>süeziu</lem><rdg>suzen <wit>I</wit> (<wit>Fr21</wit>) su̽sze <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.18">
+<lem>sint</lem><rdg>Sit <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.18">
+<lem>siteb&#x00E6;re</lem><rdg>niht vnmere <wit>O</wit> (<wit>Fr21</wit>) gebere <wit>L</wit> <wit>M</wit> sitegebere <wit>Q</wit> (<wit>R</wit>) <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.19">
+<lem>Sus</lem><rdg>Es <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.19">
+<lem>Waleise</lem><rdg>wal&#x00E6;ise <wit>O</wit> vollaise <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.20">
+<lem>vreise</lem><rdg>reise <wit>R</wit> <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.21">
+<lem>rôten</lem><rdg>roter <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.22">
+<lem>er</lem><rdg>ir <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.23">
+<lem>wânde</lem><rdg>wanden <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.23">
+<lem>iedoch</lem><rdg>doch <wit>O</wit> <wit>R</wit> <wit>Z</wit> <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.24">
+<lem>minniclîchen</lem><rdg>mundiglichen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.25">
+<lem>morgens</lem><rdg>morgens do <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.25">
+<lem>ir</lem><rdg>er <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.25">
+<lem>houbet</lem><rdg>har uff <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.26">
+<lem>dô</lem><rdg>Sie <wit>L</wit> (<wit>R</wit>) Da <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.26">
+<lem>gap</lem><rdg>gag <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.27">
+<lem>magetb&#x00E6;re</lem><rdg>mageberev <wit>I</wit> (<wit>O</wit> <wit>R</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 202.28">
+<lem>ir</lem><rdg>irs <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 202.29">
+<lem>si</lem><rdg>&#x00F7;i <wit>O</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 202.30"></app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="T" n="202">
+<div type="Textteil" subtype="T" n="202">
+<head>*T</head>
+<l n="*T 202.01"><seg type="große_Variante" n="a1">vüegent</seg> mit ir zarte.</l>
+<l n="*T 202.02"><seg type="große_Variante" n="a2">der</seg> mâze ie sich bewarte,</l>
+<l n="*T 202.03">der getriuwe, <seg type="große_Variante" n="a1">der</seg> st&#x00E6;te man,</l>
+<l n="*T 202.04">wol vriundinne <seg type="große_Variante" n="a3">schônen</seg> kan.</l>
+<l n="*T 202.05">er <seg type="große_Variante" n="a2">gedenket</seg>, alsez <seg type="große_Variante" n="b3">ist</seg> wâr:</l>
+<l n="*T 202.06">"ich hân gedienet mîniu jâr</l>
+<l n="*T 202.07">nâch lône disem wîbe,</l>
+<l n="*T 202.08">diu mînem lîbe</l>
+<l n="*T 202.09"><seg type="große_Variante" n="a2">erbiutet</seg> trôst <seg type="große_Variante" n="b2">unde</seg> lige ich hie.</l>
+<l n="*T 202.10"><seg type="große_Variante" n="a2">es</seg> hete mich genüeget ie,</l>
+<l n="*T 202.11">ob ich mit mîner <seg type="große_Variante" n="a1">blôzen</seg> hant</l>
+<l n="*T 202.12"><seg type="große_Variante" n="a1">müese</seg> rüeren ir gewant.</l>
+<l n="*T 202.13">ob ich nû <seg type="große_Variante" n="a1">gîtes</seg> gerte,</l>
+<l n="*T 202.14">untriuwe <seg type="große_Variante" n="a2">ez</seg> vür mich werte.</l>
+<l n="*T 202.15">soltich si arbeiten,</l>
+<l n="*T 202.16">unser beider laster <seg type="große_Variante" n="a1">breiten</seg>?</l>
+<l n="*T 202.17">vor slâfe süeziu m&#x00E6;re</l>
+<l n="*T 202.18">sint vrouwen <seg type="große_Variante" n="a2">siteb&#x00E6;re</seg>."</l>
+<l n="*T 202.19"><seg type="Initiale">S</seg>us lac der <name ref="regp:p0322" type="Person">Waleise</name>:</l>
+<l n="*T 202.20">kranc was sîn vreise.</l>
+<l n="*T 202.21">den man <seg type="große_Variante" n="a1">den rôten</seg> rîter hiez,</l>
+<l n="*T 202.22">di<corr type="Emendation">e</corr> küneginne er magt liez.</l>
+<l n="*T 202.23">si wânde <seg type="große_Variante" n="a3">ie <seg type="singuläre_Lesart">dô</seg></seg>, si w&#x00E6;re sîn wîp.</l>
+<l n="*T 202.24">durch sînen minneclîchen lîp</l>
+<l n="*T 202.25">des morgens si ir houbet bant.</l>
+<l n="*T 202.26"><seg type="Initiale" subtype="Majuskel">D</seg>ô gab im <seg type="große_Variante" n="a2">liute</seg> unde lant</l>
+<l n="*T 202.27"><seg type="kleine_Variante" n="a2">dise</seg> <seg type="kleine_Variante" n="b1">magtb&#x00E6;riu</seg> brût,</l>
+<l n="*T 202.28">wand er was ir herzen trût.</l>
+<l n="*T 202.29">si <seg type="große_Variante" n="a2">bliben bî</seg> ein ander <seg type="große_Variante" n="b2">dô</seg>,</l>
+<l n="*T 202.30">daz si durch liebe wâren vrô</l>
+</div>
+<div><listApp type="Verteilung" subtype="T" n="202"><app><rdg>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>W</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="T" n="202">
+ <app type="Gliederung" loc="*T 202.01"></app>
+ <app type="Gliederung" loc="*T 202.02"></app>
+ <app type="Gliederung" loc="*T 202.03"></app>
+ <app type="Gliederung" loc="*T 202.04"></app>
+ <app type="Gliederung" loc="*T 202.05"></app>
+ <app type="Gliederung" loc="*T 202.06"></app>
+ <app type="Gliederung" loc="*T 202.07"></app>
+ <app type="Gliederung" loc="*T 202.08"></app>
+ <app type="Gliederung" loc="*T 202.09"></app>
+ <app type="Gliederung" loc="*T 202.10"></app>
+ <app type="Gliederung" loc="*T 202.11"></app>
+ <app type="Gliederung" loc="*T 202.12"></app>
+ <app type="Gliederung" loc="*T 202.13"></app>
+ <app type="Gliederung" loc="*T 202.14"></app>
+ <app type="Gliederung" loc="*T 202.15"></app>
+ <app type="Gliederung" loc="*T 202.16"></app>
+ <app type="Gliederung" loc="*T 202.17"></app>
+ <app type="Gliederung" loc="*T 202.18"></app>
+<app type="Gliederung" loc="*T 202.19">
+<rdg><note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>W</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 202.20"></app>
+ <app type="Gliederung" loc="*T 202.21"></app>
+ <app type="Gliederung" loc="*T 202.22"></app>
+ <app type="Gliederung" loc="*T 202.23"></app>
+ <app type="Gliederung" loc="*T 202.24"></app>
+ <app type="Gliederung" loc="*T 202.25"></app>
+<app type="Gliederung" loc="*T 202.26">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 202.27"></app>
+ <app type="Gliederung" loc="*T 202.28"></app>
+ <app type="Gliederung" loc="*T 202.29"></app>
+ <app type="Gliederung" loc="*T 202.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="T" n="202">
+<app type="Lesart" loc="*T 202.01">
+<lem>ir</lem><rdg><note>om.</note> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.02">
+<lem>der</lem><rdg><subst><del>De*</del><add>Dez</add></subst> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.03">
+<lem>der st&#x00E6;te</lem><rdg>stete <wit>V</wit> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.04">
+<lem>vriundinne</lem><rdg>frúndinnen <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.04">
+<lem>schônen</lem><rdg>schowen <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.05">
+<lem>gedenket</lem><rdg>gedenck <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.05">
+<lem>alsez</lem><rdg><subst><del>*</del><add>als ez lihte</add></subst> <wit>V</wit> als es licht <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.06">
+<lem>mîniu jâr</lem><rdg><subst><del>m*ar</del><add>mine iar</add></subst> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.07">
+<lem>lône</lem><rdg>lobe <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.08">
+<lem>diu</lem><rdg>Die hat <wit>V</wit> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.09">
+<lem>erbiutet</lem><rdg><subst><del>Jrbotten</del><add>V́rbotten</add></subst> <wit>V</wit> Erbotten <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.09">
+<lem>unde</lem><rdg>nu&#x0366; <wit>U</wit> (<wit>V</wit> <wit>W</wit>)</rdg>
+</app>
+ <app type="Lesart" loc="*T 202.10"></app>
+<app type="Lesart" loc="*T 202.11">
+<lem>blôzen</lem><rdg>blosseu <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.12">
+<lem>müese</lem><rdg><subst><del>M*</del><add>Mo&#x0364;hte</add></subst> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.13">
+<lem>gîtes</lem><rdg>gutes <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 202.14"></app>
+ <app type="Lesart" loc="*T 202.15"></app>
+ <app type="Lesart" loc="*T 202.16"></app>
+ <app type="Lesart" loc="*T 202.17"></app>
+<app type="Lesart" loc="*T 202.18">
+<lem>siteb&#x00E6;re</lem><rdg>sitte gebêre <wit>V</wit> (<wit>W</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 202.19">
+<lem>Waleise</lem><rdg>walleise <wit>V</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 202.20"></app>
+<app type="Lesart" loc="*T 202.21">
+<lem>hiez</lem><rdg>lies <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.22">
+<lem>die</lem><rdg>div <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.22">
+<lem>liez</lem><rdg>hies <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.23">
+<lem>ie dô</lem><rdg>ie doch <wit>U</wit> (<wit>V</wit>) <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 202.24"></app>
+ <app type="Lesart" loc="*T 202.25"></app>
+<app type="Lesart" loc="*T 202.26">
+<lem>Dô</lem><rdg>Sie <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.26">
+<lem>lant</lem><rdg>auch lant <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.27">
+<lem>dise magtb&#x00E6;riu</lem><rdg>Die maget here <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.28">
+<lem>wand er</lem><rdg>Wan der <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 202.28">
+<lem>ir</lem><rdg>irs <wit>U</wit> <wit>V</wit> (<wit>W</wit>)</rdg>
+</app>
+ <app type="Lesart" loc="*T 202.29"></app>
+ <app type="Lesart" loc="*T 202.30"></app>
+</listApp></div>
+</div>
+</body>
+</text>
+</TEI>

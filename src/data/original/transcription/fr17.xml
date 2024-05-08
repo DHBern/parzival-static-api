@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr17</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>München</settlement>
+          <repository>Bayerische Staatsbibliothek</repository>
+          <idno>Cgm 194/III</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr17</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 160.29-168.27</note>
+<note>160.29-166.27 transkribiert von RSo am Bildschirm im November 2004. 167.03-168.27 transkribiert von SFa ab Farbfotos (Studio) August 2014.</note>
+<note>An Richtlinien angepasst im Mai 2013 JKl.</note>
+<note>Gegengelesen von SFa ab Farbfotos (Studio) August 2014; Autopsie am Original am 14.10.2014.</note>
+<note>Gegengelesen von JKl ab Farbfotos (Studio) 23.10.2014.</note>
+<note>Als vv geschriebene w's werden als w transkribiert, als w geschriebene vv (für vu) als vv.</note>
+<note>Korrekturen eingefügt von SiLa im November 2016.</note>
+<note>Autospie am Original am 12.4.2017 von SiLa.</note>
+<note>Korrekturen aus Autopsie und Endredaktion 1 am 24.4.2017 von SiLa.</note>
+<note>Endredaktion 1 abgeschlossen am 4.5.2017 von SiLa.</note>
+<note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+<note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
+<pb xml:id="fr17001r"/><cb xml:id="fr17001ra"/>
+<l xml:id="fr17_160.29">niht liehter dorften machen.</l>
+<l xml:id="fr17_160.30">dv &#x017F;wende&#x017F;t wiplic lachen.</l>
+<l xml:id="fr17_161.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">J</seg>ther der lobe&#x017F; riche</l>
+<l xml:id="fr17_161.02">wart be&#x017F;tatet wnnecliche</l>
+<l xml:id="fr17_161.03">Sin tot &#x017F;ch<unclear reason="Zweifel">v&#x0364;</unclear>p &#x017F;vften in div wip</l>
+<note resp="#SFa_Lektor" target="#?1_161.03 #17001ra"><ref>&#x017F;ch<unclear reason="Zweifel">v&#x0364;</unclear>p</ref>: auch am Original nicht eindeutig zu erkennen; da übergeschriebenes <ref>o</ref> aber sonst immer eindeutig ist, hier eher <ref>e</ref>.</note>
+<l xml:id="fr17_161.04">Sin harna&#x017F;ch ime verlo&#x017F; ten lip.</l>
+<l xml:id="fr17_161.05">dar unbe wa&#x017F; &#x017F;in&#x017F; end<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>&#x017F; wer</l>
+<l xml:id="fr17_161.06">de&#x017F; tvnben parzivale&#x017F; ger</l>
+<l xml:id="fr17_161.07">Sit do er &#x017F;ich paz ver&#x017F;an.</l>
+<l xml:id="fr17_161.08">vngerne het erz to getan.</l>
+<l xml:id="fr17_161.09">daz or&#x017F; einer &#x017F;ite pflac</l>
+<l xml:id="fr17_161.10">Groz arbeit ez ringe wac</l>
+<l xml:id="fr17_161.11"><unclear reason="Zweifel"><subst hand="#sr"><del>e</del><add>ez</add></subst></unclear> ware <subst hand="#sr"><del><unclear reason="Zweifel">od</unclear></del><add><hi rend="rasur">chalt</hi></add></subst> oder heiz.</l>
+<note resp="#SFa_Gegenleser" target="#?1_161.11 #17001ra"><ref><unclear reason="Zweifel"><subst hand="#sr"><del>e</del><add>ez</add></subst></unclear></ref>: Sonst üblicher Zwischenraum zum ausgerückten Anfangsbuchstaben fehlt - <ref>z</ref> nachgetragen?</note>
+<l xml:id="fr17_161.12">ezn liez durch rei&#x017F;e deheinen &#x017F;weiz</l>
+<l xml:id="fr17_161.13"><subst hand="#sr"><del>e*</del><add>ez</add></subst> trate &#x017F;tein oder ronen.</l>
+<l xml:id="fr17_161.14">Man dorfte ime deheine&#x017F; <add hand="#ls1u">gurten&#x017F;</add> wonen.</l>
+<l xml:id="fr17_161.15">doch eine&#x017F; loche&#x017F; naher baz.</l>
+<l xml:id="fr17_161.16">Swer zwe tage druffe ge&#x017F;az.</l>
+<l xml:id="fr17_161.17">Gewapent reit ez ter tunbe man</l>
+<l xml:id="fr17_161.18">den tac &#x017F;o &#x017F;ere ez hete lan.</l>
+<l xml:id="fr17_161.19">ein bloz wi&#x017F;er &#x017F;olt erz han geriten</l>
+<l xml:id="fr17_161.20">Zwene tage ez ware vermiten</l>
+<l xml:id="fr17_161.21">ez wolte &#x017F;chvften oder draben</l>
+<l xml:id="fr17_161.22">er chvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> ime wenic vf gehaben.</l>
+<l xml:id="fr17_161.23">hin gein dem abent er do &#x017F;ach</l>
+<l xml:id="fr17_161.24">ein&#x017F; turn&#x017F; gu&#x0366;ppfen vnt te&#x017F; dah</l>
+<l xml:id="fr17_161.25">den tunben dvhte &#x017F;ere.</l>
+<l xml:id="fr17_161.26">wie der turne w<unclear reason="Zweifel">o&#x036E;&#x017F;che</unclear> mere</l>
+<l xml:id="fr17_161.27">der &#x017F;to&#x036E;nt da vil vf eineme hv&#x017F;.</l>
+<l xml:id="fr17_161.28">do wand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> er de&#x017F; &#x017F;i &#x017F;ate artu&#x017F;</l>
+<l xml:id="fr17_161.29">de&#x017F; iach er ime vvr heil<unclear reason="Zweifel">c</unclear>heit</l>
+<l xml:id="fr17_161.30">vnt taz &#x017F;in &#x017F;ald<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> ware breit</l>
+<l xml:id="fr17_162.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>l&#x017F;o &#x017F;prach der tunbe man.</l>
+<l xml:id="fr17_162.02">Miner mv&#x0366;ter volc nih buven chan</l>
+<l xml:id="fr17_162.03">ezn wa&#x017F;chet niht &#x017F;o lanc ir &#x017F;at.</l>
+<l xml:id="fr17_162.04">Swaz &#x017F;i ir ind<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>me wald<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> hat.</l>
+<l xml:id="fr17_162.05">Groz regen &#x017F;i &#x017F;elten da verbirt</l>
+<l xml:id="fr17_162.06">Gurnamanz de <subst hand="#ls1u"><del>*</del><add><hi rend="rasur">Gr<unclear reason="Zweifel">a</unclear>harz hiez ter wirt</hi></add></subst></l>
+<l xml:id="fr17_162.07">vf ter bvrc dar zv&#x0366; er reit</l>
+<l xml:id="fr17_162.08">da vor &#x017F;to&#x036E;nt ein lind<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> breit</l>
+<l xml:id="fr17_162.09">ef eineme gro&#x036E;nen anger</l>
+<l xml:id="fr17_162.10">er wa&#x017F; breiter noch langer</l>
+<l xml:id="fr17_162.11">n<unclear reason="Zweifel">iv</unclear>wan z<gap reason="unleserlich" extent="unbekannt"/> mazze</l>
+<l xml:id="fr17_162.12">daz or<gap reason="unleserlich" extent="1" unit="Buchstabe"/>&#x017F; vnt tiv &#x017F;traze</l>
+<note resp="#SFa_Lektor" target="#?1_162.12 #17001ra"><ref>or<gap reason="unleserlich" extent="1" unit="Buchstabe"/>&#x017F;</ref>: Auch am Original nicht zu erkennen, was zwischen <ref>r</ref> und <ref>&#x017F;</ref> steht; zwei Bögen übereinander, der untere gleicht einem <ref>o</ref>.</note>
+<l xml:id="fr17_162.13">in tro&#x036E;gen da er &#x017F;izen vant</l>
+<l xml:id="fr17_162.14">de&#x017F; wa&#x017F; tiv burch vn<choice><am>&#x0304;</am><ex>t</ex></choice> v&#x0366;ch taz lant</l>
+<l xml:id="fr17_162.15">ein grozziv mv&#x0366;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> in de&#x017F; bedwanc</l>
+<l xml:id="fr17_162.16">daz er den &#x017F;chilt vnrehte &#x017F;wanc.</l>
+<l xml:id="fr17_162.17">Zeverre hinder oder vvr</l>
+<l xml:id="fr17_162.18">et <subst hand="#sr"><del>nie*</del><add>nied<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r</add></subst> nach ter &#x017F;ite chvr</l>
+<l xml:id="fr17_162.19">die man do gein pri&#x017F;e maz.</l>
+<l xml:id="fr17_162.20">Gvrnamanz der vvr&#x017F;te al eine &#x017F;az</l>
+<l xml:id="fr17_162.21">v&#x0366;ch gap der linden told<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></l>
+<l xml:id="fr17_162.22">ir &#x017F;ch<gap reason="unleserlich" extent="unbekannt"/> al&#x017F; &#x017F;i wold<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></l>
+<cb xml:id="fr17001rb"/>
+<l xml:id="fr17_162.29">Mich bat min mv&#x0366;ter nemen rat</l>
+<l xml:id="fr17_162.30">Ze dem der grawe loche hat.</l>
+<l xml:id="fr17_163.01">da wil ih iv dienen nach</l>
+<l xml:id="fr17_163.02">Sit mir min mo&#x036E;ter de&#x017F; veriach</l>
+<l xml:id="fr17_163.03"><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst> ir durch rate&#x017F; &#x017F;chuld<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>.</l>
+<note resp="#SFa_Gegenleser" target="#?1_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
+<note resp="#SiLa_Lektor" target="#?1_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
+<l xml:id="fr17_163.04">her chomen i&#x036E;wer huld<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></l>
+<l xml:id="fr17_163.05">Mv&#x0366;zt ir mir dvrch raten lan.</l>
+<l xml:id="fr17_163.06">vn<choice><am>&#x0304;</am><ex>t</ex></choice> welt ir rate&#x017F; volge han.</l>
+<l xml:id="fr17_163.07">do warf ter vvr&#x017F;te mare</l>
+<l xml:id="fr17_163.08">ein mv&#x0366;zer &#x017F;pareware</l>
+<l xml:id="fr17_163.09">von der hend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> in die bvrc er <subst hand="#sr"><del>&#x017F;wac</del><add>&#x017F;wanc</add></subst></l>
+<l xml:id="fr17_163.10">ein gvldin &#x017F;chelle dran er klanc</l>
+<l xml:id="fr17_163.11">daz wa&#x017F; ein bote do chom ime &#x017F;an.</l>
+<l xml:id="fr17_163.12">vil ivncherren wolgetan.</l>
+<l xml:id="fr17_163.13">er hiez den ga&#x017F;t den er da &#x017F;ach</l>
+<l xml:id="fr17_163.14">in vo&#x036E;ren vn<choice><am>&#x0304;</am><ex>t</ex></choice> &#x017F;chaffen &#x017F;in gemach</l>
+<l xml:id="fr17_163.15">der &#x017F;prach min mv&#x0366;ter &#x017F;aget alwar</l>
+<l xml:id="fr17_163.16">alte&#x017F; manne&#x017F; red<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;tet niht zevar</l>
+<l xml:id="fr17_163.17">hin in <subst hand="#sr"><del>&#x017F;i*</del><add>&#x017F;i<unclear reason="Zweifel">m</unclear></add></subst> vo&#x036E;rten alze hant</l>
+<l xml:id="fr17_163.18">da er manegen werden riter vant.</l>
+<l xml:id="fr17_163.19">vf ten hof an einer. &#x017F;tat.</l>
+<l xml:id="fr17_163.20">ie&#x017F;licher in er beizen. bat.</l>
+<l xml:id="fr17_163.21">do &#x017F;prach an deme wa&#x017F; tvnpheit &#x017F;chin.</l>
+<l xml:id="fr17_163.22">Mich hiez ein chvnec riter &#x017F;in.</l>
+<l xml:id="fr17_163.23">Swaz halte druffe mir ge&#x017F;chihet</l>
+<l xml:id="fr17_163.24">ine chvme abe di&#x017F;em or&#x017F;e niht</l>
+<l xml:id="fr17_163.25"></l>
+<l xml:id="fr17_163.26"></l>
+<l xml:id="fr17_163.27"></l>
+<l xml:id="fr17_163.28"></l>
+<l xml:id="fr17_163.29">Maneger bete &#x017F;i gedahten.</l>
+<l xml:id="fr17_163.30">vnz &#x017F;in von dem or&#x017F;e brahten</l>
+<l xml:id="fr17_164.01">in eine chemenaten.</l>
+<l xml:id="fr17_164.02">Si begvnden im alle raten.</l>
+<l xml:id="fr17_164.03">lat daz harna&#x017F;ch von iv bringen</l>
+<l xml:id="fr17_164.04">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> i&#x036E;weren lid<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n ringen.</l>
+<l xml:id="fr17_164.05"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg>il &#x017F;chiere er mv&#x0366;&#x017F;e entwapent &#x017F;in.</l>
+<l xml:id="fr17_164.06">do &#x017F;i die rivhen ribalin.</l>
+<l xml:id="fr17_164.07">vnt div roten chleit er&#x017F;ahen</l>
+<l xml:id="fr17_164.08">Si er&#x017F;chrachen die &#x017F;in pflagen.</l>
+<l xml:id="fr17_164.09">vil blugez wart zehove ge&#x017F;aget.</l>
+<l xml:id="fr17_164.10">der wirt vor &#x017F;chame wa&#x017F; nach verz<unclear reason="Zweifel">ag</unclear><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr17_164.11">ein riter &#x017F;prach durch &#x017F;ine zuht.</l>
+<l xml:id="fr17_164.12">de&#x017F;war &#x017F;o <subst hand="#sr"><del>werder</del><add>werdecliche</add></subst> vrvht.</l>
+<l xml:id="fr17_164.13">er ko&#x017F; nie miner v&#x0366;gen &#x017F;ehe</l>
+<l xml:id="fr17_164.14">an ime lit der &#x017F;alden &#x017F;pehe</l>
+<l xml:id="fr17_164.15">von reine &#x017F;v&#x0366;ze hoher art.</l>
+<l xml:id="fr17_164.16">wie i&#x017F;t der minnen blic bewart</l>
+<l xml:id="fr17_164.17">Mich iamert iemer daz ih vant</l>
+<l xml:id="fr17_164.18">An der <subst hand="#sr"><del>wert</del><add>werlte</add></subst> <sic>vo&#x036E;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></sic> &#x017F;olich <subst hand="#sr"><del>gewat</del><add>gewant.</add></subst></l>
+<note resp="#SFa_Gegenleser" target="#?1_164.18 #17001rb">: Lücke zwischen <ref><sic>vo&#x036E;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></sic></ref> und <ref> &#x017F;olich</ref> - Platz für <ref>al</ref>? Am Original ist keine Rasur zu erkennen.</note>
+<l xml:id="fr17_164.19">wol doch ter mv&#x0366;ter div in trv&#x0366;c.</l>
+<l xml:id="fr17_164.20">an ime de&#x017F; wn&#x017F;che&#x017F; lit genv&#x0366;c.</l>
+<l xml:id="fr17_164.21">Sin zimierd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> i&#x017F;t riche</l>
+<l xml:id="fr17_164.22">daz harna&#x017F;ch &#x017F;to&#x036E;nt riterliche.</l>
+<l xml:id="fr17_164.23">ez chome von deme gehivren.</l>
+<l xml:id="fr17_164.24">von einer quat&#x017F;chvren.</l>
+<l xml:id="fr17_164.25">blo&#x036E;tic ami&#x017F;iere</l>
+<l xml:id="fr17_164.26">cho&#x017F; ih an ime &#x017F;chiere</l>
+<l xml:id="fr17_164.27"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr17001v"/><cb xml:id="fr17001va"/>
+<l xml:id="fr17_165.03-01"><note type="Notiz">Dyal<unclear reason="Zweifel">s</unclear></note></l>
+<l xml:id="fr17_165.03-02"><note type="Notiz"><unclear reason="Zweifel">Maria</unclear></note></l>
+<l xml:id="fr17_165.03-03"><note type="Notiz"><unclear reason="Zweifel">Ein man</unclear></note></l>
+<l xml:id="fr17_165.03-04"><note type="Notiz">Ein maister begunt</note></l>
+<l xml:id="fr17_165.03-05"><note type="Notiz">Ein maister begunt</note></l>
+<l xml:id="fr17_165.03-06"><note type="Notiz">a <gap reason="unleserlich" extent="unbekannt"/> <lb/> <gap reason="unleserlich" extent="unbekannt"/> <lb/> a <lb/> aaaaa <lb/> aaaaa <lb/> aaaaaa</note></l>
+<l xml:id="fr17_165.03-07"><hi rend="rot"><note type="Notiz">D<choice><am>&#x0304;</am><ex>e</ex></choice>m <gap reason="unleserlich" extent="unbekannt"/> <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>hu y&#x0302; <lb/> <unclear reason="Zweifel">&#x017F;</unclear>yly da<gap reason="unleserlich" extent="unbekannt"/></note></hi></l>
+<note resp="#SiLa_Gegenleser" target="#165.03 #07_17001va">: Die nota (165.03-01 bis 165.03-07) stehen auf dem Kopf.</note>
+<l xml:id="fr17_165.03">do &#x017F;prach ter wirt nv &#x017F;vle wir &#x017F;ehen.</l>
+<l xml:id="fr17_165.04">an de&#x017F; varwe <add hand="#sr">ein</add> wnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r i&#x017F;t ge&#x017F;chehen.</l>
+<l xml:id="fr17_165.05">Si giengen da &#x017F;i vvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n.</l>
+<l xml:id="fr17_165.06">parzivalen den wnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n.</l>
+<l xml:id="fr17_165.07">von eineme &#x017F;per daz beleip doch ganz</l>
+<l xml:id="fr17_165.08">Sin vnderwant &#x017F;ich Gvrnamanz</l>
+<l xml:id="fr17_165.09">Solich wa&#x017F; &#x017F;in vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r wind<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n.</l>
+<l xml:id="fr17_165.10">daz ein <subst hand="#sr"><del>var</del><add>vater</add></subst> &#x017F;inen chind<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n.</l>
+<l xml:id="fr17_165.11">der &#x017F;ich tri&#x036E;we chund<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> nieten.</l>
+<l xml:id="fr17_165.12">Moht imz niht baz er bieten.</l>
+<l xml:id="fr17_165.13">Sine wnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n wo&#x036E;&#x017F;ch vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> bant</l>
+<l xml:id="fr17_165.14">der wirt mit &#x017F;in &#x017F;elbe&#x017F; hant.</l>
+<l xml:id="fr17_165.14-r"><del hand="#sr">der n<unclear reason="Zweifel"><gap reason="unleserlich" extent="unbekannt"/></unclear> mit &#x017F;in &#x017F;elbe&#x017F; hant</del></l>
+<note resp="#SiLa_Gegenleser" target="#?1_165.14-r #17001va">: Der wiederholte Vers ist einmal vom Schreiber und ein zweites Mal vom Rubrikator gestrichen; möglicherweise weil die erste Streichung vom Schreiber nicht als Streichung erkannt wurde oder nicht deutlich genug war.</note>
+<l xml:id="fr17_165.15">nv wa&#x017F; o&#x036E;ch vf geleit daz brot</l>
+<l xml:id="fr17_165.16">de&#x017F; wa&#x017F; teme ivngen ga&#x017F;te not.</l>
+<l xml:id="fr17_165.17">wand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> in groz hvnger niht vermeit</l>
+<l xml:id="fr17_165.18">al va&#x017F;tend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> er de&#x017F; morgen&#x017F; reit</l>
+<l xml:id="fr17_165.19">von deme vi&#x017F;ch&#x00E6;re</l>
+<l xml:id="fr17_165.20">Sin wnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> harna&#x017F;ch &#x017F;ware</l>
+<l xml:id="fr17_165.21">die vor nanti&#x017F; er beiagete</l>
+<l xml:id="fr17_165.22">ime mv&#x0366;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> hvnger &#x017F;agete.</l>
+<l xml:id="fr17_165.23">vnt tiv verre tagerei&#x017F;e</l>
+<l xml:id="fr17_165.24">von artu&#x017F;e dem britonei&#x017F;e</l>
+<l xml:id="fr17_165.25">da man in allez va&#x017F;ten liez</l>
+<l xml:id="fr17_165.26">der wirt in mit ime ezzen hiez.</l>
+<l xml:id="fr17_165.27">der ga&#x017F;t &#x017F;ich tagelabete</l>
+<l xml:id="fr17_165.28">in den bran er &#x017F;ich &#x017F;o habete</l>
+<l xml:id="fr17_165.29">da<unclear reason="Zweifel">z</unclear> er der &#x017F;pi&#x017F;e &#x017F;wand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> vil.</l>
+<l xml:id="fr17_165.30">daz nam der wirt gar zeheinem &#x017F;pil.</l>
+<l xml:id="fr17_166.01">do bat in vlizecliche</l>
+<l xml:id="fr17_166.02">Gvrnamanz der tri&#x036E;wen riche</l>
+<l xml:id="fr17_166.03">daz er wa&#x017F;te &#x00E6;ze</l>
+<l xml:id="fr17_166.04">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> der mv&#x0366;de &#x017F;in verg&#x00E6;zze</l>
+<l xml:id="fr17_166.05"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>a&#x0302;n hv&#x0366;p den ti&#x017F;ch do <sic>do d</sic> wa&#x017F; zit.</l>
+<note resp="#MiGe_Lektor" target="#?1_166.05 #Fr17001va"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>a&#x0302;n</ref>: Die Initiale wurde zuerst mit schwarzer Tinte vorgezeichnet und später mit roter Tinte mehr oder weniger passgenau nachgezogen.</note>
+<l xml:id="fr17_166.06">ih wane daz ir mv&#x0366;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;it</l>
+<l xml:id="fr17_166.07">Sprach ter wirt wart ir iht vro</l>
+<l xml:id="fr17_166.08">Gotewaiz min mv&#x0366;ter &#x017F;lafet nv</l>
+<l xml:id="fr17_166.09">Si chan &#x017F;o vil niht wachen.</l>
+<l xml:id="fr17_166.10">der wirt begvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> lachen.</l>
+<l xml:id="fr17_166.11">er vo&#x036E;rt in an die &#x017F;laf &#x017F;tat.</l>
+<l xml:id="fr17_166.12">der wirt in &#x017F;ich vz &#x017F;lo&#x036E;ffen bat.</l>
+<l xml:id="fr17_166.13">vngerne erz tet doch mo&#x036E;&#x017F;e ez &#x017F;in</l>
+<l xml:id="fr17_166.14">ein declachen harmin</l>
+<l xml:id="fr17_166.15">wart geleit vber &#x017F;inen lip.</l>
+<l xml:id="fr17_166.16">So werde <sic>vvrht</sic> gebar nie wip</l>
+<l xml:id="fr17_166.17">Groz mv&#x0366;d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;laf in lerte.</l>
+<l xml:id="fr17_166.18">daz er &#x017F;ich &#x017F;elten <subst hand="#sr"><del>e</del><add>cherte</add></subst></l>
+<l xml:id="fr17_166.19">vbe an die anderen &#x017F;iten.</l>
+<l xml:id="fr17_166.20">Sv&#x017F; chund<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> er tage&#x017F; biten.</l>
+<l xml:id="fr17_166.21">do gebot der vvr&#x017F;te mare</l>
+<l xml:id="fr17_166.22">daz ein bat bereit ware</l>
+<l xml:id="fr17_166.23">Reht vnbe den mitten morgen&#x017F; tac.</l>
+<l xml:id="fr17_166.24">Ze ende an deme tepich <add hand="#sr">da</add> er dalac.</l>
+<l xml:id="fr17_166.25">daz mv&#x0366;&#x017F;e de&#x017F; morgn&#x017F; al&#x017F;o &#x017F;in.</l>
+<l xml:id="fr17_166.26">Man warf ro&#x017F;en oben drin</l>
+<l xml:id="fr17_166.27">Swie wenic <unclear reason="Zweifel">vnbe</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<cb xml:id="fr17001vb"/>
+<l xml:id="fr17_167.03">vn<choice><am>&#x0304;</am><ex>t</ex></choice> an libe&#x017F; varwe minneclich.</l>
+<l xml:id="fr17_167.04">die chomen <sic>zvhtte</sic> &#x017F;ite gelich</l>
+<l xml:id="fr17_167.05"><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst> tw&#x0366;gen vnde &#x017F;trichen &#x017F;chier</l>
+<note resp="#SFa_Gegenleser" target="#?1_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
+<note resp="#SiLa_Lektor" target="#?1_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
+<l xml:id="fr17_167.06">von ime &#x017F;in ami&#x017F;ier</l>
+<l xml:id="fr17_167.07">Mit ir blanchen linden henden.</l>
+<l xml:id="fr17_167.08">iane dorft in niht ellend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n</l>
+<l xml:id="fr17_167.09">der da wa&#x017F; witze ein wei&#x017F;e</l>
+<l xml:id="fr17_167.10">Sv&#x017F; dolt er <subst hand="#sr"><del>vrd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></del><add>vrod<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></add></subst> vn<choice><am>&#x0304;</am><ex>t</ex></choice> ei&#x017F;e.</l>
+<l xml:id="fr17_167.11">tv<unclear reason="Zweifel">n</unclear>pheit er wenic gein in engalt</l>
+<l xml:id="fr17_167.12">jvncfro&#x036E;wen chv&#x017F;che vnde balt</l>
+<l xml:id="fr17_167.13">in al&#x017F;v&#x017F; chunrierten</l>
+<l xml:id="fr17_167.14">Swa von &#x017F;i parlierten</l>
+<l xml:id="fr17_167.15">da chvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> er wol ge&#x017F;wigen z<unclear reason="Zweifel">o&#x0366;</unclear></l>
+<l xml:id="fr17_167.16">iane dorft in duncken niht zevro&#x036E;</l>
+<l xml:id="fr17_167.17">wan von ime &#x017F;chein der ander tac</l>
+<l xml:id="fr17_167.18">der gla&#x017F;t al&#x017F;v&#x017F; in &#x017F;trite lac.</l>
+<l xml:id="fr17_167.19">Sin varwe la&#x017F;chte beidiv lieht</l>
+<l xml:id="fr17_167.20">de&#x017F; wa&#x017F; &#x017F;in lip ver&#x017F;vmet niht</l>
+<l xml:id="fr17_167.21">Man bot im ein bad<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>lachen dar</l>
+<l xml:id="fr17_167.22">de&#x017F; nam er vil chleine war</l>
+<l xml:id="fr17_167.23">Sv&#x017F; chvnde er &#x017F;ich pi fro&#x036E;wen &#x017F;chemen.</l>
+<l xml:id="fr17_167.24">vor in wolt erz niht vnbe nemen.</l>
+<l xml:id="fr17_167.25">die ivncfro&#x036E;wen mv&#x0366;&#x017F;en gen</l>
+<l xml:id="fr17_167.26">Sine getor&#x017F;ten da niht langer &#x017F;ten.</l>
+<l xml:id="fr17_167.27">die wane ih gerne heten ge&#x017F;ehen.</l>
+<l xml:id="fr17_167.28">ob ime dort unden iht ware ge&#x017F;chehen.</l>
+<l xml:id="fr17_167.29">wipheit vert mit tri&#x036E;wen.</l>
+<l xml:id="fr17_167.30">Si chan vrivnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>&#x017F; chvnber ri&#x036E;wen.</l>
+<l xml:id="fr17_168.01">der ga&#x017F;t an daz pette &#x017F;chreit</l>
+<l xml:id="fr17_168.02">al wiz gewant wa&#x017F; ime bereit.</l>
+<l xml:id="fr17_168.03">v<unclear reason="Zweifel">on</unclear> g<gap reason="unleserlich" extent="unbekannt"/>e vnde &#x017F;idin.</l>
+<l xml:id="fr17_168.04">einen br<gap reason="unleserlich" extent="unbekannt"/>el zoch man drin.</l>
+<l xml:id="fr17_168.05">Scharlachen&#x017F; ho&#x017F;en ro<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> &#x017F;treich</l>
+<l xml:id="fr17_168.06">an in dem ellen nie ge&#x017F;weich</l>
+<l xml:id="fr17_168.07"><gap reason="unleserlich" extent="unbekannt"/>e &#x017F;tonden &#x017F;iniv bein.</l>
+<l xml:id="fr17_168.08"><gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">&#x017F;</unclear><gap reason="unleserlich" extent="unbekannt"/>e ab ime &#x017F;chein.</l>
+<l xml:id="fr17_168.09">b<gap reason="unleserlich" extent="unbekannt"/>&#x017F;niten.</l>
+<l xml:id="fr17_168.10">deme wa&#x017F; fvrrie<gap reason="unleserlich" extent="unbekannt"/>ht vermiten.</l>
+<l xml:id="fr17_168.11"><gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">armi</unclear>n blanc.</l>
+<l xml:id="fr17_168.12"><unclear reason="Zweifel">roc vn</unclear><gap reason="unleserlich" extent="unbekannt"/>e<gap reason="unleserlich" extent="1" unit="Buchstabe"/> waren lanc</l>
+<l xml:id="fr17_168.13">bre<gap reason="unleserlich" extent="2" unit="Buchstabe"/> &#x017F;warz vn<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr17_168.14">Zo<unclear reason="Zweifel">be</unclear>l dervvr man cho&#x017F; alda.</l>
+<l xml:id="fr17_168.15">daz lei<unclear reason="Zweifel">t</unclear> an der gehivre</l>
+<l xml:id="fr17_168.16">vnder eine<unclear reason="Zweifel">n</unclear> g<gap reason="unleserlich" extent="1" unit="Buchstabe"/>rtel tivre.</l>
+<l xml:id="fr17_168.17">wart er gephi&#x017F;chieret.</l>
+<l xml:id="fr17_168.18">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> wol gezimieret</l>
+<l xml:id="fr17_168.19">Mit eineme tivr<gap reason="unleserlich" extent="2" unit="Buchstabe"/>n vvr&#x017F;pan.</l>
+<l xml:id="fr17_168.20">Sin mvnt da bi vo<unclear reason="Zweifel">n</unclear> <gap reason="unleserlich" extent="2" unit="Buchstabe"/><unclear reason="Zweifel">t</unclear>e bran.</l>
+<l xml:id="fr17_168.21">da chom der wirt mit tr<unclear reason="Zweifel">i</unclear><gap reason="unleserlich" extent="unbekannt"/> chraft</l>
+<l xml:id="fr17_168.22">Nach <gap reason="unleserlich" extent="2" unit="Buchstabe"/>me gienc groziv riter&#x017F;chaft</l>
+<l xml:id="fr17_168.23">e<unclear reason="Zweifel">r</unclear> <gap reason="unleserlich" extent="2" unit="Buchstabe"/>o&#x036E;<gap reason="unleserlich" extent="unbekannt"/> den ga&#x017F;t. do daz ge&#x017F;chach.</l>
+<l xml:id="fr17_168.24">der <gap reason="unleserlich" extent="unbekannt"/>e&#x017F;licher &#x017F;prach</l>
+<l xml:id="fr17_168.25">Sine g<gap reason="unleserlich" extent="unbekannt"/> nie &#x017F;o &#x017F;chonen lip</l>
+<l xml:id="fr17_168.26">mit tri&#x036E;wen l<unclear reason="Zweifel">obet</unclear>en &#x017F;i daz wip</l>
+<l xml:id="fr17_168.27">div gap der werlte &#x017F;<gap reason="unleserlich" extent="1" unit="Buchstabe"/>lhe <unclear reason="Zweifel">v</unclear>rv&#x0366;ht</l>
+<l xml:id="fr17_168.28">d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+</body>
+</text>
+</TEI>

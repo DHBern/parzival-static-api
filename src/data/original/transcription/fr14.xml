@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr14</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Erlangen</settlement>
+          <repository>Universitätsbibliothek</repository>
+          <idno>Ms. B 1</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr14</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+        <handNote xml:id="sr">Schreiber</handNote>
+        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 20.07-26.14, 41.09-47.30</note>
+<note>Verse nicht abgesetzt; Zeilenumbrüche mit <lb/> markiert.</note>
+<note>Transkribiert von OBA ab Fotos (Studio) im Januar 2010</note>
+<note>An Richtlinien angepasst im Mai 2013 JKl</note>
+<note>Gegengelesen ab Farbfotos (Studio) und Korrekturen eingefügt von SiLa im November 2016.</note>
+<note>Endredaktion 1 von SiLa am 24.07.2017.</note>
+<note>Korrekturen aus Autopsie eingearbeitet von SiLa am 27.09.2017.</note>
+<note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+<note>6.9.18, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quellen: Hartl, Eduard: Das Erlanger Parzivalfragment, in: Beiträge zur Geschichte der deutschen Sprache und Literatur 56 (1932), S. 145-151 (Abdruck der Verse 20.15-17, 22.08-11, 24.02-05, 25.23-27, 41.10-44.18, 44.20-47,30) und (ergänzt im Oktober 2020) Bonath, Untersuchungen II, S. 290-295. Grundsätzlich werden die Angaben bei Bonath bevorzugt. In der Sekundärliteratur werden normales s und Schaft-s nicht unterschieden. Bei aus Hartl oder Bonath entnommenen Passagen wird jedes s als Schaft-s wiedergegeben.</note>
+<pb xml:id="fr14001r"/><cb xml:id="fr14001ra"/>
+<l xml:id="fr14_20.07"><gap reason="Fragmentverlust" extent="unbekannt"/> c<hi>hl</hi>ic<hi>h</hi>en enp<hi>h</hi><unclear reason="Zweifel">i</unclear>nc<hi>h</hi>.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_20.07 #Fr14001ra"><ref>enp<hi>h</hi><unclear reason="Zweifel">i</unclear>nc<hi>h</hi></ref>: Bonath transkribiert <ref>enpfiench</ref>. Der vierte Buchstabe des Wortes ist ein <ref>h</ref>, kein <ref>f</ref>. Zudem ist, rein vom Platz her gesehen ist <ref>i</ref> wahrscheinlicher als <ref>ie</ref>.</note>
+<l xml:id="fr14_20.08"><hi>d</hi>az im nach <hi>f</hi>ro&#x036E;<lb/>den &#x017F;it <subst hand="#sru"><del>ergench</del><add>ergiench</add></subst>.</l>
+<l xml:id="fr14_20.09">daz wa&#x017F; ein elle<unclear reason="Zweifel">n</unclear>&#x017F; rich<lb/>er man.</l>
+<l xml:id="fr14_20.10">mit &#x017F;iner hant het er getan. <lb/></l>
+<l xml:id="fr14_20.11">mangen &#x017F;tich vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;lach.</l>
+<l xml:id="fr14_20.12">wander einer <lb/> porte<choice><am>&#x0304;</am><ex>n</ex></choice> pflach.</l>
+<l xml:id="fr14_20.13">pi <subst hand="#ls1u"><del>dem</del><add>deR</add></subst> er mangen ritter <lb/> vant.</l>
+<l xml:id="fr14_20.14">di ir hende hiengen indiv bant. <lb/></l>
+<l xml:id="fr14_20.15">vn<choice><am>&#x0304;</am><ex>de</ex></choice> den ir hovbet waren v<choice><am>&#x0309;</am><ex>er</ex></choice>bunden.</l>
+<l xml:id="fr14_20.16">di <lb/> heten &#x017F;olhe wnden</l>
+<l xml:id="fr14_20.17">daz &#x017F;i doch taten <lb/> ritter&#x017F;caft.</l>
+<l xml:id="fr14_20.18">&#x017F;i hete lazen nicht ir chraft. <lb/></l>
+<l xml:id="fr14_20.19"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">D</seg>er burcg<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ue vo<choice><am>&#x0304;</am><ex>n</ex></choice> der &#x017F;tat.</l>
+<l xml:id="fr14_20.20">&#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> ga&#x017F;t <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">da</supplied> minnechlichen bat.</l>
+<l xml:id="fr14_20.21">daz er nicht <lb/> v<choice><am>&#x0309;</am><ex>er</ex></choice>b<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>re.</l>
+<l xml:id="fr14_20.22">al daz &#x017F;in wille w<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>re.</l>
+<l xml:id="fr14_20.23">vber <lb/> &#x017F;in gv&#x0366;t vn<choice><am>&#x0304;</am><ex>de</ex></choice> vb<choice><am>&#x0309;</am><ex>er</ex></choice> den lip.</l>
+<l xml:id="fr14_20.24">er fv&#x0366;rten da er <lb/> vant &#x017F;in wip.</l>
+<l xml:id="fr14_20.25">div Gahmureten chv&#x017F;te. <lb/></l>
+<l xml:id="fr14_20.26">des in doch wenech gelu&#x017F;te.</l>
+<l xml:id="fr14_20.27">dar nach <lb/> fv&#x0366;r er enbizen &#x017F;an.</l>
+<l xml:id="fr14_20.28">do diz wa&#x017F; al&#x017F;u&#x017F; ge<lb/>tan.</l>
+<l xml:id="fr14_20.29">der mar&#x017F;calch fv&#x0366;r von im cehant. <lb/></l>
+<l xml:id="fr14_20.30">alda er di khuneginne vant.</l>
+<l xml:id="fr14_21.01">vn<choice><am>&#x0304;</am><ex>de</ex></choice> ie&#x017F;c <lb/> vil groziv potenbrot.</l>
+<l xml:id="fr14_21.02">do &#x017F;prach er frowe <lb/> vn&#x017F;er not.</l>
+<l xml:id="fr14_21.03">i&#x017F;t mit vro&#x036E;den cergangen. <lb/></l>
+<l xml:id="fr14_21.04"><supplied reason="unleserlich" resp="Sekundärliteratur">d</supplied><gap reason="Fragmentverlust" extent="unbekannt"/> hie haben <gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">fangen</supplied></l>
+<l xml:id="fr14_21.05"><supplied reason="unleserlich" resp="Sekundärliteratur">daz</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<cb xml:id="fr14001rb"/>
+<l xml:id="fr14_21.30"><gap reason="Fragmentverlust" extent="unbekannt"/> erc<hi>h</hi>ennen.</l>
+<l xml:id="fr14_22.01"><hi>d</hi>az er <hi>d</hi>en pris v<hi>b</hi><choice><am>&#x0309;</am><ex>er</ex></choice> mangiv <lb/> lant.</l>
+<l xml:id="fr14_22.02">hete al eine ce &#x017F;iner hant.</l>
+<l xml:id="fr14_22.03">nv &#x017F;ihe <lb/> et wenne oder wie.</l>
+<l xml:id="fr14_22.04">vn<choice><am>&#x0304;</am><ex>de</ex></choice> fv&#x0366;ge daz er mich <lb/> &#x017F;preche <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">hie</unclear></supplied></l>
+<l xml:id="fr14_22.05">wir haben doch vride aldi&#x017F;en <lb/> tach.</l>
+<l xml:id="fr14_22.06">da von der helt wol riten mach.</l>
+<l xml:id="fr14_22.07">her <lb/> vf ce mir od<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;ol <supplied reason="unleserlich" resp="Sekundärliteratur">ich</supplied> dar.</l>
+<l xml:id="fr14_22.08">er i&#x017F;t and<choice><am>&#x0309;</am><ex>er</ex></choice>s denne <lb/> wir gevar.</l>
+<l xml:id="fr14_22.09">owi wan tate im daz nicht <lb/> we.</l>
+<l xml:id="fr14_22.10">daz het ich gerne erfvnden e&#x0302;.</l>
+<l xml:id="fr14_22.11">ob mirz <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">di</supplied> mine rieten.</l>
+<l xml:id="fr14_22.12">ich &#x017F;olt im ere bieten.</l>
+<l xml:id="fr14_22.13">ge<lb/>rv&#x0366;chet er mir nahen.</l>
+<l xml:id="fr14_22.14">w<supplied reason="unleserlich" resp="Sekundärliteratur">ie</supplied> &#x017F;ol ich en pha<lb/>hen.</l>
+<l xml:id="fr14_22.15">i&#x017F;t er mir dar zv wol geborn.</l>
+<l xml:id="fr14_22.16">daz <lb/> min chv&#x017F;&#x017F; nicht &#x017F;i v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn.</l>
+<l xml:id="fr14_22.17">frowe er i&#x017F;t fvr <lb/> kvnges chvnne erchant.</l>
+<l xml:id="fr14_22.18">des &#x017F;i min lip ge<lb/>nennet pfant.</l>
+<l xml:id="fr14_22.19"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">F</seg>ro&#x036E;we ich wil iweren <lb/> vr&#x017F;ten &#x017F;agen.</l>
+<l xml:id="fr14_22.20">daz &#x017F;i <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">r</unclear></supplied><gap reason="Fragmentverlust" extent="unbekannt"/>v chleider tragen. <lb/></l>
+<l xml:id="fr14_22.21">vn<choice><am>&#x0304;</am><ex>de</ex></choice> daz &#x017F;i vor iv biten.</l>
+<l xml:id="fr14_22.22">vnz daz wir zv ziv <lb/> riten.</l>
+<l xml:id="fr14_22.23">daz &#x017F;aget ir iwern fro&#x036E;wen gar. <lb/></l>
+<l xml:id="fr14_22.24">wan &#x017F;wenne ich nv hin nider var.</l>
+<l xml:id="fr14_22.25">&#x017F;o <lb/> bringe ich iv den werden ga&#x017F;t.</l>
+<l xml:id="fr14_22.26">dem &#x017F;v&#x0366;<lb/>zer tvgend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> nie gebra&#x017F;t.</l>
+<l xml:id="fr14_22.27">harte we<supplied reason="unleserlich" resp="Sekundärliteratur">nec</supplied>h <lb/> des v<choice><am>&#x0309;</am><ex>er</ex></choice>darp.</l>
+<l xml:id="fr14_22.28">vil behendechlichen <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr14001v"/><cb xml:id="fr14001va"/>
+<l xml:id="fr14_23.23"><gap reason="Fragmentverlust" extent="unbekannt"/> <hi>h</hi>o<hi>h</hi>en pin.</l>
+<l xml:id="fr14_23.24"><hi>d</hi>o <hi>&#x017F;</hi>i ge<hi>&#x017F;</hi>ac<hi>h</hi> <hi>d</hi>en <hi>a</hi>n<hi>&#x017F;</hi>evin.</l>
+<l xml:id="fr14_23.25">der <lb/> wa&#x017F; &#x017F;o minnechlich gevar.</l>
+<l xml:id="fr14_23.26">daz er en&#x017F;loz ir <lb/> herce gar.</l>
+<l xml:id="fr14_23.27">ez w<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied> ir liep od<choice><am>&#x0309;</am><ex>er</ex></choice> leit.</l>
+<l xml:id="fr14_23.28">daz be&#x017F;loz <lb/> da vor ir wipheit.</l>
+<l xml:id="fr14_23.29">ein wen<unclear reason="Zweifel">i</unclear>ch &#x017F;i gegen im <lb/> do trat.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_23.29 #Fr14001va"><ref>wen<unclear reason="Zweifel">i</unclear>ch</ref>: Bonath transkribiert <ref>wenech</ref>. Was wirklich dasteht, ist unsicher.</note>
+<l xml:id="fr14_23.30">ir ga&#x017F;t &#x017F;i &#x017F;ich chv&#x017F;&#x017F;en bat.</l>
+<l xml:id="fr14_24.01">&#x017F;i nam <lb/> in &#x017F;elbe mit der hant.</l>
+<l xml:id="fr14_24.02">gegen den vinden <lb/> an die want.</l>
+<l xml:id="fr14_24.03">&#x017F;azen &#x017F;i indiv ven&#x017F;ter wit. <lb/></l>
+<l xml:id="fr14_24.04">vf einen kvlter ge&#x017F;teppet &#x017F;amit.</l>
+<l xml:id="fr14_24.05">dar <lb/> vnder ein <unclear reason="Zweifel"><subst hand="#sr"><del>weiche*</del><add>weiche<unclear reason="Zweifel">z</unclear></add></subst></unclear> pette lach.</l>
+<l xml:id="fr14_24.06">i&#x017F;t iht <lb/> liechters denne der tach.</l>
+<l xml:id="fr14_24.07">dem gelichte <lb/> nicht div kvnegin.</l>
+<l xml:id="fr14_24.08">&#x017F;i het wiplichen &#x017F;in. <lb/></l>
+<l xml:id="fr14_24.09">vn<choice><am>&#x0304;</am><ex>de</ex></choice> wa&#x017F; aber and<choice><am>&#x0309;</am><ex>er</ex></choice>s riterlich.</l>
+<l xml:id="fr14_24.10">der towige<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> ro&#x017F;en vngelich.</l>
+<l xml:id="fr14_24.11">nach &#x017F;warcer varwe <lb/> wa&#x017F; ir &#x017F;cin.</l>
+<l xml:id="fr14_24.12">ir chrone ein liechter rvbin. <lb/></l>
+<l xml:id="fr14_24.13">ir hovbet man d<gap reason="Fragmentverlust" extent="unbekannt"/>durch wol &#x017F;ach. <lb/></l>
+<l xml:id="fr14_24.14">div wirtin zir ga&#x017F;te &#x017F;prach.</l>
+<l xml:id="fr14_24.15">daz ir <lb/> liep w<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>re ir chom.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_24.15 #Fr14001va"><ref>chom</ref>: Über dem <ref>m</ref> befindet sich ein Loch. Bonath zufolge könnte ein Kürzungsstrich weggefallen sein.</note>
+<l xml:id="fr14_24.16">herre ich han vo<choice><am>&#x0304;</am><ex>n</ex></choice> iv <lb/> v<choice><am>&#x0309;</am><ex>er</ex></choice>nom<choice><am>&#x0304;</am><ex>en</ex></choice>.</l>
+<l xml:id="fr14_24.17">vil ritterlicher werd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>cheit.</l>
+<l xml:id="fr14_24.18">durch <lb/> iwer zvht lat iv nicht <add hand="#ls1u">&#x017F;in</add> leit.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_24.18 #Fr14001va"><ref><add hand="#ls1u">&#x017F;in</add></ref>: Bonath zufolge wurde das Wort mit blasserer Tinte über der Zeile nachgetragen.</note>
+<l xml:id="fr14_24.19">ob ich iv <lb/> minen chvmb<choice><am>&#x0309;</am><ex>er</ex></choice> chlage.</l>
+<l xml:id="fr14_24.20">den ich nahe in <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">mime</unclear></supplied> hercen tr<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">age</unclear></supplied></l>
+<l xml:id="fr14_24.21"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">M</seg>in helfe <supplied reason="unleserlich" resp="Sekundärliteratur">iv</supplied>ch <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<cb xml:id="fr14001vb"/>
+<l xml:id="fr14_25.13"><gap reason="Fragmentverlust" extent="unbekannt"/> <hi>&#x017F;</hi>o<hi>l</hi>dir.</l>
+<l xml:id="fr14_25.14">von <hi>N</hi>orman<hi>d</hi>ie <hi><unclear reason="Zweifel">G</unclear></hi>a<hi>&#x017F;</hi>cir.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_25.14 #Fr14001vb"><ref><hi><unclear reason="Zweifel">G</unclear></hi>a<hi>&#x017F;</hi>cir</ref>: Bonath transkribiert <ref>Cascir</ref>. Es gibt keine Majusken zum Vergleich.</note>
+<l xml:id="fr14_25.15"><hi>&#x017F;</hi>o wi<hi>&#x017F;</hi>e <lb/> degen here.</l>
+<l xml:id="fr14_25.16">noch hat hie ritter mere.</l>
+<l xml:id="fr14_25.17">kai<lb/>let vo<choice><am>&#x0304;</am><ex>n</ex></choice> ho&#x017F;cvra&#x017F;t.</l>
+<l xml:id="fr14_25.18">manigen zornigen ga&#x017F;t. <lb/></l>
+<l xml:id="fr14_25.19">di brachter alle <gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">n dizze</supplied> lant.</l>
+<l xml:id="fr14_25.20">d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;coten kv<lb/>nech Vridbrant.</l>
+<l xml:id="fr14_25.21">vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;ine gnoze viere. <lb/></l>
+<l xml:id="fr14_25.22">mit mange<choice><am>&#x0304;</am><ex>m</ex></choice> &#x017F;oldiere.</l>
+<l xml:id="fr14_25.23"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">W</seg><gap reason="unleserlich" extent="1" unit="Buchstabe"/>&#x017F;teR halp dort <lb/> an dem mer.</l>
+<l xml:id="fr14_25.24">da lit J&#x017F;enharts her.</l>
+<l xml:id="fr14_25.25">mit vlie<lb/>zenden ovgen.</l>
+<l xml:id="fr14_25.26">offenlich noch tovgen.</l>
+<l xml:id="fr14_25.27">ge<lb/>&#x017F;cah &#x017F;i nim<choice><am>&#x0309;</am><ex>er</ex></choice> mer dechein man.</l>
+<l xml:id="fr14_25.28">&#x017F;ine mv&#x0366;<lb/>&#x017F;en iamers wnd<choice><am>&#x0309;</am><ex>er</ex></choice> han.</l>
+<l xml:id="fr14_25.29">ir hercen regen di <lb/> g<gap reason="unleserlich" extent="1" unit="Buchstabe"/>&#x017F;&#x017F;e warp.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_25.29 #Fr14001vb"><ref>regen</ref>: Laut Bonath über dem ersten <ref>e</ref> ein r-ähnlicher Haken in blasser Tinte.</note>
+<l xml:id="fr14_25.30">&#x017F;it ander <unclear reason="Zweifel">t</unclear>io&#x017F;t ir herre &#x017F;tarp. <lb/></l>
+<l xml:id="fr14_26.01">der g<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">a</unclear></supplied>&#x017F;t zer wirtinne.</l>
+<l xml:id="fr14_26.02">&#x017F;prach mit ritters <lb/> &#x017F;inne.</l>
+<l xml:id="fr14_26.03">&#x017F;aget mir ob irs gerv&#x0366;chet.</l>
+<l xml:id="fr14_26.04">durch <lb/> waz man ivch &#x017F;o &#x017F;v&#x0366;chet.</l>
+<l xml:id="fr14_26.05">zornliche mit <lb/> gewalt.</l>
+<l xml:id="fr14_26.06">ir habt &#x017F;o mangen degen balt. <lb/></l>
+<l xml:id="fr14_26.07">mich mv&#x0366;t daz di &#x017F;int beladen.</l>
+<l xml:id="fr14_26.08">mit vien<lb/>de hazze nach ir &#x017F;chaden.</l>
+<l xml:id="fr14_26.09">daz &#x017F;age ich <lb/> herre &#x017F;it irs gert.</l>
+<l xml:id="fr14_26.10">mir diende ein ritter <lb/> der wa&#x017F; wert.</l>
+<l xml:id="fr14_26.11">&#x017F;in lip wa&#x017F; tvgende ein <lb/> berende ri&#x017F;.</l>
+<l xml:id="fr14_26.12">der helt wa&#x017F; chv&#x0366;ne vn<choice><am>&#x0304;</am><ex>de</ex></choice> wi&#x017F;. <lb/></l>
+<l xml:id="fr14_26.13">der trw&#x0366;e ein r<unclear reason="Zweifel">eh</unclear><gap reason="Fragmentverlust" extent="unbekannt"/> <subst hand="#sr"><del>*</del><add><gap reason="unleserlich" extent="unbekannt"/>iv</add></subst> <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">frvht.</unclear></supplied></l>
+<l xml:id="fr14_26.14">&#x017F;in <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr14002r"/><cb xml:id="fr14002ra"/>
+<l xml:id="fr14_41.09"><gap reason="Fragmentverlust" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">Raza</supplied>lich da hiez.</l>
+<l xml:id="fr14_41.10">decheine<choice><am>&#x0304;</am><ex>n</ex></choice> tach <lb/> daz n<supplied reason="unleserlich" resp="Sekundärliteratur">im</supplied>er liez.</l>
+<l xml:id="fr14_41.11">der <supplied reason="unleserlich" resp="Sekundärliteratur">rich</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;te</supplied> von <supplied reason="unleserlich" resp="Sekundärliteratur">Azago<lb/>vch</supplied>.</l>
+<l xml:id="fr14_41.12">&#x017F;in ge&#x017F;l<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>chte im des nicht enlo&#x036E;ch. <lb/></l>
+<l xml:id="fr14_41.13">vo<choice><am>&#x0304;</am><ex>n</ex></choice> k. frvcht wa&#x017F; &#x017F;in art.</l>
+<l xml:id="fr14_41.14">der ho&#x036E;p &#x017F;ich <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied>mer dane wart.</l>
+<l xml:id="fr14_41.15">dvrch tiv&#x017F;tieren gege<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> der &#x017F;tat.</l>
+<l xml:id="fr14_41.16">alda tet &#x017F;iner chrefte mat. <lb/></l>
+<l xml:id="fr14_41.17">der helt vo<choice><am>&#x0304;</am><ex>n</ex></choice> An&#x017F;cowe.</l>
+<l xml:id="fr14_41.18">daz chlaget ein <lb/> &#x017F;warziv frowe.</l>
+<l xml:id="fr14_41.19">div in hete dar ge&#x017F;ant. <lb/></l>
+<l xml:id="fr14_41.20">daz in da jemen vb<choice><am>&#x0309;</am><ex>er</ex></choice>want.</l>
+<l xml:id="fr14_41.21">ein knppe bot <lb/> al &#x017F;vnder bete.</l>
+<l xml:id="fr14_41.22">&#x017F;ime herren Gahmvrete. <lb/></l>
+<l xml:id="fr14_41.23">ein &#x017F;<choice><am>&#xA751;</am><ex>per</ex></choice> dem wa&#x017F; der &#x017F;caft ein ror.</l>
+<l xml:id="fr14_41.24">da mit <lb/> &#x017F;tach er den mor.</l>
+<l xml:id="fr14_41.25">hinderz ors vf d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n <lb/> griz.</l>
+<l xml:id="fr14_41.26">nicht langer er in ligen liez.</l>
+<l xml:id="fr14_41.27">da <lb/> twang in &#x017F;icherheit &#x017F;in hant.</l>
+<l xml:id="fr14_41.28">do wa&#x017F; <lb/> daz vrliv&#x0366;ge lant.</l>
+<l xml:id="fr14_41.29">vn<choice><am>&#x0304;</am><ex>de</ex></choice> im ein groz<choice><am>&#x0309;</am><ex>er</ex></choice> pri&#x017F; <lb/> ge&#x017F;cehen.</l>
+<l xml:id="fr14_41.30">Gahmvret begvnde &#x017F;ehen. <lb/></l>
+<l xml:id="fr14_42.01">acht vanen &#x017F;waimen gegen der &#x017F;tat. <lb/></l>
+<l xml:id="fr14_42.02">di er balde wenden bat.</l>
+<l xml:id="fr14_42.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">D</seg>en chv&#x0366;ne<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;</supplied>iglo&#x017F;en man.</l>
+<l xml:id="fr14_42.04">dar nach gebot er im do <lb/> &#x017F;an.</l>
+<l xml:id="fr14_42.05">daz er <gap reason="Fragmentverlust" extent="unbekannt"/> nah im in.</l>
+<l xml:id="fr14_42.06">daz tet <lb/> er wan ez &#x017F;olt et &#x017F;in.</l>
+<l xml:id="fr14_42.07">Ga&#x017F;cier &#x017F;in cho<lb/>men <supplied reason="unleserlich" resp="Sekundärliteratur">ovch n</supplied>icht <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_42.08"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> dem inen <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">wart</supplied> <gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">wirt.</supplied></l>
+<l xml:id="fr14_42.09">daz &#x017F;in ga&#x017F;t wa&#x017F; chom<choice><am>&#x0304;</am><ex>en</ex></choice> <lb/> vz</l>
+<l xml:id="fr14_42.10"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied> i&#x017F;en al&#x017F; ein &#x017F;trvz.</l>
+<l xml:id="fr14_42.11">vn<choice><am>&#x0304;</am><ex>de</ex></choice> <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;t</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">che fl</supplied><gap reason="unleserlich" extent="unbekannt"/> ver&#x017F;lant.</l>
+<l xml:id="fr14_42.12">daz machte daz <lb/> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ht</supplied> <gap reason="unleserlich" extent="unbekannt"/>ant.</l>
+<l xml:id="fr14_42.13">&#x017F;in zorn begvnde lim<lb/><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_42.14"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">ein</supplied> lewe primmen.</l>
+<l xml:id="fr14_42.15">do bra<lb/>ch er vz &#x017F;in eigen har.</l>
+<l xml:id="fr14_42.16">er &#x017F;prach nv <lb/> <gap reason="unleserlich" extent="unbekannt"/>iv iar.</l>
+<l xml:id="fr14_42.17">nach grozer <gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">vm</supplied><lb/><supplied reason="unleserlich" resp="Sekundärliteratur">phe</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">t.</supplied></l>
+<l xml:id="fr14_42.18">di gote heten mir ge<lb/><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_42.19"><gap reason="unleserlich" extent="unbekannt"/> chv&#x0366;nen werden ga&#x017F;t.</l>
+<l xml:id="fr14_42.20">i&#x017F;t er <lb/> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;tri</supplied>t&#x017F; la&#x017F;t.</l>
+<l xml:id="fr14_42.21">&#x017F;one <supplied reason="unleserlich" resp="Sekundärliteratur">mag ich</supplied> <lb/> <gap reason="unleserlich" extent="unbekannt"/> werden wert.</l>
+<l xml:id="fr14_42.22">waz tovch <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">ir &#x017F;cil</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">vn<choice><am>&#x0304;</am><ex>de</ex></choice></supplied> &#x017F;wert.</l>
+<l xml:id="fr14_42.23">er &#x017F;ol mich <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;cel</supplied><lb/><supplied reason="unleserlich" resp="Sekundärliteratur">ten &#x017F;w</supplied><gap reason="unleserlich" extent="unbekannt"/>&#x017F; man.</l>
+<l xml:id="fr14_42.24"><supplied reason="unleserlich" resp="Sekundärliteratur">do</supplied> chert er <gap reason="unleserlich" extent="unbekannt"/> <lb/> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">an</supplied></l>
+<l xml:id="fr14_42.25"><unclear reason="Zweifel">gegen d</unclear><gap reason="unleserlich" extent="unbekannt"/><lb/><supplied reason="unleserlich" resp="Sekundärliteratur">te er vaste rv&#x0366;</supplied>rte.</l>
+<l xml:id="fr14_42.26"><supplied reason="unleserlich" resp="Sekundärliteratur">ein</supplied> <gap reason="unleserlich" extent="unbekannt"/> <lb/><supplied reason="unleserlich" resp="Sekundärliteratur">wider<hi>f</hi>v&#x0366;rte</supplied>.</l>
+<l xml:id="fr14_42.27">einen <hi>&#x017F;</hi>c<unclear reason="Zweifel">i</unclear>lt <gap reason="unleserlich" extent="unbekannt"/> <lb/>
+<cb xml:id="fr14002rb"/>
+inen d<unclear reason="Zweifel">e</unclear>r an.</l>
+<l xml:id="fr14_42.28">gema<hi>l</hi>t al&#x017F; ein <supplied reason="unleserlich" resp="Sekundärliteratur">dvrch&#x017F;t</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">he<choice><am>&#x0304;</am><ex>n</ex></choice></supplied> <lb/> man</l>
+<l xml:id="fr14_42.29">gew<supplied reason="unleserlich" resp="Sekundärliteratur">orcht in</supplied> <unclear reason="Zweifel">I</unclear>&#x017F;enharte&#x017F; <supplied reason="unleserlich" resp="Sekundärliteratur">lant.</supplied></l>
+<l xml:id="fr14_42.30">ei<supplied reason="unleserlich" resp="Sekundärliteratur">ne<choice><am>&#x0304;</am><ex>n</ex></choice></supplied> <lb/> helm er fv&#x0366;rte ovch in der hant.</l>
+<l xml:id="fr14_43.01">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> <lb/> ein &#x017F;wert daz Razalich.</l>
+<l xml:id="fr14_43.02">dvrch ellen <lb/> brachte in d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n wich.</l>
+<l xml:id="fr14_43.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">D</seg>a wa&#x017F; er von <lb/> ge&#x017F;ceiden.</l>
+<l xml:id="fr14_43.04">der chv&#x0366;ne &#x017F;warze heiden.</l>
+<l xml:id="fr14_43.05">d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>s <lb/> lop wa&#x017F; virrech vn<choice><am>&#x0304;</am><ex>de</ex></choice> wit.</l>
+<l xml:id="fr14_43.06">&#x017F;tarb er an tov<lb/>fen &#x017F;it.</l>
+<l xml:id="fr14_43.07">&#x017F;o erchenne &#x017F;ich vb<choice><am>&#x0309;</am><ex>er</ex></choice> den degen <lb/> balt.</l>
+<l xml:id="fr14_43.08">der aller wnd<choice><am>&#x0309;</am><ex>er</ex></choice> hat gewalt.</l>
+<l xml:id="fr14_43.09">do der <lb/> bvrg<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ve daz er&#x017F;ach.</l>
+<l xml:id="fr14_43.10">&#x017F;o rechte liebe im nie <lb/> ge&#x017F;cach.</l>
+<l xml:id="fr14_43.11">div wapen errechand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>.</l>
+<l xml:id="fr14_43.12">hin vz <lb/> der porte er rand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>.</l>
+<l xml:id="fr14_43.13">&#x017F;inen ga&#x017F;t &#x017F;ach er dort <lb/> halden.</l>
+<l xml:id="fr14_43.14">d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n ivngen nicht d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n alden.</l>
+<l xml:id="fr14_43.15">al ge<lb/>rend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;triteklicher tio&#x017F;t.</l>
+<l xml:id="fr14_43.16">do nam in Lah<lb/>filiro&#x017F;t</l>
+<l xml:id="fr14_43.17">&#x017F;in wirt der zoch in va&#x017F;te wider. <lb/></l>
+<l xml:id="fr14_43.18">eren &#x017F;tach <add hand="#sr">da</add> mere cheinen nider.</l>
+<l xml:id="fr14_43.19">Lahfiliro&#x017F;t <lb/> &#x017F;caherlacvnt.</l>
+<l xml:id="fr14_43.20">&#x017F;prach herre ir &#x017F;vlt mir <lb/> machen chvnt.</l>
+<l xml:id="fr14_43.21">hat betwngen iwer <lb/> hant.</l>
+<l xml:id="fr14_43.22">Razaligen vn&#x017F;er lant.</l>
+<l xml:id="fr14_43.23">i&#x017F;t champfe&#x017F; <lb/> &#x017F;icher imm<choice><am>&#x0309;</am><ex>er</ex></choice> mer.</l>
+<l xml:id="fr14_43.24">der i&#x017F;t <gap reason="unleserlich" extent="2" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">alden moren</supplied> <lb/> her.</l>
+<l xml:id="fr14_43.25">des getr<unclear reason="Zweifel">w&#x0366;</unclear>en <supplied reason="unleserlich" resp="Sekundärliteratur">I&#x017F;enharte&#x017F;</supplied> man.</l>
+<l xml:id="fr14_43.26">di vn&#x017F; <lb/> den &#x017F;caden <gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">getan</supplied></l>
+<l xml:id="fr14_43.27"><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;ich hat</supplied> <gap reason="unleserlich" extent="unbekannt"/> <lb/> vn&#x017F;er not.</l>
+<l xml:id="fr14_43.28">ein <supplied reason="unleserlich" resp="Sekundärliteratur">zorn</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">ch</supplied> got in <supplied reason="unleserlich" resp="Sekundärliteratur">daz gebot.</supplied> <lb/></l>
+<l xml:id="fr14_43.29">daz &#x017F;i vn&#x017F; hie &#x017F;vchten mit ir her.</l>
+<l xml:id="fr14_43.30">nv i&#x017F;t <lb/> en&#x017F;cvmpfieret ir <supplied reason="unleserlich" resp="Sekundärliteratur">wer</supplied></l>
+<l xml:id="fr14_44.01"><supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied> fv&#x0366;rt<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied> in daz <lb/> wa&#x017F; <supplied reason="unleserlich" resp="Sekundärliteratur">im</supplied> leit.</l>
+<l xml:id="fr14_44.02">div <supplied reason="unleserlich" resp="Sekundärliteratur">k</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">der</supplied>reit.</l>
+<l xml:id="fr14_44.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">S</seg>inen <lb/> zv&#x0366;m nam <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;i mit ir</supplied> hant.</l>
+<l xml:id="fr14_44.04">&#x017F;i en&#x017F;trichte <lb/> der finta<supplied reason="unleserlich" resp="Sekundärliteratur">len bant.</supplied></l>
+<l xml:id="fr14_44.05">der <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied> mv&#x0366;&#x017F;e <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">lazen</supplied></l>
+<l xml:id="fr14_44.06">&#x017F;ine knappen <supplied reason="unleserlich" resp="Sekundärliteratur">nicht v<choice><am>&#x0309;</am><ex>er</ex></choice>g</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied></l>
+<l xml:id="fr14_44.07">&#x017F;ine <lb/> cherten va&#x017F;te ir herren nach.</l>
+<l xml:id="fr14_44.08">dvrch di <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;tat</supplied> man fv&#x0366;ren &#x017F;ach.</l>
+<l xml:id="fr14_44.09">ir ga&#x017F;t di <supplied reason="unleserlich" resp="Sekundärliteratur">k.</supplied> wi&#x017F;. <lb/></l>
+<l xml:id="fr14_44.10"><supplied reason="unleserlich" resp="Sekundärliteratur">der</supplied> da behal<unclear reason="Zweifel">d</unclear>en het den pri&#x017F;.</l>
+<l xml:id="fr14_44.11">&#x017F;i erbeiz<lb/>te alda &#x017F;i<supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;</supplied> <supplied reason="unleserlich" resp="Sekundärliteratur">dv&#x0366;chte</supplied> <gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">it</supplied></l>
+<l xml:id="fr14_44.12">we wie getrw&#x0366;e <lb/> ir knappen &#x017F;it.</l>
+<l xml:id="fr14_44.13">ir w<unclear reason="Zweifel">e</unclear>net v<choice><am>&#x0309;</am><ex>er</ex></choice>lie&#x017F;en di&#x017F;en <lb/> man.</l>
+<l xml:id="fr14_44.14">dem <supplied reason="unleserlich" resp="Sekundärliteratur">wirt an</supplied> ivch gemach getan. <lb/></l>
+<l xml:id="fr14_44.15">nemt &#x017F;in ors vn<choice><am>&#x0304;</am><ex>de</ex></choice> <supplied reason="unleserlich" resp="Sekundärliteratur">fv&#x0366;rt daz</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_44.16"><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/> <lb/> ge&#x017F;elle <supplied reason="unleserlich" resp="Sekundärliteratur">ich hie</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_44.17"><gap reason="unleserlich" extent="unbekannt"/> <lb/> vf <supplied reason="unleserlich" resp="Sekundärliteratur">va</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/></l>
+<l xml:id="fr14_44.18"><supplied reason="unleserlich" resp="Sekundärliteratur">ent</supplied><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">hant</supplied></l>
+<pb xml:id="fr14002v"/><cb xml:id="fr14002va"/>
+<l xml:id="fr14_44.19"><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">gin</supplied></l>
+<l xml:id="fr14_44.20">ein dec<supplied reason="unleserlich" resp="Sekundärliteratur">he</supplied><lb/><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">in</supplied></l>
+<l xml:id="fr14_44.21"><supplied reason="unleserlich" resp="Sekundärliteratur">vn<choice><am>&#x0304;</am><ex>de</ex></choice></supplied> ein bette wol gehert. <lb/></l>
+<l xml:id="fr14_44.22"><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">ar</supplied> <gap reason="unleserlich" extent="2" unit="Buchstabe"/> im wart gemert.</l>
+<l xml:id="fr14_44.23">ein hainlichiv <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>
+<l xml:id="fr14_44.24"><gap reason="unleserlich" extent="unbekannt"/> wa&#x017F; niemen mer.</l>
+<l xml:id="fr14_44.25">di ivncfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">g</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><ref>gen</ref> fv&#x0366;r.</l>
+<l xml:id="fr14_44.26">vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;lvzzen nah hin zv&#x0366; di <lb/> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_44.27"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> pflach div k.</l>
+<l xml:id="fr14_44.28">einer werd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n &#x017F;v&#x0366;<lb/><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">minne</supplied></l>
+<l xml:id="fr14_44.29">vn<choice><am>&#x0304;</am><ex>de</ex></choice> Gahmvret ir hercen <lb/> tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></l>
+<note resp="#MiGe_Gegenleser" target="#?1_44.29 #Fr14002va"><ref>tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath Supraskriptum-o über dem unleserlichem Buchstaben.</note>
+<l xml:id="fr14_44.30">vng<unclear reason="Zweifel">e</unclear>lich wa&#x017F; doch ir zw&#x00E6;ir hv&#x0366;t. <lb/></l>
+<l xml:id="fr14_45.01">&#x017F;i brachten opfer&#x017F; vil ir goten.</l>
+<l xml:id="fr14_45.02">di vo<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> der <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;tat waz</supplied> wa&#x017F; geboten.</l>
+<l xml:id="fr14_45.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">D</seg>em <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">ch</supplied>v&#x0366;<gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">z</supplied>alige.</l>
+<l xml:id="fr14_45.04">do er &#x017F;ciet von <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">d</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ge</supplied>.</l>
+<l xml:id="fr14_45.05">daz l<supplied reason="unleserlich" resp="Sekundärliteratur">&#x00E6;</supplied>i&#x017F;t er dvrch t<choice><am>&#x0309;</am><ex>ri</ex></choice>we. <lb/></l>
+<l xml:id="fr14_45.06"><supplied reason="unleserlich" resp="Sekundärliteratur">d</supplied><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">wart</supplied> &#x017F;in iamer niwe.</l>
+<l xml:id="fr14_45.07">nah &#x017F;ime <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">herren</supplied> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ha</supplied>rt.</l>
+<l xml:id="fr14_45.08">der bvrg<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ve des in<lb/><supplied reason="unleserlich" resp="Sekundärliteratur">nen wart</supplied></l>
+<l xml:id="fr14_45.09"><gap reason="unleserlich" extent="2" unit="Buchstabe"/>z er chom da wart <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">ein &#x017F;cal</supplied></l>
+<l xml:id="fr14_45.10">dar chom<choice><am>&#x0304;</am><ex>en</ex></choice> di fvr&#x017F;ten vber <lb/> <gap reason="unleserlich" extent="2" unit="Buchstabe"/></l>
+<l xml:id="fr14_45.11">v&#x0366;z der <gap reason="unleserlich" extent="unbekannt"/> von <supplied reason="unleserlich" resp="Sekundärliteratur">zaza</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ch</supplied> <lb/></l>
+<l xml:id="fr14_45.12"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">im</supplied> <gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">pri</supplied>&#x017F;e&#x017F; danch.</l>
+<l xml:id="fr14_45.13"><supplied reason="unleserlich" resp="Sekundärliteratur">den</supplied> er <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">hete alda</supplied> beza<supplied reason="unleserlich" resp="Sekundärliteratur">lt</supplied></l>
+<l xml:id="fr14_45.14">ze reht<choice><am>&#x0309;</am><ex>er</ex></choice> tio&#x017F;t het <lb/> <gap reason="unleserlich" extent="2" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">gevalt</supplied></l>
+<l xml:id="fr14_45.15">vier vn<choice><am>&#x0304;</am><ex>de</ex></choice> zwenzech <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied> <lb/> nider.</l>
+<l xml:id="fr14_45.16">vn<choice><am>&#x0304;</am><ex>de</ex></choice> zoch ir or<unclear reason="Zweifel">s</unclear> alm<supplied reason="unleserlich" resp="Sekundärliteratur">ai&#x017F;tich</supplied> wider. <lb/></l>
+<note resp="#MiGe_Gegenleser" target="#?1_45.16 #Fr14002va"><ref>alm<supplied reason="unleserlich" resp="Sekundärliteratur">ai&#x017F;tich</supplied></ref>: Bonath zufolge ist auch die Lesung <ref>alm&#x00E6;i&#x017F;tich</ref> möglich.</note>
+<l xml:id="fr14_45.17">da <supplied reason="unleserlich" resp="Sekundärliteratur">waren</supplied> gevangen fvr&#x017F;ten dri.</l>
+<l xml:id="fr14_45.18">den <lb/> reit <supplied reason="unleserlich" resp="Sekundärliteratur">manech</supplied> ritter bi.</l>
+<l xml:id="fr14_45.19">ze hof vf d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n <lb/> pala&#x017F;.</l>
+<l xml:id="fr14_45.20">en&#x017F;lafen vn<choice><am>&#x0304;</am><ex>de</ex></choice> enbizzen wa&#x017F;.</l>
+<l xml:id="fr14_45.21">vn<choice><am>&#x0304;</am><ex>de</ex></choice> <lb/> w<unclear reason="Zweifel">u</unclear>nechliche gefeit.</l>
+<l xml:id="fr14_45.22">mit chleidern <lb/> wol bereit.</l>
+<l xml:id="fr14_45.23">wa&#x017F; de&#x017F; hoh&#x017F;ten wirtes <lb/> lip.</l>
+<l xml:id="fr14_45.24">div e&#x0302; hiz maget div wa&#x017F; nv wip. <lb/></l>
+<l xml:id="fr14_45.25">div in her v&#x0366;z fvrte an ir hant.</l>
+<l xml:id="fr14_45.26">&#x017F;i &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice><lb/>ch min lip vn<choice><am>&#x0304;</am><ex>de</ex></choice> ovch min lant.</l>
+<l xml:id="fr14_45.27">i&#x017F;t di&#x017F;e<choice><am>&#x0304;</am><ex>m</ex></choice> <lb/> ritter vnd<choice><am>&#x0309;</am><ex>er</ex></choice>tan.</l>
+<l xml:id="fr14_45.28">ob ez im viend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> wellent <lb/> lan.</l>
+<l xml:id="fr14_45.29">da wart gevolget Gahmvret.</l>
+<l xml:id="fr14_45.30">einer <lb/> hofflichen bet.</l>
+<l xml:id="fr14_46.01">get naher min her <lb/> Razalich.</l>
+<l xml:id="fr14_46.02">ir &#x017F;cvlt chv&#x017F;&#x017F;en min wip. <lb/></l>
+<l xml:id="fr14_46.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">A</seg>ls <supplied reason="unleserlich" resp="Sekundärliteratur">tv&#x0366;t</supplied> ovch ir her Ga&#x017F;cier.</l>
+<l xml:id="fr14_46.04">hv&#x0366;te<lb/>gern den &#x017F;cotten fier.</l>
+<l xml:id="fr14_46.05">bat er &#x017F;i chv&#x0366;&#x017F;<lb/>&#x017F;en an ir <supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></l>
+<note resp="#MiGe_Gegenleser" target="#?1_46.05 #Fr14002va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath befindet sich über dem unleserlichen Buchstaben nach dem <ref>m</ref> ein Supraskriptum-o.</note>
+<l xml:id="fr14_46.06">der wa&#x017F; von &#x017F;iner <lb/> tio&#x017F;t wnt.</l>
+<l xml:id="fr14_46.07">er bat &#x017F;i alle &#x017F;<supplied reason="unleserlich" resp="Sekundärliteratur">iz</supplied>en.</l>
+<l xml:id="fr14_46.08"><gap reason="unleserlich" extent="unbekannt"/><lb/>de <supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied> &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch mit wizzen.</l>
+<l xml:id="fr14_46.09"><supplied reason="unleserlich" resp="Sekundärliteratur">ich &#x017F;</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">he</supplied> <lb/>
+<cb xml:id="fr14002vb"/>
+<supplied reason="unleserlich" resp="Sekundärliteratur">o&#x036E;ch g</supplied><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">den neven m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/>.</l>
+<l xml:id="fr14_46.10"><gap reason="unleserlich" extent="unbekannt"/> <lb/> ez mit &#x017F;inen hvlden &#x017F;in.</l>
+<l xml:id="fr14_46.11"><supplied reason="unleserlich" resp="Sekundärliteratur">d<choice><am>&#x0309;</am><ex>er</ex></choice> in hie ge</supplied><lb/>vangen hat.</l>
+<l xml:id="fr14_46.12">ine han&#x017F; <supplied reason="unleserlich" resp="Sekundärliteratur">vo</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;ippe de</supplied><gap reason="unleserlich" extent="unbekannt"/> <lb/> rat.</l>
+<l xml:id="fr14_46.13">ine mv&#x0366;z in <supplied reason="unleserlich" resp="Sekundärliteratur">ledech mach</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/></l>
+<l xml:id="fr14_46.14"><supplied reason="unleserlich" resp="Sekundärliteratur">di</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/> <lb/> k. begvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> lachen.</l>
+<l xml:id="fr14_46.15">&#x017F;i hiez balde nach im <lb/> &#x017F;pringen.</l>
+<l xml:id="fr14_46.16">dort her begvnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> dringen. <lb/></l>
+<l xml:id="fr14_46.17">der minnechliche <supplied reason="unleserlich" resp="Sekundärliteratur">beac</supplied>vnt.</l>
+<l xml:id="fr14_46.18">der wa&#x017F; <lb/> von riter&#x017F;<gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">w</supplied>nt.</l>
+<l xml:id="fr14_46.19">vn<choice><am>&#x0304;</am><ex>de</ex></choice> het ovch da <lb/> vil gv&#x0366;t getan.</l>
+<l xml:id="fr14_46.20">Ga&#x017F;cier d<choice><am>&#x0309;</am><ex>er</ex></choice> orman.</l>
+<l xml:id="fr14_46.21"><supplied reason="unleserlich" resp="Sekundärliteratur">in dar</supplied> <lb/> brachte er wa&#x017F; cvrtoi&#x017F;.</l>
+<l xml:id="fr14_46.22">&#x017F;in vater wa&#x017F; <lb/> ein franzoi&#x017F;.</l>
+<l xml:id="fr14_46.23">er wa&#x017F; kailet&#x017F; &#x017F;we&#x017F;ter <lb/> barn.</l>
+<l xml:id="fr14_46.24">in wibes diene&#x017F;t er wa&#x017F; gevarn. <lb/></l>
+<l xml:id="fr14_46.25">er hiez killiriakak.</l>
+<l xml:id="fr14_46.26">aller manne <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;co&#x0364;n</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/> <lb/> er widerwach.</l>
+<l xml:id="fr14_46.27">do in <supplied reason="unleserlich" resp="Sekundärliteratur">Gahm</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">ret er &#x017F;ach</supplied> <lb/></l>
+<l xml:id="fr14_46.28">ir antlvzze &#x017F;ippe iach.</l>
+<l xml:id="fr14_46.29">div <gap reason="unleserlich" extent="unbekannt"/> ein <lb/> and<choice><am>&#x0309;</am><ex>er</ex></choice> vil gelich.</l>
+<l xml:id="fr14_46.30">er bat <supplied reason="unleserlich" resp="Sekundärliteratur">die k.</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_47.01"><supplied reason="unleserlich" resp="Sekundärliteratur">inchv&#x017F;</supplied><lb/>&#x017F;en vn<choice><am>&#x0304;</am><ex>de</ex></choice> vahen ce ir.</l>
+<l xml:id="fr14_47.02"><gap reason="unleserlich" extent="unbekannt"/> <lb/> her ce mir.</l>
+<l xml:id="fr14_47.03">der wirt <gap reason="unleserlich" extent="unbekannt"/> <lb/></l>
+<l xml:id="fr14_47.04">&#x017F;i waren <supplied reason="unleserlich" resp="Sekundärliteratur">ce &#x017F;ehen ein</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr14_47.05"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">G</seg>a<gap reason="Fragmentverlust" extent="unbekannt"/><lb/>m<unclear reason="Zweifel">v</unclear>ret <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;prach aber &#x017F;an</supplied></l>
+<l xml:id="fr14_47.06"><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/> man.</l>
+<l xml:id="fr14_47.07">waz &#x017F;olde her din chrancher lip. <lb/></l>
+<l xml:id="fr14_47.08">&#x017F;ag an gebot dir daz ein wip.</l>
+<l xml:id="fr14_47.09">di gebie<lb/>tent <subst hand="#sr"><del>wench</del><add>wenech</add></subst> h<choice><am>&#x0309;</am><ex>er</ex></choice>re mir.</l>
+<l xml:id="fr14_47.10">mich hat min <lb/> v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>tter Ga&#x017F;cier.</l>
+<l xml:id="fr14_47.11">her bracht er weiz wol <lb/> &#x017F;elbe wie</l>
+<l xml:id="fr14_47.12">ich han im tv&#x017F;ent ritter hie <lb/></l>
+<l xml:id="fr14_47.13">vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;ten im diene&#x017F;tliche<choice><am>&#x0304;</am><ex>n</ex></choice> bi.</l>
+<l xml:id="fr14_47.14">ce Ro&#x0364;ms <lb/> in Normandi.</l>
+<l xml:id="fr14_47.15">chom ich cer <unclear reason="Zweifel">S</unclear>amnvnge <lb/></l>
+<l xml:id="fr14_47.16">ich bracht dem helde ivnge.</l>
+<l xml:id="fr14_47.17">ich fv&#x0366;r <lb/> vo<choice><am>&#x0304;</am><ex>n</ex></choice> Scampanie dvrh in.</l>
+<l xml:id="fr14_47.18">nv wil chvn&#x017F;t <lb/> vn<choice><am>&#x0304;</am><ex>de</ex></choice> &#x017F;in.</l>
+<l xml:id="fr14_47.19">der &#x017F;cade an in cheren.</l>
+<l xml:id="fr14_47.20">ir ne <lb/> welt ivch &#x017F;elbe eren.</l>
+<l xml:id="fr14_47.21">gebietet ir &#x017F;o lat <lb/> in min.</l>
+<l xml:id="fr14_47.22">geniezen &#x017F;enftet &#x017F;inen pin. <lb/></l>
+<l xml:id="fr14_47.23">den rat nim dv vil gar zv dir.</l>
+<l xml:id="fr14_47.24">var dv <lb/> vn<choice><am>&#x0304;</am><ex>de</ex></choice> min her Ga&#x017F;cier.</l>
+<l xml:id="fr14_47.25">vn<choice><am>&#x0304;</am><ex>de</ex></choice> bringet mir <lb/> <unclear reason="Zweifel">K</unclear>aileten her.</l>
+<l xml:id="fr14_47.26">do <supplied reason="unleserlich" resp="Sekundärliteratur">w&#x0366;</supplied>rben &#x017F;i des helde&#x017F; <lb/> ger.</l>
+<l xml:id="fr14_47.27">&#x017F;i brachten in dvrch &#x017F;ine bete. <lb/></l>
+<l xml:id="fr14_47.28">do ward ovch er von Gahmvrete. <lb/></l>
+<l xml:id="fr14_47.29">minnec<hi>h</hi>lic<hi>h</hi>e en<hi>ph</hi>an<hi>g</hi>en.</l>
+<l xml:id="fr14_47.30">vnde <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+</body>
+</text>
+</TEI>

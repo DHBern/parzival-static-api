@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr55</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>27.03.23</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Wien</settlement>
+          <repository>Österreichische Nationalbibliothek</repository>
+          <idno>Cod. Ser. nov. 2698</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr55</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt (20.29)21.02-22.28</note>
+<note>Transkribiert von YCh ab Farbfotos (Studio). Januar 2010.</note>
+<note>Gegengelesen von JKl ab Farbfotos (Studio) 18.12.2016.</note>
+<note>Endredaktion von JKl ab Farbfotos (Studio) 18.12.2016.</note>
+<note>Autopsie durch LC am 16.08.2017.</note>
+<note>6.10.2018, MiGe: Die Hinzuziehung der Transkription von Menhart (Hermann Menhardt, Verzeichnis der altdeutschen literarischen Handschriften der Österreichischen Nationalbibliothek, Bd. 3 (Veröffentlichungen des Instituts für deutsche Sprache und Literatur 13), Berlin 1961, S. 1478.) brachte keine neuen Erkenntnisse.</note>
+<pb xml:id="fr55001v"/><cb xml:id="fr55001va"/>
+<l xml:id="fr55_20.29"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau-rot">D</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#YCh_Transkribent" target="#fr55_20.29 #Fr55001va"><ref><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: blau-rot">D</seg></ref>: Berechnung von Bonath/Lomnitzer. Siehe diess. S. 140.</note>
+<l xml:id="fr55_20.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.02">vra<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.03"><gap reason="Fragmentverlust" extent="unbekannt"/>it fr<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.04">den <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.05"><gap reason="Fragmentverlust" extent="unbekannt"/>az i&#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.06">daz <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.07"><gap reason="Fragmentverlust" extent="unbekannt"/>n&#x017F;er<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.08">daz <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.09"><gap reason="Fragmentverlust" extent="unbekannt"/>v &#x017F;ag<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.10">wer <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.11"><gap reason="Fragmentverlust" extent="unbekannt"/>row <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.12">de&#x017F; b<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.13"><gap reason="Fragmentverlust" extent="unbekannt"/>in a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.14">auoy<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.15"><gap reason="Fragmentverlust" extent="unbekannt"/>in li<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.16">wie <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.17"><gap reason="Fragmentverlust" extent="unbekannt"/>ntw<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.18">die v<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.19"><gap reason="Fragmentverlust" extent="unbekannt"/>ch &#x017F;a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.20">da d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.21"><gap reason="Fragmentverlust" extent="unbekannt"/>lexa<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.22">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.23"><gap reason="Fragmentverlust" extent="unbekannt"/>en B<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.24">wa<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.25"><gap reason="Fragmentverlust" extent="unbekannt"/>nde<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.26">do b<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.27"><gap reason="Fragmentverlust" extent="unbekannt"/>it &#x017F;i<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_21.27 #Fr55001va">: Rote Versalie zu erkennen.</note>
+<l xml:id="fr55_21.28">&#x017F;ine<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.29"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot-blau">D</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_21.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.02">het <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.03"><gap reason="Fragmentverlust" extent="unbekannt"/>v &#x017F;i<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.03 #Fr55001va">: Blaue Versalie zu erkennen.</note>
+<l xml:id="fr55_22.04">vnd<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.05"><gap reason="Fragmentverlust" extent="unbekannt"/>vi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.05 #Fr55001va">: Rote Versalie zu erkennen.</note>
+<l xml:id="fr55_22.06">da <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.07"><gap reason="Fragmentverlust" extent="unbekannt"/>er <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.07 #Fr55001va">: Blaue Versalie zu erkennen.</note>
+<l xml:id="fr55_22.08">er <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.09"><gap reason="Fragmentverlust" extent="unbekannt"/>wi <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.09 #Fr55001va">: Rote Versalie zu erkennen.</note>
+<l xml:id="fr55_22.10">da<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.11"><gap reason="Fragmentverlust" extent="unbekannt"/>b m<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.11 #Fr55001va">: Blaue Versalie zu erkennen.</note>
+<l xml:id="fr55_22.12">ich <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.13"><gap reason="Fragmentverlust" extent="unbekannt"/>er<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.13 #Fr55001va">: Rote Versalie zu erkennen.</note>
+<l xml:id="fr55_22.14">wi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.15"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;t <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.16">da<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.17"><gap reason="Fragmentverlust" extent="unbekannt"/>ro<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.17 #Fr55001va">: Rote Versalie zu erkennen.</note>
+<l xml:id="fr55_22.18">de&#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.19"><gap reason="Fragmentverlust" extent="unbekannt"/>ro<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#LC_Gegenleser" target="#fr55_22.19 #Fr55001va">: Blaue Versalie zu erkennen.</note>
+<l xml:id="fr55_22.20">da<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.21"><hi rend="rot"><hi rend="Versal">V</hi></hi>nd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.22">vn<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.23"><hi rend="blau">D</hi>az <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.24">w<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.25"><hi rend="rot"><hi rend="Versal">S</hi></hi>o b<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.26">de<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.27"><hi rend="blau">D</hi>ar<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr55_22.28">vi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+</body>
+</text>
+</TEI>

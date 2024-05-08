@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Synoptische Fassungsedition des Dreissigers 772</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>26.09.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Digital born.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Dreissiger" subtype="D" n="772">
+<div type="Textteil" subtype="D" n="772">
+<head>*D</head>
+<l n="*D 772.01"><seg type="Initiale">V</seg>on <name ref="rego:o0137" type="Ort">Lirivoyn</name> <seg type="große_Variante" n="a1">den künec</seg> <name ref="regp:p0279" type="Person">Schirniel</name></l>
+<l n="*D 772.02"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0023" type="Ort">Avendroyn</name> <seg type="kleine_Variante" n="a1">sînen</seg> bruoder <name ref="regp:p0221" type="Person">Mirabel</name>,</l>
+<l n="*D 772.03"><seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0287" type="Person">Serabil</name> von <name ref="rego:o0199" type="Ort">Rozokarz</name></l>
+<l n="*D 772.04">unt <seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0242" type="Person">Piblesun</name> von <name ref="rego:o0141" type="Ort"><seg type="große_Variante" n="b1">Lorneparz</seg></name>,</l>
+<l n="*D 772.05">von <name ref="rego:o0217" type="Ort">Sirnegunz</name> <seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0285" type="Person">Senilgorz</name></l>
+<l n="*D 772.06"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0253" type="Ort"><seg type="große_Variante" n="b1">Villegarunz</seg></name> <name ref="regp:p0294" type="Person">Strangedorz</name>,</l>
+<l n="*D 772.07">von <name ref="rego:o0147" type="Ort">Mirnetalle</name> <seg type="große_Variante" n="a1">den grâven</seg> <name ref="regp:p0265" type="Person">Rogedal</name></l>
+<l n="*D 772.08"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0175" type="Ort"><seg type="große_Variante" n="b1">Pleyedunze</seg></name> <name ref="regp:p0184" type="Person">Laudunal</name>,</l>
+<l n="*D 772.09"><seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0234" type="Person"><seg type="große_Variante" n="b1">Onipriz</seg></name> von <name ref="rego:o0100" type="Ort">Itolac</name></l>
+<l n="*D 772.10">unt <seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0328" type="Person">Zyrolan</name> von <name ref="rego:o0211" type="Ort">Semblidac</name>,</l>
+<l n="*D 772.11">von <name ref="rego:o0103" type="Ort">Jeroplis</name> <seg type="große_Variante" n="a1">den herzog<reg type="Synkope">e</reg>n</seg> <name ref="regp:p0140" type="Person">Jerneganz</name></l>
+<l n="*D 772.12"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0260" type="Ort"><seg type="große_Variante" n="b1">Zambron</seg></name> <seg type="große_Variante" n="v1">den grâven</seg> <name ref="regp:p0247" type="Person">Plineschanz</name>,</l>
+<l n="*D 772.13">von <name ref="rego:o0246" type="Ort">Tuteleunz</name> <seg type="große_Variante" n="a1">den grâven</seg> <name ref="regp:p0199" type="Person">Longefiez</name></l>
+<l n="*D 772.14">unt von <name ref="rego:o0043" type="Ort">Privegarz</name> <seg type="große_Variante" n="a1">den herzogen</seg> <name ref="regp:p0212" type="Person">Marangliez</name>,</l>
+<l n="*D 772.15">von <name ref="rego:o0174" type="Ort">Pictacon</name> <seg type="große_Variante" n="a1">den herzogen</seg> <name ref="regp:p0295" type="Person">Strennolas</name></l>
+<l n="*D 772.16"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0128" type="Ort">Lampregun</name> <seg type="große_Variante" n="b1">den grâven</seg> <name ref="regp:p0240" type="Person">Parfoyas</name>,</l>
+<l n="*D 772.17">von <name ref="rego:o0019" type="Ort">Ascalun</name> <seg type="große_Variante" n="a1">den</seg> künec <name ref="regp:p0319" type="Person">Vergulaht</name></l>
+<l n="*D 772.18"><seg type="große_Variante" n="a1">unt</seg> von <name ref="rego:o0181" type="Ort">Pranzile</name> <seg type="große_Variante" n="b1">den grâven</seg> <name ref="regp:p0039" type="Person"><seg type="große_Variante" n="c1">Bogudaht</seg></name>,</l>
+<l n="*D 772.19"><name ref="regp:p0253" type="Person">Postefar</name> von <name ref="rego:o0131" type="Ort">Laudundrehte</name></l>
+<l n="*D 772.20">unt <seg type="große_Variante" n="a1">den herzog<reg type="Synkope">e</reg>n</seg> <name ref="regp:p0188" type="Person">Leidebron</name> von <name ref="rego:o0188" type="Ort">Redunzehte</name>,</l>
+<l n="*D 772.21">von <name ref="rego:o0135" type="Ort">Leterbe</name> <name ref="regp:p0058" type="Person">Colleval</name></l>
+<l n="*D 772.22">unt <seg type="große_Variante" n="a1"><name ref="regp:p0147" type="Person">Jovedast</name> von <name ref="rego:o0016" type="Ort">Arel</name></seg>, <seg type="große_Variante" n="b1">ein</seg> <name ref="regp:p0257" type="Person">Provenzal</name>,</l>
+<l n="*D 772.23"><seg type="große_Variante" n="a1">von <name ref="rego:o0240" type="Ort">Tripparun</name> den grâven <name ref="regp:p0162" type="Person">Karfodyas</name></seg>.</l>
+<l n="*D 772.24">diz ergienc dâ turnieren was,</l>
+<l n="*D 772.25">die wîle ich nâch dem <name ref="regs:s0036" type="Sonstiges">Grâle</name> reit.</l>
+<l n="*D 772.26">solt ich gar nennen, <seg type="große_Variante" n="b1">dâ</seg> ich <seg type="große_Variante" n="c1">streit</seg>,</l>
+<l n="*D 772.27">daz w&#x00E6;ren unkundiu zil.</l>
+<l n="*D 772.28">durch nôt <seg type="große_Variante" n="a1">ichs muoz</seg> verswîgen vil.</l>
+<l n="*D 772.29"><seg type="kleine_Variante" n="a1">swaz</seg> <seg type="große_Variante" n="a1">ir</seg> mir kunt ist getân,</l>
+<l n="*D 772.30">die <seg type="große_Variante" n="a1">w&#x00E6;ne</seg> ich hie genennet hân."</l>
+</div>
+<div><listApp type="Verteilung" subtype="D" n="772"><app><rdg>
+<wit>D</wit> <wit>Fr2</wit> <note>(772.14-30)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="D" n="772">
+<app type="Gliederung" loc="*D 772.01">
+<rdg><note>Initiale</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 772.02"></app>
+ <app type="Gliederung" loc="*D 772.03"></app>
+ <app type="Gliederung" loc="*D 772.04"></app>
+ <app type="Gliederung" loc="*D 772.05"></app>
+ <app type="Gliederung" loc="*D 772.06"></app>
+ <app type="Gliederung" loc="*D 772.07"></app>
+ <app type="Gliederung" loc="*D 772.08"></app>
+ <app type="Gliederung" loc="*D 772.09"></app>
+ <app type="Gliederung" loc="*D 772.10"></app>
+ <app type="Gliederung" loc="*D 772.11"></app>
+ <app type="Gliederung" loc="*D 772.12"></app>
+ <app type="Gliederung" loc="*D 772.13"></app>
+ <app type="Gliederung" loc="*D 772.14"></app>
+ <app type="Gliederung" loc="*D 772.15"></app>
+ <app type="Gliederung" loc="*D 772.16"></app>
+ <app type="Gliederung" loc="*D 772.17"></app>
+ <app type="Gliederung" loc="*D 772.18"></app>
+ <app type="Gliederung" loc="*D 772.19"></app>
+ <app type="Gliederung" loc="*D 772.20"></app>
+ <app type="Gliederung" loc="*D 772.21"></app>
+ <app type="Gliederung" loc="*D 772.22"></app>
+ <app type="Gliederung" loc="*D 772.23"></app>
+ <app type="Gliederung" loc="*D 772.24"></app>
+ <app type="Gliederung" loc="*D 772.25"></app>
+ <app type="Gliederung" loc="*D 772.26"></app>
+ <app type="Gliederung" loc="*D 772.27"></app>
+ <app type="Gliederung" loc="*D 772.28"></app>
+ <app type="Gliederung" loc="*D 772.29"></app>
+ <app type="Gliederung" loc="*D 772.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="D" n="772">
+<app type="Lesart" loc="*D 772.01">
+<lem>Schirniel</lem><rdg>Scirniel <wit>D</wit> </rdg>
+</app>
+ <app type="Lesart" loc="*D 772.02"></app>
+ <app type="Lesart" loc="*D 772.03"></app>
+ <app type="Lesart" loc="*D 772.04"></app>
+ <app type="Lesart" loc="*D 772.05"></app>
+ <app type="Lesart" loc="*D 772.06"></app>
+ <app type="Lesart" loc="*D 772.07"></app>
+ <app type="Lesart" loc="*D 772.08"></app>
+<app type="Lesart" loc="*D 772.09">
+<lem>Itolac</lem><rdg>Jtolach <wit>D</wit> </rdg>
+</app>
+<app type="Lesart" loc="*D 772.10">
+<lem>Semblidac</lem><rdg>Semblidach <wit>D</wit> </rdg>
+</app>
+<app type="Lesart" loc="*D 772.11">
+<lem>Jeroplis</lem><rdg>Jeroplîs <wit>D</wit> </rdg>
+</app>
+<app type="Lesart" loc="*D 772.12">
+<lem>Plineschanz</lem><rdg>Plinescanz <wit>D</wit> </rdg>
+</app>
+<app type="Lesart" loc="*D 772.13">
+<lem>Longefiez</lem><rdg>Longefîez <wit>D</wit> </rdg>
+</app>
+ <app type="Lesart" loc="*D 772.14"></app>
+ <app type="Lesart" loc="*D 772.15"></app>
+<app type="Lesart" loc="*D 772.16">
+<lem>Parfoyas</lem><rdg>parfoias <wit>Fr2</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.17">
+<lem>Ascalun</lem><rdg>Aschalvn <wit>Fr2</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.18">
+<lem>Pranzile</lem><rdg>Pranzîle <wit>D</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.19">
+<lem>Laudundrehte</lem><rdg>Lavdvndrêhte <wit>D</wit> Landvndrehte <wit>Fr2</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.20">
+<lem>Redunzehte</lem><rdg>Redvnzêhte <wit>D</wit> Redvn::: <wit>Fr2</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 772.21"></app>
+<app type="Lesart" loc="*D 772.22">
+<lem>Arel</lem><rdg>art <wit>Fr2</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.23">
+<lem>Tripparun</lem><rdg>Tipparvn <wit>Fr2</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 772.23">
+<lem>Karfodyas</lem><rdg>karfodŷas <wit>D</wit> Carfozas <wit>Fr2</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 772.24"></app>
+ <app type="Lesart" loc="*D 772.25"></app>
+ <app type="Lesart" loc="*D 772.26"></app>
+ <app type="Lesart" loc="*D 772.27"></app>
+<app type="Lesart" loc="*D 772.28">
+<lem>ichs</lem><rdg>ich <wit>Fr2</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 772.29"></app>
+ <app type="Lesart" loc="*D 772.30"></app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="m" n="772">
+<div type="Textteil" subtype="m" n="772">
+<head>*m</head>
+<l n="*m 772.01">von <name ref="rego:o0137" type="Ort">Lirwoin</name> <seg type="große_Variante" n="a2">der künic</seg> <name ref="regp:p0279" type="Person">Schirniel</name>,</l>
+<l n="*m 772.02">von <name ref="rego:o0023" type="Ort">Avendr<corr type="Emendation">oi</corr>n</name> <seg type="kleine_Variante" n="a2">sîn</seg> bruoder <name ref="regp:p0221" type="Person">Mirabel</name>,</l>
+<l n="*m 772.03"><seg type="große_Variante" n="a2">der</seg> künic <name ref="regp:p0287" type="Person">S<corr type="Emendation">e</corr>rabil</name> von <name ref="rego:o0199" type="Ort">Rozokarz</name></l>
+<l n="*m 772.04"><corr type="Emendation">und</corr> <seg type="große_Variante" n="a2">der</seg> künic <name ref="regp:p0242" type="Person">Pibl<corr type="Emendation">e</corr>s<corr type="Emendation">un</corr></name> von <name ref="rego:o0141" type="Ort"><seg type="große_Variante" n="b1">Lor<corr type="Emendation">ne</corr>parz</seg></name>,</l>
+<l n="*m 772.05"><corr type="Emendation">von <name ref="rego:o0217" type="Ort">Sirnegunz</name> <seg type="große_Variante" n="a1">den</seg> künic <name ref="regp:p0285" type="Person">Selingorz</name></corr></l>
+<l n="*m 772.06">von <name ref="rego:o0253" type="Ort"><seg type="große_Variante" n="b2">Villegrane</seg></name> <name ref="regp:p0294" type="Person">Strangedorz</name>,</l>
+<l n="*m 772.07">von <name ref="rego:o0147" type="Ort">Mirnetals</name> <seg type="große_Variante" n="a2">der grâve</seg> <name ref="regp:p0265" type="Person">Rogudal</name>,</l>
+<l n="*m 772.08">von <name ref="rego:o0175" type="Ort"><seg type="große_Variante" n="b1">Plei<corr type="Emendation">ed</corr>unz<reg type="Synkope">e</reg></seg></name> <name ref="regp:p0184" type="Person">Laud<corr type="Emendation">un</corr>al</name>,</l>
+<l n="*m 772.09"><seg type="große_Variante" n="a2">der</seg> künic <name ref="regp:p0234" type="Person"><seg type="große_Variante" n="b2">Conipries</seg></name> von <name ref="rego:o0100" type="Ort">Itolac</name></l>
+<l n="*m 772.10"><corr type="Emendation">und <seg type="große_Variante" n="a2">der</seg> künic <name ref="regp:p0328" type="Person">Zironal</name> von <name ref="rego:o0211" type="Ort">Semblidac</name></corr>,</l>
+<l n="*m 772.11">von <name ref="rego:o0103" type="Ort">Jeroplis</name> <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0140" type="Person">Jerneganz</name>,</l>
+<l n="*m 772.12">von <name ref="rego:o0260" type="Ort"><seg type="große_Variante" n="b2">Tampron</seg></name> <seg type="große_Variante" n="c2">der grâve</seg> <name ref="regp:p0247" type="Person">Plineschanz</name>,</l>
+<l n="*m 772.13">von <name ref="rego:o0246" type="Ort">Tut<corr type="Emendation">e</corr>le<corr type="Emendation">unz</corr></name> <seg type="große_Variante" n="a2">der grâve</seg> <name ref="regp:p0199" type="Person">Longefiez</name></l>
+<l n="*m 772.14">und von <name ref="rego:o0043" type="Ort">Pr<corr type="Emendation">i</corr>vegarz</name> <seg type="große_Variante" n="a2">herzog<reg type="Synkope">e</reg></seg> <name ref="regp:p0212" type="Person">Mara<corr type="Emendation">n</corr>gliez</name>,</l>
+<l n="*m 772.15">von <name ref="rego:o0174" type="Ort">Pictaton</name> <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0295" type="Person">Strenlas</name>,</l>
+<l n="*m 772.16">von <name ref="rego:o0128" type="Ort">Lamp<corr type="Emendation">r</corr>eg<corr type="Emendation">u</corr>n</name> <seg type="große_Variante" n="b2">der grâve</seg> <name ref="regp:p0240" type="Person">Pa<corr type="Emendation">r</corr>foias</name>,</l>
+<l n="*m 772.17">von <name ref="rego:o0019" type="Ort">Ascal<corr type="Emendation">un</corr></name> <seg type="große_Variante" n="a2">der</seg> künic <name ref="regp:p0319" type="Person">Vergulaht</name>,</l>
+<l n="*m 772.18">von <name ref="rego:o0181" type="Ort">Prancile</name> <seg type="große_Variante" n="b2">der grâve</seg> <name ref="regp:p0039" type="Person"><seg type="große_Variante" n="c2">Rohudaht</seg></name>,</l>
+<l n="*m 772.19"><name ref="regp:p0253" type="Person">Postefar</name> von <name ref="rego:o0131" type="Ort">Landru<corr type="Emendation">d</corr>e<corr type="Emendation">h</corr>t</name></l>
+<l n="*m 772.20">und <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0188" type="Person">Leidebrom</name> von <name ref="rego:o0188" type="Ort">Redonzeht</name>,</l>
+<l n="*m 772.21">von <name ref="rego:o0135" type="Ort">Let<corr type="Emendation">er</corr>b<reg type="Synkope">e</reg></name> <name ref="regp:p0058" type="Person">Colle<corr type="Emendation">v</corr>al</name></l>
+<l n="*m 772.22">und <seg type="große_Variante" n="a1">von <name ref="rego:o0016" type="Ort">Arl</name> <name ref="regp:p0147" type="Person">Jo<corr type="Emendation">v</corr>e<corr type="Emendation">da</corr>st</name></seg>, <seg type="große_Variante" n="b2">der</seg> <name ref="regp:p0257" type="Person">Provenzal</name>,</l>
+<l n="*m 772.23"><seg type="große_Variante" n="a2">von <name ref="rego:o0240" type="Ort">Trippar<corr type="Emendation">un</corr></name> der grâve <name ref="regp:p0162" type="Person"><corr type="Emendation">C</corr>arfoias</name></seg>.</l>
+<l n="*m 772.24">diz ergienc d<corr type="Emendation">â</corr> turnieren was,</l>
+<l n="*m 772.25">die wîle ich nâch dem <name ref="regs:s0036" type="Sonstiges">Grâl</name> reit.</l>
+<l n="*m 772.26">solt ich <seg type="große_Variante" n="a1">iu</seg> gar nennen, <seg type="große_Variante" n="b1">d<corr type="Emendation">â</corr></seg> ich <seg type="große_Variante" n="c1">streit</seg>,</l>
+<l n="*m 772.27">daz w&#x00E6;ren unkundiu z<corr type="Emendation">i</corr>l.</l>
+<l n="*m 772.28">durch nôt <seg type="große_Variante" n="a2">muoz ich</seg> verswîgen <corr type="Emendation">vi</corr>l.</l>
+<l n="*m 772.29"><seg type="kleine_Variante" n="a2">waz</seg> <seg type="große_Variante" n="a1">ir</seg> mir kunt ist getân,</l>
+<l n="*m 772.30">die <seg type="große_Variante" n="a1">w&#x00E6;ne</seg> ich hie genennet hân."</l>
+</div>
+<div><listApp type="Verteilung" subtype="m" n="772"><app><rdg>
+<wit>mk</wit> <wit>nk</wit> <wit>ok</wit> <wit>V</wit> <wit>VV</wit> <wit>W</wit> <wit>Fr6</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="m" n="772">
+ <app type="Gliederung" loc="*m 772.01"></app>
+ <app type="Gliederung" loc="*m 772.02"></app>
+ <app type="Gliederung" loc="*m 772.03"></app>
+ <app type="Gliederung" loc="*m 772.04"></app>
+ <app type="Gliederung" loc="*m 772.05"></app>
+ <app type="Gliederung" loc="*m 772.06"></app>
+ <app type="Gliederung" loc="*m 772.07"></app>
+ <app type="Gliederung" loc="*m 772.08"></app>
+ <app type="Gliederung" loc="*m 772.09"></app>
+ <app type="Gliederung" loc="*m 772.10"></app>
+ <app type="Gliederung" loc="*m 772.11"></app>
+ <app type="Gliederung" loc="*m 772.12"></app>
+ <app type="Gliederung" loc="*m 772.13"></app>
+ <app type="Gliederung" loc="*m 772.14"></app>
+ <app type="Gliederung" loc="*m 772.15"></app>
+ <app type="Gliederung" loc="*m 772.16"></app>
+ <app type="Gliederung" loc="*m 772.17"></app>
+ <app type="Gliederung" loc="*m 772.18"></app>
+ <app type="Gliederung" loc="*m 772.19"></app>
+ <app type="Gliederung" loc="*m 772.20"></app>
+ <app type="Gliederung" loc="*m 772.21"></app>
+ <app type="Gliederung" loc="*m 772.22"></app>
+ <app type="Gliederung" loc="*m 772.23"></app>
+ <app type="Gliederung" loc="*m 772.24"></app>
+ <app type="Gliederung" loc="*m 772.25"></app>
+ <app type="Gliederung" loc="*m 772.26"></app>
+ <app type="Gliederung" loc="*m 772.27"></app>
+ <app type="Gliederung" loc="*m 772.28"></app>
+ <app type="Gliederung" loc="*m 772.29"></app>
+ <app type="Gliederung" loc="*m 772.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="m" n="772">
+<app type="Lesart" loc="*m 772.01">
+<lem>Lirwoin</lem><rdg>lyrivon <wit>V</wit> lyri <wit>VV</wit> lirauoin <wit>W</wit> liriuoin <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.01">
+<lem>der</lem><rdg>den <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.01">
+<lem>Schirniel</lem><rdg>lirniel <wit>nk</wit> Scirnẏel <wit>V</wit> scirnifel <wit>VV</wit> schirmel <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.02">
+<lem>von</lem><rdg>Vnde von <wit>V</wit> (<wit>Fr6</wit>) Vnd <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.02">
+<lem>Avendroin</lem><rdg>Auendran <wit>mk</wit> auendroin <wit>nk</wit> <wit>W</wit> (<wit>Fr6</wit>) auendewn <wit>ok</wit> auendrom <wit>V</wit> <note>om.</note> <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.03">
+<lem>Serabil</lem><rdg>sorabil <wit>mk</wit> <wit>nk</wit> sarabil <wit>ok</wit> <note>om.</note> <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.03">
+<lem>Rozokarz</lem><rdg>rozokartz <wit>mk</wit> <wit>nk</wit> rozokrancz <wit>ok</wit> Rosokarz <wit>V</wit> <wit>VV</wit> rosekatz <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<rdg><note>Vers 772.4 fehlt</note> <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<rdg><note>Versfolge 772.5-6-4</note> <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<lem>und</lem><rdg>Von <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<lem>Piblesun</lem><rdg>piblisim <wit>mk</wit> <wit>nk</wit> piblisu̽n <wit>ok</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<lem>von</lem><rdg>vnd <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.04">
+<lem>Lorneparz</lem><rdg>lorpartz <wit>mk</wit> lorparcz <wit>ok</wit> lopratz <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.05">
+<rdg><note>Vers 772.5 fehlt</note> <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.05">
+<rdg>Vnd den kvnig selingorcz <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.05">
+<lem>Sirnegunz</lem><rdg>surneguntz <wit>nk</wit> sir negencz <wit>ok</wit> Sẏrneguns <wit>V</wit> sirueguntz <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.05">
+<lem>Selingorz</lem><rdg>senigartz <wit>nk</wit> selnigorcz <wit>ok</wit> selmgorz <wit>V</wit> seluigorz <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.06">
+<rdg><note>statt 772.6-30:</note> Vnd nach wol zweinzig kvnige vnd herren genant / Der namen mir alle sint erkant / Ane der namen mir sint <subst><del>vns*</del><add>vnkvnt</add></subst> / Der ist nach vile aldo zv stunt <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.06">
+<lem>von</lem><rdg>Vnde von <wit>V</wit> (<wit>Fr6</wit>) Vnd <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.06">
+<lem>Villegrane</lem><rdg>vellegrane <wit>ok</wit> <subst><del>villegarun*</del><add>villegaruns</add></subst> <wit>V</wit> ville graue <wit>W</wit> villegarinz <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.06">
+<lem>Strangedorz</lem><rdg>strangedortz <wit>mk</wit> <wit>nk</wit> stangadorcz <wit>ok</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.07">
+<lem>von</lem><rdg>Vnde von <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.07">
+<lem>Mirnetals</lem><rdg>nir netals <wit>ok</wit> myrmedals <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.07">
+<lem>Rogudal</lem><rdg>rodegal <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.08">
+<lem>von</lem><rdg>Vnde von <wit>V</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 772.08">
+<lem>Pleiedunze</lem><rdg>pleiguntz <wit>mk</wit> pleigduntz <wit>nk</wit> pleigdu̽ncz <wit>ok</wit> pleyedunze <wit>V</wit> pleyduntz <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.08">
+<lem>Laudunal</lem><rdg>laudimal <wit>mk</wit> <wit>nk</wit> laudanal <wit>ok</wit> lavdvnal <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.09">
+<rdg><note>Die Verse 772.9-10 fehlen</note> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.09">
+<lem>Conipries</lem><rdg>Ompries <wit>V</wit> onipriez <wit>Fr6</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.09">
+<lem>Itolac</lem><rdg>itolag <wit>mk</wit> <wit>nk</wit> <wit>ok</wit> Jtolac <wit>V</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.10">
+<rdg><note>Vers 772.10 fehlt</note> <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.10">
+<lem>Zironal</lem><rdg>Sẏrolan <wit>V</wit>     </rdg>
+</app>
+<app type="Lesart" loc="*m 772.10">
+<lem>Semblidac</lem><rdg>Semblidag <wit>V</wit> <subst><del>smblidac</del><add>semblidac</add></subst> <wit>Fr6</wit>     </rdg>
+</app>
+<app type="Lesart" loc="*m 772.11">
+<lem>Jeroplis</lem><rdg>iroplis <wit>nk</wit> Jeropliz <wit>V</wit> ieropelis <wit>W</wit> ieroplis <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.11">
+<lem>Jerneganz</lem><rdg>jernegantz <wit>mk</wit> ẏernegantz <wit>nk</wit> jernegancz <wit>ok</wit> irnegantz <wit>W</wit> ierneganz <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.12">
+<lem>von</lem><rdg>Vnde von <wit>V</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 772.12">
+<lem>Tampron</lem><rdg>tanbron <wit>nk</wit> <wit>ok</wit> Schambrvn <wit>V</wit> tambron <wit>W</wit> zambron <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.12">
+<lem>Plineschanz</lem><rdg>plineschantz <wit>mk</wit> <wit>nk</wit> plinoschancz <wit>ok</wit> irmeschantz <wit>W</wit> plinescanz <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.13">
+<lem>Tuteleunz</lem><rdg>tutule <wit>mk</wit> tutele vntze des <wit>nk</wit> tutelle vncz <wit>ok</wit> lútelevns <wit>V</wit> tuteluntz <wit>W</wit> tvtelvnz <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.13">
+<lem>Longefiez</lem><rdg>longevies <wit>mk</wit> longefies <wit>nk</wit> langeflois <wit>ok</wit> slongefieß <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.14">
+<lem>Privegarz</lem><rdg>prefegartz <wit>mk</wit> profegartz <wit>nk</wit> prefegarcz <wit>ok</wit> priuegarz <wit>V</wit> prefragrantz <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.14">
+<lem>herzoge</lem><rdg>der herzoge <wit>V</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 772.14">
+<lem>Marangliez</lem><rdg>Maraglies <wit>mk</wit> mannaglies <wit>nk</wit> maragleis <wit>ok</wit> morangließ <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.15">
+<rdg><note>Versdoppelung (mit Anteil aus Vers 772.14):</note> Von pictatun der hertzoge maraglies / Von pictaton der hertzoge strenlas <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.15">
+<lem>Pictaton</lem><rdg>Pytakon <wit>V</wit> picticon <wit>W</wit> ẏpictacon <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.15">
+<lem>Strenlas</lem><rdg>Strennolaz <wit>V</wit> syroloyas <wit>W</wit> strennolas <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.16">
+<rdg><note>Die Verse 772.16-18 kontrahiert zu:</note> Von lamprion der grofe rohudacht <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.16">
+<rdg>der grave von lampengvn parfoias <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.16">
+<lem>von</lem><rdg>Vnde von <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.16">
+<lem>Lampregun</lem><rdg>lampegrin <wit>mk</wit> lantperegun <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.16">
+<lem>Parfoias</lem><rdg>parifoias <wit>mk</wit> porfoẏas <wit>nk</wit> Parfolaz <wit>V</wit> poyfoyas <wit>W</wit> parfoias <wit>Fr6</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.17">
+<lem>Ascalun</lem><rdg>ascalim <wit>mk</wit> astalun <wit>W</wit> aschalvn <wit>Fr6</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.17">
+<lem>Vergulaht</lem><rdg>vergulacht <wit>nk</wit> <wit>W</wit> virgulat <wit>V</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.18">
+<rdg><note>Vers 772.18 fehlt</note> <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.18">
+<lem>von</lem><rdg>Vnd von <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.18">
+<lem>Prancile</lem><rdg>pranschile <wit>V</wit> praucile <wit>W</wit>   </rdg>
+</app>
+<app type="Lesart" loc="*m 772.18">
+<lem>Rohudaht</lem><rdg>Rohudat <wit>V</wit> rohudacht <wit>W</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*m 772.19">
+<lem>Postefar</lem><rdg>Pasteuar <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.19">
+<lem>von</lem><rdg>vnd von <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.19">
+<lem>Landrudeht</lem><rdg>landruhet <wit>mk</wit> landrudacht <wit>nk</wit> laudru̽dacht <wit>ok</wit> Landrundehte <wit>V</wit> (<wit>Fr6</wit>) landridacht <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.20">
+<lem>und</lem><rdg><note>om.</note> <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.20">
+<lem>der</lem><rdg><note>om.</note> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.20">
+<lem>Leidebrom</lem><rdg>leideprom <wit>nk</wit> leidebron <wit>ok</wit> <wit>W</wit> Ledebrun <wit>V</wit> leidebrein <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.20">
+<lem>Redonzeht</lem><rdg>redonzecht <wit>nk</wit> redonczeht <wit>ok</wit> Redurschehte <wit>V</wit> redunzaht <wit>W</wit> redvnzehte <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.21">
+<lem>Leterbe</lem><rdg><subst><del>letren</del><add>letreb</add></subst> <wit>mk</wit> leterb <wit>nk</wit> leterp <wit>ok</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.21">
+<lem>Colleval</lem><rdg>collenal <wit>mk</wit> <wit>nk</wit> <wit>ok</wit> kolefal <wit>V</wit> colleual <wit>W</wit> collebal <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.22">
+<lem>und</lem><rdg><note>om.</note> <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.22">
+<lem>Arl</lem><rdg>Arle <wit>V</wit> (<wit>W</wit>) </rdg>
+</app>
+<app type="Lesart" loc="*m 772.22">
+<lem>Jovedast</lem><rdg>jonest <wit>mk</wit> jonedast <wit>nk</wit> jonedacht <wit>ok</wit> Jofedast <wit>V</wit> ioredast <wit>W</wit> iovedast <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.22">
+<lem>der</lem><rdg>ein <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.22">
+<lem>Provenzal</lem><rdg>profenzal <wit>mk</wit> profenczol <wit>ok</wit> <subst><del>*</del><add>profenzal</add></subst> <wit>V</wit> prouenzal <wit>W</wit> (<wit>Fr6</wit>) </rdg>
+</app>
+<app type="Lesart" loc="*m 772.23">
+<lem>Tripparun</lem><rdg>tripparẏm <wit>mk</wit> tripparim <wit>ok</wit> cypraim <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.23">
+<lem>Carfoias</lem><rdg>tarfoias <wit>mk</wit> <wit>ok</wit> tarfoẏas <wit>nk</wit> karfoẏas <wit>V</wit> carfrias <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 772.24">
+<lem>dâ</lem><rdg>do <wit>mk</wit> <wit>nk</wit> <wit>ok</wit> <wit>V</wit> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.24">
+<lem>turnieren</lem><rdg>turnigen <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.25">
+<lem>nâch dem</lem><rdg>zu̽m <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.26">
+<lem>solt</lem><rdg>Sol <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.26">
+<lem>dâ</lem><rdg>Do <wit>mk</wit> (<wit>nk</wit> <wit>ok</wit> <wit>V</wit> <wit>W</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 772.27">
+<lem>unkundiu</lem><rdg>vmk:nde <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.27">
+<lem>zil</lem><rdg>zal <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.28">
+<lem>ich</lem><rdg>ichs <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.28">
+<lem>verswîgen</lem><rdg>verscheigen <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.28">
+<lem>vil</lem><rdg>wal <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.29">
+<lem>waz</lem><rdg>Swaz <wit>V</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 772.29">
+<lem>ir</lem><rdg>ie <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.30">
+<lem>hie</lem><rdg><note>om.</note> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 772.30">
+<rdg><note>nach 772.30: Einschub 772.30¹-30⁷⁴ (V) bzw. 772.30¹-30¹⁶, 30²¹-30³⁹, 30⁴³, 30⁵⁴-30⁵⁵, 30⁶⁶-30⁶⁸, 30⁷¹ (V') entspr. 'Troisième Continuation', Ep. 29, V. 42355-42438</note> <wit>V</wit> <wit>VV</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="G" n="772">
+<div type="Textteil" subtype="G" n="772">
+<head>*G</head>
+<l n="*G 772.01"><seg type="Initiale" subtype="Großinitiale">V</seg>on <name ref="rego:o0137" type="Ort">Liravoyn</name> <name ref="regp:p0279" type="Person">Tschernel</name></l>
+<l n="*G 772.02"><seg type="große_Variante" n="a1">unde</seg> von <name ref="rego:o0023" type="Ort">Avendroyn</name> <seg type="kleine_Variante" n="a2">sîn</seg> bruoder <name ref="regp:p0221" type="Person">Miradel</name>,</l>
+<l n="*G 772.03"></l>
+<l n="*G 772.04"></l>
+<l n="*G 772.05"></l>
+<l n="*G 772.06"></l>
+<l n="*G 772.07"></l>
+<l n="*G 772.08"></l>
+<l n="*G 772.09"></l>
+<l n="*G 772.10"></l>
+<l n="*G 772.11"></l>
+<l n="*G 772.12"></l>
+<l n="*G 772.13"></l>
+<l n="*G 772.14"></l>
+<l n="*G 772.15"></l>
+<l n="*G 772.16"></l>
+<l n="*G 772.17"></l>
+<l n="*G 772.18"></l>
+<l n="*G 772.19"></l>
+<l n="*G 772.20"></l>
+<l n="*G 772.21"></l>
+<l n="*G 772.22"></l>
+<l n="*G 772.23"><seg type="große_Variante" n="a3">der grâve <name ref="regp:p0350" type="Person">Minadas</name></seg>.</l>
+<l n="*G 772.24">ditze ergienc dâ turnieren was,</l>
+<l n="*G 772.25">die wîle ich nâch dem <name ref="regs:s0036" type="Sonstiges">Grâle</name> reit.</l>
+<l n="*G 772.26">solde ich gar nennen, <seg type="große_Variante" n="b2">daz</seg> ich <seg type="große_Variante" n="c1">streit</seg>,</l>
+<l n="*G 772.27">daz w&#x00E6;ren unkundiu zil.</l>
+<l n="*G 772.28">durch nôt <seg type="große_Variante" n="a3">ich muoz</seg> verswîgen vil.</l>
+<l n="*G 772.29"><seg type="kleine_Variante" n="a1">swaz</seg> mir kunt ist getân,</l>
+<l n="*G 772.30">die ich <seg type="große_Variante" n="b1">wênic</seg> hie <corr type="Emendation">g</corr>enennet hân."</l>
+</div>
+<div><listApp type="Verteilung" subtype="G" n="772"><app><rdg>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>M</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="G" n="772">
+<app type="Gliederung" loc="*G 772.01">
+<rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 772.02"></app>
+ <app type="Gliederung" loc="*G 772.03"></app>
+ <app type="Gliederung" loc="*G 772.04"></app>
+ <app type="Gliederung" loc="*G 772.05"></app>
+ <app type="Gliederung" loc="*G 772.06"></app>
+ <app type="Gliederung" loc="*G 772.07"></app>
+ <app type="Gliederung" loc="*G 772.08"></app>
+ <app type="Gliederung" loc="*G 772.09"></app>
+ <app type="Gliederung" loc="*G 772.10"></app>
+ <app type="Gliederung" loc="*G 772.11"></app>
+ <app type="Gliederung" loc="*G 772.12"></app>
+ <app type="Gliederung" loc="*G 772.13"></app>
+ <app type="Gliederung" loc="*G 772.14"></app>
+ <app type="Gliederung" loc="*G 772.15"></app>
+ <app type="Gliederung" loc="*G 772.16"></app>
+ <app type="Gliederung" loc="*G 772.17"></app>
+ <app type="Gliederung" loc="*G 772.18"></app>
+ <app type="Gliederung" loc="*G 772.19"></app>
+ <app type="Gliederung" loc="*G 772.20"></app>
+ <app type="Gliederung" loc="*G 772.21"></app>
+ <app type="Gliederung" loc="*G 772.22"></app>
+ <app type="Gliederung" loc="*G 772.23"></app>
+ <app type="Gliederung" loc="*G 772.24"></app>
+ <app type="Gliederung" loc="*G 772.25"></app>
+ <app type="Gliederung" loc="*G 772.26"></app>
+ <app type="Gliederung" loc="*G 772.27"></app>
+ <app type="Gliederung" loc="*G 772.28"></app>
+ <app type="Gliederung" loc="*G 772.29"></app>
+ <app type="Gliederung" loc="*G 772.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="G" n="772">
+<app type="Lesart" loc="*G 772.01">
+<lem>Liravoyn</lem><rdg>lirivo&#x036E;n <wit>G</wit> Liriuoin <wit>I</wit> lýravion <wit>L</wit> lirivoyn <wit>M</wit> lyravoin <wit>Z</wit> Lẏrivoẏn <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.01">
+<lem>Tschernel</lem><rdg>tschirniel <wit>G</wit> (<wit>L</wit>) <wit>Z</wit> Scriniel <wit>I</wit> schirniel <wit>M</wit> Tschirmel <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.02">
+<lem>unde</lem><rdg><note>om.</note> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.02">
+<lem>Avendroyn</lem><rdg>Avendroẏn <wit>G</wit> <wit>Fr18</wit> Auentroin <wit>I</wit> Avendroýn <wit>L</wit> avendin <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.02">
+<lem>Miradel</lem><rdg>onradel <wit>M</wit> Mẏradel <wit>Fr18</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 772.03"></app>
+ <app type="Lesart" loc="*G 772.04"></app>
+ <app type="Lesart" loc="*G 772.05"></app>
+ <app type="Lesart" loc="*G 772.06"></app>
+ <app type="Lesart" loc="*G 772.07"></app>
+ <app type="Lesart" loc="*G 772.08"></app>
+ <app type="Lesart" loc="*G 772.09"></app>
+ <app type="Lesart" loc="*G 772.10"></app>
+ <app type="Lesart" loc="*G 772.11"></app>
+ <app type="Lesart" loc="*G 772.12"></app>
+ <app type="Lesart" loc="*G 772.13"></app>
+ <app type="Lesart" loc="*G 772.14"></app>
+ <app type="Lesart" loc="*G 772.15"></app>
+ <app type="Lesart" loc="*G 772.16"></app>
+ <app type="Lesart" loc="*G 772.17"></app>
+ <app type="Lesart" loc="*G 772.18"></app>
+ <app type="Lesart" loc="*G 772.19"></app>
+ <app type="Lesart" loc="*G 772.20"></app>
+ <app type="Lesart" loc="*G 772.21"></app>
+ <app type="Lesart" loc="*G 772.22"></app>
+<app type="Lesart" loc="*G 772.23">
+<lem>Minadas</lem><rdg>fallarastias <wit>L</wit> von valerastas <wit>M</wit> saz <wit>Z</wit> falerostas <wit>Fr18</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 772.24"></app>
+<app type="Lesart" loc="*G 772.25">
+<lem>nâch</lem><rdg>von <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.26">
+<lem>gar</lem><rdg><note>om.</note> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.26">
+<lem>streit</lem><rdg>erstreit <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.27">
+<lem>daz</lem><rdg>Da <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.27">
+<lem>w&#x00E6;ren</lem><rdg>waren <wit>L</wit> (<wit>M</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 772.27">
+<lem>unkundiu</lem><rdg>vnkvndie <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 772.28"></app>
+<app type="Lesart" loc="*G 772.29">
+<lem>swaz</lem><rdg>Waz <wit>L</wit> (<wit>M</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 772.29">
+<lem>kunt</lem><rdg><subst><del>ýe</del><add>ýr</add></subst> kvnde <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.30">
+<lem>die ich wênic hie</lem><rdg>Die wane ich hie <wit>L</wit> Ein teil ich der <wit>Z</wit> Die wenich hie <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 772.30">
+<lem>genennet</lem><rdg>benennet <wit>G</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="T" n="772">
+<div type="Textteil" subtype="T" n="772">
+<head>*T</head>
+<l n="*T 772.01">von <name ref="rego:o0137" type="Ort">Lyravoin</name> <name ref="regp:p0279" type="Person">Tschirniel</name></l>
+<l n="*T 772.02"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0023" type="Ort">Avendroin</name> <seg type="kleine_Variante" n="a2">sîn</seg> bruoder <name ref="regp:p0221" type="Person">Mirabel</name>,</l>
+<l n="*T 772.03"><seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0287" type="Person">Serabyl</name> von <name ref="rego:o0199" type="Ort">Rozokraz</name></l>
+<l n="*T 772.04">und <seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0242" type="Person">Pliplesun</name> von <name ref="rego:o0141" type="Ort"><seg type="große_Variante" n="b2">Lereparz</seg></name>,</l>
+<l n="*T 772.05">von <name ref="rego:o0217" type="Ort">Sirnegunz</name> <seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0285" type="Person">Senilgroz</name></l>
+<l n="*T 772.06"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0253" type="Ort"><seg type="große_Variante" n="b1">Villegarunz</seg></name> <name ref="regp:p0294" type="Person">Strangedorz</name>,</l>
+<l n="*T 772.07">von <name ref="rego:o0147" type="Ort">Mirntalle</name> <seg type="große_Variante" n="a2">der grâve</seg> <name ref="regp:p0265" type="Person">Rogetal</name></l>
+<l n="*T 772.08"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0175" type="Ort"><seg type="große_Variante" n="b2">Pleidusse</seg></name> <name ref="regp:p0184" type="Person">Laudunal</name>,</l>
+<l n="*T 772.09"><seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0234" type="Person"><seg type="große_Variante" n="b3">Onypuez</seg></name> von <name ref="rego:o0100" type="Ort">Itolac</name></l>
+<l n="*T 772.10">und <seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0328" type="Person">Zirolan</name> von <name ref="rego:o0211" type="Ort">Semblidac</name>,</l>
+<l n="*T 772.11">von <name ref="rego:o0103" type="Ort">Jeroplis</name> <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0140" type="Person">Gerneganz</name></l>
+<l n="*T 772.12"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0260" type="Ort"><seg type="große_Variante" n="b1">Zanbron</seg></name> <seg type="große_Variante" n="c2">der grâve</seg> <name ref="regp:p0247" type="Person">Plyneschanz</name>,</l>
+<l n="*T 772.13">von <name ref="rego:o0246" type="Ort">Tuteleunz</name> <seg type="große_Variante" n="a2">der grâve</seg> <name ref="regp:p0199" type="Person">Longefiez</name></l>
+<l n="*T 772.14">und von <name ref="rego:o0043" type="Ort">Brevegariez</name> <seg type="große_Variante" n="a3">der herzoge</seg> <name ref="regp:p0212" type="Person">Marangliez</name>,</l>
+<l n="*T 772.15">von <name ref="rego:o0174" type="Ort">Pictacon</name> <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0295" type="Person">Strennolas</name></l>
+<l n="*T 772.16"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0128" type="Ort">Lampregun</name> <seg type="große_Variante" n="b2">der grâve</seg> <name ref="regp:p0240" type="Person">Parfoias</name>,</l>
+<l n="*T 772.17">von <name ref="rego:o0019" type="Ort">Ascalun</name> <seg type="große_Variante" n="a2">der</seg> künec <name ref="regp:p0319" type="Person">Vergulaht</name></l>
+<l n="*T 772.18"><seg type="große_Variante" n="a1">und</seg> von <name ref="rego:o0181" type="Ort">Pranzile</name> <seg type="große_Variante" n="b2">der grâve</seg> <name ref="regp:p0039" type="Person"><seg type="große_Variante" n="c1">Bogudacht</seg></name>,</l>
+<l n="*T 772.19"><name ref="regp:p0253" type="Person">Postefar</name> von <name ref="rego:o0131" type="Ort">Leudundrehte</name></l>
+<l n="*T 772.20">und <seg type="große_Variante" n="a2">der herzoge</seg> <name ref="regp:p0188" type="Person">Leidebrun</name> von <name ref="rego:o0188" type="Ort">Redunzehte</name>,</l>
+<l n="*T 772.21">von <name ref="rego:o0135" type="Ort">Leterbe</name> <name ref="regp:p0058" type="Person">Colleval</name></l>
+<l n="*T 772.22">und <seg type="große_Variante" n="a1"><name ref="regp:p0147" type="Person">Jofedast</name> von <name ref="rego:o0016" type="Ort">Arel</name></seg>, <seg type="große_Variante" n="b1">ein</seg> <name ref="regp:p0257" type="Person">Provenzal</name>,</l>
+<l n="*T 772.23"><seg type="große_Variante" n="a2">von <name ref="rego:o0240" type="Ort">Tripparun</name> der grâve <name ref="regp:p0162" type="Person">Kardofeydas</name></seg>.</l>
+<l n="*T 772.24">diz ergienc dâ tornieren was,</l>
+<l n="*T 772.25">die wîle ich nâch dem <name ref="regs:s0036" type="Sonstiges">Grâle</name> reit.</l>
+<l n="*T 772.26">solt ich gar nennen, <seg type="große_Variante" n="b2">daz</seg> ich <seg type="große_Variante" n="c2">erstreit</seg>,</l>
+<l n="*T 772.27">daz w&#x00E6;ren unkundiu zil.</l>
+<l n="*T 772.28">durch nôt <seg type="große_Variante" n="a3">ich muoz</seg> verswîgen vil.</l>
+<l n="*T 772.29"><seg type="kleine_Variante" n="a2">waz</seg> mir kunt ist getân,</l>
+<l n="*T 772.30">die ich <seg type="große_Variante" n="b1">wênec</seg> hie genennet hân."</l>
+</div>
+<div><listApp type="Verteilung" subtype="T" n="772"><app><rdg>
+<wit>U</wit> <wit>Q</wit> <wit>R</wit> <wit>Fr53</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="T" n="772">
+<app type="Gliederung" loc="*T 772.01">
+<rdg><note>Initiale</note> <wit>Q</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 772.02"></app>
+ <app type="Gliederung" loc="*T 772.03"></app>
+ <app type="Gliederung" loc="*T 772.04"></app>
+ <app type="Gliederung" loc="*T 772.05"></app>
+ <app type="Gliederung" loc="*T 772.06"></app>
+ <app type="Gliederung" loc="*T 772.07"></app>
+ <app type="Gliederung" loc="*T 772.08"></app>
+ <app type="Gliederung" loc="*T 772.09"></app>
+ <app type="Gliederung" loc="*T 772.10"></app>
+ <app type="Gliederung" loc="*T 772.11"></app>
+ <app type="Gliederung" loc="*T 772.12"></app>
+ <app type="Gliederung" loc="*T 772.13"></app>
+ <app type="Gliederung" loc="*T 772.14"></app>
+ <app type="Gliederung" loc="*T 772.15"></app>
+ <app type="Gliederung" loc="*T 772.16"></app>
+ <app type="Gliederung" loc="*T 772.17"></app>
+ <app type="Gliederung" loc="*T 772.18"></app>
+ <app type="Gliederung" loc="*T 772.19"></app>
+ <app type="Gliederung" loc="*T 772.20"></app>
+ <app type="Gliederung" loc="*T 772.21"></app>
+ <app type="Gliederung" loc="*T 772.22"></app>
+ <app type="Gliederung" loc="*T 772.23"></app>
+ <app type="Gliederung" loc="*T 772.24"></app>
+<app type="Gliederung" loc="*T 772.25">
+<rdg><note>Initiale</note> <wit>Q</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 772.26"></app>
+ <app type="Gliederung" loc="*T 772.27"></app>
+ <app type="Gliederung" loc="*T 772.28"></app>
+ <app type="Gliederung" loc="*T 772.29"></app>
+ <app type="Gliederung" loc="*T 772.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="T" n="772">
+<app type="Lesart" loc="*T 772.01">
+<rdg><note>Die Verse 764.13-774.30 fehlen</note> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.01">
+<lem>Lyravoin</lem><rdg><subst><del>lyravein</del><add>lyravoin</add></subst> <wit>U</wit> lyravoyn <wit>Q</wit> lirivoyn <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.01">
+<lem>Tschirniel</lem><rdg>thirinel <wit>Q</wit> der chvnich schirniel <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.02">
+<lem>Avendroin</lem><rdg>avondroyn <wit>Q</wit> avendroyn <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.03">
+<lem>Serabyl</lem><rdg>serahil <wit>Q</wit> serabil <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.03">
+<lem>Rozokraz</lem><rdg>rozokrantz <wit>Q</wit> rozobears <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.04">
+<lem>der</lem><rdg>den <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.04">
+<lem>Pliplesun</lem><rdg>pliplesűn <wit>Q</wit> filesvsi <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.04">
+<lem>Lereparz</lem><rdg>lorepars <wit>Q</wit> lochfebars <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.05">
+<lem>Sirnegunz</lem><rdg>Sirnegu&#x0366;nz <wit>U</wit> sirnegunsz <wit>Q</wit> sirnegonet <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.05">
+<lem>der künec</lem><rdg>den konigk <wit>Q</wit> <note>om.</note> <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.05">
+<lem>Senilgroz</lem><rdg>senilgorsz <wit>Q</wit> schvtelgorz <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.06">
+<lem>Villegarunz</lem><rdg>villegaru&#x0366;nz <wit>U</wit> villegraúnz <wit>Q</wit> filegarzvn <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.06">
+<lem>Strangedorz</lem><rdg>sinangdroz <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.07">
+<lem>Mirntalle</lem><rdg>mirnetalle <wit>Q</wit> mi&#x0364;rnegalle <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.07">
+<lem>der grâve</lem><rdg>den grauen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.07">
+<lem>Rogetal</lem><rdg>rodegall <wit>Q</wit> roydal <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.08">
+<lem>Pleidusse</lem><rdg>Pleidu&#x0366;sse <wit>U</wit> pleiedunze <wit>Q</wit> bletvnz <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.08">
+<lem>Laudunal</lem><rdg>Laudu&#x0366;nal <wit>U</wit> laúdúnal <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.09">
+<lem>Onypuez</lem><rdg>onipries <wit>Q</wit> ompriez <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.09">
+<lem>Itolac</lem><rdg>Jtolac <wit>U</wit> ytholach <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.10">
+<lem>der</lem><rdg>den <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.10">
+<lem>Zirolan</lem><rdg>syrolan <wit>Q</wit> girolan <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.10">
+<lem>Semblidac</lem><rdg>semlidac <wit>Q</wit> senblidach <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.11">
+<lem>Jeroplis</lem><rdg>ieroplisz <wit>Q</wit> gerobli <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.11">
+<lem>Gerneganz</lem><rdg><subst><del>jirnegantz</del><add>jernegantz</add></subst> <wit>Q</wit> geradanz <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.12">
+<lem>Zanbron</lem><rdg>lambron <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.12">
+<lem>Plyneschanz</lem><rdg>plynescans <wit>Q</wit> blineschanz <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.13">
+<lem>Tuteleunz</lem><rdg>tuteleúnz <wit>Q</wit> tatelevnz <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.13">
+<lem>der grâve</lem><rdg>den grauen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.13">
+<lem>Longefiez</lem><rdg>longesies <wit>Q</wit> longiviez <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.14">
+<lem>Brevegariez</lem><rdg>priuegaritz <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.14">
+<lem>der herzoge</lem><rdg>den hertzogen <wit>Q</wit> hertzog <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.14">
+<lem>Marangliez</lem><rdg>marzigliez <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.15">
+<lem>Pictacon</lem><rdg>pitagon <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.15">
+<lem>der herzoge</lem><rdg>den hertzogen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.15">
+<lem>Strennolas</lem><rdg>stremiolasz <wit>Q</wit> syrnolas <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.16">
+<lem>Lampregun</lem><rdg>Lampregu&#x0366;n <wit>U</wit> lampregún <wit>Q</wit> lanpregvn <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.16">
+<lem>der grâve</lem><rdg>den grauen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.16">
+<lem>Parfoias</lem><rdg>parfoyas <wit>Q</wit> barvaras <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.17">
+<lem>Ascalun</lem><rdg>Aschalu&#x0366;n <wit>U</wit> ascalún <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.17">
+<lem>der</lem><rdg>den <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.17">
+<lem>Vergulaht</lem><rdg>vergulacht <wit>U</wit> <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.18">
+<lem>und</lem><rdg><note>om.</note> <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.18">
+<lem>Pranzile</lem><rdg>pranzil <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.18">
+<lem>der grâve</lem><rdg>dem grauen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.18">
+<lem>Bogudacht</lem><rdg>pogudach <wit>Q</wit> bogvdaht <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.19">
+<lem>Postefar</lem><rdg>Postepfar <wit>Q</wit> Hestefar <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.19">
+<lem>Leudundrehte</lem><rdg>leu&#x0366;du&#x0366;ndrehte <wit>U</wit> laudvndrechte <wit>Q</wit> lavde vnderreht <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.20">
+<lem>der herzoge</lem><rdg>den hertzogen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.20">
+<lem>Leidebrun</lem><rdg>leidebru&#x0366;n <wit>U</wit> liedebron <wit>Q</wit> ledebron <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.20">
+<lem>Redunzehte</lem><rdg>Redu&#x0366;nzehte <wit>U</wit> redűnzechte <wit>Q</wit> redvnzeht <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.21">
+<lem>Leterbe</lem><rdg>leterúe <wit>Q</wit> letbre <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.21">
+<lem>Colleval</lem><rdg>Colleual <wit>Q</wit> conlvual <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.22">
+<lem>Jofedast</lem><rdg>iouedast <wit>Q</wit> iovedast <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.22">
+<lem>Arel</lem><rdg>auel <wit>Q</wit> <note>om.</note> <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.22">
+<lem>ein</lem><rdg><note>om.</note> <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.22">
+<lem>Provenzal</lem><rdg>prouenzal <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.23">
+<lem>Tripparun</lem><rdg>Tripparu&#x0366;n <wit>U</wit> tripparún <wit>Q</wit> triparvn <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.23">
+<lem>der grâve</lem><rdg>den grauen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.23">
+<lem>Kardofeydas</lem><rdg>karfodias <wit>Q</wit> carforas <wit>Fr53</wit> </rdg>
+</app>
+<app type="Lesart" loc="*T 772.24">
+<lem>dâ</lem><rdg>do <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 772.25"></app>
+<app type="Lesart" loc="*T 772.26">
+<lem>daz</lem><rdg>da <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.26">
+<lem>erstreit</lem><rdg>streit <wit>Q</wit> (<wit>Fr53</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 772.27">
+<lem>w&#x00E6;ren</lem><rdg>warren <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 772.28"></app>
+<app type="Lesart" loc="*T 772.29">
+<lem>waz</lem><rdg>Swaz <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.29">
+<lem>mir</lem><rdg>mit <wit>Q</wit> i&#x0364;r mi&#x0364;r <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 772.30">
+<lem>ich wênec</lem><rdg>w&#x00E6;n ich <wit>Fr53</wit></rdg>
+</app>
+</listApp></div>
+</div>
+</body>
+</text>
+</TEI>

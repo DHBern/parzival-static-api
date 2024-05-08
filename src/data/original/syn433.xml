@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Synoptische Fassungsedition des Dreissigers 433</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>09.11.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Digital born.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Dreissiger" subtype="D" n="433">
+<div type="Textteil" subtype="D" n="433">
+<head>*D</head>
+<l n="*D 433.01">"<seg type="Initiale">T</seg>uot ûf!" "wem? wer sît ir?"</l>
+<l n="*D 433.02">"ich wil inz herze <seg type="große_Variante" n="a1">dîn</seg> zuo dir."</l>
+<l n="*D 433.03">"sô gert ir zengem rûme."</l>
+<l n="*D 433.04">"waz denne, belîbe ich kûme?</l>
+<l n="*D 433.05">mîn dringen soltû selten klag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 433.06">ich wil dir nû von wund<reg type="Synkope">e</reg>r sag<reg type="Synkope">e</reg>n."</l>
+<l n="*D 433.07">"jâ, sît irz, vrou Âventiure?</l>
+<l n="*D 433.08">wie vert der gehiure?</l>
+<l n="*D 433.09">ich meine den <seg type="große_Variante" n="a1">werden</seg> <name ref="regp:p0241" type="Person">Parzival</name>,</l>
+<l n="*D 433.10">den <name ref="regp:p0061" type="Person">Cundrie</name> nâch dem <name ref="regp:s0036" type="Sonstiges">Grâl</name></l>
+<l n="*D 433.11">mit unsüezen worten jagete,</l>
+<l n="*D 433.12">dâ manec vrouwe klagete,</l>
+<l n="*D 433.13">daz niht wendec <seg type="große_Variante" n="a1">wart</seg> sîn reise.</l>
+<l n="*D 433.14">von <name ref="regp:p0024" type="Person">Artuse</name>, dem <name ref="regp:p0038" type="Person">Berteneise</name>,</l>
+<l n="*D 433.15">huop er sich <seg type="singuläre_Lesart">dô</seg>. wie vert er nuo?</l>
+<l n="*D 433.16"><seg type="singuläre_Lesart">den</seg> selben <seg type="singuläre_Lesart">m&#x00E6;ren</seg> <seg type="große_Variante" n="a1"><seg type="singuläre_Lesart">grîfet</seg></seg> zuo,</l>
+<l n="*D 433.17">ob er an vreuden sî verzagt.</l>
+<l n="*D 433.18">oder hât er hôhen prîs bejagt?</l>
+<l n="*D 433.19">oder ob sîn ganziu werdecheit</l>
+<l n="*D 433.20"><seg type="große_Variante" n="a1"><seg type="singuläre_Lesart">ist</seg></seg> beidiu lang unde breit?</l>
+<l n="*D 433.21">oder ist si kurz oder smal?</l>
+<l n="*D 433.22">nû prüevet uns die selben zal,</l>
+<l n="*D 433.23">waz von sînen henden sî geschehen.</l>
+<l n="*D 433.24">hât er <name ref="regp:o0149" type="Ort">Munsalv&#x00E6;sche</name> <seg type="kleine_Variante" n="a1"><seg type="singuläre_Lesart">sît</seg></seg> gesehen</l>
+<l n="*D 433.25">unt den süezen <name ref="regp:p0017" type="Person">Anfortas</name>,</l>
+<l n="*D 433.26">des herze dô vil siufzec was?</l>
+<l n="*D 433.27">durch iwer güete gebt <seg type="singuläre_Lesart">uns</seg> trôst,</l>
+<l n="*D 433.28">ob <seg type="große_Variante" n="a1"><seg type="singuläre_Lesart">der</seg></seg> von jâmer sî erlôst.</l>
+<l n="*D 433.29">lât h&#x0153;ren <seg type="große_Variante" n="a1">uns diu</seg> m&#x00E6;re,</l>
+<l n="*D 433.30">ob <name ref="regp:p0241" type="Person">Parzival</name> dâ w&#x00E6;re,</l>
+</div>
+<div><listApp type="Verteilung" subtype="D" n="433"><app><rdg>
+<wit>D</wit> <wit>Fr31</wit> <note>(433.15-30)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="D" n="433">
+<app type="Gliederung" loc="*D 433.01">
+<rdg><note>Initiale</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 433.02"></app>
+ <app type="Gliederung" loc="*D 433.03"></app>
+ <app type="Gliederung" loc="*D 433.04"></app>
+ <app type="Gliederung" loc="*D 433.05"></app>
+ <app type="Gliederung" loc="*D 433.06"></app>
+ <app type="Gliederung" loc="*D 433.07"></app>
+ <app type="Gliederung" loc="*D 433.08"></app>
+ <app type="Gliederung" loc="*D 433.09"></app>
+ <app type="Gliederung" loc="*D 433.10"></app>
+ <app type="Gliederung" loc="*D 433.11"></app>
+ <app type="Gliederung" loc="*D 433.12"></app>
+ <app type="Gliederung" loc="*D 433.13"></app>
+ <app type="Gliederung" loc="*D 433.14"></app>
+ <app type="Gliederung" loc="*D 433.15"></app>
+ <app type="Gliederung" loc="*D 433.16"></app>
+ <app type="Gliederung" loc="*D 433.17"></app>
+ <app type="Gliederung" loc="*D 433.18"></app>
+ <app type="Gliederung" loc="*D 433.19"></app>
+ <app type="Gliederung" loc="*D 433.20"></app>
+ <app type="Gliederung" loc="*D 433.21"></app>
+ <app type="Gliederung" loc="*D 433.22"></app>
+ <app type="Gliederung" loc="*D 433.23"></app>
+ <app type="Gliederung" loc="*D 433.24"></app>
+ <app type="Gliederung" loc="*D 433.25"></app>
+ <app type="Gliederung" loc="*D 433.26"></app>
+ <app type="Gliederung" loc="*D 433.27"></app>
+ <app type="Gliederung" loc="*D 433.28"></app>
+ <app type="Gliederung" loc="*D 433.29"></app>
+ <app type="Gliederung" loc="*D 433.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="D" n="433">
+ <app type="Lesart" loc="*D 433.01"></app>
+ <app type="Lesart" loc="*D 433.02"></app>
+ <app type="Lesart" loc="*D 433.03"></app>
+ <app type="Lesart" loc="*D 433.04"></app>
+ <app type="Lesart" loc="*D 433.05"></app>
+ <app type="Lesart" loc="*D 433.06"></app>
+ <app type="Lesart" loc="*D 433.07"></app>
+ <app type="Lesart" loc="*D 433.08"></app>
+<app type="Lesart" loc="*D 433.09">
+<lem>Parzival</lem><rdg>Parzifal <wit>D</wit> </rdg>
+</app>
+<app type="Lesart" loc="*D 433.10">
+<lem>Cundrie</lem><rdg>Cvndrîe <wit>D</wit> </rdg>
+</app>
+ <app type="Lesart" loc="*D 433.11"></app>
+ <app type="Lesart" loc="*D 433.12"></app>
+ <app type="Lesart" loc="*D 433.13"></app>
+<app type="Lesart" loc="*D 433.14">
+</app>
+<app type="Lesart" loc="*D 433.15">
+<lem>dô</lem><rdg><note>om.</note> <wit>Fr31</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 433.16">
+<rdg>Dem selben mâre grife zv&#x0366; <wit>Fr31</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 433.17"></app>
+ <app type="Lesart" loc="*D 433.18"></app>
+ <app type="Lesart" loc="*D 433.19"></app>
+<app type="Lesart" loc="*D 433.20">
+<lem>ist</lem><rdg>Si <wit>Fr31</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 433.21"></app>
+ <app type="Lesart" loc="*D 433.22"></app>
+ <app type="Lesart" loc="*D 433.23"></app>
+<app type="Lesart" loc="*D 433.24">
+<lem>Munsalv&#x00E6;sche</lem><rdg>Mvnsalv&#x00E6;sce <wit>D</wit> mvntsaluasch <wit>Fr31</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 433.25"></app>
+<app type="Lesart" loc="*D 433.26">
+<lem>siufzec</lem><rdg>su&#x0366;htic <wit>Fr31</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 433.27">
+<lem>güete</lem><rdg><subst><del>*v&#x0364;te</del><add>gv&#x0364;te</add></subst> <wit>D</wit> gv&#x0366;etie <wit>Fr31</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 433.27">
+<lem>uns</lem><rdg>mir <wit>Fr31</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 433.28">
+<lem>der</lem><rdg>er <wit>Fr31</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 433.29"></app>
+<app type="Lesart" loc="*D 433.30">
+<lem>Parzival</lem><rdg>Parcifal <wit>D</wit> (<wit>Fr31</wit>)</rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="m" n="433">
+<div type="Textteil" subtype="m" n="433">
+<head>*m</head>
+<l n="*m 433.01">"<seg type="Initiale"><corr type="Emendation">T</corr></seg>uot ûf!" "wem? <seg type="singuläre_Lesart">wer</seg> sît ir?"</l>
+<l n="*m 433.02">"ich wil <seg type="singuläre_Lesart">in<corr type="Emendation">z</corr> her<corr type="Emendation">z</corr>e <seg type="große_Variante" n="a1">dîn</seg></seg> ze dir."</l>
+<l n="*m 433.03">"sô gert ir ze engem rûme."</l>
+<l n="*m 433.04">"waz danne, belîbe ich kûme?</l>
+<l n="*m 433.05">mîn dringen soltû selten klagen.</l>
+<l n="*m 433.06">ich wil dir nû von wunder sagen."</l>
+<l n="*m 433.07">"jâ, sît irz, vrouwe Âve<corr type="Emendation">n</corr>tiure?</l>
+<l n="*m 433.08">wie vert der gehiure?</l>
+<l n="*m 433.09">ich meine de<corr type="Emendation">n</corr> <seg type="große_Variante" n="a1">werden</seg> <name ref="regp:p0241" type="Person">Parcifal</name>,</l>
+<l n="*m 433.10">den <name ref="regp:p0061" type="Person">Condrie</name> nâch dem <name ref="regp:s0036" type="Sonstiges">Grâl</name></l>
+<l n="*m 433.11">mit unsüezen worten jagete,</l>
+<l n="*m 433.12">d<corr type="Emendation">â</corr> manigiu vrouwe klagete,</l>
+<l n="*m 433.13">daz niht wendic <seg type="große_Variante" n="a2">was</seg> sîn reise.</l>
+<l n="*m 433.14">von <name ref="regp:p0024" type="Person">Artuse</name>, <seg type="singuläre_Lesart">dem</seg> <name ref="regp:p0038" type="Person">Brituneise</name>,</l>
+<l n="*m 433.15">huop er sich <seg type="singuläre_Lesart">dô</seg>. wie vert er nû?</l>
+<l n="*m 433.16">den selben m&#x00E6;ren <seg type="große_Variante" n="a1"><seg type="singuläre_Lesart">grîfet</seg></seg> zuo,</l>
+<l n="*m 433.17">ob er an vr&#x0153;den sî verzaget.</l>
+<l n="*m 433.18">oder hât er hôhen prîs bejaget?</l>
+<l n="*m 433.19">oder ob sîn ganziu werdicheit</l>
+<l n="*m 433.20"><seg type="große_Variante" n="a2">sî</seg> beidiu lanc und breit?</l>
+<l n="*m 433.21">oder ist si kurz oder smal?</l>
+<l n="*m 433.22">nû prüevet un<corr type="Emendation">s</corr> die selben zal,</l>
+<l n="*m 433.23">waz von sînen henden sî ges<corr type="Emendation">cheh</corr>en.</l>
+<l n="*m 433.24">hât er <name ref="regp:o0149" type="Ort">Mun<corr type="Emendation">t</corr>salvasche</name> <seg type="kleine_Variante" n="a2"><seg type="singuläre_Lesart">sider</seg></seg> gesehen</l>
+<l n="*m 433.25">und den süezen <name ref="regp:p0017" type="Person">Anfortas</name>,</l>
+<l n="*m 433.26">des herze dô vil siufzic was?</l>
+<l n="*m 433.27">durch iuwere güete gebet uns trôst,</l>
+<l n="*m 433.28">ob <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">er</seg></seg> von jâmer sî erlôst.</l>
+<l n="*m 433.29">lât h&#x0153;ren <seg type="große_Variante" n="a1">uns diu</seg> m&#x00E6;re,</l>
+<l n="*m 433.30">ob <name ref="regp:p0241" type="Person">Parcifal</name> dâ w&#x00E6;re,</l>
+</div>
+<div><listApp type="Verteilung" subtype="m" n="433"><app><rdg>
+<wit>mk</wit> <wit>nk</wit> <wit>ok</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="m" n="433">
+<app type="Gliederung" loc="*m 433.01">
+<rdg><note>Illustration mit Überschrift:</note> Wie parcifal Sẏgunen in der clusen vant <wit>mk</wit> Also gawan zu̽ sigunen kam vor ein cluse vnd er sú frogete vmb parcifalen (parcifaln <wit>ok</wit>) <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+<app type="Gliederung" loc="*m 433.01">
+<rdg><note>Großinitiale</note> <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*m 433.02"></app>
+ <app type="Gliederung" loc="*m 433.03"></app>
+ <app type="Gliederung" loc="*m 433.04"></app>
+ <app type="Gliederung" loc="*m 433.05"></app>
+ <app type="Gliederung" loc="*m 433.06"></app>
+ <app type="Gliederung" loc="*m 433.07"></app>
+ <app type="Gliederung" loc="*m 433.08"></app>
+ <app type="Gliederung" loc="*m 433.09"></app>
+ <app type="Gliederung" loc="*m 433.10"></app>
+ <app type="Gliederung" loc="*m 433.11"></app>
+ <app type="Gliederung" loc="*m 433.12"></app>
+ <app type="Gliederung" loc="*m 433.13"></app>
+ <app type="Gliederung" loc="*m 433.14"></app>
+ <app type="Gliederung" loc="*m 433.15"></app>
+ <app type="Gliederung" loc="*m 433.16"></app>
+ <app type="Gliederung" loc="*m 433.17"></app>
+ <app type="Gliederung" loc="*m 433.18"></app>
+ <app type="Gliederung" loc="*m 433.19"></app>
+ <app type="Gliederung" loc="*m 433.20"></app>
+ <app type="Gliederung" loc="*m 433.21"></app>
+ <app type="Gliederung" loc="*m 433.22"></app>
+ <app type="Gliederung" loc="*m 433.23"></app>
+ <app type="Gliederung" loc="*m 433.24"></app>
+ <app type="Gliederung" loc="*m 433.25"></app>
+ <app type="Gliederung" loc="*m 433.26"></app>
+ <app type="Gliederung" loc="*m 433.27"></app>
+ <app type="Gliederung" loc="*m 433.28"></app>
+ <app type="Gliederung" loc="*m 433.29"></app>
+ <app type="Gliederung" loc="*m 433.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="m" n="433">
+<app type="Lesart" loc="*m 433.01">
+<lem>Tuot</lem><rdg>Gu̽t <wit>mk</wit> (<wit>nk</wit> <wit>ok</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 433.01">
+<lem>wer</lem><rdg>buer <wit>nk</wit> búr <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.02">
+<lem>inz herze dîn</lem><rdg>inr herre din <wit>mk</wit> herre min <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 433.03">
+<lem>engem</lem><rdg>eẏnem <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.04">
+<lem>kûme</lem><rdg>ku̽ne <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 433.05"></app>
+ <app type="Lesart" loc="*m 433.06"></app>
+<app type="Lesart" loc="*m 433.07">
+<lem>jâ</lem><rdg>Jo <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.07">
+<lem>Âventiure</lem><rdg>aueture <wit>mk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 433.08"></app>
+<app type="Lesart" loc="*m 433.09">
+<lem>meine</lem><rdg>menne <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.09">
+<lem>den</lem><rdg>dem <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.10">
+<lem>Condrie</lem><rdg>kondrie <wit>mk</wit> comdri <wit>nk</wit> condri <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.11">
+<lem>worten</lem><rdg>worte <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.12">
+<lem>dâ</lem><rdg>Do <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.12">
+<lem>klagete</lem><rdg>clagete das <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.13">
+<lem>wendic</lem><rdg>wenig <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.14">
+<lem>dem</lem><rdg>gon <wit>nk</wit> gan <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.14">
+<lem>Brituneise</lem><rdg>brittu̽neise <wit>mk</wit> britaneise <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.15">
+<lem>dô wie</lem><rdg>nu̽ do wie <wit>nk</wit> wie <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.16">
+<lem>grîfet</lem><rdg>griffe <wit>nk</wit> griffen <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 433.17"></app>
+ <app type="Lesart" loc="*m 433.18"></app>
+ <app type="Lesart" loc="*m 433.19"></app>
+ <app type="Lesart" loc="*m 433.20"></app>
+<app type="Lesart" loc="*m 433.21">
+<lem>oder</lem><rdg>vnd <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.22">
+<lem>uns</lem><rdg>vnd <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.22">
+<lem>selben</lem><rdg>selbe <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.23">
+<lem>geschehen</lem><rdg>geslagen <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.24">
+<lem>hât</lem><rdg>Hette <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.24">
+<lem>Muntsalvasche</lem><rdg>munsaluasce <wit>mk</wit> muntsaluasce <wit>nk</wit> mont saluasce <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.24">
+<lem>sider</lem><rdg>sit <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.25">
+<lem>Anfortas</lem><rdg>anfortes <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.26">
+<lem>des</lem><rdg>Der <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.26">
+<lem>dô</lem><rdg><note>om.</note> <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.27">
+<lem>iuwere</lem><rdg>yere <wit>mk</wit> ir <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.28">
+<lem>er</lem><rdg>der <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 433.28">
+<lem>sî</lem><rdg>ist <wit>nk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 433.29"></app>
+<app type="Lesart" loc="*m 433.30">
+<lem>dâ</lem><rdg>do <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="G" n="433">
+<div type="Textteil" subtype="G" n="433">
+<head>*G</head>
+<l n="*G 433.01">"<seg type="Initiale">T</seg>uot ûf!" "wem? wer sît ir?"</l>
+<l n="*G 433.02">"ich wil inz herze <seg type="große_Variante" n="a1">dîn</seg> zuo dir."</l>
+<l n="*G 433.03">"sô gert ir zengem rûme."</l>
+<l n="*G 433.04">"waz dane, belîbe ich kûme?</l>
+<l n="*G 433.05">mîn dringen soltû selten klagen.</l>
+<l n="*G 433.06">ich wil dir nû von wunder sagen."</l>
+<l n="*G 433.07">"jâ, sît irz, vrou Âventiure?</l>
+<l n="*G 433.08">wie vert der gehiure?</l>
+<l n="*G 433.09">ich meine den <seg type="große_Variante" n="a1">werden</seg> <name ref="regp:p0241" type="Person">Parzival</name>,</l>
+<l n="*G 433.10">den <name ref="regp:p0061" type="Person">Gundrie</name> nâch dem <name ref="regp:s0036" type="Sonstiges">Grâl</name></l>
+<l n="*G 433.11">mit unsüezen worten jagte,</l>
+<l n="*G 433.12">dâ man<reg type="Synkope">i</reg>c vrouwe klagte,</l>
+<l n="*G 433.13">daz niht wend<reg type="Synkope">i</reg>c <seg type="große_Variante" n="a1">wart</seg> sîn reise.</l>
+<l n="*G 433.14">von <name ref="regp:p0024" type="Person">Artuse</name>, dem <name ref="regp:p0038" type="Person">Britaneise</name>,</l>
+<l n="*G 433.15">huop er sich dô. wie vert er nû?</l>
+<l n="*G 433.16">den selben m&#x00E6;ren <seg type="große_Variante" n="a1">grîfet</seg> zuo,</l>
+<l n="*G 433.17">ob er an vröuden sî verzaget.</l>
+<l n="*G 433.18">oder hât er hôhen brîs bejaget?</l>
+<l n="*G 433.19"><corr type="Emendation">oder</corr> obe sîn ganziu werd<reg type="Synkope">i</reg>cheit</l>
+<l n="*G 433.20"><seg type="große_Variante" n="a2">sî</seg> beidiu lanc unde breit?</l>
+<l n="*G 433.21">oder ist si kurz oder smal?</l>
+<l n="*G 433.22">nû prüevet uns die selben zal,</l>
+<l n="*G 433.23">waz von sîn<reg type="Synkope">e</reg>n handen sî geschehen.</l>
+<l n="*G 433.24">hât er <name ref="regp:o0149" type="Ort">Muntsalvatsche</name> <seg type="kleine_Variante" n="a1">sît</seg> gesehen</l>
+<l n="*G 433.25">unt den süezen <name ref="regp:p0017" type="Person">Anfortas</name>,</l>
+<l n="*G 433.26">des herze dô <corr type="Emendation">vil</corr> <corr type="Emendation">siufz</corr>ic was?</l>
+<l n="*G 433.27">durch iwer güete gebet uns trôst,</l>
+<l n="*G 433.28">op <seg type="große_Variante" n="a1">der</seg> von <corr type="Emendation">jâm</corr>er sî erlôst.</l>
+<l n="*G 433.29">lât h&#x0153;ren <seg type="große_Variante" n="a1">uns diu</seg> m&#x00E6;re,</l>
+<l n="*G 433.30">obe <name ref="regp:p0241" type="Person">Parzival</name> dâ w&#x00E6;re,</l>
+</div>
+<div><listApp type="Verteilung" subtype="G" n="433"><app><rdg>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>M</wit> <wit>Z</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="G" n="433">
+<app type="Gliederung" loc="*G 433.01">
+<rdg><note>Überschrift:</note> Van Parzifal auentiwer wie der sv&#x0364;z vnde gehiwer zv&#x0366; Trevirscent dem ainsidel cherte der in von got beweist vnd lerit hie gent Parzifals auentiwer wider an <wit>I</wit></rdg>
+</app>
+<app type="Gliederung" loc="*G 433.01">
+<rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 433.02"></app>
+ <app type="Gliederung" loc="*G 433.03"></app>
+ <app type="Gliederung" loc="*G 433.04"></app>
+ <app type="Gliederung" loc="*G 433.05"></app>
+ <app type="Gliederung" loc="*G 433.06"></app>
+ <app type="Gliederung" loc="*G 433.07"></app>
+ <app type="Gliederung" loc="*G 433.08"></app>
+ <app type="Gliederung" loc="*G 433.09"></app>
+ <app type="Gliederung" loc="*G 433.10"></app>
+ <app type="Gliederung" loc="*G 433.11"></app>
+ <app type="Gliederung" loc="*G 433.12"></app>
+ <app type="Gliederung" loc="*G 433.13"></app>
+ <app type="Gliederung" loc="*G 433.14"></app>
+ <app type="Gliederung" loc="*G 433.15"></app>
+ <app type="Gliederung" loc="*G 433.16"></app>
+<app type="Gliederung" loc="*G 433.17">
+<rdg><note>Initiale</note> <wit>I</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 433.18"></app>
+ <app type="Gliederung" loc="*G 433.19"></app>
+ <app type="Gliederung" loc="*G 433.20"></app>
+ <app type="Gliederung" loc="*G 433.21"></app>
+ <app type="Gliederung" loc="*G 433.22"></app>
+ <app type="Gliederung" loc="*G 433.23"></app>
+ <app type="Gliederung" loc="*G 433.24"></app>
+ <app type="Gliederung" loc="*G 433.25"></app>
+ <app type="Gliederung" loc="*G 433.26"></app>
+ <app type="Gliederung" loc="*G 433.27"></app>
+ <app type="Gliederung" loc="*G 433.28"></app>
+ <app type="Gliederung" loc="*G 433.29"></app>
+ <app type="Gliederung" loc="*G 433.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="G" n="433">
+<app type="Lesart" loc="*G 433.01">
+<lem>Tuot</lem><rdg><subst><del>Gu&#x0364;t</del><add>Tu&#x0364;t</add></subst> <wit>I</wit> &#x00F7;v&#x0366;t <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.02">
+<lem>dîn</lem><rdg>hin <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.03">
+<lem>zengem</lem><rdg>zeu̽gen <wit>L</wit> zcu gein <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.04">
+<lem>ich</lem><rdg><note>om.</note> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.05">
+<lem>dringen soltû selten</lem><rdg>dingen soltu selte <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.06">
+<lem>wil</lem><rdg><note>om.</note> <wit>M</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 433.07"></app>
+<app type="Lesart" loc="*G 433.08">
+<lem>der</lem><rdg>die <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.09">
+<lem>Parzival</lem><rdg>parzifal <wit>I</wit> <wit>L</wit> <wit>M</wit> Barceval <wit>O</wit> parcifal <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.10">
+<lem>den</lem><rdg>dem <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.10">
+<lem>Gundrie</lem><rdg>Gvndrîe <wit>O</wit> kvndrie <wit>L</wit> (<wit>M</wit>) Cvndrie <wit>Z</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 433.11"></app>
+<app type="Lesart" loc="*G 433.12">
+<lem>dâ</lem><rdg>daz <wit>I</wit> (<wit>O</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 433.13">
+<lem>niht wendic wart</lem><rdg>niht wart wendich <wit>L</wit> gewendit wart <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.14">
+<lem>Artuse</lem><rdg>Artus <wit>I</wit> (<wit>Z</wit>) Artu̽se <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.14">
+<lem>Britaneise</lem><rdg>pritoneise <wit>I</wit> Brittoneise <wit>L</wit> brituneise <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.15">
+<lem>dô</lem><rdg><note>om.</note> <wit>I</wit> da <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.16">
+<lem>den selben</lem><rdg>Von salden <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.16">
+<lem>grîfet</lem><rdg>grifen <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 433.17"></app>
+<app type="Lesart" loc="*G 433.18">
+<lem>oder</lem><rdg>olde <wit>G</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.19">
+<lem>oder</lem><rdg>vnt <wit>G</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.20">
+<lem>beidiu</lem><rdg><note>om.</note> <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.21">
+<rdg>Adir korcz adir lanc adir smal <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.21">
+<lem>oder ist</lem><rdg>olde ist <wit>G</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.21">
+<lem>oder smal</lem><rdg>olde smal <wit>G</wit> vnd smal <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 433.22"></app>
+ <app type="Lesart" loc="*G 433.23"></app>
+<app type="Lesart" loc="*G 433.24">
+<lem>Muntsalvatsche</lem><rdg>montshaluasce <wit>I</wit> mvntsalvasche <wit>O</wit> Muntschalvatsche <wit>M</wit> Montsalvatsch <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.24">
+<lem>sît</lem><rdg><note>om.</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.25">
+<lem>Anfortas</lem><rdg>Amfortas <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.26">
+<lem>dô</lem><rdg>da <wit>M</wit> <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.26">
+<lem>vil siufzic</lem><rdg>so trurch <wit>G</wit> vil suffic <wit>I</wit> vil flvhtech <wit>O</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 433.27"></app>
+<app type="Lesart" loc="*G 433.28">
+<lem>der</lem><rdg>er <wit>I</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.28">
+<lem>jâmer</lem><rdg>chumber <wit>G</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.29">
+<lem>uns</lem><rdg><note>om.</note> <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.29">
+<lem>diu</lem><rdg>diese <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.30">
+<lem>Parzival</lem><rdg>parzifal <wit>I</wit> <wit>L</wit> <wit>M</wit> Barcifal <wit>O</wit> parcifal <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 433.30">
+<lem>dâ</lem><rdg>der <wit>I</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="T" n="433">
+<div type="Textteil" subtype="T" n="433">
+<head>*T</head>
+<l n="*T 433.01">"<seg type="Initiale" subtype="Großinitiale">T</seg>uot ûf!" "wem? wer sît ir?"</l>
+<l n="*T 433.02">"<seg type="Initiale" subtype="Majuskel">I</seg>ch wil in daz herze <seg type="große_Variante" n="a2">hin</seg> ze dir."</l>
+<l n="*T 433.03">"<seg type="Initiale" subtype="Majuskel">S</seg>ô gert ir ze engem rûme."</l>
+<l n="*T 433.04">"waz danne, blîbich kûme?</l>
+<l n="*T 433.05">mîn dringen soltû selten klagen.</l>
+<l n="*T 433.06">ich wil dir nû von wundere sagen."</l>
+<l n="*T 433.07">"<seg type="Initiale" subtype="Majuskel">J</seg>â, sît irz, vrou Âventiure?</l>
+<l n="*T 433.08">wie vert der gehiure?</l>
+<l n="*T 433.09">ich meine den <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">jungen</seg></seg> <name ref="regp:p0241" type="Person">Parcifal</name>,</l>
+<l n="*T 433.10">den <name ref="regp:p0061" type="Person">Kundrie</name> nâch dem <name ref="regp:s0036" type="Sonstiges">Grâl</name></l>
+<l n="*T 433.11">mit unsüezen worten jagete,</l>
+<l n="*T 433.12">dâ manec vrouwe klagete,</l>
+<l n="*T 433.13">daz niht wendic <seg type="große_Variante" n="a1">wart</seg> sîn reise.</l>
+<l n="*T 433.14">von <name ref="regp:p0024" type="Person">Artuse</name>, dem <name ref="regp:p0038" type="Person">Brituneise</name>,</l>
+<l n="*T 433.15">huop er sich dô. wie vert er nû?</l>
+<l n="*T 433.16">den selben m&#x00E6;ren <seg type="große_Variante" n="a2">grîfen</seg> zuo,</l>
+<l n="*T 433.17">ob er an vröuden sî verzaget.</l>
+<l n="*T 433.18">oder hât er hôhen prîs bejaget?</l>
+<l n="*T 433.19">oder ob sîn ganz<corr type="Emendation">iu</corr> werdecheit</l>
+<l n="*T 433.20"><seg type="große_Variante" n="a2">sî</seg> beidiu lanc unde breit?</l>
+<l n="*T 433.21">oder ist si kurz oder smal?</l>
+<l n="*T 433.22">nû prüevet uns die selben zal,</l>
+<l n="*T 433.23">waz von sînen handen sî geschehen.</l>
+<l n="*T 433.24">hât er <name ref="regp:o0149" type="Ort">Munsalvasche</name> <seg type="kleine_Variante" n="a1">sît</seg> gesehen</l>
+<l n="*T 433.25">unde den süezen <name ref="regp:p0017" type="Person">Anfortas</name>,</l>
+<l n="*T 433.26">des herze dô vil siuftic was?</l>
+<l n="*T 433.27">durch iuwer güete gebt uns trôst,</l>
+<l n="*T 433.28">ob <seg type="große_Variante" n="a1">der</seg> von jâmer sî erlôst.</l>
+<l n="*T 433.29">lât h&#x0153;ren <seg type="große_Variante" n="a2">liebiu</seg> m&#x00E6;re,</l>
+<l n="*T 433.30">ob <name ref="regp:p0241" type="Person">Parcifal </name> dâ w&#x00E6;re,</l>
+</div>
+<div><listApp type="Verteilung" subtype="T" n="433"><app><rdg>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>W</wit> <wit>Q</wit> <wit>R</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="T" n="433">
+<app type="Gliederung" loc="*T 433.01">
+<rdg><note>Überschrift:</note> Awentewr wy partzifal quam in den wald do her die klusenerin <wit>Q</wit></rdg>
+</app>
+<app type="Gliederung" loc="*T 433.01">
+<rdg><note>Großinitiale</note> <wit>T</wit> <wit>U</wit> <wit>Q</wit> <wit>R</wit></rdg>
+</app>
+<app type="Gliederung" loc="*T 433.01">
+<rdg><note>Initiale</note> <wit>V</wit> <wit>W</wit></rdg>
+</app>
+<app type="Gliederung" loc="*T 433.02">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+<app type="Gliederung" loc="*T 433.03">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 433.04"></app>
+ <app type="Gliederung" loc="*T 433.05"></app>
+ <app type="Gliederung" loc="*T 433.06"></app>
+<app type="Gliederung" loc="*T 433.07">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 433.08"></app>
+ <app type="Gliederung" loc="*T 433.09"></app>
+ <app type="Gliederung" loc="*T 433.10"></app>
+ <app type="Gliederung" loc="*T 433.11"></app>
+ <app type="Gliederung" loc="*T 433.12"></app>
+ <app type="Gliederung" loc="*T 433.13"></app>
+ <app type="Gliederung" loc="*T 433.14"></app>
+ <app type="Gliederung" loc="*T 433.15"></app>
+ <app type="Gliederung" loc="*T 433.16"></app>
+ <app type="Gliederung" loc="*T 433.17"></app>
+ <app type="Gliederung" loc="*T 433.18"></app>
+ <app type="Gliederung" loc="*T 433.19"></app>
+ <app type="Gliederung" loc="*T 433.20"></app>
+ <app type="Gliederung" loc="*T 433.21"></app>
+ <app type="Gliederung" loc="*T 433.22"></app>
+ <app type="Gliederung" loc="*T 433.23"></app>
+ <app type="Gliederung" loc="*T 433.24"></app>
+ <app type="Gliederung" loc="*T 433.25"></app>
+ <app type="Gliederung" loc="*T 433.26"></app>
+ <app type="Gliederung" loc="*T 433.27"></app>
+ <app type="Gliederung" loc="*T 433.28"></app>
+ <app type="Gliederung" loc="*T 433.29"></app>
+ <app type="Gliederung" loc="*T 433.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="T" n="433">
+<app type="Lesart" loc="*T 433.01">
+<lem>wem</lem><rdg>wenn <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.01">
+<lem>wer</lem><rdg>wir <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.02">
+<lem>wil</lem><rdg>wis <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.02">
+<lem>herze</lem><rdg>her zu <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.02">
+<lem>hin</lem><rdg>din <wit>V</wit> (<wit>Q</wit>) dem <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.03">
+<lem>ir</lem><rdg>her <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.03">
+<lem>engem</lem><rdg>einem <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.03">
+<lem>rûme</lem><rdg>roúmen <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 433.04"></app>
+<app type="Lesart" loc="*T 433.05">
+<lem>soltû</lem><rdg>solte <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.06">
+<lem>nû von wundere</lem><rdg>von wu&#x0366;nder nu&#x0366; <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.07">
+<lem>irz</lem><rdg>ir <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.08">
+<lem>der gehiure</lem><rdg>ir so vngehúrre <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.09">
+<lem>jungen</lem><rdg>werden <wit>U</wit> <wit>V</wit> <wit>W</wit> (<wit>Q</wit>) <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.09">
+<lem>Parcifal</lem><rdg>Parzifal <wit>T</wit> (<wit>V</wit> <wit>R</wit> ) partzifal <wit>W</wit> <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.10">
+<lem>den</lem><rdg>Dem <wit>Q</wit> Der <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.10">
+<lem>Kundrie</lem><rdg>kvndrye <wit>T</wit> ku&#x0366;ndrie <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.11">
+<lem>worten</lem><rdg>worte <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.12">
+<lem>dâ</lem><rdg>Do <wit>V</wit> <wit>W</wit> <wit>R</wit> Das <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.13">
+<lem>sîn</lem><rdg>eyn <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.14">
+<lem>Artuse</lem><rdg>Artu&#x0366;se <wit>U</wit> artus <wit>W</wit> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.14">
+<lem>dem</lem><rdg>vnd mengen <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.14">
+<lem>Brituneise</lem><rdg>Britu&#x0366;neise <wit>U</wit> <subst><del>britunes*</del><add>brituneise</add></subst> <wit>V</wit> briteneise <wit>Q</wit> Britoneise <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.15">
+<lem>huop er</lem><rdg>Vber <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.15">
+<lem>dô</lem><rdg><note>om.</note> <wit>Q</wit> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.16">
+<lem>grîfen</lem><rdg>grifent <wit>V</wit> (<wit>W</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 433.17">
+<lem>verzaget</lem><rdg>veriaget <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.18">
+<rdg>oder ober hochen pris hab beiagt <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.19">
+<lem>ganziu</lem><rdg>ganze <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.20">
+<lem>sî beidiu</lem><rdg>Jst beide <wit>V</wit> Sige <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.20">
+<lem>unde</lem><rdg>oder <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.21">
+<lem>si</lem><rdg><note>om.</note> <wit>U</wit> <subst><del>si</del><add>sú</add></subst> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.21">
+<lem>oder smal</lem><rdg>vnde smal <wit>V</wit> vnd zu smael <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 433.22"></app>
+<app type="Lesart" loc="*T 433.23">
+<lem>sînen</lem><rdg>sinnen <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.23">
+<lem>sî</lem><rdg>ist <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.24">
+<lem>Munsalvasche</lem><rdg>Mvnsalvasce <wit>T</wit> Mu&#x0366;ntsalvatsche <wit>U</wit> muntsaluasche <wit>V</wit> montsaluatz <wit>W</wit> múntsalualsche <wit>Q</wit> Munsaluasche <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.25">
+<lem>Anfortas</lem><rdg>anfrotas <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.26">
+<lem>des herze</lem><rdg>Der herre <wit>Q</wit> Des herczen <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.26">
+<lem>vil siuftic</lem><rdg>vol seúfftzens <wit>W</wit> vil su&#x0364;nffczent <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.26">
+<lem>was</lem><rdg>saz <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.27">
+<lem>güete</lem><rdg>gut <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.28">
+<lem>ob</lem><rdg>Oder <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.28">
+<lem>der</lem><rdg>er <wit>W</wit> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.29">
+<lem>lât h&#x0153;ren</lem><rdg>Hant úch <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.30">
+<lem>Parcifal</lem><rdg>Parzifal <wit>T</wit> <wit>V</wit> partzifal <wit>W</wit> <wit>Q</wit> parczifal <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 433.30">
+<lem>dâ</lem><rdg>do <wit>U</wit> <wit>V</wit> <wit>W</wit> <wit>Q</wit></rdg>
+</app>
+</listApp></div>
+</div>
+</body>
+</text>
+</TEI>

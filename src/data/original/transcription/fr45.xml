@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr45</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <idno>fr45</idno>
+        </msIdentifier>
+        <msFrag>
+          <msIdentifier>
+            <settlement>"Borken (Westfalen)"</settlement>
+            <repository>"Stadtarchiv"</repository>
+            <idno>"ohne  signatur"</idno>
+            <altIdentifier type="Parzival-Projekt">
+              <idno>fr45A</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <physDesc>
+          <handDesc>
+          <handNote xml:id="sr">Schreiber</handNote>
+          <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+          </handDesc>
+          </physDesc>
+        </msFrag>
+        <msFrag>
+          <msIdentifier>
+            <settlement>"Münster"</settlement>
+            <repository>"Landschaftsverband Westfalen-Lippe-Museum für Kunst und Kultur, Westfälisches Landesmuseum"</repository>
+            <idno>"Ms. 459"</idno>
+            <altIdentifier type="Parzival-Projekt">
+              <idno>fr45B</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </msFrag>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <listPrefixDef>
+    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+      <p>"regp" verweist auf die Personennamen.</p>
+    </prefixDef>
+    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"rego" verweist auf die Ortsnamen.</p>
+    </prefixDef>
+    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+    </prefixDef>
+  </listPrefixDef>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 661,7-661,17; 662,11-662,22; 663,15-25; 664,19-29</note>
+<note>Abschnitt 720.11-765.22</note>
+<note>Transkribiert von RSO am Bildschirm im Februar und April 2004</note>
+<note>Anfangsbuchstaben der ungeraden Verse sind rotgestrichelte Majuskeln.</note>
+<note>Autopsie von B durch RSo im März 2005.</note>
+<note>Endredaktion durch JKl am 19.12.2016.</note>
+<note>14.9.2018, MiGe: sek-Tags ergänzt. Quelle: Eberhard Gottlieb Graff, Aufgefundene Bruchstücke größerer mittelhochdeutscher Gedichte, in: Diutiska I (1826; Nachdruck Hildesheim/New York 1970), S. 1-46, hier S. 22-31 (Abdruck der in Münster aufbewahrten Teile).</note>
+<note>Autopsie der in Münster aufbewahrten Teile am 9. Juli 2019 durch MiGe.</note>
+<note>Das LWL in Münster besitzt eine Abschrift der dort aufbewahrten Teile von Fr45 (<ref>Fr45, Abschrift aus LWL</ref>). Wann diese gemacht wurde und von wem sie stammt ist nicht bekannt (Stand 9. Juli 2019). In der Abschrift ist gut nachvollziehbar, was aus dem Fragment abgeschrieben und was mit der Lachmannschen Ausgabe ergänzt wurde. Wird etwas aus der Abschrift in die vorliegende Transkription übernommen, so wird es nicht nur in sek-Tags gesetzt, sondern auch in einer Anmerkung zusätzlich erläutert. Der Abschreibende verwendete nur das runde S. Aus diesem Grund wird bei aus der Abschrift entnommenen Passagen in dieser Transkription der Buchstabe s zu Beginn eines Wortes - sofern es sich dabei nicht um eine Majuskel handelt - immer mit einem Schaft-s wiedergegeben.</note>
+<pb xml:id="fr45001r"/><cb xml:id="fr45001ra"/>
+<l xml:id="fr45_661.07">Min h<choice><am>&#x0309;</am><ex>er</ex></choice>r Artus der brittu&#x0366;n.</l>
+<l xml:id="fr45_661.08">d<choice><am>&#x0309;</am><ex>er</ex></choice> klagenden arny&#x0307;uen &#x017F;u&#x0366;n.</l>
+<l xml:id="fr45_661.09">D<choice><am rend="hochgestellt">v</am><ex>vr</ex></choice>ch klage vn<choice><am>&#x0304;</am><ex>d</ex></choice> durch triuve.</l>
+<l xml:id="fr45_661.10">menge banier niuve.</l>
+<l xml:id="fr45_661.11">Sach Gawan gein im trecken.</l>
+<l xml:id="fr45_661.12">mit ritte<choice><am>&#x0309;</am><ex>r</ex></choice>n velt bedecken.</l>
+<l xml:id="fr45_661.13">Von logroy&#x0307;s die &#x017F;traze her.</l>
+<l xml:id="fr45_661.14">mit mengem lichten gemalde<choice><am>&#x0304;</am><ex>m</ex></choice> &#x017F;per.</l>
+<l xml:id="fr45_661.15">Gawan tet ir komen wol.</l>
+<l xml:id="fr45_661.16">&#x017F;w<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;amnu<choice><am>&#x0304;</am><ex>n</ex></choice>ge warten &#x017F;ol.</l>
+<l xml:id="fr45_661.17">Den leret &#x017F;und<choice><am>&#x0309;</am><ex>er</ex></choice> gedanc</l>
+<cb xml:id="fr45001rb"/>
+<l xml:id="fr45_662.11">Sach Arniue vn<choice><am>&#x0304;</am><ex>d</ex></choice> Gawan.</l>
+<l xml:id="fr45_662.12">menge vu&#x0366;ren uf den plan.</l>
+<l xml:id="fr45_662.13">Bi den allen nicht wen ein &#x017F;chilt.</l>
+<l xml:id="fr45_662.14">des wafen waren &#x017F;us gezilt.</l>
+<l xml:id="fr45_662.15">Daz in arny&#x0307;ue erkande.</l>
+<l xml:id="fr45_662.16">i&#x017F;age&#x017F;en &#x017F;in nande.</l>
+<l xml:id="fr45_662.17">Des mar&#x017F;chalk ut<choice><am>&#x0309;</am><ex>er</ex></choice>pandragun.</l>
+<l xml:id="fr45_662.18">de vu&#x0366;rd ein and<choice><am>&#x0309;</am><ex>er</ex></choice> brittun.</l>
+<l xml:id="fr45_662.19">Mit dem &#x017F;chonen &#x017F;chenkelin Maurin.</l>
+<l xml:id="fr45_662.20">d<choice><am>&#x0309;</am><ex>er</ex></choice> mar&#x017F;chalk d<choice><am>&#x0309;</am><ex>er</ex></choice> konigin.</l>
+<l xml:id="fr45_662.21">Arniue we&#x017F;te wenic des.</l>
+<pb xml:id="fr45001v"/><cb xml:id="fr45001va"/>
+<l xml:id="fr45_663.15">Vrov bene vz Gawa<choice><am>&#x0304;</am><ex>n</ex></choice>s hende na<choice><am>&#x0304;</am><ex>m</ex></choice></l>
+<l xml:id="fr45_663.16">der&#x017F;ten gab uz &#x017F;inem kram.</l>
+<l xml:id="fr45_663.17">Swalwen die noch zengelant.</l>
+<l xml:id="fr45_663.18">zein<choice><am>&#x0309;</am><ex>er</ex></choice> tivre<choice><am>&#x0304;</am><ex>n</ex></choice> harfen i&#x017F;t irkant.</l>
+<l xml:id="fr45_663.19">Vrov bene vu&#x0366;r mit vroude<choice><am>&#x0304;</am><ex>n</ex></choice> dan.</l>
+<l xml:id="fr45_663.20">do hiez min h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawan.</l>
+<l xml:id="fr45_663.21">Be&#x017F;liezen duzern pforten.</l>
+<l xml:id="fr45_663.22">alt vnd iu<choice><am>&#x0304;</am><ex>n</ex></choice>ge da horten.</l>
+<l xml:id="fr45_663.23">Wes er &#x017F;ie zuchticlichen bat.</l>
+<l xml:id="fr45_663.24">do and<choice><am>&#x0309;</am><ex>er</ex></choice> halbn an den &#x017F;tat.</l>
+<l xml:id="fr45_663.25"><unclear reason="Zweifel">Si</unclear>ch leget ein al&#x017F;o grozes her.</l>
+<cb xml:id="fr45001vb"/>
+<l xml:id="fr45_664.19">E daz er kome vor logroy&#x0307;s.</l>
+<l xml:id="fr45_664.20">des wart ie&#x017F;lich brittenoy&#x0307;s.</l>
+<l xml:id="fr45_664.21">Zerecht<choice><am>&#x0309;</am><ex>er</ex></choice> tio&#x017F;te ab gevalt.</l>
+<l xml:id="fr45_664.22">Artus h<choice><am>&#x0309;</am><ex>er</ex></choice>r in wider galt.</l>
+<l xml:id="fr45_664.23">Market den ma<choice><am>&#x0304;</am><ex>n</ex></choice> in da bot.</l>
+<l xml:id="fr45_664.24">&#x017F;ie komen ze beid<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;it in not.</l>
+<l xml:id="fr45_664.25">Man &#x017F;ach die &#x017F;trit mo&#x036E;de<choice><am>&#x0304;</am><ex>n</ex></choice> komen.</l>
+<l xml:id="fr45_664.26">da von vil dick i&#x017F;t v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen.</l>
+<l xml:id="fr45_664.27">Daz ir kotzen g<choice><am>&#x0309;</am><ex>er</ex></choice>ne werten.</l>
+<l xml:id="fr45_664.28">&#x017F;ie waren gein &#x017F;trit die h<choice><am>&#x0309;</am><ex>er</ex></choice>ten.</l>
+<l xml:id="fr45_664.29">Beindenthalp ez mit &#x017F;chaden &#x017F;tet.</l>
+<pb xml:id="fr45002r"/><cb xml:id="fr45002ra"/>
+<l xml:id="fr45_720.11">Er &#x017F;ol mit wenic livten komen.</l>
+<l xml:id="fr45_720.12">&#x017F;prach d<choice><am>&#x0309;</am><ex>er</ex></choice> kong. die wile ha<choice><am>&#x0304;</am><ex>n</ex></choice> ich genom<choice><am>&#x0304;</am><ex>en</ex></choice>.</l>
+<l xml:id="fr45_720.13">Einen vride. vor den &#x017F;elben zorn.</l>
+<l xml:id="fr45_720.14">von d<choice><am>&#x0309;</am><ex>er</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin wol geborn.</l>
+<l xml:id="fr45_720.15">Jch wil im gu&#x0366;t geleide tu&#x0366;n.</l>
+<l xml:id="fr45_720.16">Beaku&#x0366;rs miner &#x017F;we&#x017F;ter &#x017F;u&#x0366;n.</l>
+<l xml:id="fr45_720.17"><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>end ich im zehalbem wege</l>
+<l xml:id="fr45_720.18">er &#x017F;ol varen i<choice><am>&#x0304;</am><ex>n</ex></choice> mins geleites pflege.</l>
+<l xml:id="fr45_720.19">De&#x017F;n darp er nicht vor la&#x017F;ter ien.</l>
+<l xml:id="fr45_720.20">ich laz in w<supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>&#x0309;</am><ex>er</ex></choice>d</supplied>e lvde &#x017F;en.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_720.20 #Fr45002ra"><ref>w<supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>&#x0309;</am><ex>er</ex></choice>d</supplied>e</ref>: Was zwischen dem ersten und letzten Buchstaben steht, ist am Original nicht erkennbar. Allerdings lassen die Abstände darauf schliessen, dass ein er-Kürzel vorliegt.</note>
+<l xml:id="fr45_720.21"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>it orlobe &#x017F;ie &#x017F;cheiden dan.</l>
+<l xml:id="fr45_720.22">d<choice><am>&#x0309;</am><ex>er</ex></choice> kong bleip alein uf dem plan</l>
+<l xml:id="fr45_720.23"><supplied reason="unleserlich" resp="Sekundärliteratur">B</supplied><unclear reason="Zweifel">e</unclear>ne vn<choice><am>&#x0304;</am><ex>d</ex></choice> die kindelin</l>
+<l xml:id="fr45_720.24">zo Rov&#x017F;abyne riten in.</l>
+<l xml:id="fr45_720.25">And<choice><am>&#x0309;</am><ex>er</ex></choice>halp uz da daz her lac.</l>
+<l xml:id="fr45_720.26">do lebte nie &#x017F;o lieben tac.</l>
+<l xml:id="fr45_720.27">Gramoflans do in ge&#x017F;prach.</l>
+<l xml:id="fr45_720.28">bene vn<choice><am>&#x0304;</am><ex>d</ex></choice> die kint. &#x017F;in h<choice><am>&#x0309;</am><ex>er</ex></choice>ze iach.</l>
+<l xml:id="fr45_720.29">Jm waren &#x017F;olhe mere bracht.</l>
+<l xml:id="fr45_720.30"><gap reason="unleserlich" extent="2" unit="Buchstabe"/><unclear reason="Zweifel">r</unclear> &#x017F;elden vor im het irdacht.</l>
+<l xml:id="fr45_721.01"><gap reason="unleserlich" extent="unbekannt"/>ch er wolde gerne komen.</l>
+<l xml:id="fr45_721.02">da wart &#x017F;elle&#x017F;chaft genomen.</l>
+<l xml:id="fr45_721.03"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>ines landes vu&#x0366;r&#x017F;ten dri</l>
+<l xml:id="fr45_721.04">die riten dem konge bi</l>
+<l xml:id="fr45_721.05">Als tet ouch d<choice><am>&#x0309;</am><ex>er</ex></choice> oheim &#x017F;in</l>
+<l xml:id="fr45_721.06">d<choice><am>&#x0309;</am><ex>er</ex></choice> kong Brandelidelin</l>
+<l xml:id="fr45_721.07">Gernot von Riuiers.</l>
+<l xml:id="fr45_721.08">vn<choice><am>&#x0304;</am><ex>d</ex></choice> affinam<choice><am>&#xA770;</am><ex>us</ex></choice> von klitiers.</l>
+<l xml:id="fr45_721.09"><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;i</supplied>ne<choice><am>&#x0304;</am><ex>n</ex></choice> ge&#x017F;ellen nam.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_721.09 #Fr45002ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;i</supplied>ne<choice><am>&#x0304;</am><ex>n</ex></choice></ref>: In der im Header erwähnten Abschrift steht "Jewedere sinen", wobei "Jewedere" später ergänzt wurde. Graff gibt nur <ref>nen</ref> an.</note>
+<l xml:id="fr45_721.10"><gap reason="unleserlich" extent="unbekannt"/> <unclear reason="Zweifel">v</unclear>f die rey&#x017F;e wol gezam.</l>
+<l xml:id="fr45_721.11"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>w<unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">f</unclear> waren ir vber al.</l>
+<l xml:id="fr45_721.12"><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">u<choice><am>&#x0304;</am><ex>n</ex></choice>che<choice><am>&#x0309;</am><ex>r</ex></choice></unclear>n vil ane zal.</l>
+<l xml:id="fr45_721.13"><supplied reason="unleserlich" resp="Sekundärliteratur">V</supplied>n<choice><am>&#x0304;</am><ex>d</ex></choice> manic &#x017F;tark Sariant.</l>
+<l xml:id="fr45_721.14">vf die <supplied reason="unleserlich" resp="Sekundärliteratur">rei&#x017F;e</supplied> wart genant.</l>
+<cb xml:id="fr45002rb"/>
+<l xml:id="fr45_721.15">Welch ir <supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;in</supplied></l>
+<note resp="#MiGe_Gegenleser" target="#?1_721.15 #Fr45002rb">: Graff gibt nach <ref>Welch ir</ref> <ref>kl<gap reason="unleserlich" extent="1" unit="Buchstabe"/>y<gap reason="unleserlich" extent="unbekannt"/>achten<gap reason="unleserlich" extent="unbekannt"/></ref> (dabei vor und nach <ref>achten</ref> je vier unleserliche Buchstaben) an, der Abschreiber transkribiert <ref>mochten sin</ref>. Am Original ist deutlich zu erkennen, dass der erste Vokal des Verbs ein <ref>a</ref> ist. Aus diesem Grund wird <ref><supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied><gap reason="unleserlich" extent="unbekannt"/>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;in</supplied></ref> transkribert.</note>
+<l xml:id="fr45_721.16">pfelle die vil liechten &#x017F;chin.</l>
+<l xml:id="fr45_721.17">Gaben von des goldes &#x017F;were.</l>
+<l xml:id="fr45_721.18">des konges valkenere.</l>
+<l xml:id="fr45_721.19">Mit im dan d<choice><am rend="hochgestellt">v</am><ex>vr</ex></choice>ch bey&#x0307;zen riten.</l>
+<l xml:id="fr45_721.20">nv&#x0366; het ouch artus nicht v<choice><am>&#x0309;</am><ex>er</ex></choice>miten.</l>
+<l xml:id="fr45_721.21">Beaku&#x0366;rs den liecht gevar.</l>
+<l xml:id="fr45_721.22">&#x017F;ant er zv&#x0366; halbem wege dar</l>
+<l xml:id="fr45_721.23">Dem konge zeinem geleit<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></l>
+<l xml:id="fr45_721.24">vb<choice><am>&#x0309;</am><ex>er</ex></choice> des gevildes breite</l>
+<l xml:id="fr45_721.25">Ez w<choice><am>&#x0309;</am><ex>er</ex></choice>e tiech oder bach</l>
+<l xml:id="fr45_721.26">wa er die pa&#x017F;&#x017F;at&#x017F;chen &#x017F;ac<supplied reason="unleserlich" resp="Sekundärliteratur">h</supplied></l>
+<l xml:id="fr45_721.27">Da reit d<choice><am>&#x0309;</am><ex>er</ex></choice> kong durch beizen her</l>
+<l xml:id="fr45_721.28">vn<choice><am>&#x0304;</am><ex>d</ex></choice> m<choice><am>&#x0309;</am><ex>er</ex></choice>e d<choice><am rend="hochgestellt">v</am><ex>vr</ex></choice>ch der mi<choice><am>&#x0304;</am><ex>n</ex></choice>nen ger.</l>
+<l xml:id="fr45_721.29">Beacu&#x0366;rs in da entpfienc.</l>
+<l xml:id="fr45_721.30">al&#x017F;o deiz mit vroy&#x0307;d irgienc.</l>
+<l xml:id="fr45_722.01">Mit beaku&#x0366;rs komen &#x017F;int.</l>
+<l xml:id="fr45_722.02">me dan vu&#x0366;mftec kleine kint.</l>
+<l xml:id="fr45_722.03">die von arde gabn lichten &#x017F;chin.</l>
+<l xml:id="fr45_722.04">herzogn vn<choice><am>&#x0304;</am><ex>d</ex></choice> Grevelin.</l>
+<l xml:id="fr45_722.05">Da reit ouch it&#x017F;lich gra<gap reason="unleserlich" extent="1" unit="Buchstabe"/>en &#x017F;u&#x0366;n.</l>
+<l xml:id="fr45_722.06">man &#x017F;ach groz entpfahen t<supplied reason="unleserlich" resp="Sekundärliteratur">u&#x0366;</supplied>n</l>
+<l xml:id="fr45_722.07">Von den kinden zv&#x0366; beyder &#x017F;it.</l>
+<l xml:id="fr45_722.08">di entfiengen einand<choice><am>&#x0309;</am><ex>er</ex></choice> ane nyt.</l>
+<l xml:id="fr45_722.09">Beaku&#x0366;rs mit varbe liecht.</l>
+<l xml:id="fr45_722.10">d<choice><am>&#x0309;</am><ex>er</ex></choice> kong &#x017F;ich vrage &#x017F;umte nicht.</l>
+<l xml:id="fr45_722.11">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> vragte benen mere.</l>
+<l xml:id="fr45_722.12">w<choice><am>&#x0309;</am><ex>er</ex></choice> der klare ritter were.</l>
+<l xml:id="fr45_722.13">Jz i&#x017F;t beaku&#x0366;rs lothes kint.</l>
+<l xml:id="fr45_722.14">do dachter h<choice><am>&#x0309;</am><ex>er</ex></choice>tze nu&#x0366; vint.</l>
+<l xml:id="fr45_722.15">Si &#x017F;ie dem gelich.</l>
+<l xml:id="fr45_722.16">d<choice><am>&#x0309;</am><ex>er</ex></choice> hie ritet &#x017F;o mi<choice><am>&#x0304;</am><ex>n</ex></choice>nenklich.</l>
+<l xml:id="fr45_722.17">Si i&#x017F;t bi name<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in &#x017F;we&#x017F;ter.</l>
+<l xml:id="fr45_722.18">die worcht in &#x017F;ince&#x017F;ter.</l>
+<pb xml:id="fr45002v"/><cb xml:id="fr45002va"/>
+<l xml:id="fr45_722.19">Die <unclear reason="Zweifel">m</unclear><gap reason="unleserlich" extent="unbekannt"/> &#x017F;<choice><am>&#xA751;</am><ex>per</ex></choice>w<choice><am>&#x0309;</am><ex>er</ex></choice>e &#x017F;a<choice><am>&#x0304;</am><ex>n</ex></choice>te ir hot.</l>
+<l xml:id="fr45_722.20">ob &#x017F;ie mir genade tu&#x0366;t.</l>
+<l xml:id="fr45_722.22"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_722.21"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_722.23">Da vor nem ich &#x017F;ie einen.</l>
+<l xml:id="fr45_722.24">&#x017F;ie &#x017F;olz mit truwe<choice><am>&#x0304;</am><ex>n</ex></choice> meinen.</l>
+<l xml:id="fr45_722.25">Vf ir gnade kom ich hie.</l>
+<l xml:id="fr45_722.26">&#x017F;ie hat mich doch <subst hand="#sr"><del>getro&#x017F;te*</del><add>getro&#x017F;tet</add></subst> ie.</l>
+<l xml:id="fr45_722.27">Jch getru ir wol daz &#x017F;ie mir tu&#x0366;t.</l>
+<l xml:id="fr45_722.28">da von &#x017F;ich hohe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ol min mu&#x0366;t.</l>
+<l xml:id="fr45_722.29">Er nam ir klaren brod<choice><am>&#x0309;</am><ex>er</ex></choice> hant.</l>
+<l xml:id="fr45_722.30">in &#x017F;ine die was liecht erkant.</l>
+<l xml:id="fr45_723.01">Nu&#x0366; was iz an die her &#x017F;o komen.</l>
+<l xml:id="fr45_723.02">Art<choice><am>&#xA770;</am><ex>us</ex></choice> hete da ge nomen.</l>
+<l xml:id="fr45_723.03">Einen vride vo<choice><am>&#x0304;</am><ex>n</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin.</l>
+<l xml:id="fr45_723.04">d<choice><am>&#x0309;</am><ex>er</ex></choice> was irgetzens gwin.</l>
+<l xml:id="fr45_723.05">Komen nach Cytiga&#x017F;te.</l>
+<l xml:id="fr45_723.06">den &#x017F;ie e klagte va&#x017F;te.</l>
+<l xml:id="fr45_723.07">Jr zorn was nach ver decket.</l>
+<l xml:id="fr45_723.08">wen &#x017F;ie het erwecket.</l>
+<l xml:id="fr45_723.09">Von Gawan et&#x017F;lich vmbevanc.</l>
+<l xml:id="fr45_723.10">da von ir zorne<choice><am>&#x0304;</am><ex>n</ex></choice> was &#x017F;o kranc.</l>
+<l xml:id="fr45_723.11">Art<choice><am>&#xA770;</am><ex>us</ex></choice> der britteney&#x0307;s.</l>
+<l xml:id="fr45_723.12">nam die vrowen kurtey&#x0307;s.</l>
+<l xml:id="fr45_723.14"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_723.13"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_723.15">Er hete d<choice><am>&#x0309;</am><ex>er</ex></choice> w<choice><am>&#x0309;</am><ex>er</ex></choice>den hu<choice><am>&#x0304;</am><ex>n</ex></choice>dert.</l>
+<l xml:id="fr45_723.16">vnd<choice><am>&#x0309;</am><ex>er</ex></choice> ein gecelt ge&#x017F;undert.</l>
+<l xml:id="fr45_723.17">Nich lieb<choice><am>&#x0309;</am><ex>er</ex></choice> machte ir ge&#x017F;chen.</l>
+<l xml:id="fr45_723.18">wen dazs en kong &#x017F;olde &#x017F;en.</l>
+<l xml:id="fr45_723.19">Jtonie die ouch da saz.</l>
+<l xml:id="fr45_723.20">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;teter vroy&#x0307;de nicht v<choice><am>&#x0309;</am><ex>er</ex></choice>gaz.</l>
+<l xml:id="fr45_723.21">Da khos ma<choice><am>&#x0304;</am><ex>n</ex></choice> an ir ougen &#x017F;chin.</l>
+<l xml:id="fr45_723.22">daz &#x017F;ie die mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne lerte pin.</l>
+<cb xml:id="fr45002vb"/>
+<l xml:id="fr45_723.23">Da &#x017F;az manic ritter liecht gemal.</l>
+<l xml:id="fr45_723.24">do tru&#x0366;c d<choice><am>&#x0309;</am><ex>er</ex></choice> werde per&#x017F;ciual.</l>
+<l xml:id="fr45_723.25">Den pris vor ande<choice><am>&#x0309;</am><ex>r</ex></choice> klarheit.</l>
+<l xml:id="fr45_723.26">Gramoflanz an die &#x017F;nvre reit.</l>
+<l xml:id="fr45_723.27">Do vu&#x0366;rte d<choice><am>&#x0309;</am><ex>er</ex></choice> degn vnervorcht.</l>
+<l xml:id="fr45_723.28">in kamfa&#x017F;&#x017F;at&#x017F;che geworcht.</l>
+<l xml:id="fr45_723.29">Einen pfelle mit golde ve&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
+<l xml:id="fr45_723.30">d<choice><am>&#x0309;</am><ex>er</ex></choice> begonde verre gle&#x017F;ten.</l>
+<l xml:id="fr45_724.01">Sir beizten die da komen &#x017F;int.</l>
+<l xml:id="fr45_724.02">des kong Gramu&#x0366;flanzes kint.</l>
+<l xml:id="fr45_724.03">Menge vor in &#x017F;prungen.</l>
+<l xml:id="fr45_724.04">in daz paulun &#x017F;ie drungen.</l>
+<l xml:id="fr45_724.05">Die kamerer ze beider &#x017F;it.</l>
+<l xml:id="fr45_724.06">ru&#x0366;mten eine &#x017F;traze wit.</l>
+<l xml:id="fr45_724.07">Gein d<choice><am>&#x0309;</am><ex>er</ex></choice> britteney&#x0307;&#x017F;er konigin.</l>
+<l xml:id="fr45_724.08">&#x017F;in ohem brandelidelin.</l>
+<l xml:id="fr45_724.09">Hiez er vor im gen dar in.</l>
+<l xml:id="fr45_724.10">den ku&#x017F;te Ginouer die konigin.</l>
+<l xml:id="fr45_724.11">D<choice><am>&#x0309;</am><ex>er</ex></choice> kong wart ouch entpfangen &#x017F;us.</l>
+<l xml:id="fr45_724.12">Gernot vn<choice><am>&#x0304;</am><ex>d</ex></choice> affinam<choice><am>&#xA770;</am><ex>us</ex></choice></l>
+<l xml:id="fr45_724.13">Die konegin man ku&#x017F;&#x017F;en &#x017F;ach</l>
+<l xml:id="fr45_724.14">art<choice><am>&#xA770;</am><ex>us</ex></choice> ze Gramoflanze &#x017F;prach.</l>
+<l xml:id="fr45_724.15">E ir &#x017F;itzen beginnet.</l>
+<l xml:id="fr45_724.16">&#x017F;ehet ob ir <subst hand="#sru"><del>deheine*</del><add>deheine<hi rend="rasur"><gap/></hi></add></subst> mi<choice><am>&#x0304;</am><ex>n</ex></choice>et.</l>
+<l xml:id="fr45_724.17">Dirre vrovn vn<choice><am>&#x0304;</am><ex>d</ex></choice> kv&#x017F;&#x017F;et &#x017F;ie.</l>
+<l xml:id="fr45_724.18">iu beiden &#x017F;i daz irloubet hie.</l>
+<l xml:id="fr45_724.19">Jm &#x017F;agte wer &#x017F;in vrvndin was.</l>
+<l xml:id="fr45_724.20">ein brief den er zo velde las.</l>
+<l xml:id="fr45_724.21">Jch meine daz er ir broder &#x017F;ach.</l>
+<l xml:id="fr45_724.22">dem &#x017F;ie vor al der werlde iach.</l>
+<l xml:id="fr45_724.23">Jr w<choice><am>&#x0309;</am><ex>er</ex></choice>den minne tougen.</l>
+<l xml:id="fr45_724.24">Gramoflanzes ougen.</l>
+<l xml:id="fr45_724.25">Jr kanten &#x017F;ie dim mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne tru&#x0366;c.</l>
+<l xml:id="fr45_724.26">do waz &#x017F;in vroy&#x0307;de hoch gnu&#x0366;c.</l>
+<pb xml:id="fr45003r"/><cb xml:id="fr45003ra"/>
+<l xml:id="fr45_761.07">So <gap reason="Fragmentverlust" extent="unbekannt"/>limizol.</l>
+<l xml:id="fr45_761.08"><supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied></l>
+<note resp="#MiGe_Gegenleser" target="#?1_761.08 #Fr45003ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied></ref>: Der Wortlaut stammt aus der im Header erwähnten Abschrift aus dem LWL. Es weist nichts darauf hin, dass er der Lachmannschen Ausgabe entnommen wurde. Folglich dürfte der Wurmfrass an der entsprechenden Stelle im Fragment jünger sein als die erwähnte Abschrift.</note>
+<l xml:id="fr45_761.09"><supplied reason="unleserlich" resp="Sekundärliteratur">A</supplied>r<unclear reason="Zweifel">t</unclear><gap reason="Fragmentverlust" extent="unbekannt"/> die mere &#x017F;agete.</l>
+<l xml:id="fr45_761.10"><supplied reason="unleserlich" resp="Sekundärliteratur">des</supplied> er vroy&#x0307;de vil beiagete.</l>
+<l xml:id="fr45_761.11">Jofreid bat in ezzen vro.</l>
+<l xml:id="fr45_761.12">vn<choice><am>&#x0304;</am><ex>d</ex></choice> klarlichen grifen zv&#x0366;.</l>
+<l xml:id="fr45_761.13">Mit rittern vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;char.</l>
+<l xml:id="fr45_761.14">vn<choice><am>&#x0304;</am><ex>d</ex></choice> hob&#x017F;lichen komen dar.</l>
+<l xml:id="fr45_761.15">Daz &#x017F;iez &#x017F;o anevingen.</l>
+<l xml:id="fr45_761.16">vn<choice><am>&#x0304;</am><ex>d</ex></choice> wirdiclichen entpfiengen.</l>
+<l xml:id="fr45_761.17">Des &#x017F;tolzen Gamoretis kint.</l>
+<l xml:id="fr45_761.18">waz hie w<choice><am>&#x0309;</am><ex>er</ex></choice>der lvte &#x017F;int.</l>
+<l xml:id="fr45_761.19">Die bring ich &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch d<choice><am>&#x0309;</am><ex>er</ex></choice> britteney&#x0307;s.</l>
+<l xml:id="fr45_761.20">Jofreid &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch er i&#x017F;t &#x017F;o kurtey&#x0307;s.</l>
+<l xml:id="fr45_761.21">Jr mogt in alle g<choice><am>&#x0309;</am><ex>er</ex></choice>ne &#x017F;ehn.</l>
+<l xml:id="fr45_761.22">wen ir mv&#x0366;gt wu<choice><am>&#x0304;</am><ex>n</ex></choice>d<choice><am>&#x0309;</am><ex>er</ex></choice> an im &#x017F;pehn.</l>
+<l xml:id="fr45_761.23">Er vert uz grozer richeit.</l>
+<l xml:id="fr45_761.24">&#x017F;ine wafenlichen kleit.</l>
+<l xml:id="fr45_761.25">Nie man vergelten mochte.</l>
+<l xml:id="fr45_761.26">deheiner hant daz dochte.</l>
+<l xml:id="fr45_761.27">Louer. brittanie. engelant.</l>
+<l xml:id="fr45_761.28">von paris vn<choice><am>&#x0304;</am><ex>d</ex></choice> von wiz&#x017F;ant.</l>
+<l xml:id="fr45_761.29">Der den gein leit an de terre.</l>
+<l xml:id="fr45_761.30">iz wer dem gelte verre.</l>
+<l xml:id="fr45_762.01">Jofreyd was wid<choice><am>&#x0309;</am><ex>er</ex></choice> komen.</l>
+<l xml:id="fr45_762.02">von dem het art<choice><am>&#xA770;</am><ex>us</ex></choice> v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen.</l>
+<l xml:id="fr45_762.04"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_762.03"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_762.05">Sinen neben den hey&#x0307;den.</l>
+<l xml:id="fr45_762.06">daz &#x017F;itzen wart be&#x017F;cheiden.</l>
+<l xml:id="fr45_762.07">Jn artu&#x017F;es ringe.</l>
+<l xml:id="fr45_762.08">mit hobe&#x017F;lichem dinge.</l>
+<l xml:id="fr45_762.09">Die ma&#x017F;&#x017F;anie d<choice><am>&#x0309;</am><ex>er</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin.</l>
+<l xml:id="fr45_762.10">vn<choice><am>&#x0304;</am><ex>d</ex></choice> die ge&#x017F;ellen vnder in.</l>
+<cb xml:id="fr45003rb"/>
+<l xml:id="fr45_762.11">Ze Gawans ze&#x017F;wen &#x017F;azen.</l>
+<l xml:id="fr45_762.12">And<choice><am>&#x0309;</am><ex>er</ex></choice>halp &#x017F;us mit vroy&#x0307;de<choice><am>&#x0304;</am><ex>n</ex></choice> azen</l>
+<l xml:id="fr45_762.13">Die ritter <name ref="regp:p0057" type="Person">klin&#x017F;chors</name> diet.</l>
+<l xml:id="fr45_762.14">d<choice><am>&#x0309;</am><ex>er</ex></choice> vrowen &#x017F;itzen man be&#x017F;chi<supplied reason="unleserlich" resp="Sekundärliteratur">et</supplied></l>
+<l xml:id="fr45_762.15">Gein Gawan v&#x0366;b<choice><am>&#x0309;</am><ex>er</ex></choice> an den ort.</l>
+<l xml:id="fr45_762.16">&#x017F;azen <name ref="regp:p0057" type="Person">klin&#x017F;chors</name> vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> dort</l>
+<l xml:id="fr45_762.17">Der was mange liecht gem<unclear reason="Zweifel">al</unclear></l>
+<l xml:id="fr45_762.18">Fey&#x0307;rafy&#x0307;z vn<choice><am>&#x0304;</am><ex>d</ex></choice> per&#x017F;ciual.</l>
+<l xml:id="fr45_762.19">Saze<choice><am>&#x0304;</am><ex>n</ex></choice> twi&#x017F;chen den vrowe<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
+<l xml:id="fr45_762.20">man machte da klarheit &#x017F;chowe<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
+<l xml:id="fr45_762.21">D<choice><am>&#x0309;</am><ex>er</ex></choice> tu&#x0366;rkoy&#x0307;te florant.</l>
+<l xml:id="fr45_762.22">vn<choice><am>&#x0304;</am><ex>d</ex></choice> Sagiue die werd irkant.</l>
+<l xml:id="fr45_762.23">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zoge von Gowerzin.</l>
+<l xml:id="fr45_762.24">vn<choice><am>&#x0304;</am><ex>d</ex></choice> kundrie daz wip &#x017F;in.</l>
+<l xml:id="fr45_762.25">V&#x0366;ber gein ein ander &#x017F;azen.</l>
+<l xml:id="fr45_762.26">ich wen des ich vergazen.</l>
+<l xml:id="fr45_762.27">Gawan vn<choice><am>&#x0304;</am><ex>d</ex></choice> Jofreit.</l>
+<l xml:id="fr45_762.28">du&#x0366;rch alde ge&#x017F;ellecheit.</l>
+<l xml:id="fr45_762.29">Sie azen mit ein ander.</l>
+<l xml:id="fr45_762.30">die h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin mit blicke<choice><am>&#x0304;</am><ex>n</ex></choice> glander.</l>
+<l xml:id="fr45_763.01">Mit d<choice><am>&#x0309;</am><ex>er</ex></choice> koningin arny&#x0307;uen az.</l>
+<l xml:id="fr45_763.02">ir newed<choice><am>&#x0309;</am><ex>er</ex></choice>e nicht vergaz.</l>
+<l xml:id="fr45_763.03">Jr ge&#x017F;ellicheite.</l>
+<l xml:id="fr45_763.04">warens ein and<choice><am>&#x0309;</am><ex>er</ex></choice> bereite.</l>
+<l xml:id="fr45_763.05">Bi Gawan &#x017F;az &#x017F;in ane.</l>
+<l xml:id="fr45_763.06">orgiliu&#x017F;e uzerhalp hindane.</l>
+<l xml:id="fr45_763.07">Der tzeigete die rechte vnzucht.</l>
+<l xml:id="fr45_763.08">von dem ringe ir &#x017F;nelle<choice><am>&#x0304;</am><ex>n</ex></choice> vlucht.</l>
+<l xml:id="fr45_763.09">Man tru&#x0366;c be&#x017F;chey&#x0307;denliche dar.</l>
+<l xml:id="fr45_763.10">den ritte<choice><am>&#x0309;</am><ex>r</ex></choice>n vn<choice><am>&#x0304;</am><ex>d</ex></choice> der vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;char</l>
+<l xml:id="fr45_763.11">Jr &#x017F;pi&#x017F;et zvchticliche.</l>
+<l xml:id="fr45_763.12">fey&#x0307;rafy&#x0307;z der riche</l>
+<l xml:id="fr45_763.13">Sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch zv <choice><am>&#xA751;</am><ex>per</ex></choice>&#x017F;ciual dem brot<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;in</l>
+<l xml:id="fr45_763.14">Jupit<choice><am>&#x0309;</am><ex>er</ex></choice>. der rey&#x0307;&#x017F;e min.</l>
+<pb xml:id="fr45003v"/><cb xml:id="fr45003va"/>
+<l xml:id="fr45_763.15">Mit &#x017F;elden het ir dacht.</l>
+<l xml:id="fr45_763.16"><supplied reason="unleserlich" resp="Sekundärliteratur">d</supplied>az mich &#x017F;in helfe h<choice><am>&#x0309;</am><ex>er</ex></choice> hat bracht.</l>
+<l xml:id="fr45_763.17"><gap reason="Fragmentverlust" extent="unbekannt"/> ich mine w<choice><am>&#x0309;</am><ex>er</ex></choice>den maghe &#x017F;e.</l>
+<l xml:id="fr45_763.18"><gap reason="Fragmentverlust" extent="unbekannt"/>n recht<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chult ich pri&#x017F;es ie.</l>
+<l xml:id="fr45_763.19"><gap reason="Fragmentverlust" extent="unbekannt"/>n vat<choice><am>&#x0309;</am><ex>er</ex></choice> den ich han v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn.</l>
+<l xml:id="fr45_763.20">der was uz rechte<choice><am>&#x0304;</am><ex>m</ex></choice> pris irborn.</l>
+<l xml:id="fr45_763.21">D<choice><am>&#x0309;</am><ex>er</ex></choice> waley&#x0307;s &#x017F;prach ir &#x017F;u&#x0366;lt noch &#x017F;ehn.</l>
+<l xml:id="fr45_763.22">lvte den ir pri&#x017F;es mo&#x036E;gt iehn.</l>
+<l xml:id="fr45_763.23">Bi artus dem houbt man.</l>
+<l xml:id="fr45_763.24">ma<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice>gen</unclear> ritt<choice><am>&#x0309;</am><ex>er</ex></choice> manlich getan.</l>
+<l xml:id="fr45_763.25">Wie &#x017F;chier daz ezzen nu&#x0366; irget.</l>
+<l xml:id="fr45_763.26">vnlanc iz den dar nach ge&#x017F;tet.</l>
+<l xml:id="fr45_763.27">Vnz ir die werden &#x017F;eht komen.</l>
+<l xml:id="fr45_763.28">an den vil pri&#x017F;es i&#x017F;t v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen.</l>
+<l xml:id="fr45_763.29">Waz tavelrund<choice><am>&#x0309;</am><ex>er</ex></choice> kraft i&#x017F;t bi.</l>
+<l xml:id="fr45_763.30">dern &#x017F;izzet hie nicht me we<choice><am>&#x0304;</am><ex>n</ex></choice> dri.</l>
+<l xml:id="fr45_764.01">D<choice><am>&#x0309;</am><ex>er</ex></choice> wirt vn<choice><am>&#x0304;</am><ex>d</ex></choice> Jofrey&#x0307;d.</l>
+<l xml:id="fr45_764.02">et&#x017F;wen ich ouch den pris er&#x017F;treit.</l>
+<l xml:id="fr45_764.03">Daz men min dru&#x0366;b<choice><am>&#x0309;</am><ex>er</ex></choice> gerte.</l>
+<l xml:id="fr45_764.04">des ich &#x017F;ie do gewerte.</l>
+<l xml:id="fr45_764.05">Sie namen die ti&#x017F;lachen dan.</l>
+<l xml:id="fr45_764.06">vor al den vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> vor de<choice><am>&#x0304;</am><ex>n</ex></choice> man.</l>
+<l xml:id="fr45_764.07">Des was zit do man gaz.</l>
+<l xml:id="fr45_764.08">Gowan d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt nich leng<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;az.</l>
+<l xml:id="fr45_764.09">Die h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin vn<choice><am>&#x0304;</am><ex>d</ex></choice> ouch &#x017F;in ane.</l>
+<l xml:id="fr45_764.10">begond er bitte<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> manen.</l>
+<l xml:id="fr45_764.11">Daz &#x017F;e Sagiuen namen e.</l>
+<l xml:id="fr45_764.12">vn<choice><am>&#x0304;</am><ex>d</ex></choice> ouch die &#x017F;u&#x0366;zen kvndrie.</l>
+<l xml:id="fr45_764.13">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> gingen zvchticliche<choice><am>&#x0304;</am><ex>n</ex></choice> dar.</l>
+<l xml:id="fr45_764.14">da d<choice><am>&#x0309;</am><ex>er</ex></choice> heyden vech gevar.</l>
+<l xml:id="fr45_764.15">Saz vn<choice><am>&#x0304;</am><ex>d</ex></choice> daz &#x017F;ie pflege<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in.</l>
+<l xml:id="fr45_764.16">fe<supplied reason="unleserlich" resp="Sekundärliteratur">yr</supplied>afy&#x0307;s anschewin.</l>
+<l xml:id="fr45_764.17">Sach die vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> gein im gen.</l>
+<l xml:id="fr45_764.18">gein den begu&#x0366;nder uf &#x017F;ten.</l>
+<cb xml:id="fr45003vb"/>
+<l xml:id="fr45_764.19">Als tet &#x017F;in brod<choice><am>&#x0309;</am><ex>er</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr45_764.20">die h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin lie<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#MiGe_Gegenleser" target="#?1_764.20 #Fr45003vb"><ref></ref>: Die im Header erwähnte Abschrift gibt <ref>lieht gemal</ref> an. Da <ref>gemal</ref> in runden Klammern steht, ist davon auszugehen, dass das Wort mit Hilfe der Lachmannschen Ausgabe ergänzt wurde und nur <ref>lieht</ref> lesbar war.</note>
+<l xml:id="fr45_764.21">Nam fey&#x0307;rafiz mit der hant</l>
+<l xml:id="fr45_764.22">&#x017F;waz &#x017F;ie vrovn vn<choice><am>&#x0304;</am><ex>d</ex></choice> ritter vant.</l>
+<l xml:id="fr45_764.23">Da &#x017F;ten. die bat &#x017F;ie &#x017F;itzen alle.</l>
+<l xml:id="fr45_764.24">do reit dar zv&#x0366; mit &#x017F;challe.</l>
+<l xml:id="fr45_764.25">Art<choice><am>&#xA770;</am><ex>us</ex></choice> mit den &#x017F;inen.</l>
+<l xml:id="fr45_764.26">man horte da bu&#x017F;inen.</l>
+<l xml:id="fr45_764.28"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_764.27"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_764.29">Rey&#x0307;t da zv&#x0366; mit krache.</l>
+<l xml:id="fr45_764.30">der vrolichen &#x017F;ache.</l>
+<l xml:id="fr45_765.01">D<choice><am>&#x0309;</am><ex>er</ex></choice> heyden iach vor riche dinc.</l>
+<l xml:id="fr45_765.02">&#x017F;u&#x0366;s reit an Gawans rinc.</l>
+<l xml:id="fr45_765.03">Artus mit &#x017F;inem wibe.</l>
+<l xml:id="fr45_765.04">mit mangem klaren <supplied reason="unleserlich" resp="Sekundärliteratur">l</supplied>ibe.</l>
+<l xml:id="fr45_765.05">Mit ritte<choice><am>&#x0309;</am><ex>r</ex></choice>n vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit vrowen.</l>
+<l xml:id="fr45_765.06">der hey&#x0307;den mochte &#x017F;chowen.</l>
+<l xml:id="fr45_765.07">Daz ouch da livte waren.</l>
+<l xml:id="fr45_765.08">iunc mit &#x017F;u&#x0366;lhen iaren.</l>
+<l xml:id="fr45_765.09">Daz &#x017F;ie pflagen varbe glanz.</l>
+<l xml:id="fr45_765.10">da was d<choice><am>&#x0309;</am><ex>er</ex></choice> kong Gramoflanz.</l>
+<l xml:id="fr45_765.11">De<choice><am>&#x0304;</am><ex>n</ex></choice>noch in artu&#x017F;es pflege.</l>
+<l xml:id="fr45_765.12">do reit ouch uf dem &#x017F;elbe<choice><am>&#x0304;</am><ex>n</ex></choice> wege.</l>
+<l xml:id="fr45_765.13">Jthonie &#x017F;in amy&#x0307;e.</l>
+<l xml:id="fr45_765.14">die &#x017F;elbe val&#x017F;ches vrie.</l>
+<l xml:id="fr45_765.15">Dor bey&#x0307;zte d<choice><am>&#x0309;</am><ex>er</ex></choice> tabelrunder &#x017F;char.</l>
+<l xml:id="fr45_765.16">mit manger vrowe<choice><am>&#x0304;</am><ex>n</ex></choice> wol gevar.</l>
+<l xml:id="fr45_765.17">Gy&#x0307;nouer liez Jthonie.</l>
+<l xml:id="fr45_765.18">ir neben den hey&#x0307;den kv&#x017F;&#x017F;en e.</l>
+<l xml:id="fr45_765.19">Sie &#x017F;elbe do d<supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied> naher gi<supplied reason="unleserlich" resp="Sekundärliteratur">e.</supplied></l>
+<l xml:id="fr45_765.20">fey&#x0307;rafiz &#x017F;ie mit ku&#x017F;<supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;e</supplied> entpfie<supplied reason="unleserlich" resp="Sekundärliteratur">.</supplied></l>
+<l xml:id="fr45_765.21">Artus vn<choice><am>&#x0304;</am><ex>d</ex></choice> Gram<supplied reason="unleserlich" resp="Sekundärliteratur">oflan</supplied>z.</l>
+<l xml:id="fr45_765.22">mit tr<supplied reason="unleserlich" resp="Sekundärliteratur">u</supplied>welicher liebe <supplied reason="unleserlich" resp="Sekundärliteratur">ganz.</supplied></l>
+</body>
+</text>
+</TEI>

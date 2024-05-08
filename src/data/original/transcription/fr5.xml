@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr5</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>27.12.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Rein (Steiermark)</settlement>
+          <repository>Stiftsbibliothek</repository>
+          <idno>aus Cod. 205</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr5</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="ru">Rubrikator</handNote>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 423.29-453.30</note>
+<note>423.29-429.28 transkribiert von JKl ab Farbfotos (Studio) am 26.10.2011.</note>
+<note>423.29-429.28 gegengelesen von MGe nach Farbfotos (Studio) am 22.11.2011.</note>
+<note>441.29-443.05 transkribiert nach Farbfotos (Studio) von GVi am 29.4.2004</note>
+<note>441.29-443.05 gegengelesen nach Farbfotos (Studio) von JKl am 09.03.2012</note>
+<note>443.06-452.30 transkribiert nach Farbfotos (Studio) von JKl am 09.03.2012</note>
+<note>453.01-30 transkribiert von YCh ab Farbfotos (Studio) am 28.07.2009.</note>
+<note>Letzte Änderung durch YCh am 25.01.2012.</note>
+<note>453.01-453.30 gegengelesen nach Farbfotos (Studio) von JKl am 09.03.2012</note>
+<note>453.01-453.30 gegengelesen nach Farbfotos (Studio) von JKl am 09.03.2012</note>
+<note>441.29-453.30 gegengelesen nach Farbfotos (Studio) von MiGe am 20.03.2012</note>
+<note>Alles gegengelesen nach Farbfotos von KHo am 7.12.16</note>
+<note>Grundsätzlich wurde jeder erste Buchstabe eines Verses in Fr5 mit einem durchgehenden Strich rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<note>Im Dezember 2017 Vergleich der zweifelhaften und unleserlichen Stellen mit der Transkription von Joseph Diemer durch MiGe. Vgl. Diemer, Custos: Kleine Beiträge zur altdeutschen Sprache und Literatur von Wolfram's Parzival, in: Sitzungsberichte der phil.-hist. Classe der kaiserl. Akademie der Wissenschaften, Bd. 7 (1851), S. 292-314. Alle aus Diemers Transkription übernommenen Buchstaben und Wörter werden mit dem Tag <supplied reason="unleserlich" resp="Sekundärliteratur"></supplied> augezeichnet.</note>
+<note>Autopsie am Original am 9. September 2020 durch MiGe.</note>
+<note>Alle mit roter Tinte vergenommenen Korrekturen werden ru zugeordnet.</note>
+<pb xml:id="fr5001r"/><cb xml:id="fr5001ra"/>
+<l xml:id="fr5_405.17">J&#x017F;t &#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.18">Jch &#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.19">Jr <unclear reason="Zweifel">m</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.20">Dar<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.21">Da <gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.22">Zv&#x0366; <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.23">Saz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.24">Si<unclear reason="Zweifel">v&#x0366;</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.25">Bei<unclear reason="Zweifel">d</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.26">Si<unclear reason="Zweifel">v</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.27">Er <unclear reason="Zweifel">&#x017F;</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.28">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.29">Ouc<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_405.30">Div <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">H</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.04">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.05">Mi<unclear reason="Zweifel">n</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.06">Ane<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.07">An d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.08">Der<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.09">Vn<choice><am>&#x0304;</am><ex>d</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.10">Doch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.11">We<unclear reason="Zweifel">l</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.12">Do <unclear reason="Zweifel">&#x017F;</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.13"><hi rend="rot">&#x2E3F;</hi>Mi<unclear reason="Zweifel">c</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.14">Jch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.15">Mi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.16">We<unclear reason="Zweifel">l</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.17">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.18">De<unclear reason="Zweifel">r</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.19">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.20">Vn<choice><am>&#x0304;</am><ex>d</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.21">&#x2E3F;E<unclear reason="Zweifel">i</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.22">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.23">Me<unclear reason="Zweifel">r</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.24">Die<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.25">Siv<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.26">Ou<unclear reason="Zweifel">h</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.27">Der<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.28">Ga<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.29">So <unclear reason="Zweifel">&#x017F;</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_406.30">Daz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.01">Va<unclear reason="Zweifel">h</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.02">Er g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.03"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">I</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.06">Beid<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.07">Da d<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.08">Het<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.09">De&#x017F;<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.10">Nu <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.11">Do g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.12">Ein <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.13">Jn w<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.14">Gau<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.15">Da b<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr5_407.16">Ou<unclear reason="Zweifel">w</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr5002r"/><cb xml:id="fr5002ra"/>
+<l xml:id="fr5_417.19">Jr liezint ez vngerochin.</l>
+<l xml:id="fr5_417.20">Jr habint iv gar vir&#x017F;prochin.</l>
+<l xml:id="fr5_417.21">Man &#x017F;ol iv wol giloubin</l>
+<l xml:id="fr5_417.22">Daz iv niemanni&#x017F; ougin.</l>
+<l xml:id="fr5_417.23">G<unclear reason="Zweifel">i</unclear>&#x017F;ah<gap reason="unleserlich" extent="1" unit="Buchstabe"/>n zi vordire&#x017F;t da man &#x017F;treit.</l>
+<l xml:id="fr5_417.24"><unclear reason="Zweifel">Ie</unclear> wa&#x017F; ie &#x017F;triten wol &#x017F;o <unclear reason="Zweifel">l</unclear>eit.</l>
+<l xml:id="fr5_417.25"><unclear reason="Zweifel">D</unclear>az ir der <gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">l</unclear>uht bigundent.</l>
+<l xml:id="fr5_417.26"><gap reason="unleserlich" extent="2" unit="Buchstabe"/><unclear reason="Zweifel">n</unclear>noch ir mere wol kundent.</l>
+<l xml:id="fr5_417.27">Swa man ie gein &#x017F;trite dranc</l>
+<l xml:id="fr5_417.28">Da tatint ir wibi&#x017F; widir wanc.</l>
+<l xml:id="fr5_417.29">S<gap reason="unleserlich" extent="1" unit="Buchstabe"/>e<gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">h</unclear> <unclear reason="Zweifel">ku</unclear><gap reason="Fragmentverlust" extent="unbekannt"/>ch <unclear reason="Zweifel">&#x017F;</unclear>ich lat an ivwern rat.</l>
+<l xml:id="fr5_417.30"><unclear reason="Zweifel">V</unclear><gap reason="Fragmentverlust" extent="unbekannt"/> twer<gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F; im div krone &#x017F;tat.</l>
+<l xml:id="fr5_418.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>a were von minen handin.</l>
+<l xml:id="fr5_418.02">I<unclear reason="Zweifel">n</unclear> creize bi&#x017F;tandin.</l>
+<l xml:id="fr5_418.03">Gauwan der ellinthaftir degin.</l>
+<l xml:id="fr5_418.04">De&#x017F; het ich mich gein im biwegin.</l>
+<l xml:id="fr5_418.05">Daz der vride alhie were gitan.</l>
+<l xml:id="fr5_418.06">Wolte min herre de&#x017F; gi&#x017F;tattit han.</l>
+<l xml:id="fr5_418.07">Der treit mit &#x017F;unden minin haz.</l>
+<l xml:id="fr5_418.08">Jch gitruwete im and<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r dinge baz.</l>
+<l xml:id="fr5_418.09">Her Gauwan l<unclear reason="Zweifel">o</unclear>bint her mir vur war.</l>
+<l xml:id="fr5_418.10">Daz ir von hivte vbir ein iar.</l>
+<l xml:id="fr5_418.11">Mir zigegin rede &#x017F;tet.</l>
+<l xml:id="fr5_418.12">Jn kamphe ob ez &#x017F;o hie irget.</l>
+<l xml:id="fr5_418.13">Daz iv min herre lat daz lebin.</l>
+<l xml:id="fr5_418.14">Da wirt iv kamph von mir gigebin.</l>
+<l xml:id="fr5_418.15">Jch &#x017F;prach iv an andem plimizol.</l>
+<l xml:id="fr5_418.16">Nu &#x017F;ie der kamph zi barbigol.</l>
+<l xml:id="fr5_418.17">Vor dem kunig melianze.</l>
+<l xml:id="fr5_418.18">Der &#x017F;orgen zi eime kranze.</l>
+<l xml:id="fr5_418.19">Trage ich vnz vf daz tegedinc.</l>
+<l xml:id="fr5_418.20-a">Wie da <supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied>rgen miniv dinc.</l>
+<l xml:id="fr5_418.21"></l>
+<l xml:id="fr5_418.22"></l>
+<l xml:id="fr5_418.23"><hi rend="rot">&#x2E3F;</hi>Gauwan der ellin&#x017F; riche</l>
+<l xml:id="fr5_418.24">Bot g<unclear reason="Zweifel">i</unclear>zoginliche</l>
+<l xml:id="fr5_418.25">Nah dierre bete &#x017F;ichirheit.</l>
+<l xml:id="fr5_418.26">Do wa&#x017F; da mit rede al bireit.</l>
+<l xml:id="fr5_418.27">Der herzoge liddamu&#x017F;.</l>
+<l xml:id="fr5_418.28">Big<unclear reason="Zweifel">o</unclear>nde ouch &#x017F;inir rede al&#x017F;u&#x017F;.</l>
+<l xml:id="fr5_418.29"></l>
+<l xml:id="fr5_418.30"></l>
+<l xml:id="fr5_419.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>r &#x017F;prach wand im wa&#x017F; &#x017F;prechin&#x017F; zit.</l>
+<l xml:id="fr5_419.02">Swa ich kume zu&#x0366;me &#x017F;trit.</l>
+<l xml:id="fr5_419.03">Han ich da vehtin&#x017F; phlihte.</l>
+<l xml:id="fr5_419.04">Odir vluht mit vng<unclear reason="Zweifel">iri</unclear>hte.</l>
+<l xml:id="fr5_419.05">Bin ich virzagilich ein zage.</l>
+<l xml:id="fr5_419.06">Odir ich pri&#x017F; al da bi iage.</l>
+<l xml:id="fr5_419.07">Her lantgraue de&#x017F; dankint ir</l>
+<l xml:id="fr5_419.08">Al&#x017F; ir&#x017F; gipriv&#x0366;vin kunnint an mir.</l>
+<l xml:id="fr5_419.09">Jnphah <gap reason="unleserlich" extent="unbekannt"/> iemir ivwirn &#x017F;olt.</l>
+<l xml:id="fr5_419.10">Jch bin iedoch mir &#x017F;elbin holt.</l>
+<l xml:id="fr5_419.11">Su&#x017F; &#x017F;prach der riche liddamu&#x017F;.</l>
+<l xml:id="fr5_419.12">Welnt ir &#x017F;in her turnu&#x017F;.</l>
+<l xml:id="fr5_419.13">So lant mich &#x017F;in her trance&#x017F;.</l>
+<l xml:id="fr5_419.14">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;trafint mich ob ir wizzin we&#x017F;.</l>
+<l xml:id="fr5_419.15">Jrhebint iv niht zigroze.</l>
+<l xml:id="fr5_419.16">Ob ir vurh&#x017F;ten minir gnoze.</l>
+<l xml:id="fr5_419.17">Der edilo&#x017F;te vn<choice><am>&#x0304;</am><ex>d</ex></choice> d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r obiro&#x017F;te birt.</l>
+<l xml:id="fr5_419.18">Jch bin ouch herre vn<choice><am>&#x0304;</am><ex>d</ex></choice> lande&#x017F; wirt.</l>
+<l xml:id="fr5_419.19">Jch han in Galicia.</l>
+<l xml:id="fr5_419.20">Beidiv her vn<choice><am>&#x0304;</am><ex>d</ex></choice> da.</l>
+<l xml:id="fr5_419.21">Man<unclear reason="Zweifel">ic</unclear> burc vnz an vederun.</l>
+<l xml:id="fr5_419.22">Swa&#x017F; ir vn<choice><am>&#x0304;</am><ex>d</ex></choice> iegi&#x017F;lichir prittvn.</l>
+<cb xml:id="fr5002rb"/>
+<l xml:id="fr5_419.23">Mir da zi &#x017F;chaden mvgint gitv&#x0366;n</l>
+<l xml:id="fr5_419.24">Jch givlohe vor iv niemir hu&#x0366;n</l>
+<l xml:id="fr5_419.25">Er i&#x017F;t von prittanie komin.</l>
+<l xml:id="fr5_419.26">Gein dem ir kamph hant ginomin</l>
+<l xml:id="fr5_419.27">Nu recchin herren vn<choice><am>&#x0304;</am><ex>d</ex></choice> den mac.</l>
+<l xml:id="fr5_419.28">Mich &#x017F;ol virmidin ivwi<unclear reason="Zweifel">r</unclear> bac.</l>
+<l xml:id="fr5_419.29">Juwirn vettirn ir warint &#x017F;in man.</l>
+<l xml:id="fr5_419.30">Swer dem &#x017F;in lebin an giwan.</l>
+<l xml:id="fr5_420.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>a rechint ez ich tet im niht.</l>
+<l xml:id="fr5_420.02">Jch we&#x0302;ne mir&#x017F; ouch nieman giht.</l>
+<l xml:id="fr5_420.03">Juwirn vettirn &#x017F;ol ich wol virclagin.</l>
+<l xml:id="fr5_420.04">Sin &#x017F;un &#x017F;ol die krone nah im tragin.</l>
+<l xml:id="fr5_420.05">Der i&#x017F;t mir zieime herren hoch ginu&#x0366;ec</l>
+<l xml:id="fr5_420.06">Div kuniginne flurdarmurs in tru&#x0366;ec.</l>
+<l xml:id="fr5_420.07">Sin vatir kyngri&#x017F;in.</l>
+<l xml:id="fr5_420.08">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> der andir kunig Gandin.</l>
+<l xml:id="fr5_420.09">Jch wil iv baz bi&#x017F;cheidin de&#x017F;.</l>
+<l xml:id="fr5_420.10">Gahmureth vn<choice><am>&#x0304;</am><ex>d</ex></choice> Galoe&#x017F;.</l>
+<l xml:id="fr5_420.11">Sin oheim <subst hand="#sr"><del>warin</del><add>waren</add></subst>.</l>
+<l xml:id="fr5_420.12">Jch ne wolte gerne &#x017F;in varen.</l>
+<l xml:id="fr5_420.13">Jch mohte mit eren wol von &#x017F;inir hant.</l>
+<l xml:id="fr5_420.14">Mit vanen inpfahin min lant.</l>
+<l xml:id="fr5_420.15">Swer vehtin welle der tu&#x0366; ouch daz.</l>
+<l xml:id="fr5_420.16">Bin ich gein dem &#x017F;trite laz.</l>
+<l xml:id="fr5_420.17">Jch vir ei&#x017F;ch doch div mere wol.</l>
+<l xml:id="fr5_420.18">Swer pri&#x017F; inme &#x017F;trite hol.</l>
+<l xml:id="fr5_420.19">De&#x017F; danchin im div &#x017F;tolzin wip.</l>
+<l xml:id="fr5_420.20">Jch ni wil durch nieman minin lip.</l>
+<l xml:id="fr5_420.21">Virleitin hi<unclear reason="Zweifel">n</unclear> zi &#x017F;charphin pin.</l>
+<l xml:id="fr5_420.22">Wa&#x017F; wolfharti&#x017F; &#x017F;ol ich &#x017F;in.</l>
+<l xml:id="fr5_420.23">Mir i&#x017F;t inme &#x017F;trite d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r wec virgrabit.</l>
+<l xml:id="fr5_420.24">Gein vehtinne d<unclear reason="Zweifel">u</unclear> gir virhabit.</l>
+<l xml:id="fr5_420.25">Wurdint ir mir&#x017F; niemir holt.</l>
+<l xml:id="fr5_420.26">Jch t&#x00E6;te e al&#x017F;e kunolt.</l>
+<l xml:id="fr5_420.27">Der dem kunige givnther riet.</l>
+<l xml:id="fr5_420.28">Do er von wormi&#x017F; gein den hivnen &#x017F;chiet.</l>
+<l xml:id="fr5_420.29">Er bat in lange &#x017F;nitten be&#x0302;n</l>
+<l xml:id="fr5_420.30">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> indem ke&#x017F;&#x017F;ile vmbe dre&#x0302;n.</l>
+<l xml:id="fr5_421.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>Er lantgraue ellin&#x017F; riche.</l>
+<l xml:id="fr5_421.02">Sprach ir redint dem vil giliche.</l>
+<l xml:id="fr5_421.03">Al&#x017F;e menigir weiz an iv vur war.</l>
+<l xml:id="fr5_421.04">Jvwir zit vn<choice><am>&#x0304;</am><ex>d</ex></choice> ivwir jar.</l>
+<l xml:id="fr5_421.05">Jr ratint mir daz wolt ich iedoch</l>
+<l xml:id="fr5_421.06">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;prechint ir tetinz al&#x017F;o riet ein choch.</l>
+<l xml:id="fr5_421.07">Dez kv&#x0366;enin nibilungin.</l>
+<l xml:id="fr5_421.08">Die &#x017F;ich vmbetwungin.</l>
+<l xml:id="fr5_421.09">Vz hu&#x0366;bin da man an in rach</l>
+<l xml:id="fr5_421.10">Daz in vride da von gi&#x017F;chach</l>
+<l xml:id="fr5_421.11">Mich mu&#x0366;ez her Gauwan &#x017F;lahin tot.</l>
+<l xml:id="fr5_421.12">Odir ich gilere in rache not.</l>
+<l xml:id="fr5_421.13"><hi rend="rot">&#x2E3F;</hi>De&#x017F; volge ich &#x017F;prach liddamu&#x017F;.</l>
+<l xml:id="fr5_421.14">Wan &#x017F;waz &#x017F;in oheim Artu&#x017F;.</l>
+<l xml:id="fr5_421.15">Hat vn<choice><am>&#x0304;</am><ex>d</ex></choice> die von Jndia.</l>
+<l xml:id="fr5_421.16">Der mir&#x017F; hie gebe al&#x017F; &#x017F;iv ez hant da.</l>
+<l xml:id="fr5_421.17">Der mirz lediclichin bre&#x0302;hte</l>
+<l xml:id="fr5_421.18">Jch liez ez e danne ich vehte.</l>
+<l xml:id="fr5_421.19">Nu bihaltint pri&#x017F; de&#x017F; man iv giht.</l>
+<l xml:id="fr5_421.20">Seyg<unclear reason="Zweifel">r</unclear>emor&#x017F; in bin ich niht.</l>
+<l xml:id="fr5_421.21">Den man durch vehtin bindin mu&#x0366;ez</l>
+<l xml:id="fr5_421.22">Jch ir wirbe &#x017F;u&#x017F; wo<unclear reason="Zweifel">l</unclear> kivnigi&#x017F; gru&#x0366;ez.</l>
+<cb xml:id="fr5002rc"/>
+<l xml:id="fr5_421.23">Sibiche nie &#x017F;wert gizoch.</l>
+<l xml:id="fr5_421.24">Er wa&#x017F; ie bi den da man vloch</l>
+<l xml:id="fr5_421.25">Do mv&#x0366;e&#x017F; man in vlehin.</l>
+<l xml:id="fr5_421.26">Groz gabe vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;tarkiv lehin.</l>
+<l xml:id="fr5_421.27">Jnpfienc er von ermirrich gnu&#x0366;ec</l>
+<l xml:id="fr5_421.28">Nie &#x017F;wert er doch dur helm &#x017F;lu&#x0366;ec.</l>
+<l xml:id="fr5_421.29">Mir wirt vir<unclear reason="Zweifel">&#x017F;</unclear>ert niemir vel.</l>
+<l xml:id="fr5_421.30">Durh iv her kyngrimur&#x017F;el.</l>
+<l xml:id="fr5_422.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>e&#x017F; han ich mich gein iv bidaht.</l>
+<l xml:id="fr5_422.02">Do &#x017F;prach der kunich vergulaht.</l>
+<l xml:id="fr5_422.03">Swigint iverr weh<unclear reason="Zweifel">&#x017F;ilm</unclear>&#x00E6;re.</l>
+<l xml:id="fr5_422.04">Ez i&#x017F;t mir von iv beiden &#x017F;were.</l>
+<l xml:id="fr5_422.05">Daz jr der worte &#x017F;int &#x017F;o vrj.</l>
+<l xml:id="fr5_422.06">Jch bin iv alzi nahin bi.</l>
+<l xml:id="fr5_422.07">Zi &#x017F;u&#x017F; gitanime gibrehte</l>
+<l xml:id="fr5_422.08">Ez &#x017F;tet mir noch iv niht rehte.</l>
+<l xml:id="fr5_422.09">&#x2E3F;Diz wa&#x017F; vf dem pala&#x017F;.</l>
+<l xml:id="fr5_422.10">Aldar &#x017F;in &#x017F;we&#x017F;tir komin wa&#x017F;.</l>
+<l xml:id="fr5_422.11">Bi ir &#x017F;tu&#x0366;nt her Gauwan.</l>
+<l xml:id="fr5_422.12">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> manic andir werdir man.</l>
+<l xml:id="fr5_422.13">Der kunig &#x017F;prach zider &#x017F;we&#x017F;tir &#x017F;in.</l>
+<l xml:id="fr5_422.14">Nu nim den gi&#x017F;ellin din.</l>
+<l xml:id="fr5_422.15">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> ouch d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n lantgraven zv&#x0366; dir.</l>
+<l xml:id="fr5_422.16">Die o&#x036E;ch mir gv&#x0366;ti&#x017F; gunnin die gengin mit mir.</l>
+<l xml:id="fr5_422.17">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> ratint mirs <supplied reason="unleserlich" resp="Sekundärliteratur">wegi&#x017F;te</supplied> wa&#x017F; i<unclear reason="Zweifel">c</unclear>h tv&#x0366;.</l>
+<l xml:id="fr5_422.18">Si &#x017F;prach da lege dine truwe zv&#x0366;.</l>
+<l xml:id="fr5_422.19">&#x2E3F;Nu ge&#x0302;t der kunig an &#x017F;inin rat.</l>
+<l xml:id="fr5_422.20">Div kivnigin ginomin hat.</l>
+<l xml:id="fr5_422.21">Jr vettirn &#x017F;un vn<choice><am>&#x0304;</am><ex>d</ex></choice> ir ga&#x017F;t.</l>
+<l xml:id="fr5_422.22">Des fro&#x036E;de wa&#x017F; der &#x017F;orgin la&#x017F;t.</l>
+<l xml:id="fr5_422.23">An alle mi&#x017F;&#x017F;ewende.</l>
+<l xml:id="fr5_422.24">Nam &#x017F;i Gauwan mit ir hende.</l>
+<l xml:id="fr5_422.25">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> vu&#x0364;erte in da &#x017F;i wolte we&#x017F;in.</l>
+<l xml:id="fr5_422.26">Si &#x017F;prach zime w&#x00E6;rit ir niht gine&#x017F;in.</l>
+<l xml:id="fr5_422.27">De&#x017F; hettin &#x017F;chaden alliu lant.</l>
+<l xml:id="fr5_422.28">An der kuniginne hant.</l>
+<l xml:id="fr5_422.29">Gienc de&#x017F; werdin loti&#x017F; &#x017F;un.</l>
+<l xml:id="fr5_422.30">Er mohtiz ouch d<unclear reason="Zweifel">o</unclear> vil gerne tv&#x0366;n.</l>
+<l xml:id="fr5_423.01"><seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: rot">I</seg>N die kamin<unclear reason="Zweifel">a</unclear>ten &#x017F;an.</l>
+<l xml:id="fr5_423.02">Gienc div kivnigin vn<choice><am>&#x0304;</am><ex>d</ex></choice> zwene man.</l>
+<l xml:id="fr5_423.03">Vor den andirn bileip &#x017F;i lere.</l>
+<l xml:id="fr5_423.04">De&#x017F; phlagin kamirere.</l>
+<l xml:id="fr5_423.05">Wan clarin ivnchfrowelin</l>
+<l xml:id="fr5_423.06">Der mv&#x0366;&#x017F;e vil dort inne &#x017F;in.</l>
+<l xml:id="fr5_423.07">Div kunigin mit zuhtin phlac.</l>
+<l xml:id="fr5_423.08">Gauwan&#x017F; der ir zi herzin lac</l>
+<l xml:id="fr5_423.09">Da wa&#x017F; der lantgraue mitte.</l>
+<l xml:id="fr5_423.10">Der &#x017F;chiet niendir von der &#x017F;ite.</l>
+<l xml:id="fr5_423.11">Do &#x017F;orgite vil div werde magit.</l>
+<l xml:id="fr5_423.12">Vmbe Gauwan&#x017F; lip wart mir gi&#x017F;agit.</l>
+<l xml:id="fr5_423.13">Su&#x017F; warin die zwene da inne.</l>
+<l xml:id="fr5_423.14">Bi der kuniginne.</l>
+<l xml:id="fr5_423.15">Vnz daz der tac liez &#x017F;inin &#x017F;trit.</l>
+<l xml:id="fr5_423.16">Div naht chom do wa&#x017F; ezzin&#x017F; zit.</l>
+<l xml:id="fr5_423.17">Moraz. win. lutir tranc</l>
+<l xml:id="fr5_423.18">Brahtin jvncfro&#x036E;wen in mitten kranc.</l>
+<l xml:id="fr5_423.19">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> andir gu&#x0366;t &#x017F;pi&#x017F;e.</l>
+<l xml:id="fr5_423.20">Fa&#x017F;an pardri&#x017F;e.</l>
+<l xml:id="fr5_423.21">Gu&#x0366;et vi&#x017F;che vn<choice><am>&#x0304;</am><ex>d</ex></choice> blanchiv wa&#x017F;tel.</l>
+<l xml:id="fr5_423.22">Gauwan vn<choice><am>&#x0304;</am><ex>d</ex></choice> kyngrimur&#x017F;el.</l>
+<pb xml:id="fr5002v"/><cb xml:id="fr5002va"/>
+<l xml:id="fr5_423.23-0"><note type="Notiz">Venite addomu<choice><am>&#x0304;</am><ex>m</ex></choice> jacob <unclear reason="Fragliche Abkürzung">et</unclear> Addomu<choice><am>&#x0304;</am><ex>m</ex></choice> <lb/> d<gap reason="unleserlich" extent="2" unit="Buchstabe"/>d<gap reason="unleserlich" extent="2" unit="Buchstabe"/> hono<choice><am>&#x0309;</am><ex>r</ex></choice>e<unclear reason="Zweifel">m</unclear> deo <unclear reason="Fragliche Abkürzung">et</unclear> p<unclear reason="Zweifel">at</unclear>rie lib<choice><am>&#x0309;</am><ex>er</ex></choice>ac<choice><am>&#x0304;</am><ex>ione</ex></choice>m intulit</note></l>
+<l xml:id="fr5_423.23">Warin komin vz grozir not.</l>
+<l xml:id="fr5_423.24">Sit ez div kvniginne gibot.</l>
+<l xml:id="fr5_423.25">Siv azen al&#x017F;e &#x017F;iv &#x017F;olton.</l>
+<l xml:id="fr5_423.26">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> andire die ez iht wolton.</l>
+<l xml:id="fr5_423.27">Anthichonie an &#x017F;elbiv &#x017F;neit.</l>
+<l xml:id="fr5_423.28">Daz waz durch zuht inbeiden <unclear reason="Zweifel">l</unclear>eit.</l>
+<l xml:id="fr5_423.29">Swaz man da kinder &#x017F;henchin &#x017F;ach</l>
+<note resp="#JKl_Transkribent" target="#fr5_423.29 #Fr5002va"><ref>&#x017F;ach.</ref>: Rechts neben der Spalte erstreckt sich von Vers 423.29 bis 424.06 eine auf dem Kopf stehende Federzeichnung jüngeren Datums.</note>
+<l xml:id="fr5_423.30">Jr nicheinim der ho&#x017F;ene&#x017F;til brach.</l>
+<l xml:id="fr5_424.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>z warin megide al&#x017F; von der zit.</l>
+<l xml:id="fr5_424.02">Div be&#x017F;tin iar noch gi&#x0302;t.</l>
+<l xml:id="fr5_424.03">Jch bin dez vnreverit.</l>
+<l xml:id="fr5_424.04">Hetin <subst hand="#sr"><del>&#x017F;</del><add>&#x017F;ie</add></subst> gi&#x017F;cherit.</l>
+<l xml:id="fr5_424.05">Al&#x017F; ein valche &#x017F;in gividere.</l>
+<l xml:id="fr5_424.06">Da rede ich niht widere.</l>
+<l xml:id="fr5_424.07"><hi rend="rot">&#x2E3F;</hi>Nv horint e &#x017F;ich der rat gi&#x017F;chiet.</l>
+<l xml:id="fr5_424.08">Waz man dez landi&#x017F; kunige riet.</l>
+<l xml:id="fr5_424.09">Die wi&#x017F;en het ir zim ginomin.</l>
+<l xml:id="fr5_424.10">An &#x017F;inin rat die warin <del hand="#sr">ime</del> komin.</l>
+<l xml:id="fr5_424.11">Eti&#x017F;lichir &#x017F;inin willin &#x017F;prach.</l>
+<l xml:id="fr5_424.12">Al&#x017F; im &#x017F;in be&#x017F;tir &#x017F;in viriach.</l>
+<l xml:id="fr5_424.13">Do mazin &#x017F;iv ez an manige &#x017F;tat.</l>
+<l xml:id="fr5_424.14">Der kunich ouch &#x017F;in rede horin bat.</l>
+<l xml:id="fr5_424.15"><hi rend="rot">&#x2E3F;</hi>Er &#x017F;prach ez wart mit mir gi&#x017F;tritten.</l>
+<l xml:id="fr5_424.16">Jch kom divrch auenture giritten</l>
+<l xml:id="fr5_424.17">Jnz forrei&#x017F;t <unclear reason="Zweifel">L</unclear>echtaniri&#x017F;.</l>
+<l xml:id="fr5_424.18">Ein ritir alzi hohin pri&#x017F;.</l>
+<l xml:id="fr5_424.19">Jn dierre wochin an mir &#x017F;ach.</l>
+<l xml:id="fr5_424.20">Wan er mich flugilingin &#x017F;tach</l>
+<l xml:id="fr5_424.21">Hindir&#x017F; or&#x017F; al &#x017F;under twal.</l>
+<l xml:id="fr5_424.22">Er twanc mich dez daz ich den gral.</l>
+<l xml:id="fr5_424.23">Gilobite im zir werbin.</l>
+<l xml:id="fr5_424.24">Solt ich nv drumbe &#x017F;terbin.</l>
+<l xml:id="fr5_424.25">So mu&#x0366;ez ich lei&#x017F;tin &#x017F;ichirheit.</l>
+<l xml:id="fr5_424.26">Die &#x017F;in hant an mir ir &#x017F;treit.</l>
+<l xml:id="fr5_424.27">Da ratint vmbe dei&#x017F;t not.</l>
+<l xml:id="fr5_424.28"></l>
+<l xml:id="fr5_424.29">Do ich dar vmbe bot mine hant.</l>
+<l xml:id="fr5_424.30">Al&#x017F; iv mit rede hie i&#x017F;t bikant.</l>
+<l xml:id="fr5_425.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>z i&#x017F;t manheit vn<choice><am>&#x0304;</am><ex>d</ex></choice> ellin&#x017F; her.</l>
+<l xml:id="fr5_425.02">Der helt gibot mir dennoch mer.</l>
+<l xml:id="fr5_425.03">Daz ich an arge li&#x017F;te.</l>
+<l xml:id="fr5_425.04">Minir jar&#x017F; vri&#x017F;te.</l>
+<l xml:id="fr5_425.05">Ob ich grali&#x017F; irwurbe niht.</l>
+<l xml:id="fr5_425.06">Daz ir kome der man giht.</l>
+<l xml:id="fr5_425.07">Der krone <subst hand="#sr"><del>*</del><add>bi</add></subst> peilrapeire.</l>
+<l xml:id="fr5_425.08">Jr vatir hiez tampeteire</l>
+<l xml:id="fr5_425.09">Swenne &#x017F;i min ouge an &#x017F;ehe</l>
+<l xml:id="fr5_425.10">Daz ich ir &#x017F;ichirheit iehe.</l>
+<l xml:id="fr5_425.11">Er inbot ir ob &#x017F;i gid&#x00E6;hte an in.</l>
+<l xml:id="fr5_425.12">Daz w&#x00E6;re an fro&#x036E;den &#x017F;in giwin.</l>
+<l xml:id="fr5_425.13">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> er weriz der &#x017F;i lo&#x017F;te e.</l>
+<l xml:id="fr5_425.14">Von dem kunige clamide.</l>
+<l xml:id="fr5_425.15"><hi rend="rot">&#x2E3F;</hi>Do &#x017F;i die rede ir horton &#x017F;u&#x017F;.</l>
+<l xml:id="fr5_425.16">Do sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch liddamu&#x017F;.</l>
+<l xml:id="fr5_425.17">Mit dierre vrlop ir &#x017F;prich nv</l>
+<l xml:id="fr5_425.18">Ouch raten &#x017F;iv dir zv&#x0366;.</l>
+<l xml:id="fr5_425.19">Swe&#x017F; ivch dort twanc der eine man.</l>
+<l xml:id="fr5_425.20">Dez &#x017F;ie hie phant her Gauwan.</l>
+<l xml:id="fr5_425.21">Der vedir&#x017F;lagit vf ivwirn clobin.</l>
+<l xml:id="fr5_425.22">Bittint in vor vn&#x017F; allen lobin.</l>
+<l xml:id="fr5_425.23">Daz er iv den gral giwunne.</l>
+<cb xml:id="fr5002vb"/>
+<l xml:id="fr5_425.24">Lant in mit gu&#x0366;etir minne.</l>
+<l xml:id="fr5_425.25">Von iv hinnan riten.</l>
+<l xml:id="fr5_425.26">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> nach dem grale &#x017F;triten.</l>
+<l xml:id="fr5_425.27">Die &#x017F;chame wir mv&#x0366;e&#x017F;in alle clagin.</l>
+<l xml:id="fr5_425.28">Wurdir in ivwirme hu&#x017F;e ir&#x017F;lagin.</l>
+<l xml:id="fr5_425.29">Nu virgebint im &#x017F;ine &#x017F;chulde.</l>
+<l xml:id="fr5_425.30">Durch ivwir &#x017F;we&#x017F;tir hulde.</l>
+<l xml:id="fr5_426.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>R hat hie irlitten groze not.</l>
+<l xml:id="fr5_426.02">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> er mv&#x0366;ez nv kerin in den tot.</l>
+<l xml:id="fr5_426.03">Swaz erd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n het vmbe &#x017F;lagin daz mer.</l>
+<l xml:id="fr5_426.04">Da ne gilac nie hu&#x017F; &#x017F;o wol ziwer.</l>
+<l xml:id="fr5_426.05">Al&#x017F; mvnt&#x017F;aluah&#x017F;ch &#x017F;wa div &#x017F;tet.</l>
+<l xml:id="fr5_426.06">Von &#x017F;tein ruhir wec dar get.</l>
+<l xml:id="fr5_426.07">Bi &#x017F;ime gimache in hinaht lat.</l>
+<l xml:id="fr5_426.08">Morne &#x017F;age man im den rat.</l>
+<l xml:id="fr5_426.09"><hi rend="rot">&#x2E3F;</hi>De&#x017F; volgiton im al die rat gebin.</l>
+<l xml:id="fr5_426.10">Su&#x017F; bihielt her Gauwan da &#x017F;in lebin.</l>
+<l xml:id="fr5_426.11">Wan phlac de&#x017F; helidi&#x017F; vnvirzagit.</l>
+<l xml:id="fr5_426.12">De&#x017F; nahti&#x017F; al da wart mir gi&#x017F;agit.</l>
+<l xml:id="fr5_426.13">Da&#x017F; hart gu&#x0366;et wa&#x017F; &#x017F;in gimach.</l>
+<l xml:id="fr5_426.14">Do man den mittin morgen &#x017F;ach.</l>
+<l xml:id="fr5_426.15">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> do man mi&#x017F;&#x017F;e gi&#x017F;anch</l>
+<l xml:id="fr5_426.16">Vf dem pala&#x017F;e wa&#x017F; michil gidranch.</l>
+<l xml:id="fr5_426.17">Von bouil vn<choice><am>&#x0304;</am><ex>d</ex></choice> <subst hand="#sr"><del>vol</del><add>vo<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> werdir diet.</l>
+<l xml:id="fr5_426.18">Der kunic tet al&#x017F; man ime riet.</l>
+<l xml:id="fr5_426.19">Er hiez Gauwan bringin.</l>
+<l xml:id="fr5_426.20">Den woltir nihti&#x017F; twingin.</l>
+<l xml:id="fr5_426.21">Wan al&#x017F; ir &#x017F;elbe habint gihort.</l>
+<l xml:id="fr5_426.22">Nu &#x017F;eht wer in brahte dort.</l>
+<l xml:id="fr5_426.23">Antichonie div wol givar.</l>
+<l xml:id="fr5_426.24">Jr vettirn &#x017F;un kom mit ir dar.</l>
+<l xml:id="fr5_426.25">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> andir <subst hand="#sr"><del>k</del><add>gnv&#x0366;ege</add></subst> dez kunigi&#x017F; man.</l>
+<l xml:id="fr5_426.26">Div kuniginne vu&#x0366;rte Gauwan.</l>
+<l xml:id="fr5_426.27">Vur den kunig an ir hende.</l>
+<l xml:id="fr5_426.28">Ein &#x017F;chappel wa&#x017F; ir gibende.</l>
+<l xml:id="fr5_426.29">Jr mvnt den blu&#x0366;emin nam ir pri&#x017F;.</l>
+<l xml:id="fr5_426.30">Vf dem <subst hand="#sr"><del>&#x017F;cappel</del><add>&#x017F;chappel</add></subst> in alle wi&#x017F;.</l>
+<l xml:id="fr5_427.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>A &#x017F;tu&#x0366;nt an niendir dikein al&#x017F; rot.</l>
+<l xml:id="fr5_427.02">Sweime &#x017F;i gu&#x0366;etlichin ir ku&#x017F;&#x017F;in bot.</l>
+<l xml:id="fr5_427.03">Dez mv&#x0366;&#x017F;e &#x017F;wend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n &#x017F;ich der walt.</l>
+<l xml:id="fr5_427.04">Mit manigir tyo&#x017F;t gizalt.</l>
+<l xml:id="fr5_427.05">Mit lobe wir &#x017F;olten gru&#x0366;ezin.</l>
+<l xml:id="fr5_427.06">Die ku&#x017F;chin vn<choice><am>&#x0304;</am><ex>d</ex></choice> die &#x017F;iv&#x0366;zin.</l>
+<l xml:id="fr5_427.07">Anthychonyen.</l>
+<l xml:id="fr5_427.08">Vor val&#x017F;cheit die vrien.</l>
+<l xml:id="fr5_427.09">Wan &#x017F;i lebite in &#x017F;olhen &#x017F;itten.</l>
+<l xml:id="fr5_427.10">Daz niendir wa&#x017F; vndir ritten.</l>
+<l xml:id="fr5_427.11">Jr pri&#x017F; mit val&#x017F;chen worten.</l>
+<l xml:id="fr5_427.12">Alle die ir pri&#x017F; g<unclear reason="Zweifel">ih</unclear>orten.</l>
+<l xml:id="fr5_427.13">Jegillichir munt ir wun&#x017F;chte do.</l>
+<l xml:id="fr5_427.14">Daz ir pri&#x017F; gi&#x017F;tu&#x0366;ende al&#x017F;o.</l>
+<l xml:id="fr5_427.15">Biwart von vel&#x017F;chir tru&#x0366;ebe iehin</l>
+<l xml:id="fr5_427.16">Lutir virrech al&#x017F; ein&#x017F; valchin &#x017F;ehin.</l>
+<note resp="#KH_Transkribent" target="#fr5_427.16 #Fr5002vb">: Mögliches Korrekturzeichen vor der Zeile</note>
+<l xml:id="fr5_427.17">Wa&#x017F; bal&#x017F;un mazic &#x017F;tete an ir.</l>
+<l xml:id="fr5_427.18">Daz riet ir werdiclichiv gir.</l>
+<l xml:id="fr5_427.19">Div &#x017F;iv&#x0366;eze &#x017F;alden riche</l>
+<l xml:id="fr5_427.20">Sprach gizoginliche.</l>
+<l xml:id="fr5_427.21">Bru&#x0366;edir hie bringe ich d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n degin.</l>
+<l xml:id="fr5_427.22">Dez dv mi<unclear reason="Zweifel">c</unclear>h &#x017F;elbe hiez phlegin.</l>
+<l xml:id="fr5_427.23">Nv laz in min giniezin.</l>
+<cb xml:id="fr5002vc"/>
+<l xml:id="fr5_427.24">De&#x017F; in&#x017F;ol dich niht virdri<unclear reason="Zweifel">ez</unclear>in.</l>
+<l xml:id="fr5_427.25">Denche an bruedirliche trivwe.</l>
+<l xml:id="fr5_427.26">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> tu&#x0366; daz an rivwe.</l>
+<l xml:id="fr5_427.27">Dir &#x017F;te&#x0302;t manlichiv trivwe baz.</l>
+<l xml:id="fr5_427.28">Denne daz du dulte&#x017F;t der welt haz.</l>
+<l xml:id="fr5_427.29">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> minen kunde ich hazzen.</l>
+<l xml:id="fr5_427.30">Der lere mich gein d<unclear reason="Zweifel">e</unclear>r mazen.</l>
+<l xml:id="fr5_428.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>o &#x017F;prach der werde &#x017F;iv&#x0366;ze man.</l>
+<l xml:id="fr5_428.02">Daz tu&#x0366;n ich &#x017F;we&#x017F;tir ob ich kan.</l>
+<l xml:id="fr5_428.03">Dar zv&#x0366; gib &#x017F;elbiv dinin rat.</l>
+<l xml:id="fr5_428.04">Dich dunchit daz <subst hand="#sr"><del>dir</del><add>mir</add></subst> mi&#x017F;&#x017F;itat.</l>
+<l xml:id="fr5_428.05">Werdikeit habe vndir &#x017F;wungin.</l>
+<l xml:id="fr5_428.06">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> trivwe vndir drungin.</l>
+<l xml:id="fr5_428.07">Waz tohte ich danne zi bru&#x0366;edir dir.</l>
+<l xml:id="fr5_428.08">Wan dientin alle krone mir.</l>
+<l xml:id="fr5_428.09">Der &#x017F;tu&#x0366;nde ich abe durch din gibot.</l>
+<l xml:id="fr5_428.10">Din hazzin were mir hohi&#x017F;tiv not.</l>
+<l xml:id="fr5_428.11">Mir i&#x017F;t vnm&#x00E6;re froude vn<choice><am>&#x0304;</am><ex>d</ex></choice> ere.</l>
+<l xml:id="fr5_428.12">Niht wan nah dinir lere.</l>
+<l xml:id="fr5_428.13">&#x2E3F;Her Gauwan ich wil iv de&#x017F; bitten.</l>
+<l xml:id="fr5_428.14">Jr cho&#x0302;mint durch pri&#x017F; da her giritten.</l>
+<l xml:id="fr5_428.15">Nu tu&#x0366;nzt durch pri&#x017F;i&#x017F; hulde</l>
+<l xml:id="fr5_428.16">Helfint mir daz mine &#x017F;chulde.</l>
+<l xml:id="fr5_428.17">Min &#x017F;uue&#x017F;tir vf mich virkie&#x017F;e.</l>
+<l xml:id="fr5_428.18">E daz ich &#x017F;i virlie&#x017F;e.</l>
+<l xml:id="fr5_428.19">Jch virkiv&#x017F;e vf ivch min herzeleit.</l>
+<l xml:id="fr5_428.20">Welnt ir mir gebin &#x017F;ichirheit.</l>
+<l xml:id="fr5_428.21">Daz ir mir werbint &#x017F;und<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r twal.</l>
+<l xml:id="fr5_428.22">Mit gu&#x0366;eten trivwen vmbe den gral.</l>
+<l xml:id="fr5_428.23">&#x2E3F;Da wart div &#x017F;v&#x0366;ne giendit.</l>
+<l xml:id="fr5_428.24">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> Gauwan gi&#x017F;endit.</l>
+<note resp="#JKl_Transkribent" target="#fr5_428.24 #fr5002vc"><ref>gi&#x017F;endit.</ref>: Rechts neben der Spalte erstreckt sich von Vers 428.24 bis 428.26 wiederum eine Federzeichnung jüngeren Datums.</note>
+<l xml:id="fr5_428.25">An dem &#x017F;elbin male.</l>
+<l xml:id="fr5_428.26">Durch &#x017F;tritin nach dem grale.</l>
+<l xml:id="fr5_428.27">Kyngrimur&#x017F;el ouch virko&#x017F;.</l>
+<l xml:id="fr5_428.28">Vf den kunic der in da virlo&#x017F;.</l>
+<l xml:id="fr5_428.29">Daz er im &#x017F;in gileite brach.</l>
+<l xml:id="fr5_428.30">Vor al den vurh&#x017F;ten daz gi&#x017F;hach.</l>
+<l xml:id="fr5_429.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>A in ir &#x017F;wert warin gihangin.</l>
+<l xml:id="fr5_429.02">Div warin in vnder gang<unclear reason="Zweifel">i</unclear>n.</l>
+<l xml:id="fr5_429.03">Gauwan&#x017F; knappin de&#x017F; &#x017F;triti&#x017F; &#x017F;tunt.</l>
+<l xml:id="fr5_429.04">Daz in dicheinir was worden w<unclear reason="Zweifel">un</unclear>t.</l>
+<l xml:id="fr5_429.05">Ein giwaltig man von der &#x017F;tat.</l>
+<l xml:id="fr5_429.06">Der in vride&#x017F; von den andirn bat.</l>
+<l xml:id="fr5_429.07">Der vienc &#x017F;iv vn<choice><am>&#x0304;</am><ex>d</ex></choice> leit &#x017F;iv inpri&#x017F;vn.</l>
+<l xml:id="fr5_429.08">Er w&#x00E6;re franzey&#x017F; odir prittvn.</l>
+<l xml:id="fr5_429.09-k">Starche knappin vn<choice><am>&#x0304;</am><ex>d</ex></choice> cleiniv kint ir&#x017F;ahin.</l>
+<note resp="#MiGe_Gegenleser" target="#fr5_429.09-k #Fr5200vc">: Kontraktion der Verse 429.09 und 429.13.</note>
+<l xml:id="fr5_429.10"></l>
+<l xml:id="fr5_429.11"></l>
+<l xml:id="fr5_429.12"></l>
+<l xml:id="fr5_429.13-k"></l>
+<l xml:id="fr5_429.14">Da wart groz vmbe vahin.</l>
+<l xml:id="fr5_429.15">Jegi&#x017F;lichiz &#x017F;ich weininde an in hienc.</l>
+<l xml:id="fr5_429.16"><add hand="#sr">Daz wei<lb/>nen iedoch vor <lb/> liep irgienc.</add></l>
+<note resp="#JKl_Transkribent" target="#fr5_429.16 #fr5002vc"><ref>Daz weinen iedoch vor liep irgienc.</ref>: Rechts neben der Spalte auf der Höhe von Vers 429.15 bis 429.18 nachgetragen.</note>
+<l xml:id="fr5_429.17">Von kurniwal mit im da wa&#x017F;.</l>
+<l xml:id="fr5_429.18">Con&#x017F;laiz fiztina&#x017F;.</l>
+<l xml:id="fr5_429.19">Ein edile kint <subst hand="#sr"><del>vont</del><add>wont</add></subst> im ouch bi.</l>
+<l xml:id="fr5_429.20">Duk Gandiluz fiz gurzgri.</l>
+<l xml:id="fr5_429.21">Der durch &#x017F;chordelachur den lip virlo&#x017F;.</l>
+<l xml:id="fr5_429.22">Da manic fro&#x036E;we ir iamir cho&#x017F;.</l>
+<l xml:id="fr5_429.23">Lia&#x017F; waz de&#x017F; kinde&#x017F; ba&#x017F;e.</l>
+<l xml:id="fr5_429.24">Sin mvnt &#x017F;iniv ougin &#x017F;in na&#x017F;e.</l>
+<l xml:id="fr5_429.25">Wa&#x017F; reht der minne kerne.</l>
+<l xml:id="fr5_429.26">Al div welt &#x017F;ah in gerne</l>
+<l xml:id="fr5_429.27">Dar zv&#x0366; &#x017F;eh&#x017F; andir kindelin.</l>
+<l xml:id="fr5_429.28">Di&#x017F;e aht jvncherrin &#x017F;in.</l>
+<pb xml:id="fr5004r"/><cb xml:id="fr5004ra"/>
+<l xml:id="fr5_441.29">Div dir vil wilde were.</l>
+<l xml:id="fr5_441.30">Heti&#x017F;t du givragit der mere.</l>
+<l xml:id="fr5_442.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">J</seg>ch warb al&#x017F; der der &#x017F;chaden hat.</l>
+<l xml:id="fr5_442.02">Sprach er liebiv&#x0366; niftil nu gib mir rat.</l>
+<l xml:id="fr5_442.03">Gidenke rehtir &#x017F;ippe an mir.</l>
+<l xml:id="fr5_442.04">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;age mir ouch wie &#x017F;tet ez dir.</l>
+<l xml:id="fr5_442.05">Jch &#x017F;olte truren vmbe dine klage.</l>
+<l xml:id="fr5_442.06">Daz ich hohirn kumbir trage.</l>
+<l xml:id="fr5_442.07">Den ie man <subst hand="#sr"><del>gitriv&#x0366;ege</del><add>gitrv&#x0366;ege</add></subst></l>
+<l xml:id="fr5_442.08">Min not i&#x017F;t zi vngivu&#x0366;ege</l>
+<l xml:id="fr5_442.09">Si &#x017F;prach nv helf dir dez hant.</l>
+<l xml:id="fr5_442.10">Dem allir kumbir i&#x017F;t bikant.</l>
+<l xml:id="fr5_442.11">Ob dir &#x017F;o wol gilinge.</l>
+<l xml:id="fr5_442.12">Daz dich ein &#x017F;lage dar bringe.</l>
+<l xml:id="fr5_442.13">Al da du munt&#x017F;alua&#x017F;ch</l>
+<l xml:id="fr5_442.14">Da du mir dinir fro&#x036E;den gihi&#x017F;t.</l>
+<l xml:id="fr5_442.15">Kundrie latzurZire reit</l>
+<l xml:id="fr5_442.16">Vil nivwilich hinnan mir i&#x017F;t leit.</l>
+<l xml:id="fr5_442.17">Daz ich niht vragite ob &#x017F;i dar</l>
+<l xml:id="fr5_442.18">Wolte kerin odir andir&#x017F;war.</l>
+<l xml:id="fr5_442.19">Jemir &#x017F;wenne &#x017F;i chumit ir mul dort &#x017F;tet.</l>
+<l xml:id="fr5_442.20">Da der brunne vz der vel&#x017F;e get.</l>
+<l xml:id="fr5_442.21">Jch rate daz du ir rite&#x017F;t nach</l>
+<l xml:id="fr5_442.22">Jr i&#x017F;t lihte von dir niht &#x017F;o gach</l>
+<l xml:id="fr5_442.23">Dv in mivgi&#x017F;t &#x017F;i &#x017F;chiere han ir ritten.</l>
+<l xml:id="fr5_442.24">Da wart niht lengir do gibitten.</l>
+<l xml:id="fr5_442.25">Vrlob nam der helt al da.</l>
+<l xml:id="fr5_442.26">Do kertir vf die nivwen &#x017F;lage &#x017F;a.</l>
+<l xml:id="fr5_442.27">Kundrien mul die rei&#x017F;e gienc</l>
+<l xml:id="fr5_442.28">Daz vngiverte in vndir vienc.</l>
+<l xml:id="fr5_442.29">Ein huf&#x017F;lah die er hette irkorn.</l>
+<l xml:id="fr5_442.30">Su&#x017F; wart abir der gral virlorn.</l>
+<l xml:id="fr5_443.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">A</seg>L &#x017F;inir fro&#x036E;de er do virgaz.</l>
+<l xml:id="fr5_443.02">Jch w&#x00E6;ne er hette givragit baz.</l>
+<l xml:id="fr5_443.03">Wer ir zi munt&#x017F;alua&#x017F;ch komin.</l>
+<l xml:id="fr5_443.04">Denne al&#x017F; ir e&#x0302; hant virnomin.</l>
+<l xml:id="fr5_443.05">Nu lant in riten war &#x017F;ol er.</l>
+<l xml:id="fr5_443.06">Dort gein im <add hand="#sr">kom</add> giritten her.</l>
+<l xml:id="fr5_443.07">Ein man dem wa&#x017F; daz houbit bloz.</l>
+<l xml:id="fr5_443.08">Sin wapin roch von ko&#x017F;te groz.</l>
+<l xml:id="fr5_443.09">Dar vndir herne&#x017F;ch blanch givar.</l>
+<l xml:id="fr5_443.10">Ane daz houbit wa&#x017F; er giwapint gar.</l>
+<l xml:id="fr5_443.11">Gein parcifal er va&#x017F;te reit.</l>
+<l xml:id="fr5_443.12">Do &#x017F;prach er herre mir i&#x017F;t leit.</l>
+<l xml:id="fr5_443.13">Daz ir min&#x017F; herren walt &#x017F;iv&#x017F; pant.</l>
+<l xml:id="fr5_443.14">Jr werdint &#x017F;chiere drumbe irmant.</l>
+<l xml:id="fr5_443.15">Da von &#x017F;ich ivwir mv&#x0366;t &#x017F;enit</l>
+<l xml:id="fr5_443.16">Munt&#x017F;alua&#x017F;ch i&#x017F;t niht giwenit</l>
+<l xml:id="fr5_443.17">Daz iemin ir &#x017F;o nahir giritte.</l>
+<l xml:id="fr5_443.18">Ez in were der angi&#x017F;tlichir &#x017F;trite.</l>
+<l xml:id="fr5_443.19">Odir der al&#x017F;olhin wandil bot.</l>
+<l xml:id="fr5_443.20">Al&#x017F; man vorme walde heizit tot.</l>
+<l xml:id="fr5_443.21">Ei<gap reason="Fragmentverlust" extent="unbekannt"/> h<gap reason="Fragmentverlust" extent="unbekannt"/> in der hende.</l>
+<l xml:id="fr5_443.22"><unclear reason="Zweifel">Vu&#x0366;rt</unclear>e dez gibende</l>
+<l xml:id="fr5_443.23">War<unclear reason="Zweifel">in</unclear> wiz &#x017F;i&#x0302;din</l>
+<l xml:id="fr5_443.24"><gap reason="Fragmentverlust" extent="unbekannt"/> einin &#x017F;charpfin glevin</l>
+<l xml:id="fr5_443.25">Dar inne al nivwe wa&#x017F; der &#x017F;chaft.</l>
+<l xml:id="fr5_443.26">Der helt bant mit zorni&#x017F; craft</l>
+<l xml:id="fr5_443.27">Den helm vf daz houbit ebine</l>
+<l xml:id="fr5_443.28">Ez &#x017F;tu&#x0366;nt in niht virgebine.</l>
+<cb xml:id="fr5004rb"/>
+<l xml:id="fr5_443.29">An den &#x017F;elben ziten</l>
+<l xml:id="fr5_443.30">Sin dro&#x036E;wen vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;in &#x017F;triten.</l>
+<l xml:id="fr5_444.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">J</seg>Edoch bireit &#x017F;ich zir dyo&#x017F;t</l>
+<l xml:id="fr5_444.02">Parcifal mit &#x017F;olhir cho&#x017F;t.</l>
+<l xml:id="fr5_444.03">Er het ouch &#x017F;per vil virzert.</l>
+<l xml:id="fr5_444.04">Er dahte ich were ouch vnernert.</l>
+<l xml:id="fr5_444.05">Ritte ich vbir diz manni&#x017F; &#x017F;at.</l>
+<l xml:id="fr5_444.06">Wie wurde danne <subst hand="#sr"><del>&#x017F;in</del><add>&#x017F;ins</add></subst> zorni&#x017F; rat.</l>
+<l xml:id="fr5_444.07">Nv tritte ich hie den wildin varn</l>
+<l xml:id="fr5_444.08">Mir ne <subst hand="#sr"><del>gi&#x017F;wiche</del><add>gi&#x017F;wichen</add></subst> hende vn<choice><am>&#x0304;</am><ex>d</ex></choice> arn.</l>
+<l xml:id="fr5_444.09">Jch gibe vf mine rei&#x017F;e ein phant.</l>
+<l xml:id="fr5_444.10">Daz niendir bindit mich &#x017F;in hant.</l>
+<l xml:id="fr5_444.11">Daz wart zi beid<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n &#x017F;iten gitan.</l>
+<l xml:id="fr5_444.12">Div or&#x017F; in den walap virlan.</l>
+<l xml:id="fr5_444.13">Mit &#x017F;porn gitribin vn<choice><am>&#x0304;</am><ex>d</ex></choice> ouch gifuert.</l>
+<l xml:id="fr5_444.14">Va&#x017F;te vf der rabine hurt.</l>
+<l xml:id="fr5_444.15">Jr ne wedir&#x017F; tyo&#x017F;t da mi&#x017F;&#x017F;eriet.</l>
+<l xml:id="fr5_444.16">Manigir tyo&#x017F;t ein gegin niet.</l>
+<l xml:id="fr5_444.17">Wa&#x017F; parcifal&#x017F; hohiv bru&#x017F;t</l>
+<l xml:id="fr5_444.18">Den lert kun&#x017F;t vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch gilu&#x017F;t.</l>
+<l xml:id="fr5_444.19">Daz &#x017F;in tyo&#x017F;t al&#x017F; ebine vu&#x0366;r</l>
+<l xml:id="fr5_444.20">Reht in den &#x017F;trich der helm &#x017F;nv&#x0366;r</l>
+<l xml:id="fr5_444.21">Er traf in da man henkit den &#x017F;chilt.</l>
+<l xml:id="fr5_444.22">So man ritir&#x017F;chefte &#x017F;pilt.</l>
+<l xml:id="fr5_444.23">Daz von munt&#x017F;alua&#x017F;ch der templei&#x017F;.</l>
+<l xml:id="fr5_444.24">Von dem or&#x017F;e in die halden rei&#x017F;.</l>
+<l xml:id="fr5_444.25">So verre hin abe div wa&#x017F; &#x017F;o tief</l>
+<l xml:id="fr5_444.26">Daz da &#x017F;in legir wenic &#x017F;lief.</l>
+<l xml:id="fr5_444.27">&#x2E3F;Parcifal der dyo&#x017F;t nach</l>
+<l xml:id="fr5_444.28">volgite. dem or&#x017F;e wa&#x017F; gach</l>
+<l xml:id="fr5_444.29">Ez viel hin abe daz ez alliz zirbra&#x017F;t.</l>
+<l xml:id="fr5_444.30">Parcifal ein&#x017F; cedir&#x017F; a&#x017F;t.</l>
+<l xml:id="fr5_445.01">Bigreif mit &#x017F;inen handen.</l>
+<l xml:id="fr5_445.02">Nu iehintZ im niht zi &#x017F;chande</l>
+<l xml:id="fr5_445.03">Daz er &#x017F;ich ane &#x017F;chergen hienc</l>
+<l xml:id="fr5_445.04">Mit den vu&#x0366;ezin er givienc</l>
+<l xml:id="fr5_445.05">Vndir im dez vel&#x017F;is herte.</l>
+<l xml:id="fr5_445.06">Jn grozime vngiverte.</l>
+<l xml:id="fr5_445.07">Lac daz or&#x017F; da nidinin tot.</l>
+<l xml:id="fr5_445.08">Der ritir gahite von der not.</l>
+<l xml:id="fr5_445.09">Andirhalbin vf die haldin hin.</l>
+<l xml:id="fr5_445.10">Woltir teilin den giwin.</l>
+<l xml:id="fr5_445.11">Den er irwarb an parcifal.</l>
+<l xml:id="fr5_445.12">So half im baz da heime der gral.</l>
+<l xml:id="fr5_445.13">Parcifal her nidir &#x017F;teic</l>
+<l xml:id="fr5_445.14">Der zivhil gein der erden &#x017F;eic</l>
+<l xml:id="fr5_445.15">Da het daz or&#x017F; durch gitrettin</l>
+<l xml:id="fr5_445.16">Al&#x017F; ez were bi&#x0302;ten&#x017F; gibettin.</l>
+<l xml:id="fr5_445.17">Dez ienir ritir da virgaz.</l>
+<l xml:id="fr5_445.18">Do parcifal dar vf gi&#x017F;az.</l>
+<l xml:id="fr5_445.19">Da ne wa&#x017F; niht wan &#x017F;in &#x017F;per virlorn.</l>
+<l xml:id="fr5_445.20">Div virlu&#x017F;t gein vigindin virkorn.</l>
+<l xml:id="fr5_445.21">Jch wene der &#x017F;tarke lehilin.</l>
+<l xml:id="fr5_445.22">Noch der &#x017F;tolze kyngri&#x017F;in.</l>
+<l xml:id="fr5_445.23">Noch roy&#x017F; gramu&#x0366;lanz.</l>
+<l xml:id="fr5_445.24">Noch oun&#x017F; la&#x017F;chu&#x0366;t fiz gurnimanz.</l>
+<l xml:id="fr5_445.25">Nie bezzir tyo&#x017F;t giritten.</l>
+<l xml:id="fr5_445.26">Danne al&#x017F;e was diz or&#x017F; ir &#x017F;tritten.</l>
+<l xml:id="fr5_445.27">Do reit er erne wi&#x017F;&#x017F;e war.</l>
+<l xml:id="fr5_445.28">So daz div munt&#x017F;alua&#x017F;ch &#x017F;char.</l>
+<l xml:id="fr5_445.29">Jn mit &#x017F;trit gar vir meit.</l>
+<l xml:id="fr5_445.30">De&#x017F; grali&#x017F; fromide wa&#x017F; im leit.</l>
+<cb xml:id="fr5004rc"/>
+<l xml:id="fr5_446.01"><seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: rot">S</seg>Wer nv ru&#x0366;chit horin war kumit.</l>
+<l xml:id="fr5_446.02">Den Auenture hat vz gifrumit.</l>
+<l xml:id="fr5_446.03">De&#x017F; in priv&#x0366;ue ich niht der wochin zal</l>
+<note resp="#MiGe_Gegenleser" target="#fr5_446.03 #Fr5;4rc"><ref>zal</ref>: Das Wort ist am Original zu erkennen.</note>
+<l xml:id="fr5_446.04">Vbir wie lanc &#x017F;it parcifal</l>
+<l xml:id="fr5_446.05">Reit durch auenture al&#x017F; e.</l>
+<l xml:id="fr5_446.06">Eini&#x017F; morgin&#x017F; lac ein dvnner &#x017F;ne.</l>
+<l xml:id="fr5_446.07">Jedoch &#x017F;o dicche wol gi&#x017F;nit.</l>
+<l xml:id="fr5_446.08">Al&#x017F;e der noch fro&#x017F;t den livtin git.</l>
+<l xml:id="fr5_446.09">Er wa&#x017F; vf einim grozin walt.</l>
+<l xml:id="fr5_446.10">Jm widir gienc ein ritir alt.</l>
+<l xml:id="fr5_446.11">De&#x017F; <subst hand="#sr"><del>vart</del><add>bart</add></subst> wa&#x017F; al gra givar.</l>
+<l xml:id="fr5_446.12">Da bi &#x017F;in vel linde vn<choice><am>&#x0304;</am><ex>d</ex></choice> clar.</l>
+<l xml:id="fr5_446.13">Die &#x017F;elbin varwe tru&#x0366;ec &#x017F;in wip.</l>
+<l xml:id="fr5_446.14">Div beidiv vbir blozin lip</l>
+<l xml:id="fr5_446.15">Tru&#x0366;gint grawe rocche herte.</l>
+<l xml:id="fr5_446.16">Vf ir gibite verte.</l>
+<l xml:id="fr5_446.17">Siniv kint zwo jvncfro&#x036E;win.</l>
+<l xml:id="fr5_446.18">Die man gerne mohte &#x017F;cho&#x036E;win.</l>
+<l xml:id="fr5_446.19">Da giengin in der &#x017F;elbin wat.</l>
+<l xml:id="fr5_446.20">Daz riet in kiv&#x017F;chi&#x017F; herzin rat.</l>
+<l xml:id="fr5_446.21">Sie giengin alle barvu&#x0366;z</l>
+<l xml:id="fr5_446.22">Parcifal bot &#x017F;inin gru&#x0366;z</l>
+<l xml:id="fr5_446.23">Dem grawin ritir der da gienc</l>
+<l xml:id="fr5_446.24">Von de&#x017F; rate er &#x017F;it gilucke inpfienc</l>
+<l xml:id="fr5_446.25">Ez mohte wol ein herre &#x017F;in.</l>
+<l xml:id="fr5_446.26">Da liefint fro&#x036E;win brachilin.</l>
+<l xml:id="fr5_446.27">Mit &#x017F;enften &#x017F;ittin niht ziher.</l>
+<l xml:id="fr5_446.28">Kienc da ritir vn<choice><am>&#x0304;</am><ex>d</ex></choice> knappin mer.</l>
+<l xml:id="fr5_446.29">Mit zivhtin vf der goti&#x017F; vart.</l>
+<l xml:id="fr5_446.30">Gnu&#x0366;ege &#x017F;o ivnch ane bart.</l>
+<l xml:id="fr5_447.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">P</seg>Arcifal der werde degin.</l>
+<l xml:id="fr5_447.02">Het de&#x017F; libi&#x017F; &#x017F;o gipflegin.</l>
+<l xml:id="fr5_447.03">Daz &#x017F;in zimier riche</l>
+<l xml:id="fr5_447.04">Stu&#x0366;nt gar ritirliche.</l>
+<l xml:id="fr5_447.05">Jn &#x017F;olichim harne&#x017F;ch er reit.</l>
+<l xml:id="fr5_447.06">Dem vngilich warin ieniv kleit.</l>
+<l xml:id="fr5_447.07">Div gein im tru&#x0366;c der grawe man.</l>
+<l xml:id="fr5_447.08">Daz or&#x017F; vz dem pfade &#x017F;an.</l>
+<l xml:id="fr5_447.09">Kert er mit dem zo&#x036E;me</l>
+<l xml:id="fr5_447.10">Do nam &#x017F;in vragin go&#x036E;me</l>
+<l xml:id="fr5_447.11">Vmbe der gv&#x0366;tin livtin vart.</l>
+<l xml:id="fr5_447.12">Mit &#x017F;u&#x0366;ezir rede er&#x017F; innin wart.</l>
+<l xml:id="fr5_447.13">Do wa&#x017F; de&#x017F; grawin ritir&#x017F; clage</l>
+<l xml:id="fr5_447.14">Daz im die heiligin tage</l>
+<l xml:id="fr5_447.15">Niht hulfint gein &#x017F;olchim &#x017F;itte</l>
+<l xml:id="fr5_447.16">Daz er &#x017F;undir wapin ritte.</l>
+<l xml:id="fr5_447.17">Oder daz er barvu&#x0366;z gienge</l>
+<l xml:id="fr5_447.18">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> de&#x017F; tagi&#x017F; zit inpfienge.</l>
+<l xml:id="fr5_447.19">&#x2E3F;Parcifal &#x017F;prach zim do.</l>
+<l xml:id="fr5_447.20">Herre inirkenne &#x017F;iv&#x017F; noch &#x017F;o.</l>
+<l xml:id="fr5_447.21">Wie de&#x017F; iari&#x017F; zit gi&#x017F;tet.</l>
+<l xml:id="fr5_447.22">Alde wie der wochun zal get.</l>
+<l xml:id="fr5_447.23">Swie die tage &#x017F;int ginant.</l>
+<l xml:id="fr5_447.24">Daz i&#x017F;t mir alliz vmbe kant.</l>
+<l xml:id="fr5_447.25">Jch diende einim der heizit got.</l>
+<l xml:id="fr5_447.26">E daz &#x017F;o la&#x017F;tirlichin &#x017F;pot.</l>
+<l xml:id="fr5_447.27">Sin gun&#x017F;t vbir mich virhancte</l>
+<l xml:id="fr5_447.28">Min &#x017F;in im nie giwan<unclear reason="Zweifel">ct</unclear>e.</l>
+<l xml:id="fr5_447.29">Von dem mir helfe wa&#x017F; gi&#x017F;agit.</l>
+<l xml:id="fr5_447.30">Nu i&#x017F;t &#x017F;in hilfe an mir virzagit.</l>
+<pb xml:id="fr5004v"/><cb xml:id="fr5004va"/>
+<l xml:id="fr5_448.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">D</seg>o &#x017F;prach der ritir gra givar.</l>
+<l xml:id="fr5_448.02">Meint ir got den div magit gibar.</l>
+<l xml:id="fr5_448.03">Giloubit ir &#x017F;ine men&#x017F;cheit.</l>
+<l xml:id="fr5_448.04">Wa&#x017F; er al&#x017F;e hivte durch vn&#x017F; leit.</l>
+<l xml:id="fr5_448.05">Al&#x017F; man de&#x017F; tagi&#x017F; zit biget.</l>
+<l xml:id="fr5_448.06">Vnrecht iv denne d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>r harne&#x017F;ch &#x017F;tet</l>
+<l xml:id="fr5_448.07"><supplied reason="unleserlich" resp="Sekundärliteratur">E</supplied>z i&#x017F;t <supplied reason="unleserlich" resp="Sekundärliteratur">hivt</supplied>e der karvritac</l>
+<l xml:id="fr5_448.08">De&#x017F; al div welt &#x017F;ich fro&#x036E;win mac</l>
+<l xml:id="fr5_448.09">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> da bi mit angi&#x017F;t &#x017F;ivftin &#x017F;in.</l>
+<l xml:id="fr5_448.10">Wa wart ie grozir trivwe &#x017F;chin.</l>
+<l xml:id="fr5_448.11">Danne die got an vn&#x017F; bigienc</l>
+<l xml:id="fr5_448.12"><unclear reason="Zweifel">Den man dur</unclear>ch vn&#x017F; an diz cruce hienc.</l>
+<l xml:id="fr5_448.13"><supplied reason="unleserlich" resp="Sekundärliteratur">Herre pflegit</supplied> toufi&#x017F;</l>
+<l xml:id="fr5_448.14"><supplied reason="unleserlich" resp="Sekundärliteratur">So iamir ivch de&#x017F;</supplied> choufi&#x017F;.</l>
+<l xml:id="fr5_448.15">Er hat &#x017F;in werdiclichiz lebin.</l>
+<l xml:id="fr5_448.16">Mit tot vur <unclear reason="Zweifel">vn&#x017F;ir</unclear> &#x017F;chult gigebin.</l>
+<l xml:id="fr5_448.17">Durch daz der <supplied reason="unleserlich" resp="Sekundärliteratur">men</supplied>ni&#x017F;ch wa&#x017F; virlorn.</l>
+<l xml:id="fr5_448.18">Durch &#x017F;chulde <supplied reason="unleserlich" resp="Sekundärliteratur">hin zu</supplied>r helle irkorn.</l>
+<l xml:id="fr5_448.19"><supplied reason="unleserlich" resp="Sekundärliteratur">Ob</supplied> ir niht <supplied reason="unleserlich" resp="Sekundärliteratur">ein hei</supplied>din &#x017F;it.</l>
+<l xml:id="fr5_448.20">So den kint herre an di&#x017F;e zit.</l>
+<l xml:id="fr5_448.21">R<gap reason="unleserlich" extent="1" unit="Buchstabe"/>it vurbaz <subst hand="#sr"><del>v&#x017F;</del><add>vf</add></subst> vn&#x017F;ir &#x017F;por.</l>
+<l xml:id="fr5_448.22"><supplied reason="unleserlich" resp="Sekundärliteratur">iv en&#x017F;it</supplied>zit niht zi verre vor.</l>
+<l xml:id="fr5_448.23">Ein heilig man der git iv rat.</l>
+<l xml:id="fr5_448.24">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> wandil vur ivwir mi&#x017F;&#x017F;etat.</l>
+<l xml:id="fr5_448.25">Welt ir im rivwe kundin.</l>
+<l xml:id="fr5_448.26">Er &#x017F;cheidit ivch von &#x017F;ivndin.</l>
+<l xml:id="fr5_448.27"><hi rend="rot">&#x2E3F;</hi>Sine toht<supplied reason="unleserlich" resp="Sekundärliteratur">re</supplied>n bigunden &#x017F;prechin.</l>
+<l xml:id="fr5_448.28">Wa&#x017F; wilt du vatir rechin</l>
+<l xml:id="fr5_448.29">So bo&#x017F;e wetir wir nv han.</l>
+<l xml:id="fr5_448.30"><supplied reason="unleserlich" resp="Sekundärliteratur">W</supplied>a&#x017F; rati&#x017F; nimi&#x017F;t dv dich an.</l>
+<l xml:id="fr5_449.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">W</seg><supplied reason="unleserlich" resp="Sekundärliteratur">an</supplied> fu&#x0366;eri&#x017F;t dv in da er warme.</l>
+<l xml:id="fr5_449.02">Sine gi&#x017F;ertin arme.</l>
+<l xml:id="fr5_449.03">Swie ritirlich &#x017F;i &#x017F;ien gi&#x017F;talt.</l>
+<l xml:id="fr5_449.04"><supplied reason="unleserlich" resp="Sekundärliteratur">Vn</supplied>&#x017F; dunkit doch &#x017F;i habint kalt.</l>
+<l xml:id="fr5_449.05"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> erfrurit werint &#x017F;in eins dri.</l>
+<l xml:id="fr5_449.06"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>v ha&#x017F;t hie &#x017F;t&#x00E6;nde nahe bj.</l>
+<l xml:id="fr5_449.07">Gizelt vn<choice><am>&#x0304;</am><ex>d</ex></choice> hu&#x017F;.</l>
+<l xml:id="fr5_449.08">Kome dir der kvnig artu&#x017F;.</l>
+<l xml:id="fr5_449.09"><supplied reason="unleserlich" resp="Sekundärliteratur">Dv</supplied> bihielti&#x017F;t in ouch mit &#x017F;pi&#x017F;e wol.</l>
+<l xml:id="fr5_449.10"><supplied reason="unleserlich" resp="Sekundärliteratur">Nv t</supplied>v&#x0366; al&#x017F; ein wirt &#x017F;ol.</l>
+<l xml:id="fr5_449.11">V<supplied reason="unleserlich" resp="Sekundärliteratur">u&#x0366;</supplied>er di&#x017F;in ritir mit dan.</l>
+<l xml:id="fr5_449.12">D<supplied reason="unleserlich" resp="Sekundärliteratur">o &#x017F;</supplied>prach abir der grawe man.</l>
+<l xml:id="fr5_449.13">Here min tohtir &#x017F;agit al war.</l>
+<l xml:id="fr5_449.14">Hie nahe bi &#x00E6;lliv iar.</l>
+<l xml:id="fr5_449.15">Var ich vf di&#x017F;in wildin walt.</l>
+<l xml:id="fr5_449.16">Ez &#x017F;ie warm odir kalt.</l>
+<l xml:id="fr5_449.17">Jemir gein der martyr zit.</l>
+<l xml:id="fr5_449.18">D<supplied reason="unleserlich" resp="Sekundärliteratur">iv</supplied> &#x017F;tetin lon nach dien&#x017F;te git.</l>
+<l xml:id="fr5_449.19">Swaz &#x017F;pi&#x017F;e ich vz han braht durch got.</l>
+<l xml:id="fr5_449.20">Die teile ich mit iv ane &#x017F;pot.</l>
+<l xml:id="fr5_449.21">Die ez mit gu&#x0366;tim willin tatin</l>
+<l xml:id="fr5_449.22">Die ivncfro&#x036E;win in batin</l>
+<l xml:id="fr5_449.23">Bilibin harte &#x017F;ere.</l>
+<l xml:id="fr5_449.24">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> er hete bilibini&#x017F; ere.</l>
+<l xml:id="fr5_449.25">Ietwediriv daz mit trivwin &#x017F;prach</l>
+<l xml:id="fr5_449.26">Parcifal an in ir&#x017F;ach</l>
+<l xml:id="fr5_449.27"><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>wie tivre von fro&#x017F;te in w&#x00E6;re &#x017F;waiz</l>
+<l xml:id="fr5_449.28"><supplied reason="unleserlich" resp="Sekundärliteratur">Ir</supplied> munde warin rot. dicke vn<choice><am>&#x0304;</am><ex>d</ex></choice> haiz.</l>
+<l xml:id="fr5_449.29">Sie &#x017F;tu&#x0366;endin niht &#x017F;eniliche</l>
+<l xml:id="fr5_449.30">De&#x017F; tagi&#x017F; zit giliche.</l>
+<cb xml:id="fr5004vb"/>
+<l xml:id="fr5_450.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">O</seg>b ich kleine dinc da r&#x00E6;ch<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>.</l>
+<l xml:id="fr5_450.02">Vngerne ich daz v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>r&#x017F;pre&#x0302;che</l>
+<l xml:id="fr5_450.03">Jch in holte ein ku&#x017F; dur &#x017F;v&#x0366;ne da.</l>
+<l xml:id="fr5_450.04">Ob &#x017F;i der volge &#x017F;pre&#x0302;che ja.</l>
+<l xml:id="fr5_450.05">Wip &#x017F;int eht iemir wip.</l>
+<l xml:id="fr5_450.06">Werlichi&#x017F; manin&#x017F; lip</l>
+<l xml:id="fr5_450.07">Hat &#x017F;chiere bitwungin.</l>
+<l xml:id="fr5_450.08">Jn i&#x017F;t dick<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied> al&#x017F;iv&#x017F; gilungin.</l>
+<l xml:id="fr5_450.09"><hi rend="rot">&#x2E3F;</hi>Parcifal <supplied reason="unleserlich" resp="Sekundärliteratur">hi</supplied>e vn<choice><am>&#x0304;</am><ex>d</ex></choice> dort.</l>
+<l xml:id="fr5_450.10">Mit bete hort er &#x017F;iv&#x0366;ziv wort.</l>
+<l xml:id="fr5_450.11">De&#x017F; vatir. mv&#x0366;t<choice><am>&#x0309;</am><ex>er</ex></choice>. vn<choice><am>&#x0304;</am><ex>d</ex></choice> der kinde.</l>
+<l xml:id="fr5_450.12">Er gidahte ob ich ir winde.</l>
+<l xml:id="fr5_450.13">Jch gen vngerne indierre &#x017F;char.</l>
+<l xml:id="fr5_450.14">Di&#x017F;e m&#x00E6;gid<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;int &#x017F;o wol givar</l>
+<l xml:id="fr5_450.15">Daz min ritin bi in vbil &#x017F;tet.</l>
+<l xml:id="fr5_450.16">Sit man vn<choice><am>&#x0304;</am><ex>d</ex></choice> wip zefv&#x0366;ezin get.</l>
+<l xml:id="fr5_450.17">Sich fu&#x0366;git min &#x017F;cheidin von in baz.</l>
+<l xml:id="fr5_450.18">Sit ich gein dem trage haz.</l>
+<l xml:id="fr5_450.19">Den &#x017F;i von herzin minnint.</l>
+<l xml:id="fr5_450.20">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;ich helfe da vir&#x017F;innint.</l>
+<l xml:id="fr5_450.21">Er hat &#x017F;ine helfe mir ver&#x017F;part.</l>
+<l xml:id="fr5_450.22">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> mich vor &#x017F;orgin niht biwart.</l>
+<l xml:id="fr5_450.23"><hi rend="rot">&#x2E3F;</hi>Parcifal &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch zin do &#x017F;an.</l>
+<l xml:id="fr5_450.24">Fro&#x036E;we vn<choice><am>&#x0304;</am><ex>d</ex></choice> herre lant mich han.</l>
+<l xml:id="fr5_450.25">Vrhap. gilivcke vn<choice><am>&#x0304;</am><ex>d</ex></choice> heil.</l>
+<l xml:id="fr5_450.26">Gebe iv got vollin tail.</l>
+<l xml:id="fr5_450.27">Mine jvncfro&#x036E;wen &#x017F;iv&#x0366;ze.</l>
+<l xml:id="fr5_450.28">Jvwir zuht iv dankin miv&#x0366;ze.</l>
+<l xml:id="fr5_450.29">Sit ir mir gundin gimachi&#x017F; wol.</l>
+<l xml:id="fr5_450.30">Jvwir vrlob ich habin &#x017F;ol.</l>
+<l xml:id="fr5_451.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>R neig. vn<choice><am>&#x0304;</am><ex>d</ex></choice> die andern nigin.</l>
+<l xml:id="fr5_451.02">Do wart ir clage niht ver&#x017F;wigin.</l>
+<l xml:id="fr5_451.03">Hin reit herzelaudin fruht.</l>
+<l xml:id="fr5_451.04">Dem riet &#x017F;in manlichiv zuht.</l>
+<l xml:id="fr5_451.05">Kiv&#x017F;che vn<choice><am>&#x0304;</am><ex>d</ex></choice> irbarmvnge.</l>
+<l xml:id="fr5_451.06">Sit herzelaude div ivnge</l>
+<l xml:id="fr5_451.07">Jn het vf gierbit trivwe.</l>
+<l xml:id="fr5_451.08">Sich hv&#x0366;b &#x017F;ini&#x017F; herzen rivwe.</l>
+<l xml:id="fr5_451.09">Allir eri&#x017F;t er do dahte</l>
+<l xml:id="fr5_451.10">Wer al die welt volle brahte.</l>
+<l xml:id="fr5_451.11">An &#x017F;inin &#x017F;chepf&#x00E6;&#x0302;re.</l>
+<l xml:id="fr5_451.12">Wie giwaltich der we&#x0302;re</l>
+<l xml:id="fr5_451.13">Er &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch wa&#x017F; ob got helfe pfligit.</l>
+<l xml:id="fr5_451.14">Div minim trurin angi&#x017F;igit.</l>
+<l xml:id="fr5_451.15">Wart abir er ie ritir holt</l>
+<l xml:id="fr5_451.16">Gidienit ie ritir &#x017F;inin &#x017F;olt.</l>
+<l xml:id="fr5_451.17">Oder mac gi&#x017F;chilt oder &#x017F;wert.</l>
+<l xml:id="fr5_451.18">Sinir helfe &#x017F;in &#x017F;o wert.</l>
+<l xml:id="fr5_451.19">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> reht manlichiv wer</l>
+<l xml:id="fr5_451.20">Daz &#x017F;in helfe mich von &#x017F;orgin ner.</l>
+<l xml:id="fr5_451.21">J&#x017F;t hivte &#x017F;in helflichir tac</l>
+<l xml:id="fr5_451.22">So helf er ob er helfin mac.</l>
+<l xml:id="fr5_451.23"><hi rend="rot">&#x2E3F;</hi>Er kerte &#x017F;ich umbe dan er reit.</l>
+<l xml:id="fr5_451.24">Sie <subst hand="#sr"><del>&#x017F;tu&#x0366;edin</del><add>&#x017F;tu&#x0366;endin</add></subst> dennoch den wa&#x017F; leit.</l>
+<l xml:id="fr5_451.25">Daz er von in kerte</l>
+<l xml:id="fr5_451.26">Jr trivwe &#x017F;i daz lerte.</l>
+<l xml:id="fr5_451.27">Die ivncfro&#x036E;win &#x017F;ahin im nah</l>
+<l xml:id="fr5_451.28">Gein den ouch &#x017F;in herze iach.</l>
+<l xml:id="fr5_451.29">Daz er &#x017F;ie gerne &#x017F;&#x00E6;he.</l>
+<l xml:id="fr5_451.30">Wan ir blik der w<supplied reason="unleserlich" resp="Sekundärliteratur">a&#x017F;</supplied> w&#x00E6;he.</l>
+<cb xml:id="fr5004vc"/>
+<l xml:id="fr5_452.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">E</seg>R &#x017F;prach i&#x017F;t goti&#x017F; craft &#x017F;o fier.</l>
+<l xml:id="fr5_452.02">Daz &#x017F;i beidiv or&#x017F; vn<choice><am>&#x0304;</am><ex>d</ex></choice> tier.</l>
+<l xml:id="fr5_452.03">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> die livte mac wi&#x017F;in.</l>
+<l xml:id="fr5_452.04">Sine kraft wil ich pri&#x017F;in.</l>
+<l xml:id="fr5_452.05">Mac goti&#x017F; kun&#x017F;t die helfe han.</l>
+<l xml:id="fr5_452.06">Div wi&#x017F;e mir d<unclear reason="Zweifel">a</unclear>z ca&#x017F;tilan.</l>
+<l xml:id="fr5_452.07">Daz wegi&#x017F;te vmbe die rei&#x017F;e min.</l>
+<l xml:id="fr5_452.08">So tu&#x0366;t &#x017F;in gv&#x0366;te helfe &#x017F;chin.</l>
+<l xml:id="fr5_452.09">Nu ganch nach der goti&#x017F; kur.</l>
+<l xml:id="fr5_452.10">Den zuhil gein den orin fu&#x0366;r</l>
+<l xml:id="fr5_452.11">Er dem or&#x017F;e legete.</l>
+<l xml:id="fr5_452.12">Mit den &#x017F;porn erz va&#x017F;te regete.</l>
+<l xml:id="fr5_452.13">Gein funtane &#x017F;alua&#x017F;che ez gienc</l>
+<l xml:id="fr5_452.14">Da orilu&#x017F; den eit inpfienc.</l>
+<l xml:id="fr5_452.15">Der ku&#x017F;che treure&#x017F;ent da &#x017F;az</l>
+<l xml:id="fr5_452.16">Der manigin m&#x00E6;ntac vbil gaz.</l>
+<l xml:id="fr5_452.17">Al&#x017F;e tet er gar die wochin.</l>
+<l xml:id="fr5_452.18">Er hete gar ver&#x017F;prochin.</l>
+<l xml:id="fr5_452.19">Moraz. win. vn<choice><am>&#x0304;</am><ex>d</ex></choice> ouch daz brot.</l>
+<l xml:id="fr5_452.20">Sin kiv&#x017F;che im dennoch me gibot.</l>
+<l xml:id="fr5_452.21">Der &#x017F;pi&#x017F;e het er dicheinin mv&#x0366;t.</l>
+<l xml:id="fr5_452.22">Vi&#x017F;che flei&#x017F;ch noch &#x017F;wa&#x017F; treit blu&#x0366;t.</l>
+<l xml:id="fr5_452.23">Su&#x017F; herticliche &#x017F;tu&#x0366;nt &#x017F;in lebin.</l>
+<l xml:id="fr5_452.24">Got hete im dein mv&#x0366;t gigebin.</l>
+<l xml:id="fr5_452.25">Der herre &#x017F;ich bireite gar</l>
+<l xml:id="fr5_452.26">Gein der himil&#x017F;hin &#x017F;har.</l>
+<l xml:id="fr5_452.27">Mit va&#x017F;te er grozin kumbir leit.</l>
+<l xml:id="fr5_452.28">Sin ku&#x017F;che gein dem tievil &#x017F;treit.</l>
+<l xml:id="fr5_452.29">Ab dem er vert nu parcifal</l>
+<l xml:id="fr5_452.30">Daz verholne m&#x00E6;re vmbe den gral.</l>
+<l xml:id="fr5_453.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">S</seg>wer mich dir von e vragite</l>
+<l xml:id="fr5_453.02">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit mir darvmbe bagite.</l>
+<l xml:id="fr5_453.03">Ob ich ez im niht &#x017F;agite.</l>
+<l xml:id="fr5_453.04">Vnpri&#x017F; er da an biiagite.</l>
+<l xml:id="fr5_453.05">Mich bat ez heln kyot.</l>
+<l xml:id="fr5_453.06">Wan im div auenture gibot.</l>
+<l xml:id="fr5_453.07">Daz er&#x017F; iemir man gid&#x00E6;hte</l>
+<l xml:id="fr5_453.08">E ez div auentivre brahte</l>
+<l xml:id="fr5_453.09">Mit worte ander m&#x00E6;re gru&#x0366;z</l>
+<l xml:id="fr5_453.10">Daz man dir von nv &#x017F;prechin mv&#x0366;z.</l>
+<l xml:id="fr5_453.11"><hi rend="rot">&#x2E3F;</hi>Kyoth ein mei&#x017F;tir wol bikant.</l>
+<l xml:id="fr5_453.12">Ze doleth verworfin ligin vant.</l>
+<l xml:id="fr5_453.13">Jn heidin&#x017F;chir gi&#x017F;chrifte.</l>
+<l xml:id="fr5_453.14">Dierre Auenture gi&#x017F;tifte.</l>
+<l xml:id="fr5_453.15">Den karacter A b c.</l>
+<l xml:id="fr5_453.16">Mu&#x0366;e&#x017F; er habin gilirnet e.</l>
+<l xml:id="fr5_453.17">An den li&#x017F;t von nigromanzi</l>
+<l xml:id="fr5_453.18">Ez half daz im der touf wa&#x017F; bi.</l>
+<l xml:id="fr5_453.19">Ander&#x017F; were daz mere niht virnomin.</l>
+<l xml:id="fr5_453.20">Gein heidin&#x017F;ch li&#x017F;t moht vn&#x017F; gifromin.</l>
+<l xml:id="fr5_453.21">Zi kunde vmbe de&#x017F; grali&#x017F; art.</l>
+<l xml:id="fr5_453.22">Wie man &#x017F;inir to&#x036E;gin innin wart.</l>
+<l xml:id="fr5_453.23">Ein heidin hiez Flegetani&#x017F;</l>
+<l xml:id="fr5_453.24">Biiagite an kun&#x017F;te hohin pri&#x017F;.</l>
+<l xml:id="fr5_453.25">Der &#x017F;elbe vi&#x017F;ion.</l>
+<l xml:id="fr5_453.26">Wa&#x017F; giborn <del hand="#ru">wa&#x017F;</del> von &#x017F;alomon.</l>
+<l xml:id="fr5_453.27">Von i&#x017F;raheli&#x017F;hir diet irzilt.</l>
+<l xml:id="fr5_453.28">Von alter her vnze vn&#x017F;ir &#x017F;hilt.</l>
+<l xml:id="fr5_453.29">Der to&#x036E;f wa&#x017F; vur daz hellefivr.</l>
+<l xml:id="fr5_453.30">Der &#x017F;creip von grali&#x017F; auentur.</l>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Synoptische Fassungsedition des Dreissigers 774</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>05.05.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Digital born.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Dreissiger" subtype="d" n="774">
+<div type="Textteil" subtype="d" n="774">
+<head>*D</head>
+<l n="*D 774.01"><seg type="Initiale">D</seg>ie vrouwen rûnten <seg type="große_Variante" n="a1">dâ</seg>, <seg type="kleine_Variante" n="b1">swelch</seg> wîp</l>
+<l n="*D 774.02">dâ mite zierte sînen lîp,</l>
+<l n="*D 774.03">het <seg type="große_Variante" n="a1">er</seg> gein <seg type="große_Variante" n="b1">ir</seg> gewenket,</l>
+<l n="*D 774.04">sô w&#x00E6;re <seg type="große_Variante" n="a1">sîn</seg> prîs verkrenket.</l>
+<l n="*D 774.05">etslîchiu was im doch sô holt,</l>
+<l n="*D 774.06">si hete sîn dienst wol gedolt,</l>
+<l n="*D 774.07">ich w&#x00E6;ne durch sîn<corr type="Emendation">iu</corr> <seg type="große_Variante" n="a1">werdiu</seg> mâl.</l>
+<l n="*D 774.08"><name ref="regp:p0107" type="Person">Gramoflanz</name>, <name ref="regp:p0024" type="Person">Artus</name> unt <name ref="regp:p0241" type="Person">Parzival</name></l>
+<l n="*D 774.09">unt der wirt <name ref="regp:p0103" type="Person">Gawan</name>,</l>
+<l n="*D 774.10">die viere giengen <seg type="große_Variante" n="a1">sunder</seg> dan.</l>
+<l n="*D 774.11">den vrouwen wart bescheiden</l>
+<l n="*D 774.12">in ir pflege der rîche <name ref="regp:p0355" type="Person">heiden</name>.</l>
+<l n="*D 774.13"><name ref="regp:p0024" type="Person">Artus</name> warp eine <seg type="kleine_Variante" n="a1">hôchgezît</seg>,</l>
+<l n="*D 774.14">daz diu des morgens âne strît</l>
+<l n="*D 774.15">ûf dem velde ergienge,</l>
+<l n="*D 774.16">daz man dâ mite enpfienge</l>
+<l n="*D 774.17">sînen neven <name ref="regp:p0080" type="Person">Feirefiz</name>.</l>
+<l n="*D 774.18">"an den <seg type="große_Variante" n="a1">gewerp kêrt</seg> iwern vlîz</l>
+<l n="*D 774.19">unt iwer <seg type="kleine_Variante" n="a1">besten</seg> witze,</l>
+<l n="*D 774.20">daz er mit uns besitze</l>
+<l n="*D 774.21">ob der tavelrunder."</l>
+<l n="*D 774.22"><seg type="Initiale" subtype="Majuskel">S</seg>i lobten al besunder,</l>
+<l n="*D 774.23">si wurbenz, w&#x00E6;rez im niht leit.</l>
+<l n="*D 774.24">dô <seg type="kleine_Variante" n="a1">lobt</seg> <seg type="große_Variante" n="a1">in</seg> gesellecheit</l>
+<l n="*D 774.25"><name ref="regp:p0080" type="Person">Feirefiz</name>, der rîche.</l>
+<l n="*D 774.26">daz volc vuor al gelîche,</l>
+<l n="*D 774.27">dô man <seg type="große_Variante" n="a1">geschancte</seg>, an <seg type="große_Variante" n="b1">ir</seg> gemach.</l>
+<l n="*D 774.28"><seg type="große_Variante" n="a1">maneges</seg> vreude aldâ geschach.</l>
+<l n="*D 774.29">smorgens, ob ich <seg type="große_Variante" n="a1">sô</seg> sprechen mac,</l>
+<l n="*D 774.30">dô erschein der süeze <seg type="große_Variante" n="a1">m&#x00E6;re tac</seg>.</l>
+</div>
+<div><listApp type="Verteilung" subtype="d" n="774"><app><rdg>
+<wit>D</wit> <wit>Fr2</wit> <note>(774.14-30)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="d" n="774">
+<app type="Gliederung" loc="*D 774.01">
+<rdg><note>Initiale</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 774.02"></app>
+ <app type="Gliederung" loc="*D 774.03"></app>
+ <app type="Gliederung" loc="*D 774.04"></app>
+ <app type="Gliederung" loc="*D 774.05"></app>
+ <app type="Gliederung" loc="*D 774.06"></app>
+ <app type="Gliederung" loc="*D 774.07"></app>
+ <app type="Gliederung" loc="*D 774.08"></app>
+ <app type="Gliederung" loc="*D 774.09"></app>
+ <app type="Gliederung" loc="*D 774.10"></app>
+ <app type="Gliederung" loc="*D 774.11"></app>
+ <app type="Gliederung" loc="*D 774.12"></app>
+ <app type="Gliederung" loc="*D 774.13"></app>
+ <app type="Gliederung" loc="*D 774.14"></app>
+ <app type="Gliederung" loc="*D 774.15"></app>
+ <app type="Gliederung" loc="*D 774.16"></app>
+ <app type="Gliederung" loc="*D 774.17"></app>
+ <app type="Gliederung" loc="*D 774.18"></app>
+ <app type="Gliederung" loc="*D 774.19"></app>
+ <app type="Gliederung" loc="*D 774.20"></app>
+ <app type="Gliederung" loc="*D 774.21"></app>
+<app type="Gliederung" loc="*D 774.22">
+<rdg><note>Majuskel</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 774.23"></app>
+ <app type="Gliederung" loc="*D 774.24"></app>
+ <app type="Gliederung" loc="*D 774.25"></app>
+ <app type="Gliederung" loc="*D 774.26"></app>
+ <app type="Gliederung" loc="*D 774.27"></app>
+ <app type="Gliederung" loc="*D 774.28"></app>
+ <app type="Gliederung" loc="*D 774.29"></app>
+ <app type="Gliederung" loc="*D 774.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="d" n="774">
+ <app type="Lesart" loc="*D 774.01"></app>
+ <app type="Lesart" loc="*D 774.02"></app>
+ <app type="Lesart" loc="*D 774.03"></app>
+ <app type="Lesart" loc="*D 774.04"></app>
+ <app type="Lesart" loc="*D 774.05"></app>
+ <app type="Lesart" loc="*D 774.06"></app>
+<app type="Lesart" loc="*D 774.07">
+<lem>sîniu</lem><rdg><subst><del>sint</del><add>sine</add></subst> <wit>D</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 774.08">
+<lem>Parzival</lem><rdg>Parcifal <wit>D</wit> </rdg>
+</app>
+ <app type="Lesart" loc="*D 774.09"></app>
+ <app type="Lesart" loc="*D 774.10"></app>
+ <app type="Lesart" loc="*D 774.11"></app>
+ <app type="Lesart" loc="*D 774.12"></app>
+ <app type="Lesart" loc="*D 774.13"></app>
+ <app type="Lesart" loc="*D 774.14"></app>
+ <app type="Lesart" loc="*D 774.15"></app>
+ <app type="Lesart" loc="*D 774.16"></app>
+ <app type="Lesart" loc="*D 774.17"></app>
+ <app type="Lesart" loc="*D 774.18"></app>
+ <app type="Lesart" loc="*D 774.19"></app>
+ <app type="Lesart" loc="*D 774.20"></app>
+ <app type="Lesart" loc="*D 774.21"></app>
+ <app type="Lesart" loc="*D 774.22"></app>
+ <app type="Lesart" loc="*D 774.23"></app>
+<app type="Lesart" loc="*D 774.24">
+<lem>lobt</lem><rdg>gelobt er <wit>Fr2</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 774.25"></app>
+ <app type="Lesart" loc="*D 774.26"></app>
+ <app type="Lesart" loc="*D 774.27"></app>
+ <app type="Lesart" loc="*D 774.28"></app>
+ <app type="Lesart" loc="*D 774.29"></app>
+ <app type="Lesart" loc="*D 774.30"></app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="m" n="774">
+<div type="Textteil" subtype="m" n="774">
+<head>*m</head>
+<l n="*m 774.01">die vrowen rûnden <seg type="große_Variante" n="a1">d<corr type="Emendation">â</corr></seg>, <seg type="kleine_Variante" n="b2">welich</seg> wîp</l>
+<l n="*m 774.02">dâ mit zierte sînen lîp,</l>
+<l n="*m 774.03">het <seg type="große_Variante" n="a1">er</seg> gegen <seg type="große_Variante" n="b2"><corr type="Emendation">de</corr>r</seg> gewenket,</l>
+<l n="*m 774.04">sô w&#x00E6;r <seg type="große_Variante" n="a1">sîn</seg> prîs verkrenket.</l>
+<l n="*m 774.05">etlîchiu was im doch sô holt,</l>
+<l n="*m 774.06">si het sîn dienst wol gedolt,</l>
+<l n="*m 774.07">ich w&#x00E6;ne durch sîn<corr type="Emendation">iu</corr> <seg type="große_Variante" n="a2">vremdiu</seg> mâl.</l>
+<l n="*m 774.08"><name ref="regp:p0107" type="Person">Gramolanz</name>, <name ref="regp:p0024" type="Person">Artus</name> und <name ref="regp:p0241" type="Person">Parcifal</name></l>
+<l n="*m 774.09">und <seg type="große_Variante" n="a1">ouch</seg> der wirt <seg type="große_Variante" n="b1">hêr</seg> <name ref="regp:p0103" type="Person">Gawan</name>,</l>
+<l n="*m 774.10">die vier giengen <seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">wider</seg></seg> dan.</l>
+<l n="*m 774.11">den vrowen wart bescheiden</l>
+<l n="*m 774.12">i<corr type="Emendation">n</corr> ir pflege der rîche <name ref="regp:p0355" type="Person">heiden</name>.</l>
+<l n="*m 774.13"><name ref="regp:p0024" type="Person">Artus</name> warp ein <seg type="kleine_Variante" n="a1">hôchgezît</seg>,</l>
+<l n="*m 774.14">daz diu des morgens âne strît</l>
+<l n="*m 774.15">ûf dem velde ergieng<corr type="Emendation">e</corr>,</l>
+<l n="*m 774.16">daz man dâ mit enpfieng<corr type="Emendation">e</corr></l>
+<l n="*m 774.17">sînen neven <name ref="regp:p0080" type="Person">Ferefiz</name>.</l>
+<l n="*m 774.18">"an den <seg type="große_Variante" n="a2">kêret</seg> iuwern vlîz</l>
+<l n="*m 774.19">und iuwer <seg type="kleine_Variante" n="a1">besten</seg> witz,</l>
+<l n="*m 774.20">daz er mit uns besitz</l>
+<l n="*m 774.21">o<corr type="Emendation">b</corr> der tavelrunder."</l>
+<l n="*m 774.22">si lobten alle besunder,</l>
+<l n="*m 774.23">si wurbenz, w&#x00E6;r ez im niht leit.</l>
+<l n="*m 774.24">dô <seg type="kleine_Variante" n="a2">lobte</seg> <seg type="große_Variante" n="a1">in</seg> gesellicheit</l>
+<l n="*m 774.25"><name ref="regp:p0080" type="Person">Ferefiz</name>, der rîch.</l>
+<l n="*m 774.26">daz volc vuor al glîch,</l>
+<l n="*m 774.27">dô man <seg type="große_Variante" n="a1">geschancte</seg>, an <seg type="große_Variante" n="b1">ir</seg> gemach.</l>
+<l n="*m 774.28"><seg type="große_Variante" n="a2">man<reg type="Synkope">i</reg>giu</seg> vröude aldâ geschach.</l>
+<l n="*m 774.29">des morgens, ob ich <seg type="große_Variante" n="a2">ez</seg> sprech<corr type="Emendation">en</corr> mac,</l>
+<l n="*m 774.30">dô erschein der süeze <seg type="große_Variante" n="a1">m&#x00E6;r<reg type="Synkope">e</reg> tac</seg>.</l>
+</div>
+<div><listApp type="Verteilung" subtype="m" n="774"><app><rdg>
+<wit>mk</wit> <wit>nk</wit> <wit>ok</wit> <wit>V</wit> <wit>VV</wit> <wit>W</wit> <wit>Fr6</wit> <note>(774.1-18)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="m" n="774">
+<app type="Gliederung" loc="*m 774.01">
+<rdg><note>Majuskel</note> <wit>Fr6</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*m 774.02"></app>
+ <app type="Gliederung" loc="*m 774.03"></app>
+ <app type="Gliederung" loc="*m 774.04"></app>
+ <app type="Gliederung" loc="*m 774.05"></app>
+ <app type="Gliederung" loc="*m 774.06"></app>
+ <app type="Gliederung" loc="*m 774.07"></app>
+ <app type="Gliederung" loc="*m 774.08"></app>
+ <app type="Gliederung" loc="*m 774.09"></app>
+ <app type="Gliederung" loc="*m 774.10"></app>
+<app type="Gliederung" loc="*m 774.11">
+<rdg><note>Initiale</note> <wit>W</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*m 774.12"></app>
+ <app type="Gliederung" loc="*m 774.13"></app>
+ <app type="Gliederung" loc="*m 774.14"></app>
+ <app type="Gliederung" loc="*m 774.15"></app>
+ <app type="Gliederung" loc="*m 774.16"></app>
+ <app type="Gliederung" loc="*m 774.17"></app>
+ <app type="Gliederung" loc="*m 774.18"></app>
+ <app type="Gliederung" loc="*m 774.19"></app>
+ <app type="Gliederung" loc="*m 774.20"></app>
+ <app type="Gliederung" loc="*m 774.21"></app>
+ <app type="Gliederung" loc="*m 774.22"></app>
+ <app type="Gliederung" loc="*m 774.23"></app>
+ <app type="Gliederung" loc="*m 774.24"></app>
+ <app type="Gliederung" loc="*m 774.25"></app>
+ <app type="Gliederung" loc="*m 774.26"></app>
+ <app type="Gliederung" loc="*m 774.27"></app>
+ <app type="Gliederung" loc="*m 774.28"></app>
+ <app type="Gliederung" loc="*m 774.29"></app>
+ <app type="Gliederung" loc="*m 774.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="m" n="774">
+<app type="Lesart" loc="*m 774.01">
+<rdg><note>Die Verse 774.1-21 fehlen</note> <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.01">
+<lem>rûnden</lem><rdg>fromden <wit>nk</wit> run:en <wit>ok</wit> ru&#x0366;mten <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.01">
+<lem>dâ</lem><rdg>do <wit>mk</wit> <wit>nk</wit> <wit>ok</wit> <wit>V</wit> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.01">
+<lem>welich</lem><rdg>swelich <wit>V</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 774.02">
+<lem>zierte</lem><rdg><subst><del>zierten</del><add>zierte</add></subst> <wit>V</wit> zymierte <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.03">
+<lem>der</lem><rdg>mir <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.04">
+<lem>sîn</lem><rdg>myn her <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.04">
+<lem>verkrenket</lem><rdg>gekrencket <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.05">
+<lem>etlîchiu</lem><rdg>etsliche <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.05">
+<lem>im</lem><rdg>s: <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.06">
+<lem>sîn</lem><rdg>sinen <wit>V</wit> (<wit>W</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 774.07">
+<lem>sîniu</lem><rdg>sinen <wit>mk</wit> (<wit>ok</wit>) sine <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.07">
+<lem>vremdiu</lem><rdg>fremden <wit>ok</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 774.08">
+<lem>Gramolanz Artus</lem><rdg>Gramolantz artus <wit>mk</wit> <wit>nk</wit> Gramolancz artusz <wit>ok</wit> Artus Gramaflanz <wit>V</wit> Gramoflantz artus <wit>W</wit> Gramovlanz artvs <wit>Fr6</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 774.08">
+<lem>Parcifal</lem><rdg>parzefal <wit>V</wit> partzifal <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.09">
+<lem>ouch</lem><rdg><note>om.</note> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.10">
+<lem>vier</lem><rdg>werden vie <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.10">
+<lem>wider</lem><rdg>sunder <wit>nk</wit> <wit>ok</wit> (<wit>V</wit>) <wit>W</wit> (<wit>Fr6</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 774.10">
+<lem>dan</lem><rdg><subst><del>wan</del><add>dan</add></subst> <wit>V</wit> wan <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.11">
+<lem>wart</lem><rdg>war <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.12">
+<lem>in</lem><rdg>Jr <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.13">
+<lem>Artus</lem><rdg>Artu̽s <wit>ok</wit> </rdg>
+</app>
+ <app type="Lesart" loc="*m 774.14"></app>
+<app type="Lesart" loc="*m 774.15">
+<lem>ergienge</lem><rdg>ergingen <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.16">
+<lem>enpfienge</lem><rdg>enpfingen <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.17">
+<lem>Ferefiz</lem><rdg>ferefis <wit>mk</wit> <wit>ok</wit> ferrefis <wit>nk</wit> ferevis <wit>V</wit> ferafis <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 774.18">
+<lem>den</lem><rdg>den gewerp <wit>V</wit> <wit>Fr6</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.19">
+<lem>besten</lem><rdg>beste <wit>V</wit> <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 774.20"></app>
+<app type="Lesart" loc="*m 774.21">
+<lem>ob der</lem><rdg>Oder <wit>mk</wit> Ob <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.22">
+<rdg><note>statt 774.22-27:</note> Sie hetten die nacht freuden vil / Tamburen vnd seiten spil / Treip man do allegeliche / Ferevis den riche / Man do furte an sin gemach <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.22">
+<lem>lobten</lem><rdg>lobetens <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.23">
+<lem>wurbenz</lem><rdg>wúrbens <wit>nk</wit> wurben <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.23">
+<lem>w&#x00E6;r ez im niht leit</lem><rdg>ferres ẏm sin leit <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.24">
+<lem>lobte</lem><rdg>lehte <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.25">
+<lem>Ferefiz</lem><rdg>Ferefis <wit>mk</wit> <wit>ok</wit> Ferrefis <wit>nk</wit> Ferevis <wit>V</wit> Ferafiß <wit>W</wit> </rdg>
+</app>
+<app type="Lesart" loc="*m 774.25">
+<lem>der</lem><rdg>den <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.26">
+<lem>daz</lem><rdg>Do <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.26">
+<lem>al</lem><rdg>alle <wit>nk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 774.27"></app>
+<app type="Lesart" loc="*m 774.28">
+<lem>manigiu</lem><rdg>Maniges <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.28">
+<lem>aldâ</lem><rdg>do <wit>VV</wit> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.29">
+<lem>ob</lem><rdg>als <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.29">
+<lem>ez</lem><rdg><note>om.</note> <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.29">
+<lem>sprechen</lem><rdg>sprech <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.30">
+<lem>süeze</lem><rdg>su&#x0364;szen <wit>V</wit> liechte <wit>VV</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 774.30">
+<lem>m&#x00E6;re tac</lem><rdg>meyetag <wit>W</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="G" n="774">
+<div type="Textteil" subtype="G" n="774">
+<head>*G</head>
+<l n="*G 774.01"><seg type="Initiale">D</seg>ie vrouwen rûnden <seg type="große_Variante" n="a1">dâ</seg>, <seg type="kleine_Variante" n="b1">swelch</seg> wîp</l>
+<l n="*G 774.02">dâ mit zierte sînen lîp,</l>
+<l n="*G 774.03">het <seg type="große_Variante" n="a2">der</seg> gein <seg type="große_Variante" n="b1">ir</seg> gewenket,</l>
+<l n="*G 774.04">sô w&#x00E6;re <seg type="große_Variante" n="a2">in ir</seg> brîs verkrenket.</l>
+<l n="*G 774.05">etslîchiu was im doch sô holt,</l>
+<l n="*G 774.06">si het sînen dienst wol gedolt,</l>
+<l n="*G 774.07">ich w&#x00E6;ne durch sîniu <seg type="große_Variante" n="a2">vrömdiu</seg> mâl.</l>
+<l n="*G 774.08"><name ref="regp:p0107" type="Person">Gramoflanz</name>, <name ref="regp:p0024" type="Person">Artus</name> unde <name ref="regp:p0241" type="Person">Parzival</name></l>
+<l n="*G 774.09">unde der wirt <name ref="regp:p0103" type="Person">Gawan</name>,</l>
+<l n="*G 774.10">die viere giengen <seg type="große_Variante" n="a1">sunder</seg> dan.</l>
+<l n="*G 774.11">den vrouwen wart bescheiden</l>
+<l n="*G 774.12">in ir pflege der rîche <name ref="regp:p0355" type="Person">heiden</name>.</l>
+<l n="*G 774.13"><name ref="regp:p0024" type="Person">Artus</name> warp eine <seg type="kleine_Variante" n="a2">hôchzît</seg>,</l>
+<l n="*G 774.14">daz diu des morgens âne strît</l>
+<l n="*G 774.15">ûf dem velde ergienge,</l>
+<l n="*G 774.16">daz man dâ mit enpfienge</l>
+<l n="*G 774.17">sînen neven <name ref="regp:p0080" type="Person">Feirafiz</name>.</l>
+<l n="*G 774.18">"an den <seg type="große_Variante" n="a3">gewerp leget</seg> iuren vlîz</l>
+<l n="*G 774.19">unde iuwer <seg type="kleine_Variante" n="a2">beste</seg> witze,</l>
+<l n="*G 774.20">daz er mit uns besitze</l>
+<l n="*G 774.21">obe der tavelrunder."</l>
+<l n="*G 774.22">si lobten<seg type="große_Variante" n="a1">z</seg> alle besunder,</l>
+<l n="*G 774.23">si wurbenz, w&#x00E6;re ez im niht leit.</l>
+<l n="*G 774.24">dô <seg type="kleine_Variante" n="a2">lobte</seg> <seg type="große_Variante" n="a1">in</seg> gesell<reg type="Synkope">e</reg>cheit</l>
+<l n="*G 774.25"><name ref="regp:p0080" type="Person">Feirafiz</name>, der rîche.</l>
+<l n="*G 774.26">daz volc vuor al gelîche,</l>
+<l n="*G 774.27">dô man <seg type="große_Variante" n="a1">geschancte</seg>, an <seg type="große_Variante" n="b2">sîn</seg> gemach.</l>
+<l n="*G 774.28"><seg type="große_Variante" n="a1">man<reg type="Synkope">i</reg>ges</seg> vröude al dâ geschach.</l>
+<l n="*G 774.29">des morgens, obe ich <seg type="große_Variante" n="a1">sô</seg> sprechen mac,</l>
+<l n="*G 774.30">dô erschein der süeze <seg type="große_Variante" n="a2">sumertac</seg>.</l>
+</div>
+<div><listApp type="Verteilung" subtype="G" n="774"><app><rdg>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>M</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="G" n="774">
+<app type="Gliederung" loc="*G 774.01">
+<rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>M</wit> <wit>Z</wit> <wit>Fr18</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 774.02"></app>
+ <app type="Gliederung" loc="*G 774.03"></app>
+ <app type="Gliederung" loc="*G 774.04"></app>
+ <app type="Gliederung" loc="*G 774.05"></app>
+ <app type="Gliederung" loc="*G 774.06"></app>
+ <app type="Gliederung" loc="*G 774.07"></app>
+ <app type="Gliederung" loc="*G 774.08"></app>
+ <app type="Gliederung" loc="*G 774.09"></app>
+ <app type="Gliederung" loc="*G 774.10"></app>
+ <app type="Gliederung" loc="*G 774.11"></app>
+ <app type="Gliederung" loc="*G 774.12"></app>
+ <app type="Gliederung" loc="*G 774.13"></app>
+ <app type="Gliederung" loc="*G 774.14"></app>
+ <app type="Gliederung" loc="*G 774.15"></app>
+ <app type="Gliederung" loc="*G 774.16"></app>
+ <app type="Gliederung" loc="*G 774.17"></app>
+ <app type="Gliederung" loc="*G 774.18"></app>
+<app type="Gliederung" loc="*G 774.19">
+<rdg><note>Initiale</note> <wit>I</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 774.20"></app>
+ <app type="Gliederung" loc="*G 774.21"></app>
+ <app type="Gliederung" loc="*G 774.22"></app>
+ <app type="Gliederung" loc="*G 774.23"></app>
+ <app type="Gliederung" loc="*G 774.24"></app>
+ <app type="Gliederung" loc="*G 774.25"></app>
+ <app type="Gliederung" loc="*G 774.26"></app>
+ <app type="Gliederung" loc="*G 774.27"></app>
+ <app type="Gliederung" loc="*G 774.28"></app>
+ <app type="Gliederung" loc="*G 774.29"></app>
+ <app type="Gliederung" loc="*G 774.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="G" n="774">
+<app type="Lesart" loc="*G 774.01">
+<lem>swelch</lem><rdg>welch <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.02">
+<rdg>Beide ir mu̽t vnd ir lip <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.03">
+<lem>der</lem><rdg>er <wit>I</wit> (<wit>M</wit>) <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.03">
+<lem>ir</lem><rdg><note>om.</note> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.04">
+<lem>in ir</lem><rdg>ir <wit>I</wit> ez in ir <wit>L</wit> sin <wit>M</wit> <wit>Z</wit> <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.04">
+<lem>brîs</lem><rdg>prise <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.05">
+<lem>doch</lem><rdg>da <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.06"></app>
+<app type="Lesart" loc="*G 774.07">
+<lem>sîniu vrömdiu</lem><rdg>sinen fromden <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.08">
+<lem>Gramoflanz</lem><rdg>Gramoflantz <wit>Z</wit> <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.08">
+<lem>unde</lem><rdg><note>om.</note> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.08">
+<lem>Parzival</lem><rdg>parcifal <wit>G</wit> <wit>Z</wit> <wit>Fr18</wit> parzifal <wit>I</wit> <wit>L</wit> <wit>M</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.09"></app>
+<app type="Lesart" loc="*G 774.10">
+<lem>giengen</lem><rdg>gienge <wit>M</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.11"></app>
+<app type="Lesart" loc="*G 774.12">
+<lem>rîche</lem><rdg><note>om.</note> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.12">
+<lem>heiden</lem><rdg>heide <wit>M</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.13"></app>
+ <app type="Lesart" loc="*G 774.14"></app>
+<app type="Lesart" loc="*G 774.15">
+<lem>dem</lem><rdg>dein <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.16"></app>
+<app type="Lesart" loc="*G 774.17">
+<lem>Feirafiz</lem><rdg>feirefiz <wit>G</wit> <wit>Z</wit> ferefiz <wit>L</wit> feirefisz <wit>M</wit> feẏrefẏz <wit>Fr18</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.18"></app>
+<app type="Lesart" loc="*G 774.19">
+<lem>beste</lem><rdg>besten <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.20">
+<lem>daz</lem><rdg>vnd daz <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.20">
+<lem>besitze</lem><rdg>gesýtze <wit>L</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.21"></app>
+<app type="Lesart" loc="*G 774.22">
+<lem>lobtenz alle</lem><rdg>loptan al <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.23">
+<lem>leit</lem><rdg>zcu leit <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.24">
+<lem>dô</lem><rdg>Da <wit>M</wit> <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.24">
+<lem>lobte</lem><rdg>lopt <wit>I</wit> <wit>L</wit> (<wit>Z</wit>) <wit>Fr18</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.24">
+<lem>in</lem><rdg>in da <wit>I</wit> yme <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.25">
+<lem>Feirafiz</lem><rdg>Feirefiz <wit>G</wit> Ferefiz <wit>L</wit> <wit>Z</wit> Feirefisz <wit>M</wit> Feẏrefẏz <wit>Fr18</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 774.26"></app>
+<app type="Lesart" loc="*G 774.27">
+<lem>dô</lem><rdg>Da <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.28">
+<lem>maniges</lem><rdg>manc <wit>I</wit> (<wit>M</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 774.28">
+<lem>al</lem><rdg><note>om.</note> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.29">
+<lem>sô</lem><rdg>daz <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.30">
+<lem>dô</lem><rdg>Da <wit>M</wit> <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.30">
+<lem>süeze</lem><rdg>svzzen <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 774.30">
+<lem>sumertac</lem><rdg>dach <wit>L</wit> mere tac <wit>M</wit> <wit>Z</wit> (<wit>Fr18</wit>)</rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="T" n="774">
+<div type="Textteil" subtype="T" n="774">
+<head>*T</head>
+<l n="*T 774.01"><seg type="Initiale">D</seg>ie vrouwen rûnden, <seg type="kleine_Variante" n="b2">welch</seg> wîp</l>
+<l n="*T 774.02">dâ mite zierte sînen lîp,</l>
+<l n="*T 774.03">het <seg type="große_Variante" n="a1">er</seg> gein <seg type="große_Variante" n="b1">ir</seg> gewenket,</l>
+<l n="*T 774.04">sô w&#x00E6;re <seg type="große_Variante" n="a1">sîn</seg> prîs verkrenket.</l>
+<l n="*T 774.05">etslîchiu was im doch sô holt,</l>
+<l n="*T 774.06">si hete sînen dienst wol gedolt,</l>
+<l n="*T 774.07">ich w&#x00E6;ne durch sîniu <seg type="große_Variante" n="a2">vremediu</seg> mâl.</l>
+<l n="*T 774.08"><name ref="regp:p0107" type="Person">Gramoflanz</name>, <name ref="regp:p0024" type="Person">Artus</name> und <name ref="regp:p0241" type="Person">Parcifal</name></l>
+<l n="*T 774.09">und der wirt <name ref="regp:p0103" type="Person">Gawan</name>,</l>
+<l n="*T 774.10">die viere giengen <seg type="große_Variante" n="a1">sunder</seg> dan.</l>
+<l n="*T 774.11">den vrouwen wart bescheiden</l>
+<l n="*T 774.12">in ir pflege der rîche <name ref="regp:p0355" type="Person">heiden</name>.</l>
+<l n="*T 774.13"><name ref="regp:p0024" type="Person">Artus</name> warp eine <seg type="kleine_Variante" n="a2">hôchzît</seg>,</l>
+<l n="*T 774.14">daz diu des morgens âne strît</l>
+<l n="*T 774.15">ûf dem velde ergienge,</l>
+<l n="*T 774.16">daz man dâ mit enpfienge</l>
+<l n="*T 774.17">sînen neven <name ref="regp:p0080" type="Person">Ferefis</name>.</l>
+<l n="*T 774.18">"an den <seg type="große_Variante" n="a3">gewerp leget</seg> iuwern vlîz</l>
+<l n="*T 774.19">und iuwer <seg type="kleine_Variante" n="a2">beste</seg> witze,</l>
+<l n="*T 774.20">daz er mit uns besitze</l>
+<l n="*T 774.21">ob der tavelrunder."</l>
+<l n="*T 774.22">si lobeten <seg type="große_Variante" n="a1">ez</seg> alle besunder,</l>
+<l n="*T 774.23">si wurben ez, w&#x00E6;re ez im niht leit.</l>
+<l n="*T 774.24">dô <seg type="kleine_Variante" n="a1">lobet</seg> <seg type="große_Variante" n="a2">im</seg> gesellecheit</l>
+<l n="*T 774.25"><name ref="regp:p0080" type="Person">Ferefis</name>, der rîche.</l>
+<l n="*T 774.26">daz volc vuor a<corr type="Emendation">l</corr> gelîche,</l>
+<l n="*T 774.27">dô man <seg type="große_Variante" n="a2">gesante</seg>, an <seg type="große_Variante" n="b2">sîn</seg> gemach.</l>
+<l n="*T 774.28"><seg type="große_Variante" n="a2">manegiu</seg> vreude al dâ geschach.</l>
+<l n="*T 774.29">des morgens, ob ich sprechen mac,</l>
+<l n="*T 774.30">dô erschein der süeze <seg type="große_Variante" n="a1">m&#x00E6;re tac</seg>.</l>
+</div>
+<div><listApp type="Verteilung" subtype="T" n="774"><app><rdg>
+<wit>U</wit> <wit>Q</wit> <wit>R</wit> <wit>Fr53</wit> <note>(774.1-2)</note>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="T" n="774">
+<app type="Gliederung" loc="*T 774.01">
+<rdg><note>Initiale</note> <wit>U</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 774.02"></app>
+ <app type="Gliederung" loc="*T 774.03"></app>
+ <app type="Gliederung" loc="*T 774.04"></app>
+ <app type="Gliederung" loc="*T 774.05"></app>
+ <app type="Gliederung" loc="*T 774.06"></app>
+ <app type="Gliederung" loc="*T 774.07"></app>
+ <app type="Gliederung" loc="*T 774.08"></app>
+ <app type="Gliederung" loc="*T 774.09"></app>
+ <app type="Gliederung" loc="*T 774.10"></app>
+ <app type="Gliederung" loc="*T 774.11"></app>
+ <app type="Gliederung" loc="*T 774.12"></app>
+ <app type="Gliederung" loc="*T 774.13"></app>
+ <app type="Gliederung" loc="*T 774.14"></app>
+ <app type="Gliederung" loc="*T 774.15"></app>
+ <app type="Gliederung" loc="*T 774.16"></app>
+ <app type="Gliederung" loc="*T 774.17"></app>
+ <app type="Gliederung" loc="*T 774.18"></app>
+ <app type="Gliederung" loc="*T 774.19"></app>
+ <app type="Gliederung" loc="*T 774.20"></app>
+ <app type="Gliederung" loc="*T 774.21"></app>
+ <app type="Gliederung" loc="*T 774.22"></app>
+ <app type="Gliederung" loc="*T 774.23"></app>
+ <app type="Gliederung" loc="*T 774.24"></app>
+ <app type="Gliederung" loc="*T 774.25"></app>
+ <app type="Gliederung" loc="*T 774.26"></app>
+ <app type="Gliederung" loc="*T 774.27"></app>
+ <app type="Gliederung" loc="*T 774.28"></app>
+ <app type="Gliederung" loc="*T 774.29"></app>
+ <app type="Gliederung" loc="*T 774.30"></app>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="T" n="774">
+<app type="Lesart" loc="*T 774.01">
+<rdg><note>Die Verse 764.13-774.30 fehlen</note> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.01">
+<lem>Die</lem><rdg>Eya <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.01">
+<lem>rûnden</lem><rdg>rúnden da <wit>Q</wit> prv&#x0364;ften <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.01">
+<lem>welch</lem><rdg>swelch <wit>Fr53</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.02">
+<lem>sînen</lem><rdg>iren <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 774.03"></app>
+<app type="Lesart" loc="*T 774.04">
+<lem>verkrenket</lem><rdg>gekrencket <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 774.05"></app>
+ <app type="Lesart" loc="*T 774.06"></app>
+ <app type="Lesart" loc="*T 774.07"></app>
+<app type="Lesart" loc="*T 774.08">
+<lem>Gramoflanz</lem><rdg>Gramoflantz <wit>Q</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*T 774.08">
+<lem>Parcifal</lem><rdg>partzifal <wit>Q</wit>  </rdg>
+</app>
+ <app type="Lesart" loc="*T 774.09"></app>
+<app type="Lesart" loc="*T 774.10">
+<lem>giengen</lem><rdg>geingen <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 774.11"></app>
+ <app type="Lesart" loc="*T 774.12"></app>
+<app type="Lesart" loc="*T 774.13">
+<lem>warp</lem><rdg>wart <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 774.14"></app>
+<app type="Lesart" loc="*T 774.15">
+<lem>ergienge</lem><rdg>ergingen <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 774.16"></app>
+<app type="Lesart" loc="*T 774.17">
+<lem>Ferefis</lem><rdg>feirefisz <wit>Q</wit>  </rdg>
+</app>
+ <app type="Lesart" loc="*T 774.18"></app>
+ <app type="Lesart" loc="*T 774.19"></app>
+ <app type="Lesart" loc="*T 774.20"></app>
+ <app type="Lesart" loc="*T 774.21"></app>
+<app type="Lesart" loc="*T 774.22">
+<lem>alle</lem><rdg>all <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.23">
+<lem>wurben ez</lem><rdg>wurbes <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.24">
+<lem>im</lem><rdg>in <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.25">
+<lem>Ferefis</lem><rdg>feirefisz <wit>Q</wit>  </rdg>
+</app>
+<app type="Lesart" loc="*T 774.26">
+<lem>al</lem><rdg>alle <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.27">
+<lem>gesante</lem><rdg>geschanet <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.28">
+<lem>manegiu</lem><rdg>Manigen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.29">
+<lem>ich</lem><rdg>ich so <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 774.30">
+<lem>der süeze m&#x00E6;re</lem><rdg>des suszen meres <wit>Q</wit></rdg>
+</app>
+</listApp></div>
+</div>
+</body>
+</text>
+</TEI>

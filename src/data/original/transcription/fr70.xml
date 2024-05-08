@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr70</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Arnhem</settlement>
+          <repository>Openbare en Gelderse Wetenschappelijke Bibl.</repository>
+          <idno>MS 78</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr70</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <objectDesc>
+        <p>Das Fragment ist verschollen. Abgedruckt wurden nur die Verse 759.1-761.30 in: Algemeene konst- en letterbode 66 [Nieuwe Reeks 1], 1854, Nr. 23, S. 182.</p>
+        </objectDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <listPrefixDef>
+    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+      <p>"regp" verweist auf die Personennamen.</p>
+    </prefixDef>
+    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"rego" verweist auf die Ortsnamen.</p>
+    </prefixDef>
+    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+    </prefixDef>
+  </listPrefixDef>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 759.01-761.30</note>
+<note>Transkribiert von OBA nach einem Abdruck in: Mededeelingen. Fragment van den "Parzival", in: Algemeene konst- en letterbode 66 (Nieuwe Reeks 1) (1854), Nr. 23, S. 182 (Juni 2009).</note>
+<note>Die Interpunktion wurde getreu der o.g. Abschrift übernommen.</note>
+<note>Korrekturen durchgeführt von CG am 23.11.2016.</note>
+<pb xml:id="fr70001r"/><cb xml:id="fr70001ra"/>
+<l xml:id="fr70_759.01">Gawan zo Parzevalen sprach</l>
+<l xml:id="fr70_759.02">neue din nuwe vngemach</l>
+<l xml:id="fr70_759.03">sacht mir din helm vnd din scilt</l>
+<l xml:id="fr70_759.04">vch ist beiden strites mit gespilt</l>
+<l xml:id="fr70_759.05">dir vnd dem neven min</l>
+<l xml:id="fr70_759.06">gin wem irholt ir dessen pin</l>
+<l xml:id="fr70_759.07">ez ne wart nie harten strit irkant</l>
+<l xml:id="fr70_759.08">sprach Parzeval mins broder hant</l>
+<l xml:id="fr70_759.09">twanc mich zo wer in grozer not</l>
+<l xml:id="fr70_759.10">wer ist ein segen vor den dot</l>
+<l xml:id="fr70_759.11">vf dessen hemelichen gast</l>
+<l xml:id="fr70_759.12">vo slage min starkez swert zo brast</l>
+<l xml:id="fr70_759.13">do tete her krancken vorten schin</l>
+<l xml:id="fr70_759.14"></l>
+<l xml:id="fr70_759.15">her vorchte ouch an mir sunden</l>
+<l xml:id="fr70_759.16">er wir rechenden zo kunden</l>
+<l xml:id="fr70_759.17">nu han ich sine hulde wol</l>
+<l xml:id="fr70_759.18">de ich denste gerne irhol.</l>
+<l xml:id="fr70_759.19">Gawan sprach mir wart gesacht</l>
+<l xml:id="fr70_759.20">von eine strite onvertsacht</l>
+<l xml:id="fr70_759.21">vf scach temar veile man sieht</l>
+<l xml:id="fr70_759.22">t waz binnen vier milen gescieht</l>
+<l xml:id="fr70_759.23">in der sul vf minen warthus.</l>
+<l xml:id="fr70_759.24">do sprach min oheim Artus</l>
+<l xml:id="fr70_759.25">der dar streit des selben mals</l>
+<l xml:id="fr70_759.26">dez werestu neve von kingrivals</l>
+<l xml:id="fr70_759.27">du hast de waren mere bracht</l>
+<l xml:id="fr70_759.28">dir was des strites vor ge dacht</l>
+<l xml:id="fr70_759.29">nu gelouve mir des ich dir sage</l>
+<l xml:id="fr70_759.30">din were gebiten hir vier tage</l>
+<l xml:id="fr70_760.01">mit grozer richer hohezit</l>
+<l xml:id="fr70_760.02">mich moet vwer beider strit</l>
+<l xml:id="fr70_760.03">dar sultir bi mir rowen nach</l>
+<l xml:id="fr70_760.04">sit aber strit von vch gescach</l>
+<l xml:id="fr70_760.05">ir erkennet ein ander desto baz</l>
+<l xml:id="fr70_760.06">nv keset vruntscaf vor den haz.</l>
+<l xml:id="fr70_760.07">Gawan des abendes az dest e</l>
+<l xml:id="fr70_760.08">do sin neve von Tasme</l>
+<l xml:id="fr70_760.09">Ferasiz Anzevin</l>
+<l xml:id="fr70_760.10">dan noch vastede und der broder sin</l>
+<l xml:id="fr70_760.11">von palmat dicke und lanc</l>
+<l xml:id="fr70_760.12">wart ein wit vmbevanc</l>
+<l xml:id="fr70_760.13">koltren maniger könne</l>
+<l xml:id="fr70_760.14">von palmat nicht zo dünne</l>
+<l xml:id="fr70_760.15">worden do der matraz dach</l>
+<l xml:id="fr70_760.16">pfellet man druf gesteppet sach</l>
+<cb xml:id="fr70001rb"/>
+<l xml:id="fr70_760.17">beide lanc vnd breit</l>
+<l xml:id="fr70_760.18">de <name ref="regp:p0057" type="Person">Clinsores</name> richeit</l>
+<l xml:id="fr70_760.19">wart dar durch scowen vor getragen</l>
+<l xml:id="fr70_760.20">do sloch man vf dus hor ich sagen</l>
+<l xml:id="fr70_760.21">von phellele vier ruckelaken</l>
+<l xml:id="fr70_760.22">mit vil richelichen saken</l>
+<l xml:id="fr70_760.23">gin ein ander vor sniten</l>
+<l xml:id="fr70_760.24">dar vnder semfte plumiten</l>
+<l xml:id="fr70_760.25">mit koltern vordecket</l>
+<l xml:id="fr70_760.26">ruckelakene dar over getrecket</l>
+<l xml:id="fr70_760.27">der rinc begreif ein so wit velt</l>
+<l xml:id="fr70_760.28">dan weren gestanden vier gezelt</l>
+<l xml:id="fr70_760.29"></l>
+<l xml:id="fr70_760.30">vmbescheidenliche ich vore</l>
+<l xml:id="fr70_761.01">soltich desse euenture vorbaz han</l>
+<l xml:id="fr70_761.02">do enbot min her Gawan</l>
+<l xml:id="fr70_761.03">Zo hove Artuse mere</l>
+<l xml:id="fr70_761.04">wer da kämen were</l>
+<l xml:id="fr70_761.05">der riche heiden were da</l>
+<l xml:id="fr70_761.06">de de heideninne Ekuba</l>
+<l xml:id="fr70_761.07">so prisete bi den Plimizol</l>
+<l xml:id="fr70_761.08">Yofreit fyus ydol</l>
+<l xml:id="fr70_761.09">Artuse de mere sagete</l>
+<l xml:id="fr70_761.10">des hi vrovde vil be iagete</l>
+<l xml:id="fr70_761.11">Jofroit bat in ezzen vro</l>
+<l xml:id="fr70_761.12">vnd clarlichen griffen zo</l>
+<l xml:id="fr70_761.14"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr70_761.13"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr70_761.15">daz sez so ane vengen</l>
+<l xml:id="fr70_761.16">vnd werdichlichen vntfeingen</l>
+<l xml:id="fr70_761.17">des stolzen gamurettes kint</l>
+<l xml:id="fr70_761.18">swaz hir werder lute sint</l>
+<l xml:id="fr70_761.19">der bring ich sprach d'Brittoneis</l>
+<l xml:id="fr70_761.20">Jofreit sprach her ist so kurtoys</l>
+<l xml:id="fr70_761.21">ir muget in alle gerne sehn</l>
+<l xml:id="fr70_761.22">wan ir sult wunder an im spen</l>
+<l xml:id="fr70_761.23">her vert vz grozer richeit</l>
+<l xml:id="fr70_761.24">sine wapenliche cleit</l>
+<l xml:id="fr70_761.25">nyman vor gelden mochte</l>
+<l xml:id="fr70_761.26">nech einer hant daz tochte</l>
+<l xml:id="fr70_761.27">Lover, Brittanya Engelant</l>
+<l xml:id="fr70_761.28">von Paris byz an Brabant</l>
+<l xml:id="fr70_761.29">der dar gin legete alde terre</l>
+<l xml:id="fr70_761.30">iz were dem gelde verre</l>
+</body>
+</text>
+</TEI>

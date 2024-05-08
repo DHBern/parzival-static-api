@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr59</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>11.10.22</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Marburg</settlement>
+          <repository>Hessisches Staatsarchiv</repository>
+          <idno>Best. 147 Hr 1 Nr. 16</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr59</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <objectDesc>
+        <p>Dieses Fragment ist verschollen.</p>
+        </objectDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 574.24-575.10; 576.07-22; 577.20-578.05; 579.03-18</note>
+<note>Das Fragment verschollen (siehe Bonath/Lomnitzer S. 143 u. Nellmann S. 344.)</note>
+<note>Datei erstellt von YCh am 20.04.2012 nach Nellmann, Neues zur Parzival-Überlieferung, ZfDPh 85 (1966), S. 344. Angeführt wird nur der dort bezeugte Wortlaut.</note>
+<note>Endredaktion 2017 AB</note>
+<pb xml:id="fr59001r"/><cb xml:id="fr59001ra"/>
+<l xml:id="fr59_574.24"><supplied reason="unleserlich" resp="Sekundärliteratur">sit dir din truwe daz geriet</supplied></l>
+<l xml:id="fr59_574.25"><supplied reason="unleserlich" resp="Sekundärliteratur">mich erbarmet iemer me din tugent</supplied></l>
+<l xml:id="fr59_574.26"><supplied reason="unleserlich" resp="Sekundärliteratur">du habes aldir oder iugent</supplied></l>
+<cb xml:id="fr59001rb"/>
+<l xml:id="fr59_576.07"><supplied reason="unleserlich" resp="Sekundärliteratur">der adem wart do funden</supplied></l>
+<pb xml:id="fr59001v"/><cb xml:id="fr59001va"/>
+<l xml:id="fr59_577.20"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur"> mit truwen nemen war</supplied></l>
+<cb xml:id="fr59001vb"/>
+<l xml:id="fr59_579.03"><supplied reason="unleserlich" resp="Sekundärliteratur">vnde dannen geleitet</supplied></l>
+<l xml:id="fr59_579.17"><supplied reason="unleserlich" resp="Sekundärliteratur">swa der helm was in gebogen</supplied></l>
+<l xml:id="fr59_579.18"><supplied reason="unleserlich" resp="Sekundärliteratur">da gein daz houpt in gezogen</supplied></l>
+</body>
+</text>
+</TEI>
