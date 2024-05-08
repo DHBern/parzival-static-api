@@ -37,7 +37,7 @@
     <xsl:param name="task" as="xs:string"/>
     <xsl:variable name="dreissiger" as="element(Q{https://dsl.unibe.ch}groups)">
       <groups xmlns="https://dsl.unibe.ch">
-        <xsl:for-each select="uri-collection($path_src||'../data/original/transcription?recurse=yes;select=*.xml')">
+        <xsl:for-each select="uri-collection($path_src||'data/original/transcription?recurse=yes;select=*.xml')">
           <xsl:variable name="document" as="xs:string" select="doc(.) => base-uri() => replace('.+/(.+)\.xml','$1')"/>
           <xsl:variable name="dreissiger-by-document_sequence" as="item()+" select="doc(.)//*:l/@xml:id ! substring-after(.,$document||'_') 
             ! substring-before(.,'.') 

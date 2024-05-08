@@ -22,7 +22,7 @@
   <xd:doc>
     <xd:param name="split-output">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output" static="true" select="true()"/>
+  <xsl:param name="split-output" static="true" select="false()"/>
   
   <xd:doc scope="template">
     <xd:desc>
@@ -43,7 +43,7 @@
     <xsl:param name="verbose" as="xs:boolean"/>
     <xsl:variable name="pages" as="element(Q{https://dsl.unibe.ch}pages)">
       <pages xmlns="https://dsl.unibe.ch">
-        <xsl:for-each select="uri-collection($path_src||'../data/original/transcription?recurse=yes;select=*.xml')"><!-- [position() lt 5] -->
+        <xsl:for-each select="uri-collection($path_src||'data/original/transcription?recurse=yes;select=*.xml')"><!-- [position() lt 5] -->
           <xsl:variable name="document" as="xs:string" select="doc(.) => base-uri() => replace('.+/(.+)\.xml','$1')"/>
           <xsl:variable name="pages-by-document_sequence" as="item()+">
             <doc n="{$document}">

@@ -29,6 +29,7 @@
   <xsl:param name="repository" as="xs:string" select="'parzival-static-backend'"/>
   
   <xsl:include href="util/pass-through-originals.xsl"/>
+  <xsl:include href="util/flatten-originals.xsl"/>
   <xsl:include href="util/contiguous-ranges.xsl"/>
   <xsl:include href="util/metadata-ms-page.xsl"/>
   
@@ -43,6 +44,14 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'pass-through-originals'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="flatten-originals" use-when="$all or $do => contains-token('flatten-originals')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'flatten-originals'"/>
     </xsl:call-template>
     
     <xsl:call-template name="contiguous-ranges" use-when="$all or $do => contains-token('contiguous-ranges')">
@@ -73,7 +82,7 @@
   </xd:doc>
   <xsl:function name="dsl:resolve-local-path">
     <xsl:param name="input" as="xs:string"/>
-    <xsl:sequence select="base-uri(document('')) => replace('.+/(.*)','') || $input"/>
+    <xsl:sequence select="base-uri(document('')) => replace('(.+/)(.*)','$1') || $input"/>
   </xsl:function>
 
   

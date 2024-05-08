@@ -12,7 +12,7 @@
   version="3.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
-      <xd:p><xd:b>Created on:</xd:b> Mar 23, 2024</xd:p>
+      <xd:p><xd:b>Created on:</xd:b> May 8, 2024</xd:p>
       <xd:p><xd:b>Author:</xd:b> pd</xd:p>
       <xd:p>Copies all original TEI files (as received from editors) to dist.</xd:p>
     </xd:desc>
@@ -20,7 +20,7 @@
   
   <xd:doc scope="template">
     <xd:desc>
-      <xd:p><xd:b>pass-through-originals</xd:b></xd:p>
+      <xd:p><xd:b>flatten-originals</xd:b></xd:p>
       <xd:p>Copies all original TEI files (as received from editors) to dist.</xd:p>
     </xd:desc>
     <xd:param name="repository">Repository name.</xd:param>
@@ -29,7 +29,7 @@
     <xd:param name="verbose">Toggle verbose output (true/false).</xd:param>
     <xd:param name="task">Task name.</xd:param>
   </xd:doc>
-  <xsl:template name="pass-through-originals">
+  <xsl:template name="flatten-originals">
     <xsl:param name="repository" as="xs:string"/>
     <xsl:param name="path_src" as="xs:string"/>
     <xsl:param name="path_api" as="xs:string"/>
@@ -37,8 +37,8 @@
     <xsl:param name="task" as="xs:string"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
-      <xsl:message use-when="$verbose">…writing {$path_api}/tei/original/{. => substring-after('original/')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}"/>
+      <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => substring-after('original/')}…</xsl:message>
+      <xsl:result-document href="{$path_api}/tei/flattened/{. => substring-after('original/')}"/>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
   </xsl:template>
