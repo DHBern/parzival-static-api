@@ -37,8 +37,10 @@
     <xsl:param name="task" as="xs:string"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
-      <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => substring-after('original/')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/flattened/{. => substring-after('original/')}"/>
+      <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}…</xsl:message>
+      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}">
+        <xsl:sequence select="doc(.)"/>
+      </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
   </xsl:template>
