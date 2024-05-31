@@ -22,7 +22,7 @@
   <xd:doc>
     <xd:param name="split-output">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output" static="true" select="false()"/>
+  <xsl:param name="split-output" static="true" select="true()"/>
   
   <xd:doc scope="template">
     <xd:desc>
