@@ -26,12 +26,13 @@
   
   <xsl:param name="verbose" as="xs:boolean" static="true" select="false()"/>
   
-  <xsl:param name="repository" as="xs:string" select="'parzival-static-backend'"/>
+  <xsl:param name="repository" as="xs:string" select="'parzival-static-api'"/>
   
   <xsl:include href="util/pass-through-originals.xsl"/>
   <xsl:include href="util/flatten-originals.xsl"/>
   <xsl:include href="util/contiguous-ranges.xsl"/>
   <xsl:include href="util/metadata-ms-page.xsl"/>
+  <xsl:include href="util/extract-fragment-metadata.xsl"/>
   
   <xd:doc>
     <xd:desc>Initial template.</xd:desc>
@@ -62,6 +63,14 @@
       <xsl:with-param name="task" as="xs:string" select="'contiguous-ranges'"/>
     </xsl:call-template>
     
+    <xsl:call-template name="metadata-nomenclature" use-when="$all or $do => contains-token('metadata-nomenclature')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'metadata-nomenclature'"/>
+    </xsl:call-template>
+
     <xsl:call-template name="metadata-ms-page" use-when="$all or $do => contains-token('metadata-ms-page')">
       <xsl:with-param name="repository" as="xs:string" select="$repository"/>
       <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
