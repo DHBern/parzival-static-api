@@ -20,27 +20,6 @@
   
   <xsl:output indent="true"/>
   
-  <!--<xsl:variable name="fragment-uris" select="uri-collection('data_parzival/data/transcription/?select=fr*.xml')"/>-->
-  
-  <!--<xsl:template match="/">
-    <xsl:variable name="map">
-      <array>
-        <xsl:for-each select="$fragment-uris ! doc(.)">
-          <xsl:sort select="base-uri()"/>
-          <map>
-            <string key="handle">{base-uri() => replace('.+/(.+)\.xml','$1')}</string>
-            <string key="sigil">{}</string>
-            <string key="aka">{TEI/teiHeader//msFrag/msIdentifier/idno => string-join(', ')}</string>
-            <string key="cod">{}</string>
-            <string key="loc">{TEI/teiHeader/fileDesc//repository}</string>
-          </map>
-        </xsl:for-each>
-      </array>
-    </xsl:variable>
-<!-\-    <xsl:sequence select="$map"/>-\->
-    <xsl:sequence select="xml-to-json($map, map { 'indent' : true() })"/>
-  </xsl:template>-->
-  
   <xsl:variable name="hyparchetypes" as="text()" expand-text="false">
     <![CDATA[
     [
@@ -165,7 +144,6 @@
     <xsl:param name="path_api" as="xs:string"/>
     <xsl:param name="task" as="xs:string"/>
     <xsl:param name="verbose" as="xs:boolean"/>
-<!--    <xsl:message>{$fragment-uris}</xsl:message>-->
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     
     <xsl:result-document href="{$path_api}/json/metadata-nomenclature.json" method="json" indent="false">
@@ -175,7 +153,6 @@
             <xsl:sequence select="$hyparchetypes => json-to-xml()"/>
           </array>
           <array key="codices">
-<!--            <xsl:sequence select="$payload"/>-->
             <xsl:variable name="fragment-uris" select="uri-collection($path_src||'data/original/transcription/?select=*.xml')[not(matches(.,'fr\d*\.xml'))]"/>
             <xsl:for-each select="$fragment-uris ! doc(.)">
               <xsl:sort select="base-uri()"/>
