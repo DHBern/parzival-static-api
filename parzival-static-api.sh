@@ -61,7 +61,7 @@ function fetchExports {
   curl --limit-rate 50k "https://parzival.unibe.ch/parzdb/parzival.php?page=pdf&dreissiger=[1-${UNTIL}]" \
     --output dist/api/export/pdf/fass-#1.pdf --create-dirs
   echo && echo "LaTeX…"
-  curl --limit-rate 50k "https://parzival.unibe.ch/parzdb/parzival.php?page=lates&dreissiger=[1-${UNTIL}]" \
+  curl --limit-rate 50k "https://parzival.unibe.ch/parzdb/parzival.php?page=latex&dreissiger=[1-${UNTIL}]" \
     --output dist/api/export/latex/fass-#1.tex --create-dirs
   echo && echo "Tustep…"
   curl --limit-rate 50k "https://parzival.unibe.ch/parzdb/parzival.php?page=tustep&dreissiger=[1-${UNTIL}]" \
