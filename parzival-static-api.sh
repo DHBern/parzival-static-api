@@ -11,7 +11,7 @@
 # Generate output files
 # ---------------------
 #
-# Set option `--generate`
+# Set option `--generate` / `-g`
 #
 # and argument `do=` with one of:
 #
@@ -27,6 +27,8 @@
 #
 # Fetch export files
 # ------------------
+#
+# Set option `--fetch-exports` / `-f` (without parameters)
 #
 # In addition to the generation of the output files, the script also serves to fetch export files
 # from the working environment (parzDB database). As fetching the nearly 900 files takes a while,
@@ -101,14 +103,14 @@ function fetchExports {
 ### Argument parsing / conditional function calls
 
 case "$1" in
-  --generate)
+  -g | --generate )
     shift # do not pass the first argument ("generate")
     generate "$@" 2>&1 | tee -a logfile.log
-  ;;
-  --fetch-exports)
+    ;;
+  -f | --fetch-exports )
     fetchExports 2>&1 | tee -a logfile.log
-  ;;
+    ;;
   *)
     echo "Argument missing (supply --generate or --fetch-exports)."
-  ;;
+    ;;
 esac
