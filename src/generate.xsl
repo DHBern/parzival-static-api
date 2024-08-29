@@ -25,7 +25,6 @@
   <xsl:param name="all" as="xs:boolean" static="true" select="false()"/>
   
   <xsl:param name="verbose" as="xs:boolean" static="true" select="false()"/>
-  
   <xsl:param name="repository" as="xs:string" select="'parzival-static-api'"/>
   
   <xsl:include href="util/pass-through-originals.xsl"/>
