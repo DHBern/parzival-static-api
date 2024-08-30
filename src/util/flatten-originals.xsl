@@ -18,6 +18,8 @@
     </xd:desc>
   </xd:doc>
   
+  <xsl:include href="internal/enrich-msDesc.xsl"/>
+  
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b>flatten-originals</xd:b></xd:p>
@@ -37,9 +39,12 @@
     <xsl:param name="task" as="xs:string"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
+      <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="text" encoding="UTF-8">
-        <xsl:sequence select="unparsed-text(.)"/>
+      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8">
+        <xsl:apply-templates select="doc(.)/node()">
+          <xsl:with-param name="idno" select="$idno"/>
+        </xsl:apply-templates>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>

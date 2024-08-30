@@ -8,7 +8,7 @@
   xmlns:array="http://www.w3.org/2005/xpath-functions/array"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   expand-text="true"
-  exclude-result-prefixes="xs xd"
+  exclude-result-prefixes="array dsl map xs xd"
   version="3.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
@@ -17,6 +17,10 @@
       <xd:p>Copies all original TEI files (as received from editors) to dist.</xd:p>
     </xd:desc>
   </xd:doc>
+  
+  <xsl:include href="internal/enrich-msDesc.xsl"/>
+  
+  <xsl:mode on-no-match="shallow-copy"/>
   
   <xd:doc scope="template">
     <xd:desc>
@@ -37,9 +41,12 @@
     <xsl:param name="task" as="xs:string"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
+      <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/original/{. => substring-after('original/')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}" method="text" encoding="UTF-8">
-        <xsl:sequence select="unparsed-text(.)"/>
+      <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}" method="xml" encoding="UTF-8">
+        <xsl:apply-templates select="doc(.)/node()">
+          <xsl:with-param name="idno" select="$idno"/>
+        </xsl:apply-templates>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>

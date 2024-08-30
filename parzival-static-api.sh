@@ -16,7 +16,7 @@
 # and argument `do=` with one of:
 #
 #   pass-through-originals	: Copies all original TEI files (as received from editors) to dist.
-#   flatten-originals		:
+#   flatten-originals		: Copies all original TEI files to the same folder.
 #   contiguous-ranges		: Generate information on contiguously extant Dreissiger by document.
 #   metadata-ms-page		: Generate information on manuscript pages.
 #   extract-fragment-metadata	: Extract naming information from files.
@@ -42,7 +42,7 @@
 
 
 # Supply path to Saxon executable.
-SAXON='/opt/Saxonica/SaxonHE12-5/saxon-he-12.5.jar'
+SAXON='/opt/saxon-he/SaxonHE12-5J/saxon-he-12.5.jar'
 
 # functions
 function generate {
