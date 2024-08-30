@@ -150,7 +150,7 @@
       <xsl:variable name="payload">
         <map>
           <array key="hyparchetypes">
-            <xsl:sequence select="$hyparchetypes => json-to-xml()"/>
+            <xsl:sequence select="let $xml := $hyparchetypes => json-to-xml() return $xml/*/*"/>
           </array>
           <array key="codices">
             <xsl:variable name="fragment-uris" select="uri-collection($path_src||'data/original/transcription/?select=*.xml')[not(matches(.,'fr\d*\.xml'))]"/>
