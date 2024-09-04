@@ -149,7 +149,7 @@
     <xsl:param name="verbose" as="xs:boolean"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     
-    <xsl:result-document href="{$path_api}/json/metadata-nomenclature.json" method="json" indent="true">
+    <xsl:result-document href="{$path_api}/json/metadata-nomenclature.json" method="json" indent="false">
       <xsl:variable name="serialization-parameters">
         <output:serialization-parameters>
           <output:method value="xml"/><!-- html method breaks various things -->
@@ -243,7 +243,7 @@
         </map>
       </xsl:variable>
       <xsl:message use-when="$verbose">…writing {$path_api}/json/metadata-nomenclature.json…</xsl:message>
-      <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() })  => replace('\sxmlns=\p{P}.*?>','>') => normalize-space() => parse-json()"/>
+      <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() })  => replace('\sxmlns=\p{P}.*?([\s>])','$1') => normalize-space() => parse-json()"/>
     </xsl:result-document>
     
     <xsl:message>Task `{$task}` done.</xsl:message>
