@@ -18,8 +18,6 @@
     </xd:desc>
   </xd:doc>
   
-<!--  <xsl:include href="internal/enrich-msDesc.xsl"/> -->
-  
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b>flatten-originals</xd:b></xd:p>
