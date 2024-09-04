@@ -17,6 +17,8 @@
       <xd:p></xd:p>
     </xd:desc>
   </xd:doc>
+
+  <xsl:include href="util/internal/enrich-msDesc.xsl"/>
   
   <xsl:param name="path_api" as="xs:string" select="'../dist/api' => dsl:resolve-local-path()"/>
   <xsl:param name="path_src" as="xs:string" select="'' => dsl:resolve-local-path()"/>

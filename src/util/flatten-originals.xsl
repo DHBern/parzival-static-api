@@ -18,7 +18,7 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:include href="internal/enrich-msDesc.xsl"/>
+<!--  <xsl:include href="internal/enrich-msDesc.xsl"/> -->
   
   <xd:doc scope="template">
     <xd:desc>
