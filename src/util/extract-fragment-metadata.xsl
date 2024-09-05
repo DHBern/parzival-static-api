@@ -195,7 +195,7 @@
                 </string>
                 <string key="info-h2">
                   <xsl:variable name="info-h2">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/title[not(@type='main')]"/>
+                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/list"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
@@ -233,7 +233,7 @@
                 </string>
                 <string key="info-h2">
                   <xsl:variable name="info-h2">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]//list"/>
+                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/list"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
