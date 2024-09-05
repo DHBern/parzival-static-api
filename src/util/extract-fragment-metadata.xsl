@@ -149,7 +149,7 @@
     <xsl:param name="verbose" as="xs:boolean"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     
-    <xsl:result-document href="{$path_api}/json/metadata-nomenclature.json" method="json" indent="false">
+    <xsl:result-document href="{$path_api}/json/metadata-nomenclature.json" method="json" indent="true">
       <xsl:variable name="serialization-parameters">
         <output:serialization-parameters>
           <output:method value="xml"/><!-- html method breaks various things -->
@@ -233,7 +233,7 @@
                 </string>
                 <string key="info-h2">
                   <xsl:variable name="info-h2">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/title[not(@type='main')]"/>
+                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]//list"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
@@ -251,7 +251,7 @@
   
   <xsl:template match="p" exclude-result-prefixes="#all">
     <p xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates select="node() except title"/>
+      <xsl:apply-templates select="node() except title except list"/>
     </p>
   </xsl:template>
   
