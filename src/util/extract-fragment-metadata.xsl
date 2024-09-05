@@ -243,7 +243,7 @@
         </map>
       </xsl:variable>
       <xsl:message use-when="$verbose">…writing {$path_api}/json/metadata-nomenclature.json…</xsl:message>
-      <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() })  => replace('\sxmlns=\p{P}.*?([\s>])','$1') => normalize-space() => parse-json()"/>
+      <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() }) => replace('\sxmlns=\p{P}.*?([\s>])','$1') => normalize-space() => parse-json()"/>
     </xsl:result-document>
     
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -275,6 +275,12 @@
     <li xmlns="http://www.w3.org/1999/xhtml">
       <xsl:apply-templates/>
     </li>
+  </xsl:template>
+  
+  <xsl:template match="hi[@rend='sup']" exclude-result-prefixes="#all">
+    <sup xmlns="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </sup>
   </xsl:template>
   
 </xsl:transform>
