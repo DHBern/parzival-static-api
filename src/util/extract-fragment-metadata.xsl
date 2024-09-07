@@ -205,7 +205,7 @@
           <array key="fragments">
             <xsl:variable name="fragment-uris" select="uri-collection($path_src||'data/original/transcription/?select=fr*.xml')"/>
             <xsl:for-each select="$fragment-uris ! doc(.)">
-              <xsl:sort select="base-uri()"/>
+              <xsl:sort select="base-uri() => replace('.*/fr(\d+)\.xml$','$1') => number() => format-number('00')"/>
               <xsl:variable name="handle" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
               <map>
                 <string key="handle">{$handle}</string>
