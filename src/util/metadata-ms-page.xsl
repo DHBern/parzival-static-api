@@ -20,9 +20,9 @@
   
   <!-- local params -->
   <xd:doc>
-    <xd:param name="split-output">Generate multiple (true) or one output file (false).</xd:param>
+    <xd:param name="split-output-pages">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output" static="true" select="true()"/>
+  <xsl:param name="split-output-pages" static="true" select="true()"/>
   
   <xd:doc scope="template">
     <xd:desc>
@@ -108,14 +108,14 @@
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     
     <!-- outputting one file per document -->
-    <xsl:for-each select="$payload/*:map" use-when="$split-output">
+    <xsl:for-each select="$payload/*:map" use-when="$split-output-pages">
       <xsl:message use-when="$verbose">…writing {$path_api}/json/metadata-ms-page/{*:array/@key}.json…</xsl:message>
       <xsl:result-document href="{$path_api}/json/metadata-ms-page/{*:array/@key}.json" method="json" indent="true">
         <xsl:sequence select=". => xml-to-json(map { 'indent' : true() }) => parse-json()"/>
       </xsl:result-document>
     </xsl:for-each>
     
-    <xsl:result-document href="{$path_api}/json/metadata-ms-page.json" method="json" indent="false" use-when="not($split-output)">
+    <xsl:result-document href="{$path_api}/json/metadata-ms-page.json" method="json" indent="false" use-when="not($split-output-pages)">
       <xsl:variable name="payload">
         <map>
           <array key="pages">

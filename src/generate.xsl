@@ -33,6 +33,7 @@
   <xsl:include href="util/flatten-originals.xsl"/>
   <xsl:include href="util/contiguous-ranges.xsl"/>
   <xsl:include href="util/metadata-ms-page.xsl"/>
+  <xsl:include href="util/metadata-ms-verses.xsl"/>
   <xsl:include href="util/extract-fragment-metadata.xsl"/>
   
   <xd:doc>
@@ -78,6 +79,14 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'metadata-ms-page'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="metadata-ms-verses" use-when="$all or $do => contains-token('metadata-ms-verses')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'metadata-ms-verses'"/>
     </xsl:call-template>
     
     <xsl:if test="$do='' and not($all)">
