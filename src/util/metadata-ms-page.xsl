@@ -47,7 +47,7 @@
           <xsl:variable name="document" as="xs:string" select="doc(.) => base-uri() => replace('.+/(.+)\.xml','$1')"/>
           <xsl:variable name="pages-by-document_sequence" as="item()+">
             <doc n="{$document}">
-              <xsl:for-each-group select="doc(.)//body/*" group-starting-with="pb">
+              <xsl:for-each-group select="doc(.)//body//*" group-starting-with="pb">
                 <page n="{current-group()[self::pb]/@xml:id}">
                   <xsl:sequence select="current-group()[not(self::pb)]/@xml:id/data()"/>
                 </page>
