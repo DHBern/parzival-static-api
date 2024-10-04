@@ -22,7 +22,7 @@
   <xd:doc>
     <xd:param name="split-output-verses">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output-verses" static="true" select="true()"/>
+  <xsl:param name="split-output-verses" static="true" select="false()"/>
   
   <xd:doc scope="template">
     <xd:desc>
@@ -86,7 +86,7 @@
     <xsl:result-document href="{$path_api}/json/metadata-ms-verses.json" method="json" indent="false" use-when="not($split-output-verses)">
       <xsl:variable name="payload">
         <map>
-          <array key="pages">
+          <array key="documents">
             <xsl:sequence select="$payload"/>
           </array>
         </map>
