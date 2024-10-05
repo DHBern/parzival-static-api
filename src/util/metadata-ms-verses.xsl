@@ -19,10 +19,7 @@
   </xd:doc>
   
   <!-- local params -->
-  <xd:doc>
-    <xd:param name="split-output-verses">Generate multiple (true) or one output file (false).</xd:param>
-  </xd:doc>
-  <xsl:param name="split-output-verses" static="true" select="false()"/>
+  <!-- none -->
   
   <xd:doc scope="template">
     <xd:desc>
@@ -56,40 +53,33 @@
     </xsl:variable>
     
     <xsl:variable name="payload">
-      <xsl:for-each select="$documents/dsl:doc">
-        <map>
-          <map key="meta">
-            <string key="task">{$task}</string>
-            <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
-            <string key="generated-on">{current-dateTime()}</string>
-            <string key="description">Verse numbers contained in source document.</string>
-          </map>
-          <array key="{@n}">
-            <xsl:for-each select="dsl:l">
-              <string>{@n/data()}</string>
-            </xsl:for-each>
-          </array>
+      <map>
+        <map key="meta">
+          <string key="task">{$task}</string>
+          <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
+          <string key="generated-on">{current-dateTime()}</string>
+          <string key="description">Verses contained in source document, ordered by document > Dreissiger > number.</string>
         </map>
-      </xsl:for-each>
+        <array key="verses">
+          <xsl:for-each select="$documents/dsl:doc">
+            <xsl:sort select="let $sort-format := format-number(substring-after(@n,'fr')=>number(),'000') return @n => replace('(\d)',$sort-format)"/>
+            <xsl:for-each select="dsl:l">
+              <map>
+                <string key="siglum">{@n => tokenize('_') => head()}</string>
+                <string key="thirties">{@n => replace('.*_(.+?)\..+','$1')}</string>
+                <string key="verse">{@n => tokenize('\.') => tail()}</string>
+              </map>
+            </xsl:for-each>
+          </xsl:for-each>
+        </array>
+      </map>
     </xsl:variable>
     
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
-    
-    <!-- outputting one file per document -->
-    <xsl:for-each select="$payload/*:map" use-when="$split-output-verses">
-      <xsl:message use-when="$verbose">…writing {$path_api}/json/metadata-ms-verses/{*:array/@key}.json…</xsl:message>
-      <xsl:result-document href="{$path_api}/json/metadata-ms-verses/{*:array/@key}.json" method="json" indent="true">
-        <xsl:sequence select=". => xml-to-json(map { 'indent' : true() }) => parse-json()"/>
-      </xsl:result-document>
-    </xsl:for-each>
-    
-    <xsl:result-document href="{$path_api}/json/metadata-ms-verses.json" method="json" indent="false" use-when="not($split-output-verses)">
+
+    <xsl:result-document href="{$path_api}/json/metadata-ms-verses.json" method="json" indent="false">
       <xsl:variable name="payload">
-        <map>
-          <array key="documents">
-            <xsl:sequence select="$payload"/>
-          </array>
-        </map>
+        <xsl:sequence select="$payload"/>
       </xsl:variable>
       <xsl:message use-when="$verbose">…writing {$path_api}/json/metadata-ms-verses.json…</xsl:message>
       <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() }) => parse-json()"/>
