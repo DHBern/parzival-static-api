@@ -50,7 +50,7 @@ jobs:
 
       - name: build
         run: |
-          cd ../
+          cd src/teipb
           ant xar-local
           mv build/parzival-0.2.xar /dist/parzival-0.2.xar
 
