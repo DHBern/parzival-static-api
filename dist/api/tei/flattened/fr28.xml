@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <div xmlns="http://www.w3.org/1999/xhtml">Parzival</div>
+            <div xmlns="http://www.w3.org/1999/xhtml">Transkription des Textzeugen fr28</div>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>28.05.23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr28</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr28">
+                        <title type="main">Fr. 28 (G&lt;sup&gt;j&lt;/sup&gt;):</title>
+                        <title>
+                           <list>
+                              <item>1. Gotha, Forschungsbibliothek der Universität Erfurt, Cod. Memb. II 218</item>
+                              <item>2. Kassel, Landesbibliothek und Murhardsche Bibliothek, 8° Ms. poet. et roman. 11</item>
+                           </list>
+                        </title>
+                                Pergament
+                                
+                                – 1. 1 Doppelblatt, 2. 2 Streifen eines Blattes
+                                
+                                – Format 1. 15 x 10,5 cm, 2. 2,5 x 5,7 cm, 3,7 x 6,5 cm, urspr. Format ca. 15,5–16 x 11,5 cm (Schriftraum 13 x 9 cm), eine Spalte zu 35–36 Zeilen, Verse nicht abgesetzt
+                                
+                                – Ende des 13. Jhs. / Anfang des 14. Jhs.
+                                
+                                – mitteldeutsch-niederdeutsch (ostfälischer Schreiber nach ostoberdeutscher Vorlage)
+                                
+                                – Abschnittsgliederung bei Sinneinschnitten durch rotgestrichelte Anfangsbuchstaben (meist Majuskeln)
+                                
+                                – Fassungszugehörigkeit: *G [wohl *LM]     
+                                
+                                – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1012">Handschriftencensus,</ref>.
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Gotha"</settlement>
+                     <repository>"Forschungsbibliothek"</repository>
+                     <idno>"Memb. II 218"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr28A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Kassel"</settlement>
+                     <repository>"Landesbibliothek und Murhardsche bibliothek"</repository>
+                     <idno>"8° Ms. poet. et roman. 11"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr28B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <note>Abschnitt 388.24-397.05</note>
+         <note>Verse nicht abgesetzt; Zeilenumbrüche mit <lb/> markiert.</note>
+         <note>388.24-397.05 transkribiert von SFa von Farbfotos (Studio) Mai 2012.</note>
+         <note>388.24-397.05 gegengelesen von JKl von Farbfotos (Studio) Juli 2012.</note>
+         <note>Abschnitt 524.11-525.13; 526.23-527.30</note>
+         <note>Von RSo am 12.9.2003 anhand von Digitalaufnahmen gegengelesen.</note>
+         <note>Endredaktion ab Farbfotos (Studio) durch JKl am 7.12.2016, unl-Stellen nachbearb. am 25.12.2016.</note>
+         <note>Autopsie Gotha am 25.09.2017 durch SiLa.</note>
+         <note>Einarbeitung Autopsieergebnisse am 09.11.2017 durch SiLa.</note>
+         <note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+         <note>Autopsie der in Kassel liegenden Teile am 30. Juli 2020, durchgeführt von MiGe.</note>
+         <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
+         <pb xml:id="fr28001r"/>
+         <cb xml:id="fr28001ra"/>
+         <l xml:id="fr28_388.24">lẏravoim.</l>
+         <l xml:id="fr28_388.25">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> zvͦ dem h<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>tzogen von marangliez. <lb/>
+         </l>
+         <l xml:id="fr28_388.26">mit ſpeher gelobde er ſie liez.</l>
+         <l xml:id="fr28_388.27">von im rite<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> in die ſt<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_388.28">melianzen er ſie loſen bat.</l>
+         <l xml:id="fr28_388.29">oder daz ſie im wuͦrben <lb/> vmbe den gral.</l>
+         <l xml:id="fr28_388.30">ſie ne chu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>den im zuͦ deheinen mal <lb/>
+         </l>
+         <l xml:id="fr28_389.01">gezeigen niender / war der waſ.</l>
+         <l xml:id="fr28_389.02">wan ſin pflege ei<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> chvͦnich hiez Anfortaſ.</l>
+         <l xml:id="fr28_389.03">
+            <hi rend="rot">d</hi>o diſſe redhe von in geſ<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_389.04">der rote rittar aber ſprach.</l>
+         <l xml:id="fr28_389.05">ob miner bete nicht <lb/> ir ge.</l>
+         <l xml:id="fr28_389.06">ſo varet / dar pelrapeire ſte.</l>
+         <l xml:id="fr28_389.07">bringet der k<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+            <choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>niginne<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> / vw<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> ſich<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>heit.</l>
+         <l xml:id="fr28_389.08">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> ſagt ir / de durg ſie da <lb/> ſtreit.</l>
+         <l xml:id="fr28_389.09">mit kẏngrun vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> mit chlamide.</l>
+         <l xml:id="fr28_389.10">dem ſi nv <lb/> nach dem grale we.</l>
+         <l xml:id="fr28_389.11">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> doch widher nach ir minn<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_389.12">nach beiden ich imber ſinne.</l>
+         <l xml:id="fr28_389.13">ſagt ir von mir / ich <lb/> ſand uch dar.</l>
+         <l xml:id="fr28_389.14">ir helde <subst hand="#sr">
+               <del>.</del>
+               <add>/</add>
+            </subst> daz uch got bewar.</l>
+         <l xml:id="fr28_389.15">mit v<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>lobe ſie riten hin.</l>
+         <l xml:id="fr28_389.16">do ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch er zo den knabn ſin.</l>
+         <l xml:id="fr28_389.17">Wi<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> ſin ſiges nicht fuͦr zagt.</l>
+         <l xml:id="fr28_389.18">niemet / waz orſe hir ſi bei<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_389.19">wan einiz lat mir an dirre ſtu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>t.</l>
+         <l xml:id="fr28_389.20">ir ſiet wol / daz <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> iſt ſere gwu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>t.</l>
+         <l xml:id="fr28_389.21">
+            <hi rend="rot">d</hi>o ſprache<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> die chnabn guͦt.</l>
+         <l xml:id="fr28_389.22">Vwer g<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>de herre / daz ir vnſ tuͦt.</l>
+         <l xml:id="fr28_389.24">
+            <milestone unit="Versumstellung"/>wir ſin nv imber riche <lb/>
+         </l>
+         <l xml:id="fr28_389.23">
+            <milestone unit="Versumstellung"/>vwer helfe / ſo grozliche.</l>
+         <l xml:id="fr28_389.25">er ir welt im einez vf <lb/> ſine vart.</l>
+         <l xml:id="fr28_389.26">mit den chuͦrtze<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> oren inguliart.</l>
+         <l xml:id="fr28_389.27">
+            <hi rend="rot">d</hi>a<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> dort von gawane giench.</l>
+         <l xml:id="fr28_389.28">inne<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> deſ / do er melian<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> viench.</l>
+         <l xml:id="fr28_389.29">do irholte deſ roten rittarſ hant.</l>
+         <l xml:id="fr28_389.30">deſ war<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> fuͦr duͦrchelt itteſliches ſchildes rant.</l>
+         <l xml:id="fr28_390.01">
+            <hi rend="rot">M</hi>it vͦrlo<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> tet er danne<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> chere.</l>
+         <l xml:id="fr28_390.02">fuͦnfzein orſ oder m<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e.</l>
+         <l xml:id="fr28_390.03">lie<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> er in Ane wu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>den.</l>
+         <l xml:id="fr28_390.04">die chnabn danchen chvnden <lb/>
+         </l>
+         <l xml:id="fr28_390.05">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> baten in bliben vil.</l>
+         <l xml:id="fr28_390.06">fuͦr baz geſtotzen waſ <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> zil.</l>
+         <l xml:id="fr28_390.07">do cherte der gehure.</l>
+         <l xml:id="fr28_390.08">dar guͦt gmach waſ <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_390.09">ern ſochte nicht wan ſtriten.</l>
+         <l xml:id="fr28_390.10">ich wene b<gap reason="Fragmentverlust" extent="unbekannt"/> ſine<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_390.11">ie dehein man ſo vil geſtreit.</l>
+         <l xml:id="fr28_390.12">
+            <hi rend="rot">D</hi>az vzer he<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> Al zoge<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>te reit.</l>
+         <l xml:id="fr28_390.13">chegn herbergen / guͦt gmach.</l>
+         <l xml:id="fr28_390.14">dor<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> inne / der forſte lẏbavt ſprach.</l>
+         <l xml:id="fr28_390.15">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> fragete / we d<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> w<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e chom<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.16">ich wen er hette fuͦr nom<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.17">melianz v<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> gevange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.18">daz waſ im lieb irgange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.19">Want iz q<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> im ſit zo troſte.</l>
+         <l xml:id="fr28_390.20">
+            <hi rend="rot">G</hi>awan den ermel loſte.</l>
+         <l xml:id="fr28_390.21">Ane <lb/> zerren von dem ſchilte.</l>
+         <l xml:id="fr28_390.22">ſinen priſ er hoher zi<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <pb xml:id="fr28001v"/>
+         <cb xml:id="fr28001va"/>
+         <l xml:id="fr28_390.23-0">
+            <note type="Notiz">*</note>
+         </l>
+         <note resp="#SiLa_Lektor" target="#fr28_390.23-0 #28001v">: Federproben über die gesamte Seite verteilt.</note>
+         <l xml:id="fr28_390.23">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>en gap er chlauditte<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.24">An dem orte vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> dar mitte<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_390.25">waſ <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/> durgſtochen vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> durgſlagn.</l>
+         <l xml:id="fr28_390.26">den bat er obẏloten <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>agn.</l>
+         <l xml:id="fr28_390.27">do wart der megde froͮde groz.</l>
+         <l xml:id="fr28_390.28">ir arm waſ <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>anch vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> bloz.</l>
+         <l xml:id="fr28_390.29">dar vber hefte ſie in do ſan.</l>
+         <l xml:id="fr28_390.30">ſie ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>er hat mir daz getan.</l>
+         <l xml:id="fr28_391.01">imber ſwan ſie fuͦr ir ſwe<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>er ge.</l>
+         <l xml:id="fr28_391.02">die diſſen ſchinf / mit zorn vntfe.</l>
+         <l xml:id="fr28_391.03">
+            <hi rend="rot">D</hi>en <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ttarn dar waſ rowe not.</l>
+         <l xml:id="fr28_391.04">wan in groz mode daz <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ebot.</l>
+         <l xml:id="fr28_391.05">tſcherules nam gawan.</l>
+         <l xml:id="fr28_391.06">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice>
+            <subst hand="#sr">
+               <del>de*</del>
+               <add>den</add>
+            </subst> g<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ue<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> lachdo<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>an.</l>
+         <l xml:id="fr28_391.07">da<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>noch me rittar er da vant.</l>
+         <l xml:id="fr28_391.08">die gawa<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> m<choice>
+               <am rend="hochgestellt">t</am>
+               <ex>it</ex>
+            </choice>
+            <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ner hant.</l>
+         <l xml:id="fr28_391.09">deſ tagſ vf dem velte viench.</l>
+         <l xml:id="fr28_391.10">dar manih <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>oz huͦrt irgiench.</l>
+         <l xml:id="fr28_391.11">do ſatze ſie ritt<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>liche.</l>
+         <l xml:id="fr28_391.12">der buͦrh<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>aue riche.</l>
+         <l xml:id="fr28_391.13">er vnd al ſin mode ſchar.</l>
+         <l xml:id="fr28_391.14">ſtu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>de<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> fuͦr <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>m cho<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>nige gar.</l>
+         <l xml:id="fr28_391.15">biz melianz vntbeiz.</l>
+         <l xml:id="fr28_391.16">guͦter <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ndelu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>ge er ſich fleiz.</l>
+         <l xml:id="fr28_391.17">deſ duͦchte gawane zo vil. <lb/>
+         </l>
+         <l xml:id="fr28_391.18">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>iz der chvͦnig <subst hand="#sr">
+               <del>irlovbn</del>
+               <add>irlobn</add>
+            </subst> wil.</l>
+         <l xml:id="fr28_391.19">her wirt / ſo ſult ir <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>zen.</l>
+         <l xml:id="fr28_391.20">ſprach gawa<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> mit witzen.</l>
+         <l xml:id="fr28_391.21">ſin zuͦcht in dar <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/> iagete.</l>
+         <l xml:id="fr28_391.22">der wirt / die bete fuͦr ſagete.</l>
+         <l xml:id="fr28_391.23">er ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch mi<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>
+            <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>rre iſt deſ chvͦnigeſ ma<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_391.24">duſent dienſt het er ge<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>n.</l>
+         <l xml:id="fr28_391.25">ob dem chvͦnige deſ gezeme.</l>
+         <l xml:id="fr28_391.26">daz er ſin dienſt <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>me.</l>
+         <l xml:id="fr28_391.27">mi<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> h<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>re duͦr zuͦcht / ſin nicht ſicht.</l>
+         <l xml:id="fr28_391.28">Want er <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>t ſiner hulte nicht.</l>
+         <l xml:id="fr28_391.29">geſamnet die fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>tſcaft im<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>r got.</l>
+         <l xml:id="fr28_391.30">wir leiſte<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> alle ſin gebot.</l>
+         <l xml:id="fr28_392.01">
+            <hi rend="rot">D</hi>o ſprach der <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>nge melianz.</l>
+         <l xml:id="fr28_392.02">vwer truwe die iſt ganz.</l>
+         <l xml:id="fr28_392.03">die wile <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>z ich wonete hie.</l>
+         <l xml:id="fr28_392.04">daz vwer rat mich nie fuͦr lie. <lb/>
+         </l>
+         <l xml:id="fr28_392.05">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>t ich vch baz gevolget do.</l>
+         <l xml:id="fr28_392.06">ſo ſehe ma<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> mich hute <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>o.</l>
+         <l xml:id="fr28_392.07">nv helfet mir graue <subst hand="#sr">
+               <del>tc</del>
+               <add>tſcherules</add>
+            </subst>.</l>
+         <l xml:id="fr28_392.08">want ich vch <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ol getruwe deſ.</l>
+         <l xml:id="fr28_392.09">vmbe minen herre<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> der mich <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>e hat.</l>
+         <l xml:id="fr28_392.10">ſie vor nem<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice> wol beide vwern rat.</l>
+         <l xml:id="fr28_392.11">
+            <hi rend="rot">L</hi>ẏbaut <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>r ander vater min.</l>
+         <l xml:id="fr28_392.12">to ſine zucht nv an mir ſcin. <lb/>
+         </l>
+         <l xml:id="fr28_392.13">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="2" unit="Buchstabe"/>he<gap reason="Fragmentverlust" extent="unbekannt"/>e ſiner hulte nicht fuͦr lorn.</l>
+         <l xml:id="fr28_392.14">wolte ſin <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>chter han fuͦr born.</l>
+         <l xml:id="fr28_392.15">die prouet chegn mich to<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>n ſchinf.</l>
+         <l xml:id="fr28_392.16">daz waſ vnfrowelich gelinf.</l>
+         <l xml:id="fr28_392.17">
+            <hi rend="rot">D</hi>o ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>r werde gawan.</l>
+         <l xml:id="fr28_392.18">hir wirt ein ſvͦne getan.</l>
+         <l xml:id="fr28_392.19">die <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>eman ſcheidet wan der tot.</l>
+         <l xml:id="fr28_392.20">do quam<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice> die der rit<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/> rot.</l>
+         <l xml:id="fr28_392.21">hin vze hete gevange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_392.22">oͮch qua<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> der chvͦnig <lb/>
+            <pb xml:id="fr28002r"/>
+            <cb xml:id="fr28002ra"/>
+ge gangen.</l>
+         <l xml:id="fr28_392.23-0">
+            <note type="Notiz">*</note>
+         </l>
+         <note resp="#SiLa_Lektor" target="#fr28_392.23-0 #28001v">: Federproben über die gesamte Seite verteilt.</note>
+         <l xml:id="fr28_392.23">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> ſage<gap reason="unleserlich" extent="2" unit="Buchstabe"/>n wie iz dar w<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e chuͦm<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice>.</l>
+         <l xml:id="fr28_392.24">
+            <hi rend="rot">d</hi>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> hete fuͦr nom<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice>.</l>
+         <l xml:id="fr28_392.25">ſine wafen der m<choice>
+               <am rend="hochgestellt">t</am>
+               <ex>it</ex>
+            </choice> im dar ſtreit.</l>
+         <l xml:id="fr28_392.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> ſie gabn ſich<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>heit.</l>
+         <l xml:id="fr28_392.27">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> do ſie im ſagte<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> vmbe den <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_392.28">do dacht er deſ / wie parzeval.</l>
+         <l xml:id="fr28_392.29">diſſes mereſ w<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>hap.</l>
+         <l xml:id="fr28_392.30">ſin nigen er chegn den himel gap.</l>
+         <l xml:id="fr28_393.01">daz go<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> ſtritſ chegn biet.</l>
+         <l xml:id="fr28_393.02">deſ tagſ von ein ander ſchiet.</l>
+         <l xml:id="fr28_393.03">de<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/> ir helente zuͦcht ein pfant.</l>
+         <l xml:id="fr28_393.04">daz ir newe der wart gna<gap reason="Fragmentverlust" extent="unbekannt"/>t. <lb/>
+         </l>
+         <l xml:id="fr28_393.05">ſien irchant oͮch niema<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> dar.</l>
+         <l xml:id="fr28_393.06">daz tete man aber An<lb/>derſ war.</l>
+         <l xml:id="fr28_393.07">
+            <hi rend="rot">Z</hi>o melianze ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch tſcherules.</l>
+         <l xml:id="fr28_393.08">herre / muͦz <lb/> ich vch bitten deſ.</l>
+         <l xml:id="fr28_393.09">ſo ruͦchet mine<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> herren ſiehn.</l>
+         <l xml:id="fr28_393.10">ſwes <lb/> fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>t / dar beidenthalbn iehn.</l>
+         <l xml:id="fr28_393.11">des ſult ir gerne volgen. <lb/>
+         </l>
+         <l xml:id="fr28_393.12">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> en ſit im nicht ir bolgen.</l>
+         <l xml:id="fr28_393.13">
+            <hi rend="rot">d</hi>az duͦchte ſie guͦt oberal. <lb/>
+         </l>
+         <l xml:id="fr28_393.14">do fuͦren ſie uf des forſten ſal.</l>
+         <l xml:id="fr28_393.15">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> daz inner her / von <lb/> der ſtat.</l>
+         <l xml:id="fr28_393.16">
+            <hi rend="rot">L</hi>ẏbauteſ marſcalch ſie deſ bat.</l>
+         <l xml:id="fr28_393.17">
+            <hi rend="rot">d</hi>o nam min her <lb/> gawan.</l>
+         <l xml:id="fr28_393.18">den g<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>uen lachdoman.</l>
+         <l xml:id="fr28_393.19">vnd ander ſine gevange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>. <lb/>
+         </l>
+         <l xml:id="fr28_393.20">er qua<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> dar zo ge gangen.</l>
+         <l xml:id="fr28_393.21">
+            <hi rend="rot">v</hi>n<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> bat ſie gebn ſicherheit. <lb/>
+         </l>
+         <l xml:id="fr28_393.22">die er deſ tagſ ab in irſtreit.</l>
+         <l xml:id="fr28_393.23">tſcheruleſe / ſinem wirt. <lb/>
+         </l>
+         <l xml:id="fr28_393.24">manlich nv nicht fuͦr birt.</l>
+         <l xml:id="fr28_393.25">er qua<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> alſo dar gelobt waſ.</l>
+         <l xml:id="fr28_393.26">zvͦ bearoſche uf den palaſ.</l>
+         <l xml:id="fr28_393.27">melianze gap die buͦrch<lb/>grauin.</l>
+         <l xml:id="fr28_393.28">riche chleider / vnd ein riſelin.</l>
+         <l xml:id="fr28_393.29">
+            <hi rend="rot">d</hi>a er ſinen <lb/> gwu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>den arm an hinch.</l>
+         <l xml:id="fr28_393.30">dar gawanſ tîoſte duͦrginch. <lb/>
+         </l>
+         <l xml:id="fr28_394.01">
+            <hi rend="rot">G</hi>awan bi tſcheruleſ entbot.</l>
+         <l xml:id="fr28_394.02">ſiner frowelin obẏlot. <lb/>
+         </l>
+         <l xml:id="fr28_394.03">daz er ſi gerne wolte ſiehn.</l>
+         <l xml:id="fr28_394.04">vnd oͮch m<choice>
+               <am rend="hochgestellt">t</am>
+               <ex>it</ex>
+            </choice> warheit iehn. <lb/>
+         </l>
+         <l xml:id="fr28_394.05">ſinſ libſ vndertan.</l>
+         <l xml:id="fr28_394.06">vnd ich wil oͮch irn vͦrlop han.</l>
+         <l xml:id="fr28_394.07">ſagt <lb/> ich laz ir den chvͦnig hie.</l>
+         <l xml:id="fr28_394.08">bit ſie ſich bedenche / wie. <lb/>
+         </l>
+         <l xml:id="fr28_394.09">daz ſie in alſo behalte.</l>
+         <l xml:id="fr28_394.10">daz priſes ir fuͦr walte.</l>
+         <l xml:id="fr28_394.11">
+            <hi rend="rot">d</hi>eſ <lb/> antworte melianz.</l>
+         <l xml:id="fr28_394.12">er ſp<choice>
+               <am rend="hochgestellt">a</am>
+               <ex>ra</ex>
+            </choice>ch obẏlot wirt ein kranz. <lb/>
+         </l>
+         <l xml:id="fr28_394.13">aller wiplicher guͦte.</l>
+         <l xml:id="fr28_394.14">des ſenftet mir min gemuͦte. <lb/>
+         </l>
+         <l xml:id="fr28_394.15">daz ich ir ſicherheit muͦz gebn.</l>
+         <l xml:id="fr28_394.16">vnd oͮch irs frides hie <lb/> ſol lebn.</l>
+         <l xml:id="fr28_394.17">ir ſult ſie dar fuͦr han irchant.</l>
+         <l xml:id="fr28_394.18">vch e<gap reason="unleserlich" extent="2" unit="Buchstabe"/>viench <lb/> hir nieman / dan ir hant.</l>
+         <l xml:id="fr28_394.19">
+            <hi rend="rot">d</hi>o ſprach der werde gawan <lb/>
+         </l>
+         <l xml:id="fr28_394.20">mine<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> priſ ſol ſie eine han.</l>
+         <l xml:id="fr28_394.21">tſcherules qua<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> fuͦr gerit<gap reason="unleserlich" extent="2" unit="Buchstabe"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_394.22">nv ne waſ zvͦ hobe nicht fuͦr miten.</l>
+         <l xml:id="fr28_394.23">dar ne were <lb/> man / magt / vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> wip.</l>
+         <l xml:id="fr28_394.24">
+            <hi rend="rot">I</hi>n ſulher wete ieſlich lip.</l>
+         <l xml:id="fr28_394.25">d<unclear reason="Zweifel">az</unclear>
+            <lb/> man dar chranch arm wat.</l>
+         <l xml:id="fr28_394.26">deſ tagſ hete lichten rat. <lb/>
+         </l>
+         <l xml:id="fr28_394.27">
+            <hi rend="rot">M</hi>it melianze zvͦ hobe reit.</l>
+         <l xml:id="fr28_394.28">
+            <hi rend="rot">A</hi>lle die dar vze ir ſich<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>
+            <lb/>
+         </l>
+         <pb xml:id="fr28002v"/>
+         <cb xml:id="fr28002va"/>
+         <l xml:id="fr28_394.29">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>vͦ pfande heten gelazen.</l>
+         <l xml:id="fr28_394.30">dort alle viere ſazen.</l>
+         <l xml:id="fr28_395.01">der <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>in wip / ſine chint.</l>
+         <l xml:id="fr28_395.02">vore ginge<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> die dar chvͦm<choice>
+               <am>̄</am>
+               <ex>en</ex>
+            </choice> ſint. <lb/>
+         </l>
+         <l xml:id="fr28_395.03">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>egn ſime herre<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> ſpranch.</l>
+         <l xml:id="fr28_395.04">uf dem palaſ wart g<choice>
+               <am rend="hochgestellt">o</am>
+               <ex>ro</ex>
+            </choice>z <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ch.</l>
+         <l xml:id="fr28_395.05">da er fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>t vnd viand vntfinch.</l>
+         <l xml:id="fr28_395.06">
+            <hi rend="rot">G</hi>awan bi <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ze ginch.</l>
+         <l xml:id="fr28_395.07">chu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>d iz uch nicht fuͦr ſmahen.</l>
+         <l xml:id="fr28_395.08">m<choice>
+               <am rend="hochgestellt">t</am>
+               <ex>it</ex>
+            </choice> kuͦſſe <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>old untfahen.</l>
+         <l xml:id="fr28_395.09">vwer Alte fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>din.</l>
+         <l xml:id="fr28_395.10">ich meine mi<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> wip <lb/> die h<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>tzogin.</l>
+         <l xml:id="fr28_395.11">
+            <hi rend="rot">M</hi>elianz Antworte dem wirte ſan.</l>
+         <l xml:id="fr28_395.12">ich wil <lb/> irn chuſ mit gruͦze han.</l>
+         <l xml:id="fr28_395.13">zwier frowe<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> die ich hir ſiehe. <lb/>
+         </l>
+         <l xml:id="fr28_395.14">der dritten ich nicht ſuͦne iehe.</l>
+         <l xml:id="fr28_395.15">deſ weinete<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> die altern <lb/> beide do.</l>
+         <l xml:id="fr28_395.16">obẏlot waſ vaſte fro.</l>
+         <l xml:id="fr28_395.17">
+            <hi rend="rot">D</hi>er chuͦnig mit kuͦſſe <lb/> vntfange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> wart.</l>
+         <l xml:id="fr28_395.18">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> zwene chvͦnige Ane bart.</l>
+         <l xml:id="fr28_395.19">Alſ tete <lb/> der h<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>tzoge marangliez.</l>
+         <l xml:id="fr28_395.20">
+            <hi rend="rot">G</hi>awane<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> chuͦſſes ma<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> nicht irliez. <lb/>
+         </l>
+         <l xml:id="fr28_395.21">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> ern neme oͮch ſine frowe<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> dar.</l>
+         <l xml:id="fr28_395.22">er druchte daz chint <lb/> wol gevar.</l>
+         <l xml:id="fr28_395.23">Alſ eine tocken / an ſine bruſt.</l>
+         <l xml:id="fr28_395.24">deſ dwanch <lb/> in fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>tlich geluſt.</l>
+         <l xml:id="fr28_395.25">
+            <hi rend="rot">G</hi>awa<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> zvͦ melianze ſprach.</l>
+         <l xml:id="fr28_395.26">vw<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> hant <lb/> mir ſicherheit fuͦr iach.</l>
+         <l xml:id="fr28_395.27">der ſit nv ledich vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> gebt ſie her. <lb/>
+         </l>
+         <l xml:id="fr28_395.28">aller miner froͮde wer.</l>
+         <l xml:id="fr28_395.29">ſitzet an dem arme min.</l>
+         <l xml:id="fr28_395.30">der <lb/> gevange<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> ſult ir ſin.</l>
+         <l xml:id="fr28_396.01">
+            <hi rend="rot">M</hi>elianz dur daz dar naher ginch. <lb/>
+         </l>
+         <l xml:id="fr28_396.02">die magt gawane<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> vaſt vmbe vinch.</l>
+         <l xml:id="fr28_396.03">
+            <hi rend="rot">O</hi>bẏlot dar ſich<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>heit <lb/> geſcach.</l>
+         <l xml:id="fr28_396.04">daz iz manich wert ritter ſach.</l>
+         <l xml:id="fr28_396.05">Her chuͦnig <lb/> ſprach ſie / nv hat ir miſſetan.</l>
+         <l xml:id="fr28_396.06">ſol min ritter ſin ein choͮf<lb/>man.</l>
+         <l xml:id="fr28_396.07">deſ <subst hand="#sr">
+               <del>mach</del>
+               <add>mich</add>
+            </subst> min ſweſt<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> vil An ſtreit.</l>
+         <l xml:id="fr28_396.08">daz ir im gaben <lb/> ſicherheit.</l>
+         <l xml:id="fr28_396.09">ſus ſprach die iung obẏlot.</l>
+         <l xml:id="fr28_396.10">Melianze ſie daz <lb/> ge bot.</l>
+         <l xml:id="fr28_396.11">daz er ſicherheit fuͦr lehe.</l>
+         <l xml:id="fr28_396.12">die in ir hant geſcehe. <lb/>
+         </l>
+         <l xml:id="fr28_396.13">Jr ſweſt<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> obẏen.</l>
+         <l xml:id="fr28_396.14">zvͦ einer Amien.</l>
+         <l xml:id="fr28_396.15">ſult ir ſie nemen dur <lb/> rittarſ priſ.</l>
+         <l xml:id="fr28_396.16">zo eine<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> h<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>ren vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> zo eine<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> Amiſ.</l>
+         <l xml:id="fr28_396.17">ſol ſie vch <lb/> imber gerne han.</l>
+         <l xml:id="fr28_396.18">ichn wilſ uch niewederhalb ir lan. <lb/>
+         </l>
+         <l xml:id="fr28_396.19">
+            <hi rend="rot">G</hi>ot vz ir ivnge<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> mu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>de ſprach.</l>
+         <l xml:id="fr28_396.20">ir bete beidenthalbn ſcah. <lb/>
+         </l>
+         <l xml:id="fr28_396.21">do meiſterte frowe mi<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>ne.</l>
+         <l xml:id="fr28_396.22">mit fru<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>tlichen ſinne.</l>
+         <l xml:id="fr28_396.23">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> hert<lb/>zeliche truͦwe.</l>
+         <l xml:id="fr28_396.24">der zwier lieb al <subst hand="#sr">
+               <del>nvͦ*</del>
+               <add>nvͦwe</add>
+            </subst>.</l>
+         <l xml:id="fr28_396.25">obẏen hant <lb/> fuͦr den mantel ſleif.</l>
+         <l xml:id="fr28_396.26">melianzeſ arm ſie begreif. <lb/>
+         </l>
+         <l xml:id="fr28_396.27">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> drucht in an irn roten mu<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>t.</l>
+         <l xml:id="fr28_396.28">Al da er waſ zuͦ der <lb/> tioſt gw<choice>
+               <am>̄</am>
+               <ex>u</ex>
+            </choice>nt.</l>
+         <l xml:id="fr28_396.29">manich zaher im den arm begoz.</l>
+         <l xml:id="fr28_396.30">der von <lb/> irn lechten oͮgen floz.</l>
+         <l xml:id="fr28_397.01">Waz machete ſi fuͦr der dhiet <lb/> ſo balt.</l>
+         <l xml:id="fr28_397.02">daz tete die mi<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>ne / ivng vnd alt.</l>
+         <l xml:id="fr28_397.03">
+            <hi rend="rot">L</hi>ẏbavt nv <lb/> ſînen willen ſach.</l>
+         <l xml:id="fr28_397.04">want im ſo liebe nie geſcach.</l>
+         <l xml:id="fr28_397.05">daz <lb/>
+         </l>
+         <pb xml:id="fr28003r"/>
+         <cb xml:id="fr28003ra"/>
+         <l xml:id="fr28_524.10">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.11">
+            <gap reason="unleserlich" extent="unbekannt"/>ht geborget mir.</l>
+         <l xml:id="fr28_524.12">daz iſt <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.13">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> din manl<gap reason="Fragmentverlust" extent="unbekannt"/>e kraft.</l>
+         <l xml:id="fr28_524.14">finch <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.15">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> mi<gap reason="unleserlich" extent="2" unit="Buchstabe"/> br<unclear reason="Zweifel">e</unclear>
+            <gap reason="unleserlich" extent="unbekannt"/>eſ zo huſe. <lb/>
+         </l>
+         <l xml:id="fr28_524.16">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.17">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">o</unclear>che<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> er d<gap reason="Fragmentverlust" extent="unbekannt"/> nicht fuͦr gaz. <lb/>
+         </l>
+         <l xml:id="fr28_524.18">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.19">do ſprach er biſt<unclear reason="Zweifel">uz f</unclear>rians <lb/>
+         </l>
+         <l xml:id="fr28_524.20">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.21">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>t<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            <unclear reason="Zweifel">ag</unclear>
+            <gap reason="unleserlich" extent="unbekannt"/> ſ<unclear reason="Zweifel">culd</unclear>e.</l>
+         <l xml:id="fr28_524.22">ich ir <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.23">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">ſ</unclear>wacher ſin dir daz riet. <lb/>
+         </l>
+         <l xml:id="fr28_524.24">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ch ſchiet.</l>
+         <l xml:id="fr28_524.25">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> ſagete dich gar rech<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> dir fuͦrlos.</l>
+         <l xml:id="fr28_524.27">ir recht darzo des <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.28">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>rtus mit einer wide.</l>
+         <l xml:id="fr28_524.29">wolt iz <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_524.30">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>t ichz nicht vnder ſproche<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_525.01">ſwaz <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">h</unclear>ie.</l>
+         <l xml:id="fr28_525.02">du horteſ oͮch vor dir ſpre<lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_525.03">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> half daz er gnaſ.</l>
+         <l xml:id="fr28_525.04">daz er dar <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_525.05">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>n alſo die bi witze<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> ſint.</l>
+         <l xml:id="fr28_525.06">ſich <lb/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>chint.</l>
+         <l xml:id="fr28_525.07">dan ein barthafter man. <lb/>
+         </l>
+         <l xml:id="fr28_525.08">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">n</unclear>.</l>
+         <l xml:id="fr28_525.09">m<choice>
+               <am rend="hochgestellt">t</am>
+               <ex>it</ex>
+            </choice> ſporn erz vaſte vo<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> im reit. <lb/>
+         </l>
+         <l xml:id="fr28_525.10">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">t</unclear>.</l>
+         <l xml:id="fr28_525.11">er ſprach zor frowe<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> iz qua<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice> alſo. <lb/>
+         </l>
+         <l xml:id="fr28_525.12">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_525.13">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">d</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">ſ</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <unclear reason="Zweifel">d</unclear>i<unclear reason="Zweifel">ananſ</unclear>drvͦn. <lb/>
+         </l>
+         <pb xml:id="fr28003v"/>
+         <cb xml:id="fr28003va"/>
+         <l xml:id="fr28_526.23">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_526.24">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> ginch daz chlagehafte wip.</l>
+         <l xml:id="fr28_526.25">d<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_526.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> mit chlage<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>ten <unclear reason="Zweifel">w</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>te<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_526.27">den ch<unclear reason="Zweifel">vͦ</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_526.28">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> liez ir laſter le<unclear reason="Zweifel">i</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_526.29">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> dur m<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_526.30">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> m<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e.</l>
+         <l xml:id="fr28_527.01">duͦr der ta<unclear reason="Zweifel">b</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>u<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>de<unclear reason="Zweifel">n</unclear> ar<unclear reason="Zweifel">t</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.02">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_527.03">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> ſie w<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e an in geſant.</l>
+         <l xml:id="fr28_527.04">w<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice>e er <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.05">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> richtet ir ſwere.</l>
+         <l xml:id="fr28_527.06">d<choice>
+               <am>᷑</am>
+               <ex>ur</ex>
+            </choice>g verre<unclear reason="Zweifel">.</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.07">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>den ſchar.</l>
+         <l xml:id="fr28_527.08">allir rechteſ <unclear reason="Zweifel">n</unclear>e<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.09">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>me<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.</l>
+         <l xml:id="fr28_527.10">die nimb<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> mochte wid<choice>
+               <am>̉</am>
+               <ex>er</ex>
+            </choice> chome<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>.<lb/>
+         </l>
+         <l xml:id="fr28_527.11">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr28_527.12">vn<choice>
+               <am>̄</am>
+               <ex>d</ex>
+            </choice> daz ſie al gemeine.</l>
+         <l xml:id="fr28_527.13">den chon<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.14">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> ir rede treten.</l>
+         <l xml:id="fr28_527.15">fuͦr ſprechen na<choice>
+               <am>̄</am>
+               <ex>m</ex>
+            </choice>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.16">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> krancher ere gan.</l>
+         <l xml:id="fr28_527.17">der weret i<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.18">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> im weinich dochte.</l>
+         <l xml:id="fr28_527.19">man fuͦr te<unclear reason="Zweifel">i</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.20">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> ma<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice> winden ſolt ein riſ.</l>
+         <l xml:id="fr28_527.21">daz a<unclear reason="Zweifel">n</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.22">ane bluͦtige hant.</l>
+         <l xml:id="fr28_527.23">er rief mich<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.24">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> mante mich daz er mir bot.</l>
+         <l xml:id="fr28_527.25">ſic<unclear reason="Zweifel">h</unclear>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>te ane alle min ere weſn.</l>
+         <l xml:id="fr28_527.27">ob e<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.28">ich bat daz chlagehafte wip.</l>
+         <l xml:id="fr28_527.29">ſi<gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <l xml:id="fr28_527.30">daz ich ſie mit <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <lb/>
+         </l>
+         <note resp="#RSo_Transkribent" target="#fr28_528.01 #028003v">
+            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Daz <gap xmlns="http://www.tei-c.org/ns/1.0"
+                    reason="Fragmentverlust"
+                    extent="unbekannt"/>
+            </a>: Dieses von Mst transkribierte Wort konnte ich nicht entdecken. Ich habe Zeile 528.01 daher gelöscht.</note>
+      </body>
+   </text>
+</TEI>

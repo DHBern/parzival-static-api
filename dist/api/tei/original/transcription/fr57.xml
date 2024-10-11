@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <div xmlns="http://www.w3.org/1999/xhtml">Parzival</div>
+            <div xmlns="http://www.w3.org/1999/xhtml">Transkription des Textzeugen fr57</div>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>07.09.22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Heidelberg</settlement>
+                  <repository>Privatsammlung Eis</repository>
+                  <idno>Hs. 100</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>fr57</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr57">
+                        <title type="main">Fr. 57 (H):</title>
+                        <title>Heidelberg, Privatsammlung Eis, Hs. 100</title>
+                                Pergament
+                                
+                                – 4 Falzstreifen aus dem oberen Teil eines Blattes
+                                
+                                – Format 10,3 x 7,5 cm, urspr. Format mind. 23,5 x 15 cm (Schriftraum ca. 19  x 12 cm), zwei Spalten zu 55–57 Zeilen, Verse abgesetzt
+                                
+                                – zweite Hälfte des 13. Jhs.
+                                
+                                – bairisch
+                                
+                                – Abschnittsgliederung durch zwei dreizeilige rote Initialen (bei 503,1 und 505,1)
+                                
+                                – die Anfangsbuchstaben (rot gestrichelte Majuskeln) sind kaum ausgerückt
+                                
+                                – Lesbarkeit durch Makulierungsschäden beeinträchtigt
+                                
+                                – Fassungszugehörigkeit: *G           
+                                
+                                – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1030">Handschriftencensus,</ref>.
+                            </p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <note>Abschnitt 502.15-508.27</note>
+         <note>Transkribiert von SFa anhand von Digitalaufnahmen (Studio) und fotokopien des Hartl-Nachlasses (Erlangen).</note>
+         <note>Korrekturen durchgeführt von CG am 22.11.2016.</note>
+         <note>Endredaktion I und Autopsie vorgenommen von CG am 12.01.2017.</note>
+         <note>Autopsiekorrekturen eingearbeitet, CG am 26.01.2017.</note>
+         <note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
+         <note>09.10.2018, MiGe: sek-Tags ergänzt und teilweise Zweifeltags entfernt. Quelle: Eis, Gerhard: Kleine Schriften zur altdeutschen weltlichen Dichtung. Amsterdam 1979 (= Amsterdamer Publikationen zur Sprache und Literatur 38), S. 201-205 (zuerst erschienen in: Studia Neophilologica 24 (1951/52), S. 192-196). Eis gibt sowohl rundes s als auch Schaft-s als rundes s wieder. In aus seinem Beitrag übernommenen Stellen wird <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">s</a> mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſ</a> wiedergegeben, da das Schaft-s in Fr57 über 60 Mal auftritt und das runde S nur ca. zehn Mal.</note>
+         <pb xml:id="fr57001r"/>
+         <cb xml:id="fr57001ra"/>
+         <l xml:id="fr57_502.15">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>in mvnt <supplied reason="unleserlich" resp="Sekundärliteratur">die marte</supplied>r ſprichet</l>
+         <l xml:id="fr57_502.16">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>v vnſer <supplied reason="unleserlich" resp="Sekundärliteratur">f</supplied>lvſt zerbrichet</l>
+         <l xml:id="fr57_502.17">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>vch grifet ſein gewelltigiv hant</l>
+         <l xml:id="fr57_502.18">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied> daz <gap reason="unleserlich" extent="unbekannt"/> pfant</l>
+         <l xml:id="fr57_502.19">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <supplied reason="unleserlich" resp="Sekundärliteratur">az</supplied> ie fv́r ſch<supplied reason="unleserlich" resp="Sekundärliteratur">u</supplied>lt geſetzet wart</l>
+         <l xml:id="fr57_502.20">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>welich brieſter ſich ſo hat bew<supplied reason="unleserlich" resp="Sekundärliteratur">art</supplied>
+         </l>
+         <l xml:id="fr57_502.21">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>az er deme chivſche chan gegeben</l>
+         <l xml:id="fr57_502.22">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>ie mochte der heiliger leben</l>
+         <l xml:id="fr57_502.23">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>itz waz ir beider ſcheidenſ tach</l>
+         <l xml:id="fr57_502.24">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>refrizent ſich deſ bewach</l>
+         <l xml:id="fr57_502.25">Er ſprach gip mir dine ſ<supplied reason="unleserlich" resp="Sekundärliteratur">vn</supplied>de h<supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied>
+         </l>
+         <l xml:id="fr57_502.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>or gote ich bin dines wandelz wer</l>
+         <l xml:id="fr57_502.28">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>elip deſ willen vnverzaget <milestone unit="Versumstellung"/>
+         </l>
+         <l xml:id="fr57_502.27">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>nt leiſte alſ ich dir han geſaget <milestone unit="Versumstellung"/>
+         </l>
+         <l xml:id="fr57_502.29">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>on ein ander ſchieden ſie</l>
+         <l xml:id="fr57_502.30">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>b ir welt ſo brvfet wie</l>
+         <l xml:id="fr57_503.01">
+            <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: y">E</seg>z n<supplied reason="unleserlich" resp="Sekundärliteratur">æht</supplied>
+            <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            <supplied reason="unleserlich" resp="Sekundärliteratur">u wi</supplied>lden mæren</l>
+         <l xml:id="fr57_503.02">Die frevde chvnnen læren</l>
+         <l xml:id="fr57_503.03">Vnt <supplied reason="unleserlich" resp="Sekundärliteratur">div</supplied> hochen mvͦt bringen<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_503.04">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>it den beiden ſie ringent</l>
+         <l xml:id="fr57_503.05">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>v waz <supplied reason="unleserlich" resp="Sekundärliteratur">ez</supplied> avch vber deſ <supplied reason="unleserlich" resp="Sekundärliteratur">iares zit</supplied>
+         </l>
+         <l xml:id="fr57_503.06">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/> geſcheiden waz deſ <supplied reason="unleserlich" resp="Sekundärliteratur">kampfes strit</supplied>
+         </l>
+         <l xml:id="fr57_503.07">Den der lantgrave zeblimizœl</l>
+         <l xml:id="fr57_503.08">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>rwarp der waz ze barbigœl</l>
+         <l xml:id="fr57_503.09">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>on tſchempfezv́n geſprochen</l>
+         <l xml:id="fr57_503.10">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>a beleip vngerochen</l>
+         <cb xml:id="fr57001rb"/>
+         <l xml:id="fr57_504.12">Deſ zo<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.13">Ez wa<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.14">Zevm <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.15">Do da<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.16">Div al<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.17">Hat da<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.18">Ob ſi ſ<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.19">Wie ſo<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.20">Zefvͦz<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.21">Wil ſi<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.22">Si ma<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.23">Jch er<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.24">Sol d<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.25">Ob ez <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.26">Div m<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.27">Vor l<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.28">Wære <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.29">Ez w<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_504.30">Ob ſi <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.01">
+            <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: y">D</seg>e<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.02">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.03">D<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.04">Der t<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.05">Mit d<gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.06">Alſvſ <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_505.07">Wer <gap reason="Fragmentverlust" extent="unbekannt"/>
+         </l>
+         <pb xml:id="fr57001v"/>
+         <cb xml:id="fr57001va"/>
+         <l xml:id="fr57_506.12">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.13">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>in ror</l>
+         <l xml:id="fr57_506.14">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.15">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.16">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.17">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.18">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.19">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.20">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.21">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.22">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.23">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.24">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>erſchaft</l>
+         <l xml:id="fr57_506.25">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.26">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>vrtois</l>
+         <l xml:id="fr57_506.27">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.28">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> chlage<choice>
+               <am>̄</am>
+               <ex>n</ex>
+            </choice>
+         </l>
+         <l xml:id="fr57_506.29">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>
+            <gap reason="unleserlich" extent="unbekannt"/>
+         </l>
+         <l xml:id="fr57_506.30">
+            <gap reason="Fragmentverlust" extent="unbekannt"/> ſin</l>
+         <l xml:id="fr57_507.01">
+            <gap reason="Fragmentverlust" extent="unbekannt"/>eme alſus</l>
+         <cb xml:id="fr57001vb"/>
+         <l xml:id="fr57_508.02">Entrenel maz w<supplied reason="unleserlich" resp="Sekundärliteratur">as der ber</supplied>ch</l>
+         <l xml:id="fr57_508.03">Swa ſi verre ſach der tvmbe</l>
+         <l xml:id="fr57_508.04">Er wante ſi liefe al vmbe</l>
+         <l xml:id="fr57_508.05">Der burge man noch hivte gicht</l>
+         <l xml:id="fr57_508.06">
+            <supplied reason="unleserlich" resp="Sekundärliteratur">Daz gein ir</supplied> ſtvrmeſ <supplied reason="unleserlich" resp="Sekundärliteratur">horte nicht</supplied>
+         </l>
+         <l xml:id="fr57_508.07">
+            <supplied reason="unleserlich" resp="Sekundärliteratur">Si</supplied> vorcht wenich ſolche not</l>
+         <l xml:id="fr57_508.08">Swa man hazzen gein ir bot</l>
+         <l xml:id="fr57_508.09">
+            <supplied reason="unleserlich" resp="Sekundärliteratur">Al</supplied> vmb den be<supplied reason="unleserlich" resp="Sekundärliteratur">rch ein</supplied> hach</l>
+         <l xml:id="fr57_508.10">Deſ man mit edeln <supplied reason="unleserlich" resp="Sekundärliteratur">bovm</supplied>en pflach</l>
+         <l xml:id="fr57_508.11">Vigen bovme g<supplied reason="unleserlich" resp="Sekundärliteratur">ranat</supplied>
+         </l>
+         <l xml:id="fr57_508.12">Ole win vnt <supplied reason="unleserlich" resp="Sekundärliteratur">ander rat</supplied>
+         </l>
+         <l xml:id="fr57_508.13">Deſ wuoſch da <supplied reason="unleserlich" resp="Sekundärliteratur">ganziv ri</supplied>cheit</l>
+         <l xml:id="fr57_508.14">Gawan di ſtrazen al vf hin reit</l>
+         <l xml:id="fr57_508.15">Da ersach er niderthalp ſin</l>
+         <l xml:id="fr57_508.16">Frovde vnt ſinſ hertzen pin</l>
+         <l xml:id="fr57_508.17">Ein br<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied>nne avſ dem ve<supplied reason="unleserlich" resp="Sekundärliteratur">lſ</supplied>e vloz</l>
+         <l xml:id="fr57_508.18">Da vant er deſ in ni<supplied reason="unleserlich" resp="Sekundärliteratur">ch</supplied>t verdroz</l>
+         <l xml:id="fr57_508.19">Eine alſe chlare frowen</l>
+         <l xml:id="fr57_508.20">Die er gerne mochte ſchowen</l>
+         <l xml:id="fr57_508.21">Aller wibe varwe ein beaflvrs</l>
+         <l xml:id="fr57_508.22">An<supplied reason="unleserlich" resp="Sekundärliteratur">e conwirn</supplied> amvrs</l>
+         <l xml:id="fr57_508.23">Wart nie geborn ſo ſchoner lip</l>
+         <l xml:id="fr57_508.24">Mit chlarheit ſevͦze waz daz wip</l>
+         <l xml:id="fr57_508.25">Wol geſchichet vnt kvrtois</l>
+         <l xml:id="fr57_508.26">Si hiez orilvs de logrois</l>
+         <l xml:id="fr57_508.27">A<supplied reason="unleserlich" resp="Sekundärliteratur">vh</supplied>h ſeit vnſ div aventivre von ir</l>
+      </body>
+   </text>
+</TEI>
