@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <meta name="description" content="Serafin Letter"/>
+        <meta name="pb-template" content="translation.html"/>
+
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <custom-style>
+            <style>
+                body {
+                    --pb-alternate-inline: var(--paper-blue-800);
+
+                    --pb-view-height: calc(100vh - 200px);
+                }
+
+                .view {
+                    flex: 1 1;
+                    max-width: 60vw;
+                    margin: 0 16px;
+                    //max-height: var(--pb-view-height);
+                    overflow: auto;
+                }
+                
+                #docselect {
+                    width: 100%;
+                }
+
+                .content-body {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    padding: 0 20px;
+                }
+
+                .content-body pb-view {
+                    flex: 1 1;
+                }
+
+                .toc-toggle, pb-navigation {
+                    display: none;
+                }
+            </style>
+        </custom-style>
+        
+        <script>
+            window.addEventListener("change", (e) =&gt; {
+                const selected = [...e.target.querySelectorAll("option")].filter(o =&gt; o.selected).map(e =&gt; e.value);
+                selected.forEach((value, n) =&gt; {
+                    document.dispatchEvent(new CustomEvent('pb-refresh', {
+                                    detail: {
+                                        key: `update${n+1}`,
+                                        xpath: `//text/body/div[@type='Dreissiger' and @subtype='${value}']`
+                                    }
+                            }))
+                });
+                
+                let attr = Array.from({length: 4}, (_, i) =&gt; `[subscribe="update${i + 1}"]`);
+                [...document.querySelectorAll(`pb-view${attr.splice(0,selected.length)}`)].forEach( view =&gt; {
+                    view.style = "display: block;";
+                });
+                if(attr.length) {
+                    [...document.querySelectorAll(`pb-view${attr}`)].forEach( view =&gt; {
+                        view.style = "display: none;";
+                    });
+                }
+            })
+        </script>
+    </head>
+
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                        <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                        <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
+                    </app-header>
+
+                    <section class="breadcrumbs">
+                        <pb-view id="title-view1" src="document1" xpath="//teiHeader" view="single">
+                            <pb-param name="header" value="letter"/>
+                        </pb-view>
+                    </section>
+                    <main class="content-body">
+                        <aside style="width: 184px;">
+                            <h3>Bitte wählen Sie die anzuzeigenden Fassungen aus</h3>
+                            <select id="docselect" name="Fassungen" size="4" multiple="multiple">
+                              <option value="D" selected="true">D</option>
+                              <option value="m">m</option>
+                              <option value="G">G</option>
+                              <option value="T">T</option>
+                            </select>
+                        </aside>
+                        <pb-view class="view" id="view1" src="document1" xpath="//text/body/div[@type='Dreissiger' and @subtype='D']" subscribe="update1" view="single"/>
+                        <pb-view class="view" id="view2" src="document1" xpath="//text/body/div[@type='Dreissiger' and @subtype='D']" subscribe="update2" view="single" style="display: none"/>
+                        <pb-view class="view" id="view3" src="document1" xpath="//text/body/div[@type='Dreissiger' and @subtype='D']" subscribe="update3" view="single" style="display: none"/>
+                        <pb-view class="view" id="view4" src="document1" xpath="//text/body/div[@type='Dreissiger' and @subtype='D']" subscribe="update4" view="single" style="display: none"/>
+                        <!--<pb-view id="view2" src="document1" xpath="//text[@xml:lang='pl']/body" subscribe="transcription" column-separator=".tei-cb" append-footnotes="append-footnotes"/>-->
+                    </main>
+                </app-header-layout>
+            </app-drawer-layout>
+        </pb-page>
+        <div class="splash"/>
+    </body>
+</html>

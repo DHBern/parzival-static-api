@@ -29,18 +29,35 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          ref: master    #checkout different branch
+          ref: master #checkout different branch
 
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
-          FOLDER: dist      #directory to generate index
+          FOLDER: dist #directory to generate index
+
+      - name: Set up JDK 23
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "23"
+
+      - name: add symlinks
+        run: |
+          cd src/teipb/data
+          ln -s ../../../dist/api/tei/flattened/* .
+
+      - name: build
+        run: |
+          cd ../
+          ant xar-local
+          mv build/parzival-0.2.xar /dist/parzival-0.2.xar
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'      # upload generated folder
-  
+          path: "dist" # upload generated folder
+
   deploy:
     needs: pages-directory-listing
     environment:
