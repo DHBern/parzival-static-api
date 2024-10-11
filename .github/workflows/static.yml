@@ -52,7 +52,8 @@ jobs:
         run: |
           cd src/teipb
           ant xar-local
-          mv build/parzival-0.2.xar /dist/parzival-0.2.xar
+          pwd
+          mv ./build/parzival-0.2.xar ../../dist/parzival-0.2.xar
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
