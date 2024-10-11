@@ -44,8 +44,8 @@ jobs:
 
       - name: add symlinks
         run: |
-          pwd
-          cd "$(realpath teipb)/data"
+          mkdir src/teipb/data
+          cd src/teipb/data
           ln -s ../../../dist/api/tei/flattened/* .
 
       - name: build
