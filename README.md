@@ -6,6 +6,8 @@ Data is generated using `src/generate.xsl` and served under `dist`.
 
 In addition to this, the script also serves to fetch export files from the working environment (parzDB database). As fetching the nearly 900 files takes a while, it is recommended to execute the function only when needed (e.g. after significant data updates).
 
+Lastly, the repository also contains a template for a TEIPublisher application (`src/teipb`) serving as a base for a `xar` file created during the CI procedures. This file is deployed at `https://dhbern.github.io/parzival-static-api/parzival-*.xar` and fetched by the pop-up publisher instance (see https://github.com/DHBern/presentation_parzival for more context).
+
 ## Usage
 
 * Execute the wrapper script with one of two options:
