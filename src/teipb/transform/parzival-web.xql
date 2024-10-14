@@ -479,7 +479,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(group) return
                         html:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(cb) return
-                        html:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)                        => model:map($node, $trackIds)
+                        html:block($config, ., ("tei-cb", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(name) return
                         (: delete me after testing :)
                         html:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))                        => model:map($node, $trackIds)

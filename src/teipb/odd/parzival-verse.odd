@@ -37,7 +37,7 @@
     </teiHeader>
     <text>
         <body>
-            <schemaSpec start="TEI teiCorpus" ident="parzival-verse"> <elementSpec ident="l" mode="change">
+            <schemaSpec start="TEI teiCorpus" ident="parzival-verse" source="parzival.odd"> <elementSpec ident="l" mode="change">
                     <model behaviour="block" cssClass="line" useSourceRendition="true">
             <param name="id" value="substring-after(@xml:id,'_')"/>
             <param name="content" value="."/>

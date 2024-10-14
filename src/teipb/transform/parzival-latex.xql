@@ -489,7 +489,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(group) return
                         latex:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)
                     case element(cb) return
-                        latex:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)
+                        latex:block($config, ., ("tei-cb", css:map-rend-to-class(.)), .)
                     case element(name) return
                         (: delete me after testing :)
                         latex:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))

@@ -52,6 +52,12 @@
             <param name="content" value="(given-names,surname)"/>
         </model>
                 </elementSpec>
+            <elementSpec ident="cb" mode="change">
+                    <model behaviour="block">
+            <param name="type" value="'column'"/>
+            <param name="label" value="@xml:id"/>
+        </model>
+                </elementSpec>
             </schemaSpec>
         </body>
     </text>
