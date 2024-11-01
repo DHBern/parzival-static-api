@@ -37,11 +37,17 @@
     </teiHeader>
     <text>
         <body>
-            <schemaSpec start="TEI teiCorpus" ident="parzival-verse" source="parzival.odd"> <elementSpec ident="l" mode="change">
+            <schemaSpec start="TEI teiCorpus" ident="parzival-verse"> <elementSpec ident="l" mode="change">
                     <model behaviour="block" cssClass="line" useSourceRendition="true">
             <param name="id" value="substring-after(@xml:id,'_')"/>
             <param name="content" value="."/>
             <pb:template xmlns="" xml:space="preserve"><span class="verse" data-verse="[[id]]">[[id]]</span><span class="content">[[content]]</span></pb:template>
+        </model>
+                </elementSpec>
+                <elementSpec ident="cb" mode="add">
+                    <model behaviour="block">
+            <param name="label" value="@xml:id"/>
+            <pb:template xmlns="" xml:space="preserve"><p>Spalte: [[label]]</p></pb:template>
         </model>
                 </elementSpec>
             </schemaSpec>
