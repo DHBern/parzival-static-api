@@ -135,7 +135,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(l) return
                         let $params := 
                             map {
-                                "id": substring-after(@xml:id,'_'),
+                                "id": (substring-after(@xml:id,'_'),substring-after(@n,' ')),
                                 "content": .
                             }
 
