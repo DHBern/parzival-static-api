@@ -239,9 +239,9 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(role) return
                         latex:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(hi) return
-                        latex:inline($config, ., css:get-rendition(., ("tei-hi", css:map-rend-to-class(.))), .)
+                        latex:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
                     case element(note) return
-                        latex:note($config, ., ("tei-note", css:map-rend-to-class(.)), ., @place, @n)
+                        latex:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
                     case element(code) return
                         latex:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -256,7 +256,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(del) return
-                        latex:inline($config, ., ("tei-del", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-del1", "deleted", css:map-rend-to-class(.)), .)
                     case element(cell) return
                         (: Insert table cell. :)
                         latex:cell($config, ., ("tei-cell", css:map-rend-to-class(.)), ., ())
@@ -285,7 +285,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(ab) return
                         latex:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
-                        latex:inline($config, ., ("tei-add", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-add1", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         latex:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(head) return
@@ -465,7 +465,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 latex:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
                     case element(seg) return
-                        latex:inline($config, ., ("tei-seg1", "glory-initial", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
                     case element(notatedMusic) return
                         latex:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(profileDesc) return
@@ -489,10 +489,16 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(group) return
                         latex:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)
                     case element(cb) return
-                        latex:block($config, ., ("tei-cb", css:map-rend-to-class(.)), .)
+                        latex:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)
                     case element(name) return
                         (: delete me after testing :)
                         latex:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))
+                    case element(reg) return
+                        latex:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                    case element(milestone) return
+                        latex:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                    case element(subst) return
+                        latex:inline($config, ., ("tei-subst1", css:map-rend-to-class(.)), .)
                     case element() return
                         if (namespace-uri(.) = 'http://www.tei-c.org/ns/1.0') then
                             $config?apply($config, ./node())

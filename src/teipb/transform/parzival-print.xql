@@ -221,9 +221,9 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(role) return
                         html:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(hi) return
-                        html:inline($config, ., css:get-rendition(., ("tei-hi", css:map-rend-to-class(.))), .)
+                        html:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
                     case element(note) return
-                        printcss:note($config, ., ("tei-note", css:map-rend-to-class(.)), ., @place, @n)
+                        html:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
                     case element(code) return
                         html:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -238,7 +238,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(del) return
-                        html:inline($config, ., ("tei-del", css:map-rend-to-class(.)), .)
+                        html:inline($config, ., ("tei-del1", "deleted", css:map-rend-to-class(.)), .)
                     case element(cell) return
                         (: Insert table cell. :)
                         html:cell($config, ., ("tei-cell", css:map-rend-to-class(.)), ., ())
@@ -267,7 +267,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(ab) return
                         html:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
-                        html:inline($config, ., ("tei-add", css:map-rend-to-class(.)), .)
+                        html:inline($config, ., ("tei-add1", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         html:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(head) return
@@ -460,7 +460,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
                     case element(seg) return
-                        html:inline($config, ., ("tei-seg1", "glory-initial", css:map-rend-to-class(.)), .)
+                        html:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
                     case element(notatedMusic) return
                         html:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(profileDesc) return
@@ -484,10 +484,16 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(group) return
                         html:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)
                     case element(cb) return
-                        html:block($config, ., ("tei-cb", css:map-rend-to-class(.)), .)
+                        html:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)
                     case element(name) return
                         (: delete me after testing :)
                         html:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))
+                    case element(reg) return
+                        html:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                    case element(milestone) return
+                        html:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                    case element(subst) return
+                        html:inline($config, ., ("tei-subst1", css:map-rend-to-class(.)), .)
                     case element(exist:match) return
                         html:match($config, ., .)
                     case element() return

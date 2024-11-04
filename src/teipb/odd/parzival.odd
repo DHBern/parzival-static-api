@@ -39,11 +39,42 @@
             <schemaSpec start="TEI teiCorpus" ident="parzival" source="teipublisher.odd"> <elementSpec ident="lem" mode="add"/>
                 <elementSpec ident="l" mode="change"/>
                 <elementSpec ident="seg" mode="change">
+                    <model behaviour="inline" cssClass="not-executed">
+            <param name="subtype" value="nicht_ausgeführt"/>
+            <param name="type" value="Initiale"/>
+        </model>
+                    <model behaviour="inline" cssClass="verse -change">
+            <param name="type" value="Versumstellung"/>
+        </model>
+                    <model behaviour="inline" cssClass="small-variant">
+            <param name="type" value="kleine_Variante"/>
+        </model>
+                    <model behaviour="inline" cssClass="singular-reading">
+            <param name="type" value="singuläre_Lesart"/>
+        </model>
+                    <model behaviour="inline" cssClass="large-variant">
+            <param name="type" value="große_Variante"/>
+        </model>
+                    <model behaviour="inline" cssClass="capital-initial">
+            <param name="type" value="Initiale"/>
+            <param name="subtype" value="Großinitiale"/>
+        </model>
+                    <model behaviour="inline" cssClass="majuscule">
+            <param name="subtype" value="Majuskel"/>
+            <param name="type" value="Initiale"/>
+        </model>
                     <model behaviour="inline" cssClass="glory-initial">
             <param name="subtype" value="Prachtinitiale"/>
+            <param name="type" value="Initiale"/>
+            <outputRendition xml:space="preserve">
+            
+            </outputRendition>
         </model>
                     <model behaviour="inline" cssClass="initial" useSourceRendition="true">
             <param name="type" value="Initiale"/>
+            <outputRendition xml:space="preserve">
+            
+            </outputRendition>
         </model>
                 </elementSpec>
             <elementSpec ident="name" mode="add">
@@ -52,10 +83,65 @@
             <param name="content" value="(given-names,surname)"/>
         </model>
                 </elementSpec>
-            <elementSpec ident="cb" mode="change">
-                    <model behaviour="block">
-            <param name="type" value="'column'"/>
-            <param name="label" value="@xml:id"/>
+                <elementSpec ident="reg" mode="add">
+                    <model behaviour="inline" cssClass="syncope">
+            <param name="type" value="Synkope"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="milestone" mode="add">
+                    <model behaviour="inline" cssClass="verse -change">
+            <param name="unit" value="Versumstellung"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="subst" mode="add">
+                    <model behaviour="inline">
+            <param name="hand" value="#ls1"/>
+        </model>
+                    <model behaviour="inline">
+            <param name="hand" value="#sr"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="add" mode="change">
+                    <model behaviour="inline">
+            <param name="hand" value="#sr"/>
+        </model>
+                    <model behaviour="inline">
+            <outputRendition xml:space="preserve">
+            color: green; text-decoration: underline;
+            </outputRendition>
+        </model>
+                </elementSpec>
+                <elementSpec ident="del" mode="change">
+                    <model behaviour="inline" cssClass="deleted"/>
+                    <model behaviour="inline">
+            <outputRendition xml:space="preserve">
+            text-decoration: line-through;
+            </outputRendition>
+        </model>
+                </elementSpec>
+                <elementSpec ident="note" mode="change">
+                    <model behaviour="inline" cssClass="note">
+            <param name="type" value="Notiz"/>
+        </model>
+                    <model behaviour="inline" cssClass="marginalia">
+            <param name="type" value="marginalie"/>
+        </model>
+                    <model behaviour="note">
+            <param name="place" value="@place"/>
+            <param name="label" value="@n"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="hi" mode="change">
+                    <model behaviour="inline" cssClass="underline">
+            <param name="rend" value="unterstrichen"/>
+        </model>
+                    <model behaviour="inline" cssClass="rasure">
+            <param name="rend" value="rasur"/>
+        </model>
+                    <model behaviour="inline" useSourceRendition="true">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
         </model>
                 </elementSpec>
             </schemaSpec>

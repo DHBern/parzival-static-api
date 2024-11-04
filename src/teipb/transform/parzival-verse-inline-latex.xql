@@ -132,6 +132,8 @@ declare function model:apply($config as map(*), $input as node()*) {
                             latex:list($config, ., css:get-rendition(., ("tei-castList", css:map-rend-to-class(.))), castItem, ())
                         else
                             $config?apply($config, ./node())
+                    case element(milestone) return
+                        latex:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
                     case element(l) return
                         let $params := 
                             map {
@@ -253,13 +255,13 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(publicationStmt) return
                         latex:omit($config, ., ("tei-publicationStmt2", css:map-rend-to-class(.)), .)
                     case element(hi) return
-                        latex:inline($config, ., css:get-rendition(., ("tei-hi", css:map-rend-to-class(.))), .)
+                        latex:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
                     case element(role) return
                         latex:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(code) return
                         latex:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(note) return
-                        latex:note($config, ., ("tei-note", css:map-rend-to-class(.)), ., @place, @n)
+                        latex:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
                     case element(dateline) return
                         latex:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -272,7 +274,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(del) return
-                        latex:inline($config, ., ("tei-del", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-del1", "deleted", css:map-rend-to-class(.)), .)
                     case element(cell) return
                         (: Insert table cell. :)
                         latex:cell($config, ., ("tei-cell", css:map-rend-to-class(.)), ., ())
@@ -286,6 +288,8 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 latex:block($config, ., ("tei-div3", css:map-rend-to-class(.)), .)
                     case element(trailer) return
                         latex:block($config, ., ("tei-trailer", css:map-rend-to-class(.)), .)
+                    case element(reg) return
+                        latex:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
                     case element(graphic) return
                         latex:graphic($config, ., ("tei-graphic", css:map-rend-to-class(.)), ., @url, @width, @height, @scale, desc)
                     case element(ref) return
@@ -301,9 +305,11 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(ab) return
                         latex:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
-                        latex:inline($config, ., ("tei-add", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-add1", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         latex:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
+                    case element(subst) return
+                        latex:inline($config, ., ("tei-subst1", css:map-rend-to-class(.)), .)
                     case element(head) return
                         if ($parameters?header='short') then
                             latex:inline($config, ., ("tei-head1", css:map-rend-to-class(.)), replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1'))
@@ -483,7 +489,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(notatedMusic) return
                         latex:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(seg) return
-                        latex:inline($config, ., ("tei-seg1", "glory-initial", css:map-rend-to-class(.)), .)
+                        latex:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
                     case element(profileDesc) return
                         latex:omit($config, ., ("tei-profileDesc", css:map-rend-to-class(.)), .)
                     case element(row) return
