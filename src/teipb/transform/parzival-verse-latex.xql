@@ -31,6 +31,10 @@ declare %private function model:template-ptr($config as map(*), $node as node()*
                               <pb-option name="appXPath" on="./rdg[contains(@label, 'original')]" off="">Original Clefs</pb-option>
                               </pb-mei></t>/*
 };
+(: generated template function for element spec: name :)
+declare %private function model:template-name($config as map(*), $node as node()*, $params as map(*)) {
+    ``[.]``
+};
 (: generated template function for element spec: formula :)
 declare %private function model:template-formula2($config as map(*), $node as node()*, $params as map(*)) {
     ``[\begin{equation}`{string-join($config?apply-children($config, $node, $params?content))}`\end{equation}]``
@@ -42,6 +46,10 @@ declare %private function model:template-formula3($config as map(*), $node as no
 (: generated template function for element spec: mei:mdiv :)
 declare %private function model:template-mei_mdiv($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><pb-mei player="player" data="{$config?apply-children($config, $node, $params?data)}"/></t>/*
+};
+(: generated template function for element spec: cb :)
+declare %private function model:template-cb($config as map(*), $node as node()*, $params as map(*)) {
+    <t xmlns=""><p>{$config?apply-children($config, $node, $params?label)}</p></t>/*
 };
 (:~
 
@@ -137,7 +145,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(l) return
                         let $params := 
                             map {
-                                "id": (substring-after(@xml:id,'_'),substring-after(@n,' ')),
+                                "id": substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),
                                 "content": .
                             }
 
@@ -206,8 +214,15 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(titlePage) return
                         latex:block($config, ., css:get-rendition(., ("tei-titlePage", css:map-rend-to-class(.))), .)
                     case element(name) return
-                        (: delete me after testing :)
-                        latex:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))
+                        let $params := 
+                            map {
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-name($config, ., $params)
+                        return
+                                                latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-name", css:map-rend-to-class(.)), $content)
                     case element(formula) return
                         if (@rendition='simple:display') then
                             latex:block($config, ., ("tei-formula1", css:map-rend-to-class(.)), .)
@@ -509,7 +524,16 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(table) return
                         latex:table($config, ., ("tei-table", css:map-rend-to-class(.)), ., map {})
                     case element(cb) return
-                        latex:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)
+                        let $params := 
+                            map {
+                                "label": concat(     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then "Bl. " else "S. ",     number(substring(@xml:id, 2, 3)), ", Spalte ", substring(@xml:id, string-length(@xml:id), 1) ),
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-cb($config, ., $params)
+                        return
+                                                latex:block(map:merge(($config, map:entry("template", true()))), ., ("tei-cb", css:map-rend-to-class(.)), $content)
                     case element(group) return
                         latex:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)
                     case element() return

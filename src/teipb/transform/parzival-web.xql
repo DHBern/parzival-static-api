@@ -31,6 +31,10 @@ declare %private function model:template-ptr($config as map(*), $node as node()*
 declare %private function model:template-mei_mdiv($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><pb-mei player="player" data="{$config?apply-children($config, $node, $params?data)}"/></t>/*
 };
+(: generated template function for element spec: name :)
+declare %private function model:template-name($config as map(*), $node as node()*, $params as map(*)) {
+    ``[.]``
+};
 (:~
 
     Main entry point for the transformation.
@@ -481,8 +485,15 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(cb) return
                         html:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)                        => model:map($node, $trackIds)
                     case element(name) return
-                        (: delete me after testing :)
-                        html:inline($config, ., ("tei-name", css:map-rend-to-class(.)), (given-names,surname))                        => model:map($node, $trackIds)
+                        let $params := 
+                            map {
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-name($config, ., $params)
+                        return
+                                                html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-name", css:map-rend-to-class(.)), $content)                        => model:map($node, $trackIds)
                     case element(reg) return
                         html:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(milestone) return

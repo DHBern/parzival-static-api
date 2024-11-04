@@ -79,8 +79,8 @@
                 </elementSpec>
             <elementSpec ident="name" mode="add">
                     <model behaviour="inline">
-            <desc>delete me after testing</desc>
-            <param name="content" value="(given-names,surname)"/>
+            <param name="content" value="."/>
+            <pb:template xmlns="" xml:space="preserve">.</pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="reg" mode="add">
@@ -102,9 +102,7 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="add" mode="change">
-                    <model behaviour="inline">
-            <param name="hand" value="#sr"/>
-        </model>
+                    <model behaviour="inline"/>
                     <model behaviour="inline">
             <outputRendition xml:space="preserve">
             color: green; text-decoration: underline;
