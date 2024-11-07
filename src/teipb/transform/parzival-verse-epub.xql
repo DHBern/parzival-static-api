@@ -518,7 +518,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(cb) return
                         let $params := 
                             map {
-                                "label": concat(     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then "Bl. " else "S. ",     number(substring(@xml:id, 2, 3)),     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then substring(@xml:id, 5, 1) else '',     ", Spalte", substring(@xml:id, string-length(@xml:id), 1) ),
+                                "label": concat(     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then "Bl. " else "S. ",     number(substring(@xml:id, 2, 3)),     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then substring(@xml:id, 5, 1) else '',     ", Spalte ", substring(@xml:id, string-length(@xml:id), 1) ),
                                 "content": .
                             }
 
