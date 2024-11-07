@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr29
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr29</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -267,11 +267,8 @@
          <l xml:id="fr29_13.03">
             <seg type="Initiale" subtype="nicht_ausgeführt" n="3">G</seg>ahmvͦret der site pflac.</l>
          <note resp="#MiGe_Gegenleser" target="#?1_13.03 #Fr29002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="nicht_ausgeführt"
-                    n="3">G</seg>ahmvͦret</a>: Die Initiale ist entweder rot oder blau (siehe Angaben bei Pfeiffer).</note>
+            <ref>
+               <seg type="Initiale" subtype="nicht_ausgeführt" n="3">G</seg>ahmvͦret</ref>: Die Initiale ist entweder rot oder blau (siehe Angaben bei Pfeiffer).</note>
          <l xml:id="fr29_13.04">Den rehtiv maze widerwac.</l>
          <l xml:id="fr29_13.05">Vn<choice>
                <am>̄</am>
@@ -663,8 +660,8 @@
             </unclear>ht orſ mit z<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#SiLa_Gegenleser" target="#?1_19.01 #29002vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <seg type="Initiale"
                        subtype="Fleuronee"
                        n="3"
@@ -672,7 +669,7 @@
                      <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
                   </seg>
                </unclear>
-            </a>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
+            </ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
          <l xml:id="fr29_19.02">verdecket al z<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <l xml:id="fr29_19.03">daz nivnde ſi<gap reason="Fragmentverlust" extent="unbekannt"/>
@@ -1411,11 +1408,11 @@
                <seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">J</seg>
             </unclear>r ôvgen dem hercen ſan.</l>
          <note resp="#SiLa_Gegenleser" target="#?1_29.01 #29004va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">J</seg>
                </unclear>
-            </a>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
+            </ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
          <cb xml:id="fr29004vb"/>
          <l xml:id="fr29_30.05">Sp<choice>
                <am rend="hochgestellt">a</am>

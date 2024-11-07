@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen ok
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen ok</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -69,18 +69,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -202,12 +202,9 @@
          <l xml:id="ok_1.01">
             <seg type="Initiale" subtype="Prachtinitiale" n="20">I</seg>St zwifel hertzen noch <lb/> gebur</l>
          <note resp="#MiGe_Gegenleser" target="#ok_1.01 #ok001r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="20">I</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="20">I</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="ok_1.02">
             <hi rend="rot">⸿</hi>Das muͯs der <lb/> ſelen werden ſúr</l>
          <l xml:id="ok_1.03">
@@ -366,10 +363,10 @@
                <am>̄</am>
                <ex>n</ex>
             </choice>n</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_4.17-r #ok003r">: Doppelung von Vers 4.17, wobei <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ma<choice xmlns="http://www.tei-c.org/ns/1.0">
+         <note resp="#MiGe_Gegenleser" target="#ok_4.17-r #ok003r">: Doppelung von Vers 4.17, wobei <ref>ma<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>n</a> auf von dem Reimwort von Vers 4.16 abgleitet sein könnte.</note>
+               </choice>n</ref> auf von dem Reimwort von Vers 4.16 abgleitet sein könnte.</note>
          <l xml:id="ok_4.17">Maniger lobelich pris</l>
          <l xml:id="ok_4.18">Der kúne trachelichen wis</l>
          <l xml:id="ok_4.19">Den helt ich alſus ir grúſſe</l>
@@ -1069,7 +1066,7 @@
          <l xml:id="ok_15.26">Jr aller dot vor im zurſleiff</l>
          <l xml:id="ok_15.27-k"/>
          <l xml:id="ok_15.28-k">Vnd was ie der berichet</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_15.28-k #ok011r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 15.27 und 15.28 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">was</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_15.28-k #ok011r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 15.27 und 15.28 enthalten in *m beide jeweils das Wort <ref>was</ref>.</note>
          <l xml:id="ok_15.29">Der gegen im juſtierens pflag</l>
          <l xml:id="ok_15.30">Man jach im das zuͦ baldag</l>
          <l xml:id="ok_16.01">Sin ellen <subst hand="#sr">
@@ -1276,8 +1273,8 @@
          <l xml:id="ok_19.05">Den fuͦrt ein knappe vil gemeit</l>
          <l xml:id="ok_19.06">Dar noch by den ſelben <unclear reason="Zweifel">r</unclear>eit</l>
          <note resp="#GVi_Transkribent" target="#ok_19.06 #ok013v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">r</unclear>eit</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a> scheint vom Leser nachgezogen worden zu sein.</note>
+            <ref>
+               <unclear reason="Zweifel">r</unclear>eit</ref>: <ref>r</ref> scheint vom Leser nachgezogen worden zu sein.</note>
          <l xml:id="ok_19.07">Buſuner der man <subst hand="#ls1">
                <del>ouch</del>
                <add>auch</add>
@@ -2227,12 +2224,12 @@
                <add>held</add>
             </subst> ſan</l>
          <note resp="#YCh_Transkribent" target="#ok_35.07 #ok022r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>helle</del>
                   <add>held</add>
                </subst>
-            </a>: Über dem zweiten <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">l</a> ein Tilgungspunkt?</note>
+            </ref>: Über dem zweiten <ref>l</ref> ein Tilgungspunkt?</note>
          <l xml:id="ok_35.08">Das wart mit ſliſſe getan</l>
          <l xml:id="ok_35.09">Der <subst hand="#ls1">
                <del>wuͯrt</del>
@@ -2796,11 +2793,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#43.09 #01_ok028r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen und einem etc-Zeichen.</note>
          <l xml:id="ok_43.09-02">
@@ -2984,7 +2981,7 @@
          <l xml:id="ok_45.16">Vnd zuͯch ir ros alleynig wider</l>
          <l xml:id="ok_45.17">Do worent gefangen fuͯrſten dri</l>
          <note resp="#SiLa_Gegenleser" target="#ok_45.17 #ok030r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fuͯrſten</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> vom Leser nachgezogen.</note>
+            <ref>fuͯrſten</ref>: <ref>n</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_45.18">Den reit manig ritter bẏ</l>
          <l xml:id="ok_45.19">Zuͦ hoͯfe vff dem pallas</l>
          <l xml:id="ok_45.20">Entſloffen vnd enbiſſen was</l>
@@ -3044,7 +3041,7 @@
                </add>
             </subst> mẏn</l>
          <note resp="#SiLa_Gegenleser" target="#ok_46.09 #ok030v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ge<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">r</unclear>ne</a>: Möglicherweise vom Leser nachgezogen oder korrigiert.</note>
+            <ref>ge<unclear reason="Zweifel">r</unclear>ne</ref>: Möglicherweise vom Leser nachgezogen oder korrigiert.</note>
          <l xml:id="ok_46.10">Mocht es mit <subst hand="#ls1">
                <del>ſin<unclear reason="Zweifel">
                      <choice>
@@ -3598,7 +3595,7 @@
                <ex>n</ex>
             </choice>nes hant</l>
          <note resp="#GVi_Transkribent" target="#ok_55.18 #ok036v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hant</a>: Letztes Wort wohl aus Platzmangel über der Zeile.</note>
+            <ref>hant</ref>: Letztes Wort wohl aus Platzmangel über der Zeile.</note>
          <l xml:id="ok_55.19">Jn frantzos das ſie kúnde</l>
          <l xml:id="ok_55.20">Die ſchrifft ir ſagen beguͯnde</l>
          <l xml:id="ok_55.21">Hie enbutet liep ein ander liep</l>
@@ -3671,14 +3668,14 @@
                <add>zwein</add>
             </subst> kam geſlechte myn</l>
          <note resp="#SiLa_Gegenleser" target="#ok_56.21 #ok037r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>
                      <unclear reason="Zweifel">ſeit</unclear>
                   </del>
                   <add>in</add>
                </subst>
-            </a>: Zusätzlich vom Rubrikator gestrichen.</note>
+            </ref>: Zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="ok_56.22">Das iemer me git liehten ſchin</l>
          <l xml:id="ok_56.23">Jeglicher ſicher eẏn kruͯne truͦg</l>
          <l xml:id="ok_56.24">Vnd hette wirdekeit genuͦg</l>
@@ -3712,7 +3709,7 @@
          <l xml:id="ok_57.05">Jemer twingen mẏnen lip</l>
          <l xml:id="ok_57.06">Sinen got zú eren ſprach das wip</l>
          <l xml:id="ok_57.07-k">Jch mich gerne tauffen wolte</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_57.07-k #ok037v">: Möglicherweise verwechselte der Schreiber das Reimwort von Vers 57.08, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wolte</a>, mit dem Reimwort von Vers 57.07, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">solte</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_57.07-k #ok037v">: Möglicherweise verwechselte der Schreiber das Reimwort von Vers 57.08, <ref>wolte</ref>, mit dem Reimwort von Vers 57.07, <ref>solte</ref>.</note>
          <l xml:id="ok_57.08-k"/>
          <l xml:id="ok_57.09">Der jomer gap iren herczen wig</l>
          <l xml:id="ok_57.10">Jr freide fant den dorren zwig</l>
@@ -3823,11 +3820,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#58.27 #01_039r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_58.27-02">
@@ -4173,7 +4170,7 @@
          <l xml:id="ok_64.15">Stuͦnt ein gezelt das gamuret</l>
          <l xml:id="ok_64.16">Durch des kuͯnen bezalies bet</l>
          <note resp="#YCh_Transkribent" target="#ok_64.16 #ok043r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Durch</a>: Unverständliches Gekritzel oder Klecks über dem Wort. Abgebrochene Korrektur?</note>
+            <ref>Durch</ref>: Unverständliches Gekritzel oder Klecks über dem Wort. Abgebrochene Korrektur?</note>
          <l xml:id="ok_64.17">Bleip vor patelamu<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -4377,8 +4374,8 @@
             </subst>
          </l>
          <note resp="#YCh_Transkribent" target="#ok_67.16 #ok045r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>pantotis</del>
                   <add>pant<unclear reason="Zweifel">
                         <choice>
@@ -4387,7 +4384,7 @@
                         </choice>tois</unclear>
                   </add>
                </subst>
-            </a>: Es ist nicht sicher, ob der Nasal-Strich das ursprüngliche <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> ersetzt.</note>
+            </ref>: Es ist nicht sicher, ob der Nasal-Strich das ursprüngliche <ref>o</ref> ersetzt.</note>
          <l xml:id="ok_67.17">Der herczoge <subst hand="#ls1">
                <del>brandolin</del>
                <add>brand<unclear reason="Zweifel">lide</unclear>lin</add>
@@ -5032,7 +5029,7 @@
          <l xml:id="ok_78.15-k">Schyltes ambacht forchten</l>
          <l xml:id="ok_78.16-k"/>
          <note resp="#MiGe_Gegenleser">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">78.16-k_ok052r</a>: Vermutlich Augenabirrung aufgrund der sehr ählichen Reimwörter des Verspaares.</note>
+            <ref>78.16-k_ok052r</ref>: Vermutlich Augenabirrung aufgrund der sehr ählichen Reimwörter des Verspaares.</note>
          <l xml:id="ok_78.17">Alda wart von gamúret</l>
          <l xml:id="ok_78.18">Geleiſtet anfeliſen bett</l>
          <l xml:id="ok_78.19">Das er ir ritter wer</l>
@@ -5862,11 +5859,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#93.11 #01_ok063r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_93.11-02">
@@ -6135,12 +6132,12 @@
                <add>behabt</add>
             </subst> den anſce vin</l>
          <note resp="#SiLa_Gegenleser" target="#ok_98.18 #ok067r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>habat</del>
                   <add>behabt</add>
                </subst>
-            </a>: Zusätzlich vom Rubrikator gestrichen.</note>
+            </ref>: Zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="ok_98.19">Wer was von anſchowe da</l>
          <l xml:id="ok_98.20">Vnſer he<choice>
                <am>̉</am>
@@ -6453,11 +6450,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#105.01 #01_ok071v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen.</note>
          <l xml:id="ok_105.01-02">
@@ -6521,7 +6518,7 @@
          <l xml:id="ok_105.23">
             <seg type="Initiale" subtype="Cadelle">V</seg>nd auch das ruͯcz in ſinen clahwen</l>
          <note resp="#SiLa_Gegenleser" target="#ok_105.23 #ok072v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ruͯcz</a>: uneindeutiges Zeichen über "u", vermutlich ohne Bedeutung.</note>
+            <ref>ruͯcz</ref>: uneindeutiges Zeichen über "u", vermutlich ohne Bedeutung.</note>
          <l xml:id="ok_105.24">Den erbarn das do wart <subst hand="#sr">
                <del>*</del>
                <add>getan</add>
@@ -6588,7 +6585,7 @@
          <l xml:id="ok_107.01">Mit golde wol geheret</l>
          <l xml:id="ok_107.02">Groſz richeit dar an gekeret</l>
          <note resp="#GVi_Transkribent" target="#ok_107.02 #ok073r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gekeret</a>: Zwei dünne Striche, von denen einer über dem Wort und dem letzten des nächsten Verses liegt, aber wohl keine Durchstreichung, nur Ausrutscher.</note>
+            <ref>gekeret</ref>: Zwei dünne Striche, von denen einer über dem Wort und dem letzten des nächsten Verses liegt, aber wohl keine Durchstreichung, nur Ausrutscher.</note>
          <l xml:id="ok_107.03">Mit edelem geſteine</l>
          <l xml:id="ok_107.04">Do in lit der reine</l>
          <l xml:id="ok_107.05">Gebalſamt wart ſin jung<choice>
@@ -6858,11 +6855,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#112.01 #01_ok077r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus drei ausschmückenden Zeichen.</note>
          <l xml:id="ok_112.01-02">
@@ -7069,11 +7066,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#116.05 #01_ok080v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_116.05-02">
@@ -7922,11 +7919,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_132.29 #ok092r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_132.30">Das geſuchet was ſin frowe</l>
@@ -8278,7 +8275,7 @@
             </choice>droſſen</l>
          <l xml:id="ok_139.02-k"/>
          <l xml:id="ok_139.03-k">Sprach es mit einem gabilot</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_139.03-k #ok096v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">sprach</a> zu Beginn von Vers 139.02 und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geschach</a> zu Beginn von Vers 139.03 (beides zitiert nach *m), können beim Abschreiben leicht verwechselt werden.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_139.03-k #ok096v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, <ref>sprach</ref> zu Beginn von Vers 139.02 und <ref>geschach</ref> zu Beginn von Vers 139.03 (beides zitiert nach *m), können beim Abschreiben leicht verwechselt werden.</note>
          <pb xml:id="ok097r"/>
          <cb xml:id="ok097ra"/>
          <l xml:id="ok_139.04">Mich duͯncket frowe er lige dot</l>
@@ -8728,11 +8725,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#147.27 #01_ok103r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen und einem etc-Zeichen.</note>
          <l xml:id="ok_147.27-02">
@@ -8852,11 +8849,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#150.03 #01_ok105r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen.</note>
          <l xml:id="ok_150.03-02">
@@ -9162,9 +9159,9 @@
          <l xml:id="ok_156.09">Er fant Jtern dot <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_156.09 #ok109r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
          <pb xml:id="ok109v"/>
          <cb xml:id="ok109va"/>
          <l xml:id="ok_156.10">
@@ -9440,13 +9437,13 @@
                </note>
             </hi>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#162.07 #01_ok112v">: Zur Rechten von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">xvij</a> befindet sich ein zeilenfüllendes Zeichen</note>
+         <note resp="#MiGe_Gegenleser" target="#162.07 #01_ok112v">: Zur Rechten von <ref>xvij</ref> befindet sich ein zeilenfüllendes Zeichen</note>
          <note resp="#MiGe_Gegenleser" target="#162.07 #01_ok112v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_162.07-02">
@@ -10063,11 +10060,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#174.05 #01_ok121r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_174.05-02">
@@ -10345,11 +10342,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#179.13 #01_ok125r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei ausschmückenden Zeichen und einem etc-Zeichen.</note>
          <l xml:id="ok_179.13-02">
@@ -10803,9 +10800,9 @@
          <l xml:id="ok_187.20">Ja muſte priſen walden <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_187.20 #ok131r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
          <pb xml:id="ok131v"/>
          <cb xml:id="ok131va"/>
          <l xml:id="ok_187.21">Conmar wir arnes</l>
@@ -11147,9 +11144,9 @@
          <l xml:id="ok_194.17">Vncz an polropier <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_194.17 #ok135r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus einem ausschmückenden Zeichen.</note>
          <pb xml:id="ok135v"/>
          <cb xml:id="ok135va"/>
          <l xml:id="ok_194.18">Mẏn vatter tampentier</l>
@@ -11240,7 +11237,7 @@
             <seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: rot">D</seg>Je frowe ſtunt úff vnd neig <note type="Marginalie">+</note>
          </l>
          <note resp="#GVi_Transkribent" target="#ok_196.03 #ok136v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Pluszeichen oberhalb dieser und der nächsten Spalte, offenbar gehört das Bild und die Überschrift vor diese Initiale.</note>
+            <ref/>: Pluszeichen oberhalb dieser und der nächsten Spalte, offenbar gehört das Bild und die Überschrift vor diese Initiale.</note>
          <l xml:id="ok_196.04">Jr groſſen dang ſie nit v<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -11437,11 +11434,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#199.13 #01_ok139v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht wahrscheinlich aus einem etc-Zeichen (das Zeichen ist nur schwer erkennbar).</note>
          <l xml:id="ok_199.13-02">
@@ -11612,7 +11609,7 @@
          <l xml:id="ok_202.20">Trang waſ ſin freiſe</l>
          <l xml:id="ok_202.21">Den man den roten ritter hieſz</l>
          <note resp="#GVi_Transkribent" target="#ok_202.21 #ok141v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Strich am rechten Rand; ohne Bedeutung.</note>
+            <ref/>: Strich am rechten Rand; ohne Bedeutung.</note>
          <pb xml:id="ok142r"/>
          <cb xml:id="ok142ra"/>
          <l xml:id="ok_202.22">Der die konigin maget lies</l>
@@ -12564,7 +12561,7 @@
          <l xml:id="ok_221.21">Vwer edel furſtine</l>
          <l xml:id="ok_221.22-k"/>
          <l xml:id="ok_221.23-k">Die mit lachen hett erwelt</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_221.23-k #ok155r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 221.22 und 221.23 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mit</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_221.23-k #ok155r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 221.22 und 221.23 enthalten in *m beide jeweils das Wort <ref>mit</ref>.</note>
          <l xml:id="ok_221.24">Der one ligen wart erzelt</l>
          <l xml:id="ok_221.25">Mit warheit vor den hohſten pris</l>
          <l xml:id="ok_221.26">Die britaneiſe ir lobez <subst hand="#sr">
@@ -13975,7 +13972,7 @@
          <l xml:id="ok_247.15">Mit bagenden worten</l>
          <l xml:id="ok_247.16-k"/>
          <l xml:id="ok_247.17-k">Das er wite offen ſtan</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_247.17-k #ok173r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 247.16 und 247.17 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">er</a>. Hinzu kommt, dass Vers 247.16 in Hs. nk, die mit Hs. ok auf eine gemeinsame Vorlage zurückgeht, mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Das</a> und nicht mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">saz</a> beginnt.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_247.17-k #ok173r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 247.16 und 247.17 enthalten in *m beide jeweils das Wort <ref>er</ref>. Hinzu kommt, dass Vers 247.16 in Hs. nk, die mit Hs. ok auf eine gemeinsame Vorlage zurückgeht, mit <ref>Das</ref> und nicht mit <ref>saz</ref> beginnt.</note>
          <l xml:id="ok_247.18">Dar durch uͯſz goſſen ſlahen</l>
          <l xml:id="ok_247.19">Niht lenger er do habete</l>
          <l xml:id="ok_247.20">Faſte uff die brucke er drabete</l>
@@ -14250,8 +14247,8 @@
          <l xml:id="ok_252.06">Dar ob muͯſt duͯ hoͯhe tragen</l>
          <l xml:id="ok_252.07">Der <unclear reason="Zweifel">di</unclear>enet zam vnd wilt</l>
          <note resp="#GVi_Transkribent" target="#ok_252.07 #ok177v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">di</unclear>enet</a>: Eventuell ist hier <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> zu einer Ligatur verschmolzen.</note>
+            <ref>
+               <unclear reason="Zweifel">di</unclear>enet</ref>: Eventuell ist hier <ref>d</ref> und <ref>i</ref> zu einer Ligatur verschmolzen.</note>
          <l xml:id="ok_252.08">Zuͦ reichen iſt der wunſch gezilt</l>
          <l xml:id="ok_252.09">Parcifal der wigant</l>
          <l xml:id="ok_252.10">Sprach wo von hapt ir mich erkan</l>
@@ -16740,11 +16737,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#293.19 #01">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem oder zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_293.19-02">
@@ -17061,7 +17058,7 @@
          <l xml:id="ok_297.27"/>
          <l xml:id="ok_297.28"/>
          <l xml:id="ok_297.29-k">Dez muͯs her heinrich von riſpach</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_297.24-k #ok210r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 297.24 und 297.29 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hêr</a>. </note>
+         <note resp="#MiGe_Gegenleser" target="#ok_297.24-k #ok210r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 297.24 und 297.29 enthalten in *m beide jeweils das Wort <ref>hêr</ref>. </note>
          <l xml:id="ok_297.30">Hort wuͯnder me waſz dort beſchach</l>
          <l xml:id="ok_298.01">Vff dem plinors plan</l>
          <l xml:id="ok_298.02">Keẏn wart geholt ſan</l>
@@ -17798,7 +17795,7 @@
          <l xml:id="ok_309.09">Das ſie ſẏnen hoff gemeit</l>
          <l xml:id="ok_309.10">Jm iſt afenture nuͯ bereit</l>
          <note resp="#MiGe_Gegenleser" target="#ok_309.10 #ok218r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nuͯ</a>: Uneindeutiges Zeichen über "u", vermutlich ohne Bedeutung.</note>
+            <ref>nuͯ</ref>: Uneindeutiges Zeichen über "u", vermutlich ohne Bedeutung.</note>
          <l xml:id="ok_309.11">Das lop my<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -17887,7 +17884,7 @@
          <l xml:id="ok_310.25">Ein luczel ſie do gegen ẏm ging</l>
          <l xml:id="ok_310.26">Die kuͯnigin in mit kuſz enpfing</l>
          <note resp="#JKl_Transkribent" target="#ok_310.26 #ok319r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">enpfing</a>: hat der Leser hier in dunklerer Tinte zu enppng korrigiert?</note>
+            <ref>enpfing</ref>: hat der Leser hier in dunklerer Tinte zu enppng korrigiert?</note>
          <l xml:id="ok_310.27">Nuͯ verkuͯſz ich hie my<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -19657,11 +19654,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#338.01 #01_ok293r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem zeilenfüllenden Zeichen.</note>
          <l xml:id="ok_338.01-02">
@@ -20665,7 +20662,7 @@
          <cb xml:id="ok251ra"/>
          <l xml:id="ok_354.01">Gar diſer worte <sic>worte</sic> hore</l>
          <note resp="#MiGe_Transkribent" target="#ok_354.01 #ok251r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hore</a>: Über dem Wort eine Verzierung.</note>
+            <ref>hore</ref>: Über dem Wort eine Verzierung.</note>
          <l xml:id="ok_354.02">Kam gewan ẏn ſin ore</l>
          <l xml:id="ok_354.03">Die rede lat ſin als ſie muſte</l>
          <l xml:id="ok_354.04">Vnd hoͯrent wie es der ſtat erge</l>
@@ -20703,12 +20700,12 @@
             </choice>
          </l>
          <note resp="#SiLa_Gegenleser" target="#ok_354.14 #ok251r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>hant</del>
                   <add>habt</add>
                </subst>
-            </a>: Zusätzlich vom Rubrikator gestrichen.</note>
+            </ref>: Zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="ok_354.15">Wer in des wirtes helffes reit</l>
          <l xml:id="ok_354.16">Vnd wer durch in mit truwen <subst hand="#sr">
                <del>reit</del>
@@ -22312,7 +22309,7 @@
          <l xml:id="ok_377.09">Stunden do der tag erſchein</l>
          <l xml:id="ok_377.10">Sterles der kos ẏme eÿns</l>
          <note resp="#MiGe_Gegenleser" target="#ok_377.10 #ok267r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sterles</a>: Über dem Minuskel-s in <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sterles</a> befindet sich ein bogenförmiges Zeichen. Es kann nicht bestimmt werden, ob es sich dabei um den Ansatz eines Minuskel-l's, ein er-Kürzel oder etwas anderes handelt.</note>
+            <ref>Sterles</ref>: Über dem Minuskel-s in <ref>Sterles</ref> befindet sich ein bogenförmiges Zeichen. Es kann nicht bestimmt werden, ob es sich dabei um den Ansatz eines Minuskel-l's, ein er-Kürzel oder etwas anderes handelt.</note>
          <l xml:id="ok_377.11">Die er vnd gawan</l>
          <l xml:id="ok_377.12">Niht vnbehuͦt wolten <subst hand="#sr">
                <del>han</del>
@@ -22706,7 +22703,7 @@
          <l xml:id="ok_384.10">Dannoch do mer noch ẏm erging</l>
          <l xml:id="ok_384.11">Sicherheit er nit erlieſz</l>
          <note resp="#MiGe_Gegenleser" target="#ok_384.11 #ok271v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sicherheit</a>: Kringel über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a>. Vermutlich später ergänzt. Funktion unbekannt.</note>
+            <ref>Sicherheit</ref>: Kringel über <ref>r</ref>. Vermutlich später ergänzt. Funktion unbekannt.</note>
          <l xml:id="ok_384.12">
             <subst hand="#sr">
                <del>
@@ -22798,7 +22795,7 @@
                <del>Stucket</del>
                <add>Stucke</add>
             </subst> dem helm durch den arm</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_385.21-k #ok272r">: Der kontrahierte Vers könnte auf eine Augenabirrung zurückzuführen sein, denn <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">stückeht</a> zu Beginn von 385.19 und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">daz steckete</a> zu Beginn von 385.21 in *m können beim Abschreiben leicht verwechselt werden.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_385.21-k #ok272r">: Der kontrahierte Vers könnte auf eine Augenabirrung zurückzuführen sein, denn <ref>stückeht</ref> zu Beginn von 385.19 und <ref>daz steckete</ref> zu Beginn von 385.21 in *m können beim Abschreiben leicht verwechselt werden.</note>
          <l xml:id="ok_385.22">Blut vnd ſweiſz ẏm machte war<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -23275,7 +23272,7 @@
                   </choice>r</add>
             </subst> von der ſtat</l>
          <note resp="#brusa_Transkribent" target="#ok_393.15 #ok277r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">inner</a>: Strich mit unklarer Bedeutung über dem Wort. Evtl. Korrektur oder Verdeutlichung durch den Leser?</note>
+            <ref>inner</ref>: Strich mit unklarer Bedeutung über dem Wort. Evtl. Korrektur oder Verdeutlichung durch den Leser?</note>
          <l xml:id="ok_393.16">Des furſten <subst hand="#sr">
                <del>marc</del>
                <add>marſchalck</add>
@@ -26005,8 +26002,8 @@
          <l xml:id="ok_433.01">
             <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">G</seg>Vt uff wem búr ſit ir</l>
          <note resp="#GVi_Transkribent" target="#ok_433.01 #ok305r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">búr</a>: Lesung in Hinblick auf nk gewählt, statt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">b</a> wäre unter Umständen <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h</a> möglich, statt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">úr</a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">in</a>.</note>
+            <ref>búr</ref>: Lesung in Hinblick auf nk gewählt, statt <ref>b</ref> wäre unter Umständen <ref>h</ref> möglich, statt <ref>úr</ref>
+            <ref>in</ref>.</note>
          <l xml:id="ok_433.02">Jch wil he<choice>
                <am>̉</am>
                <ex>r</ex>
@@ -26608,7 +26605,7 @@
          <cb xml:id="ok311ra"/>
          <l xml:id="ok_442.06">Wan das ich hoͯhen komer klage trage</l>
          <note resp="#GVi_Transkribent" target="#ok_442.06 #ok311">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">klage</a>: Wort eventuell vom Schreiber gestrichen, ist aber aufgrund der verblassten Tinte nicht mehr festzustellen. Es ließe sich höchstens noch eine Kontur erkennen, die aber keineswegs sicher für Streichung spricht.</note>
+            <ref>klage</ref>: Wort eventuell vom Schreiber gestrichen, ist aber aufgrund der verblassten Tinte nicht mehr festzustellen. Es ließe sich höchstens noch eine Kontur erkennen, die aber keineswegs sicher für Streichung spricht.</note>
          <l xml:id="ok_442.07">Dan e <add hand="#sr">ma<choice>
                   <am>̄</am>
                   <ex>n</ex>
@@ -27366,11 +27363,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#453.23 #01_ok318v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen.</note>
          <l xml:id="ok_453.23-02">
@@ -27480,7 +27477,7 @@
          <l xml:id="ok_455.11">Zuͦ franckerich vnd in ir lant</l>
          <l xml:id="ok_455.12">Zuͦ anſchowe er die mer fant</l>
          <note resp="#SKl_Transkribent" target="#ok_455.12 #ok320r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">anſchowe er</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e er</a> eventuell vom Leser nachgezogen.</note>
+            <ref>anſchowe er</ref>: <ref>e er</ref> eventuell vom Leser nachgezogen.</note>
          <l xml:id="ok_455.13">Er laſz von mazadan</l>
          <l xml:id="ok_455.14">Mit worheit ſuͯnder wan</l>
          <l xml:id="ok_455.15">V<choice>
@@ -27562,7 +27559,7 @@
          <l xml:id="ok_456.27">Die in aldar hetten gewiſen</l>
          <l xml:id="ok_456.28">Wie die ſin raten priſen</l>
          <note resp="#SKl_Gegenleser" target="#ok_456.28 #ok321">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">raten</a>: a vmtl. von Leser nachgezogen.</note>
+            <ref>raten</ref>: a vmtl. von Leser nachgezogen.</note>
          <l xml:id="ok_456.29">Do ſprach er herre nuͯ gebt mir rat</l>
          <l xml:id="ok_456.30">Jch bin ey<choice>
                <am>̄</am>
@@ -27876,7 +27873,7 @@
          <l xml:id="ok_461.10">Wan er iſt miner ſorgen dote</l>
          <l xml:id="ok_461.11">Die hett er alle zuͦ hohe erhaben</l>
          <note resp="#SKl_Transkribent" target="#ok_461.11 #ok324r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zuͦ hohe</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zuͦ h</a> eventuell vom Leser nachgezogen.</note>
+            <ref>zuͦ hohe</ref>: <ref>zuͦ h</ref> eventuell vom Leser nachgezogen.</note>
          <l xml:id="ok_461.12">Mẏn freuide iſt lebendig begraben</l>
          <l xml:id="ok_461.13">Konde gottes crafft mit helffe ſin</l>
          <l xml:id="ok_461.14">Was ankers waſz die freuͯide mẏ<choice>
@@ -28472,12 +28469,12 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#ok_471.12 #ok329r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>bot</del>
                   <add>guͦt</add>
                </subst>
-            </a>: Wort zusätzlich vom Rubrikator gestrichen.</note>
+            </ref>: Wort zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="ok_471.13">Wan ẏm erſtirbet hie das leben</l>
          <l xml:id="ok_471.14">So wúrt in dort der wunſch gegeben</l>
          <l xml:id="ok_471.15">Die entwider halp geſtuͯnden</l>
@@ -28566,9 +28563,9 @@
             </subst> im <unclear reason="Zweifel">miel</unclear>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_472.18 #ok330r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">miel</unclear>
-            </a>: Grossteil des Wortes kaum zu erkennen.</note>
+            <ref>
+               <unclear reason="Zweifel">miel</unclear>
+            </ref>: Grossteil des Wortes kaum zu erkennen.</note>
          <l xml:id="ok_472.19">Do er das mer<unclear reason="Zweifel">i</unclear> gedacht</l>
          <l xml:id="ok_472.20">Das er do mit rede follebracht</l>
          <l xml:id="ok_472.21">Do ſprach er herre ey<choice>
@@ -29457,9 +29454,9 @@
                <ex>er</ex>
             </choice>gas</l>
          <note resp="#GVi_Transkribent" target="#ok_485.23 #ok339v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">ſprach</del>
-            </a>: Wort zusätzlich vom Rubrikator gestrichen.</note>
+            <ref>
+               <del hand="#sr">ſprach</del>
+            </ref>: Wort zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="ok_485.24">Wie vil er grúb die kein er as</l>
          <l xml:id="ok_485.25">Der wurcz fúr der none</l>
          <l xml:id="ok_485.26">An die ſtuden ſchoͯne</l>
@@ -30462,12 +30459,12 @@
                <add>din</add>
             </subst> arbeit hie erholt</l>
          <note resp="#SiLa_Gegenleser" target="#ok_499.29 #ok349r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>din</add>
                </subst>
-            </a>: Federansatz zusätzlich vom Leser gestrichen.</note>
+            </ref>: Federansatz zusätzlich vom Leser gestrichen.</note>
          <l xml:id="ok_499.30">Das dort die ſele ruwe dolt</l>
          <pb xml:id="ok349v"/>
          <cb xml:id="ok349va"/>
@@ -31927,7 +31924,7 @@
             </choice>
          </l>
          <note resp="#JKl_Transkribent" target="#ok_519.19 #ok364v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kunne</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> nachträglich vom Leser verdeutlicht.</note>
+            <ref>kunne</ref>: <ref>u</ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_519.20">Dem der gral iſt vndertan</l>
          <l xml:id="ok_519.21">Sie ſante ir cleinote dar</l>
          <l xml:id="ok_519.22">Zweẏ menſch wunderlich gefar</l>
@@ -32095,12 +32092,12 @@
             </subst>
          </l>
          <note resp="#JKl_Transkribent" target="#ok_522.09 #ok366v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>war</del>
                   <add>wal</add>
                </subst>
-            </a>: JKl für r zu l, MiGe für l zu r; JKl: Tinte beim r entspricht der bei wa, l scheint später mit hellerer tinte hinzugefügt worden zu sein; MiGe: "wal" zu "war", weil das "r" etwas dunkler aussieht und eventuell später noch einmal nachgezogen wurde.</note>
+            </ref>: JKl für r zu l, MiGe für l zu r; JKl: Tinte beim r entspricht der bei wa, l scheint später mit hellerer tinte hinzugefügt worden zu sein; MiGe: "wal" zu "war", weil das "r" etwas dunkler aussieht und eventuell später noch einmal nachgezogen wurde.</note>
          <l xml:id="ok_522.10">Hie noͯhen ſtat ey<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -32113,12 +32110,12 @@
                <add>frúndein</add>
             </subst> rinczit</l>
          <note resp="#JKl_Transkribent" target="#ok_522.14 #ok366v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>frúnden</del>
                   <add>frúndein</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ú</a> nachträglich vom Leser verdeutlicht.</note>
+            </ref>: <ref>ú</ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_522.15">Han wir noch ſten al ſtarckes <subst hand="#sr">
                <del>roe</del>
                <add>hie</add>
@@ -32267,7 +32264,7 @@
          <l xml:id="ok_525.11">Gawan ſprach es kam alſo</l>
          <l xml:id="ok_525.12">Der konig artuͯs der was do</l>
          <note resp="#JKl_Transkribent" target="#ok_525.12 #ok368r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> nachträglich vom Leser verdeutlicht.</note>
+            <ref>der</ref>: <ref>e</ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_525.13">Jn der ſtat zuͦ diananczẏm</l>
          <l xml:id="ok_525.14">Mit ÿm do manigen britẏm</l>
          <l xml:id="ok_525.15">Do wart eẏn frowe dar geſant</l>
@@ -32304,15 +32301,15 @@
                <ex>n</ex>
             </choice>ſt komen</l>
          <note resp="#JKl_Transkribent" target="#ok_526.04 #ok368v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">die<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>die<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>ſt</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <choice xmlns="http://www.tei-c.org/ns/1.0">
+               </choice>ſt</ref>: <ref>
+               <choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a> nachträglich vom Leser verdeutlicht.</note>
+            </ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_526.05">Jr kuſchliche magtuͯm</l>
          <l xml:id="ok_526.06">Aúch bezalt er do vil kleinen ruͯm</l>
          <l xml:id="ok_526.07">Gegen ir <unclear reason="Zweifel">v</unclear>nwerlichen hant</l>
@@ -32469,7 +32466,7 @@
          <l xml:id="ok_529.08">Aldo es der frowen geſchach</l>
          <l xml:id="ok_529.09">Vnd es ſich hett an mich gezoͯget</l>
          <note resp="#JKl_Transkribent" target="#ok_529.09 #ok370v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mich</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> nachträglich vom Leser verdeutlicht.</note>
+            <ref>mich</ref>: <ref>i</ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_529.10">Jch bin nu vwer beider voget</l>
          <l xml:id="ok_529.11">Vnd enweis wer ir beide ſint</l>
          <l xml:id="ok_529.12">Er muͯs daru<choice>
@@ -32549,7 +32546,7 @@
                <ex>n</ex>
             </choice>n</l>
          <note resp="#JKl_Transkribent" target="#ok_530.6 #ok371r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hinnan</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a>-Punkt nachträglich vom Leser verdeutlicht.</note>
+            <ref>hinnan</ref>: <ref>i</ref>-Punkt nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_530.07">Al nach vwerm rate</l>
          <pb xml:id="ok371v"/>
          <cb xml:id="ok371va"/>
@@ -33060,7 +33057,7 @@
          <l xml:id="ok_537.29">Von alſo manigen groſzen ſlage</l>
          <l xml:id="ok_537.30">Sus rungen ſie noch priſes beiage</l>
          <note resp="#JKl_Transkribent" target="#ok_537.30 #ok376r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rungen</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> nachträglich vom Leser verdeutlicht.</note>
+            <ref>rungen</ref>: <ref>u</ref> nachträglich vom Leser verdeutlicht.</note>
          <l xml:id="ok_538.01">Wer ſolt ſie daru<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -35781,11 +35778,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#577.25 #01_ok401v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen.</note>
          <l xml:id="ok_577.25-02">
@@ -36576,7 +36573,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#ok_587.27 #ok408r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnſanfft erbitten</a>: der i-Punkt ist nachgetragen.</note>
+            <ref>vnſanfft erbitten</ref>: der i-Punkt ist nachgetragen.</note>
          <l xml:id="ok_587.28">Er het do vor dick erlitten</l>
          <l xml:id="ok_587.29">Mit ſwerten manigen ſcharffen ſtrit</l>
          <l xml:id="ok_587.30">Sanffter da<choice>
@@ -36691,14 +36688,14 @@
          <l xml:id="ok_589.16">Die kuͯnſt wer ẏm vnbekant</l>
          <l xml:id="ok_589.17">Es was geworcht mit liſte</l>
          <note resp="#CG_Gegenleser" target="#ok_589.17 #ok409r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geworcht</a>: Das "o" wurde nachgebessert durch den Leser.</note>
+            <ref>geworcht</ref>: Das "o" wurde nachgebessert durch den Leser.</note>
          <l xml:id="ok_589.18">Adomas vnd amatiſte</l>
          <note resp="#CG_Gegenleser" target="#ok_589.18 #ok409r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Adomas</a>: Das "dom" wurde nachgebessert durch den Leser.</note>
+            <ref>Adomas</ref>: Das "dom" wurde nachgebessert durch den Leser.</note>
          <l xml:id="ok_589.19">Die afentúre vnſz wiſſen lat</l>
          <l xml:id="ok_589.20">Thopacie vnd granat</l>
          <note resp="#CG_Gegenleser" target="#ok_589.20 #ok409r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnd</a>: Das "d" wurde nachgebessert durch den Leser.</note>
+            <ref>vnd</ref>: Das "d" wurde nachgebessert durch den Leser.</note>
          <pb xml:id="ok409v"/>
          <cb xml:id="ok409va"/>
          <l xml:id="ok_589.21">Criſolite vnd rúbẏne</l>
@@ -36768,9 +36765,9 @@
                </add>
             </subst> tochter zwo</l>
          <note resp="#MiGe_Gegenleser" target="#ok_590.19 #ok410r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <gap xmlns="http://www.tei-c.org/ns/1.0"/>
-            </a>: del-Tag um dochter statt <gap/> wird beim XML-Export als Fehler angezeigt (15.11.2018).</note>
+            <ref>
+               <gap/>
+            </ref>: del-Tag um dochter statt <gap/> wird beim XML-Export als Fehler angezeigt (15.11.2018).</note>
          <l xml:id="ok_590.20">Die gingen alle vier zuͦ</l>
          <l xml:id="ok_590.21">Gawan ſprang úff do er ſie ſach</l>
          <l xml:id="ok_590.22">Die konige arniwe ſprach</l>
@@ -36893,12 +36890,12 @@
                <add>wene</add>
             </subst> das one ir willen</l>
          <note resp="#SiLa_Gegenleser" target="#ok_592.20 #ok 411r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>d</del>
                   <add>wene</add>
                </subst>
-            </a>: Das "d" wurde zusätzlich durch den Leser getilgt.</note>
+            </ref>: Das "d" wurde zusätzlich durch den Leser getilgt.</note>
          <pb xml:id="ok411v"/>
          <cb xml:id="ok411va"/>
          <l xml:id="ok_592.21-01">
@@ -37151,7 +37148,7 @@
          <l xml:id="ok_595.28">Der waſz turckel auch genuͦg</l>
          <l xml:id="ok_595.29">Vff das ros ſas her gawan</l>
          <note resp="#SiLa_Gegenleser" target="#ok_595.29 #ok413v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vff</a>: Gekritzel oder Fleck vor "Vff"; nicht entzifferbar.</note>
+            <ref>Vff</ref>: Gekritzel oder Fleck vor "Vff"; nicht entzifferbar.</note>
          <l xml:id="ok_595.30">Do kert er vo<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -38160,11 +38157,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#611.07 #01_ok423r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus einem ausschmückenden Zeichen.</note>
          <l xml:id="ok_611.07-02">
@@ -38803,7 +38800,7 @@
                <ex>n</ex>
             </choice> in alſo wert</l>
          <note resp="#SiLa_Gegenleser" target="#ok_619.21 #ok429r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wert</a>: "e" vom Leser nachgezogen.</note>
+            <ref>wert</ref>: "e" vom Leser nachgezogen.</note>
          <l xml:id="ok_619.22">An den ir mẏnne habt begert</l>
          <l xml:id="ok_619.23">Hett er uch zuͦ mẏnne erkor<choice>
                <am>̄</am>
@@ -38848,10 +38845,10 @@
                <ex>a</ex>
             </choice>z frogen welle</l>
          <note resp="#SiLa_Gegenleser" target="#ok_620.07 #ok429r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>d<choice>
                   <am/>
                   <ex>a</ex>
-               </choice>z</a>: Tag für d(a)z-Kürzung? d<choice>
+               </choice>z</ref>: Tag für d(a)z-Kürzung? d<choice>
                <am>c</am>
                <ex>az</ex>
             </choice>?</note>
@@ -39011,8 +39008,8 @@
                <add>ſolte</add>
             </subst>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#ok_622.19-k #ok430v">: Aufgrund der Korrektur ist hier gesichert, dass eine Augenbirrung von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wolte</a> in 622.19 und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">solte</a> (beides zitiert nach *m) vorliegt. Diese wurde vom Schreiber nicht korrigiert.</note>
-         <note resp="#MiGe_Gegenleser" target="#ok_622.19-k #ok430v">: Die Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wolte</a> (Reimwort in 622.20) zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſolte</a> könnte darauf hinweisen, dass der Schreiber von ok selbst für die meisten 'kleinen Kürzungen' in der Handschrift verantwortlich ist.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_622.19-k #ok430v">: Aufgrund der Korrektur ist hier gesichert, dass eine Augenbirrung von <ref>wolte</ref> in 622.19 und <ref>solte</ref> (beides zitiert nach *m) vorliegt. Diese wurde vom Schreiber nicht korrigiert.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_622.19-k #ok430v">: Die Korrektur von <ref>wolte</ref> (Reimwort in 622.20) zu <ref>ſolte</ref> könnte darauf hinweisen, dass der Schreiber von ok selbst für die meisten 'kleinen Kürzungen' in der Handschrift verantwortlich ist.</note>
          <l xml:id="ok_622.20">Dúrch die er liden wolte</l>
          <l xml:id="ok_622.21">Beide froiude vnd not</l>
          <l xml:id="ok_622.22">Wan ſie ẏm das barel botte</l>
@@ -39052,7 +39049,7 @@
          </l>
          <l xml:id="ok_623.05">Jr búhart wart mit kuͯnſt getan</l>
          <note resp="#SiLa_Gegenleser" target="#ok_623.05 #ok431r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">búhart</a>: "ú" vom Leser nachgezogen.</note>
+            <ref>búhart</ref>: "ú" vom Leser nachgezogen.</note>
          <l xml:id="ok_623.06">Diſe halp hergawan</l>
          <l xml:id="ok_623.07">Danckete dem verigen vnd der <subst hand="#sr">
                <del>dockter</del>
@@ -39194,12 +39191,12 @@
                <add>buhurt</add>
             </subst> hette ere</l>
          <note resp="#SiLa_Gegenleser" target="#ok_624.19 #ok432r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>buhurt</del>
                   <add>buhurt</add>
                </subst>
-            </a>: Korrektur durch den Leser wohl nur zur Verdeutlichung der ursprünglichen Schreibung.</note>
+            </ref>: Korrektur durch den Leser wohl nur zur Verdeutlichung der ursprünglichen Schreibung.</note>
          <l xml:id="ok_624.20">Was mag ich ſprechen mere</l>
          <l xml:id="ok_624.21">Wan das der werde gawan</l>
          <l xml:id="ok_624.22">Vnd die hirczogin wol getan</l>
@@ -40082,10 +40079,10 @@
                <ex>n</ex>
             </choice> dar truͦg</l>
          <note resp="#SiLa_Gegenleser" target="#ok_636.15 #ok440v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>d<choice>
                   <am/>
                   <ex>a</ex>
-               </choice>z</a>: Tag für d(a)z-Kürzung? d<choice>
+               </choice>z</ref>: Tag für d(a)z-Kürzung? d<choice>
                <am>c</am>
                <ex>az</ex>
             </choice>?</note>
@@ -41822,7 +41819,7 @@
                <ex>n</ex>
             </choice> ẏm ſtrecken</l>
          <note resp="#SiLe_Transkribent" target="#ok_661.11 #ok456v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ẏm</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ẏ</a> vom Leser nachgezogen.</note>
+            <ref>ẏm</ref>: <ref>ẏ</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_661.12">Mit rotes felt verdecken</l>
          <l xml:id="ok_661.13"/>
          <l xml:id="ok_661.14"/>
@@ -42762,7 +42759,7 @@
                <ex>m</ex>
             </choice>men ſach</l>
          <note resp="#SiLa_Gegenleser" target="#ok_674.25 #ok464v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ẏm</a>: Ansatz zu einer Leser-Korrektur über dem Wort, die vom Leser selbst wieder getilgt wurde?</note>
+            <ref>ẏm</ref>: Ansatz zu einer Leser-Korrektur über dem Wort, die vom Leser selbst wieder getilgt wurde?</note>
          <l xml:id="ok_674.26">Furen dan mit ẏm an ſin gemach</l>
          <l xml:id="ok_674.27">Sin herberge riche</l>
          <l xml:id="ok_674.28">Stuͯnt ſo ritterliche</l>
@@ -42857,7 +42854,7 @@
          <l xml:id="ok_676.16">Do artus vnd die ſin</l>
          <l xml:id="ok_676.17">Lagen durch die zogten ſie</l>
          <note resp="#SL_Transkribent" target="#ok_676.17 #ok465v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zogten</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> vom Leser nachgezogen.</note>
+            <ref>zogten</ref>: <ref>o</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_676.18">
             <subst hand="#ls1">
                <del>Vns</del>
@@ -42868,12 +42865,12 @@
                <add>anderhalp</add>
             </subst> do gawan hie</l>
          <note resp="#SiLa_Gegenleser" target="#ok_676.18 #ok465v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>d</del>
                   <add>anderhalp</add>
                </subst>
-            </a>: Zusätzlich vom Leser getilgt.</note>
+            </ref>: Zusätzlich vom Leser getilgt.</note>
          <l xml:id="ok_676.19">Lag mit witem ringe</l>
          <l xml:id="ok_676.20">Wer ſol ie helff ertwinge</l>
          <l xml:id="ok_676.21">Mit ſiner ellenthafften hant</l>
@@ -43087,7 +43084,7 @@
                <ex>n</ex>
             </choice>n</l>
          <note resp="#SiLa_Gegenleser" target="#ok_679.05 #ok467v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">angſt</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſt</a> vom Leser nachgezogen.</note>
+            <ref>angſt</ref>: <ref>ſt</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_679.06">Das wil ich úſz den ſorge<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -43185,7 +43182,7 @@
             </subst> nie enpfing</l>
          <l xml:id="ok_680.10">Nuͯ hoͯrent wie die juͯſte erging</l>
          <note resp="#SiLa_Gegenleser" target="#ok_680.10 #ok468v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">erging</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> vom Leser nachgezogen.</note>
+            <ref>erging</ref>: <ref>e</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_680.11">Hurteclich vnd doch alſo</l>
          <l xml:id="ok_680.12">Sin mochtens beide ſin vnfro</l>
          <l xml:id="ok_680.13">Erkante ſippe vnd hoͯhen geſelleſchafft</l>
@@ -43464,12 +43461,12 @@
             </subst>
          </l>
          <note resp="#SiLa_Gegenleser" target="#ok_684.06 #ok470v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>gewan</del>
                   <add>getan</add>
                </subst>
-            </a>: Zusätzlich vom Leser zur Verdeutlichung nachgezogen.</note>
+            </ref>: Zusätzlich vom Leser zur Verdeutlichung nachgezogen.</note>
          <l xml:id="ok_684.07">Er mochte der tafelruͯnder</l>
          <l xml:id="ok_684.08">Doch genieſſen ſunder</l>
          <pb xml:id="ok471r"/>
@@ -44234,7 +44231,7 @@
             </choice> bruͦder waſz</l>
          <l xml:id="ok_694.12">Der do ſolt ſtriten uff dem gras</l>
          <l xml:id="ok_694.13-k">Do zugen jamers ruwe</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_694.13-k #ok477r">: Der kontrahierte Vers könnte auf eine Augenabirrung zurückzuführen sein, da <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ruoder</a> in 694.13 und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">riuwe</a> in 694.15 leicht verwechselt werden können.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_694.13-k #ok477r">: Der kontrahierte Vers könnte auf eine Augenabirrung zurückzuführen sein, da <ref>ruoder</ref> in 694.13 und <ref>riuwe</ref> in 694.15 leicht verwechselt werden können.</note>
          <l xml:id="ok_694.14"/>
          <l xml:id="ok_694.15-k"/>
          <l xml:id="ok_694.16">Wan ſie <subst hand="#sr">
@@ -44972,7 +44969,7 @@
          <l xml:id="ok_706.13">Sús enpfing der konig gramolancz</l>
          <l xml:id="ok_706.14">Súren zins fúr ſinen krancz</l>
          <note resp="#SiLa_Gegenleser" target="#ok_706.14 #ok484r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Súren</a>: Vermutlich zur Verdeutlichung vom Leser nachgezogen.</note>
+            <ref>Súren</ref>: Vermutlich zur Verdeutlichung vom Leser nachgezogen.</note>
          <l xml:id="ok_706.15">Siner <subst hand="#ls1">
                <del>fruͯindeme</del>
                <add>fruͯindeine</add>
@@ -45041,12 +45038,12 @@
                <add>mochte</add>
             </subst> rechte zit</l>
          <note resp="#SiLa_Gegenleser" target="#ok_707.10 #ok484v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>d</del>
                   <add>mochte</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mo</a> vom Leser zusätzlich nachgezogen.</note>
+            </ref>: <ref>mo</ref> vom Leser zusätzlich nachgezogen.</note>
          <l xml:id="ok_707.11">Gramolanczes der ſo ſprach</l>
          <l xml:id="ok_707.12">Das er dem ſigen jach</l>
          <l xml:id="ok_707.13">Den ma<choice>
@@ -45243,7 +45240,7 @@
          <cb xml:id="ok486va"/>
          <l xml:id="ok_710.14">Vnd des nit laſſen woltent</l>
          <note resp="#AB_Transkribent" target="#ok_710.14 #ok486v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nit</a>: vom Leser nachgezogen.</note>
+            <ref>nit</ref>: vom Leser nachgezogen.</note>
          <l xml:id="ok_710.15">Do braſt ir jamer durch die ſcheme</l>
          <l xml:id="ok_710.16">Wen ir komers nuͯ gezeme</l>
          <l xml:id="ok_710.17">Der tú es one mẏnen rat</l>
@@ -46054,19 +46051,19 @@
                <add>fuͯ*en</add>
             </subst> dan</l>
          <note resp="#AB_Transkribent" target="#ok_720.21 #ok492v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>fuͯren</del>
                   <add>fuͯ*en</add>
                </subst>
-            </a>: Korrektur durch den Leser schwer zu interpretieren.</note>
+            </ref>: Korrektur durch den Leser schwer zu interpretieren.</note>
          <note resp="#MiGe_Gegenleser" target="#ok_720.21 #ok492v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>fuͯren</del>
                   <add>fuͯ*en</add>
                </subst>
-            </a>: Über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">f</a> befindet sich ein zirkumflexähnlicher Bogen. Seine Funktion ist unklar.</note>
+            </ref>: Über dem <ref>f</ref> befindet sich ein zirkumflexähnlicher Bogen. Seine Funktion ist unklar.</note>
          <l xml:id="ok_720.22">Artus hielt allein uͯff dem <sic>plam</sic>
          </l>
          <l xml:id="ok_720.23">Bene vnd die zweẏ kindelin</l>
@@ -46161,7 +46158,7 @@
                   </choice>s</add>
             </subst> lottes kint</l>
          <note resp="#SiLa_Gegenleser" target="#ok_722.13 #ok493v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lottes</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">tt</a> vom Leser nachgezogen.</note>
+            <ref>lottes</ref>: <ref>tt</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_722.14">Do gedacht er hercz nuͯ vint</l>
          <pb xml:id="ok494r"/>
          <cb xml:id="ok494ra"/>
@@ -46532,7 +46529,7 @@
                <am>̄</am>
                <ex>n</ex>
             </choice>n</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_728.09-k #ok497v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 728.08 enthält <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Artuse</a> und 728.09 <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Artus</a> (beides zitiert nach mk).</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_728.09-k #ok497v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 728.08 enthält <ref>Artuse</ref> und 728.09 <ref>Artus</ref> (beides zitiert nach mk).</note>
          <l xml:id="ok_728.10">Dis mer bracht wieder dan</l>
          <l xml:id="ok_728.11">Do muͯſt er konig gramolancz</l>
          <l xml:id="ok_728.12">Verkieſen vmb ſinen krancz</l>
@@ -46594,12 +46591,12 @@
                <add>Sangwe</add>
             </subst> vnd cundrie</l>
          <note resp="#AB_Transkribent" target="#ok_729.03 #ok498r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>Sanwe</del>
                   <add>Sangwe</add>
                </subst>
-            </a>: Verdeutlichung der Schreiberkorrektur durch den Leser.</note>
+            </ref>: Verdeutlichung der Schreiberkorrektur durch den Leser.</note>
          <l xml:id="ok_729.04">Die hett artus gebetten e</l>
          <l xml:id="ok_729.05">An diſer ſuͯne degeding</l>
          <l xml:id="ok_729.06">Wer pruͯfet das fúr cleinne ding</l>
@@ -46819,7 +46816,7 @@
          </l>
          <l xml:id="ok_733.05">Mit froiden helff ergeilett</l>
          <note resp="#MiGe_Gegenleser" target="#ok_733.05 #ok500v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ergeilett</a>: Teile von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">tt</a> wurden von ls1 nachgezogen.</note>
+            <ref>ergeilett</ref>: Teile von <ref>tt</ref> wurden von ls1 nachgezogen.</note>
          <l xml:id="ok_733.06">Sit ich des bin verteilet</l>
          <l xml:id="ok_733.07">Jch enruͯch nú waſz mir geſchicht</l>
          <l xml:id="ok_733.08">Got wil mẏner <subst hand="#ls1">
@@ -46938,7 +46935,7 @@
                <ex>n</ex>
             </choice> kuͯnſt nit verdirbet</l>
          <note resp="#GVi_Transkribent" target="#ok_734.16 #ok501r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">verdirbet</a>: i-Punkt vom Korrektor nachgetragen.</note>
+            <ref>verdirbet</ref>: i-Punkt vom Korrektor nachgetragen.</note>
          <pb xml:id="ok501v"/>
          <cb xml:id="ok501va"/>
          <l xml:id="ok_734.17">Jch ſage alreſt ſin arbeit</l>
@@ -47045,7 +47042,7 @@
          <l xml:id="ok_735.23">Der wopen rock gab blancken ſchin</l>
          <l xml:id="ok_735.24">Jn dem berge zu agramontin</l>
          <note resp="#GVi_Transkribent" target="#ok_735.24 #ok502r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">agramontin</a>: Erstes <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> vom Leser nachgezogen.</note>
+            <ref>agramontin</ref>: Erstes <ref>n</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_735.25">Die <subst hand="#ls1">
                <del>turlin</del>
                <add>tÿrlin</add>
@@ -47063,16 +47060,16 @@
          <l xml:id="ok_736.03">Es gaben auch meiſtig alle wip</l>
          <l xml:id="ok_736.04">Do mit der heiden ſinen lip</l>
          <note resp="#GVi_Transkribent" target="#ok_736.04 #ok502r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">heiden</a>: Ein zweiter i-Punkt vom Leser nachgetragen.</note>
+            <ref>heiden</ref>: Ein zweiter i-Punkt vom Leser nachgetragen.</note>
          <l xml:id="ok_736.05">Coſtlich zi<choice>
                <am>̄</am>
                <ex>m</ex>
             </choice>mirte</l>
          <note resp="#GVi_Transkribent" target="#ok_736.05 #ok502r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zi<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>zi<choice>
                   <am>̄</am>
                   <ex>m</ex>
-               </choice>mirte</a>: i-Punkt auf zweitem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> vom Leser gesetzt.</note>
+               </choice>mirte</ref>: i-Punkt auf zweitem <ref>i</ref> vom Leser gesetzt.</note>
          <pb xml:id="ok502v"/>
          <cb xml:id="ok502va"/>
          <l xml:id="ok_736.06">
@@ -47084,7 +47081,7 @@
                </add>
             </subst> mẏnne Cundwierte</l>
          <note resp="#GVi_Transkribent" target="#ok_736.06 #ok502v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mẏnne</a>: der möglicherweise von der Rasur beschädigte Anstrich von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">m</a> vom Leser nachgezogen.</note>
+            <ref>mẏnne</ref>: der möglicherweise von der Rasur beschädigte Anstrich von <ref>m</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_736.07">Jn ſin manlich hercz hohen muͦt</l>
          <l xml:id="ok_736.08">Alſo ſie noch dem mẏnne gernde duͦt</l>
          <l xml:id="ok_736.09">Er truͦg auch durch priſes lon</l>
@@ -47111,14 +47108,14 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#ok_736.11 #ok502v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>Welſh</del>
                   <add>Wel<hi rend="rasur">c</hi>h</add>
                </subst>
-            </a>: Möglicherweise doppelte Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſ</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">c</a>, einmal vom Sr ohne Rasur, dann vom Leser mit Rasur.</note>
+            </ref>: Möglicherweise doppelte Korrektur von <ref>ſ</ref> zu <ref>c</ref>, einmal vom Sr ohne Rasur, dann vom Leser mit Rasur.</note>
          <note resp="#GVi_Transkribent" target="#ok_736.11 #ok502v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſint</a>: i-Strich vom Leser nachgetragen.</note>
+            <ref>ſint</ref>: i-Strich vom Leser nachgetragen.</note>
          <l xml:id="ok_736.12">Von des ſelben tuerli<unclear reason="Zweifel">ci</unclear>es crafft</l>
          <l xml:id="ok_736.13">hant ſie lebens dekein friſt</l>
          <l xml:id="ok_736.14">Wan es von ẏn <unclear reason="Zweifel">
@@ -47142,10 +47139,10 @@
                <ex>m</ex>
             </choice>mirde er ſich ſus ſchon</l>
          <note resp="#GVi_Transkribent" target="#ok_736.22 #ok502v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zi<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>zi<choice>
                   <am>̄</am>
                   <ex>m</ex>
-               </choice>mirde</a>: i-Punkte vom Leser nachgetragen, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> verdeutlicht.</note>
+               </choice>mirde</ref>: i-Punkte vom Leser nachgetragen, <ref>e</ref> verdeutlicht.</note>
          <l xml:id="ok_736.23">Sin hohes hercz in des betwang</l>
          <l xml:id="ok_736.24">Das er noch werder mẏnne rang</l>
          <l xml:id="ok_736.25">Der ſelbe werlich knabe</l>
@@ -47251,7 +47248,7 @@
                <ex>n</ex>
             </choice> truren nohe bẏ</l>
          <note resp="#GVi_Transkribent" target="#ok_738.07 #ok503v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">truren</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">t</a> vom Leser verdeutlicht.</note>
+            <ref>truren</ref>: <ref>t</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_738.08">Die freide <subst hand="#sr">
                <del>*</del>
                <add>ietwiederm</add>
@@ -47259,7 +47256,7 @@
          <l xml:id="ok_738.09">Das er des andern herczen truͦg</l>
          <l xml:id="ok_738.10">Jr fremde was heimelich doch genuͦg</l>
          <note resp="#GVi_Transkribent" target="#ok_738.10 #ok503v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">heimelich</a>: Erstes <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> vom Leser durch i-Punkt verdeutlicht.</note>
+            <ref>heimelich</ref>: Erstes <ref>i</ref> vom Leser durch i-Punkt verdeutlicht.</note>
          <l xml:id="ok_738.11"/>
          <l xml:id="ok_738.12"/>
          <l xml:id="ok_738.13"/>
@@ -47308,7 +47305,7 @@
             </subst> ſchier</l>
          <l xml:id="ok_739.16">Ecideman dem tier</l>
          <note resp="#GVi_Transkribent" target="#ok_739.16 #ok704r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dem</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> vom Leser verdeutlicht.</note>
+            <ref>dem</ref>: <ref>e</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_739.17">Wart ettlich wúnde geſlagen</l>
          <l xml:id="ok_739.18">Es mochte der helm dar vnder clage<choice>
                <am>̄</am>
@@ -47369,7 +47366,7 @@
                </add>
             </subst> konigin ſocundille</l>
          <note resp="#GVi_Transkribent" target="#ok_740.10 #ok504v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">konigin</a>: Erster i-Strich vom Leser nachgetragen.</note>
+            <ref>konigin</ref>: Erster i-Strich vom Leser nachgetragen.</note>
          <l xml:id="ok_740.11">Die das lant zuͦ tribalibot</l>
          <l xml:id="ok_740.12">Jm gap die was ſin ſchilt in not</l>
          <l xml:id="ok_740.13">Der heiden nam an ſtrite zuͦ</l>
@@ -47503,7 +47500,7 @@
          <l xml:id="ok_742.17">Die nante ich e vor einen</l>
          <l xml:id="ok_742.18">Suͯs begunden ſis auch meinen</l>
          <note resp="#GVi_Transkribent" target="#ok_742.18 #ok506r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">meinen</a>: i-Punkt vom Leser nachgetragen.</note>
+            <ref>meinen</ref>: i-Punkt vom Leser nachgetragen.</note>
          <l xml:id="ok_742.19">Weren ſie einander bas erkant</l>
          <l xml:id="ok_742.20">Sie <subst hand="#ls1">
                <del>ſaſten</del>
@@ -47654,10 +47651,10 @@
             </choice>n</l>
          <l xml:id="ok_744.30">Din ſtrit wurde one ſwert getan</l>
          <note resp="#GVi_Transkribent" target="#ok_744.30 #ok507v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſtrit</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſ</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">t</a> vom Leser zur Verdeutlichung nachgezogen.</note>
+            <ref>ſtrit</ref>: <ref>ſ</ref> und <ref>t</ref> vom Leser zur Verdeutlichung nachgezogen.</note>
          <l xml:id="ok_745.01">Was priſes beiagte ich dan an dir</l>
          <note resp="#GVi_Transkribent" target="#ok_745.01 #ok507v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Was priſes</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">s</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a> vom Leser nachgezogen.</note>
+            <ref>Was priſes</ref>: <ref>s</ref> und <ref>r</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_745.02">Stant ſtille vnd ſage mir</l>
          <l xml:id="ok_745.03">Werlicher helt wer duͯ <subst hand="#ls1">
                <del>ſis</del>
@@ -47720,7 +47717,7 @@
          <l xml:id="ok_745.24">Sol ich iches betwungenlich wern</l>
          <l xml:id="ok_745.25">Do ſprach der von thaſ<unclear reason="Zweifel">in</unclear>e</l>
          <note resp="#GVi_Transkribent" target="#ok_745.25 #ok508r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">thaſ<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">in</unclear>e</a>: Punkt über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> vom Leser nachgetragen.</note>
+            <ref>thaſ<unclear reason="Zweifel">in</unclear>e</ref>: Punkt über <ref>i</ref> vom Leser nachgetragen.</note>
          <l xml:id="ok_745.26">So wil ich mich nennen <subst hand="#ls1">
                <del>e</del>
                <add>ee</add>
@@ -47781,7 +47778,7 @@
          <l xml:id="ok_746.12">Das ſol ich von erde ſin</l>
          <l xml:id="ok_746.13">Doch iſt mir vor war geſaget</l>
          <note resp="#GVi_Transkribent" target="#ok_746.13 #508v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vor</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">v</a> vom Leser verdeutlicht.</note>
+            <ref>vor</ref>: <ref>v</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_746.14">Das ein helt vnu<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -47961,7 +47958,7 @@
          <l xml:id="ok_748.18">Des priſes mag wol weſen fro</l>
          <l xml:id="ok_748.19">Mẏn crefftig got iupiter</l>
          <note resp="#MiGe_Gegenleser" target="#ok_748.19 #ok510r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">iupiter</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>iupiter</ref>: Das <ref>u</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_748.20">Diſer ſelden waſz my<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -48037,7 +48034,7 @@
          <l xml:id="ok_749.27"/>
          <l xml:id="ok_749.28"/>
          <l xml:id="ok_749.30-r">Vnd ich mich zuͯchte niete</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_749.30-r #ok510v">: Doppelung von Vers 749.30 mit möglichem Anteil aus Vers 749.22, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vnd</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_749.30-r #ok510v">: Doppelung von Vers 749.30 mit möglichem Anteil aus Vers 749.22, <ref>Vnd</ref>.</note>
          <l xml:id="ok_749.29">Das ich uͯch duczen beiten</l>
          <l xml:id="ok_749.30">Wan ich mich ziete niete</l>
          <l xml:id="ok_750.01">Der von thababilot</l>
@@ -48278,12 +48275,12 @@
             </subst>
          </l>
          <note resp="#SiLa_Gegenleser" target="#ok_753.07 #ok513r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>loſt</del>
                   <add>luͯfft</add>
                </subst>
-            </a>: Zusätzlich vom Leser getilgt.</note>
+            </ref>: Zusätzlich vom Leser getilgt.</note>
          <l xml:id="ok_753.08">Mit warheit one triegens guͯfft</l>
          <l xml:id="ok_753.09">
             <subst hand="#ls1">
@@ -48318,10 +48315,10 @@
                <ex>x</ex>
             </choice>ren</l>
          <note resp="#GVi_Gegenleser" target="#ok_753.19 #ok513r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ke<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>ke<choice>
                   <am>̄</am>
                   <ex>x</ex>
-               </choice>ren</a>: Strich über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a>. Zier- oder Nasalstrich?</note>
+               </choice>ren</ref>: Strich über <ref>e</ref>. Zier- oder Nasalstrich?</note>
          <l xml:id="ok_753.20">Geſpiſet wol noch eren</l>
          <l xml:id="ok_753.21">Sint alle ir ſchiff in der habe</l>
          <l xml:id="ok_753.22">Ros noch ma<choice>
@@ -48345,7 +48342,7 @@
          <l xml:id="ok_753.28">Von uwerm werden kunde</l>
          <l xml:id="ok_753.29">Mangen ritter kurtois</l>
          <note resp="#MiGe_Gegenleser" target="#ok_753.29 #ok513v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kurtois</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>kurtois</ref>: Das <ref>u</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_753.30">Artus der britoneis</l>
          <l xml:id="ok_754.01">hett hie bẏ <subst hand="#ls1">
                <del>mir werder</del>
@@ -48449,8 +48446,8 @@
          <l xml:id="ok_755.14">
             <hi>M</hi>an mochte es den vier bruͯten</l>
          <note resp="#SiLa_Gegenleser" target="#ok_755.14 #ok514v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0">M</hi>an</a>: Zeile ist etwas ausgerückt.</note>
+            <ref>
+               <hi>M</hi>an</ref>: Zeile ist etwas ausgerückt.</note>
          <l xml:id="ok_755.15">Nit bas erbieten mit froiden ſitte<hi>
                <choice>
                   <am>̄</am>
@@ -48733,7 +48730,7 @@
          <l xml:id="ok_757.13">Das ſie ẏm gap richeit</l>
          <l xml:id="ok_757.14">Sin hoher pris ir mẏnne erſtreit</l>
          <note resp="#GVi_Gegenleser" target="#ok_757.14 #ok516v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ir</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> vom Leser verdeutlicht.</note>
+            <ref>ir</ref>: <ref>i</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_757.15">Gawan hies des nemen war</l>
          <l xml:id="ok_757.16">Daſz die z<unclear reason="Zweifel">umi</unclear>rde wol gefar</l>
          <l xml:id="ok_757.17">Jndert wurde v<choice>
@@ -48751,7 +48748,7 @@
             </unclear>
          </l>
          <note resp="#GVi_Gegenleser" target="#ok_757.21 #ok516v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">woppen</a>: Wort vom Leser verdeutlicht.</note>
+            <ref>woppen</ref>: Wort vom Leser verdeutlicht.</note>
          <l xml:id="ok_757.22">So túre woren diſe geſtein</l>
          <l xml:id="ok_757.23">An den ſtúcken allen vieren</l>
          <l xml:id="ok_757.24">Hohe mynne <subst hand="#ls1">
@@ -48784,7 +48781,7 @@
          <l xml:id="ok_758.07">Nem du den geſellen din</l>
          <l xml:id="ok_758.08">Mir kuͯnt er treit ſo wehen ſchin</l>
          <note resp="#GVi_Transkribent" target="#ok_758.08 #ok517r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wehen</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">w</a> vom Leser verdeutlicht.</note>
+            <ref>wehen</ref>: <ref>w</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_758.09">Dem iches gliches nie geſach</l>
          <l xml:id="ok_758.10">Parcifal zuͦ gawanen ſprach</l>
          <l xml:id="ok_758.11">Bin ich din mag das iſt auch er</l>
@@ -48895,7 +48892,7 @@
             </subst> wir gerechten kunde</l>
          <l xml:id="ok_759.17">Nu han ich ſin hulde wol</l>
          <note resp="#GVi_Transkribent" target="#ok_759.17 #ok517v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hulde</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a> durch den Leser verdeutlicht.</note>
+            <ref>hulde</ref>: <ref>d</ref> durch den Leser verdeutlicht.</note>
          <pb xml:id="ok518r"/>
          <cb xml:id="ok518ra"/>
          <l xml:id="ok_759.18">Die ich mit dienſte gern erhol</l>
@@ -49004,12 +49001,12 @@
             </subst>
          </l>
          <note resp="#SiLa_Gegenleser" target="#ok_760.29 #ok518v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>ſnúr</del>
                   <add>ſnúr</add>
                </subst>
-            </a>: vom Leser verdeutlicht.</note>
+            </ref>: vom Leser verdeutlicht.</note>
          <l xml:id="ok_760.30">Vnbeſcheidenlich ich fúr</l>
          <l xml:id="ok_761.01">Wolt ich die afentúre hie lan</l>
          <l xml:id="ok_761.02">Do enhort mẏn her gawan</l>
@@ -49511,7 +49508,7 @@
          <l xml:id="ok_768.29">Die was mir ſelben troſtes wer</l>
          <l xml:id="ok_768.30">Dan mẏn got her jupiter</l>
          <note resp="#MiGe_Gegenleser" target="#ok_768.30 #ok522v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">jupiter</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>jupiter</ref>: Das <ref>u</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_769.01">Artus ſprach von dem vatter din</l>
          <l xml:id="ok_769.02">Gamuͯret dem nefen mẏ<choice>
                <am>̄</am>
@@ -49522,7 +49519,7 @@
                <del>wibe</del>
                <add>wibes</add>
             </subst> dienſt wiſſen lan</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_769.04-k #ok522v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 769.04 und 769.05 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dienst</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_769.04-k #ok522v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 769.04 und 769.05 enthalten in *m beide jeweils das Wort <ref>dienst</ref>.</note>
          <l xml:id="ok_769.05-k"/>
          <l xml:id="ok_769.06">Das ſelten groſſer iſt getan</l>
          <l xml:id="ok_769.07">Vff erden keinen wibe</l>
@@ -49641,7 +49638,7 @@
          <l xml:id="ok_770.22">Vnd der groffe ediſſon ẏm</l>
          <l xml:id="ok_770.23"/>
          <l xml:id="ok_770.24-k">Von otropfagante der herczoge archinor</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_770.24-k #ok523v">: Der kontrahierte Vers ist mit grosser Wahrscheinlichkeit auf eine Augenabirrung zurückzuführen, 770.24 enthält <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der herzog</a> und 770.25 <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der herzoge</a> (beides zitiert nach *m).</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_770.24-k #ok523v">: Der kontrahierte Vers ist mit grosser Wahrscheinlichkeit auf eine Augenabirrung zurückzuführen, 770.24 enthält <ref>der herzog</ref> und 770.25 <ref>der herzoge</ref> (beides zitiert nach *m).</note>
          <l xml:id="ok_770.25-k"/>
          <l xml:id="ok_770.26">Von panfatis der grofe aſtor</l>
          <l xml:id="ok_770.27">Die von aczamuͦg vnd von zazamang</l>
@@ -49771,7 +49768,7 @@
          <l xml:id="ok_772.14">Vnd von prefegarcz herczog maragleis</l>
          <l xml:id="ok_772.15">Von pictaton der herczoge ſtrenlas</l>
          <l xml:id="ok_772.16-k">Von lamprion der grofe rohudacht</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_772.16-k #ok524v">: Der kontrahierte Vers ist mit grosser Wahrscheinlichkeit auf eine Augenabirrung zurückzuführen, 772.16 und 772.18 enthalten in *m jeweils <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der grâve</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_772.16-k #ok524v">: Der kontrahierte Vers ist mit grosser Wahrscheinlichkeit auf eine Augenabirrung zurückzuführen, 772.16 und 772.18 enthalten in *m jeweils <ref>der grâve</ref>.</note>
          <l xml:id="ok_772.17"/>
          <l xml:id="ok_772.18-k"/>
          <l xml:id="ok_772.19">Poſtefar von laudruͯdacht</l>
@@ -50051,7 +50048,7 @@
             </choice> lant</l>
          <l xml:id="ok_776.13">Nider gebende nider vnd hoch</l>
          <l xml:id="ok_776.14-k">Als es noch ir ſitt ſich vnder ſchiet</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_776.14-k #ok527r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 776.14 und 776.16 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ir</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_776.14-k #ok527r">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 776.14 und 776.16 enthalten in *m beide jeweils das Wort <ref>ir</ref>.</note>
          <l xml:id="ok_776.15"/>
          <l xml:id="ok_776.16-k"/>
          <l xml:id="ok_776.17">Welich frowe do was ſuͯnder amis</l>
@@ -50192,7 +50189,7 @@
                </add>
             </subst> amis</l>
          <note resp="#GVi_Transkribent" target="#ok_778.02 #ok528r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">amis</a>: i-Punkt vom Leser nachgetragen.</note>
+            <ref>amis</ref>: i-Punkt vom Leser nachgetragen.</note>
          <l xml:id="ok_778.03">Manger durch <subst hand="#ls1">
                <del>gerndes</del>
                <add>ger<choice>
@@ -50411,22 +50408,22 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#ok_780.09 #ok529v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>ſnuring</del>
                   <add>ſnú<choice>
                         <am>̉</am>
                         <ex>r</ex>
                      </choice>ring</add>
                </subst>
-            </a>: Zusätzlich wurde das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a>, welches vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt wurde, von ls1 verdeutlicht.</note>
+            </ref>: Zusätzlich wurde das <ref>u</ref>, welches vom Schreiber wie ein <ref>n</ref> ausgeführt wurde, von ls1 verdeutlicht.</note>
          <l xml:id="ok_780.10">Das warff ſie von ir an den ring</l>
          <l xml:id="ok_780.11"/>
          <l xml:id="ok_780.12"/>
          <l xml:id="ok_780.13"/>
          <l xml:id="ok_780.14">Do wart beſchowet genuͦg</l>
          <note resp="#GVi_Transkribent" target="#ok_780.14 #ok529v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Do</a>: Zeichen über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> mit unklarer Bedeutung, eventuell Supraskript.</note>
+            <ref>Do</ref>: Zeichen über <ref>o</ref> mit unklarer Bedeutung, eventuell Supraskript.</note>
          <l xml:id="ok_780.15">Sie fuͯrte auch noch den ſelben <subst hand="#sr">
                <del>geſch</del>
                <add>lip</add>
@@ -50438,7 +50435,7 @@
                <ex>m</ex>
             </choice>men</l>
          <note resp="#GVi_Transkribent" target="#ok_780.17 #ok529v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sach</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a> vom Leser nachgezogen.</note>
+            <ref>Sach</ref>: <ref>a</ref> vom Leser nachgezogen.</note>
          <l xml:id="ok_780.18">Jr anczlicz ir habt vernomen</l>
          <l xml:id="ok_780.19">Jr augen ſtunden dannoch ſus</l>
          <l xml:id="ok_780.20">Gel als ein thaparius</l>
@@ -50972,8 +50969,8 @@
             </subst>
          </l>
          <note resp="#SiLa_Gegenleser" target="#ok_788.24 #ok535r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>getrage<choice>
                         <am>̄</am>
                         <ex>n</ex>
@@ -50985,7 +50982,7 @@
                      </choice>
                   </add>
                </subst>
-            </a>: Vom Leser verdeutlicht.</note>
+            </ref>: Vom Leser verdeutlicht.</note>
          <l xml:id="ok_788.25">Es wer ẏm liep oder leit</l>
          <l xml:id="ok_788.26">So twang in dez die ſiecheit</l>
          <l xml:id="ok_788.27">Das er die augen úff ſwang</l>
@@ -51007,7 +51004,7 @@
             </choice>n</l>
          <l xml:id="ok_789.05">Das mars oder jupiter</l>
          <note resp="#MiGe_Gegenleser" target="#ok_789.05 #ok535r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">jupiter</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>jupiter</ref>: Das <ref>u</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_789.06">Worent kome<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -51081,7 +51078,7 @@
                <add>vnder</add>
             </subst> ẏm die rich ſeil</l>
          <note resp="#GVi_Transkribent" target="#ok_790.23 #ok536r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Das warent</a>: Oberer Teil der Buchstaben wohl vom Leser nachgezogen.</note>
+            <ref>Das warent</ref>: Oberer Teil der Buchstaben wohl vom Leser nachgezogen.</note>
          <l xml:id="ok_790.24">Er hett an <subst hand="#ls1">
                <del>froiden</del>
                <add>freiden</add>
@@ -51129,7 +51126,7 @@
          <l xml:id="ok_791.13">Cal<unclear reason="Zweifel">ni</unclear>ol vnd jaſpis</l>
          <l xml:id="ok_791.14">Echites vnd jris</l>
          <l xml:id="ok_791.15-k">Jagates vnd enidrius</l>
-         <note resp="#MiGe_Gegenleser" target="#ok_791.15-k #ok536v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 791.15 und 791.18 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">und</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_791.15-k #ok536v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 791.15 und 791.18 enthalten in *m beide jeweils das Wort <ref>und</ref>.</note>
          <l xml:id="ok_791.16"/>
          <l xml:id="ok_791.17"/>
          <l xml:id="ok_791.18-k"/>
@@ -51206,7 +51203,7 @@
          <l xml:id="ok_792.26">Do er die dortel túben ſach</l>
          <l xml:id="ok_792.27">Gleſten ab Cvndrien wat</l>
          <note resp="#MiGe_Gegenleser" target="#ok_792.27 #ok537r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Cvndrien</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">v</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>Cvndrien</ref>: Das <ref>v</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_792.28">Vnſer ſorge ein ende nuͯ hat</l>
          <pb xml:id="ok537v"/>
          <cb xml:id="ok537va"/>
@@ -51269,7 +51266,7 @@
          <l xml:id="ok_794.01">Sie funden folkes vngezalt</l>
          <l xml:id="ok_794.02">Manig wunneclichen ritter alt</l>
          <note resp="#MiGe_Gegenleser" target="#ok_794.02 #ok538r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wunneclichen</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde vom Schreiber wie ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
+            <ref>wunneclichen</ref>: Das <ref>u</ref> wurde vom Schreiber wie ein <ref>n</ref> ausgeführt, weswegen es von ls1 verdeutlicht wurde.</note>
          <l xml:id="ok_794.03">Edel kint vil ſarazine</l>
          <l xml:id="ok_794.04">Die <subst hand="#sr">
                <del>trugen</del>
@@ -51500,9 +51497,9 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#796.28 #1-01_ok540v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> setzt besteht aus zwei ausschmückenden Zeichen.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> setzt besteht aus zwei ausschmückenden Zeichen.</note>
          <l xml:id="ok_796.28-1-02">
             <milestone unit="Bild"/>
          </l>
@@ -51580,7 +51577,7 @@
          <l xml:id="ok_797.26">Alle die engel vnd ir geſelleſchafft</l>
          <l xml:id="ok_797.27">Befindens nẏmer an den ort</l>
          <note resp="#GVi_Gegenleser" target="#ok_797.27 #ok541v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nẏmer</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ẏ</a> eventuell vom Leser verdeutlicht.</note>
+            <ref>nẏmer</ref>: <ref>ẏ</ref> eventuell vom Leser verdeutlicht.</note>
          <l xml:id="ok_797.28"/>
          <l xml:id="ok_797.29">Got iſt vatter vnd <subst hand="#ls1">
                <del>ſ<unclear reason="Zweifel">i</unclear>n</del>
@@ -51667,12 +51664,12 @@
                <add>ſin</add>
             </subst> ſin</l>
          <note resp="#GVi_Gegenleser" target="#ok_798.30 #ok542r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſin gewin</del>
                   <add>ſin</add>
                </subst>
-            </a>: Vermutlich hat der Rubrikator die Durchstreichung des Schreibers nochmals mit roter Tinte nachgezogen.</note>
+            </ref>: Vermutlich hat der Rubrikator die Durchstreichung des Schreibers nochmals mit roter Tinte nachgezogen.</note>
          <l xml:id="ok_799.01">Parcifal zuͦ ſinem ohei<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -51694,7 +51691,7 @@
                <ex>n</ex>
             </choice>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#ok_799.09-k #ok542v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 799.09 und 799.10 enthalten in *m beide jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gegen</a>.</note>
+         <note resp="#MiGe_Gegenleser" target="#ok_799.09-k #ok542v">: Der kontrahierte Vers ist vermutlich auf eine Augenabirrung zurückzuführen, 799.09 und 799.10 enthalten in *m beide jeweils das Wort <ref>gegen</ref>.</note>
          <l xml:id="ok_799.10-k"/>
          <l xml:id="ok_799.11">By dem plimczol ein ander ſtat</l>
          <l xml:id="ok_799.12">Vrlap er ym do geben bat</l>
@@ -51742,7 +51739,7 @@
          <l xml:id="ok_799.26">Vnd wol <hi>g</hi>ehertez rin<hi>g</hi>ez pfla<hi>g</hi>
          </l>
          <note resp="#GVi_Gegenleser" target="#ok_799.26 #ok542v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ringez</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a> eventuell vom Leser verdeutlicht.</note>
+            <ref>ringez</ref>: <ref>r</ref> eventuell vom Leser verdeutlicht.</note>
          <pb xml:id="ok543r"/>
          <cb xml:id="ok543ra"/>
          <l xml:id="ok_799.27">Mit gezelten vmb fangen</l>
@@ -51764,7 +51761,7 @@
                <add>durtel</add>
             </subst> tuben gar</l>
          <note resp="#GVi_Gegenleser" target="#ok_800.04 #543r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sie</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">S</a> vom Leser verdeutlicht.</note>
+            <ref>Sie</ref>: <ref>S</ref> vom Leser verdeutlicht.</note>
          <l xml:id="ok_800.05">Der erſufczet ſin alten lip</l>
          <l xml:id="ok_800.06">
             <hi>W</hi>an ſcoiſanen ſin ſuͯſſes wip</l>
@@ -52164,12 +52161,12 @@
                <ex>n</ex>
             </choice>n</l>
          <note resp="#SiLa_Gegenleser" target="#ok_805.27 #ok546v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>ſuͯn</del>
                   <add>ſuͯn</add>
                </subst>
-            </a>: Vom Leser verdeutlicht.</note>
+            </ref>: Vom Leser verdeutlicht.</note>
          <pb xml:id="ok547r"/>
          <cb xml:id="ok547ra"/>
          <l xml:id="ok_805.28">Do trug man lohelangrin</l>
@@ -52245,12 +52242,12 @@
                <add>de</add>
             </subst> ſcoien ſten</l>
          <note resp="#SiLa_Gegenleser" target="#ok_807.03 #ok547v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>die</del>
                   <add>de</add>
                </subst>
-            </a>: Zusätzlich durch den Leser gestrichen.</note>
+            </ref>: Zusätzlich durch den Leser gestrichen.</note>
          <l xml:id="ok_807.04">Do muͦſte kuſſen vil ergen</l>
          <l xml:id="ok_807.05">Darzuͦ ir mu<choice>
                <am>̄</am>
@@ -52283,9 +52280,9 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#807.11 #02_ok548r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> setzt besteht aus einem schrägen Strich und ggf. zwei Punkten.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> setzt besteht aus einem schrägen Strich und ggf. zwei Punkten.</note>
          <l xml:id="ok_807.11-03">⸿<note type="Kapitelüberschrift">
                <hi rend="rot">D</hi>as lvij Cappittel Alſo der wurt nit <lb/> langer beiten er hies dien here<choice>
                   <am>̄</am>
@@ -52327,9 +52324,9 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#807.11 #08-II">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus einer Art Schlaufe.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus einer Art Schlaufe.</note>
          <l xml:id="ok_807.11-09">⸿<note type="Kapitelüberschrift">
                <hi rend="rot">D</hi>as lxiiij cappittel Alſo parcifal des gra<lb/>les he<choice>
                   <am>̉</am>

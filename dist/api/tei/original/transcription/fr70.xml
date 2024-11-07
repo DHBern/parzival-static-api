@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr70
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr70</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -48,7 +48,7 @@
                             </p>
                   </objectDesc>
                   <objectDesc>
-                     <p xmlns="http://www.w3.org/1999/xhtml">Das Fragment ist verschollen. Abgedruckt wurden nur die Verse 759.1-761.30 in: Algemeene konst- en letterbode 66 [Nieuwe Reeks 1], 1854, Nr. 23, S. 182.</p>
+                     <p>Das Fragment ist verschollen. Abgedruckt wurden nur die Verse 759.1-761.30 in: Algemeene konst- en letterbode 66 [Nieuwe Reeks 1], 1854, Nr. 23, S. 182.</p>
                   </objectDesc>
                </physDesc>
             </msDesc>
@@ -59,18 +59,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>

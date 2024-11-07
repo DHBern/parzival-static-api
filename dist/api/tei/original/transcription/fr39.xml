@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr39
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr39</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -84,18 +84,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -426,7 +426,7 @@
          <l xml:id="fr39_319.18">man muͤſe hie weinen ſchowen</l>
          <pb xml:id="fr39002r"/>
          <cb xml:id="fr39002ra"/>
-         <note resp="#MiGe_Transkribent" target="#fr39_319.24 #39002r">: Ab hier Liniierung, zusätzlich Schreiberwechsel, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">z</a> mit Unterlänge (vgl. dazu Zeitschrift für deutsche Philologie, 1878 Bd. 9, S. 395).</note>
+         <note resp="#MiGe_Transkribent" target="#fr39_319.24 #39002r">: Ab hier Liniierung, zusätzlich Schreiberwechsel, <ref>z</ref> mit Unterlänge (vgl. dazu Zeitschrift für deutsche Philologie, 1878 Bd. 9, S. 395).</note>
          <l xml:id="fr39_319.24">das manz fur groze koſte jach.</l>
          <l xml:id="fr39_319.25">Sin zimier das was riche.</l>
          <l xml:id="fr39_319.26">Gewappent ritterliche.</l>
@@ -653,12 +653,9 @@
          <l xml:id="fr39_323.11">
             <seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>as hohe<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied> pris geneiget ſi.</l>
          <note resp="#MiGe_Gegenleser" target="#fr39_323.11 #Fr39;002va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="nicht_ausgeführt"
-                    n="2">x</seg>
-            </a>: Initiale ist nicht unausgeführt, sondern weggeschnitten, lässt sich aber so am besten in TUSTEP darstellen. Von der Initiale ist einzig ein Teil des roten Fadenwerks erkennbar.</note>
+            <ref>
+               <seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>
+            </ref>: Initiale ist nicht unausgeführt, sondern weggeschnitten, lässt sich aber so am besten in TUSTEP darstellen. Von der Initiale ist einzig ein Teil des roten Fadenwerks erkennbar.</note>
          <l xml:id="fr39_323.12">der Gawan ewicliche iſt bi</l>
          <l xml:id="fr39_323.13">
             <gap reason="Fragmentverlust" extent="unbekannt"/>kerte aldo ſin <supplied reason="unleserlich" resp="Sekundärliteratur">br</supplied>uͦder ſas.</l>
@@ -837,9 +834,9 @@
             </choice>ſagen. <note type="Marginalie">*im</note>
          </l>
          <note resp="#SFa_Gegenleser" target="#fr39_332.07 #39003rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">*im</note>
-            </a>: Zusätzlich Korrekturzeichen am Rand.</note>
+            <ref>
+               <note type="Marginalie">*im</note>
+            </ref>: Zusätzlich Korrekturzeichen am Rand.</note>
          <l xml:id="fr39_332.08">hat er has den wil ich tragen.</l>
          <l xml:id="fr39_332.09">Vrivnt an dines kampfeſ zit.</l>
          <l xml:id="fr39_332.10">do nimt fuͥr dich ein wip den ſtrit.</l>
@@ -920,12 +917,12 @@
                <add>endenke</add>
             </subst> die wile niht an in.</l>
          <note resp="#SiLa_Lektor" target="#fr39_333.21 #39003va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>erd</del>
                   <add>endenke</add>
                </subst>
-            </a>: Zusätzlich vom Rubrikator gestrichen.</note>
+            </ref>: Zusätzlich vom Rubrikator gestrichen.</note>
          <l xml:id="fr39_333.22">ob es im rate ſtolzer ſin.</l>
          <l xml:id="fr39_333.23">Condwiramurs.</l>
          <l xml:id="fr39_333.24">din minneclicher beacurs.</l>
@@ -1164,15 +1161,11 @@
          <l xml:id="fr39_339.11">Mit kampfe do von hete genom<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied>
          </l>
          <note resp="#MiGe_Transkribent" target="#fr39_339.11 #39004rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">genom<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">en</supplied>
-            </a>: Auf der rechten Hälfte des mutmaßlichen <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">m</a> befindet sich eine Art Fleck, vermutlich bestehend aus dunklerer Tinte.</note>
+            <ref>genom<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied>
+            </ref>: Auf der rechten Hälfte des mutmaßlichen <ref>m</ref> befindet sich eine Art Fleck, vermutlich bestehend aus dunklerer Tinte.</note>
          <note resp="#SiLa_Lektor" target="#fr39_339.11 #39004rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">genom<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">en</supplied>
-            </a>: Vermutlich stand hier eine Korrektur durch den Leser (gleiche Tinte wie bei den anderen Leserkorrekturen).</note>
+            <ref>genom<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied>
+            </ref>: Vermutlich stand hier eine Korrektur durch den Leser (gleiche Tinte wie bei den anderen Leserkorrekturen).</note>
          <l xml:id="fr39_339.12">Nv was ovch von a<supplied reason="unleserlich" resp="Sekundärliteratur">rt</supplied>uſe <subst hand="#ls1">
                <del>ko*</del>
                <add>komen</add>
@@ -1202,7 +1195,7 @@
          <l xml:id="fr39_339.25">Fluͥhtig wider geim walde.</l>
          <l xml:id="fr39_339.26">do hiez er guͥrten b<supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied>lde.</l>
          <note resp="#MiGe_Transkribent" target="#fr39_339.26 #39004rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">guͥrten</a>: Nasalstrich über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a>?</note>
+            <ref>guͥrten</ref>: Nasalstrich über <ref>n</ref>?</note>
          <l xml:id="fr39_339.27">Einem orſe das im Orilus.</l>
          <l xml:id="fr39_339.28">Gap. das was genennet ſus.</l>
          <l xml:id="fr39_339.29">Mit den roten ovgen gringulget.</l>
@@ -3346,7 +3339,7 @@
             <hi rend="rot">e</hi>mer als dicke er trat.</l>
          <l xml:id="fr39_567.02">das bette fuͦr von ſiner ſtat.</l>
          <note resp="#MiGe_Transkribent" target="#fr39_567.02 #390011vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">das</a>: Das "d" als erster Buchstabe des Verses wurde fälschlicherweise rubriziert.</note>
+            <ref>das</ref>: Das "d" als erster Buchstabe des Verses wurde fälschlicherweise rubriziert.</note>
          <l xml:id="fr39_567.03">Da es ê was geſtanden.</l>
          <l xml:id="fr39_567.04">Gawane wart enblanden.</l>
          <l xml:id="fr39_567.05">Das er den ſweren ſchilt truͦg.</l>

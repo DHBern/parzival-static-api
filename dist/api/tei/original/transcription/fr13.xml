@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr13
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr13</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -131,22 +131,18 @@
          <l xml:id="fr13_128.18">du ſi in nicht leng<unclear reason="Zweifel">ir</unclear> ſach</l>
          <l xml:id="fr13_128.19">Du wart ir <unclear reason="Zweifel">v</unclear>e<gap reason="unleserlich" extent="unbekannt"/> danne baz</l>
          <note resp="#MiGe_Gegenleser" target="#?1_128.19 #Fr13001ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">v</unclear>e<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="unbekannt"/>
-            </a>: Roethe liest <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">we..st</a>. Kann am Original weder bestätigt noch dementiert werden. Sicher ist aber, dass der erste unlesbare Buchstabe in v oder ein w ist.</note>
+            <ref>
+               <unclear reason="Zweifel">v</unclear>e<gap reason="unleserlich" extent="unbekannt"/>
+            </ref>: Roethe liest <ref>we..st</ref>. Kann am Original weder bestätigt noch dementiert werden. Sicher ist aber, dass der erste unlesbare Buchstabe in v oder ein w ist.</note>
          <l xml:id="fr13_128.20">du vil di vr<unclear reason="Zweifel">o</unclear>we v<unclear reason="Zweifel">a</unclear>lſchis laz</l>
          <l xml:id="fr13_128.21">
             <gap reason="Fragmentverlust" extent="unbekannt"/>
             <supplied reason="unleserlich" resp="Sekundärliteratur">ſneit</supplied>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_128.21 #Fr13001ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">ſneit</supplied>
-            </a>: Roethes Lesung passt zu den noch am Original erkennbaren Oberlängen.</note>
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">ſneit</supplied>
+            </ref>: Roethes Lesung passt zu den noch am Original erkennbaren Oberlängen.</note>
          <cb xml:id="fr13001rb"/>
          <l xml:id="fr13_129.06">
             <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>
@@ -332,17 +328,15 @@
             </unclear>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_131.29 #Fr13001vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">ju<choice>
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">ju<choice>
                      <am>̄</am>
                      <ex>n</ex>
                   </choice>cf</supplied>
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+               <unclear reason="Zweifel">
                   <gap reason="Fragmentverlust" extent="unbekannt"/>
                </unclear>
-            </a>: 30.07.20, Nasalstrich und oberer Teil des Schaf-s sind am Original noch zu erkennen.</note>
+            </ref>: 30.07.20, Nasalstrich und oberer Teil des Schaf-s sind am Original noch zu erkennen.</note>
       </body>
    </text>
 </TEI>

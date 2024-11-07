@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen z
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen z</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -68,18 +68,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -141,7 +141,7 @@
          <note>Transkribiert von JLa im September 2013 ab Farbfotos (Studio).</note>
          <note>Gegengelesen von MiGe ab Farbfotos (Studio) im September 2013.</note>
          <note>Buch VII</note>
-         <note>Spatien zwischen Präfix und Wortstamm werden mit Unterstrich <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">_</a> gekennzeichnet. Sofern regelmäßig rubrizierter Großbuchstabe nach Initiale oder umfangreicher Lombarde folgt sowie nichtrubrizierter Kleinbuchstabe nach Lombarde, wird dies nicht gekenzeichnet.</note>
+         <note>Spatien zwischen Präfix und Wortstamm werden mit Unterstrich <ref>_</ref> gekennzeichnet. Sofern regelmäßig rubrizierter Großbuchstabe nach Initiale oder umfangreicher Lombarde folgt sowie nichtrubrizierter Kleinbuchstabe nach Lombarde, wird dies nicht gekenzeichnet.</note>
          <note>Transkribiert von CK im Juli 2015 ab Farbfotos (Studio).</note>
          <note>Korrigiert von AB im September 2015 ab Farbfotos (Studio).</note>
          <note>Buch VIII</note>
@@ -160,7 +160,7 @@
          <note>Transkribiert von CG am 09.02.2015 ab Farbfotos (Studio).</note>
          <note>Korrigiert von CK am 16.03.2015 ab Farbfotos (Studio).</note>
          <note>Buch XIII</note>
-         <note>Spatien zwischen Präfix und Wortstamm werden mit Unterstrich <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">_</a> gekennzeichnet. Sofern regelmäßig rubrizierter Großbuchstabe nach Initiale oder umfangreicher Lombarde folgt sowie nichtrubrizierter Kleinbuchstabe nach Lombarde, wird dies nicht gekenzeichnet.</note>
+         <note>Spatien zwischen Präfix und Wortstamm werden mit Unterstrich <ref>_</ref> gekennzeichnet. Sofern regelmäßig rubrizierter Großbuchstabe nach Initiale oder umfangreicher Lombarde folgt sowie nichtrubrizierter Kleinbuchstabe nach Lombarde, wird dies nicht gekenzeichnet.</note>
          <note>Wasserschaden</note>
          <note>Transkribiert von CK im Oktober 2015 ab Farbfotos (Studio).</note>
          <note>Gegengelesen von AB im November 2015 ab Farbfotos (Studio).</note>
@@ -4634,11 +4634,8 @@
          <l xml:id="z_129.06">Gein dem forſte <lb/> in <hi rend="rot">B</hi>rezilian.<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#z_129.05 #Z017rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="6">D</seg>a</a>: Die obersten drei Zeilen neben der Initiale stehen leer.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="6">D</seg>a</ref>: Die obersten drei Zeilen neben der Initiale stehen leer.</note>
          <l xml:id="z_129.07">Er qvam an einen bach geriten</l>
          <l xml:id="z_129.08">Den het ein han wol vber_ſchriten</l>
          <l xml:id="z_129.09">Swi da ſtunden blvmen vnd gras</l>
@@ -4940,9 +4937,9 @@
          <l xml:id="z_136.27">Mit trinken vnd mit ezzen</l>
          <l xml:id="z_136.28">Biligens wirt <del hand="#sr">virt</del> ver_gezzen</l>
          <note resp="#MiGe_Gegenleser" target="#z_136.28 #Z018rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">virt</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">virt</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_136.29">Jr enpfahet mer kein gewant</l>
          <l xml:id="z_136.30">Nevr als ich evch ſitzende vant</l>
          <l xml:id="z_137.01">Ewer zovm ſol ſin ein beſtin ſeil</l>
@@ -12229,9 +12226,9 @@
          <l xml:id="z_329.22">Daz ſich maniger ſvndet</l>
          <l xml:id="z_329.23">An mir der weiz <del hand="#sr">niht</del> miner klage</l>
          <note resp="#MiGe_Gegenleser" target="#z_329.23 #Z044rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">niht</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">niht</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_329.24">Vnd ich da bi ſin ſpotten trage</l>
          <l xml:id="z_329.25">
             <seg type="Initiale" subtype="Lombarde" n="10" rend="Farbe: rot">J</seg>
@@ -16795,9 +16792,9 @@
          <l xml:id="z_453.12">Zv dolet ver_worfen ligen vant</l>
          <l xml:id="z_453.13">Jn <del hand="#sr">der</del> heidenniſcher ſchrifte</l>
          <note resp="#MiGe_Gegenleser" target="#z_453.13 #Z061ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">der</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">der</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_453.14">Dirre auentevr geſtifte</l>
          <l xml:id="z_453.15">Der karacter .a. b. c.</l>
          <l xml:id="z_453.16">Mvſt er han gelernet .e.</l>
@@ -18721,7 +18718,7 @@
          <l xml:id="z_506.12">Er begreif der linden aſt</l>
          <l xml:id="z_506.13">Er ſleiz einen lovf drab als ein ror</l>
          <note resp="#MiGe_Transkribent" target="#z_506.13 #Z68rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Vor dem Vers befindet sich eine dünne schleifenähnliche Markierung mit drei Kreisen. Könnte das eine Stellenmarkierung des Korrektors sein, der hier nach einer Arbeitspause wieder einsetzt?</note>
+            <ref/>: Vor dem Vers befindet sich eine dünne schleifenähnliche Markierung mit drei Kreisen. Könnte das eine Stellenmarkierung des Korrektors sein, der hier nach einer Arbeitspause wieder einsetzt?</note>
          <l xml:id="z_506.14">Er was zvr wunden niht ein tor</l>
          <l xml:id="z_506.15">Den ſchob er zvr tioſt in den lip</l>
          <l xml:id="z_506.16">Do bat er ſovgen daz wip</l>
@@ -23205,9 +23202,9 @@
             <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">D</seg>a enbot ouch her gawan</l>
          <l xml:id="z_626.02">Ez were <del hand="#sr">were</del> wip oder man</l>
          <note resp="#MiGe_Gegenleser" target="#z_626.02 #Z084rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">were</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">were</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_626.03">Al der maſſenie gar</l>
          <l xml:id="z_626.04">Daz ſie ir trewen nemen war</l>
          <l xml:id="z_626.05">Vnd dem kunige rieten komen</l>
@@ -26239,9 +26236,9 @@
          </l>
          <l xml:id="z_704.24">Daz <del hand="#sr">man</del> da ver_miſſet were</l>
          <note resp="#MiGe_Gegenleser" target="#z_704.24 #Z095ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">man</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">man</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_704.25">Parcifals des kvnen</l>
          <l xml:id="z_704.26">Ob erz welle ſvnen</l>
          <l xml:id="z_704.27">Dem gebart er vngelich</l>
@@ -27939,13 +27936,9 @@
                <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">D</seg>
             </sic> wol die wip die dich ſvln ſehen</l>
          <note resp="#GVi_Transkribent" target="#z_749.01 #Z100vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="3"
-                    rend="Farbe: blau">D</seg>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> vorgeschrieben.</note>
+            <ref>
+               <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">D</seg>
+            </ref>: <ref>o</ref> vorgeschrieben.</note>
          <l xml:id="z_749.02">Waz den doch ſelden iſt geſchehen</l>
          <l xml:id="z_749.03">Jr ſprechet wol ich ſpriche baz</l>
          <l xml:id="z_749.04">Ob ich daz kvͤnde an allen haz</l>
@@ -28075,9 +28068,9 @@
          <l xml:id="z_751.22">Wan er nach priſe ſtrebte</l>
          <l xml:id="z_751.23">Sinen <del hand="#sr">tu</del> dienſt twanc der wibe lon</l>
          <note resp="#MiGe_Gegenleser" target="#z_751.23 #Z101rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">tu</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">tu</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_751.24">Daz der kvnic Jpomidon</l>
          <l xml:id="z_751.25">Gein im tioſtierens pflac</l>
          <l xml:id="z_751.26">Die tioſt er_gie vor baldac</l>
@@ -28869,9 +28862,9 @@
          <l xml:id="z_774.14">Daz die des morgens ane ſtrit</l>
          <l xml:id="z_774.15">Vf dem <del hand="#sr">dem</del> velde er_gienge</l>
          <note resp="#MiGe_Gegenleser" target="#z_774.15 #Z104ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">dem</del>
-            </a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">dem</del>
+            </ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="z_774.16">Daz man da mit enpfienge</l>
          <l xml:id="z_774.17">Sinen nefen feirefiz</l>
          <l xml:id="z_774.18">An den gewerp legt ewern fliz</l>

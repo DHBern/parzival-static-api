@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen d
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen d</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -71,18 +71,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -236,12 +236,9 @@
                <ex>er</ex>
             </choice>zen nahgebur</l>
          <note resp="#MiGe_Gegenleser" target="#d_1.01 #D005a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="14">I</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="14">I</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="d_1.02">daz muͦz der ſele werden ſur</l>
          <l xml:id="d_1.03">geſmehet unde gezieret.</l>
          <l xml:id="d_1.04">iſt ſwa ſich parrieret.</l>
@@ -1044,7 +1041,7 @@
          <l xml:id="d_17.02"/>
          <l xml:id="d_17.03">ſie tæten ſinen boten chvnt.</l>
          <note resp="#MiGe_Gegenleser" target="#d_17.03 #D009a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſie</a>: Bumke gibt fälschlicherweise an, dass Vers 17.03 mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dâ</a> statt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſie</a> beginnt. Vor diesem Hintergrund dürfte hier eine bruchlose Stelle ohne Veränderungen vorliegen (und nicht wie von ihm angegeben eine mit Veränderungen).</note>
+            <ref>ſie</ref>: Bumke gibt fälschlicherweise an, dass Vers 17.03 mit <ref>dâ</ref> statt <ref>ſie</ref> beginnt. Vor diesem Hintergrund dürfte hier eine bruchlose Stelle ohne Veränderungen vorliegen (und nicht wie von ihm angegeben eine mit Veränderungen).</note>
          <l xml:id="d_17.04">
             <subst hand="#sr">
                <del>*ez</del>
@@ -1054,14 +1051,14 @@
                   </hi>ez</add>
             </subst> were <name ref="rego:o0168" type="Ort">patelamunt</name>.</l>
          <note resp="#MiGe_Gegenleser" target="#d_17.04 #D009a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*ez</del>
                   <add>
                      <hi rend="rasur">
                         <gap/>
                      </hi>ez</add>
-               </subst> were</a>: Die *G-Handschriften tradieren am Versanfang <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſi hieze</a> statt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ez were</a>. Diese Varianz hat wahrscheinlich nichts mit dem fehlenden Verspaar 17.01f. zu tun, deswegen wurde hier kein -a gesetzt.</note>
+               </subst> were</ref>: Die *G-Handschriften tradieren am Versanfang <ref>ſi hieze</ref> statt <ref>ez were</ref>. Diese Varianz hat wahrscheinlich nichts mit dem fehlenden Verspaar 17.01f. zu tun, deswegen wurde hier kein -a gesetzt.</note>
          <l xml:id="d_17.05">daz wart im inneclichen enboten.</l>
          <l xml:id="d_17.06">ſimanten in bi ir goten.</l>
          <cb xml:id="d009b"/>
@@ -18510,7 +18507,7 @@
                   <hi rend="rasur">gehaft</hi>
                </add>
             </subst>.</l>
-         <note resp="#MiGe_Gegenleser" target="#d_385.08 #D111a">: Bumke sieht in 385.08 einen möglichen Kittvers (D n m o überliefern die zwei Plusverse nicht), weil D am Versende <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gehaft</a> tradiert. Er gibt an, dass diese Lesart von m n o gestützt wird, was nicht korrekt ist. Zudem geht er nicht darauf ein, dass <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gehaft</a> auf Rasur steht. Aus diesem Grund wird Vers 385.08 nicht mit -a versehen.</note>
+         <note resp="#MiGe_Gegenleser" target="#d_385.08 #D111a">: Bumke sieht in 385.08 einen möglichen Kittvers (D n m o überliefern die zwei Plusverse nicht), weil D am Versende <ref>gehaft</ref> tradiert. Er gibt an, dass diese Lesart von m n o gestützt wird, was nicht korrekt ist. Zudem geht er nicht darauf ein, dass <ref>gehaft</ref> auf Rasur steht. Aus diesem Grund wird Vers 385.08 nicht mit -a versehen.</note>
          <l xml:id="d_385.09">ein richiv tioſt da geſcach.</l>
          <l xml:id="d_385.10">
             <name ref="regp:p0103" type="Person">Gawan</name> in flvglingen ſtach.</l>
@@ -29178,7 +29175,7 @@
             </choice>ch. ez iſt <name ref="regp:p0057" type="Person">Clinſcors</name> her.</l>
          <l xml:id="d_621.05">di iwͦer chvͦme hant erbiten.</l>
          <note resp="#MiGe_Gegenleser" target="#d_621.05 #D176b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">chvͦme</a>: Neben dem Supraskriptum-o findet sich ein zirkumflexähnliches Zeichen.</note>
+            <ref>chvͦme</ref>: Neben dem Supraskriptum-o findet sich ein zirkumflexähnliches Zeichen.</note>
          <l xml:id="d_621.06">mit freͮde ſi choment nv geriten.</l>
          <l xml:id="d_621.07">
             <subst hand="#sr">
@@ -37120,12 +37117,9 @@
             <name ref="regp:p0017" type="Person">
                <seg type="Initiale" subtype="Prachtinitiale" n="6">A</seg>Nfortas</name> vnt di ſîne.</l>
          <note resp="#MiGe_Gegenleser" target="#d_787.01 #D276b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="6">A</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="6">A</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="d_787.02">noch vor iamer dolten pîne.</l>
          <l xml:id="d_787.03">ir triwe liez in in der not.</l>
          <l xml:id="d_787.04">dich erwarb vmbe ſi den tot.</l>

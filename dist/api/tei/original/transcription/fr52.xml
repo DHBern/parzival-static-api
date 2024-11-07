@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr52
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr52</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -98,9 +98,9 @@
             <note type="Kustode">xvii</note>
          </l>
          <note resp="#JKl_Transkribent" target="#?1_678.15-0 #001ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Kustode">xvii</note>
-            </a>: Bonath schreibt, Blatt war innerstes einer Lage, kann also keine Kustode enthalten.</note>
+            <ref>
+               <note type="Kustode">xvii</note>
+            </ref>: Bonath schreibt, Blatt war innerstes einer Lage, kann also keine Kustode enthalten.</note>
          <l xml:id="fr52_678.15">Al eine reit her gawan</l>
          <l xml:id="fr52_678.16">von dem her v<choice>
                <am>̉</am>
@@ -534,7 +534,7 @@
          <l xml:id="fr52_684.24">
             <gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#?1_684.24 #Fr52002ra">: Rosenfeld gibt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">han doch. so vil wol (?)</a> und "zur unteren Hälft4e abgeschnitten" an. Mit Hilfe des Digitalfaksimiles und Rosenfelds Angabe kann der Vers aber nicht sicher rekonstruiert werden.</note>
+         <note resp="#MiGe_Gegenleser" target="#?1_684.24 #Fr52002ra">: Rosenfeld gibt <ref>han doch. so vil wol (?)</ref> und "zur unteren Hälft4e abgeschnitten" an. Mit Hilfe des Digitalfaksimiles und Rosenfelds Angabe kann der Vers aber nicht sicher rekonstruiert werden.</note>
          <l xml:id="fr52_684.25">
             <gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
@@ -895,17 +895,9 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_690.03 #Fr52002vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">e</supplied>d<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">e</supplied>
-            </a>: Rosenfeld zufolge stand nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">e</supplied>d<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">e</supplied>
-            </a> das Wort <supplied reason="unleserlich" resp="Sekundärliteratur">nv</supplied>. Dies kann mit Hilfe des Digitalfaksimiles weder bestätigt noch dementiert werden.</note>
+            <ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>
+            </ref>: Rosenfeld zufolge stand nach <ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>
+            </ref> das Wort <supplied reason="unleserlich" resp="Sekundärliteratur">nv</supplied>. Dies kann mit Hilfe des Digitalfaksimiles weder bestätigt noch dementiert werden.</note>
          <l xml:id="fr52_690.04">
             <gap reason="unleserlich" extent="unbekannt"/> mochte min her gawan</l>
       </body>

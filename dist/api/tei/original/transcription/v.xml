@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen v
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen v</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -68,18 +68,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -907,7 +907,7 @@
          <pb xml:id="v002r"/>
          <cb xml:id="v002ra"/>
          <l xml:id="v_7.21">Uwer oder denkeines man</l>
-         <note resp="#GVi_Transkribent" target="#v_7.21 #V002ra">: Schreiberwechsel: Schrift ähnlich wie Ls1, aber wohl nicht dieselbe, vgl. die <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">g</a>-Formen.</note>
+         <note resp="#GVi_Transkribent" target="#v_7.21 #V002ra">: Schreiberwechsel: Schrift ähnlich wie Ls1, aber wohl nicht dieselbe, vgl. die <ref>g</ref>-Formen.</note>
          <l xml:id="v_7.22">ſo het ich min gemach getan</l>
          <l xml:id="v_7.23">Dar nach pruͤuent minen pris</l>
          <l xml:id="v_7.24">ir ſint getruwe vnde wis</l>
@@ -931,13 +931,13 @@
             </note>
          </l>
          <note resp="#GVi_Transkribent" target="#v_7.29 #V002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>wirdi</del>
                   <add>wirdi<hi rend="klebung">g</hi>
                   </add>
                </subst>
-            </a>: überklebung wurde wohl aufgrund einer zu exzessiven Rasur der Versoseite nötig (dort jetzt auch Überklebung).</note>
+            </ref>: überklebung wurde wohl aufgrund einer zu exzessiven Rasur der Versoseite nötig (dort jetzt auch Überklebung).</note>
          <l xml:id="v_7.30">etſwa men min gedehte</l>
          <l xml:id="v_8.01">
             <seg type="Initiale"
@@ -1024,9 +1024,9 @@
             </note>
          </l>
          <note resp="#GVi_Transkribent" target="#v_8.24 #V002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="klebung">nv minne ſt</hi>
-            </a>: Überklebung aufgrund von Korrektur der Rückseite?</note>
+            <ref>
+               <hi rend="klebung">nv minne ſt</hi>
+            </ref>: Überklebung aufgrund von Korrektur der Rückseite?</note>
          <l xml:id="v_8.25">Owe vnde het ich uwer <subst hand="#sr">
                <del>kunt</del>
                <add>kunſt</add>
@@ -1093,8 +1093,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_09.05 #V002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>
                      <hi rend="rot">-</hi> herzeklichen holt</del>
                   <add>
@@ -1112,7 +1112,7 @@
                      </subst>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2 bei Oltrogge/Schubert S. 357f.</note>
+            </ref>: Vgl. Beispiel 2 bei Oltrogge/Schubert S. 357f.</note>
          <l xml:id="v_9.06">lieht geſteine rotes golt</l>
          <l xml:id="v_9.07">Lúte wofen. ors gewant</l>
          <l xml:id="v_9.08">des nim ſo vil von miner hant</l>
@@ -1273,14 +1273,14 @@
                   <ex>a</ex>
                </choice>z</unclear> er mir niht geloͮbet</l>
          <note resp="#GVi_Transkribent" target="#v_10.22 #V002rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">d<choice>
+            <ref>
+               <unclear reason="Zweifel">d<choice>
                      <am/>
                      <ex>a</ex>
-                  </choice>z</unclear> er</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">z</a> in der Versalienspalte. Liegt also eventuell Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d<choice xmlns="http://www.tei-c.org/ns/1.0">
+                  </choice>z</unclear> er</ref>: <ref>z</ref> in der Versalienspalte. Liegt also eventuell Korrektur von <ref>der</ref> zu <ref>d<choice>
                   <am/>
                   <ex>a</ex>
-               </choice>z er</a> vor?</note>
+               </choice>z er</ref> vor?</note>
          <l xml:id="v_10.23">Sol ich nv nuwen kvmber haben</l>
          <l xml:id="v_10.24">mins h<choice>
                <am>̉</am>
@@ -1590,13 +1590,13 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_13.09 #V002va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>Doch</del>
                   <add>
                      <hi rend="rasur">Ov</hi>ch</add>
                </subst>
-            </a>: Vgl. Beispiel 2,15 bei Viehhauser-Mery, S. 139.</note>
+            </ref>: Vgl. Beispiel 2,15 bei Viehhauser-Mery, S. 139.</note>
          <l xml:id="v_13.10">das ieman krone truͤge</l>
          <l xml:id="v_13.11">Kvnige keiſer keiſerin</l>
          <l xml:id="v_13.12">der maſſenie. er ſolte ſin</l>
@@ -1668,8 +1668,8 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_13.24 #V002vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>
                      <hi rend="rot">~</hi>hoͮbeten vnderta<choice>
                         <am>̄</am>
@@ -1681,7 +1681,7 @@
                      <hi rend="rasur">ertan</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 1 bei Oltrogge/Schubert S. 357.</note>
+            </ref>: Vgl. Beispiel 1 bei Oltrogge/Schubert S. 357.</note>
          <l xml:id="v_13.25">
             <seg type="Initiale"
                  subtype="Fleuronee"
@@ -2383,7 +2383,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_19.08 #V003va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">*i*rf</a>: Die mittels Reflektographie sichtbar gemachten Oberlängen der Zeile passen zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Ein tambur sluoc</a>. Zudem ist der i-Strich bei <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Ein</a> erkennbar. Vgl. Beispiel 14 bei Oltrogge/Schubert, S. 368f.</note>
+            <ref>*i*rf</ref>: Die mittels Reflektographie sichtbar gemachten Oberlängen der Zeile passen zu <ref>Ein tambur sluoc</ref>. Zudem ist der i-Strich bei <ref>Ein</ref> erkennbar. Vgl. Beispiel 14 bei Oltrogge/Schubert, S. 368f.</note>
          <l xml:id="v_19.09">
             <subst hand="#ls1u">
                <del>*</del>
@@ -2393,7 +2393,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_19.09 #V0003va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">*</a>: Der Text unter der Rasur ist auch mit Hilfe von Reflektographie nicht mehr zu erkennen. Allerdings lässt sich feststellen, dass die Korrektur nach der Rubrizierung vorgenommen wurde. Vgl. Beispiel 14 bei Oltrogge/Schubert, S. 368.</note>
+            <ref>*</ref>: Der Text unter der Rasur ist auch mit Hilfe von Reflektographie nicht mehr zu erkennen. Allerdings lässt sich feststellen, dass die Korrektur nach der Rubrizierung vorgenommen wurde. Vgl. Beispiel 14 bei Oltrogge/Schubert, S. 368.</note>
          <l xml:id="v_19.10">den herren nam vil vntur</l>
          <cb xml:id="v003vb"/>
          <l xml:id="v_19.11">
@@ -2505,13 +2505,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_19.28 #V003vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>ſwen*d*</del>
                   <add>ſwe<hi rend="rasur">r den arzat do gewan</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,17 bei Viehhauser-Mery, S. 139.</note>
+            </ref>: Vgl. Beispiel 2,17 bei Viehhauser-Mery, S. 139.</note>
          <l xml:id="v_19.29">
             <subst hand="#ls1u">
                <del>D*h*ſen</del>
@@ -2814,13 +2814,13 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_22.18 #V004ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>g*pf*</del>
                   <add>
                      <hi rend="rasur">fv́r in ein pfan</hi>t</add>
                </subst>
-            </a>: Vgl. Beispiel 2,18 bei Viehhauser-Mery, s. 139.</note>
+            </ref>: Vgl. Beispiel 2,18 bei Viehhauser-Mery, s. 139.</note>
          <l xml:id="v_22.19">Jch wil uwern furſten ſagen</l>
          <l xml:id="v_22.20">das <subst hand="#ls1u">
                <del>*</del>
@@ -3186,7 +3186,7 @@
                </subst>
             </note>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#v_25.11 #V004va">: Nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zvͦ</a> findet sich ein kleiner, nach rechts oben ausgerichteter Strich. Ihm kommt möglicherweise eine zeilenfüllende Funktion zu.</note>
+         <note resp="#MiGe_Gegenleser" target="#v_25.11 #V004va">: Nach <ref>zvͦ</ref> findet sich ein kleiner, nach rechts oben ausgerichteter Strich. Ihm kommt möglicherweise eine zeilenfüllende Funktion zu.</note>
          <l xml:id="v_25.12">ir ſtrit hat kunſt vnde kraft</l>
          <l xml:id="v_25.13">So hat hie manigen ſoldinier</l>
          <l xml:id="v_25.14">von <hi rend="rot">N</hi>ormandie <hi rend="rot">G</hi>atſchier <note type="Marginalie">
@@ -4403,14 +4403,14 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_34.27 #V006ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">vor ir dar vffe trvͦg</hi>
                   </add>
                </subst>
-            </a>: Unter der Rasur steht wohl <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dar uffe truog</a>. Vgl. Beispiel 2,1 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Unter der Rasur steht wohl <ref>dar uffe truog</ref>. Vgl. Beispiel 2,1 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_34.28">
             <subst hand="#ls1u">
                <del>ſi</del>
@@ -5346,8 +5346,8 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_43.16 #V007rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">L</hi>a*</a>: Unter der Rasur stant <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fili</a> weiter rechts. Vgl. Beispiel 13 bei Oltrogge/Schubert, S. 367.</note>
+            <ref>
+               <hi rend="rot">L</hi>a*</ref>: Unter der Rasur stant <ref>fili</ref> weiter rechts. Vgl. Beispiel 13 bei Oltrogge/Schubert, S. 367.</note>
          <l xml:id="v_43.17">
             <subst hand="#ls1u">
                <del>S*<choice>
@@ -5375,10 +5375,10 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_43.17 #V007rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">S*<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>S*<choice>
                   <am>̄</am>
                   <ex>de</ex>
-               </choice>* </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">in</a> fehlt im Wortlaut unter der Rasur. Vgl. Beispiel 9 bei Oltrogge/Schubert, S. 366.</note>
+               </choice>* </ref>: <ref>in</ref> fehlt im Wortlaut unter der Rasur. Vgl. Beispiel 9 bei Oltrogge/Schubert, S. 366.</note>
          <l xml:id="v_43.18">er ſtach do me denkeinen nider</l>
          <l xml:id="v_43.19">
             <subst hand="#ls1u">
@@ -5388,7 +5388,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_43.19 #V007rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Lachfiliroſt</a>: Vgl. Beispiel 13 bei Oltrogge/Schubert, S. 367.</note>
+            <ref>Lachfiliroſt</ref>: Vgl. Beispiel 13 bei Oltrogge/Schubert, S. 367.</note>
          <l xml:id="v_43.20">ſprach herre ir ſúllent mir machen kunt</l>
          <l xml:id="v_43.21">Hat betwungen uwer hant</l>
          <l xml:id="v_43.22">
@@ -6920,7 +6920,7 @@
             </note>
          </l>
          <note resp="#YCh_Transkribent" target="#v_55.02 #V009ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nv́t als</a>: Überklebung wohl durch die Korrektur auf der Rückseite.</note>
+            <ref>nv́t als</ref>: Überklebung wohl durch die Korrektur auf der Rückseite.</note>
          <l xml:id="v_55.03">
             <subst hand="#ls1u">
                <del>*</del>
@@ -7503,7 +7503,7 @@
                </add>
             </subst>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#60.07 #60.24_V009vb">: Die genannten Verse stehen auf Rasur. Im Vergleich mit der Anzahl Verse in Spalte a im gleichen Abschnitt weist Spalte b zwei Verse mehr auf. Folglich wurden durch die Rasur zwei Verse eingefügt. Dabei handelt es sich um die Verse 60.7f., denn Schubert/Oltrogge zufolge sind unter Vers 60.07 die Ober- und Unterlängen von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">künigin</a> (tritt in Vers 60.09 auf) auszumachen. Vgl. Beispiel 11 bei Oltrogge/Schubert, S. 367.</note>
+         <note resp="#MiGe_Gegenleser" target="#60.07 #60.24_V009vb">: Die genannten Verse stehen auf Rasur. Im Vergleich mit der Anzahl Verse in Spalte a im gleichen Abschnitt weist Spalte b zwei Verse mehr auf. Folglich wurden durch die Rasur zwei Verse eingefügt. Dabei handelt es sich um die Verse 60.7f., denn Schubert/Oltrogge zufolge sind unter Vers 60.07 die Ober- und Unterlängen von <ref>künigin</ref> (tritt in Vers 60.09 auf) auszumachen. Vgl. Beispiel 11 bei Oltrogge/Schubert, S. 367.</note>
          <l xml:id="v_60.08">
             <subst hand="#ls1u">
                <del>*</del>
@@ -7655,11 +7655,11 @@
                <ex>de</ex>
             </choice> ſwerte vil erklenget</l>
          <note resp="#YCh_Transkribent" target="#v_60.26 #V010ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vn<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>vn<choice>
                   <am>̄</am>
                   <ex>de</ex>
                </choice>
-            </a>: Ansatz zur Rubrizierung am Wortanfang, wohl aber nicht zu Ende geführt.</note>
+            </ref>: Ansatz zur Rubrizierung am Wortanfang, wohl aber nicht zu Ende geführt.</note>
          <l xml:id="v_60.27">Ein ſchiffunge an einen plan</l>
          <l xml:id="v_60.28">Gieng v́ber ein waſſerzſtran</l>
          <l xml:id="v_60.29">Mit eineme tor beſloſſen</l>
@@ -8142,7 +8142,7 @@
                  rend="Farbe: rot-violett">H</seg>Je hant die provenzale</l>
          <l xml:id="v_66.30">Schilte wol gemale</l>
          <note resp="#YCh_Transkribent" target="#v_66.30 #V010vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Schilte</a>: Der Anfangsbuchstabe könnte nachträglich hinzugefügt sein.</note>
+            <ref>Schilte</ref>: Der Anfangsbuchstabe könnte nachträglich hinzugefügt sein.</note>
          <l xml:id="v_67.01">Hie ſint die walleẏſe</l>
          <l xml:id="v_67.02">Daz ſv́ behabent die reiſe</l>
          <l xml:id="v_67.03">Durch den pvnd<choice>
@@ -8192,7 +8192,7 @@
                <ex>de</ex>
             </choice> der freche kv́nig. von arragun</l>
          <note resp="#YCh_Transkribent" target="#v_67.14 #V010vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">freche kv́nig</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">k</a> zeigen Rasurspuren an den oberen Schäften. Dass sie aus anderen Buchstaben korrigiert worden sein sollten, lässt sich jedoch nicht erkennen.</note>
+            <ref>freche kv́nig</ref>: <ref>h</ref> und <ref>k</ref> zeigen Rasurspuren an den oberen Schäften. Dass sie aus anderen Buchstaben korrigiert worden sein sollten, lässt sich jedoch nicht erkennen.</note>
          <pb xml:id="v011r"/>
          <cb xml:id="v011ra"/>
          <l xml:id="v_67.15">
@@ -8960,7 +8960,7 @@
                </add>
             </subst> ſnitte ein nuwe leis</l>
          <note resp="#YCh_Transkribent" target="#v_73.15 #V011vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſpern ſnitte</a>: Durch Rasur/Überklebung entstandene Lücke zwischen den beiden Wörtern.</note>
+            <ref>ſpern ſnitte</ref>: Durch Rasur/Überklebung entstandene Lücke zwischen den beiden Wörtern.</note>
          <l xml:id="v_73.16">das w<choice>
                <am/>
                <ex>a</ex>
@@ -9295,13 +9295,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_76.14 #V12rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>der*ſ*h*</del>
                   <add>d<hi rend="rasur">ie ruͦrte din minne lanze</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,2 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Vgl. Beispiel 2,2 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_76.15">Dem helde gap er in die hant</l>
          <l xml:id="v_76.16">einen brief dar an er gruͤſſen vant</l>
          <l xml:id="v_76.17">Vnd ein kleine vingerlin</l>
@@ -11946,14 +11946,14 @@
                </add>
             </subst> geſte pflag men wol zuͦ fromen</l>
          <note resp="#MiGe_Gegenleser" target="#v_100.03 #V015vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>Siner</del>
                   <add>
                      <hi rend="rasur">Der</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,7 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,7 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_100.04">ſwer halt ir wurt were komen <note type="Marginalie">
                <subst hand="#ls1u">
                   <del>+</del>
@@ -14638,12 +14638,9 @@
          <l xml:id="v_112.13">
             <seg type="Initiale" subtype="Prachtinitiale" n="4">S</seg>ines vater froͤde vnd des not</l>
          <note resp="#MiGe_Gegenleser" target="#v_112.13 #V020rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="4">S</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="4">S</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_112.14">beide ſin leben vnde ſin tot</l>
          <l xml:id="v_112.15">Des habent ir ein teil v<choice>
                <am>̉</am>
@@ -15172,7 +15169,7 @@
             </note>
          </l>
          <note resp="#AB_Transkribent" target="#v_117.01 #V021ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Schreiberwechsel ab dieser Lage/Seite.</note>
+            <ref/>: Schreiberwechsel ab dieser Lage/Seite.</note>
          <l xml:id="v_117.02">Oͮge noch ore in niergent vant</l>
          <l xml:id="v_117.03">Jr waz ein nebel die ſvnne</l>
          <l xml:id="v_117.04">Sv́ floch der welte wunne</l>
@@ -15427,15 +15424,15 @@
                </add>
             </subst> tet ſin ſchieſſen we</l>
          <note resp="#AB_Transkribent" target="#v_120.06 #V021rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>wilde*</del>
                   <add>wilde<hi rend="rasur">
                         <gap/>
                      </hi>
                   </add>
                </subst>
-            </a>: getilgter Zierstrich oder Ansatz zum er-Haken über -de.</note>
+            </ref>: getilgter Zierstrich oder Ansatz zum er-Haken über -de.</note>
          <l xml:id="v_120.07">Nv hoͤrent froͤmede mêre</l>
          <l xml:id="v_120.08">Swen er ſchoz daz ſwere</l>
          <l xml:id="v_120.09">Ez wer ein mvl geladen gnvͦg</l>
@@ -15544,7 +15541,7 @@
          <l xml:id="v_120.30">Jn den pfat viel er vf ſine knie</l>
          <l xml:id="v_121.01">Vil lvte rief der knappe ſan</l>
          <note resp="#AB_Transkribent" target="#v_121.01 #V021va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vil</a>: in der Versalienspalte.</note>
+            <ref>Vil</ref>: in der Versalienspalte.</note>
          <l xml:id="v_121.02">Hilf got dv maht wol helfe han</l>
          <l xml:id="v_121.03">Der <subst hand="#ls2u">
                <del>*</del>
@@ -15955,7 +15952,7 @@
          <l xml:id="v_124.11">Aber ſprach der knappe ſnel</l>
          <l xml:id="v_124.12">Ob die hirze ſvs trvͤgen vel</l>
          <note resp="#MiGe_Gegenleser" target="#v_124.12 #V022ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Ob</a>: Rubrizierung im <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">O</a> wurde wegradiert.</note>
+            <ref>Ob</ref>: Rubrizierung im <ref>O</ref> wurde wegradiert.</note>
          <l xml:id="v_124.13">Si verwundete niht min gabilot</l>
          <l xml:id="v_124.14">Der vellet <subst hand="#ls1u">
                <del>manigen</del>
@@ -16130,7 +16127,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_125.20 #V022rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Hat</a>: Rubrizierung im <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">H</a> wurde wegradiert.</note>
+            <ref>Hat</ref>: Rubrizierung im <ref>H</ref> wurde wegradiert.</note>
          <l xml:id="v_125.21">Vf diſen rittern helmeſ ſchart</l>
          <l xml:id="v_125.22">So han wir vns niht wol bewart</l>
          <l xml:id="v_125.23">Wir ſoͤllen der kv́niginne haz</l>
@@ -16300,12 +16297,9 @@
             </choice>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_128.13 #V022va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="4"/>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="4"/>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_128.14">Der knappe wart vil balde i<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -16337,12 +16331,12 @@
             </subst>
          </l>
          <note resp="#SiLa_Gegenleser" target="#v_128.17 #V022vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sru">
+            <ref>
+               <subst hand="#sru">
                   <del>alh* *ſchach</del>
                   <add>alh<hi rend="rasur">ie ge</hi>ſchach</add>
                </subst>
-            </a>: Möglicherweise verwischt durch Korrektur auf der recto-Seite?</note>
+            </ref>: Möglicherweise verwischt durch Korrektur auf der recto-Seite?</note>
          <l xml:id="v_128.18">Do ſi irs ſvnes nv́t me enſach</l>
          <l xml:id="v_128.19">Der vert von ir wem iſt deſte baz</l>
          <l xml:id="v_128.20">Do viel die vrowe valſches laz</l>
@@ -18083,12 +18077,9 @@
             <seg type="Initiale" subtype="Prachtinitiale" n="3">D</seg>
             <hi rend="rot">E</hi>r knappe ſprach ich wirbe dir</l>
          <note resp="#MiGe_Gegenleser" target="#v_147.09 #V025va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="3">D</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="3">D</seg>
+            </ref>: Bildinitiale.</note>
          <note resp="#AB_Transkribent" target="#v_147.09 #V025va">: Fleuronnée erstreckt sich über die gesamte a-Spalte.</note>
          <l xml:id="v_147.10">Swaz dv geſproche<choice>
                <am>̄</am>
@@ -18773,7 +18764,7 @@
                <ex>er</ex>
             </choice>drv́ſſe</l>
          <note resp="#AB_Transkribent" target="#v_154.02 #V026va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnfvͦge</a>: Rasur auf der Rückseite.</note>
+            <ref>vnfvͦge</ref>: Rasur auf der Rückseite.</note>
          <l xml:id="v_154.03">Jr keinen lvſtet <sic>ſtrttes</sic>
          </l>
          <l xml:id="v_154.04">gip mir <subst hand="#ls1u">
@@ -18861,7 +18852,7 @@
          <l xml:id="v_155.06">zvͦme gabelot greif er ſan</l>
          <l xml:id="v_155.07">Da der heln <sic>heln</sic> vnd die barbier</l>
          <note resp="#AB_Transkribent" target="#v_155.07 #V026vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnd die</a>: Rasur auf der Rückseite.</note>
+            <ref>vnd die</ref>: Rasur auf der Rückseite.</note>
          <l xml:id="v_155.08">ſich <subst hand="#ls1u">
                <del>loͤſ*</del>
                <add>loͤſ<hi rend="rasur">ent</hi>
@@ -18925,7 +18916,7 @@
          <l xml:id="v_155.28">Wizheite dar vmbe rvͦhte</l>
          <l xml:id="v_155.29">Daz ors vnde ſin pherdelin</l>
          <note resp="#AB_Transkribent" target="#v_155.29 #V026vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">pherdelin</a>: Korrektur auf der Rückseite.</note>
+            <ref>pherdelin</ref>: Korrektur auf der Rückseite.</note>
          <l xml:id="v_155.30">erhvͦben eine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -19236,14 +19227,14 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_158.19 #V027rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">bat</hi>
                   </add>
                </subst>
-            </a>: Rasur von 'hie bat'? Versende ist noch schwach zu entziffen.</note>
+            </ref>: Rasur von 'hie bat'? Versende ist noch schwach zu entziffen.</note>
          <l xml:id="v_158.20">dv ſolt mine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -21994,15 +21985,15 @@
             </choice>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_178.21 #V030va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>de*</del>
                   <add>
                      <hi rend="rasur">
                         <gap/>
                      </hi>ſchoydelakvrt</add>
                </subst>
-            </a>: Vgl. Beispiel 2,3 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Vgl. Beispiel 2,3 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_178.22">Dez wart ſin ſterben niht v<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -22823,14 +22814,14 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_186.09 #V031va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*de lag</del>
                   <add>
                      <hi rend="rasur">an ſinem libe lag</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,8 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,8 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_186.10">Der zobel gap wilden nv́wen geſmag</l>
          <l xml:id="v_186.11">Die ritt<choice>
                <am>̉</am>
@@ -24099,14 +24090,14 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_197.22 #V033rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>S*ſw*</del>
                   <add>
                      <hi rend="rasur">Daz kẏngrun ſchineſchant</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,4 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Vgl. Beispiel 2,4 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_197.23">Jn dvhte vroͤmede mêre <note type="Marginalie">
                <subst hand="#ls1u">
                   <del>+</del>
@@ -24554,13 +24545,13 @@
             </subst>
          </l>
          <note resp="#AB_Gegenleser" target="#v_202.06 #V034ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>m*ar</del>
                   <add>m<hi rend="klebung">ine iar</hi>
                   </add>
                </subst>
-            </a>: Korrekturursache vermutlich auf der Verso-Seite.</note>
+            </ref>: Korrekturursache vermutlich auf der Verso-Seite.</note>
          <l xml:id="v_202.07">Nach lone diſem wibe</l>
          <l xml:id="v_202.08">Die hat mime libe</l>
          <l xml:id="v_202.09">
@@ -26317,13 +26308,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_219.19 #V036va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>J*cl*g*tot</del>
                   <add>M<hi rend="rasur">ich enruwe niht mins heres tot</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,5 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Vgl. Beispiel 2,5 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_219.20">Da gegen mi<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -26863,14 +26854,14 @@
             </subst>
          </l>
          <note resp="#MGe_Transkribent" target="#v_224.07 #V037rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>ſin.</del>
                   <add>
                      <hi rend="rasur">ſin</hi>
                   </add>
                </subst>
-            </a>: Das ursprüngliche Wort "ſin." stand über der Zeile und war mit einem Reimpunkt versehen. Beim Korrekturgang wurde es von anderer Hand rasiert und in die ursprüngliche Zeile gesetzt. In Autopsie.</note>
+            </ref>: Das ursprüngliche Wort "ſin." stand über der Zeile und war mit einem Reimpunkt versehen. Beim Korrekturgang wurde es von anderer Hand rasiert und in die ursprüngliche Zeile gesetzt. In Autopsie.</note>
          <l xml:id="v_224.08">Daz <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -27065,7 +27056,7 @@
          <l xml:id="v_225.25">Doͤrt an dez velſes ende</l>
          <l xml:id="v_225.26">Do kerent zer rehten hende</l>
          <note resp="#MGe_Transkribent" target="#v_225.26 #V037va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hende</a>: Am Ende des Wortes "hende" schimmert eine auf der recto-Seite vorgenommene Rasur durch.</note>
+            <ref>hende</ref>: Am Ende des Wortes "hende" schimmert eine auf der recto-Seite vorgenommene Rasur durch.</note>
          <l xml:id="v_225.27">So <subst hand="#ls1u">
                <del>kv́ment</del>
                <add>k<hi rend="rasur">o</hi>ment</add>
@@ -27092,12 +27083,12 @@
                <add>k<hi rend="rasur">o</hi>ment</add>
             </subst> ir rehte dar</l>
          <note resp="#MGe_Transkribent" target="#v_226.03 #V037va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>kv́ment</del>
                   <add>k<hi rend="rasur">o</hi>ment</add>
                </subst>
-            </a>: Der Buchstabe "o" ist wie schon in Vers 225.27 eine Art Mischform zwischen dem schreibertypischen "v́" und einem "o". Ist vielleicht der an sich elsässische Dialekt der Handschrift und eine anderslautende Vorlage für diese besondere Schreibung verantwortlich? Es handelt sich nach längerem Hinsehen tatsächlich um eine Korrektur und ist als solche ausgezeichnet. In Autopsie.</note>
+            </ref>: Der Buchstabe "o" ist wie schon in Vers 225.27 eine Art Mischform zwischen dem schreibertypischen "v́" und einem "o". Ist vielleicht der an sich elsässische Dialekt der Handschrift und eine anderslautende Vorlage für diese besondere Schreibung verantwortlich? Es handelt sich nach längerem Hinsehen tatsächlich um eine Korrektur und ist als solche ausgezeichnet. In Autopsie.</note>
          <l xml:id="v_226.04">Jch nim v́wer hint ſelber war</l>
          <l xml:id="v_226.05">So dankent alſ men v́wer phlêge</l>
          <l xml:id="v_226.06">Hvͤtent v́ch da gant vnkv́nde wege</l>
@@ -27183,8 +27174,8 @@
             </note>
          </l>
          <note resp="#MGe_Transkribent" target="#v_227.01 #V037vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>+</del>
                      <add>
@@ -27194,7 +27185,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Bezeichnet diese unscheinbare Marginalie vielleicht den Beginn des neuen Dreissigers? In Autopsie.</note>
+            </ref>: Bezeichnet diese unscheinbare Marginalie vielleicht den Beginn des neuen Dreissigers? In Autopsie.</note>
          <l xml:id="v_227.02">
             <subst hand="#ls1u">
                <del>*</del>
@@ -27344,7 +27335,7 @@
             </choice> pflag ſin ſo.</l>
          <l xml:id="v_228.26">Die trurigen warent mit im fro</l>
          <note resp="#MGe_Transkribent" target="#v_228.26 #V038ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Die trurigen warent</a>: In Autopsie zeigt sich, dass es sich bei den verschwommenen Buchstaben nicht um eine Korrektur handelt, sondern dass die Beeinträchtigung der Lesbarkeit durch intensive Rasur auf der verso-Seite hervorgerufen wurde.</note>
+            <ref>Die trurigen warent</ref>: In Autopsie zeigt sich, dass es sich bei den verschwommenen Buchstaben nicht um eine Korrektur handelt, sondern dass die Beeinträchtigung der Lesbarkeit durch intensive Rasur auf der verso-Seite hervorgerufen wurde.</note>
          <l xml:id="v_228.27">Sv́ butten im <subst hand="#ls1u">
                <del>wir*</del>
                <add>wir<hi rend="rasur">de vn<choice>
@@ -27431,7 +27422,7 @@
             </subst>
          </l>
          <note resp="#MGe_Transkribent" target="#229.05 #229.09_V038ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Diese Verse wurden nachträglich und dichter eingetragen als sonst, weshalb davon auszugehen ist, dass ursprünglich ein Vers vergessen wurde. Welcher das war, ist nicht ersichtlich, da an den Spaltenrändern offenbar nichts wegrasiert wurde wie sonst üblich bei derartigen Einrückungen. In Autopsie.</note>
+            <ref/>: Diese Verse wurden nachträglich und dichter eingetragen als sonst, weshalb davon auszugehen ist, dass ursprünglich ein Vers vergessen wurde. Welcher das war, ist nicht ersichtlich, da an den Spaltenrändern offenbar nichts wegrasiert wurde wie sonst üblich bei derartigen Einrückungen. In Autopsie.</note>
          <l xml:id="v_229.10">
             <subst hand="#ls1u">
                <del>*</del>
@@ -29338,8 +29329,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#244.05 #244.06_V040rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>E ſ* enpfiengen ſ* g*en</del>
                      <add>
@@ -29349,7 +29340,7 @@
                      </add>
                   </subst>
                </note>
-            </a> : Die beiden radierten Verse befinden sich zur Rechten der Verse 244.05-244.15. Sie zeigen an keine Stelle im Haupttext. Vgl. Beispiel 1,4 bei Viehhauser-Mery, S. 130.</note>
+            </ref> : Die beiden radierten Verse befinden sich zur Rechten der Verse 244.05-244.15. Sie zeigen an keine Stelle im Haupttext. Vgl. Beispiel 1,4 bei Viehhauser-Mery, S. 130.</note>
          <l xml:id="v_244.07">
             <subst hand="#ls1u">
                <del>*</del>
@@ -29454,15 +29445,15 @@
                </add>
             </subst> lant mich bi wizzen</l>
          <note resp="#MiGe_Gegenleser" target="#v_244.20 #040vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">Sv́ ſprach <hi rend="rot">~</hi>
                      </hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,6 bei Viehhauser-Mery, S. 137.</note>
+            </ref>: Vgl. Beispiel 2,6 bei Viehhauser-Mery, S. 137.</note>
          <l xml:id="v_244.21">So werent ir dienſtes vngewert</l>
          <l xml:id="v_244.22">Alſ <subst hand="#ls1u">
                <del>*</del>
@@ -29822,8 +29813,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#247.19 #247.20_V040vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>Niht langer*do*</del>
                      <add>
@@ -29833,9 +29824,9 @@
                      </add>
                   </subst>
                </note>
-            </a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            </ref>
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>v*e vf die* </del>
                      <add>
@@ -29845,7 +29836,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Die beiden radierten Verse befinden sich zur Linken der Verse 247.20-247.30. Sie zeigen auf keine Stelle im Spaltentext. Vgl. Beispiel 1,5 bei Viehhauser-Mery, S. 130.</note>
+            </ref>: Die beiden radierten Verse befinden sich zur Linken der Verse 247.20-247.30. Sie zeigen auf keine Stelle im Spaltentext. Vgl. Beispiel 1,5 bei Viehhauser-Mery, S. 130.</note>
          <l xml:id="v_247.21">
             <seg type="Initiale"
                  subtype="Fleuronee"
@@ -30004,9 +29995,9 @@
          <l xml:id="v_249.26">Parzifal ſv́ grvͦſte vnde ſprach <note type="Marginalie">S</note>
          </l>
          <note resp="#GVi_Gegenleser" target="#v_249.26 #V041ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">S</note>
-            </a>: Buchstabe steht in der Mitte der Spalte. Unklar, worauf er sich bezieht.</note>
+            <ref>
+               <note type="Marginalie">S</note>
+            </ref>: Buchstabe steht in der Mitte der Spalte. Unklar, worauf er sich bezieht.</note>
          <l xml:id="v_249.27">Er ſagete vrowe mir iſt leit</l>
          <l xml:id="v_249.28">V́wer ſenekliche arbeit</l>
          <l xml:id="v_249.29">
@@ -30141,14 +30132,14 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_251.01 #V041rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>S*sp*h h*k*nt</del>
                   <add>
                      <hi rend="rasur">Jch wene die iſt v́ch niht bekant</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,9 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,9 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_251.02">Mvnſalvaſche iſt ſv́ genant</l>
          <l xml:id="v_251.03">Der bv́rge <subst hand="#ls1u">
                <del>wúrtes</del>
@@ -30157,13 +30148,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_251.03 #V041rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>wúrtes</del>
                   <add>wúrt<hi rend="rasur"> iſt Roiam</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,13 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,13 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_251.04">Terre de ſalvaſche iſt ſin nam</l>
          <l xml:id="v_251.05">Ez brahte der alte Tẏturel</l>
          <l xml:id="v_251.06">An ſinen <subst hand="#ls1u">
@@ -30701,9 +30692,9 @@
             </note>
          </l>
          <note resp="#AB_Gegenleser" target="#v_256.02 #V042ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <sic xmlns="http://www.tei-c.org/ns/1.0">dem trvrigen kv́nige ſaz</sic>
-            </a>: Klebung auf der Verso Seite.</note>
+            <ref>
+               <sic>dem trvrigen kv́nige ſaz</sic>
+            </ref>: Klebung auf der Verso Seite.</note>
          <l xml:id="v_256.03">Daz <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -31563,7 +31554,7 @@
             </choice> pris</l>
          <l xml:id="v_264.10">Mit einem anderen amẏs</l>
          <note resp="#AB_Gegenleser" target="#v_264.10 #V043rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">einem anderen</a>: Rückseite Klebung.</note>
+            <ref>einem anderen</ref>: Rückseite Klebung.</note>
          <l xml:id="v_264.11">Dez laſters nam er phlihte</l>
          <l xml:id="v_264.12">Oͮch ergieng ſin gerihte</l>
          <l xml:id="v_264.13">V́ber ſv́ daz grozer not</l>
@@ -31837,7 +31828,7 @@
                <add>werden</add>
             </subst> botte</l>
          <note resp="#AB_Gegenleser" target="#v_266.18 #V043vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">werden</a>: auffällig durch Position des runden <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a>.</note>
+            <ref>werden</ref>: auffällig durch Position des runden <ref>r</ref>.</note>
          <l xml:id="v_266.19">Daz <subst hand="#ls1u">
                <del>ich*</del>
                <add>ich<hi rend="rasur">es danke dinem priſe</hi>
@@ -32135,14 +32126,14 @@
                <ex>er</ex>
             </choice>ſchaft</l>
          <note resp="#MiGe_Gegenleser" target="#v_269.07 #V044ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>mich gegen</del>
                   <add>
                      <hi rend="rasur">gegen mir</hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,10 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,10 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_269.08">Dez <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -33169,8 +33160,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#277.05 #277.06_V045rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>D* gehoͤret *</del>
                      <add>
@@ -33180,9 +33171,9 @@
                      </add>
                   </subst>
                </note>
-            </a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            </ref>
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>vn<choice>
                            <am>̄</am>
@@ -33195,7 +33186,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Die beiden radierten Verse befinden sich zur Rechten der Verse 277.04-277.17. Sie zeigen auf keine Stelle im Spaltentext. Die Reihenfolge der beiden radierten Verse ist vertauscht (so auch in m n o). Vgl. Beispiel 1,6 bei Viehhauser-Mery, S. 130.</note>
+            </ref>: Die beiden radierten Verse befinden sich zur Rechten der Verse 277.04-277.17. Sie zeigen auf keine Stelle im Spaltentext. Die Reihenfolge der beiden radierten Verse ist vertauscht (so auch in m n o). Vgl. Beispiel 1,6 bei Viehhauser-Mery, S. 130.</note>
          <l xml:id="v_277.07">
             <subst hand="#ls1u">
                <del>*</del>
@@ -33560,8 +33551,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_279.08 #V045va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>* w* die *</del>
                      <add>
@@ -33571,9 +33562,9 @@
                      </add>
                   </subst>
                </note>
-            </a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            </ref>
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>von der *egede wol geborn</del>
                      <add>
@@ -33583,7 +33574,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Die beiden radierten Verse befinden sich zur Linken der Verse 279.06-279.19. Sie zeigen auf keine Stelle in der Spalte. Der lesbare Teil der Verse zeigt, dass es sich dabei um das Verspaar 279.07f. handelt. Dieses wurde in den Haupttext übertragen. Vgl. Beispiel 1,7 bei Viehhauser-Mery, S. 130.</note>
+            </ref>: Die beiden radierten Verse befinden sich zur Linken der Verse 279.06-279.19. Sie zeigen auf keine Stelle in der Spalte. Der lesbare Teil der Verse zeigt, dass es sich dabei um das Verspaar 279.07f. handelt. Dieses wurde in den Haupttext übertragen. Vgl. Beispiel 1,7 bei Viehhauser-Mery, S. 130.</note>
          <l xml:id="v_279.09">
             <subst hand="#ls1u">
                <del>*</del>
@@ -33715,7 +33706,7 @@
          </l>
          <l xml:id="v_279.30">Geſelliklich vnz an den tag</l>
          <note resp="#MGe_Transkribent" target="#v_279.30 #V045vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Der nachfolgende Vers, der erste Vers des sechsten Buches also, ist links und rechts offenbar mit modernen Bleistiftstrichen gekennzeichnet worden.</note>
+            <ref/>: Der nachfolgende Vers, der erste Vers des sechsten Buches also, ist links und rechts offenbar mit modernen Bleistiftstrichen gekennzeichnet worden.</note>
          <l xml:id="v_280.01">Went ir <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -34918,8 +34909,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#290.29 #30_V047rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>och hatz die minne k<choice>
                            <am rend="hochgestellt">a</am>
@@ -34932,7 +34923,7 @@
                      </add>
                   </subst>
                </note>
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>Di* ſtiez vf in ir *e ris</del>
                      <add>
@@ -34942,7 +34933,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Die beiden radierten Verse sind zur Rechten der Verse 291.28-291.13 anzutreffen. Sie zeigen an keine Stelle im Spaltentext. Vgl. Beispiel 8 bei Oltrogge/Schubert, S. 365 und Beispiel 1,8 bei Viehhauser-Mery, S. 131.</note>
+            </ref>: Die beiden radierten Verse sind zur Rechten der Verse 291.28-291.13 anzutreffen. Sie zeigen an keine Stelle im Spaltentext. Vgl. Beispiel 8 bei Oltrogge/Schubert, S. 365 und Beispiel 1,8 bei Viehhauser-Mery, S. 131.</note>
          <l xml:id="v_291.01">
             <seg type="Initiale"
                  subtype="Fleuronee"
@@ -35279,13 +35270,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_292.09 #V047va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="6"
                     rend="Farbe: blau-rot">J</seg>
-            </a>: Die Initiale wurde erst im Zuge der Korrektur eingefügt. Vgl. Beispiel 12 bei Oltrogge/Schubert, S. 367. Die Verzierung der Initiale weist am oberen Ende ein Gesicht auf.</note>
+            </ref>: Die Initiale wurde erst im Zuge der Korrektur eingefügt. Vgl. Beispiel 12 bei Oltrogge/Schubert, S. 367. Die Verzierung der Initiale weist am oberen Ende ein Gesicht auf.</note>
          <l xml:id="v_292.10">
             <subst hand="#ls1u">
                <del>*</del>
@@ -35757,13 +35747,12 @@
                  n="1"
                  rend="Farbe: blau-rot">B</seg>eideſant litten not</l>
          <note resp="#MiGe_Gegenleser" target="#v_295.21 #V048ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="1"
                     rend="Farbe: blau-rot">B</seg>
-            </a>: Das Fadenwerk scheint mindestens zwei Rottöne aufzuweisen.</note>
+            </ref>: Das Fadenwerk scheint mindestens zwei Rottöne aufzuweisen.</note>
          <l xml:id="v_295.22">Der man wart wunt daz ors lag tot</l>
          <l xml:id="v_295.23">Zwiſchent dem ſattelboge<choice>
                <am>̄</am>
@@ -37514,8 +37503,8 @@
             </note>
          </l>
          <note resp="#JKl_Transkribent" target="#308.21 #309.05_V050ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>+</del>
                      <add>
@@ -37525,7 +37514,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Vmtl. Rasuranweisung 308.21-22.</note>
+            </ref>: Vmtl. Rasuranweisung 308.21-22.</note>
          <l xml:id="v_308.22">
             <subst hand="#ls1u">
                <del>*</del>
@@ -38337,14 +38326,14 @@
          <l xml:id="v_320.11">Der froͤiden ellende</l>
          <l xml:id="v_320.12">Daz ſwert truͦg er in ſiner hende</l>
          <note resp="#MiGe_Gegenleser" target="#v_320.12 #V051vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Daz</a>: Rubrizierung im <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">H</a> wurde wegradiert.</note>
+            <ref>Daz</ref>: Rubrizierung im <ref>H</ref> wurde wegradiert.</note>
          <l xml:id="v_320.13">Bedecket mit der ſcheiden</l>
          <l xml:id="v_320.14">Do <subst hand="#sr">
                <del>vra*</del>
                <add>vragete</add>
             </subst> er noch in beiden</l>
          <note resp="#MiGe_Gegenleser" target="#v_320.14 #V051vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Do</a>: Rubrizierung im <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">H</a> wurde wegradiert.</note>
+            <ref>Do</ref>: Rubrizierung im <ref>H</ref> wurde wegradiert.</note>
          <l xml:id="v_320.15">Wa iſt artus vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -38354,7 +38343,7 @@
                <ex>er</ex>
             </choice>ren zeigetent im die ſan</l>
          <note resp="#JKl_Transkribent" target="#v_320.16 #V051va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vil</a>: Zur Rubrizierung angesetzt, hier wohl Fehler oben bemerkt und rasiert.</note>
+            <ref>Vil</ref>: Zur Rubrizierung angesetzt, hier wohl Fehler oben bemerkt und rasiert.</note>
          <pb xml:id="v052r"/>
          <cb xml:id="v052ra"/>
          <l xml:id="v_320.17">Svz gieng er <subst hand="#ls1u">
@@ -40355,12 +40344,9 @@
          <l xml:id="v_338.01">
             <seg type="Initiale" subtype="Prachtinitiale" n="5">D</seg>Er nie gewarp nach ſchan<lb/>den.</l>
          <note resp="#MiGe_Gegenleser" target="#v_338.01 #V054va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="5">D</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="5">D</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_338.02">Eine wile zvͦ ſine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -40461,9 +40447,9 @@
             </unclear>
          </l>
          <note resp="#AB_Transkribent" target="#v_338.18 #V054vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rasur">noch baz w</hi>
-            </a>:Korrektur auf der Rückseite.</note>
+            <ref>
+               <hi rend="rasur">noch baz w</hi>
+            </ref>:Korrektur auf der Rückseite.</note>
          <l xml:id="v_338.19">Ane wurt vf <subst hand="#ls1u">
                <del>einen*</del>
                <add>einem <hi rend="rasur">ſne</hi>
@@ -40563,9 +40549,9 @@
          </l>
          <l xml:id="v_339.10">Swie gerne in kẏngrimurſel</l>
          <note resp="#AB_Transkribent" target="#v_339.10 #V054vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rasur">imurſe</hi>
-            </a>: Aufgrund der Rasur in der Zeile davor mit Feder nachgezogen?</note>
+            <ref>
+               <hi rend="rasur">imurſe</hi>
+            </ref>: Aufgrund der Rasur in der Zeile davor mit Feder nachgezogen?</note>
          <l xml:id="v_339.11">Mit kamphe hette da von genomen</l>
          <l xml:id="v_339.12">Nv waz <subst hand="#ls1u">
                <del>*h</del>
@@ -40751,7 +40737,7 @@
                <ex>de</ex>
             </choice> wol geflorieret</l>
          <note resp="#CG_Gegenleser" target="#341.03 #341.04_V055ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gezimiert</a>: Reimwörter von 341.03 und 341.04 vertauscht.</note>
+            <ref>gezimiert</ref>: Reimwörter von 341.03 und 341.04 vertauscht.</note>
          <l xml:id="v_341.05">Von richer koſte helme vil</l>
          <l xml:id="v_341.06">Sv́ fuͦrten gegen ir <subst hand="#sru">
                <del>nt*</del>
@@ -40945,13 +40931,12 @@
                  n="2"
                  rend="Farbe: blau-rot">E</seg>in ſwin mvͦter lief im mitte</l>
          <note resp="#AB_Transkribent" target="#v_344.06 #V055va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: blau-rot">E</seg>
-            </a>:Initiale steht nicht zum 1. Vers des Reimpaares, Verse sind nicht sehr weit eingerückt. Man könnte vermuten, dass diese nachgetragen wurde.</note>
+            </ref>:Initiale steht nicht zum 1. Vers des Reimpaares, Verse sind nicht sehr weit eingerückt. Man könnte vermuten, dass diese nachgetragen wurde.</note>
          <l xml:id="v_344.07">Jr verlin das werte oͮch ſie</l>
          <l xml:id="v_344.08">Jnen gehorte man gepriſen nie</l>
          <l xml:id="v_344.09">Was ſin ellen ane fuͦge</l>
@@ -40970,7 +40955,7 @@
          <l xml:id="v_344.15">Der kv́nig melianz von lis</l>
          <l xml:id="v_344.16">Hochuerticlichen zornes vlis</l>
          <note resp="#AB_Transkribent" target="#v_344.16 #V055va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Hochuerticlichen</a>: Rasur der fälschlichen Rubrizierung des Versanfanges ab hier durchgehend bis Spaltenende.</note>
+            <ref>Hochuerticlichen</ref>: Rasur der fälschlichen Rubrizierung des Versanfanges ab hier durchgehend bis Spaltenende.</note>
          <l xml:id="v_344.17">Hat er gefrvmmet ane not</l>
          <l xml:id="v_344.18">Vnrehte minne im das gebot</l>
          <l xml:id="v_344.19">Der knappe in ſiner zvht v<choice>
@@ -40998,12 +40983,11 @@
                <ex>n</ex>
             </choice> ſvnder dan</l>
          <note resp="#MiGe_Gegenleser" target="#v_345.01 #V055vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
-                    rend="Farbe: rot-violett">E</seg>r</a>: Bildinitiale.</note>
+                    rend="Farbe: rot-violett">E</seg>r</ref>: Bildinitiale.</note>
          <l xml:id="v_345.02">eine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -41032,7 +41016,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_345.09 #V055vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">heinlichen habe wert</a>: nachgezogen.</note>
+            <ref>heinlichen habe wert</ref>: nachgezogen.</note>
          <l xml:id="v_345.10">Swen es der kvmberhafte gert</l>
          <l xml:id="v_345.11">Den bit in teilen ſine habe</l>
          <l xml:id="v_345.12">Svz wart bevolhen do der knabe</l>
@@ -41228,7 +41212,7 @@
          <l xml:id="v_348.15">Min herre iſt ein franzois</l>
          <l xml:id="v_348.16">Der burggrove de beavois</l>
          <note resp="#AB_Transkribent" target="#v_348.16 #V056rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">burggrove</a>: gg nachgebessert.</note>
+            <ref>burggrove</ref>: gg nachgebessert.</note>
          <l xml:id="v_348.17">Der <subst hand="#sru">
                <del>*avander</del>
                <add>
@@ -41297,7 +41281,7 @@
                <ex>de</ex>
             </choice> ſtechen</l>
          <note resp="#AB_Transkribent" target="#v_349.06 #V056rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Beide</a>: Rasur der fälschlichen Rubrizierung des Versanfanges ab hier durchgehend bis Spaltenende.</note>
+            <ref>Beide</ref>: Rasur der fälschlichen Rubrizierung des Versanfanges ab hier durchgehend bis Spaltenende.</note>
          <l xml:id="v_349.07">Bearotſche iſt So zewer</l>
          <l xml:id="v_349.08">Ob wir hettent <subst hand="#sru">
                <del>zwenzi*</del>
@@ -41685,8 +41669,8 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_354.14 #V057ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>v<choice>
                         <am>̉</am>
                         <ex>er</ex>
@@ -41697,7 +41681,7 @@
                      </hi>
                   </add>
                </subst>
-            </a>:vom Rubrikator als zugehörig zum Vers gekennzeichnet, aber anscheinend angefagen zu radieren, da überlanger Vers in die Spalte b hineinreichte.</note>
+            </ref>:vom Rubrikator als zugehörig zum Vers gekennzeichnet, aber anscheinend angefagen zu radieren, da überlanger Vers in die Spalte b hineinreichte.</note>
          <l xml:id="v_354.15">Wer in dez wurtes helfe reit</l>
          <l xml:id="v_354.16">Vnde wer durch in mit truwen ſtreit</l>
          <l xml:id="v_354.17">Jm kam von prevegaries</l>
@@ -42467,7 +42451,7 @@
             </choice> kint</l>
          <l xml:id="v_364.06">Alle die gegen im in zorne ſint</l>
          <note resp="#AB_Transkribent" target="#v_364.06 #V058va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zorne</a>: Rasur Rückseite.</note>
+            <ref>zorne</ref>: Rasur Rückseite.</note>
          <l xml:id="v_364.07">Mine mage oder mine brvͦder</l>
          <l xml:id="v_364.08">Die mvͤzent die <subst hand="#ls1u">
                <del>d* *uͦder</del>
@@ -43540,7 +43524,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_372.01 #V059vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geſpil</a>: das Blatt wurde ursprünglich herausgetrennt und 'pil' dabei abgeschnitten. Nach dem Wiedereinfügen in den Codex 'pil' nachgetragen.</note>
+            <ref>geſpil</ref>: das Blatt wurde ursprünglich herausgetrennt und 'pil' dabei abgeschnitten. Nach dem Wiedereinfügen in den Codex 'pil' nachgetragen.</note>
          <l xml:id="v_372.02">Sv́ butte<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -43569,7 +43553,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_372.06 #V059va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">walt</a>: siehe Anm. zu 372.01.</note>
+            <ref>walt</ref>: siehe Anm. zu 372.01.</note>
          <l xml:id="v_372.07">Alſ er ander holz hat</l>
          <l xml:id="v_372.08">
             <subst hand="#ls1u">
@@ -45551,7 +45535,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_387.13 #V062rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Wer</a>: Rückseite Rasur und Klebung.</note>
+            <ref>Wer</ref>: Rückseite Rasur und Klebung.</note>
          <l xml:id="v_387.14">
             <subst hand="#ls1u">
                <del>D*</del>
@@ -45769,7 +45753,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_388.23 #V062rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kv́nige</a>: über n Fleck, erscheint mir, als ob schlechtes Pergament geflickt wurde und der Vers ab <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kv́nige</a> nach links verschoben wurde.</note>
+            <ref>kv́nige</ref>: über n Fleck, erscheint mir, als ob schlechtes Pergament geflickt wurde und der Vers ab <ref>kv́nige</ref> nach links verschoben wurde.</note>
          <l xml:id="v_388.24">Vnde zvͦ ſchirniel von <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -45992,7 +45976,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_390.13 #V062va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">herbergen</a>: Radierte Rubrizierungen (wahrscheinlich <hi rend="rot">~</hi>?) noch zu entziffern.</note>
+            <ref>herbergen</ref>: Radierte Rubrizierungen (wahrscheinlich <hi rend="rot">~</hi>?) noch zu entziffern.</note>
          <l xml:id="v_390.14">Dort inne der fv́rſte lẏbaut ſprach</l>
          <l xml:id="v_390.15">Vnde fragete wie ez da w<choice>
                <am>̉</am>
@@ -46057,7 +46041,7 @@
          <l xml:id="v_390.26">Den bat er obẏloten tragen</l>
          <l xml:id="v_390.27">Do wart der megede froͤide gros</l>
          <note resp="#AB_Transkribent" target="#v_390.27 #V062vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">megede froͤide</a>: Rasur und Klebung auf der Rückseite.</note>
+            <ref>megede froͤide</ref>: Rasur und Klebung auf der Rückseite.</note>
          <l xml:id="v_390.28">Jr arm waz blanc vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -46419,7 +46403,7 @@
          <l xml:id="v_396.04">Das ez manig werder ritter ſach</l>
          <l xml:id="v_396.05">Her kvnig nv habent ir miſſetan</l>
          <note resp="#AB_Transkribent" target="#v_396.05 #V063va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kvnig</a>: ein Haarstrich über dem v, ungewöhnlich.</note>
+            <ref>kvnig</ref>: ein Haarstrich über dem v, ungewöhnlich.</note>
          <l xml:id="v_396.06">Sol min ritter ſin ein koͮfman</l>
          <l xml:id="v_396.07">Dez mich min ſweſter vil an ſtreit</l>
          <l xml:id="v_396.08">Daz ir im gobent ſicherheit</l>
@@ -49724,7 +49708,7 @@
             </choice>e</l>
          <l xml:id="v_440.22">Jr kvmber waz im ſwere</l>
          <note resp="#GVi_Gegenleser" target="#v_440.22 #V070rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Jr kvmber waz im ſwere</a>:_Schriftbild ist aufällig, jedoch nicht andere Schrift. Hier wurde wohl eine Rasur begonnen (vom ersten <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a> bis <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſw</a>, aber nicht vollständig ausgeführt.</note>
+            <ref>Jr kvmber waz im ſwere</ref>:_Schriftbild ist aufällig, jedoch nicht andere Schrift. Hier wurde wohl eine Rasur begonnen (vom ersten <ref>r</ref> bis <ref>ſw</ref>, aber nicht vollständig ausgeführt.</note>
          <l xml:id="v_440.23">Den helt do wening dez v<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -49907,9 +49891,9 @@
          <l xml:id="v_442.19">Jemer ſwen ſv́ kvmt ir mvl dort <add hand="#ls1u">ſtet</add>
          </l>
          <note resp="#GVi_Transkribent" target="#v_442.19 #V070va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <add xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">ſtet</add>
-            </a>: Über der Zeile scheint bereits <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſtet</a> gestanden zu haben und wurde wieder ausradieret.</note>
+            <ref>
+               <add hand="#ls1u">ſtet</add>
+            </ref>: Über der Zeile scheint bereits <ref>ſtet</ref> gestanden zu haben und wurde wieder ausradieret.</note>
          <l xml:id="v_442.20">Do der brvnne vz gine<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -50321,9 +50305,9 @@
             <add hand="#ls1u">kvnt</add>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_446.01 #V071rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <lb/>
+               <subst hand="#ls1u">
                   <del>kvnt</del>
                   <add>
                      <hi rend="rasur">
@@ -50331,9 +50315,9 @@
                      </hi>
                   </add>
                </subst>
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <add xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">kvnt</add>
-            </a>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
+               <lb/>
+               <add hand="#ls1u">kvnt</add>
+            </ref>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
          <l xml:id="v_446.02">Wie <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -50533,9 +50517,9 @@
             <add hand="#ls1u">ſtet</add>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_448.06 #071va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <lb/>
+               <subst hand="#ls1u">
                   <del>ſtett</del>
                   <add>
                      <hi rend="rasur">
@@ -50543,9 +50527,9 @@
                      </hi>
                   </add>
                </subst>
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <add xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">ſtet</add>
-            </a>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
+               <lb/>
+               <add hand="#ls1u">ſtet</add>
+            </ref>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
          <l xml:id="v_448.07">Ez iſt hv́tte der karvritag</l>
          <l xml:id="v_448.08">Dez al die welt ſich vroͤwen mag</l>
          <l xml:id="v_448.09">
@@ -51519,9 +51503,9 @@
             <add hand="#ls1u">iſt</add>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_457.29 #V073ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <lb/>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">
@@ -51529,9 +51513,9 @@
                      </hi>
                   </add>
                </subst>
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <add xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">iſt</add>
-            </a>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
+               <lb/>
+               <add hand="#ls1u">iſt</add>
+            </ref>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
          <l xml:id="v_457.30">Jch han oͮch moͤnſchlichen liſt</l>
          <l xml:id="v_458.01">Hant irs niht fv́r eine<choice>
                <am>̄</am>
@@ -53904,10 +53888,10 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_478.06-2 #V076ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">v<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>v<choice>
                   <am>̉</am>
                   <ex>er</ex>
-               </choice>l<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">ie</unclear>s</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ie</a> wurde in ein Zweifel-Tag gesetzt, weil Oltrogge/Schubert <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">verleis</a> lesen und Viehhauser-Mery <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">verlies</a>. m n o tradieren in Vers 478.06-2 allesamt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">verlies</a>. Vgl. Beispiel 4 bei Oltrogge/Schubert, S. 361 und Beispiel 1,9 bei Viehhauser-Mery, S. 131f.</note>
+               </choice>l<unclear reason="Zweifel">ie</unclear>s</ref>: <ref>ie</ref> wurde in ein Zweifel-Tag gesetzt, weil Oltrogge/Schubert <ref>verleis</ref> lesen und Viehhauser-Mery <ref>verlies</ref>. m n o tradieren in Vers 478.06-2 allesamt <ref>verlies</ref>. Vgl. Beispiel 4 bei Oltrogge/Schubert, S. 361 und Beispiel 1,9 bei Viehhauser-Mery, S. 131f.</note>
          <note resp="#MiGe_Gegenleser" target="#478.06 #1 und 478.06-2_V076ra">: Die beiden radierten Verse befinden sich zur Rechten der Verse 478.07-478.14, also zwischen den zwei Spalten, und waren ursprünglich rot umrahmt. Vermutlich zeigen sie auf die Stelle nach Vers 478.06. Vgl. Beispiel 4 bei Oltrogge/Schubert, S. 361 und Beispiel 1,9 bei Viehhauser-Mery, S. 131f.</note>
          <l xml:id="v_478.07">
             <subst hand="#ls1u">
@@ -56050,7 +56034,7 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#496.04 #2">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fride</a>: Viehhauser-Mery liest <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">wane</a> anstelle von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fride</a>. Vgl. Beispiel 1,10 bei Viehhauser-Mery, S. 132.</note>
+            <ref>fride</ref>: Viehhauser-Mery liest <ref>wane</ref> anstelle von <ref>fride</ref>. Vgl. Beispiel 1,10 bei Viehhauser-Mery, S. 132.</note>
          <note resp="#MiGe_Gegenleser" target="#496.04 #1 und 496.04-2_V078vb">: Die beiden radierten Verse sind rot umrahmt und verweisen auf die Stelle nach 496.04. Sie enthalten die nur in *m auftretenden Plusverse 496.04-1 und 496.04-2. Vgl. Beispiel 1,10 bei Viehhauser-Mery, S. 132.</note>
          <l xml:id="v_496.05">So ich riche tioſt wolte tvͦn</l>
          <l xml:id="v_496.06">So reit ich fv́r den <subst hand="#ls1u">
@@ -56061,8 +56045,8 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_496.06 #V078vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>* han oͮch manige *ſt getan <lb/> von dem berge famorgan</del>
                      <add>
@@ -56072,7 +56056,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Die beiden radierten Verse befinden sich am Seitenrand, unterhalb der beiden ebenfalls radierten Plusverse 496.04-1 und 496.04-2. Es handelt sich dabei um die im Basistext von V fehlenden Verse 496.07f. Der Nachtrag verweist auf die Stelle nach Vers 496.06, die darin enthaltenen zwei Verse wurden im Text nicht ergänzt.</note>
+            </ref>: Die beiden radierten Verse befinden sich am Seitenrand, unterhalb der beiden ebenfalls radierten Plusverse 496.04-1 und 496.04-2. Es handelt sich dabei um die im Basistext von V fehlenden Verse 496.07f. Der Nachtrag verweist auf die Stelle nach Vers 496.06, die darin enthaltenen zwei Verse wurden im Text nicht ergänzt.</note>
          <l xml:id="v_496.07">
             <note type="Marginalie">
                <subst hand="#ls1u">
@@ -56267,7 +56251,7 @@
             </subst>
          </l>
          <note resp="#AB_Gegenleser" target="#v_497.20 #V079va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lag</a>: ursprünglich am Versende von 497.19; durch Korrektur getilgt und in die Zeile eingefügt.</note>
+            <ref>lag</ref>: ursprünglich am Versende von 497.19; durch Korrektur getilgt und in die Zeile eingefügt.</note>
          <l xml:id="v_497.21">
             <seg type="Initiale"
                  subtype="Fleuronee"
@@ -56557,7 +56541,7 @@
                <ex>en</ex>
             </choice>
          </l>
-         <note resp="#AB_Gegenleser" target="#v_500.03 #V079va">: Verse <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">429.29-500.03</a> durchgängig jeder Versanfang rubriziert.</note>
+         <note resp="#AB_Gegenleser" target="#v_500.03 #V079va">: Verse <ref>429.29-500.03</ref> durchgängig jeder Versanfang rubriziert.</note>
          <l xml:id="v_500.04">Von wannan dir daz ors ſi kome<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -56913,12 +56897,9 @@
                <ex>er</ex>
             </choice>en</l>
          <note resp="#MiGe_Gegenleser" target="#v_503.01 #V080ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="4">E</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="4">E</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_503.02">Die froͤide kv́nne<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -57648,7 +57629,7 @@
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_509.09 #V080va">: Die Marginalie bezieht sich auf die Verse 508.15-509.09.</note>
          <note resp="#MiGe_Gegenleser" target="#v_509.09 #V080va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Gabwan</a>: Es könnte auch <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Gawan</a> heissen.</note>
+            <ref>Gabwan</ref>: Es könnte auch <ref>Gawan</ref> heissen.</note>
          <l xml:id="v_509.10">Daz iſt eht wol nv weis ich oͮch daz</l>
          <l xml:id="v_509.11">Solich waz ir rede <subst hand="#ls1u">
                <del>*</del>
@@ -57764,7 +57745,7 @@
             </choice>
          </l>
          <l xml:id="v_510.14">Mvͦz ich v́ch die worheit ſagen</l>
-         <note resp="#AB_Gegenleser" target="#v_510.14 #V081ra">:<a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſagen</a> vmtl. aufgrund Korrektur in <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">510.13</a> nachgezogen</note>
+         <note resp="#AB_Gegenleser" target="#v_510.14 #V081ra">:<ref>ſagen</ref> vmtl. aufgrund Korrektur in <ref>510.13</ref> nachgezogen</note>
          <l xml:id="v_510.15">Do ſprach er vrowe ir ſagent al war</l>
          <l xml:id="v_510.16">Mine oͮgen ſint dez h<choice>
                <am>̉</am>
@@ -57974,7 +57955,7 @@
          <l xml:id="v_512.13">Do nam min her gawan</l>
          <l xml:id="v_512.14">Den zv́gel von dem orſe dan</l>
          <l xml:id="v_512.15">Er ſprach nv habent mirs vrowe</l>
-         <note resp="#AB_Gegenleser" target="#v_512.15 #V081rb">: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">habent</a> anscheinend angefangen, zu tilgen. Korrektur aber nicht zu Ende ausgeführt.</note>
+         <note resp="#AB_Gegenleser" target="#v_512.15 #V081rb">: <ref>habent</ref> anscheinend angefangen, zu tilgen. Korrektur aber nicht zu Ende ausgeführt.</note>
          <l xml:id="v_512.16">Bi tvmpheit ich v́ch ſchowe</l>
          <l xml:id="v_512.17">Sprach ſv́ wan do lag v́w<choice>
                <am>̉</am>
@@ -62546,8 +62527,8 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_557.08 #V088rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>*</del>
                      <add>
@@ -62557,7 +62538,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Zur Rechten der Verse 557.07-557.16 wurden zwei Verse rasiert. Ihr Wortlaut ist nicht mehr erkennbar. Ebensowenig ist auszumachen, ob sie auf eine bestimmte Stelle im Spaltentext zeigen. Viehhauser-Mery zufolge wurde das Verspaar wahrscheinlich in den Haupttext integriert. Vgl. Beispiel 1,13 bei Viehhauser-Mery, S. 132. zeigen.</note>
+            </ref>: Zur Rechten der Verse 557.07-557.16 wurden zwei Verse rasiert. Ihr Wortlaut ist nicht mehr erkennbar. Ebensowenig ist auszumachen, ob sie auf eine bestimmte Stelle im Spaltentext zeigen. Viehhauser-Mery zufolge wurde das Verspaar wahrscheinlich in den Haupttext integriert. Vgl. Beispiel 1,13 bei Viehhauser-Mery, S. 132. zeigen.</note>
          <l xml:id="v_557.09">
             <subst hand="#ls1u">
                <del>*veile</del>
@@ -63938,8 +63919,8 @@
             </note>
          </l>
          <note resp="#JKl_Transkribent" target="#v_569.08 #V090ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>*er noͤte *</del>
                      <add>
@@ -63949,8 +63930,8 @@
                      </add>
                   </subst>
                </note>
-            </a>: Rasierte Korrekturanweisung von 569.08-569.19, 569.08 nachtragen,statt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">noͤte</a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">not</a> übertragen.</note>
+            </ref>: Rasierte Korrekturanweisung von 569.08-569.19, 569.08 nachtragen,statt <ref>noͤte</ref>
+            <ref>not</ref> übertragen.</note>
          <l xml:id="v_569.09">
             <subst hand="#ls1u">
                <del>*</del>
@@ -64199,8 +64180,8 @@
             </note>
          </l>
          <note resp="#JKl_Transkribent" target="#v_571.08 #V090rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">
+            <ref>
+               <note type="Marginalie">
                   <subst hand="#ls1u">
                      <del>Dez er do weni<choice>
                            <am>̄</am>
@@ -64213,7 +64194,7 @@
                      </add>
                   </subst>
                </note>
-            </a>: Rasierte Korrekturanweisung von 571.08-571.19,571.20 nachtragen.</note>
+            </ref>: Rasierte Korrekturanweisung von 571.08-571.19,571.20 nachtragen.</note>
          <l xml:id="v_571.09">Wil <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -64373,11 +64354,11 @@
             </note>
          </l>
          <note resp="#JKl_Transkribent" target="#v_572.02 #V090va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <note xmlns="http://www.tei-c.org/ns/1.0" type="Marginalie">Jn dem ſchilde bleip der * fu<unclear reason="Zweifel">z</unclear>
+            <ref>
+               <note type="Marginalie">Jn dem ſchilde bleip der * fu<unclear reason="Zweifel">z</unclear>
                </note>
-            </a>: Rasierte Korrekturanweisung von 572.02-572.14,572.01 nachtragen, statt<a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Jn dem</a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Jm</a>.</note>
+            </ref>: Rasierte Korrekturanweisung von 572.02-572.14,572.01 nachtragen, statt<ref>Jn dem</ref>
+            <ref>Jm</ref>.</note>
          <l xml:id="v_572.03">Daz Gawan mohte vaſte ſtan</l>
          <l xml:id="v_572.04">Her vn<choice>
                <am>̄</am>
@@ -65017,9 +64998,9 @@
             <add hand="#ls1u">ir hin</add>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_577.11 #V91rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <lb/>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="klebung">
@@ -65027,9 +65008,9 @@
                      </hi>
                   </add>
                </subst>
-               <lb xmlns="http://www.tei-c.org/ns/1.0"/>
-               <add xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">ir hin</add>
-            </a>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
+               <lb/>
+               <add hand="#ls1u">ir hin</add>
+            </ref>: Es liegt wahrscheinlich eine Korrektur durch Ersetzung vor. Diese kann in diesem besonderen Fall aber nicht mit Tags dargestellt werden.</note>
          <l xml:id="v_577.12">Den lip ich g<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -67944,7 +67925,7 @@
                <ex>er</ex>
             </choice>n</l>
          <note resp="#JKl_Transkribent" target="#v_600.23 #V094vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>:</note>
+            <ref/>:</note>
          <l xml:id="v_600.24">So moͤgent ir min<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -69830,7 +69811,7 @@
                <ex>er</ex>
             </choice>t</l>
          <note resp="#AB_Transkribent" target="#v_615.18 #V97ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Rückseite Rasur.</note>
+            <ref/>: Rückseite Rasur.</note>
          <l xml:id="v_615.19">Do er ſv́ ob dem brunnen ſach</l>
          <l xml:id="v_615.20">Vnde ſv́ ſo twerhlichen ſprach</l>
          <l xml:id="v_615.21">
@@ -70053,13 +70034,12 @@
                <ex>de</ex>
             </choice> wiz</l>
          <note resp="#MiGe_Gegenleser" target="#v_618.01 #V097va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: rot-violett">C</seg>
-            </a>: Bildinitiale.</note>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_618.02">Der erloͮbete mir durch ſine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -70712,10 +70692,10 @@
                <ex>er</ex>
             </choice>zin</l>
          <note resp="#AB_Transkribent" target="#v_623.24 #V098rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gow<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>gow<choice>
                   <am>̉</am>
                   <ex>er</ex>
-               </choice>zi n</a>: Rasur auf Rückseite.</note>
+               </choice>zi n</ref>: Rasur auf Rückseite.</note>
          <l xml:id="v_623.25">Die harpfe vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -70775,12 +70755,11 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_624.07 #V098rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
-                    rend="Farbe: rot-violett">G</seg>awan ſprach zer vrowen</a>: Rasur auf Rückseite, Vers nachgebessert?</note>
+                    rend="Farbe: rot-violett">G</seg>awan ſprach zer vrowen</ref>: Rasur auf Rückseite, Vers nachgebessert?</note>
          <l xml:id="v_624.08">Jr moͤgent ſv́ beide ſchowe<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -71816,13 +71795,12 @@
                <ex>n</ex>
             </choice>t</l>
          <note resp="#AB_Transkribent" target="#v_633.29 #V099vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: blau-rot">D</seg>
-            </a>: Initiale verschmiert; Verse stehen teilweise über der Initiale.</note>
+            </ref>: Initiale verschmiert; Verse stehen teilweise über der Initiale.</note>
          <l xml:id="v_633.30">Sv́ enpfieng ez mit ir claren hant</l>
          <l xml:id="v_634.01">Do ſprach ſv́ herre ich ſihe nv wol</l>
          <l xml:id="v_634.02">Ob ich ſo vor v́ch ſpreche<choice>
@@ -72557,7 +72535,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_639.13 #V100vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: ab Folgevers jeder gerade gezählte Vers rubriziert.</note>
+            <ref/>: ab Folgevers jeder gerade gezählte Vers rubriziert.</note>
          <l xml:id="v_639.14">Jr froͤide er ſv́ niht irte</l>
          <l xml:id="v_639.15">Manig vrowe wol gevar</l>
          <l xml:id="v_639.16">Gieng fv́r in ze tanze dar</l>
@@ -72948,7 +72926,7 @@
          </l>
          <l xml:id="v_642.15">Diſem ritter den ir hant broht her</l>
          <note resp="#AB_Transkribent" target="#v_642.15 #V101rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ritter den</a>: nachgezogen.</note>
+            <ref>ritter den</ref>: nachgezogen.</note>
          <l xml:id="v_642.16">Ob der helfe an v́ch ger</l>
          <l xml:id="v_642.17">
             <subst hand="#ls1u">
@@ -73025,7 +73003,7 @@
                </add>
             </subst> gieng</l>
          <note resp="#AB_Transkribent" target="#v_642.27 #V101rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Die</a>:ie nachgezogen.</note>
+            <ref>Die</ref>:ie nachgezogen.</note>
          <l xml:id="v_642.28">Do ſv́ ze hove vrlop enpfieng</l>
          <l xml:id="v_642.29">Bene ein lieht trvͦg vor ir dan</l>
          <l xml:id="v_642.30">Die tv́r beſlos h<choice>
@@ -73044,13 +73022,12 @@
                <ex>n</ex>
             </choice> ſteln</l>
          <note resp="#MiGe_Gegenleser" target="#v_643.01 #V101rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: rot-violett">K</seg>
-            </a>: Bildinitiale.</note>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_643.02">Daz mag ich vnſanfte heln</l>
          <l xml:id="v_643.03">Jch ſage vil lihte waz do geſchach</l>
          <l xml:id="v_643.04">Wan daz men dem ie vngefvͦge iach</l>
@@ -73129,12 +73106,12 @@
                <add>ſ<hi rend="rasur">in</hi>e</add>
             </subst> ſcharpfe not</l>
          <note resp="#AB_Transkribent" target="#v_643.25 #V101rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>ſ*e</del>
                   <add>ſ<hi rend="rasur">in</hi>e</add>
                </subst>
-            </a>: ſ und e sehen aus wie nachgezogen, andere Tintenfarbe.</note>
+            </ref>: ſ und e sehen aus wie nachgezogen, andere Tintenfarbe.</note>
          <l xml:id="v_643.26">Han braht vnz an den ſvre<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -73408,8 +73385,8 @@
                </add>
             </subst> er v́wers troſtes gebe</l>
          <note resp="#AB_Transkribent" target="#v_645.18 #V101vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">vn<choice>
@@ -73418,7 +73395,7 @@
                         </choice> freiſchet</hi>
                   </add>
                </subst>
-            </a>: Fleuronnée durch Rasur beschädigt; wahrscheinlich wurde der Versbeginn zuvor korrigiert, indem etwas noch vor die Versalienspalte geschrieben wurde und später wieder gelöscht.</note>
+            </ref>: Fleuronnée durch Rasur beschädigt; wahrscheinlich wurde der Versbeginn zuvor korrigiert, indem etwas noch vor die Versalienspalte geschrieben wurde und später wieder gelöscht.</note>
          <l xml:id="v_645.19">Jr moͤgent wol an dem brieve ſehe<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -74136,7 +74113,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_650.28 #V102va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Do enliez</a>: nachgezogen.</note>
+            <ref>Do enliez</ref>: nachgezogen.</note>
          <l xml:id="v_650.29">Der knappe. zen vrowe<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -74325,7 +74302,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_652.10 #V102vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kv́nig ob der tauelrvnde</a>: Rückseite Korrektur.</note>
+            <ref>kv́nig ob der tauelrvnde</ref>: Rückseite Korrektur.</note>
          <l xml:id="v_652.11">Vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -74571,7 +74548,7 @@
                <ex>er</ex>
             </choice>re ia.</l>
          <note resp="#AB_Transkribent" target="#v_653.28 #V103ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Der</a>: Ansatz zur Rubrizierung.</note>
+            <ref>Der</ref>: Ansatz zur Rubrizierung.</note>
          <l xml:id="v_653.29">Jch vant den kv́nig vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -74821,10 +74798,10 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_655.16 #V103rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">v<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>v<choice>
                   <am>̉</am>
                   <ex>er</ex>
-               </choice>ſwigen</a>: nachgezogen.</note>
+               </choice>ſwigen</ref>: nachgezogen.</note>
          <l xml:id="v_655.17">
             <subst hand="#ls1u">
                <del>W*</del>
@@ -75294,13 +75271,13 @@
                </add>
             </subst> beagent</l>
          <note resp="#AB_Transkribent" target="#v_658.27 #V103vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>D*</del>
                   <add>D<hi rend="rasur">er</hi>
                   </add>
                </subst>
-            </a>: Rückseite Klebung.</note>
+            </ref>: Rückseite Klebung.</note>
          <l xml:id="v_658.28">Die enzẃſchent dem firmament</l>
          <l xml:id="v_658.29">
             <subst hand="#ls1u">
@@ -75577,7 +75554,7 @@
          </l>
          <l xml:id="v_660.27">Daz ir ein ſwacher garzvn</l>
          <note resp="#AB_Transkribent" target="#v_660.27 #V104ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ein ſwacher</a>: Rückseite Korrektur.</note>
+            <ref>ein ſwacher</ref>: Rückseite Korrektur.</note>
          <l xml:id="v_660.28">Eng<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -75777,13 +75754,13 @@
             </note>
          </l>
          <note resp="#AB_Transkribent" target="#v_662.10 #V104rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>mani*</del>
                   <add>manige <hi rend="rasur">baniere</hi>
                   </add>
                </subst>
-            </a>:-nige nachgezogen</note>
+            </ref>:-nige nachgezogen</note>
          <l xml:id="v_662.11">Sach arniue vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -75915,13 +75892,12 @@
                  n="2"
                  rend="Farbe: blau-rot">G</seg>awan bi benen hin abe enbot</l>
          <note resp="#AB_Transkribent" target="#v_663.09 #V104rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: blau-rot">G</seg>
-            </a>: Fleuronnée durch Rasur beschädigt.</note>
+            </ref>: Fleuronnée durch Rasur beschädigt.</note>
          <l xml:id="v_663.10">Sime wúrte plipalinot</l>
          <l xml:id="v_663.11">Koken vn<choice>
                <am>̄</am>
@@ -76011,8 +75987,8 @@
          <l xml:id="v_664.01">Daz lobeten ſ<gap reason="unleserlich" extent="unbekannt"/>le <add hand="#ls2u">geliche</add>
          </l>
          <note resp="#AB_Transkribent" target="#v_664.01 #V104va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">
@@ -76020,7 +75996,7 @@
                      </hi>
                   </add>
                </subst>
-            </a>: Materialschaden?</note>
+            </ref>: Materialschaden?</note>
          <l xml:id="v_664.02">Die h<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -76068,7 +76044,7 @@
                </add>
             </subst> barbigan</l>
          <note resp="#AB_Transkribent" target="#v_664.11 #V104va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: ab diesem Vers jeder gerade gezählte Versanfang rubriziert.</note>
+            <ref/>: ab diesem Vers jeder gerade gezählte Versanfang rubriziert.</note>
          <l xml:id="v_664.12">Hat do ritterſchaft getan</l>
          <l xml:id="v_664.13">Der zornige kv́nig gramaflanz</l>
          <l xml:id="v_664.14">So ſvͤchet er gelt fv́r ſine<choice>
@@ -76195,13 +76171,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#v_665.05 #V104va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: blau-rot">Oͮ</seg>
-            </a>: Bildinitiale.</note>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_665.06">Den h<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -76353,7 +76328,7 @@
                <ex>de</ex>
             </choice> ſchowen</l>
          <note resp="#AB_Transkribent" target="#v_666.12 #V104rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſchowen</a>: bei h ungewöhnliche Form des Zierstrichs nach unten.</note>
+            <ref>ſchowen</ref>: bei h ungewöhnliche Form des Zierstrichs nach unten.</note>
          <l xml:id="v_666.13">Sine gabe ſo groſliche</l>
          <l xml:id="v_666.14">Daz ſv́ ſprache<choice>
                <am>̄</am>
@@ -77180,7 +77155,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_672.24 #V105vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fv́nfte</a>: Federansatz zu 'v'.</note>
+            <ref>fv́nfte</ref>: Federansatz zu 'v'.</note>
          <l xml:id="v_672.25">
             <seg type="Initiale"
                  subtype="Fleuronee"
@@ -77241,7 +77216,7 @@
          </l>
          <l xml:id="v_673.06">Mir wart der vnervorhte</l>
          <note resp="#AB_Transkribent" target="#v_673.06 #V105vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Mir</a>: J-Majuskel des vorherigen Verses mit langen Verzierungen, M-Majuskel deshalb in den Leerraum verrückt.</note>
+            <ref>Mir</ref>: J-Majuskel des vorherigen Verses mit langen Verzierungen, M-Majuskel deshalb in den Leerraum verrückt.</note>
          <l xml:id="v_673.07">An miner ſite genomen</l>
          <l xml:id="v_673.08">Ein vnſer poynder waz ſo komen</l>
          <l xml:id="v_673.09">Mit hv́rte vnz an ir barbigan</l>
@@ -79765,7 +79740,7 @@
          <cb xml:id="v109ra"/>
          <l xml:id="v_692.26">Denne dinen crefteloſen lip</l>
          <note resp="#AB_Transkribent" target="#v_692.26 #V190ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Schreiberwechsel ab diesem Blatt/dieser Lage.</note>
+            <ref/>: Schreiberwechsel ab diesem Blatt/dieser Lage.</note>
          <l xml:id="v_692.27">Waz priſes <subst hand="#ls1u">
                <del>moht</del>
                <add>moͤht</add>
@@ -80290,13 +80265,12 @@
                  rend="Farbe: blau-rot">P</seg>
             <hi rend="rot">a</hi>rzefal der clare</l>
          <note resp="#MiGe_Gegenleser" target="#v_696.15 #V109va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: blau-rot">P</seg>
-            </a>: Bildinitiale.</note>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_696.16">Wart des ane vare</l>
          <l xml:id="v_696.17">V́ber parlieret</l>
          <l xml:id="v_696.18">Es wart <subst hand="#ls1u">
@@ -80335,15 +80309,15 @@
                </add>
             </subst> der kv́nig gramaflanz</l>
          <note resp="#MiGe_Gegenleser" target="#v_696.25 #V109va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>mi*h</del>
                   <add>in<hi rend="rasur">
                         <hi rend="rot">~</hi>
                      </hi>
                   </add>
                </subst>
-            </a>: Vgl. Beispiel 2,11 bei Viehhauser-Mery, S. 138.</note>
+            </ref>: Vgl. Beispiel 2,11 bei Viehhauser-Mery, S. 138.</note>
          <l xml:id="v_696.26">Svz haſſet. vmbe ſine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -80377,7 +80351,7 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_696.28 #V109va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geben</a>,<a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rehter</a>: vermutlich nachgezogen.</note>
+            <ref>geben</ref>,<ref>rehter</ref>: vermutlich nachgezogen.</note>
          <l xml:id="v_696.29">Miner ſweſt<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -80639,7 +80613,7 @@
                <add>armer</add>
             </subst> lip den ich. hie trage</l>
          <note resp="#AB_Transkribent" target="#v_698.13 #V109vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">armer</a>: i-Strich über m.</note>
+            <ref>armer</ref>: i-Strich über m.</note>
          <l xml:id="v_698.14">Nach <subst hand="#ls1u">
                <del>i<choice>
                      <am>̄</am>
@@ -80717,9 +80691,9 @@
             </subst>
          </l>
          <note resp="#AB_Transkribent" target="#v_698.26 #V109vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="klebung">ſere</hi>
-            </a>: unter der Klebung Korrektur vom Rubrikator.</note>
+            <ref>
+               <hi rend="klebung">ſere</hi>
+            </ref>: unter der Klebung Korrektur vom Rubrikator.</note>
          <l xml:id="v_698.29">
             <milestone unit="Versumstellung"/>Daz er den pris fúr alle man</l>
          <l xml:id="v_698.30">
@@ -81291,7 +81265,7 @@
                <ex>er</ex>
             </choice>ſaget</l>
          <note resp="#AB_Transkribent" target="#v_703.16 #V110va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">waz</a>Korrektur recto-Seite.</note>
+            <ref>waz</ref>Korrektur recto-Seite.</note>
          <l xml:id="v_703.17">Er reit eine uf die warte</l>
          <l xml:id="v_703.18">Den kv́nig daz muͦte harte</l>
          <l xml:id="v_703.19">Daz d<choice>
@@ -82096,7 +82070,7 @@
          </l>
          <l xml:id="v_711.07">Sv́ wolt in loſzen hoͤren</l>
          <note resp="#AB_Transkribent" target="#v_711.07 #V111vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: einige Teile des Verses, aufgrund der vorherigen Rasur, nachgezogen.</note>
+            <ref/>: einige Teile des Verses, aufgrund der vorherigen Rasur, nachgezogen.</note>
          <l xml:id="v_711.08">
             <subst hand="#ls1u">
                <del>*</del>
@@ -82412,12 +82386,11 @@
                  n="2"
                  rend="Farbe: rot-violett">A</seg>rtus ſprach ſint es die knaben</l>
          <note resp="#AB_Transkribent" target="#v_714.01 #V112ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
-                    rend="Farbe: rot-violett">A</seg>rtus</a>: Federansatz zur Rubrizierung des inlautenden r.</note>
+                    rend="Farbe: rot-violett">A</seg>rtus</ref>: Federansatz zur Rubrizierung des inlautenden r.</note>
          <l xml:id="v_714.02">Die ich an den ring ſach nach mir trabe<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -82557,7 +82530,7 @@
          <l xml:id="v_715.16">Alſe polus artanticus</l>
          <l xml:id="v_715.17">Gegen dem trehmontane ſtet</l>
          <note resp="#AB_Transkribent" target="#v_715.17 #V112va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſtet</a>: Federansatz über e.</note>
+            <ref>ſtet</ref>: Federansatz über e.</note>
          <l xml:id="v_715.18">Der deweder von der <subst hand="#ls1u">
                <del>*</del>
                <add>
@@ -83551,7 +83524,7 @@
             </choice>re clarheit</l>
          <l xml:id="v_723.26">Gramaflantz an die ſnuͤre reit</l>
          <note resp="#AB_Transkribent" target="#v_723.26 #V113vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſnuͤre</a>: e steht über n.</note>
+            <ref>ſnuͤre</ref>: e steht über n.</note>
          <l xml:id="v_723.27">Do fuͦrte der kv́nig vnervorht</l>
          <l xml:id="v_723.28">Jn kanfaſſaie geworht</l>
          <l xml:id="v_723.29">
@@ -85646,7 +85619,7 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#v_745.24 #V303vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">betwungenliche</a>: Punkt unter <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a>, vermutlich aber keine Korrektur. (Sieht nach Klecks aus, Autopsie 26.X.04).</note>
+            <ref>betwungenliche</ref>: Punkt unter <ref>e</ref>, vermutlich aber keine Korrektur. (Sieht nach Klecks aus, Autopsie 26.X.04).</note>
          <l xml:id="v_745.25">Do ſprach. der von Thaſme</l>
          <l xml:id="v_745.26">So wil ich mich nennen .e.</l>
          <l xml:id="v_745.27">Vn<choice>
@@ -87037,13 +87010,13 @@
                <ex>en</ex>
             </choice>enander ſoſzen</l>
          <note resp="#GVi_Transkribent" target="#v_762.25 #V306va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geg<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>geg<choice>
                   <am>̄</am>
                   <ex>en</ex>
-               </choice>enander</a>: Über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> ein Strich, möglicherweise i-Strich (oder Supraskript), so daß <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geg<choice xmlns="http://www.tei-c.org/ns/1.0">
+               </choice>enander</ref>: Über dem <ref>n</ref> ein Strich, möglicherweise i-Strich (oder Supraskript), so daß <ref>geg<choice>
                   <am>̄</am>
                   <ex>en</ex>
-               </choice>einander</a> intendiert gewesen sein könnte.</note>
+               </choice>einander</ref> intendiert gewesen sein könnte.</note>
          <l xml:id="v_762.26">Jch wene des iht v<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -87703,12 +87676,9 @@
                <ex>er</ex>
             </choice> vil gar</l>
          <note resp="#MiGe_Gegenleser" target="#v_769.28-1 #V307va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="4">S</seg>
-            </a>: Bildinitiale.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="4">S</seg>
+            </ref>: Bildinitiale.</note>
          <l xml:id="v_769.28-2">Heimliche vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -88019,7 +87989,7 @@
                <add>m<hi rend="rasur">oͤ</hi>hte</add>
             </subst> ſin</l>
          <note resp="#GVi_Transkribent" target="#v_771.03 #V307vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">beſſer</a>: Über dem Wort radiert. Supraskript vermutlich urspgl. auf das falsche Wort gesetzt.</note>
+            <ref>beſſer</ref>: Über dem Wort radiert. Supraskript vermutlich urspgl. auf das falsche Wort gesetzt.</note>
          <l xml:id="v_771.04">Danne Gamuret Anſcefin</l>
          <l xml:id="v_771.05">D<choice>
                <am>̉</am>
@@ -88138,9 +88108,9 @@
                <ex>er</ex>
             </choice> Mirabel</l>
          <note resp="#GVi_Transkribent" target="#v_772.02 #V308ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">auendrom</unclear>
-            </a>: Unter Umständen wäre auch Lesung <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">auendroin</a> denkbar.</note>
+            <ref>
+               <unclear reason="Zweifel">auendrom</unclear>
+            </ref>: Unter Umständen wäre auch Lesung <ref>auendroin</ref> denkbar.</note>
          <l xml:id="v_772.03">Der kv́nig Serabil von Roſokarz</l>
          <l xml:id="v_772.04">Vn<choice>
                <am>̄</am>
@@ -88175,9 +88145,9 @@
             </choice> von pleyedunze laudunal</l>
          <l xml:id="v_772.09">Der kv́nig <unclear reason="Zweifel">Ompries</unclear>. von Jtolac</l>
          <note resp="#GVi_Transkribent" target="#v_772.09 #V308ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">Ompries</unclear>
-            </a>: Unter Umständen wäre auch die Lesung <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Onipries</a> denkbar.</note>
+            <ref>
+               <unclear reason="Zweifel">Ompries</unclear>
+            </ref>: Unter Umständen wäre auch die Lesung <ref>Onipries</ref> denkbar.</note>
          <l xml:id="v_772.10">Vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -90034,15 +90004,15 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#v_788.09 #V311ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sru">
+            <ref>
+               <subst hand="#sru">
                   <del>nv*</del>
                   <add>nv<hi rend="rasur">
                         <gap/>
                      </hi>
                   </add>
                </subst>
-            </a>: Möglicherweise wurde ein Supraskript radiert.</note>
+            </ref>: Möglicherweise wurde ein Supraskript radiert.</note>
          <l xml:id="v_788.10">Ez iſt úch <unclear reason="Zweifel">l</unclear>eider <subst hand="#sru">
                <del>alzefru*</del>
                <add>alzefru<hi rend="rasur">
@@ -90052,15 +90022,15 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#v_788.10 #V311ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sru">
+            <ref>
+               <subst hand="#sru">
                   <del>alzefru*</del>
                   <add>alzefru<hi rend="rasur">
                         <gap/>
                      </hi>
                   </add>
                </subst>
-            </a>: Möglicherweise wurde ein Supraskript radiert.</note>
+            </ref>: Möglicherweise wurde ein Supraskript radiert.</note>
          <l xml:id="v_788.11">Wirt uwer ſele an mir v<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -90593,11 +90563,11 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#v_793.04 #V311vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">artuſe<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>artuſe<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: Eventuell Nasalstrich erst vom Korrektor nachgetragen.</note>
+            </ref>: Eventuell Nasalstrich erst vom Korrektor nachgetragen.</note>
          <l xml:id="v_793.05">An der ſelben zite</l>
          <l xml:id="v_793.06">Vn<choice>
                <am>̄</am>
@@ -90956,7 +90926,7 @@
          </l>
          <l xml:id="v_796.15">Die anfortas vs ſiecheite truͦg</l>
          <note resp="#GVi_Gegenleser" target="#v_796.15 #V312rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">truͦg</a>: Das Übergeschrieben <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> scheint bei der Rasur der oberen Zeile getilgt und vom Ls1 wiederhergestellt worden zu sein.</note>
+            <ref>truͦg</ref>: Das Übergeschrieben <ref>o</ref> scheint bei der Rasur der oberen Zeile getilgt und vom Ls1 wiederhergestellt worden zu sein.</note>
          <l xml:id="v_796.16">Got noch kv́nſte kan gnuͦg</l>
          <l xml:id="v_796.17">Do er gienc. do kein and<choice>
                <am>̉</am>
@@ -91229,7 +91199,7 @@
          <l xml:id="v_799.06">Dinen rot ich wil haben doch</l>
          <l xml:id="v_799.07">Die wile vns ſcheidet niht der tot</l>
          <l xml:id="v_799.08">Dv riete mir .e. in groſſer not</l>
-         <note resp="#GVi_Gegenleser" target="#v_799.08 #V312vb">: Vers in anderer Schrift (Farbe, Duktus, kein Endabstrich bei <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">t</a>.) Ob der Vers auf Rasur steht, ist nicht zu erkennen. Möglich wäre auch Nachtrag auf freigelassenem Platz (oder Schreiberwechsel für einen Vers). Vgl. auch 799.18.</note>
+         <note resp="#GVi_Gegenleser" target="#v_799.08 #V312vb">: Vers in anderer Schrift (Farbe, Duktus, kein Endabstrich bei <ref>t</ref>.) Ob der Vers auf Rasur steht, ist nicht zu erkennen. Möglich wäre auch Nachtrag auf freigelassenem Platz (oder Schreiberwechsel für einen Vers). Vgl. auch 799.18.</note>
          <l xml:id="v_799.09">Jch wil gegen minem wibe ko<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -91659,7 +91629,7 @@
                </subst>
             </note>
          </l>
-         <note resp="#GVi_Gegenleser" target="#v_804.15 #V313va">: Bei der Korrekturanweisung links am Rand eventuell auch zwei radierte Buchstaben. <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nt</a>? Oder anderes Zeichen?</note>
+         <note resp="#GVi_Gegenleser" target="#v_804.15 #V313va">: Bei der Korrekturanweisung links am Rand eventuell auch zwei radierte Buchstaben. <ref>nt</ref>? Oder anderes Zeichen?</note>
          <l xml:id="v_804.16">Die iſt reht<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -91827,7 +91797,7 @@
             </subst> kv́nigin</l>
          <l xml:id="v_806.06">Erbeiſſet waz in kam gewin</l>
          <note resp="#GVi_Transkribent" target="#v_806.06 #V313vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">waz in</a>: Zwischen <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">waz</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">in</a> Trennstrich mit unklarer Bedeutung. Virgel? Möglicherweise punktähnliche Funktion.</note>
+            <ref>waz in</ref>: Zwischen <ref>waz</ref> und <ref>in</ref> Trennstrich mit unklarer Bedeutung. Virgel? Möglicherweise punktähnliche Funktion.</note>
          <l xml:id="v_806.07">An ir mit froͤide <subst hand="#ls1u">
                <del>kv́n*</del>
                <add>kv́nf<hi rend="rasur">te</hi>
@@ -91919,12 +91889,11 @@
                <ex>n</ex>
             </choice>ne trat</l>
          <note resp="#GVi_Transkribent" target="#v_806.27 #V313vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="1"
-                    rend="Farbe: rot-blau">F</seg>erefis</a>: Nur eine Zeile freigelassen für Initiale, da Seitenende.</note>
+                    rend="Farbe: rot-blau">F</seg>erefis</ref>: Nur eine Zeile freigelassen für Initiale, da Seitenende.</note>
          <pb xml:id="v314r"/>
          <cb xml:id="v314ra"/>
          <l xml:id="v_806.28">Die kvnigin ſich den kv́ſſen bat</l>
@@ -92242,7 +92211,7 @@
                <ex>er</ex>
             </choice>er do waſſer gab</l>
          <note resp="#GVi_Transkribent" target="#v_809.16 #V314rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Wie</a>: Versalienspalte nicht beachtet. <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> nachträglich eingefügt?</note>
+            <ref>Wie</ref>: Versalienspalte nicht beachtet. <ref>i</ref> nachträglich eingefügt?</note>
          <l xml:id="v_809.17">Vnde waz man tafeln fúr ſú truͦg</l>
          <l xml:id="v_809.18">Me dan ich úch .e. gewuͦg</l>
          <l xml:id="v_809.19">Wie vngefuͦge den palas floch</l>
@@ -92714,7 +92683,7 @@
          <l xml:id="v_814.16">So daz ir dienent wite lant</l>
          <l xml:id="v_814.17">Wiltu dich toͮffen laſzen wern</l>
          <l xml:id="v_814.18">Sprach der wurt ſo maht dv irre minne gern</l>
-         <note resp="#GVi_Transkribent" target="#v_814.18 #V315ra">: Der Vers reicht fast bis in die zweite Spalte, zur Verdeutlichung der Abtrennung wurde daher eine rote geschwungene Linie hinter <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gern</a> eingefügt.</note>
+         <note resp="#GVi_Transkribent" target="#v_814.18 #V315ra">: Der Vers reicht fast bis in die zweite Spalte, zur Verdeutlichung der Abtrennung wurde daher eine rote geschwungene Linie hinter <ref>gern</ref> eingefügt.</note>
          <l xml:id="v_814.19">Jch mag nv wol dutzen dich</l>
          <l xml:id="v_814.20">Vnſer richtvͦm noch glichet ſich</l>
          <l xml:id="v_814.21">Minhalb vons grolez crefte</l>
@@ -92848,12 +92817,12 @@
                <add>Oͮch</add>
             </subst> liez man nv́t vnder wegen</l>
          <note resp="#GVi_Transkribent" target="#v_816.04-1 #V315rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>Oͮch</add>
                </subst>
-            </a>: Bei <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">O</a> Ansatz zu ursprünglich anderem Buchstaben.</note>
+            </ref>: Bei <ref>O</ref> Ansatz zu ursprünglich anderem Buchstaben.</note>
          <l xml:id="v_816.04-2">Artuſes wart wol gepflegen</l>
          <l xml:id="v_816.04-3">Vnde der tavelru<choice>
                <am>̄</am>
@@ -93195,7 +93164,7 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#v_820.03 #V316ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kv<hi xmlns="http://www.tei-c.org/ns/1.0" rend="klebung">m</hi>et</a>: Auch <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ha</a> von <unclear reason="Zweifel">has</unclear> aus Vers 820.01 und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">he l</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">voͤllecliche las</a> aus 820.02 auf demselben eingeklebten Pergamentstück, dort aber möglicherweise als Folge der Rasur von 820.03.</note>
+            <ref>kv<hi rend="klebung">m</hi>et</ref>: Auch <ref>ha</ref> von <unclear reason="Zweifel">has</unclear> aus Vers 820.01 und <ref>he l</ref> von <ref>voͤllecliche las</ref> aus 820.02 auf demselben eingeklebten Pergamentstück, dort aber möglicherweise als Folge der Rasur von 820.03.</note>
          <l xml:id="v_820.04">Swie cleine do were min gewin</l>
          <l xml:id="v_820.05">Anfortaſſen bat <subst hand="#ls1u">
                <del>eht</del>
@@ -93567,7 +93536,7 @@
             </choice> tribalibot</l>
          <l xml:id="v_822.09">Kvnde an den ſelben ziten</l>
          <note resp="#GVi_Transkribent" target="#v_822.09 #V316va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Kvnde</a>: Schrägstrich am Ende des Wortes mit unklarer Bedeutung, vermutlich nur Zierstrich.</note>
+            <ref>Kvnde</ref>: Schrägstrich am Ende des Wortes mit unklarer Bedeutung, vermutlich nur Zierstrich.</note>
          <l xml:id="v_822.10">Gegen ſineme her wol riten</l>
          <l xml:id="v_822.11">Daz lag al trurig in der habe</l>
          <l xml:id="v_822.12">Daz ir herre waz geſcheiden drabe</l>
@@ -93670,10 +93639,10 @@
                <am>̄</am>
                <ex>n</ex>
             </choice>drien enbot</l>
-         <note resp="#GVi_Transkribent" target="#v_823.04 #V316vb">: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dri</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kv<choice xmlns="http://www.tei-c.org/ns/1.0">
+         <note resp="#GVi_Transkribent" target="#v_823.04 #V316vb">: <ref>dri</ref> von <ref>kv<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>drien</a>, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">de</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">bruͦdere</a> aus dem nächsten Vers und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">w</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">waz</a> aus Vers 823.06 auf nachträglich geklebtem Pergamentstreifen. Interessanterweise wurde auf beiden Seiten radiert, es ist daher nicht mehr feststellbar, durch welche Korrektur das Loch entstanden ist (oder schon vorher vorhanden?). Die zweiten Hälften von 823.04 bis 823.06 sind aufgerauht, die Rasur könnte also großflächiger sein, als hier verzeichnet, es lässt sich aber nichts Genaueres feststellen.</note>
+               </choice>drien</ref>, <ref>de</ref> von <ref>bruͦdere</ref> aus dem nächsten Vers und <ref>w</ref> von <ref>waz</ref> aus Vers 823.06 auf nachträglich geklebtem Pergamentstreifen. Interessanterweise wurde auf beiden Seiten radiert, es ist daher nicht mehr feststellbar, durch welche Korrektur das Loch entstanden ist (oder schon vorher vorhanden?). Die zweiten Hälften von 823.04 bis 823.06 sind aufgerauht, die Rasur könnte also großflächiger sein, als hier verzeichnet, es lässt sich aber nichts Genaueres feststellen.</note>
          <l xml:id="v_823.05">Sineme bruͦdere vf <subst hand="#ls1u">
                <del>*<choice>
                      <am>̉</am>
@@ -93789,7 +93758,7 @@
                <ex>m</ex>
             </choice>me allez ſin lant</l>
          <note resp="#GVi_Transkribent" target="#823.10 #26_V316vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">allez</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">al</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">allez</a> auf Klebestreifen, ausgelöst wohl noch durch die Korrektur im oberen Vers.</note>
+            <ref>allez</ref>: <ref>al</ref> von <ref>allez</ref> auf Klebestreifen, ausgelöst wohl noch durch die Korrektur im oberen Vers.</note>
          <l xml:id="v_823.10-27">Dez landez vnd<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -93892,8 +93861,8 @@
             </note>
          </l>
          <note resp="#GVi_Transkribent" target="#v_824.08 #V317ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>*<choice>
                         <am>̉</am>
                         <ex>r</ex>
@@ -93902,7 +93871,7 @@
                      <hi rend="rasur">verdarb</hi>
                   </add>
                </subst>
-            </a>: Über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rb</a> ein r-Hakenförmiges Zeichen. Eventuell Zierstrich, eher kein Kürzel.</note>
+            </ref>: Über <ref>rb</ref> ein r-Hakenförmiges Zeichen. Eventuell Zierstrich, eher kein Kürzel.</note>
          <l xml:id="v_824.09">Werder lúte warb vmbe ſú genuͦg</l>
          <l xml:id="v_824.10">Der etzlicher crone truͦg</l>
          <l xml:id="v_824.11">Vn<choice>
@@ -94190,10 +94159,10 @@
                <ex>n</ex>
             </choice>nen</l>
          <note resp="#RGl_Gegenleser" target="#827.30 #21_V317vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſi<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>ſi<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>nen</a>: Der Nasalstrich steht möglicherweise auf Rasur. Eventuell wurden Teile dieses Wortes von einem anderen Schreiber geschrieben.</note>
+               </choice>nen</ref>: Der Nasalstrich steht möglicherweise auf Rasur. Eventuell wurden Teile dieses Wortes von einem anderen Schreiber geschrieben.</note>
          <l xml:id="v_827.30-22">Von manheit vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -94783,15 +94752,14 @@
                  rend="Farbe: rot-violett">W</seg>
             <hi rend="nicht_rot">u</hi>rt ich hie von dir gewert</l>
          <note resp="#RGl_Gegenleser" target="#827.30 #243_V318vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
+            <ref>
+               <seg type="Initiale"
                     subtype="Fleuronee"
                     n="2"
                     rend="Farbe: rot-violett">W</seg>
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="nicht_rot">u</hi>rt</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="nicht_rot">u</hi>
-            </a> steht möglicherweise auf Rasur.</note>
+               <hi rend="nicht_rot">u</hi>rt</ref>: Das <ref>
+               <hi rend="nicht_rot">u</hi>
+            </ref> steht möglicherweise auf Rasur.</note>
          <l xml:id="v_827.30-244">Wez din herze danne begert</l>
          <l xml:id="v_827.30-245">Von mi<choice>
                <am>̄</am>
@@ -94805,7 +94773,7 @@
             </subst>
          </l>
          <note resp="#GVi_Transkribent" target="#827.30 #247_V318vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Nv</a>: Vor dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">N</a> eine Art Pluszeichen. Korrekturzeichen?</note>
+            <ref>Nv</ref>: Vor dem <ref>N</ref> eine Art Pluszeichen. Korrekturzeichen?</note>
          <l xml:id="v_827.30-248">Zvͦ dez herren herze alſo</l>
          <l xml:id="v_827.30-249">Do moͤht ez niht entheben ſich</l>
          <l xml:id="v_827.30-250">Ez engebort ſo froͤlich</l>
@@ -95050,7 +95018,7 @@
                <ex>de</ex>
             </choice> ſine edeln <hi>~</hi> ſinne</l>
          <note resp="#GVi_Transkribent" target="#827.30 #356_V319rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">edeln -</a>: Keine Rasur unter der Tilde erkennbar. Eventuell steht das erste <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">edeln</a> auf Rasur.</note>
+            <ref>edeln -</ref>: Keine Rasur unter der Tilde erkennbar. Eventuell steht das erste <ref>e</ref> von <ref>edeln</ref> auf Rasur.</note>
          <l xml:id="v_827.30-357">Vn<choice>
                <am>̄</am>
                <ex>de</ex>
@@ -95164,7 +95132,7 @@
          <l xml:id="v_827.30-420">Wer volget diſeme getihte</l>
          <l xml:id="v_827.30-421">D<unclear reason="Zweifel">e</unclear>r mag nút miſze tretten</l>
          <note resp="#GVi_Transkribent" target="#827.30 #421_V319vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">D<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">e</unclear>r</a>: Loch im Pergament liegt über (vermutlich) <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a>. Wurmfraß.</note>
+            <ref>D<unclear reason="Zweifel">e</unclear>r</ref>: Loch im Pergament liegt über (vermutlich) <ref>e</ref>. Wurmfraß.</note>
          <l xml:id="v_827.30-422">Die wort ſint vz erietten</l>
          <l xml:id="v_827.30-423">Sv́ enirret do kein vncrut</l>
          <l xml:id="v_827.30-424">Wie men ſol werden den frowen trut</l>
@@ -95282,7 +95250,7 @@
          <l xml:id="v_827.30-465">Mir gebreſte dannoch lob</l>
          <l xml:id="v_827.30-466">Al min getihte were ze grob</l>
          <note resp="#GVi_Transkribent" target="#827.30 #466_V320ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ze grob</a>: Verderbte Stelle zwischen den Worten, aber eher Materialschaden als Rasur.</note>
+            <ref>ze grob</ref>: Verderbte Stelle zwischen den Worten, aber eher Materialschaden als Rasur.</note>
          <l xml:id="v_827.30-467">Zvͦ lobende ire clorheit</l>
          <l xml:id="v_827.30-468">Jr lob wurt niemer volle ſeit</l>
          <l xml:id="v_827.30-469">Wande alle tihtere</l>
@@ -95434,7 +95402,7 @@
             <note type="Notiz">.ich. bin. gern. <lb/> lie.p.:.</note>
          </l>
          <note resp="#GVi_Transkribent" target="#827.30 #557-02_V320va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lie.p.</a>: Nach dem Wort Punkt und ein Zierzeichen (?)</note>
+            <ref>lie.p.</ref>: Nach dem Wort Punkt und ein Zierzeichen (?)</note>
          <l xml:id="v_827.30-557-03">
             <note type="Notiz">J<gap reason="unleserlich" extent="unbekannt"/>
             </note>
@@ -95443,7 +95411,7 @@
          <l xml:id="v_827.30-558">Alle engele ſprechent ameN <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#827.30 #558_V320va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ameN</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">N</a> ist rubriziert.</note>
+            <ref>ameN</ref>: Das <ref>N</ref> ist rubriziert.</note>
          <l xml:id="v_827.30-559">
             <hi rend="rot">
                <note type="Explicit">Hie het der tútzſche vn<choice>
@@ -95456,11 +95424,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#827.30 #559_V320va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei verschiedenen ausschmückenden Zeichen. Dass sie zusammen eine zeilenfüllende Funktion einnehmen, ist möglich, aber nicht eindeutig.</note>
          <note resp="#GVi_Transkribent" target="#827.30 #559_V320va">: Dieser und die zwei folgenden Schreibervermerke sind rot eingerahmt.</note>
@@ -95548,7 +95516,7 @@
          <l xml:id="v_827.30-573">mag ich wol wenken wene ich <lb/> wil.</l>
          <l xml:id="v_827.30-574">Daz ich ez aber iemer tribe.</l>
          <note resp="#RGl_Gegenleser" target="#827.30 #574_V320va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">D</a>: Der Anfangsbuchstabe dieses Verses und diejenigen der folgenden fünf Verse sind rubriziert.</note>
+            <ref>D</ref>: Der Anfangsbuchstabe dieses Verses und diejenigen der folgenden fünf Verse sind rubriziert.</note>
          <l xml:id="v_827.30-575">Kurtz lang wening oder vil.</l>
          <l xml:id="v_827.30-576">So wil min herze von ir niht.</l>
          <l xml:id="v_827.30-577">Der ich mich nv zvͦ dienſte binde.</l>

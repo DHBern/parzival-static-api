@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr18
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr18</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -91,18 +91,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -1190,11 +1190,9 @@
             <supplied reason="unleserlich" resp="Sekundärliteratur">kvnden</supplied>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_641.28 #Fr18005rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">kvnden</supplied>
-            </a>: Schönfeld gibt <supplied reason="unleserlich" resp="Sekundärliteratur">kunden</supplied> an, das Wort wird im Fragment aber sonst durchgehend mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> geschrieben.</note>
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">kvnden</supplied>
+            </ref>: Schönfeld gibt <supplied reason="unleserlich" resp="Sekundärliteratur">kunden</supplied> an, das Wort wird im Fragment aber sonst durchgehend mit <ref>u</ref> geschrieben.</note>
          <l xml:id="fr18_641.29">Saẏue vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -1320,11 +1318,9 @@
             <supplied reason="unleserlich" resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear>
             </supplied>rze kraft.</l>
          <note resp="#MiGe_Gegenleser" target="#?1_643.23 #Fr18005va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear>
-               </supplied>rze</a>: Rosenfeld gibt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">würze</a> an. Ist damit möglicherweise <supplied reason="unleserlich" resp="Sekundärliteratur">wuͤrze</supplied> gemeint?</note>
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear>
+               </supplied>rze</ref>: Rosenfeld gibt <ref>würze</ref> an. Ist damit möglicherweise <supplied reason="unleserlich" resp="Sekundärliteratur">wuͤrze</supplied> gemeint?</note>
          <l xml:id="fr18_643.24">
             <gap reason="Fragmentverlust" extent="unbekannt"/>
             <gap reason="unleserlich" extent="1" unit="Buchstabe"/> wi<gap reason="Fragmentverlust" extent="unbekannt"/>lich g<gap reason="Fragmentverlust" extent="unbekannt"/>ſelleſchaft.</l>

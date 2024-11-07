@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen l
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen l</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -69,18 +69,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -1680,8 +1680,8 @@
                <ex>n</ex>
             </choice> leben</l>
          <note resp="#MiGe_Lektor" target="#l_29.16 #L020b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>in</a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>in</ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_29.17">Er ſtvnt vff vnd ſprach</l>
          <l xml:id="l_29.18">Vrowe ich tvn vch vngemach</l>
          <l xml:id="l_29.19">Jch kan zuͯ lange ſitzen</l>
@@ -1809,13 +1809,13 @@
                   <hi rend="rasur">V</hi>ns</add>
             </subst> mangen ritter abe</l>
          <note resp="#MiGe_Lektor" target="#l_32.18 #L021b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*ns</del>
                   <add>
                      <hi rend="rasur">V</hi>ns</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_32.19">Er lat ſich gerne ſchauwen</l>
          <l xml:id="l_32.20">Jn lobent ouch vnſer frouwen</l>
          <l xml:id="l_32.21">Wen wip lobent der wirt erkant</l>
@@ -2801,7 +2801,7 @@
          <cb xml:id="l031a"/>
          <l xml:id="l_53.23">Der bruͯtlaufte hochgezit</l>
          <note resp="#MiGe_Lektor" target="#l_53.23 #L031a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hochgezit</a>: Über dem Minuskel-e befindet sich ein roter Punkt. Funktion unbekannt.</note>
+            <ref>hochgezit</ref>: Über dem Minuskel-e befindet sich ein roter Punkt. Funktion unbekannt.</note>
          <l xml:id="l_53.24">Hete da vor mangen ſtrit</l>
          <l xml:id="l_53.25">Die wuͯrden ſus zuͯ ſvne bracht</l>
          <l xml:id="l_53.26">Jch <subst hand="#sr">
@@ -3594,9 +3594,9 @@
          <cb xml:id="l038a"/>
          <l xml:id="l_70.09">Die doch <hi rend="deckweiss">d</hi> hohe gerten niht</l>
          <note resp="#MiGe_Lektor" target="#l_70.09 #L038a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>
-            </a>: Durch die Rasur ist an der betreffenden Stelle ein Loch entstanden.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>
+            </ref>: Durch die Rasur ist an der betreffenden Stelle ein Loch entstanden.</note>
          <l xml:id="l_70.10">Des der kvnigynne zil verýeht</l>
          <l xml:id="l_70.11">Jr libes noch ir lande</l>
          <l xml:id="l_70.12">Sie gerten andere phande</l>
@@ -6218,12 +6218,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_117.26 #L058a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>vilſ</del>
                   <add>vil ſ<hi rend="rasur">w</hi>ere</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_117.27">Nv hapt uͯch an der witze craft</l>
          <l xml:id="l_117.28">Vnd helent ým alle ritterſchaft</l>
          <l xml:id="l_117.30">
@@ -6984,12 +6984,12 @@
                <add>uber</add>
             </subst> zihen ſolte</l>
          <note resp="#MiGe_Transkribent" target="#l_129.25 #L063b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ube*</del>
                   <add>uber</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_129.26">Wenne ez regenne<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -7996,23 +7996,20 @@
          <l xml:id="l_146.04">Er ſprach zuͯ dem knappen ſvnderva<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_146.04 #L070b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſvnderva<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>
-            </a>: Letzter Buchstabe befindet sich im Falz und ist auch am Original nicht klar zu erkennen.</note>
+            <ref>ſvnderva<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            </ref>: Letzter Buchstabe befindet sich im Falz und ist auch am Original nicht klar zu erkennen.</note>
          <l xml:id="l_146.05">Geeret ſý din ſuͯſzer lýp</l>
          <l xml:id="l_146.06">Dich brachte zuͯ der welte ein <subst hand="#sr">
                <del>*</del>
                <add>ſelig</add>
             </subst> wip</l>
          <note resp="#MiGe_Transkribent" target="#l_146.06 #070b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>ſelig</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_146.07">Wol der muͯtter die dich gebar</l>
          <l xml:id="l_146.08">Jch enſach nie lýep ſo wol gefar</l>
          <l xml:id="l_146.09">Du biſt der ware<choice>
@@ -8588,13 +8585,13 @@
                   <hi rend="rasur">k</hi>an</add>
             </subst> hie harte wenig zuͯ</l>
          <note resp="#MiGe_Transkribent" target="#l_156.16 #L075a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">h</hi>an</add>
                </subst>
-            </a>: Loch unterhalb des "h" entstand wohl aufgrund unvorsichtiger Rasur.</note>
+            </ref>: Loch unterhalb des "h" entstand wohl aufgrund unvorsichtiger Rasur.</note>
          <l xml:id="l_156.17">Wie bringe ich ez ab ým vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -8779,13 +8776,13 @@
                   <hi rend="deckweiss">d</hi>Sprach</add>
             </subst> iamerlicher worte ſin</l>
          <note resp="#MiGe_Transkribent" target="#l_160.02 #L076b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="deckweiss">d</hi>Sprach</add>
                </subst>
-            </a>: Deckweissfleck, rot umkreist. .</note>
+            </ref>: Deckweissfleck, rot umkreist. .</note>
          <l xml:id="l_160.03">Owe vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -9190,12 +9187,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_167.11 #079b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>eng*</del>
                   <add>engalt</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_167.12">Jvngfrowen kuͯſch vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -9532,7 +9529,7 @@
                <ex>d</ex>
             </choice> hamit</l>
          <note resp="#MiGe_Lektor" target="#l_172.21 #L081b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vngeverte</a>: Majuskel-V nachgezogen.</note>
+            <ref>Vngeverte</ref>: Majuskel-V nachgezogen.</note>
          <l xml:id="l_172.22">Dar gedihet manich ſtrit</l>
          <l xml:id="l_172.23">Daz meſſen gein der mýnne</l>
          <l xml:id="l_172.24">Die <subst hand="#sr">
@@ -11801,10 +11798,10 @@
             <hi rend="deckweiss">d</hi>
             <hi rend="rot">A</hi> zerſtuͯben in die ſchilte</l>
          <note resp="#MiGe_Lektor" target="#l_211.29 #L098b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">A</hi>
-            </a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>
+               <hi rend="rot">A</hi>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_211.30">So der mit ſchýmpfe ſpilte</l>
          <l xml:id="l_212.01">Vn<choice>
                <am>̄</am>
@@ -12532,12 +12529,12 @@
                <add>geanckert</add>
             </subst> weideman</l>
          <note resp="#MiGe_Transkribent" target="#l_225.03 #L104a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>geanckert</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_225.04">Den waz daz waſzer vndertan</l>
          <l xml:id="l_225.05">Do ſie in <subst hand="#sr">
                <del>f</del>
@@ -13186,12 +13183,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_234.28 #L108a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>v*</del>
                   <add>v<hi rend="rasur">r</hi>ý</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier. Dieses ist rot umrahmt. Dies könnte darauf zurückzuführen sein, dass sich auf der Vorderseite an derselben Stelle ein rubrizierter Buchstabe befindet.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier. Dieses ist rot umrahmt. Dies könnte darauf zurückzuführen sein, dass sich auf der Vorderseite an derselben Stelle ein rubrizierter Buchstabe befindet.</note>
          <l xml:id="l_234.29">
             <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">S</seg>Je gingen alle ſehſe zuͯ</l>
          <l xml:id="l_234.30">Nv horet waz ýegeliche tvͯ</l>
@@ -13303,8 +13300,8 @@
             </choice>
             <hi rend="deckweiss">d</hi>an</l>
          <note resp="#MiGe_Transkribent" target="#l_236.16 #L109a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>an</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>an</ref>: <ref>d</ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_236.17">Zuͯ den ahtzehenden erſten</l>
          <l xml:id="l_236.18">Do lieſzen ſie die herſten</l>
          <l xml:id="l_236.19">Zwiſchen ſie man ſagete mir</l>
@@ -13437,7 +13434,7 @@
             </choice> daz wilde</l>
          <l xml:id="l_238.18">Ez enwuͯrde nie dekein bil<hi rend="deckweiss">d</hi>e</l>
          <note resp="#MiGe_Transkribent" target="#l_238.18 #L109b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">bil<hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>e</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ld</a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            <ref>bil<hi rend="deckweiss">d</hi>e</ref>: <ref>ld</ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_238.19">Begýnnet nv manger ſprec<hi rend="deckweiss">d</hi>en</l>
          <l xml:id="l_238.20">Der wil ſich uͯbel rechen</l>
          <pb xml:id="l110"/>
@@ -13540,13 +13537,13 @@
                </add>
             </subst> muͯget es fuͯren alle wege</l>
          <note resp="#MiGe_Transkribent" target="#l_239.30 #L110b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>J*</del>
                   <add>J<hi rend="rasur">r</hi>
                   </add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_240.01">Gepruͯfet ir rechte ſin art</l>
          <l xml:id="l_240.02">Jr ſýt in ſtrite da mit bewart</l>
          <l xml:id="l_240.03">
@@ -13657,7 +13654,7 @@
                   <hi rend="rasur">ſi</hi>e</add>
             </subst> den ſchuͯtz muͯz menen</l>
          <note resp="#MiGe_Transkribent" target="#l_241.20 #L111a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſie</a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            <ref>ſie</ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_241.21">Wer danne ſin mere ſchvͯſzet</l>
          <l xml:id="l_241.22">Da in dez duͯrch not verdrvſzet</l>
          <l xml:id="l_241.23">Wan ez hat da niender ſtat</l>
@@ -13711,13 +13708,13 @@
                   <hi rend="rasur">w</hi>irt</add>
             </subst> zuͯ ſinem gaſte ſprach</l>
          <note resp="#MiGe_Transkribent" target="#l_242.12 #L111b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">D</hi>er</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_242.13">Jch wane man uͯch gebettet hat</l>
          <l xml:id="l_242.14">Sit ir muͯde ſo iſt mýn rat</l>
          <l xml:id="l_242.15">Daz ir get leget uͯch ſlaffen</l>
@@ -13823,12 +13820,12 @@
                <add>knite</add>
             </subst> vor in dar</l>
          <note resp="#MiGe_Transkribent" target="#l_244.18 #L112b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>knite</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_244.19">Er bat ſie zuͯ ým ſitzen</l>
          <l xml:id="l_244.20">Sie ſprach herre lat mich bý witze<choice>
                <am>̄</am>
@@ -14096,13 +14093,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_248.21 #L114a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">d</hi>inch</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_248.22">Geruͯchte<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -14752,7 +14749,7 @@
          <l xml:id="l_259.09">Daz al myn froude lege dran</l>
          <l xml:id="l_259.10">So getorſte ich ez doch niht griffen an</l>
          <note resp="#MiGe_Lektor" target="#l_259.10 #L118b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">griffen</a>: "ff": Keine Korrektur, aber nachgezogen.</note>
+            <ref>griffen</ref>: "ff": Keine Korrektur, aber nachgezogen.</note>
          <l xml:id="l_259.11">Welt ir vnz todes mache<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -14770,11 +14767,8 @@
          <l xml:id="l_259.15">Er ſprach vrowe wer neme vnz daz lebe<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
          </l>
          <note resp="#MiGe_Lektor" target="#l_259.15 #L118b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lebe<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>
-            </a>: Der letzte Buchstabe des Wortes ist auch am Original nicht zu erkennen.</note>
+            <ref>lebe<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            </ref>: Der letzte Buchstabe des Wortes ist auch am Original nicht zu erkennen.</note>
          <l xml:id="l_259.16">Daz hat vnz gottes kraft gegeben</l>
          <l xml:id="l_259.17">Ob dez gert ein gantzes her</l>
          <l xml:id="l_259.18">Man ſehe mich vor vnſz zuͯ wer</l>
@@ -15427,12 +15421,12 @@
                <add>ph<hi rend="rasur">e</hi>llel</add>
             </subst> wit</l>
          <note resp="#MiGe_Transkribent" target="#l_270.12 #L123a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ph*</del>
                   <add>ph<hi rend="rasur">e</hi>llel</add>
                </subst>
-            </a>: Loch in Papier oberhalb des ersten <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> aufgrund unvorsichtiger Rasur.</note>
+            </ref>: Loch in Papier oberhalb des ersten <ref>e</ref> aufgrund unvorsichtiger Rasur.</note>
          <l xml:id="l_270.13">Mit heldes hant verhouwen</l>
          <l xml:id="l_270.14">Jch han doch ſelten vrowen</l>
          <l xml:id="l_270.15">Geſehen wapen rocke tragen</l>
@@ -15468,12 +15462,12 @@
                <add>were</add>
             </subst> fruͯntſchaft bý</l>
          <note resp="#MiGe_Transkribent" target="#l_271.05 #L123a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>wer*</del>
                   <add>were</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_271.06">Nv lone dir got ſý iſt valſches frý</l>
          <l xml:id="l_271.07">Jch han vnfuͯge an ir getan</l>
          <l xml:id="l_271.08">Duͯrch frecheit in <hi rend="rot">B</hi>rezilian</l>
@@ -15946,9 +15940,9 @@
                <ex>n</ex>
             </choice> reit</l>
          <note resp="#MiGe_Gegenleser" target="#l_227.29 #126a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">mir</del>
-            </a>: Das Wort wurde mit roter Tinte gestrichen.</note>
+            <ref>
+               <del hand="#sr">mir</del>
+            </ref>: Das Wort wurde mit roter Tinte gestrichen.</note>
          <l xml:id="l_277.30">Wie mir von <hi rend="rot">O</hi>rillus leit</l>
          <l xml:id="l_278.01">Geſchehe<hi rend="rot">.</hi>
             <hi rend="rot">J</hi>ch gvnde uͯch truͯrens niht</l>
@@ -17087,7 +17081,7 @@
          <l xml:id="l_297.24">Dez muͯſz <hi rend="unterstrichen">her walter</hi> ſingen <note type="Marginalie">herre Walter <lb/> von der Vögel-<lb/>weide iſt auch <lb/> ein Saenger, und <lb/> ſein gesell ge<lb/>weſen an herman <lb/> Landgraffen von <lb/> Thüringen hoffe <lb/> anno 1206.</note>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_297.24 #L134a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">her walter</a>: Diese zwei Wörter sind von einem späteren Leser unterstrichen worden.</note>
+            <ref>her walter</ref>: Diese zwei Wörter sind von einem späteren Leser unterstrichen worden.</note>
          <l xml:id="l_297.25">Guten tach boſe vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -17099,7 +17093,7 @@
             <hi rend="rot">R</hi>iſpach <note type="Marginalie">Iſt onzweiffel heinrich <lb/> Schreiber der Einer <lb/> von den Saengern vor Ei=<lb/>ſenach.</note>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_297.29 #L132a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">her heinrich von <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">R</hi>iſpach</a>: Diese vier Wörter sind von einem späteren Leser unterstrichen worden.</note>
+            <ref>her heinrich von <hi rend="rot">R</hi>iſpach</ref>: Diese vier Wörter sind von einem späteren Leser unterstrichen worden.</note>
          <l xml:id="l_297.30">Horet wuͯnders mere daz dort geſchach</l>
          <l xml:id="l_298.01">Vff dem <hi rend="rot">P</hi>limizolles plan</l>
          <cb xml:id="l134b"/>
@@ -17271,12 +17265,12 @@
                <add>ſlagen</add>
             </subst> waz ým ein wint</l>
          <note resp="#MiGe_Transkribent" target="#l_301.06 #L135b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſla*</del>
                   <add>ſlagen</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_301.07">Der <hi rend="rot">T</hi>avelrvnder hoher pris</l>
          <l xml:id="l_301.08">Gawan waz dirre not alwiſz</l>
          <l xml:id="l_301.09">Er hete es vnſanfte erkant</l>
@@ -17722,12 +17716,12 @@
          <l xml:id="l_309.24">Noch gegen ſtuͯle da nýeman ſprach</l>
          <l xml:id="l_309.25">Jr geſýtze waz geliche <hi rend="deckweiss">d</hi> her</l>
          <note resp="#MiGe_Transkribent" target="#l_309.25 #L139b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>geliche </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rasur">
+            <ref>
+               <hi rend="deckweiss">d</hi>geliche </ref>: <ref>
+               <hi rend="rasur">
                   <gap/>
                </hi>
-            </a>: Rot umkreister Deckweissfleck mit Loch.</note>
+            </ref>: Rot umkreister Deckweissfleck mit Loch.</note>
          <l xml:id="l_309.26">Der kvnig <hi rend="rot">A</hi>rtuͯs gebot in mer</l>
          <l xml:id="l_309.27">Daz man <subst hand="#sr">
                <del>*</del>
@@ -18488,7 +18482,7 @@
          </l>
          <l xml:id="l_324.12">Duͯrch den ich den kampf wil han</l>
          <note resp="#MiGe_Transkribent" target="#l_324.12 #L144a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kampf wil han</a>: Diese Wörter scheinen mit roter Tinte unterstrichen worden zu sein. Auffälligerweise taucht diese Formulierung nur in Hs. L und dem eng damit verwandten Fr39 auf. Möglicherweise hatte Jordan bei der Rubrizierung eine zweite Vorlage zur Verfügung.</note>
+            <ref>kampf wil han</ref>: Diese Wörter scheinen mit roter Tinte unterstrichen worden zu sein. Auffälligerweise taucht diese Formulierung nur in Hs. L und dem eng damit verwandten Fr39 auf. Möglicherweise hatte Jordan bei der Rubrizierung eine zweite Vorlage zur Verfügung.</note>
          <l xml:id="l_324.13">Vnſer vatter bruͯder hieſzen</l>
          <l xml:id="l_324.14">Die nihtes ein ander lyeſzen</l>
          <cb xml:id="l144b"/>
@@ -18686,8 +18680,8 @@
          <l xml:id="l_327.29">
             <hi rend="deckweiss">d</hi>inen lip gab er ir zuͯ lone</l>
          <note resp="#MiGe_Transkribent" target="#l_327.29 #L146a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>inen</a>: Buchstabe mit Deckweiss ist umgeben von gräulicher Fläche, Durchmesser ca. 1cm.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>inen</ref>: Buchstabe mit Deckweiss ist umgeben von gräulicher Fläche, Durchmesser ca. 1cm.</note>
          <l xml:id="l_327.30">Vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -18793,7 +18787,7 @@
                <ex>d</ex>
             </choice> wil uͯch dez beſc<hi rend="deckweiss">d</hi>eiden</l>
          <note resp="#MiGe_Transkribent" target="#l_329.19 #L146b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">beſc<hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>eiden</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h</a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            <ref>beſc<hi rend="deckweiss">d</hi>eiden</ref>: <ref>h</ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_329.20">Jch enmag ez ſo niht geleiden</l>
          <l xml:id="l_329.21">Alz es mir leýde kvndet</l>
          <l xml:id="l_329.22">Daz ſich nv manger ſvndet</l>
@@ -18812,8 +18806,8 @@
          <l xml:id="l_330.01">
             <hi rend="deckweiss">d</hi>ol ich duͯrch mýner zuͯcht gebot</l>
          <note resp="#MiGe_Transkribent" target="#l_330.01 #L146b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>ol</a>: Der Buchstabe mit Deckweiss ist umgeben von gräulicher Fläche, Durchmesser ca. 1cm.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>ol</ref>: Der Buchstabe mit Deckweiss ist umgeben von gräulicher Fläche, Durchmesser ca. 1cm.</note>
          <l xml:id="l_330.02">Horen nv der werlte ſpot</l>
          <l xml:id="l_330.03">So enmag ſin rat nit ſin gantz</l>
          <l xml:id="l_330.04">Mir rýet der werde <hi rend="rot">G</hi>vrnemantz</l>
@@ -20689,7 +20683,7 @@
                <add>Tſhervleſn lachen</add>
             </subst> ruͯrte</l>
          <note resp="#MiGe_Transkribent" target="#l_363.20 #L160b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Tſhervleſn</a>: Über dem "n" befindet sich eine Art Kreis aus Tinte. Es ist unsicher, ob es sich dabei um ein Zeichen oder ein Versehen handelt.</note>
+            <ref>Tſhervleſn</ref>: Über dem "n" befindet sich eine Art Kreis aus Tinte. Es ist unsicher, ob es sich dabei um ein Zeichen oder ein Versehen handelt.</note>
          <l xml:id="l_363.21">Er ſprach herre ir ſit betrogen</l>
          <l xml:id="l_363.22">Werz uͯch ſagt der hat gelogen</l>
          <l xml:id="l_363.23">Ez ſi man oder wip</l>
@@ -21094,9 +21088,9 @@
             </choice>
          </l>
          <note resp="#MiGe_Gegenleser" target="#l_371.24 #L164a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">Varn</del>
-            </a>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">Varn</del>
+            </ref>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
          <l xml:id="l_371.25">Wie fuͯret ir ane mynen ſolt</l>
          <l xml:id="l_371.26">Dazuͯ bin ich uͯch zuͯ holt</l>
          <l xml:id="l_371.27">Jch ſol mich arbeiten</l>
@@ -21345,7 +21339,7 @@
          <l xml:id="l_376.15">Kardefablet <hi rend="rot">de</hi> lamar</l>
          <l xml:id="l_376.16">Des marſchalk nam da vier tor</l>
          <note resp="#MiGe_Transkribent" target="#l_376.16 #L166a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">marſchalk</a>: Über dem zweiten "a" befindet sich ein Zeichen, das einem Nasalstrich ähnlich kommt.</note>
+            <ref>marſchalk</ref>: Über dem zweiten "a" befindet sich ein Zeichen, das einem Nasalstrich ähnlich kommt.</note>
          <l xml:id="l_376.17">Do man des morgens ſach ſin her</l>
          <l xml:id="l_376.18">Wol mit ellenthafter wer</l>
          <l xml:id="l_376.19">Der hertzoge riche</l>
@@ -21580,18 +21574,10 @@
          <l xml:id="l_381.03">
             <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">W</seg>az iſt mir duͯrch den knappen leit</l>
          <note resp="#MiGe_Transkribent" target="#l_381.03 #L168a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="1"
-                    rend="Farbe: rot">W</seg>az</a>: Für die Initiale wurde <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a> vorgeschrieben, aber <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="1"
-                    rend="Farbe: rot">W</seg>
-            </a> ausgeführt. Alle anderen Hss. tradieren "Daz", folglich muss ein Versehen vorliegen.</note>
+            <ref>
+               <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">W</seg>az</ref>: Für die Initiale wurde <ref>d</ref> vorgeschrieben, aber <ref>
+               <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">W</seg>
+            </ref> ausgeführt. Alle anderen Hss. tradieren "Daz", folglich muss ein Versehen vorliegen.</note>
          <l xml:id="l_381.04">Der dez vordern tages mit zuͯchte<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -22430,12 +22416,12 @@
                <add>dar</add>
             </subst> ſant er weide man</l>
          <note resp="#MiGe_Transkribent" target="#l_397.27 #L175a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>dar</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_397.28">Vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -22974,7 +22960,7 @@
          <l xml:id="l_408.29">Ez were kvnig oder roͯg</l>
          <l xml:id="l_408.30">Daz warf ſie gein den vinden doch</l>
          <note resp="#YCh_Transkribent" target="#l_408.30 #L179b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">warf</a>: Über dem Wort unverständliches Zeichen.</note>
+            <ref>warf</ref>: Über dem Wort unverständliches Zeichen.</note>
          <l xml:id="l_409.01">Ez waz groz vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -24742,8 +24728,8 @@
          <l xml:id="l_445.11">Den erwarp an <hi rend="rot">p</hi>arzifale</l>
          <l xml:id="l_445.12">So half im baz da heime der <hi rend="rot">G</hi>rale</l>
          <note resp="#MiGe_Transkribent" target="#l_445.12 #L195vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">G</hi>rale</a>:Das "e" wurde mit einer anderen Tinte nachgezogen (Ergebnis der Tintenanalyse)</note>
+            <ref>
+               <hi rend="rot">G</hi>rale</ref>:Das "e" wurde mit einer anderen Tinte nachgezogen (Ergebnis der Tintenanalyse)</note>
          <l xml:id="l_445.13">Parzifal her wider ſteich</l>
          <l xml:id="l_445.14">Der zvgel gein der erde ſeich</l>
          <l xml:id="l_445.15">Da het daz roſz duͯrch getretten</l>
@@ -28169,12 +28155,12 @@
             </subst>
          </l>
          <note resp="#SFa_Gegenleser" target="#l_513.04 #L225a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>truͯwe</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_513.05">Die des bovmgarten pflagen</l>
          <l xml:id="l_513.06">Sie ſtuͯnden oder lagen</l>
          <l xml:id="l_513.07">Oder ſaſzen in gezelten</l>
@@ -28267,7 +28253,7 @@
          <l xml:id="l_515.05">Ein wip die man vindet ſo</l>
          <l xml:id="l_515.06">Die were vil lýchte <hi rend="rot">E</hi>ines ſchympfes vro</l>
          <note resp="#MiGe_Transkribent" target="#l_515.06 #L226a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vro</a>: Aus Platzgründen reicht das Wort bis zwischen zwei Verse in Spalte b.</note>
+            <ref>vro</ref>: Aus Platzgründen reicht das Wort bis zwischen zwei Verse in Spalte b.</note>
          <l xml:id="l_515.07">Waz ſie ander cleider truͯge</l>
          <l xml:id="l_515.08">Ob ich nv des gewuͯge</l>
          <l xml:id="l_515.09">Daz ich pruͯfen ſol ir wat</l>
@@ -28461,8 +28447,8 @@
                <ex>d</ex>
             </choice> dez pflage ein kvnig der hiez <hi rend="rot">A</hi>mfortas</l>
          <note resp="#MiGe_Transkribent" target="#l_519.12 #L228a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">A</hi>mfortas</a>:Aus Platzgründen gehen die letzten sechs Buchstaben des Wortes in Spalte b hinein. Durch einen roten Strich werden das Ende dieses Verses und der Beginn des Verses 520.15 in Spalte b getrennt.</note>
+            <ref>
+               <hi rend="rot">A</hi>mfortas</ref>:Aus Platzgründen gehen die letzten sechs Buchstaben des Wortes in Spalte b hinein. Durch einen roten Strich werden das Ende dieses Verses und der Beginn des Verses 520.15 in Spalte b getrennt.</note>
          <l xml:id="l_519.13">Daz duͯhte ſie wuͯnderlich genvͯch</l>
          <l xml:id="l_519.14">Wan vil waſzer in ir lant truͯch</l>
          <l xml:id="l_519.15">Fuͯr den griez edele geſteine</l>
@@ -28572,12 +28558,12 @@
                <add>daz</add>
             </subst> pfert lief mit</l>
          <note resp="#MiGe_Transkribent" target="#l_521.18 #L229a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>daz</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_521.19">Sie kerten da ſý fvnden</l>
          <l xml:id="l_521.20">Lýgen den ritter wvͯnden</l>
          <l xml:id="l_521.21">Mit truͯwen <hi rend="rot">G</hi>awa<choice>
@@ -29374,12 +29360,12 @@
                <ex>d</ex>
             </choice> ſehent</l>
          <note resp="#MiGe_Transkribent" target="#l_535.23 #L235a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſýt*</del>
                   <add>ſýtzent</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_535.24">Waz ob die uͯwer laſter ſpehent</l>
          <l xml:id="l_535.25">Dez ſchiffes meiſter vber her</l>
          <l xml:id="l_535.26">Kom duͯrch <hi rend="rot">O</hi>rgelýſen ger</l>
@@ -29426,8 +29412,8 @@
          <l xml:id="l_536.24">Wez mach ſin roſz biten</l>
          <l xml:id="l_536.25">Ern ſtruͯche ouch vber <hi rend="deckweiss">d</hi>az rvntzit</l>
          <note resp="#MiGe_Lektor" target="#l_536.25 #L235b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>az</a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>az</ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_536.26">Wil er mir danne bieten ſtrit</l>
          <l xml:id="l_536.27">Al da wir beide ſin zuͯ fuͯz</l>
          <l xml:id="l_536.28">Ob mir halt niemer wuͯrde ir buͯſz</l>
@@ -29944,8 +29930,8 @@
                <ex>n</ex>
             </choice> dez groſzer <hi rend="rot">d</hi>anch</l>
          <note resp="#MiGe_Transkribent" target="#l_547.01 #L240a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">d</hi>anch</a>:Aus Platzgründen wurde das Wort in Spalte b hineingeschrieben. Es wird mit einem Strich davon abgetrennt.</note>
+            <ref>
+               <hi rend="rot">d</hi>anch</ref>:Aus Platzgründen wurde das Wort in Spalte b hineingeschrieben. Es wird mit einem Strich davon abgetrennt.</note>
          <l xml:id="l_547.02">Waz mit nýgen niht zuͯ kranch</l>
          <l xml:id="l_547.03">Do ſprach er lieber herre mýn</l>
          <l xml:id="l_547.04">Dar zuͯ ruͯchet ſelbe ſin</l>
@@ -30003,7 +29989,7 @@
                <ex>d</ex>
             </choice> ynme foreht</l>
          <note resp="#MiGe_Transkribent" target="#l_548.04 #L240b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vf</a>: Der Versanfang ist nicht rubriziert, da Spalte a eingerückt ist.</note>
+            <ref>Vf</ref>: Der Versanfang ist nicht rubriziert, da Spalte a eingerückt ist.</note>
          <l xml:id="l_548.05">Vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -30847,12 +30833,12 @@
             </choice>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_563.27 #L247b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>ir</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_563.28">Sit ir duͯrch aventuͯre komen</l>
          <l xml:id="l_563.29">Her<hi rend="rot">.</hi> ſol uͯch gelingen</l>
          <l xml:id="l_563.30">Lýchte ir mvget gedingen</l>
@@ -31079,12 +31065,12 @@
                <add>ſuchen</add>
             </subst> kan</l>
          <note resp="#MiGe_Transkribent" target="#l_568.05 #L249b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>ſuchen</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_568.06">Der wiſe herzenhafte man</l>
          <l xml:id="l_568.07">Wa dem kvmber wirt bekant</l>
          <l xml:id="l_568.08">Der ruͯfet an die hohſten hant</l>
@@ -31469,12 +31455,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_575.01 #L252b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>war*</del>
                   <add>war</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_575.03">Daz ſie ſanifte ſlichen</l>
          <l xml:id="l_575.04">Vn<choice>
                <am>̄</am>
@@ -31486,9 +31472,9 @@
                </add>
             </subst> des berichten</l>
          <note resp="#MiGe_Transkribent" target="#l_575.04 #L252b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">berichten</a>: Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> am Versende ist am Original deutlich zu erkennen.</note>
+            <ref>berichten</ref>: Das <ref>n</ref> am Versende ist am Original deutlich zu erkennen.</note>
          <note resp="#MiGe_Transkribent" target="#l_575.04 #L252b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Dieser Vers befindet sich auf derselben Zeile wie 575.03. Davor befindet sich ein Reimpunkt.</note>
+            <ref/>: Dieser Vers befindet sich auf derselben Zeile wie 575.03. Davor befindet sich ein Reimpunkt.</note>
          <l xml:id="l_575.05">E daz ſý brachten mere</l>
          <l xml:id="l_575.06">Ob er bý lebenne were</l>
          <l xml:id="l_575.07">Oder ob er were verſcheiden</l>
@@ -31590,12 +31576,12 @@
                <add>begen</add>
             </subst> noch ſtrites ſýt</l>
          <note resp="#MiGe_Transkribent" target="#l_577.10 #L253b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>begen</add>
                </subst>
-            </a>: Federansatz vor dem Wort.</note>
+            </ref>: Federansatz vor dem Wort.</note>
          <l xml:id="l_577.11">So bindet mýnen helm vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -32211,8 +32197,8 @@
                <ex>d</ex>
             </choice> ander clage</l>
          <note resp="#MiGe_Transkribent" target="#l_588.07 #L258a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>
                      <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">*</seg>
                   </del>
@@ -32223,7 +32209,7 @@
                      <hi rend="rot">awan</hi>
                   </add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_588.08">Nv begvnde ezlichten von de<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -32323,7 +32309,7 @@
          <l xml:id="l_589.28"/>
          <l xml:id="l_589.29-k">Dehein ſvl oben dan zwiſchen ſtuͯnt</l>
          <note resp="#MiGe_Gegenleser" target="#l_589.29-k #L259a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Dehein</a>: Die auch in G I M vorhandene Kontraktion geht vermutlich auf eine Augenabirrung des Schreibers von *G zurück, denn die Verse 589.27 und 589.29 enthalten beide das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">sûl</a>.</note>
+            <ref>Dehein</ref>: Die auch in G I M vorhandene Kontraktion geht vermutlich auf eine Augenabirrung des Schreibers von *G zurück, denn die Verse 589.27 und 589.29 enthalten beide das Wort <ref>sûl</ref>.</note>
          <l xml:id="l_589.30">Vns tuͯt die aventuͯre kuͯnt</l>
          <l xml:id="l_590.01">Waz die wuͯnders mochte han</l>
          <l xml:id="l_590.02">Duͯrch ſchowen <hi rend="rot">G</hi>ie her <hi rend="rot">G</hi>awan</l>
@@ -32552,13 +32538,13 @@
                   <hi rend="rasur">S</hi>i</add>
             </subst> ſprach daz iſt die <hi rend="rot">h</hi>ertzogin</l>
          <note resp="#MiGe_Transkribent" target="#l_593.30 #L260b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">S</hi>i</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_594.01">
             <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">V</seg>On <hi rend="rot">l</hi>ogroys die clare</l>
          <l xml:id="l_594.02">Wem <hi rend="rot">k</hi>vmt ſý ſvs zuͯ vare</l>
@@ -33242,11 +33228,8 @@
          <l xml:id="l_608.10">Sprach der <hi rend="rot">k</hi>vnig mýn nam iſt vnverhol<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
          </l>
          <note resp="#MiGe_Lektor" target="#l_608.10 #L266b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnverhol<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>
-            </a>: Der letzte Buchstabe des Wortes ist auch am Original nicht zu erkennen.</note>
+            <ref>vnverhol<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            </ref>: Der letzte Buchstabe des Wortes ist auch am Original nicht zu erkennen.</note>
          <l xml:id="l_608.11">Min vatter der hieſz <hi rend="rot">G</hi>yrot</l>
          <l xml:id="l_608.12">Den erſluͯg der kvnig <hi rend="rot">L</hi>ot</l>
          <l xml:id="l_608.13">Jch binſz der kvnig <hi rend="rot">G</hi>ramoflanz</l>
@@ -33648,13 +33631,13 @@
                <ex>d</ex>
             </choice> ergetzet</l>
          <note resp="#MiGe_Transkribent" target="#l_616.09 #L270a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>
                      <hi rend="rasur">D</hi>ie</add>
                </subst>
-            </a>: Loch innerhalb des <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">D</a>. Vermutlich verursacht durch unvorsichtige Rasur.</note>
+            </ref>: Loch innerhalb des <ref>D</ref>. Vermutlich verursacht durch unvorsichtige Rasur.</note>
          <l xml:id="l_616.10">Daz mir iamerſz hertze wetzet</l>
          <l xml:id="l_616.11">Vf <hi rend="rot">G</hi>ramoflanz tot</l>
          <l xml:id="l_616.12">Einphie ich dinſt <hi rend="deckweiss">d</hi>az bot</l>
@@ -33815,12 +33798,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_619.03 #L271a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>l*t</del>
                   <add>l<hi rend="rasur">ý</hi>p</add>
                </subst>
-            </a>: Nur der Akzent steht auf Rasur, das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">y</a> selbst nicht.</note>
+            </ref>: Nur der Akzent steht auf Rasur, das <ref>y</ref> selbst nicht.</note>
          <l xml:id="l_619.04">Er ſprach ich han ein ſchoner wip</l>
          <l xml:id="l_619.05">Vn<choice>
                <am>̄</am>
@@ -33886,7 +33869,7 @@
             </choice> die vrowe wol gevar</l>
          <l xml:id="l_620.14">Kerten gein der buͯrg dar</l>
          <note resp="#MiGe_Transkribent" target="#l_620.14 #L271b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gein</a>: Grau-blauer Strich beim <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">g</a>. Funktion unbekannt.</note>
+            <ref>gein</ref>: Grau-blauer Strich beim <ref>g</ref>. Funktion unbekannt.</note>
          <l xml:id="l_620.15">Die rittere hetten da vernome<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -34175,12 +34158,12 @@
             </subst>
          </l>
          <note resp="#SFa_Gegenleser" target="#l_625.09 #L274a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>da*</del>
                   <add>da</add>
                </subst>
-            </a>:Federansatz</note>
+            </ref>:Federansatz</note>
          <l xml:id="l_625.10">Zuͯ gewuͯge noch <subst hand="#sr">
                <del>anderſwa*</del>
                <add>anderſwa<hi rend="rasur">
@@ -34670,12 +34653,12 @@
             </subst>
          </l>
          <note resp="#MiGe_Transkribent" target="#l_634.13 #L278a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>gewert</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_634.14">Mit geda<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -35165,12 +35148,12 @@
                <add>geheret</add>
             </subst> waren</l>
          <note resp="#MiGe_Transkribent" target="#l_642.11 #L281b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>geheret</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_642.12">Ez nahet nv andern maren</l>
          <l xml:id="l_642.13">Arnive zuͯr <hi rend="rot">h</hi>erzogynne ſprach</l>
          <l xml:id="l_642.14">Nv ſvlt ir ſchaffen guͯt gemach</l>
@@ -35583,14 +35566,14 @@
                   <hi rend="rot">G</hi>awan</add>
             </subst> fro</l>
          <note resp="#MiGe_Transkribent" target="#l_649.20 #L285a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>
                      <hi rend="rot">G</hi>*</del>
                   <add>
                      <hi rend="rot">G</hi>awan</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_649.21">Ja herre ob ir wellet</l>
          <l xml:id="l_649.22">Zuͯ frovden er ſich gellet</l>
          <l xml:id="l_649.23">Sprach der knappe wyſe</l>
@@ -35775,12 +35758,12 @@
                <ex>d</ex>
             </choice> ander cleit</l>
          <note resp="#MiGe_Transkribent" target="#l_652.19 #L286a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>Pf*</del>
                   <add>Pfantloſe</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_652.20">Der knappe dan mit frovde<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -35841,13 +35824,13 @@
             </del>
             <hi rend="rot">f</hi>lorant</l>
          <note resp="#MiGe_Gegenleser" target="#l_653.16 #L286b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">vn<choice>
+            <ref>
+               <del hand="#sr">vn<choice>
                      <am>̄</am>
                      <ex>d</ex>
                   </choice>
                </del>
-            </a>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
+            </ref>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
          <l xml:id="l_653.17">Vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -36446,7 +36429,7 @@
             </choice> anger ſleht</l>
          <l xml:id="l_662.27">Reit die groſze machenande</l>
          <note resp="#MiGe_Transkribent" target="#l_662.27 #L290b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Reit</a>: Die Rubrizierung ist verschmiert, es liegt aber keine Korrektur vor.</note>
+            <ref>Reit</ref>: Die Rubrizierung ist verschmiert, es liegt aber keine Korrektur vor.</note>
          <l xml:id="l_662.28">Der vrowen ſariande</l>
          <l xml:id="l_662.29">Herberge namen</l>
          <l xml:id="l_662.30">Die vrowen wol gezamen</l>
@@ -36891,7 +36874,7 @@
          <l xml:id="l_670.02">Gawans rinch waz genomen</l>
          <l xml:id="l_670.03">Duͯrch <hi rend="rot">A</hi>rtuͯſes her da er lach</l>
          <note resp="#MiGe_Transkribent" target="#l_670.03 #L294a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Ovales Zeichen zur Rechten von "lach". Dieses kommt mehrfach beim Minuskel-h vor. Teilweise wurde es auch radiert.</note>
+            <ref/>: Ovales Zeichen zur Rechten von "lach". Dieses kommt mehrfach beim Minuskel-h vor. Teilweise wurde es auch radiert.</note>
          <l xml:id="l_670.04">Waz man ſchowenz da ge pflach</l>
          <l xml:id="l_670.05">E diz volch dvrch ſý gerte</l>
          <l xml:id="l_670.06">Gawan duͯrch hoveſliche ſite</l>
@@ -37261,12 +37244,12 @@
                <add>herberge</add>
             </subst> ſtat</l>
          <note resp="#MiGe_Transkribent" target="#l_676.24 #L297a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>herberge*</del>
                   <add>herberge</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_676.25">Alz der <hi rend="rot">k</hi>vnigýne marſchalch riet</l>
          <l xml:id="l_676.26">Von <hi rend="rot">L</hi>ogroýs die werde diet</l>
          <l xml:id="l_676.27">Mangen wol ſvnder zierten</l>
@@ -37749,7 +37732,7 @@
          <l xml:id="l_685.12">Ob ir gebietet des fragt ir</l>
          <l xml:id="l_685.13">Gein livten die des mýner hant</l>
          <note resp="#MiGe_Lektor" target="#l_685.13 #L301a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">die</a>: Über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a> befindet sich ein roter Tintenfleck. Ob der Schreiber hier zu einer Rubrizierung ansetzen wollte, kann nicht sicher beurteilt werden.</note>
+            <ref>die</ref>: Über dem <ref>d</ref> befindet sich ein roter Tintenfleck. Ob der Schreiber hier zu einer Rubrizierung ansetzen wollte, kann nicht sicher beurteilt werden.</note>
          <l xml:id="l_685.14">Jehent ſi ware fuͯr pris erkant</l>
          <l xml:id="l_685.15">Jch enbeſtuͯnt nie eine<choice>
                <am>̄</am>
@@ -37934,9 +37917,9 @@
          <l xml:id="l_688.08">Do enwart den kin<hi rend="deckweiss">d</hi>en nie ſo leit</l>
          <l xml:id="l_688.09">Die ſ<hi rend="deckweiss">d</hi>riten luͯte vber ſin not</l>
          <note resp="#MiGe_Transkribent" target="#l_688.09 #L302b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>
-            </a>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
+            <ref>
+               <hi rend="deckweiss">d</hi>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch in Papier.</note>
          <l xml:id="l_688.10">Wan in ir truͯwe daz gebot</l>
          <note resp="#MiGe_Transkribent" target="#l_688.10 #L302b">: Unmittelbar vor dem Vers befindet sich ein vertikaler schwarzer Strich aufgrund eines übermässig langen Verses in linker Spalte.</note>
          <l xml:id="l_688.11">Ez waz et vil nach alſo komen</l>
@@ -38202,12 +38185,12 @@
                <add>hulden</add>
             </subst> hat miſſetan</l>
          <note resp="#MiGe_Transkribent" target="#l_693.08 #L394b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>h*</del>
                   <add>hulden</add>
                </subst>
-            </a>: Federsansatz.</note>
+            </ref>: Federsansatz.</note>
          <l xml:id="l_693.09">Da vor lat mich weſen phant</l>
          <l xml:id="l_693.10">Jch trage noch werliche hant</l>
          <l xml:id="l_693.11">Sol er gein uͯch zuͯ kampfe ſten</l>
@@ -38451,12 +38434,12 @@
                <ex>n</ex>
             </choice> ſtrit</l>
          <note resp="#MiGe_Transkribent" target="#l_697.08 #L306b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>w*</del>
                   <add>w<hi rend="rasur">e</hi>lt</add>
                </subst>
-            </a>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
+            </ref>: Aufgrund unvorsichtiger Rasur Loch im Papier.</note>
          <l xml:id="l_697.09">Daz her waz allez gezoget in</l>
          <l xml:id="l_697.10">Gawan mit den geſellen ſin</l>
          <l xml:id="l_697.11">Waz ir eſzen al bereit</l>
@@ -38502,7 +38485,7 @@
                <ex>d</ex>
             </choice> mýne mýnne</l>
          <note resp="#MiGe_Lektor" target="#l_698.09 #L307a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mýnne</a>: Über dem ý befindet sich zusätzlich ein Punkt.</note>
+            <ref>mýnne</ref>: Über dem ý befindet sich zusätzlich ein Punkt.</note>
          <l xml:id="l_698.10">Sine getruͯwe manliche ſynne</l>
          <l xml:id="l_698.11">Mvgen hie niht mere erwerben</l>
          <l xml:id="l_698.12">Wan daz muͯſz erſterben</l>
@@ -39183,7 +39166,7 @@
             <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">N</seg>v gedenchet ob ir myn oheim ſit</l>
          <l xml:id="l_712.02">Durch truͯwe ſchei<hi rend="deckweiss">d</hi>ent diſen ſtrit</l>
          <note resp="#MiGe_Transkribent" target="#l_712.02 #L313a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſchei<hi xmlns="http://www.tei-c.org/ns/1.0" rend="deckweiss">d</hi>ent</a>: Oberhalb von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ent</a> scheint ein horizontaler Streifen "weggeschabt" worden zu sein, die Buchstaben selbst stehen aber nicht auf Rasur.</note>
+            <ref>ſchei<hi rend="deckweiss">d</hi>ent</ref>: Oberhalb von <ref>ent</ref> scheint ein horizontaler Streifen "weggeschabt" worden zu sein, die Buchstaben selbst stehen aber nicht auf Rasur.</note>
          <l xml:id="l_712.03">Artus vz wiſem mvnde</l>
          <l xml:id="l_712.04">Sprach an der ſtvnde</l>
          <l xml:id="l_712.05">Owe liebe nifel mýn</l>
@@ -39293,12 +39276,12 @@
                <add>waren</add>
             </subst> komen</l>
          <note resp="#MiGe_Transkribent" target="#l_713.16 #L314a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>*</del>
                   <add>waren</add>
                </subst>
-            </a>: Federansatz.</note>
+            </ref>: Federansatz.</note>
          <l xml:id="l_713.18">
             <milestone unit="Versumstellung"/>Ob ſý daz ruͯchte zechen</l>
          <l xml:id="l_713.17">
@@ -40600,9 +40583,9 @@
          <l xml:id="l_738.13">Si en wellen haz erzeigen</l>
          <l xml:id="l_738.14">Daz ſolte in frevde <del hand="#sr">geben</del> neigen</l>
          <note resp="#MiGe_Gegenleser" target="#l_738.14 #325b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">geben</del>
-            </a>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">geben</del>
+            </ref>: Das Wort wurde mit roter Tinte durchgestrichen.</note>
          <l xml:id="l_738.15">Die ſint erkant fvͯr guͯte wip</l>
          <l xml:id="l_738.16">Jetwederre dvrch frvndýnne lip</l>
          <l xml:id="l_738.17">Sin verch gein der herte bot</l>
@@ -40692,8 +40675,8 @@
                <ex>n</ex>
             </choice>nes <hi rend="rot">k</hi>int</l>
          <note resp="#MiGe_Lektor" target="#l_740.05 #L326a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">k</hi>int</a>: Der Satz erstreckt sich bis in die rechte Spalte; der Buchstabe wurde wohl versehentlich rubriziert.</note>
+            <ref>
+               <hi rend="rot">k</hi>int</ref>: Der Satz erstreckt sich bis in die rechte Spalte; der Buchstabe wurde wohl versehentlich rubriziert.</note>
          <l xml:id="l_740.06">Der gelvterten truͯwen ein fvndament</l>
          <l xml:id="l_740.07">Den heiden mýnne nie verdroſz</l>
          <l xml:id="l_740.08">Dez waz ſin hertze in ſtrite groz</l>
@@ -40898,14 +40881,14 @@
             </subst>
          </l>
          <note resp="#RSo_Transkribent" target="#l_743.28 #L328a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſpranch</del>
                   <add>
                      <hi rend="rot">ſpranch</hi>
                   </add>
                </subst>
-            </a>: Der Rubrikator hat hier mit roter Tinte gekleckst und das ursprüngliche Wort zerstört; dieses wurde dann darunter erneut hingeschrieben. Der Farbklecks erstreckt sich auch auf die Initiale der rechten Spalte. (745.01)</note>
+            </ref>: Der Rubrikator hat hier mit roter Tinte gekleckst und das ursprüngliche Wort zerstört; dieses wurde dann darunter erneut hingeschrieben. Der Farbklecks erstreckt sich auch auf die Initiale der rechten Spalte. (745.01)</note>
          <l xml:id="l_743.29">Vor <hi rend="rot">p</hi>elrapeire <hi rend="rot">C</hi>lamide</l>
          <l xml:id="l_743.30">Tabrvnit vnde <hi rend="rot">T</hi>aſine</l>
          <l xml:id="l_744.01">
@@ -40931,12 +40914,12 @@
             </subst>
          </l>
          <note resp="#RSo_Lektor" target="#l_744.14 #L328a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>rvchte</del>
                   <add>rvc<hi rend="rasur">h</hi>te</add>
                </subst>
-            </a>: Eine vom <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h</a> wegführende, waagrechte Linie wurde radiert.</note>
+            </ref>: Eine vom <ref>h</ref> wegführende, waagrechte Linie wurde radiert.</note>
          <l xml:id="l_744.15">Daz <hi rend="rot">p</hi>arzifal daz re nemen</l>
          <l xml:id="l_744.16">Jn ſiner hende ſolte zemen</l>
          <l xml:id="l_744.17">Daz ſwert er <hi rend="rot">j</hi>ther nam</l>
@@ -40964,7 +40947,7 @@
                <ex>n</ex>
             </choice>ne an dir</l>
          <note resp="#MiGe_Lektor" target="#l_745.01 #L328b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Aufgrund eines grossen roten Flecks in Spalte a steht die Initiale in Vers 745.1 weiter rechts. Zudem wurde sie nicht mit roter Tinte ausgeführt, sondern mit einer schwarzen Tinte, die dunkler ist als diejenige, welche für den Haupttext verwendet wurde. Sie befindet sich auf einer roten Grundierung.</note>
+            <ref/>: Aufgrund eines grossen roten Flecks in Spalte a steht die Initiale in Vers 745.1 weiter rechts. Zudem wurde sie nicht mit roter Tinte ausgeführt, sondern mit einer schwarzen Tinte, die dunkler ist als diejenige, welche für den Haupttext verwendet wurde. Sie befindet sich auf einer roten Grundierung.</note>
          <l xml:id="l_745.02">Stant ſtille vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -41178,9 +41161,9 @@
          <l xml:id="l_749.14">Danne von vch ſprach der von <hi rend="rot">k</hi>amvolei<unclear reason="Zweifel">z</unclear>
          </l>
          <note resp="#MiGe_Gegenleser" target="#l_749.14 #330b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">k</hi>amvolei<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">z</unclear>
-            </a>: Was am Original erkennbar ist, lässt auch ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">z</a> am Versende schliessen.</note>
+            <ref>
+               <hi rend="rot">k</hi>amvolei<unclear reason="Zweifel">z</unclear>
+            </ref>: Was am Original erkennbar ist, lässt auch ein <ref>z</ref> am Versende schliessen.</note>
          <l xml:id="l_749.15">Do ſprach der riche <hi rend="rot">f</hi>erefiz</l>
          <l xml:id="l_749.16">Got hat ſinen fliz</l>
          <l xml:id="l_749.17">Werder helt geleit an dich</l>
@@ -45039,21 +45022,17 @@
                   <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">Z</seg>antwep</add>
             </subst> er wart vſz gezogen</l>
          <note resp="#MiGe_Lektor" target="#l_825.01 #L363b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>
                      <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">*</seg>
                   </del>
                   <add>
                      <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">Z</seg>antwep</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="1"
-                    rend="Farbe: rot">Z</seg>
-            </a>: Teile der Initiale wurden mit sehr dunkler schwarzer Tinte übermalt.</note>
+            </ref>: <ref>
+               <seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">Z</seg>
+            </ref>: Teile der Initiale wurden mit sehr dunkler schwarzer Tinte übermalt.</note>
          <l xml:id="l_825.02">Sý waz im vil vnbetrogen</l>
          <l xml:id="l_825.03">Er kvnde wol gebaren</l>
          <l xml:id="l_825.04">Man muͯſte in vor den claren</l>
@@ -45202,9 +45181,9 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#827.30 #02_L365a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Fragliche Abkürzung">purificacion</unclear>
-            </a>: Es ist zu vermuten, dass der Schreiber hier das eingedeutsche Wort von "purificatio", nämlich "purification", abgekürzt hat. Vgl. Früheuhochdeutsches Wörterbuch Band 4. Hg. von Oskar Reichmann und Ulrich Goebel. Berlin/New York 2011, Sp. 1455.</note>
+            <ref>
+               <unclear reason="Fragliche Abkürzung">purificacion</unclear>
+            </ref>: Es ist zu vermuten, dass der Schreiber hier das eingedeutsche Wort von "purificatio", nämlich "purification", abgekürzt hat. Vgl. Früheuhochdeutsches Wörterbuch Band 4. Hg. von Oskar Reichmann und Ulrich Goebel. Berlin/New York 2011, Sp. 1455.</note>
          <l xml:id="l_827.30-03">
             <hi rend="rot">
                <note type="Explicit">Virginis <subst hand="#ru">

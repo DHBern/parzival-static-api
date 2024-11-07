@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen vv
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen vv</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -67,18 +67,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -133,11 +133,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#734.01 #01_VV171rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#zeilenfuellsel"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
             </hi> besteht aus einem Punkt und einer leicht wellenförmigen Linie.</note>
          <l xml:id="vv_734.01">
@@ -275,7 +275,7 @@
          <l xml:id="vv_737.13-a">Parzifal reit ouch eine</l>
          <l xml:id="vv_737.14-a">An alle boſheit waz er reine</l>
          <note resp="#MiGe_Gegenleser" target="#vv_737.14-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">boſheit</a>: ref=737.18.</note>
+            <ref>boſheit</ref>: ref=737.18.</note>
          <l xml:id="vv_737.15"/>
          <l xml:id="vv_737.16"/>
          <l xml:id="vv_737.17"/>
@@ -301,7 +301,7 @@
                <ex>n</ex>
             </choice> ſach</l>
          <note resp="#MiGe_Gegenleser" target="#vv_738.05-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ietlich</a>: ref=738.04.</note>
+            <ref>ietlich</ref>: ref=738.04.</note>
          <l xml:id="vv_738.06-a">Jr keiner ouch da nit enſprach</l>
          <l xml:id="vv_738.07"/>
          <l xml:id="vv_738.08"/>
@@ -316,23 +316,23 @@
             <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_738.14-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſper</a>: ref=738.24 und 739.05</note>
+            <ref>ſper</ref>: ref=738.24 und 739.05</note>
          <note resp="#MiGe_Gegenleser" target="#vv_738.14-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">neigete<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>neigete<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: ref=738.13.</note>
+            </ref>: ref=738.13.</note>
          <l xml:id="vv_738.13-a">Vnd einander do erzeigete<choice>
                <am>̄</am>
                <ex>n</ex>
             </choice>n <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_738.13-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">erzeigete<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>erzeigete<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>n</a>: ref=738.14</note>
+               </choice>n</ref>: ref=738.14</note>
          <l xml:id="vv_738.15"/>
          <l xml:id="vv_738.16"/>
          <l xml:id="vv_738.17"/>
@@ -353,9 +353,9 @@
          <l xml:id="vv_739.02"/>
          <l xml:id="vv_739.03-a">Eine ſtarke iuſt die was gros</l>
          <note resp="#MiGe_Gegenleser" target="#vv_739.03-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſtarke</a>: ref=739.05.</note>
+            <ref>ſtarke</ref>: ref=739.05.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_739.03-a #VV171vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">iuſt</a>: ref=739.06.</note>
+            <ref>iuſt</ref>: ref=739.06.</note>
          <l xml:id="vv_739.04-a">Daz man an in beiden ſie kos</l>
          <l xml:id="vv_739.05"/>
          <l xml:id="vv_739.06"/>
@@ -481,13 +481,13 @@
          <l xml:id="vv_741.18"/>
          <l xml:id="vv_741.19-a">Die kvniginne daz edil ris</l>
          <note resp="#MiGe_Gegenleser" target="#vv_741.19-a #VV172ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ris</a>: ref=741.10.</note>
+            <ref>ris</ref>: ref=741.10.</note>
          <l xml:id="vv_741.20-a">Die <name ref="regp:p0283" type="Person">ſecundille</name> waz gena<choice>
                <am>̄</am>
                <ex>n</ex>
             </choice>t</l>
          <note resp="#MiGe_Gegenleser" target="#vv_741.19-a #VV172ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſecundille</a>: ref=741.19.</note>
+            <ref>ſecundille</ref>: ref=741.19.</note>
          <l xml:id="vv_741.21"/>
          <l xml:id="vv_741.22"/>
          <l xml:id="vv_741.23-a">Die mynne hat ſie beide gema<choice>
@@ -495,7 +495,7 @@
                <ex>n</ex>
             </choice>t</l>
          <note resp="#MiGe_Gegenleser" target="#vv_741.23-a #VV172ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">beide</a>: ref=741.24.</note>
+            <ref>beide</ref>: ref=741.24.</note>
          <l xml:id="vv_741.24"/>
          <l xml:id="vv_741.25"/>
          <l xml:id="vv_741.26"/>
@@ -560,7 +560,7 @@
          <l xml:id="vv_743.05">Daz ander worent ſteine</l>
          <l xml:id="vv_743.06-a">Die gaben ime craft vnd myne gemeine</l>
          <note resp="#MiGe_Gegenleser" target="#vv_743.06-a #VV172ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">craft</a>: ref=743.08.</note>
+            <ref>craft</ref>: ref=743.08.</note>
          <l xml:id="vv_743.07"/>
          <l xml:id="vv_743.08"/>
          <l xml:id="vv_743.09"/>
@@ -618,15 +618,15 @@
                </add>
             </subst> do houenlich</l>
          <note resp="#MiGe_Gegenleser" target="#vv_744.26-a #VV172rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vf</a>: ref=744.27.</note>
+            <ref>vf</ref>: ref=744.27.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_744.26-a #VV172rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſpra*</del>
                   <add>ſpra<hi rend="rasur">ng</hi>
                   </add>
                </subst>
-            </a>: ref=744.20.</note>
+            </ref>: ref=744.20.</note>
          <l xml:id="vv_744.27-a">Wider vf zu hant zv fromen</l>
          <l xml:id="vv_744.28"/>
          <l xml:id="vv_744.29"/>
@@ -653,12 +653,12 @@
                <ex>n</ex>
             </choice> nomen</l>
          <note resp="#MiGe_Gegenleser" target="#vv_745.18-a #VV172rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſprach</a>: ref=744.26 und ref=745.13.</note>
+            <ref>ſprach</ref>: ref=744.26 und ref=745.13.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_745.18-a #VV172rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dine<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>dine<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice> nomen</a>: ref=745.19.</note>
+               </choice> nomen</ref>: ref=745.19.</note>
          <l xml:id="vv_745.19"/>
          <l xml:id="vv_745.20-a">Dv biſt ein helt vz erkorn</l>
          <l xml:id="vv_745.21-a">Do ſprach der getoufte wol geborn</l>
@@ -806,13 +806,13 @@
                <ex>n</ex>
             </choice>t hant ir den bruder min</l>
          <note resp="#MiGe_Gegenleser" target="#vv_748.23-a #VV172va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">min</a>: ref=748.24.</note>
+            <ref>min</ref>: ref=748.24.</note>
          <l xml:id="vv_748.24-a">Er gibt an groſzen tugende<choice>
                <am>̄</am>
                <ex>n</ex>
             </choice> ſchin</l>
          <note resp="#MiGe_Gegenleser" target="#vv_748.24-a #VV172va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſchin</a>: ref=748.23.</note>
+            <ref>ſchin</ref>: ref=748.23.</note>
          <l xml:id="vv_748.25"/>
          <l xml:id="vv_748.26"/>
          <l xml:id="vv_748.27"/>
@@ -942,7 +942,7 @@
             </choice> not</l>
          <l xml:id="vv_752.02">⸿Sprach der heiden iſt min vater tot</l>
          <note resp="#MiGe_Gegenleser" target="#vv_752.02 #VV172vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Das Alinea-Zeichen geht wahrscheinlich auf einen späteren Leser zurück.</note>
+            <ref/>: Das Alinea-Zeichen geht wahrscheinlich auf einen späteren Leser zurück.</note>
          <l xml:id="vv_752.03"/>
          <l xml:id="vv_752.04"/>
          <l xml:id="vv_752.05">Jch han an dieſen ſtunden</l>
@@ -956,10 +956,10 @@
          <l xml:id="vv_752.08">Beide min vater vnd ouch dv</l>
          <l xml:id="vv_752.09-a">Jch han verlorn den vater min</l>
          <note resp="#MiGe_Gegenleser" target="#vv_752.09-a #VV172vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vater</a>: ref=752.13.</note>
+            <ref>vater</ref>: ref=752.13.</note>
          <l xml:id="vv_752.10-a">So han ich funden <add hand="#sr">dich</add> bruder fin</l>
          <note resp="#MiGe_Gegenleser" target="#vv_752.10-a #VV172vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">funden</a>: ref=752.14.</note>
+            <ref>funden</ref>: ref=752.14.</note>
          <l xml:id="vv_752.11"/>
          <l xml:id="vv_752.12"/>
          <l xml:id="vv_752.13"/>
@@ -1052,11 +1052,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#754.05 #01_VV173ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei Punkten und einer kurzen, leicht gewellten Linie.</note>
          <l xml:id="vv_754.05">
@@ -1209,7 +1209,7 @@
                <add>nam von</add>
             </subst> in die zimiere</l>
          <note resp="#MiGe_Gegenleser" target="#vv_757.08-a #VV173va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zimiere</a>: ref=757.16.</note>
+            <ref>zimiere</ref>: ref=757.16.</note>
          <l xml:id="vv_757.09"/>
          <l xml:id="vv_757.10"/>
          <l xml:id="vv_757.11"/>
@@ -1422,9 +1422,9 @@
             </choice>t <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_762.01-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Ioffrid</a>: ref=762.27.</note>
+            <ref>Ioffrid</ref>: ref=762.27.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_762.01-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Gawan</a>: ref=762.27.</note>
+            <ref>Gawan</ref>: ref=762.27.</note>
          <l xml:id="vv_762.03"/>
          <l xml:id="vv_762.04"/>
          <l xml:id="vv_762.05"/>
@@ -1508,17 +1508,17 @@
          <l xml:id="vv_764.25-a">Der kvnig bereitte ſich zu hant <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_764.25-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hant</a>: ref=764.21.</note>
+            <ref>hant</ref>: ref=764.21.</note>
          <l xml:id="vv_764.24-a">Vnd reit do mit ſchalle <milestone unit="Versumstellung"/>
          </l>
          <l xml:id="vv_764.23-a">Do er ſy bie ein ander uant mit alle <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_764.23-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Do</a>: ref=764.24.</note>
+            <ref>Do</ref>: ref=764.24.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_764.23-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſy</a>: ref=764.23.</note>
+            <ref>ſy</ref>: ref=764.23.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_764.23-a #VV174ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">alle</a>: ref=764.23.</note>
+            <ref>alle</ref>: ref=764.23.</note>
          <l xml:id="vv_764.26-a">Man horte boſune<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -1878,7 +1878,7 @@
          <l xml:id="vv_771.19"/>
          <l xml:id="vv_771.20-a">Nu alreſt han ich ervarn die not</l>
          <note resp="#MiGe_Gegenleser" target="#vv_771.20-a #VV174vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">not</a>: ref=771.22.</note>
+            <ref>not</ref>: ref=771.22.</note>
          <l xml:id="vv_771.21-a">Daz min vater mir iſt tot</l>
          <l xml:id="vv_771.22"/>
          <l xml:id="vv_771.23">
@@ -1892,7 +1892,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_771.27-a #VV174v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">yſo</a>: ref=771.29.</note>
+            <ref>yſo</ref>: ref=771.29.</note>
          <l xml:id="vv_771.28"/>
          <l xml:id="vv_771.29"/>
          <l xml:id="vv_771.30-a">Der wil ich ein teil teil ne<choice>
@@ -1915,10 +1915,10 @@
                <ex>n</ex>
             </choice>t</l>
          <note resp="#MiGe_Gegenleser" target="#vv_772.06-a #VV174v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gena<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>gena<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>t</a>: ref=772.30.</note>
+               </choice>t</ref>: ref=772.30.</note>
          <l xml:id="vv_772.07-a">Der name<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -1987,9 +1987,9 @@
          <l xml:id="vv_772.30-20"/>
          <l xml:id="vv_772.30-21-a">Vnd von dem bovme dar uff bran dy kirze zart</l>
          <note resp="#MiGe_Gegenleser" target="#772.30 #21-a_VV174vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">von dem bovme</a>: ref=772.30-17.</note>
+            <ref>von dem bovme</ref>: ref=772.30-17.</note>
          <note resp="#MiGe_Gegenleser" target="#772.30 #21-a_VV174vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kirze</a>: ref=772.30-18.</note>
+            <ref>kirze</ref>: ref=772.30-18.</note>
          <l xml:id="vv_772.30-22">Vnd wie der tufel qua<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -2116,9 +2116,9 @@
          <l xml:id="vv_773.17">Die dran verwurket logen</l>
          <l xml:id="vv_773.18-a">Jch magz uch alles nit geſogen</l>
          <note resp="#MiGe_Gegenleser" target="#vv_773.18-a #VV175ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geſogen</a>: ref=773.30</note>
+            <ref>geſogen</ref>: ref=773.30</note>
          <note resp="#MiGe_Gegenleser" target="#vv_773.18-a #VV175ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Jch magz ... geſogen</a>: ref=774.29</note>
+            <ref>Jch magz ... geſogen</ref>: ref=774.29</note>
          <l xml:id="vv_773.19"/>
          <l xml:id="vv_773.20"/>
          <l xml:id="vv_773.21"/>
@@ -2155,7 +2155,7 @@
          <l xml:id="vv_774.22"/>
          <l xml:id="vv_774.23-a">Sie hetten die nacht freuden vil</l>
          <note resp="#MiGe_Gegenleser" target="#vv_774.23-a #VV175ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sie</a>: ref=774.22.</note>
+            <ref>Sie</ref>: ref=774.22.</note>
          <l xml:id="vv_774.24-a">Tamburen vnd ſeite<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -2178,14 +2178,14 @@
          <l xml:id="vv_775.07"/>
          <l xml:id="vv_775.08-a">Eine tauelrunde wart geſniten e</l>
          <note resp="#MiGe_Gegenleser" target="#vv_775.08-a #VV175rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a>: ref=775.06.</note>
+            <ref>e</ref>: ref=775.06.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_775.08-a #VV175rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geſniten</a>: ref=775.09.</note>
+            <ref>geſniten</ref>: ref=775.09.</note>
          <l xml:id="vv_775.09"/>
          <l xml:id="vv_775.10"/>
          <l xml:id="vv_775.11-a">Sinewel ſie erzeigen riliche ding</l>
          <note resp="#MiGe_Gegenleser" target="#vv_775.11-a #VV175rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sinewel</a>: ref=775.10.</note>
+            <ref>Sinewel</ref>: ref=775.10.</note>
          <l xml:id="vv_775.12">Sinewel man dar vmb nam den ring</l>
          <l xml:id="vv_775.13">Vf eime towen grune<choice>
                <am>̄</am>
@@ -2369,11 +2369,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#778.13 #01_VV175va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> besteht aus zwei Punkten und einer kurzen, leicht gewellten Linie.</note>
          <l xml:id="vv_778.13">
@@ -2546,7 +2546,7 @@
          <l xml:id="vv_781.27-a">Den kunig ankortes den neuen din</l>
          <l xml:id="vv_781.28-a">Der ymmer din frunt wil ſin</l>
          <note resp="#MiGe_Gegenleser" target="#vv_781.28-a #VV175vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">din frunt</a>: ref=781.30.</note>
+            <ref>din frunt</ref>: ref=781.30.</note>
          <pb xml:id="vv176r"/>
          <cb xml:id="vv176ra"/>
          <l xml:id="vv_781.29"/>
@@ -2620,7 +2620,7 @@
          <l xml:id="vv_783.24"/>
          <l xml:id="vv_783.25-a">Ouch ſagent mir wanne ich ſolle varn</l>
          <note resp="#MiGe_Gegenleser" target="#vv_783.25-a #VV176ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſagent mir wanne</a>: ref=783.24.</note>
+            <ref>ſagent mir wanne</ref>: ref=783.24.</note>
          <l xml:id="vv_783.26">Vnd lant mich daz nit lenger ſparn</l>
          <l xml:id="vv_783.27">Do ſprach ſie lieber herre min</l>
          <l xml:id="vv_783.28">Wele ir wellent die ſullen vwer geferte <lb/> ſin</l>
@@ -2647,7 +2647,7 @@
          <l xml:id="vv_784.08"/>
          <l xml:id="vv_784.09-a">Artus zv kvndrie do ſprach</l>
          <note resp="#MiGe_Gegenleser" target="#vv_784.09-a #VV176ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Artus</a>: ref=784.08.</note>
+            <ref>Artus</ref>: ref=784.08.</note>
          <l xml:id="vv_784.10">Frouwe ritent an uwer gemach</l>
          <l xml:id="vv_784.11">Lant uwer pflege leret ſelbe wie</l>
          <l xml:id="vv_784.12">Sie ſprach iſt arnife hie</l>
@@ -3027,7 +3027,7 @@
          <l xml:id="vv_792.02-a">Ouch lag do manig ſtein guet <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_792.02-a #VV176va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">do manig ſtein</a>: ref=792.03.</note>
+            <ref>do manig ſtein</ref>: ref=792.03.</note>
          <l xml:id="vv_792.01-a">Der ime gab hohen mvet <milestone unit="Versumstellung"/>
          </l>
          <l xml:id="vv_792.03"/>
@@ -3193,7 +3193,7 @@
          <l xml:id="vv_794.22"/>
          <l xml:id="vv_794.23-a">Sie ſaſzen nider do mit ſchal</l>
          <note resp="#MiGe_Gegenleser" target="#vv_794.23-a #VV177ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Sie ſaſzen ... do</a>: ref=794.21.</note>
+            <ref>Sie ſaſzen ... do</ref>: ref=794.21.</note>
          <l xml:id="vv_794.24">Artus <subst hand="#sr">
                <del>parzifal</del>
                <add>ferevis vnd parzifal</add>
@@ -3213,7 +3213,7 @@
          <l xml:id="vv_794.30"/>
          <l xml:id="vv_795.01-a">Er enphinc ſie alle mit ſiten</l>
          <note resp="#MiGe_Gegenleser" target="#vv_795.01-a #VV177ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">enphinc</a>: ref=794.30.</note>
+            <ref>enphinc</ref>: ref=794.30.</note>
          <l xml:id="vv_795.02">Er ſprach ich han vngerne erbiten</l>
          <l xml:id="vv_795.03">Werd ich ymmer von uch fro</l>
          <l xml:id="vv_795.04">Jr ſchiedent zu iungeſt von mir ſo</l>
@@ -3402,9 +3402,9 @@
          <l xml:id="vv_799.24">Ob ſie ſunder ringes pflige <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_799.24 #VV177rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus zwei Punkten und einer kurzen Linie.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus zwei Punkten und einer kurzen Linie.</note>
          <pb xml:id="vv177v"/>
          <cb xml:id="vv177va"/>
          <l xml:id="vv_799.25">Man zeiget ime aldo ſie lac</l>
@@ -3461,7 +3461,7 @@
          <l xml:id="vv_800.26"/>
          <l xml:id="vv_800.27-a">Kyot bat die kvnigin wachen</l>
          <note resp="#MiGe_Gegenleser" target="#vv_800.27-a #VV177va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Kyot</a>: ref=800.26.</note>
+            <ref>Kyot</ref>: ref=800.26.</note>
          <l xml:id="vv_800.28-a">Vnd zucte ſy. ſy begonde lachen</l>
          <l xml:id="vv_800.29">Sie blicket vf vnd ſach den man</l>
          <l xml:id="vv_800.30">Sie enhette nit wan daz hemde an</l>
@@ -3569,13 +3569,13 @@
             </subst> bekant <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_803.04-a #VV177vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Der kvnic</a>: ref=803.02.</note>
+            <ref>Der kvnic</ref>: ref=803.02.</note>
          <l xml:id="vv_803.03-a">Daz ſin erbe wer daz lant <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_803.03-a #VV177vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Daz</a>: ref=803.05 in m n o V.</note>
+            <ref>Daz</ref>: ref=803.05 in m n o V.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_803.03-a #VV177vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">erbe</a>: ref=803.12.</note>
+            <ref>erbe</ref>: ref=803.12.</note>
          <l xml:id="vv_803.05"/>
          <l xml:id="vv_803.06"/>
          <l xml:id="vv_803.07"/>
@@ -3584,7 +3584,7 @@
          <l xml:id="vv_803.10"/>
          <l xml:id="vv_803.11-a">Er ſprach gameret min vatter hies</l>
          <note resp="#MiGe_Gegenleser" target="#vv_803.11 #VV177vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſprach</a>: ref=803.02.</note>
+            <ref>ſprach</ref>: ref=803.02.</note>
          <l xml:id="vv_803.12">Der mirs zu rechtem erbe liez</l>
          <l xml:id="vv_803.13">Mit ſelden ich ge erbet han den gral</l>
          <l xml:id="vv_803.14">Nv enpfahe<choice>
@@ -3674,9 +3674,9 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_805.03-0 #VV178ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus zwei Punkten und einer leicht geschwungenen Linie.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus zwei Punkten und einer leicht geschwungenen Linie.</note>
          <l xml:id="vv_805.03">
             <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">K</seg>Vndewiramors begonde clagen</l>
          <l xml:id="vv_805.04">Jres vetern tochter hor ich ſage<choice>
@@ -3709,7 +3709,7 @@
          <l xml:id="vv_805.18-a">Do hatte ir kvnic artus gebiten</l>
          <l xml:id="vv_805.19-a">Mit kurzewile ſtunde gar</l>
          <note resp="#MiGe_Gegenleser" target="#vv_805.19-a #VV178ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gar</a>: ref=805.26.</note>
+            <ref>gar</ref>: ref=805.26.</note>
          <l xml:id="vv_805.20-a">Kvnic artus quam gein in dar</l>
          <l xml:id="vv_805.21"/>
          <l xml:id="vv_805.22"/>
@@ -4039,11 +4039,11 @@
          <l xml:id="vv_816.05"/>
          <l xml:id="vv_816.06-a">Da hatten ſie freude wider ſtrit</l>
          <note resp="#MiGe_Gegenleser" target="#vv_816.06-a #VV178rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſtrit</a>: ref=815.16.</note>
+            <ref>ſtrit</ref>: ref=815.16.</note>
          <l xml:id="vv_816.07-a">Vnd waz ſie ſolten habin zu eren</l>
          <l xml:id="vv_816.08-a">Daz konde in anfortas wol meren</l>
          <note resp="#MiGe_Gegenleser" target="#vv_816.08-a #VV178rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">anfortas wol meren</a>: ref=815.02.</note>
+            <ref>anfortas wol meren</ref>: ref=815.02.</note>
          <l xml:id="vv_816.09-a">Sie en hatten aller gebreſten dekein</l>
          <l xml:id="vv_816.10-a">Dar nach wart parzifal in eyn</l>
          <l xml:id="vv_816.11">Artus vnd anfortas die guten</l>
@@ -4366,7 +4366,7 @@
          <l xml:id="vv_821.18"/>
          <l xml:id="vv_821.19-a">Vrloup ſie do namen do</l>
          <note resp="#MiGe_Gegenleser" target="#vv_821.19-a #VV179rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vrloup</a>: ref=821.18.</note>
+            <ref>Vrloup</ref>: ref=821.18.</note>
          <l xml:id="vv_821.20-a">Hin riten ſie yeſo</l>
          <l xml:id="vv_821.21"/>
          <l xml:id="vv_821.22"/>
@@ -4386,10 +4386,10 @@
          <l xml:id="vv_822.06">Darvmb die reiſe was genant</l>
          <l xml:id="vv_822.07-a">Artus gein ſamvlot reit</l>
          <note resp="#MiGe_Gegenleser" target="#vv_822.07-a #VV179rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">reit</a>: ref=822.10.</note>
+            <ref>reit</ref>: ref=822.10.</note>
          <l xml:id="vv_822.08-a">Jclicher ſinen wec ſo man ſeit</l>
          <note resp="#MiGe_Gegenleser" target="#vv_822.08-a #VV179rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſinen</a>: ref=822.10.</note>
+            <ref>ſinen</ref>: ref=822.10.</note>
          <l xml:id="vv_822.09"/>
          <l xml:id="vv_822.10"/>
          <l xml:id="vv_822.11"/>
@@ -4525,19 +4525,19 @@
             </choice>
          </l>
          <note resp="#MiGe_Gegenleser" target="#vv_824.27-a #VV179va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">herzoginne<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>herzoginne<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: ref=825.15.</note>
+            </ref>: ref=825.15.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_824.27-a #VV179va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">herzoginne<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>herzoginne<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice> gein braba<choice xmlns="http://www.tei-c.org/ns/1.0">
+               </choice> gein braba<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>t</a>: ref=826.02.</note>
+               </choice>t</ref>: ref=826.02.</note>
          <l xml:id="vv_824.28"/>
          <l xml:id="vv_824.29"/>
          <l xml:id="vv_824.30"/>
@@ -4596,9 +4596,9 @@
          <l xml:id="vv_826.23"/>
          <l xml:id="vv_826.24-a">Vnd dar nach wider zu dem grol fur <lb/> alſo</l>
          <note resp="#MiGe_Gegenleser" target="#vv_826.24-a #VV179va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fur</a>: ref=826.20.</note>
+            <ref>fur</ref>: ref=826.20.</note>
          <note resp="#MiGe_Gegenleser" target="#vv_826.24-a #VV179va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fur</a>: ref=826.23.</note>
+            <ref>fur</ref>: ref=826.23.</note>
          <l xml:id="vv_826.25-a">Do uon wil ich nit ſagen nv</l>
          <l xml:id="vv_826.26-a">Wan daz wer zu vil</l>
          <l xml:id="vv_826.27-a">Do uon ich nv ſwigen wil</l>
@@ -4816,7 +4816,7 @@
          <l xml:id="vv_827.30-137"/>
          <l xml:id="vv_827.30-138-a">Nv weiz ich by deme woffen ſin</l>
          <note resp="#MiGe_Gegenleser" target="#827.30 #138-a_VV180rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">woffen ſin</a>: ref=827.30-139.</note>
+            <ref>woffen ſin</ref>: ref=827.30-139.</note>
          <l xml:id="vv_827.30-139-a">Wer er iſt ſprach die minne fin</l>
          <l xml:id="vv_827.30-140"/>
          <l xml:id="vv_827.30-141">Wir ſint beide ein wip</l>
@@ -5300,9 +5300,9 @@
          <l xml:id="vv_827.30-558">Alle engel ſprechent Amen <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#827.30 #558_VV181vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus drei Punkten und einer leicht wellenförmigen Linie.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus drei Punkten und einer leicht wellenförmigen Linie.</note>
          <l xml:id="vv_827.30-558-0">
             <note type="Kustode">
                <subst hand="#sr2">

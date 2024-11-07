@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen q
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen q</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -66,18 +66,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -210,13 +210,13 @@
                <lb/> Deſpiciam in imicos meos</note>
          </l>
          <note resp="#MSt_Transkribent" target="#q_1.01-0 #Q000ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">et ego</a>: Trennstrich zwischen <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">et</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ego</a>.</note>
+            <ref>et ego</ref>: Trennstrich zwischen <ref>et</ref> und <ref>ego</ref>.</note>
          <note resp="#MiGe_Gegenleser" target="#q_1.01-0 #Q000a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Domi<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>Domi<choice>
                   <am rend="tiefgestellt">ꝰ</am>
                   <ex>nus</ex>
                </choice>
-            </a>: In lateinischen Texten wird das 4er-Kürzel auch für <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nus</a> verwendet, aus diesem Grund wird es hier ebenfalls so aufgelöst.</note>
+            </ref>: In lateinischen Texten wird das 4er-Kürzel auch für <ref>nus</ref> verwendet, aus diesem Grund wird es hier ebenfalls so aufgelöst.</note>
          <pb xml:id="q001"/>
          <cb xml:id="q001a"/>
          <l xml:id="q_1.01-01">
@@ -438,7 +438,7 @@
          <l xml:id="q_3.14">Den aſfer in dem golde</l>
          <l xml:id="q_3.15">Jch en han daſz nicht vorlichte <lb/> dinck</l>
          <note resp="#MSt_Transkribent" target="#q_3.15 #Q002a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">dinck</a>: Am Ende von Vers 3.14 geschrieben und durch Verweiszeichen an den folgenden Vers angeschlossen.</note>
+            <ref>dinck</ref>: Am Ende von Vers 3.14 geschrieben und durch Verweiszeichen an den folgenden Vers angeschlossen.</note>
          <l xml:id="q_3.16">Wer in den krancken meſſinck</l>
          <l xml:id="q_3.17">fur wurcket edeln rubein</l>
          <l xml:id="q_3.18">Vnd alle die abentewre ſein</l>
@@ -597,7 +597,7 @@
          <l xml:id="q_5.01">Wer do pflagt der lande</l>
          <l xml:id="q_5.02">Der gebot wol ane ſchande</l>
          <note resp="#MiGe_Gegenleser" target="#q_5.02 #Q002b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gebot</a>: Unidentifizierbares Zeichen über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a>.</note>
+            <ref>gebot</ref>: Unidentifizierbares Zeichen über <ref>o</ref>.</note>
          <l xml:id="q_5.03">Diſz iſt ein warheit ſund<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -722,12 +722,12 @@
                <ex>e</ex>
             </choice>n</l>
          <note resp="#GVi_Transkribent" target="#q_6.09 #Q003a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>l*</del>
                   <add>l<unclear reason="Zweifel">ec</unclear>hen</add>
                </subst>
-            </a>: Nicht ganz klar, von was zu was korrigiert wurde. Möglicherweise war als Ergebnis auch <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lehen</a> angestrebt.</note>
+            </ref>: Nicht ganz klar, von was zu was korrigiert wurde. Möglicherweise war als Ergebnis auch <ref>lehen</ref> angestrebt.</note>
          <l xml:id="q_6.10">Nu horet wy ſie es ane fing<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -879,7 +879,7 @@
                </add>
             </subst> ſprach aber ſan</l>
          <note resp="#GVi_Transkribent" target="#q_8.01 #Q003b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">aber</a>: Wort mit Bleistift unterstrichen, rechts neben der Spalte Bleistiftstrich.</note>
+            <ref>aber</ref>: Wort mit Bleistift unterstrichen, rechts neben der Spalte Bleistiftstrich.</note>
          <l xml:id="q_8.02">Schechtzen knappen ich <subst hand="#ls1">
                <del>*</del>
                <add>
@@ -1011,7 +1011,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#q_9.07 #Q004a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Lewte wappen</a>: Unidentifizierbares Zeichen zwischen den zwei Wörtern.</note>
+            <ref>Lewte wappen</ref>: Unidentifizierbares Zeichen zwischen den zwei Wörtern.</note>
          <l xml:id="q_9.08">Des nym ſo vil von meiner hant</l>
          <l xml:id="q_9.09">Das dú noch deine<choice>
                <am>̄</am>
@@ -1106,8 +1106,8 @@
             </subst>
          </l>
          <l xml:id="q_10.05"/>
-         <note resp="#GVi_Transkribent" target="#q_10.05 #Q004b">: Mit Bleistift in Korrent <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fehlt i <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">V.</unclear>
-            </a> links neben die Spalte geschrieben; mit Verweisstrich zwischen die Verse.</note>
+         <note resp="#GVi_Transkribent" target="#q_10.05 #Q004b">: Mit Bleistift in Korrent <ref>fehlt i <unclear reason="Zweifel">V.</unclear>
+            </ref> links neben die Spalte geschrieben; mit Verweisstrich zwischen die Verse.</note>
          <l xml:id="q_10.06">Den konigk luczel des verdroſz</l>
          <l xml:id="q_10.07">Er fult im vier ſ<unclear reason="Zweifel">av</unclear>m ſchrein</l>
          <l xml:id="q_10.08">Geſteines múſt vil dor inne ſein</l>
@@ -1286,7 +1286,7 @@
          <l xml:id="q_12.07">Kleinotes tawſent marck wert</l>
          <l xml:id="q_12.08">Wo noch ein iude pfandes gert</l>
          <note resp="#GVi_Gegenleser" target="#q_12.08 #Q005b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">noch</a>: Roter Strich über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a>, vermutlich aber nur Ausrutscher des Rubrikators.</note>
+            <ref>noch</ref>: Roter Strich über <ref>n</ref>, vermutlich aber nur Ausrutscher des Rubrikators.</note>
          <l xml:id="q_12.09">Er mocht es noch do fur entpfho<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -1578,7 +1578,7 @@
                <ex>e</ex>
             </choice>n</l>
          <note resp="#GVi_Transkribent" target="#q_15.01 #Q006b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Danne</a>: Wort verschmiert von Korrektur auf anderer Seite.</note>
+            <ref>Danne</ref>: Wort verschmiert von Korrektur auf anderer Seite.</note>
          <l xml:id="q_15.02">Der herre múſt furbaſz trag<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -1659,8 +1659,8 @@
                </add>
             </subst> zu baldag</l>
          <note resp="#GVi_Transkribent" target="#q_15.30 #Q007a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">de<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">s</unclear>
-            </a>: Eventuell Korrektur von oder zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">der</a>?</note>
+            <ref>de<unclear reason="Zweifel">s</unclear>
+            </ref>: Eventuell Korrektur von oder zu <ref>der</ref>?</note>
          <l xml:id="q_16.01">Sund<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -1798,7 +1798,7 @@
             </choice>
          </l>
          <note resp="#GVi_Transkribent" target="#q_17.02 #Q007b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kein</a>: i-Punkt scheint nachgetragen worden zu sein.</note>
+            <ref>kein</ref>: i-Punkt scheint nachgetragen worden zu sein.</note>
          <l xml:id="q_17.03">Sie tet<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -1810,23 +1810,23 @@
                <ex>e</ex>
             </choice>n kúnt</l>
          <note resp="#GVi_Transkribent" target="#q_17.03 #Q007b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſeine<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>ſeine<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: i-Punkt scheint nachgetragen worden zu sein.</note>
+            </ref>: i-Punkt scheint nachgetragen worden zu sein.</note>
          <l xml:id="q_17.04">Sie hiſſze <subst hand="#ls1">
                <del>patalamut</del>
                <add>patalamuͯt</add>
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#q_17.04 #Q077b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>patalamut</del>
                   <add>patalamuͯt</add>
                </subst>
-            </a>: Die zwei Punkte über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurden von ls1 wahrscheinlich zur Verdeutlichung des Buchstabens ergänzt.</note>
+            </ref>: Die zwei Punkte über dem <ref>u</ref> wurden von ls1 wahrscheinlich zur Verdeutlichung des Buchstabens ergänzt.</note>
          <l xml:id="q_17.05">Daſz wart in me<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -1848,9 +1848,9 @@
                <ex>e</ex>
             </choice>n</l>
          <note resp="#GVi_Transkribent" target="#q_17.06 #Q007b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">in</a>: i-Punkt scheint nachgetragen worden zu sein.</note>
+            <ref>in</ref>: i-Punkt scheint nachgetragen worden zu sein.</note>
          <l xml:id="q_17.07">Das er in hilffe das wer in not</l>
-         <note resp="#GVi_Transkribent" target="#q_17.02 #Q007b">: i-Punkt scheint bei beiden <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">in</a> nachgetragen worden zu sein.</note>
+         <note resp="#GVi_Transkribent" target="#q_17.02 #Q007b">: i-Punkt scheint bei beiden <ref>in</ref> nachgetragen worden zu sein.</note>
          <l xml:id="q_17.08">Sie enru<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -1869,12 +1869,12 @@
                <add>juͯnge</add>
             </subst> anſheúin</l>
          <note resp="#MiGe_Gegenleser" target="#q_17.09 #Q007b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>junge</del>
                   <add>juͯnge</add>
                </subst>
-            </a>: Die zwei Punkte über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurden von ls1 wahrscheinlich zur Verdeutlichung des Buchstabens ergänzt.</note>
+            </ref>: Die zwei Punkte über dem <ref>u</ref> wurden von ls1 wahrscheinlich zur Verdeutlichung des Buchstabens ergänzt.</note>
          <l xml:id="q_17.10">Ver nam ir kumerliche pein</l>
          <l xml:id="q_17.11">Er bot ſein dinſt <subst hand="#ls1">
                <del>in</del>
@@ -2789,15 +2789,15 @@
                <ex>e</ex>
             </choice>n ſer</l>
          <note resp="#MiGe_Gegenleser" target="#q_25.10 #Q010b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>ritters</del>
                   <add>ritter<hi rend="rasur">
                         <gap/>
                      </hi>
                   </add>
                </subst>
-            </a>: Hier ls1 statt sr? als Korrektor, da die Korrektur sehr wahrscheinlich mit derjenigen im darauffolgenden Wort zusammenhängt.</note>
+            </ref>: Hier ls1 statt sr? als Korrektor, da die Korrektur sehr wahrscheinlich mit derjenigen im darauffolgenden Wort zusammenhängt.</note>
          <l xml:id="q_25.11">Frymt vnd ſein geſelſchafft</l>
          <l xml:id="q_25.12">Jr ſtreyt hot kunſt vnd crafft</l>
          <l xml:id="q_25.13">So hot hie ma<choice>
@@ -4224,12 +4224,12 @@
                <add>ſichert</add>
             </subst> ewr hant</l>
          <note resp="#MiGe_Gegenleser" target="#q_39.02 #Q016b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>ſichereyt</del>
                   <add>ſichert</add>
                </subst>
-            </a>: Tinte ist nicht zwingend dunkler, aber Art der Korrektur ist eher ls1 zuzuordnen.</note>
+            </ref>: Tinte ist nicht zwingend dunkler, aber Art der Korrektur ist eher ls1 zuzuordnen.</note>
          <l xml:id="q_39.03">Die was mit elenthafft<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -5813,9 +5813,9 @@
             <hi>A</hi>n rechter keuſche weyplich <lb/> ſitte <g ref="#finis"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#q_54.26 #Q022b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <g xmlns="http://www.tei-c.org/ns/1.0" ref="#finis"/>
-            </a>: <g ref="#finis"/> besteht aus wellenförmiger Linie.</note>
+            <ref>
+               <g ref="#finis"/>
+            </ref>: <g ref="#finis"/> besteht aus wellenförmiger Linie.</note>
          <l xml:id="q_54.27-0">
             <note type="Reklamante">
                <hi rend="rot">Von ſibill<gap reason="unleserlich" extent="unbekannt"/>
@@ -5968,11 +5968,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#55.27 #01_Q55.27-0">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: <hi rend="rot">
+            </ref>: <hi rend="rot">
                <g ref="#finis"/>
             </hi> ist eine wellenförmige Linie mit kleiner Verzierung.</note>
          <l xml:id="q_55.27">
@@ -5998,10 +5998,10 @@
                   </choice>
                </add>
             </subst> gleich</l>
-         <note resp="#MiGe_Gegenleser" target="#q_55.29 #Q023a">: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ma<choice xmlns="http://www.tei-c.org/ns/1.0">
+         <note resp="#MiGe_Gegenleser" target="#q_55.29 #Q023a">: <ref>ma<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>g*</a> zusätzlich vom Rubrikator durchgestrichen.</note>
+               </choice>g*</ref> zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="q_55.30">
             <hi rend="nicht_rot">C</hi>zwar der wirt eren reich</l>
          <cb xml:id="q023b"/>
@@ -7481,13 +7481,13 @@
                <ex>e</ex>
             </choice>n drűnde</l>
          <note resp="#MiGe_Gegenleser" target="#q_72.19 #Q030a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">ma<choice>
+            <ref>
+               <del hand="#sr">ma<choice>
                      <am>̄</am>
                      <ex>n</ex>
                   </choice>
                </del>
-            </a>: Das Wort wurde zusätzlich vom Rubrikator durchgestrichen.</note>
+            </ref>: Das Wort wurde zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="q_72.20">Jr herre<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -10464,12 +10464,12 @@
                <add>trache</add>
             </subst> ir brűſte ſuge</l>
          <note resp="#MiGe_Gegenleser" target="#q_104.13 #Q043a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>trauche</del>
                   <add>trache</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">u</a> wurde mit zwei sich kreuzenden Strichen getilgt. Da der Buchstabe darüber hinaus mit einem breiteren, senkrechten roten Strich überschrieben wurde, ist davon auszugehen, dass Tilgungen mit zwei sich kreuzenden Strichen auf den Schreiber zurückgehen und nicht auf ls1.</note>
+            </ref>: <ref>u</ref> wurde mit zwei sich kreuzenden Strichen getilgt. Da der Buchstabe darüber hinaus mit einem breiteren, senkrechten roten Strich überschrieben wurde, ist davon auszugehen, dass Tilgungen mit zwei sich kreuzenden Strichen auf den Schreiber zurückgehen und nicht auf ls1.</note>
          <l xml:id="q_104.14">Vnd das der gahes vo<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -11681,7 +11681,7 @@
                <ex>n</ex>
             </choice>n ir nu vil wenick lebe</l>
          <note resp="#CG_Transkribent" target="#q_116.22 #Q048a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nu</a>: Schwarzer Fleck über dem u, der auch als Akut gedeutet werden könnte.</note>
+            <ref>nu</ref>: Schwarzer Fleck über dem u, der auch als Akut gedeutet werden könnte.</note>
          <l xml:id="q_116.23">Die iúng<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -12253,7 +12253,7 @@
                <ex>e</ex>
             </choice>n preyſe ſnel</l>
          <note resp="#MiGe_Gegenleser" target="#q_122.10 #M050vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">helin</a>: Über dem Wort befindet sich ein horizontaler Strich. Es scheint sich dabei aber nicht um einen Abkürzungsstrich zu handeln.</note>
+            <ref>helin</ref>: Über dem Wort befindet sich ein horizontaler Strich. Es scheint sich dabei aber nicht um einen Abkürzungsstrich zu handeln.</note>
          <l xml:id="q_122.11">Auſz fur der furſchte reiche</l>
          <l xml:id="q_122.12">Gezimirt wűnickliche</l>
          <l xml:id="q_122.13">Aller ma<choice>
@@ -15480,7 +15480,7 @@
             </choice>n do wart gethon</l>
          <l xml:id="q_152.30">Sein munt ſprach zu kay ſan</l>
          <note resp="#CG_Transkribent" target="#q_152.30 #Q063b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">munt</a>: Punkt über dem u, der als Akzent gedeutet werden kann.</note>
+            <ref>munt</ref>: Punkt über dem u, der als Akzent gedeutet werden kann.</note>
          <l xml:id="q_153.01">Got weyſz her <name ref="regp:p0166" type="Person">key</name> ſenetſchalt</l>
          <l xml:id="q_153.02">Das fraw konware von lalalt</l>
          <l xml:id="q_153.03">Durch den knab<choice>
@@ -15836,14 +15836,14 @@
                </subst>
             </unclear> ſein</l>
          <note resp="#MiGe_Gegenleser" target="#q_156.26 #Q065a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <subst hand="#sr">
                      <del>yſen</del>
                      <add>eyſen</add>
                   </subst>
                </unclear>
-            </a>: Oder <hi rend="hochgestellt">e</hi>yſen?</note>
+            </ref>: Oder <hi rend="hochgestellt">e</hi>yſen?</note>
          <l xml:id="q_156.27">
             <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>u múſt nu<choice>
                <am>̄</am>
@@ -16129,7 +16129,7 @@
                <ex>n</ex>
             </choice> holtz</l>
          <note resp="#CG_Transkribent" target="#q_159.16 #Q066a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Dructe</a>: Lücke durch Fleck zwischen "dru" und "cte".</note>
+            <ref>Dructe</ref>: Lücke durch Fleck zwischen "dru" und "cte".</note>
          <l xml:id="q_159.19">
             <subst hand="#ru">
                <del>D*</del>
@@ -17374,10 +17374,10 @@
             </choice>n</l>
          <l xml:id="q_171.19">Bedachter gen rede dy gerecht als= <lb/> =ienes</l>
          <note resp="#CG_Transkribent" target="#q_171.19 #Q71a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gerecht als= <lb xmlns="http://www.tei-c.org/ns/1.0"/> =ienes</a>: recht als ienes gehört zu schon zu Vers 171.20 und wird vom Schreiber in der nächsten Zeile wiederholt.</note>
+            <ref>gerecht als= <lb/> =ienes</ref>: recht als ienes gehört zu schon zu Vers 171.20 und wird vom Schreiber in der nächsten Zeile wiederholt.</note>
          <l xml:id="q_171.20">Recht als ienes frage ſteen</l>
          <note resp="#CG_Transkribent" target="#q_171.20 #Q71a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ienes</a>: Strich durch das i von ienes, das auch als Korrektur zu jenes gedeutet werden kann.</note>
+            <ref>ienes</ref>: Strich durch das i von ienes, das auch als Korrektur zu jenes gedeutet werden kann.</note>
          <l xml:id="q_171.21">Wer wil euch mit wort<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -19615,12 +19615,12 @@
                <ex>e</ex>
             </choice>n bloſz</l>
          <note resp="#AB_Transkribent" target="#q_194.07 #Q080b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>hanebloúene</del>
                   <add>hanebloúme</add>
                </subst>
-            </a>: Richtung der Korrektur ist unsicher.</note>
+            </ref>: Richtung der Korrektur ist unsicher.</note>
          <l xml:id="q_194.08">Der zadel húnere ab im ſchoſ<hi>z</hi>
          </l>
          <pb xml:id="q081"/>
@@ -26933,10 +26933,10 @@
                <ex>er</ex>
             </choice>n</l>
          <note resp="#LC_Gegenleser" target="#q_270.20 #Q113b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lemnyeky<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>lemnyeky<choice>
                   <am>̉</am>
                   <ex>er</ex>
-               </choice>n</a>: Undefinierbares Zeichen über dem ersten <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">y</a>. Handelt es sich um ein Kürzungszeichen?</note>
+               </choice>n</ref>: Undefinierbares Zeichen über dem ersten <ref>y</ref>. Handelt es sich um ein Kürzungszeichen?</note>
          <l xml:id="q_270.21">Die tioſt zu ſame<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -37420,7 +37420,7 @@
                <ex>ra</ex>
             </choice>ch do lege dein trwe zu</l>
          <note resp="#JKl_Transkribent" target="#q_422.18 #Q161b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">trwe</a>: über dem Wort eventuell ein Abkürzungszeichen - Korrektur?</note>
+            <ref>trwe</ref>: über dem Wort eventuell ein Abkürzungszeichen - Korrektur?</note>
          <l xml:id="q_422.19">Nu get der konigk an ſeine<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -39006,8 +39006,8 @@
                <ex>e</ex>
             </choice>n lere</l>
          <note resp="#GVi_Transkribent" target="#q_437.16 #Q169a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ſ*</del>
                   <add>
                      <hi rend="rasur">cla</hi>űſe<choice>
@@ -39016,7 +39016,7 @@
                      </choice>
                   </add>
                </subst>
-            </a>: Korrigierter Wortanfang scheint rot nachgezogen worden zu sein. Oder roter Fleck?</note>
+            </ref>: Korrigierter Wortanfang scheint rot nachgezogen worden zu sein. Oder roter Fleck?</note>
          <l xml:id="q_437.17">Dor zu alles ſchimpes blos</l>
          <l xml:id="q_437.18">Er fant do nicht da<choice>
                <am>̄</am>
@@ -40546,7 +40546,7 @@
             </hi>
          </l>
          <note resp="#OBA_Transkribent" target="#453.01 #01_Q175a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Vmb den gral</a>: Dies scheint die Fortsetzung der Kapitelüberschrift (5 Zeilen darüber) zu sein.</note>
+            <ref>Vmb den gral</ref>: Dies scheint die Fortsetzung der Kapitelüberschrift (5 Zeilen darüber) zu sein.</note>
          <l xml:id="q_453.04">Vnpreyſz dran ich beiagte</l>
          <l xml:id="q_453.05">Mich bates heln kyot</l>
          <l xml:id="q_453.06">Wa<choice>
@@ -44045,7 +44045,7 @@
                <ex>n</ex>
             </choice> ſage mir ſeheſtu das ſper</l>
          <note resp="#SFa_Transkribent" target="#q_489.22 #Q191a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſeheſtu</a>: am ersten ſ oben kleiner Haken.</note>
+            <ref>ſeheſtu</ref>: am ersten ſ oben kleiner Haken.</note>
          <l xml:id="q_489.23">Zu muntſaluaſche vff dem hauſz</l>
          <l xml:id="q_489.24">Do der ſterne ſaturnus</l>
          <l xml:id="q_489.25">Wider an ſein zil geſtund</l>
@@ -44101,7 +44101,7 @@
          <l xml:id="q_490.10">
             <seg type="Initiale" subtype="Cadelle">S</seg>o muſz der konigk rwe lan</l>
          <note resp="#SiLa_Gegenleser" target="#q_490.10 #Q191b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rwe</a>: ungewöhnlicher Strich über w.</note>
+            <ref>rwe</ref>: ungewöhnlicher Strich über w.</note>
          <l xml:id="q_490.11">So tut im groſz froſt ſo we</l>
          <l xml:id="q_490.12">Sein fleyſz wirt kalter da<choice>
                <am>̄</am>
@@ -44467,7 +44467,7 @@
                <ex>re</ex>
             </choice>chen ya</l>
          <note resp="#SFa_Transkribent" target="#q_493.30 #Q193a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſie</a>: untypischer Strich über ie.</note>
+            <ref>ſie</ref>: untypischer Strich über ie.</note>
          <l xml:id="q_494.01">Neúe nu<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -53019,7 +53019,7 @@
          <l xml:id="q_589.16"/>
          <l xml:id="q_589.17-k">Soldes geworcht mit liſten</l>
          <note resp="#MiGe_Gegenleser" target="#q_589.17-k #235a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Wahrscheinlich Augenabirrung. In 589.15 und 589.17 kommt jeweils das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geworht</a> vor.</note>
+            <ref/>: Wahrscheinlich Augenabirrung. In 589.15 und 589.17 kommt jeweils das Wort <ref>geworht</ref> vor.</note>
          <l xml:id="q_589.18">
             <name ref="regs:s0004" type="Sonstiges">Adamas</name> vnd <name ref="regs:s0011" type="Sonstiges">amatiſten</name>
          </l>
@@ -56760,12 +56760,12 @@
             </subst>
          </l>
          <note resp="#CG_Transkribent" target="#q_627.03 #Q251b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>lere</del>
                   <add>mere</add>
                </subst>
-            </a>: Ersetzung ohne Korrekturzeichen.</note>
+            </ref>: Ersetzung ohne Korrekturzeichen.</note>
          <l xml:id="q_627.04">Wo er geſant were</l>
          <l xml:id="q_627.05">Sie bat den d<choice>
                <am>̉</am>
@@ -59098,10 +59098,8 @@
             </choice> dinſt h<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#CG_Transkribent" target="#q_650.01 #Q261b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="Fragmentverlust"
-                    extent="unbekannt"/>
-            </a>: Ende des Verses durch Beschneiden des Blattes verloren.</note>
+            <ref>h<gap reason="Fragmentverlust" extent="unbekannt"/>
+            </ref>: Ende des Verses durch Beschneiden des Blattes verloren.</note>
          <l xml:id="q_650.02">
             <hi rend="nicht_rot">D</hi>e<choice>
                <am>̉</am>
@@ -59147,7 +59145,7 @@
             </choice> konigin</l>
          <l xml:id="q_650.11">Das ſie dran leſe vnd ſage</l>
          <note resp="#CG_Transkribent" target="#q_650.11 #Q261b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſage</a>: Zwei unklare Striche über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſage</a>.</note>
+            <ref>ſage</ref>: Zwei unklare Striche über <ref>ſage</ref>.</note>
          <pb xml:id="q262"/>
          <cb xml:id="q262a"/>
          <l xml:id="q_650.12">
@@ -63326,12 +63324,12 @@
                <add>neue</add>
             </subst> partzifal</l>
          <note resp="#CG_Transkribent" target="#q_689.24 #Q279b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>newe</del>
                   <add>neue</add>
                </subst>
-            </a>: Ansatz zu weiterem Buchstaben über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a>.</note>
+            </ref>: Ansatz zu weiterem Buchstaben über dem <ref>n</ref>.</note>
          <l xml:id="q_689.25">Gawan ſprach ſo iſt es recht</l>
          <l xml:id="q_689.26">Hie iſt krúmme túmpheit= <lb/> worden ſchleigt</l>
          <l xml:id="q_689.27">Hie haben zwey h<choice>
@@ -63753,10 +63751,8 @@
          <l xml:id="q_693.22">Zum kunige ir vngetrewer hun<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#CG_Transkribent" target="#q_693.22 #Q281b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">hun<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="Fragmentverlust"
-                    extent="unbekannt"/>
-            </a>:Rest des Verses durch Beschneiden des Blattes verloren.</note>
+            <ref>hun<gap reason="Fragmentverlust" extent="unbekannt"/>
+            </ref>:Rest des Verses durch Beschneiden des Blattes verloren.</note>
          <l xml:id="q_693.23">Ewr herze in ſeiner ligt</l>
          <l xml:id="q_693.24">Das ewr herze haſſen pfligt</l>
          <l xml:id="q_693.25">War habt ir euch durch mey<choice>
@@ -63800,14 +63796,12 @@
             <gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#CG_Transkribent" target="#q_694.02 #Q281b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſp<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>ſp<choice>
                   <am rend="hochgestellt">a</am>
                   <ex>ra</ex>
                </choice>
-               <gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="Fragmentverlust"
-                    extent="unbekannt"/>
-            </a>: Rest des Verses durch Beschneiden des Blattes verloren.</note>
+               <gap reason="Fragmentverlust" extent="unbekannt"/>
+            </ref>: Rest des Verses durch Beschneiden des Blattes verloren.</note>
          <l xml:id="q_694.03">Die bat er frawe zwrne nicht</l>
          <l xml:id="q_694.04">Das der kampff vo<choice>
                <am>̄</am>
@@ -64767,10 +64761,8 @@
             </choice> inn<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#CG_Transkribent" target="#q_702.18 #Q285b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">inn<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="Fragmentverlust"
-                    extent="unbekannt"/>
-            </a>:Rest des Verses durch Beschneiden des Blattes verloren.</note>
+            <ref>inn<gap reason="Fragmentverlust" extent="unbekannt"/>
+            </ref>:Rest des Verses durch Beschneiden des Blattes verloren.</note>
          <l xml:id="q_702.19">Zwr hurtirt vnd zu ſchlag<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -68271,12 +68263,12 @@
             </choice>
          </l>
          <note resp="#GVi_Transkribent" target="#q_737.24 #Q301a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vm<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">b</unclear>
-            </a>: Ist eventuell <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vmb<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>vm<unclear reason="Zweifel">b</unclear>
+            </ref>: Ist eventuell <ref>vmb<choice>
                   <am>̄</am>
                   <ex>e</ex>
                </choice>
-            </a> zu lesen? Vgl. 119.23.</note>
+            </ref> zu lesen? Vgl. 119.23.</note>
          <l xml:id="q_737.25">Jch ſorge des den ich han bracht</l>
          <l xml:id="q_737.26">Wa<choice>
                <am>̄</am>
@@ -69425,11 +69417,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#q_747.27 #Q305a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Das <hi rend="rot">
+            </ref>: Das <hi rend="rot">
                <g ref="#finis"/>
             </hi> sieht gleich aus wie die <g ref="#zeilenfuellsel"/> auf Seite 305. Es könnte sich dabei also auch um ein Zeilenfüllsel handeln.</note>
          <cb xml:id="q305b"/>
@@ -69815,12 +69807,8 @@
                <ex>ra</ex>
             </choice>ch</l>
          <note resp="#GVi_Transkribent" target="#q_751.01 #306b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="2"
-                    rend="Farbe: rot">F</seg>artzifal</a>: Der Initiale vorgeschrieben sind zwei Buchstaben: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">p</a> (leicht verwischt) und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">f</a> (eventuell fehlerhafte Verdeutlichung der ersten Vorschreibung?).</note>
+            <ref>
+               <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">F</seg>artzifal</ref>: Der Initiale vorgeschrieben sind zwei Buchstaben: <ref>p</ref> (leicht verwischt) und <ref>f</ref> (eventuell fehlerhafte Verdeutlichung der ersten Vorschreibung?).</note>
          <l xml:id="q_751.02">Jch bin auch d<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -70212,8 +70200,8 @@
          <l xml:id="q_754.22">
             <hi>P</hi>artzifal des nicht vergaſz</l>
          <note resp="#GVi_Transkribent" target="#q_754.22 #Q308b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0">P</hi>artzifal</a>: über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">P</a> Bleistiftkreuz, wohl von neuerer Hand.</note>
+            <ref>
+               <hi>P</hi>artzifal</ref>: über dem <ref>P</ref> Bleistiftkreuz, wohl von neuerer Hand.</note>
          <l xml:id="q_754.23">Ern holt ſeins bruders ſwert</l>
          <l xml:id="q_754.24">Das ſtieſz er dem deg<choice>
                <am>̄</am>
@@ -70379,7 +70367,7 @@
          <l xml:id="q_755.24">Manick ritter do mit rede maſ<hi>z</hi>
          </l>
          <note resp="#GVi_Transkribent" target="#q_755.24 #Q308b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Manick</a>: Unter dem Buchstaben ein Bleistiftkreuz, wohl von neuerer Hand.</note>
+            <ref>Manick</ref>: Unter dem Buchstaben ein Bleistiftkreuz, wohl von neuerer Hand.</note>
          <pb xml:id="q309"/>
          <cb xml:id="q309a"/>
          <l xml:id="q_755.25">
@@ -70657,14 +70645,14 @@
                </subst>
             </unclear> dein mack daſz iſt auch ere</l>
          <note resp="#GVi_Transkribent" target="#q_758.11 #Q310a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <subst hand="#sr">
                      <del>d*</del>
                      <add>jch</add>
                   </subst>
                </unclear>
-            </a>: Oder ist tatsächlich (die Verschreibung) <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">jdh</a> zu lesen?</note>
+            </ref>: Oder ist tatsächlich (die Verschreibung) <ref>jdh</ref> zu lesen?</note>
          <l xml:id="q_758.12">Des ſie gamúret dein gewere</l>
          <l xml:id="q_758.13">Dis iſt der konigk vo<choice>
                <am>̄</am>
@@ -70869,9 +70857,9 @@
          <l xml:id="q_760.08">Do ſein neue von <hi rend="rot">T</hi>aſme <hi rend="rot">=</hi>
          </l>
          <note resp="#GVi_Transkribent" target="#q_760.08 #Q310b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">=</hi>
-            </a>: Zwei rote Virgeln nach dem Vers. Möglicherweise glaubte der Rubrikator, dass <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Taſme</a> schon zum nächsten Vers gehört, der Anfangsbuchstaben der nächsten Zeile ist nämlich nicht gestrichelt. Vgl. aber das Ende von Spalte 311b.</note>
+            <ref>
+               <hi rend="rot">=</hi>
+            </ref>: Zwei rote Virgeln nach dem Vers. Möglicherweise glaubte der Rubrikator, dass <ref>Taſme</ref> schon zum nächsten Vers gehört, der Anfangsbuchstaben der nächsten Zeile ist nämlich nicht gestrichelt. Vgl. aber das Ende von Spalte 311b.</note>
          <l xml:id="q_760.09">
             <hi rend="nicht_rot">
                <hi>f</hi>
@@ -71115,7 +71103,7 @@
             </subst> florant</l>
          <l xml:id="q_762.22">Vnd ſey<unclear reason="Zweifel">n</unclear>e die werd erkant</l>
          <note resp="#GVi_Transkribent" target="#q_762.22 #Q312a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſey<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">n</unclear>e</a>: Oder ist <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſeyven</a> zu lesen?</note>
+            <ref>ſey<unclear reason="Zweifel">n</unclear>e</ref>: Oder ist <ref>ſeyven</ref> zu lesen?</note>
          <l xml:id="q_762.23">Vnd der hertzog vo<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -71313,13 +71301,13 @@
                   <ex>n</ex>
                </choice>n</unclear>en nemen e</l>
          <note resp="#GVi_Transkribent" target="#q_764.11 #Q312b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſe<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">y<choice>
+            <ref>ſe<unclear reason="Zweifel">y<choice>
                      <am>̄</am>
                      <ex>n</ex>
-                  </choice>n</unclear>en</a>: Oder ist <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſey<choice xmlns="http://www.tei-c.org/ns/1.0">
+                  </choice>n</unclear>en</ref>: Oder ist <ref>ſey<choice>
                   <am>̄</am>
                   <ex>n</ex>
-               </choice>ven</a> zu lesen?</note>
+               </choice>ven</ref> zu lesen?</note>
          <l xml:id="q_764.12">Vnd die ſuſſen kundrie</l>
          <l xml:id="q_764.13">Neme<choice>
                <am>̄</am>
@@ -71525,15 +71513,15 @@
                <ex>n</ex>
             </choice> ſach</l>
          <note resp="#GVi_Transkribent" target="#q_766.09 #Q313b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">getz<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">w</unclear>rne<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>getz<unclear reason="Zweifel">w</unclear>rne<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: Oder ist <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">getzivrne<choice xmlns="http://www.tei-c.org/ns/1.0">
+            </ref>: Oder ist <ref>getzivrne<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a> zu lesen?</note>
+            </ref> zu lesen?</note>
          <l xml:id="q_766.10">Ob wert ma<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -72327,7 +72315,7 @@
             </choice>zal <lb/>
          </l>
          <note resp="#GVi_Transkribent" target="#q_772.22 #Q316b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">u</unclear>el</a>: Unter Umständen wäre auch Lesung <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ariel</a> möglich.</note>
+            <ref>a<unclear reason="Zweifel">u</unclear>el</ref>: Unter Umständen wäre auch Lesung <ref>ariel</ref> möglich.</note>
          <l xml:id="q_772.23">Von tripparún den grauen= <lb/> karfodias</l>
          <l xml:id="q_772.24">Dis erging do= <lb/> turniern was <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
@@ -72884,11 +72872,8 @@
          <l xml:id="q_777.08">D<gap reason="unleserlich" extent="1" unit="Buchstabe"/> mit lat die rede ſe<unclear reason="Zweifel">in</unclear>
          </l>
          <note resp="#GVi_Transkribent" target="#q_777.08 #318b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">D<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>
-            </a>: Der zweite Buchstabe, wohl <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> oder <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a>, ist nur rudimentär ausgeführt.</note>
+            <ref>D<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+            </ref>: Der zweite Buchstabe, wohl <ref>o</ref> oder <ref>a</ref>, ist nur rudimentär ausgeführt.</note>
          <l xml:id="q_777.09">Sie zogte<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -73965,17 +73950,17 @@
                <ex>e</ex>
             </choice>n</l>
          <note resp="#GVi_Gegenleser" target="#q_793.30 #Q323b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>ve<unclear reason="Zweifel">n</unclear>de</del>
                   <add>veinde</add>
                </subst>
-            </a>: Die angegebene Korrektur erscheint mir nach Autopsie die wahrscheinlichste Variante wobei unentscheidbar bleibt, ob vor der Korrektur <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vende</a> oder <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">veude</a> beabsichtigt war. Möglich wäre auch: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">veuͯde</a>, dann allerdings eher ungewöhnliches Supraskript. Oder: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            </ref>: Die angegebene Korrektur erscheint mir nach Autopsie die wahrscheinlichste Variante wobei unentscheidbar bleibt, ob vor der Korrektur <ref>vende</ref> oder <ref>veude</ref> beabsichtigt war. Möglich wäre auch: <ref>veuͯde</ref>, dann allerdings eher ungewöhnliches Supraskript. Oder: <ref>
+               <subst hand="#sr">
                   <del>veude</del>
                   <add>vreude</add>
                </subst>
-            </a>, der übergeschriebene Buchstabe sieht aber mehr nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">i</a> als nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">r</a> aus, dagegen spricht weiters seine falsche Position.</note>
+            </ref>, der übergeschriebene Buchstabe sieht aber mehr nach <ref>i</ref> als nach <ref>r</ref> aus, dagegen spricht weiters seine falsche Position.</note>
          <l xml:id="q_794.01">Do funde<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -75372,12 +75357,12 @@
                <add>grab</add>
             </subst> grabp</l>
          <note resp="#MiGe_Gegenleser" target="#q_805.02 #Q328b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">
+            <ref>
+               <subst hand="#sr">
                   <del>gab</del>
                   <add>grab</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">grab</a> möglicherweise durchgestrichen.</note>
+            </ref>: <ref>grab</ref> möglicherweise durchgestrichen.</note>
          <l xml:id="q_805.03">ku<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -75604,11 +75589,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#q_806.22 #Q329a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Das <hi rend="rot">
+            </ref>: Das <hi rend="rot">
                <g ref="#finis"/>
             </hi> sieht gleich aus wie die <g ref="#zeilenfuellsel"/> auf Seite 305. Es könnte sich dabei also auch um ein Zeilenfüllsel handeln.</note>
          <cb xml:id="q329b"/>
@@ -76166,8 +76151,8 @@
          </l>
          <l xml:id="q_811.24">Nye ritter <unclear reason="Zweifel">in</unclear>ir dinſt gereit</l>
          <note resp="#GVi_Transkribent" target="#q_811.24 #Q331b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">in</unclear>ir</a>: Letztlich unentscheidbar, ob <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">inir</a> oder <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mir</a> zu lesen ist.</note>
+            <ref>
+               <unclear reason="Zweifel">in</unclear>ir</ref>: Letztlich unentscheidbar, ob <ref>inir</ref> oder <ref>mir</ref> zu lesen ist.</note>
          <l xml:id="q_811.25">Do na<choice>
                <am>̄</am>
                <ex>m</ex>
@@ -76351,8 +76336,8 @@
                <ex>n</ex>
             </choice> er doch gleich ſaſz</l>
          <note resp="#GVi_Transkribent" target="#q_813.08 #Q332a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">C</unclear>zu</a>: Oder zunächst Ansatz zu Majuskel-D am Beginn, dann ohne Tilgung mit <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">zu</a> fortgefahren?</note>
+            <ref>
+               <unclear reason="Zweifel">C</unclear>zu</ref>: Oder zunächst Ansatz zu Majuskel-D am Beginn, dann ohne Tilgung mit <ref>zu</ref> fortgefahren?</note>
          <l xml:id="q_813.09">
             <hi>A</hi>nfortas ſprach zu partzifal</l>
          <l xml:id="q_813.10">Herre ewr brud<choice>

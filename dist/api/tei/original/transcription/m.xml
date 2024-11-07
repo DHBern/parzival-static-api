@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen m
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen m</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -64,18 +64,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -172,7 +172,7 @@
          <note>Brezel-s/ſz-Schreibung korrigiert in den Abschnitten 1.01-660.30. Am 16. und 17. Oktober 2017 wurde die Schreibung von MiGe auch im Bereich der Verse 661.01-803.07 korrigiert</note>
          <note>Endredaktion 2017, AB: Versbezifferung, Tagsyntax, Marginalien, Paratexte, Initialen, Zweifelsfälle, Korrekturen, Vereinheitlichung Abrr., Paragraphen, Kontrolle -hvh-Tags</note>
          <note>Alle -a entfernt am 4.12.2018 von MiGe</note>
-         <note>Grundsätzlich ist jeder erste Buchstabe am Versanfang (ausser nach Initialen) in Handschrift M rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt. An insgesamt 48 Stellen ist der erste Buchstabe nach einer Initiale ebenfalls rubriziert, eine Auflistung dieser Stellen befindet sich auf den Server in der Datei <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Rubrizierte Zweitbuchstaben in M</a>.</note>
+         <note>Grundsätzlich ist jeder erste Buchstabe am Versanfang (ausser nach Initialen) in Handschrift M rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt. An insgesamt 48 Stellen ist der erste Buchstabe nach einer Initiale ebenfalls rubriziert, eine Auflistung dieser Stellen befindet sich auf den Server in der Datei <ref>Rubrizierte Zweitbuchstaben in M</ref>.</note>
          <note>TL am 17.07.2019: Alle ct-tags entfernt.</note>
          <note>Alle mit roter Tinte vergenommenen Korrekturen werden ru zugeordnet.</note>
          <pb xml:id="m069r"/>
@@ -18718,9 +18718,9 @@
             </note>
          </l>
          <note resp="#MiGe_Gegenleser" target="#173.17 #0">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">2</unclear>
-            </a>: Die mutmassliche 2 wäre hochgestellt.</note>
+            <ref>
+               <unclear reason="Zweifel">2</unclear>
+            </ref>: Die mutmassliche 2 wäre hochgestellt.</note>
          <l xml:id="m_173.17">
             <seg type="Initiale" subtype="Cadelle">D</seg>an her uch zcu halſe tete</l>
          <l xml:id="m_173.18">Ez en iſt vns nicht zcu ſpete</l>
@@ -23044,7 +23044,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_213.15 #M103va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">truwe</a>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>truwe</ref>: Wort zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="m_213.16">Jſt wurdin a<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -24318,9 +24318,9 @@
             </choice>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_224.15 #M105va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <del xmlns="http://www.tei-c.org/ns/1.0" hand="#sr">der</del>
-            </a>: Das Wort wurde zusätzlich vom Rubrikator durchgestrichen.</note>
+            <ref>
+               <del hand="#sr">der</del>
+            </ref>: Das Wort wurde zusätzlich vom Rubrikator durchgestrichen.</note>
          <l xml:id="m_224.16">Begondin krenki<choice>
                <am>̄</am>
                <ex>n</ex>
@@ -25913,7 +25913,7 @@
                <ex>n</ex>
             </choice> zcwolff rocke geteilit</l>
          <note resp="#MiGe_Transkribent" target="#m_235.13 #M107rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rocke</a>: Über dem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> befindet sich ein Kreis, der keine Funktion einzunehmen scheint.</note>
+            <ref>rocke</ref>: Über dem <ref>e</ref> befindet sich ein Kreis, der keine Funktion einzunehmen scheint.</note>
          <l xml:id="m_235.14">Gein thure koſte geveilit</l>
          <l xml:id="m_235.15">Nach den gink dy ko<choice>
                <am>̄</am>
@@ -47949,8 +47949,8 @@
                <ex>n</ex>
             </choice> hette ernert</l>
          <note resp="#MiGe_Gegenleser" target="#413.28 #a">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0" type="Initiale" subtype="Cadelle">D</seg>er</a>: Im ersten Wort des Verses könnte auch nur eine iterierende Variante (und kein Kittvers) vorliegen.</note>
+            <ref>
+               <seg type="Initiale" subtype="Cadelle">D</seg>er</ref>: Im ersten Wort des Verses könnte auch nur eine iterierende Variante (und kein Kittvers) vorliegen.</note>
          <l xml:id="m_413.28">Vnd<choice>
                <am>̡</am>
                <ex>e</ex>
@@ -52202,7 +52202,7 @@
          </l>
          <l xml:id="m_453.17">An den liſten nygromanzie</l>
          <note resp="#SFa_Transkribent" target="#m_453.17 #M143ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nygromanzie</a>: Über dem Wortende befindet sich ein bogenförmiger Kürzungsstrich - Bedeutung unklar, evtl. spätere Korrektur?</note>
+            <ref>nygromanzie</ref>: Über dem Wortende befindet sich ein bogenförmiger Kürzungsstrich - Bedeutung unklar, evtl. spätere Korrektur?</note>
          <l xml:id="m_453.18">Eſz halff das ym<choice>
                <am>̄</am>
                <ex>e</ex>
@@ -52249,12 +52249,8 @@
                <ex>n</ex>
             </choice> heidin vater halp</l>
          <note resp="#SFa_Transkribent" target="#m_454.01 #M143rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Lombarde"
-                    n="2"
-                    rend="Farbe: rot">D</seg>r</a>: eigentlich e vorgesehen</note>
+            <ref>
+               <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>r</ref>: eigentlich e vorgesehen</note>
          <l xml:id="m_454.02">Flegetanis dar ane eyn kalp</l>
          <l xml:id="m_454.03">Bete alſo ab eſz were eyn got</l>
          <l xml:id="m_454.04">Wy mac der tufel Sine<choice>
@@ -54342,7 +54338,7 @@
             </choice> gebet</l>
          <l xml:id="m_475.02">Myn vater der hieſz gamuͯret</l>
          <note resp="#SFa_Transkribent" target="#m_475.02 #M146vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Myn</a>: ungewöhnlicher schräger Strich über dem M</note>
+            <ref>Myn</ref>: ungewöhnlicher schräger Strich über dem M</note>
          <l xml:id="m_475.03">Er was von art eyn anſevin</l>
          <l xml:id="m_475.04">H<choice>
                <am>̉</am>
@@ -56098,7 +56094,7 @@
                </add>
             </subst> var alſus</l>
          <note resp="#JKl_Gegenleser" target="#m_490.17 #M149va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Zur Linken der Spalte befindet sich ein Korrekturzeichen.</note>
+            <ref/>: Zur Linken der Spalte befindet sich ein Korrekturzeichen.</note>
          <l xml:id="m_490.18">Das en mochte abir icheine wis</l>
          <l xml:id="m_490.19">Von dem<choice>
                <am>̄</am>
@@ -58403,11 +58399,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_509.21 #M152vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Hier wird <hi rend="rot">
+            </ref>: Hier wird <hi rend="rot">
                <g ref="#finis"/>
             </hi> und nicht <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
@@ -59614,11 +59610,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_519.23 #M154va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Hier wird <hi rend="rot">
+            </ref>: Hier wird <hi rend="rot">
                <g ref="#finis"/>
             </hi> und nicht <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
@@ -60136,11 +60132,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_523.30 #M155rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Hier wird <hi rend="rot">
+            </ref>: Hier wird <hi rend="rot">
                <g ref="#finis"/>
             </hi> und nicht <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
@@ -67984,7 +67980,7 @@
                <ex>n</ex>
             </choice>t</l>
          <note resp="#MiGe_Gegenleser" target="#m_589.29-k #M167vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Jchein</a>: Die auch in G I L vorhandene Kontraktion geht vermutlich auf eine Augenabirrung des Schreibers von *G zurück, denn die Verse 589.27 und 589.29 enthalten beide das Wort <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">sûl</a>.</note>
+            <ref>Jchein</ref>: Die auch in G I L vorhandene Kontraktion geht vermutlich auf eine Augenabirrung des Schreibers von *G zurück, denn die Verse 589.27 und 589.29 enthalten beide das Wort <ref>sûl</ref>.</note>
          <l xml:id="m_589.30">Vns tut dy evintu<choice>
                <am>̉</am>
                <ex>r</ex>
@@ -71903,7 +71899,7 @@
                <am>̡</am>
                <ex>e</ex>
             </choice> durch rechin</l>
-         <note resp="#MiGe_Transkribent" target="#m_617.03 #M173ra">: Über <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rechin</a> an der Blattoberseite befindet sich ein Zirkumflex.</note>
+         <note resp="#MiGe_Transkribent" target="#m_617.03 #M173ra">: Über <ref>rechin</ref> an der Blattoberseite befindet sich ein Zirkumflex.</note>
          <l xml:id="m_617.04">Herre <hi rend="rot">N</hi>u horet ſprechin</l>
          <l xml:id="m_617.05">Wa mit erwarp clinſor</l>
          <l xml:id="m_617.06">Den riche<choice>
@@ -74593,7 +74589,7 @@
                <ex>n</ex>
             </choice>nic ritter vſz irkorn</l>
          <note resp="#MiGe_Gegenleser" target="#m_632.25 #M175vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ritter vſz</a>: Senkrechter roter Strich zwischen <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ritter</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vſz</a>.</note>
+            <ref>ritter vſz</ref>: Senkrechter roter Strich zwischen <ref>ritter</ref> und <ref>vſz</ref>.</note>
          <l xml:id="m_632.26">Wer hat ir huld<choice>
                <am>̡</am>
                <ex>e</ex>
@@ -75156,11 +75152,11 @@
             </hi>
          </l>
          <note resp="#MiGe_Gegenleser" target="#m_635.25 #M176rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <hi xmlns="http://www.tei-c.org/ns/1.0" rend="rot">
+            <ref>
+               <hi rend="rot">
                   <g ref="#finis"/>
                </hi>
-            </a>: Hier wird <hi rend="rot">
+            </ref>: Hier wird <hi rend="rot">
                <g ref="#finis"/>
             </hi> und nicht <hi rend="rot">
                <g ref="#zeilenfuellsel"/>
@@ -102194,7 +102190,7 @@
                <am rend="hochgestellt">a</am>
                <ex>ra</ex>
             </choice>ch</l>
-         <note resp="#MiGe_Gegenleser" target="#m_784.09 #M203va">: Zur Linken von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Zcu</a> befindet sich eine kleine, rote Tilde. Möglicherweise gehört sie zur Rubrizierung des <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Z</a>. Dies ist aber am Scan nicht klar erkennbar.</note>
+         <note resp="#MiGe_Gegenleser" target="#m_784.09 #M203va">: Zur Linken von <ref>Zcu</ref> befindet sich eine kleine, rote Tilde. Möglicherweise gehört sie zur Rubrizierung des <ref>Z</ref>. Dies ist aber am Scan nicht klar erkennbar.</note>
          <l xml:id="m_784.10">Vrouwe <hi rend="rot">N</hi>u ritet an uwir gimach</l>
          <l xml:id="m_784.11">Lat uw<choice>
                <am>̉</am>

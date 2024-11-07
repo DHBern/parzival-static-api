@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr40
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr40</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -113,18 +113,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -199,8 +199,8 @@
          <note>Korrekturliste der Kollationeure ausgeführt von CG am 11.03.2016.</note>
          <note>Endredaktion 2017 AB</note>
          <note>12.9.2018, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quellen: 1. Franz Pfeiffer, Quellenmaterial zu altdeutschen Dichtungen II, in: Denkschriften der kaiserl. Akademie der Wissenschaften zu Wien, phil.-hist. Classe, Bd. 17 Erste Abtlg., Wien 1868, S. 33-122, hier S. 35 (Nr. 34), 82-98 (Abdruck der Berliner Blätter und Kollation der Schwazer Blätter), 2. Gerold Bickel, Schwazer Parcivalfragment, in: ZfdA 26 (1882), S. 157-164 (Abdruck eines Doppelblattes des Schwazer Teils von Fr40, Verse 177.11-182.24 und 216.13-222.30), 3. Gerold Bickel, Schwazer Parzivalfragment, in: ZfdA 28 (1884), S. 129-132 (Abdruck von Blatt 15), 4. Max Straganz, Schwazer Parzivalfragment, in: ZfdA 31 (1887), S. 287-291 (Abdruck der Verse 485.14-488.09 und 636.04-638.30), 5. Anna Hofstätter, Die Parzivalfragmente G? und G? und ein neuentdecktes Lankowitzer Fragment, in: Anzeiger der Österreichischen Akademie der Wissenschaften, phil.-hist. Klasse, 88. Jg. 1951, Wien 1952, S. 57-95 (mit Abdruck der Verse 283.03-294.23).</note>
-         <note>Anmerkung 09.08.2019 von TL: Die Datei Fr40 wurde von TL im August 2019 korrekturgelesen. Die Korrekturen von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">b</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">p</a> stehen jetzt auf <hi rend="rasur"/>-tags und wurden vereinheitlicht. Superskript-e wurde in fast allen Fällen ls1 zugewiesen und somit als Korrektur gekennzeichnet.</note>
-         <note>Vor allem auf den Schwazer Teilen gibt es einige Stellen, in welchen die Systematik der Korrekturen umgekehrt wird, so zum Beispiel Korrektur mittels Rasur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">p</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">b</a> bzw. unidentifizierbaren Buchstaben, da Oberlänge fehlt. Möglicherweise wurde hier zwar radiert, aber nicht mit Tinte nachgezogen bzw. verändert.</note>
+         <note>Anmerkung 09.08.2019 von TL: Die Datei Fr40 wurde von TL im August 2019 korrekturgelesen. Die Korrekturen von <ref>b</ref> zu <ref>p</ref> stehen jetzt auf <hi rend="rasur"/>-tags und wurden vereinheitlicht. Superskript-e wurde in fast allen Fällen ls1 zugewiesen und somit als Korrektur gekennzeichnet.</note>
+         <note>Vor allem auf den Schwazer Teilen gibt es einige Stellen, in welchen die Systematik der Korrekturen umgekehrt wird, so zum Beispiel Korrektur mittels Rasur von <ref>p</ref> zu <ref>b</ref> bzw. unidentifizierbaren Buchstaben, da Oberlänge fehlt. Möglicherweise wurde hier zwar radiert, aber nicht mit Tinte nachgezogen bzw. verändert.</note>
          <note>Doppelkorrekturen ergänzt im September 2020.</note>
          <note>Autopsie der Grazer Teile am 10. September 2020 durch MiGe.</note>
          <note>Autopsie der Schwazer Teile am 12. September 2020 durch MiGe.</note>
@@ -896,12 +896,12 @@
                <add>ſch<hi rend="rasur">up</hi>hens</add>
             </subst> nicht wil ſparn</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_181.08 #Fr40001va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>ſch*hens</del>
                   <add>ſch<hi rend="rasur">up</hi>hens</add>
                </subst>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">h</a> teilweise mit dunklerer Tinte nachgezogen.</note>
+            </ref>: <ref>h</ref> teilweise mit dunklerer Tinte nachgezogen.</note>
          <l xml:id="fr40_181.09">Sus fuer di <subst hand="#ls1">
                <del>brukke</del>
                <add>
@@ -2303,7 +2303,7 @@
                <ex>n</ex>
             </choice>n ein g<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied>as</l>
          <note resp="#TL_Gegenleser" target="#fr40_234.04 #Fr40003ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">R<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">oͤ</unclear>kke</a>: Unklar, ob Superskript-e von Schreiber- oder Leserhand.</note>
+            <ref>R<unclear reason="Zweifel">oͤ</unclear>kke</ref>: Unklar, ob Superskript-e von Schreiber- oder Leserhand.</note>
          <l xml:id="fr40_234.05">von <subst hand="#ls1">
                <del>azago*</del>
                <add>
@@ -3088,13 +3088,13 @@
                <add>arzifal</add>
             </subst> der weigant</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_252.09 #Fr40;004rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1u">
+            <ref>
+               <subst hand="#ls1u">
                   <del>
                      <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">P</seg>arzifal</del>
                   <add>arzifal</add>
                </subst>
-            </a>:Die Initiale wurde herausgeschnitten.</note>
+            </ref>:Die Initiale wurde herausgeschnitten.</note>
          <l xml:id="fr40_252.10">ſp<choice>
                <am rend="hochgestellt">a</am>
                <ex>ra</ex>
@@ -3753,9 +3753,9 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_283.18 #Fr40005ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">k</unclear>
-            </a>: Möglicherweise Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">c</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">k</a>, ist aber am Original nicht sicher zu erkennen.</note>
+            <ref>
+               <unclear reason="Zweifel">k</unclear>
+            </ref>: Möglicherweise Korrektur von <ref>c</ref> zu <ref>k</ref>, ist aber am Original nicht sicher zu erkennen.</note>
          <l xml:id="fr40_283.19">
             <gap reason="Fragmentverlust" extent="unbekannt"/> not half im ſein weip</l>
          <l xml:id="fr40_283.20">
@@ -3771,13 +3771,13 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_283.21 #Fr40005ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>kunegein</del>
                   <add>kuneg<hi rend="rasur">in</hi>
                   </add>
                </subst>
-            </a>: Möglicherweise auch keine Rasur.</note>
+            </ref>: Möglicherweise auch keine Rasur.</note>
          <l xml:id="fr40_283.22">
             <gap reason="Fragmentverlust" extent="unbekannt"/>zukt im wizzenleichen ſin</l>
          <l xml:id="fr40_283.23">
@@ -3960,7 +3960,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_284.28 #Fr40005rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">geluebde</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">bd</a> stehen möglicherweise auf Rasur. Das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">d</a> scheint mit dunklerer Tinte nachgezogen worden zu sein und weist ein unförmiges Loch im Pergament auf.</note>
+            <ref>geluebde</ref>: <ref>bd</ref> stehen möglicherweise auf Rasur. Das <ref>d</ref> scheint mit dunklerer Tinte nachgezogen worden zu sein und weist ein unförmiges Loch im Pergament auf.</note>
          <l xml:id="fr40_284.29">di artus gen im <subst hand="#ls1">
                <del>enpfinc</del>
                <add>
@@ -4193,7 +4193,7 @@
          <l xml:id="fr40_286.09">da mit krenket ſich mein wer</l>
          <l xml:id="fr40_286.10">wir nahe<unclear reason="Zweifel">n</unclear> anfortas her</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_286.10 #Fr40005va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a>: Unförmiges Loch im Pergament, Rückseite von 284.28.</note>
+            <ref>n</ref>: Unförmiges Loch im Pergament, Rückseite von 284.28.</note>
          <l xml:id="fr40_286.11">daz von muntaſfalhe vert</l>
          <l xml:id="fr40_286.12">vnd dis <unclear reason="Zweifel">
                <supplied reason="unleserlich" resp="Sekundärliteratur">
@@ -4246,7 +4246,7 @@
             </choice>iehen</l>
          <l xml:id="fr40_286.21">Seins komenden preiſes p<unclear reason="Zweifel">fl</unclear>ihde</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_286.21 #Fr40005va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">p<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">fl</unclear>ihde</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">fl</a> mit dunklerer Tinte nachgezogen, Rasur ist nicht sicher erkennbar.</note>
+            <ref>p<unclear reason="Zweifel">fl</unclear>ihde</ref>: <ref>fl</ref> mit dunklerer Tinte nachgezogen, Rasur ist nicht sicher erkennbar.</note>
          <l xml:id="fr40_286.22">
             <subst hand="#ls1">
                <del>yman</del>
@@ -4266,23 +4266,23 @@
                   <hi rend="rasur">A</hi>uz</add>
             </subst> kom ſegremors rois</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_286.25 #Fr40005va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>*z</del>
                   <add>
                      <hi rend="rasur">A</hi>uz</add>
                </subst>
-            </a>: Für Korrektur bzw. Nachziehen wurde dunklerer Tinte verwendet.</note>
+            </ref>: Für Korrektur bzw. Nachziehen wurde dunklerer Tinte verwendet.</note>
          <l xml:id="fr40_286.26">galopiernde vnt<choice>
                <am>̉</am>
                <ex>er</ex>
             </choice> ivuen pois</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_286.26 #Fr40005">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vnt<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>vnt<choice>
                   <am>̉</am>
                   <ex>er</ex>
                </choice>
-            </a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">n</a> mit dunklerer Tinte nachgezogen. Rasur ist nicht sicher erkennbar.</note>
+            </ref>: <ref>n</ref> mit dunklerer Tinte nachgezogen. Rasur ist nicht sicher erkennbar.</note>
          <l xml:id="fr40_286.27">Sein ors vb<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -4312,13 +4312,13 @@
                   <hi rend="rasur">Au</hi>f</add>
             </subst> der dekke vnd an dem man</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_286.29 #Fr40005va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>*f</del>
                   <add>
                      <hi rend="rasur">Au</hi>f</add>
                </subst>
-            </a>: Korrektur bzw. Nachziehen des Wortes mit dunklerer Tinte.</note>
+            </ref>: Korrektur bzw. Nachziehen des Wortes mit dunklerer Tinte.</note>
          <l xml:id="fr40_286.30">man <subst hand="#sr">
                <del>moh</del>
                <add>moht</add>
@@ -4572,7 +4572,7 @@
                <add>auf</add>
             </subst> ſaz</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_288.09 #Fr40005b">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">auf</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">f</a> mit dunklerer Tinte nachgezogen.</note>
+            <ref>auf</ref>: <ref>a</ref> und <ref>f</ref> mit dunklerer Tinte nachgezogen.</note>
          <l xml:id="fr40_288.10">da er daz <subst hand="#ls1">
                <del>blute</del>
                <add>
@@ -4693,7 +4693,7 @@
                <add>ri<hi rend="rasur">v</hi>e</add>
             </subst> ſten</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_289.05 #Fr40006ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ri<hi xmlns="http://www.tei-c.org/ns/1.0" rend="rasur">v</hi>e</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">v</a> weist dunklere Tinte auf.</note>
+            <ref>ri<hi rend="rasur">v</hi>e</ref>: <ref>v</ref> weist dunklere Tinte auf.</note>
          <l xml:id="fr40_289.06">
             <gap reason="Fragmentverlust" extent="unbekannt"/> ynd<choice>
                <am>̉</am>
@@ -4730,9 +4730,9 @@
             <gap reason="Fragmentverlust" extent="unbekannt"/>
             <unclear reason="Zweifel">g</unclear> wol ſo nahen</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_289.13 #Fr40006ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">g</unclear>
-            </a>: Möglicherweise Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">c</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">g</a>.</note>
+            <ref>
+               <unclear reason="Zweifel">g</unclear>
+            </ref>: Möglicherweise Korrektur von <ref>c</ref> zu <ref>g</ref>.</note>
          <l xml:id="fr40_289.14">
             <gap reason="Fragmentverlust" extent="unbekannt"/>rzifalen ſahen</l>
          <l xml:id="fr40_289.15">
@@ -4795,7 +4795,7 @@
                <add>ge<hi rend="rasur">fra</hi>iſchet</add>
             </subst> vil</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_289.23 #Fr40006ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ge<hi xmlns="http://www.tei-c.org/ns/1.0" rend="rasur">fra</hi>iſchet</a>: Teile des Wortes mit dunklerer Tinte nachgezogen.</note>
+            <ref>ge<hi rend="rasur">fra</hi>iſchet</ref>: Teile des Wortes mit dunklerer Tinte nachgezogen.</note>
          <l xml:id="fr40_289.24">
             <gap reason="Fragmentverlust" extent="unbekannt"/>aft iſt topel ſpil</l>
          <l xml:id="fr40_289.25">
@@ -4903,7 +4903,7 @@
                </add>
             </subst> vnſern preis ſein ellen zert</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_290.18 #Fr40006rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">avf</a>: <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a> und <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">f</a> teilt mit dunklerer Tinte geschrieben.</note>
+            <ref>avf</ref>: <ref>a</ref> und <ref>f</ref> teilt mit dunklerer Tinte geschrieben.</note>
          <l xml:id="fr40_290.19">nv gebt mir ſtreites <unclear reason="Zweifel">
                <subst hand="#ls1">
                   <del>vrloub</del>
@@ -5086,14 +5086,14 @@
                <ex>n</ex>
             </choice>ne euch ſolt werren</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_291.28 #FR40006va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">vr<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">a</unclear>we</a>: Korrektur von <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">o</a> zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a> ist am Original nicht sicher erkennbar.</note>
+            <ref>vr<unclear reason="Zweifel">a</unclear>we</ref>: Korrektur von <ref>o</ref> zu <ref>a</ref> ist am Original nicht sicher erkennbar.</note>
          <l xml:id="fr40_291.29">daz ir den lei<unclear reason="Zweifel">p</unclear> der gir v<choice>
                <am>̉</am>
                <ex>er</ex>
             </choice>went</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_291.29 #FR40006va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lei<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">p</unclear>
-            </a>: Korrektur nicht sicher erkennbar am Original.</note>
+            <ref>lei<unclear reason="Zweifel">p</unclear>
+            </ref>: Korrektur nicht sicher erkennbar am Original.</note>
          <l xml:id="fr40_291.30">da von ſich div <subst hand="#ls1">
                <del>ſele*</del>
                <add>ſele<hi rend="rasur">
@@ -5220,7 +5220,7 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_292.17 #Fr40006va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">avf</a>: Wort mit dunklerer Tinte korrigiert bzw. Nachgezogen.</note>
+            <ref>avf</ref>: Wort mit dunklerer Tinte korrigiert bzw. Nachgezogen.</note>
          <l xml:id="fr40_292.18">h<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -5765,12 +5765,8 @@
                <ex>er</ex>
             </choice> ie miſſetan</l>
          <note resp="#MiGe_Transkribent" target="#fr40_317.17 #Fr40;7ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Fleuronee"
-                    n="3"
-                    rend="Farbe: rot-rot">H</seg>et</a>: Ein Teil der Initiale ist beschädigt worden.</note>
+            <ref>
+               <seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-rot">H</seg>et</ref>: Ein Teil der Initiale ist beschädigt worden.</note>
          <l xml:id="fr40_317.18">ſo ſold ichz gern da fur han</l>
          <l xml:id="fr40_317.19">
             <subst hand="#ls1">
@@ -6878,8 +6874,8 @@
                   </choice>leichen </add>
             </subst> ger</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_323.26 #Fr40008rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>brud<choice>
                         <am>̉</am>
                         <ex>er</ex>
@@ -6890,7 +6886,7 @@
                         <ex>er</ex>
                      </choice>leichen</add>
                </subst>
-            </a>: Hier läge eigentlich eine Doppelkorrektur vor. Diese kann aber aus unbekannten Gründen nicht eingelesen werden. Deshalb werden hier ausnahmsweise zwei Korrekturen in einem Wort in einer einfachen Korrektur dargestellt.</note>
+            </ref>: Hier läge eigentlich eine Doppelkorrektur vor. Diese kann aber aus unbekannten Gründen nicht eingelesen werden. Deshalb werden hier ausnahmsweise zwei Korrekturen in einem Wort in einer einfachen Korrektur dargestellt.</note>
          <l xml:id="fr40_323.27">
             <subst hand="#ls1">
                <del>
@@ -7166,12 +7162,12 @@
                <add>go<hi rend="rasur">tt</hi>eiz</add>
             </subst> do wart er ſchier erkant</l>
          <note resp="#TL_Gegenleser" target="#fr40_325.05 #Fr40008rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>oh*eiz</del>
                   <add>go<hi rend="rasur">tt</hi>eiz</add>
                </subst>
-            </a>: In Autopsie bitte prüfen, ob oder wo die Rasur vorliegt.</note>
+            </ref>: In Autopsie bitte prüfen, ob oder wo die Rasur vorliegt.</note>
          <l xml:id="fr40_325.05">
             <subst hand="#ls1">
                <del>werder</del>
@@ -7485,9 +7481,9 @@
             </choice> waleis</l>
          <l xml:id="fr40_327.16">iſt ſi her <unclear reason="Zweifel">wol</unclear> kurteis</l>
          <note resp="#TL_Gegenleser" target="#fr40_327.16 #Fr40008vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">wol</unclear>
-            </a>: Wort teilweise auf Rasur?</note>
+            <ref>
+               <unclear reason="Zweifel">wol</unclear>
+            </ref>: Wort teilweise auf Rasur?</note>
          <l xml:id="fr40_327.17">Jch ergeze euch g<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -8707,8 +8703,8 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_486.07 #Fr40011rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>loup</del>
                   <add>
                      <subst hand="#ls1">
@@ -8718,7 +8714,7 @@
                      </subst>
                   </add>
                </subst>
-            </a>: Hier wurde entgegen der sonstigen Korrektursystematik p im Auslaut zu b korrigiert.</note>
+            </ref>: Hier wurde entgegen der sonstigen Korrektursystematik p im Auslaut zu b korrigiert.</note>
          <l xml:id="fr40_486.08">fur daz ors <subst hand="#ls1">
                <del>vf</del>
                <add>avf</add>
@@ -8734,8 +8730,8 @@
             </subst>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_486.08 #Fr40011rb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>ſchoup</del>
                   <add>
                      <subst hand="#ls1">
@@ -8745,7 +8741,7 @@
                      </subst>
                   </add>
                </subst>
-            </a>: Auch hier wurde entgegen der sonstigen Korrektursystematik p im Auslaut zu b korrigiert.</note>
+            </ref>: Auch hier wurde entgegen der sonstigen Korrektursystematik p im Auslaut zu b korrigiert.</note>
          <l xml:id="fr40_486.09">
             <subst hand="#ls1">
                <del>gingen</del>
@@ -11654,13 +11650,13 @@
                </add>
             </subst> diſen man</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_525.30 #Fr40015va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>kvnik</del>
                   <add>kvni<hi rend="rasur">c</hi>
                   </add>
                </subst>
-            </a>: Korrektur entgegen der Systematik von ls1. Ebenso in 526.12</note>
+            </ref>: Korrektur entgegen der Systematik von ls1. Ebenso in 526.12</note>
          <l xml:id="fr40_526.01">
             <seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-rot">D</seg>j <subst hand="#ls1">
                <del>vrowe</del>
@@ -11706,16 +11702,14 @@
                </add>
             </subst> erſchein</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_526.12 #Fr40015va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">
                   <subst hand="#ls1">
                      <del>tag</del>
                      <add>tac</add>
                   </subst>
                </supplied>
-            </a>: Hier liegt im Auslaut definitiv eine Rasur vor. Demnach wurde, entgegen der Systematik des Korrektors, das <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">g</a> mittels Rasur zu einem <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">c</a> gemacht. Ein Versehen?</note>
+            </ref>: Hier liegt im Auslaut definitiv eine Rasur vor. Demnach wurde, entgegen der Systematik des Korrektors, das <ref>g</ref> mittels Rasur zu einem <ref>c</ref> gemacht. Ein Versehen?</note>
          <l xml:id="fr40_526.13">
             <subst hand="#ls1">
                <del>bei</del>
@@ -11728,14 +11722,14 @@
                </subst>
             </unclear> not geſchach</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_526.13 #Fr40015va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <subst hand="#ls1">
                      <del>lihte</del>
                      <add>liehte</add>
                   </subst>
                </unclear>
-            </a>: Falls der Korrektor ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">e</a> eingefügt hat, so ist es verblasst.</note>
+            </ref>: Falls der Korrektor ein <ref>e</ref> eingefügt hat, so ist es verblasst.</note>
          <l xml:id="fr40_526.14">vnd <subst hand="#ls1">
                <del>do</del>
                <add>da</add>
@@ -11880,17 +11874,17 @@
             <milestone unit="Versumstellung"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#fr40_527.13 #Fr40015vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <subst hand="#ls1">
                      <del>kvnig</del>
                      <add>kvnic</add>
                   </subst>
                </unclear>
-            </a>: Am Original ist klar erkennbar, dass, entgegen der Systematik des Korrektors, <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kvnig</a> mit Hilfe einer Rasur zu <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kvnic</a> geändert wurde.</note>
+            </ref>: Am Original ist klar erkennbar, dass, entgegen der Systematik des Korrektors, <ref>kvnig</ref> mit Hilfe einer Rasur zu <ref>kvnic</ref> geändert wurde.</note>
          <note resp="#MiGe_Gegenleser" target="#fr40_527.13 #Fr40015vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">
+            <ref>
+               <unclear reason="Zweifel">
                   <subst hand="#ls1">
                      <del>baten</del>
                      <add>
@@ -11899,7 +11893,7 @@
                         </hi>aeten</add>
                   </subst>
                </unclear>
-            </a>: Unterstrich des <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">p</a> wurde radiert, über dem Bauch des Buchstabens ist nichts erkennbar.</note>
+            </ref>: Unterstrich des <ref>p</ref> wurde radiert, über dem Bauch des Buchstabens ist nichts erkennbar.</note>
          <l xml:id="fr40_527.15">vorſprechen nam d<choice>
                <am>̉</am>
                <ex>er</ex>
@@ -11941,15 +11935,15 @@
                   </hi>lutige</add>
             </subst> hant</l>
          <note resp="#MiGe_Gegenleser" target="#fr40_527.22 #Fr40015vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>
+               <subst hand="#ls1">
                   <del>plutige</del>
                   <add>
                      <hi rend="rasur">
                         <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
                      </hi>lutige</add>
                </subst>
-            </a>: Vgl. zweite Anmerkung zu Vers 527.13</note>
+            </ref>: Vgl. zweite Anmerkung zu Vers 527.13</note>
          <l xml:id="fr40_527.23">er rif mich an des <subst hand="#ls1">
                <del>ging</del>
                <add>
@@ -12205,7 +12199,7 @@
          </l>
          <l xml:id="fr40_529.15">Man ſol vnfuge rechen</l>
          <note resp="#MiGe_Transkribent" target="#fr40_529.15 #Fr39;16ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">rechen</a>: Über den zweiten "e" im Wort befindet sich ein grosser Punkt. Eventuell setzte der Schreiber zunächst zu einem anderen Buchstaben an.</note>
+            <ref>rechen</ref>: Über den zweiten "e" im Wort befindet sich ein grosser Punkt. Eventuell setzte der Schreiber zunächst zu einem anderen Buchstaben an.</note>
          <l xml:id="fr40_529.16">mit ſlahen vnd mit ſtechen</l>
          <l xml:id="fr40_529.17">gawan <subst hand="#ls1">
                <del>*</del>
@@ -12253,7 +12247,7 @@
          <l xml:id="fr40_529.30">do geſchach ez gawane</l>
          <l xml:id="fr40_530.01">fur ſein ors zebehalten</l>
          <note resp="#MiGe_Transkribent" target="#fr40_530.01 #Fr40;16ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſein</a>:Nach dem Wort befindet sich ein Punkt, der vermuten lässt, dass der Schreiben hier für einen Buchstaben angesetzt hat.</note>
+            <ref>ſein</ref>:Nach dem Wort befindet sich ein Punkt, der vermuten lässt, dass der Schreiben hier für einen Buchstaben angesetzt hat.</note>
          <l xml:id="fr40_530.02">des geltes <subst hand="#ls1">
                <del>muſt</del>
                <add>mueſt</add>
@@ -12585,7 +12579,7 @@
          </l>
          <l xml:id="fr40_533.26">louter ane tr<unclear reason="Zweifel">uͤ</unclear>be</l>
          <note resp="#TL_Gegenleser" target="#fr40_533.26 #Fr40016vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">tr<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">uͤ</unclear>be</a>: Unklar ob Superskript-e von Schreiber- oder Leserhand.</note>
+            <ref>tr<unclear reason="Zweifel">uͤ</unclear>be</ref>: Unklar ob Superskript-e von Schreiber- oder Leserhand.</note>
          <l xml:id="fr40_533.27">da twederz des verdruzze</l>
          <l xml:id="fr40_533.28">ob mi<choice>
                <am>̄</am>
@@ -14086,7 +14080,7 @@
                <ex>er</ex>
             </choice> ganz</l>
          <note resp="#TL_Gegenleser" target="#fr40_634.25 #Fr40019ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">ſ<unclear xmlns="http://www.tei-c.org/ns/1.0" reason="Zweifel">vͤ</unclear>ne</a>: Unklar ob Superskript-e von Schreiber- oder Leserhand.</note>
+            <ref>ſ<unclear reason="Zweifel">vͤ</unclear>ne</ref>: Unklar ob Superskript-e von Schreiber- oder Leserhand.</note>
          <l xml:id="fr40_634.26">di gein dem <subst hand="#ls1">
                <del>kvnic</del>
                <add>kvnig</add>
@@ -15527,12 +15521,12 @@
                <ex>er</ex>
             </choice>ſwigen wære</l>
          <note resp="#TL_Gegenleser" target="#fr40_655.16 #Fr40020va">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">div <subst xmlns="http://www.tei-c.org/ns/1.0" hand="#ls1">
+            <ref>div <subst hand="#ls1">
                   <del>e*</del>
                   <add>e<hi rend="rasur">w</hi>
                   </add>
                </subst>
-            </a>: Eventuell alles auf Rasur? Bitte in Autopsie prüfen. <unclear reason="Zweifel"/>
+            </ref>: Eventuell alles auf Rasur? Bitte in Autopsie prüfen. <unclear reason="Zweifel"/>
          </note>
          <l xml:id="fr40_655.17">wand daz ich von ew<choice>
                <am>̉</am>

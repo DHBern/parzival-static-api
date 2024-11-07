@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr45
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr45</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -80,18 +80,18 @@
             <prefixDef ident="regp"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">Alle mit <gi xmlns="http://www.tei-c.org/ns/1.0">Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p xmlns="http://www.w3.org/1999/xhtml">"regp" verweist auf die Personennamen.</p>
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
             </prefixDef>
             <prefixDef ident="rego"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"rego" verweist auf die Ortsnamen.</p>
+               <p>"rego" verweist auf die Ortsnamen.</p>
             </prefixDef>
             <prefixDef ident="regs"
                        matchPattern="([a-z0-9]+)"
                        replacementPattern="namen.xml#$1">
-               <p xmlns="http://www.w3.org/1999/xhtml">"regs" verweist auf die sonstigen Bezeichnungen.</p>
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
             </prefixDef>
          </listPrefixDef>
          <charDecl>
@@ -130,7 +130,7 @@
          <note>Endredaktion durch JKl am 19.12.2016.</note>
          <note>14.9.2018, MiGe: sek-Tags ergänzt. Quelle: Eberhard Gottlieb Graff, Aufgefundene Bruchstücke größerer mittelhochdeutscher Gedichte, in: Diutiska I (1826; Nachdruck Hildesheim/New York 1970), S. 1-46, hier S. 22-31 (Abdruck der in Münster aufbewahrten Teile).</note>
          <note>Autopsie der in Münster aufbewahrten Teile am 9. Juli 2019 durch MiGe.</note>
-         <note>Das LWL in Münster besitzt eine Abschrift der dort aufbewahrten Teile von Fr45 (<a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Fr45, Abschrift aus LWL</a>). Wann diese gemacht wurde und von wem sie stammt ist nicht bekannt (Stand 9. Juli 2019). In der Abschrift ist gut nachvollziehbar, was aus dem Fragment abgeschrieben und was mit der Lachmannschen Ausgabe ergänzt wurde. Wird etwas aus der Abschrift in die vorliegende Transkription übernommen, so wird es nicht nur in sek-Tags gesetzt, sondern auch in einer Anmerkung zusätzlich erläutert. Der Abschreibende verwendete nur das runde S. Aus diesem Grund wird bei aus der Abschrift entnommenen Passagen in dieser Transkription der Buchstabe s zu Beginn eines Wortes - sofern es sich dabei nicht um eine Majuskel handelt - immer mit einem Schaft-s wiedergegeben.</note>
+         <note>Das LWL in Münster besitzt eine Abschrift der dort aufbewahrten Teile von Fr45 (<ref>Fr45, Abschrift aus LWL</ref>). Wann diese gemacht wurde und von wem sie stammt ist nicht bekannt (Stand 9. Juli 2019). In der Abschrift ist gut nachvollziehbar, was aus dem Fragment abgeschrieben und was mit der Lachmannschen Ausgabe ergänzt wurde. Wird etwas aus der Abschrift in die vorliegende Transkription übernommen, so wird es nicht nur in sek-Tags gesetzt, sondern auch in einer Anmerkung zusätzlich erläutert. Der Abschreibende verwendete nur das runde S. Aus diesem Grund wird bei aus der Abschrift entnommenen Passagen in dieser Transkription der Buchstabe s zu Beginn eines Wortes - sofern es sich dabei nicht um eine Majuskel handelt - immer mit einem Schaft-s wiedergegeben.</note>
          <pb xml:id="fr45001r"/>
          <cb xml:id="fr45001ra"/>
          <l xml:id="fr45_661.07">Min h<choice>
@@ -309,13 +309,11 @@
                   <ex>er</ex>
                </choice>d</supplied>e lvde ſen.</l>
          <note resp="#MiGe_Gegenleser" target="#?1_720.20 #Fr45002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">w<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">
+            <ref>w<supplied reason="unleserlich" resp="Sekundärliteratur">
                   <choice>
                      <am>̉</am>
                      <ex>er</ex>
-                  </choice>d</supplied>e</a>: Was zwischen dem ersten und letzten Buchstaben steht, ist am Original nicht erkennbar. Allerdings lassen die Abstände darauf schliessen, dass ein er-Kürzel vorliegt.</note>
+                  </choice>d</supplied>e</ref>: Was zwischen dem ersten und letzten Buchstaben steht, ist am Original nicht erkennbar. Allerdings lassen die Abstände darauf schliessen, dass ein er-Kürzel vorliegt.</note>
          <l xml:id="fr45_720.21">
             <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>it orlobe ſie ſcheiden dan.</l>
          <l xml:id="fr45_720.22">d<choice>
@@ -377,14 +375,12 @@
                <ex>n</ex>
             </choice> geſellen nam.</l>
          <note resp="#MiGe_Gegenleser" target="#?1_721.09 #Fr45002ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">ſi</supplied>ne<choice xmlns="http://www.tei-c.org/ns/1.0">
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied>ne<choice>
                   <am>̄</am>
                   <ex>n</ex>
                </choice>
-            </a>: In der im Header erwähnten Abschrift steht "Jewedere sinen", wobei "Jewedere" später ergänzt wurde. Graff gibt nur <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">nen</a> an.</note>
+            </ref>: In der im Header erwähnten Abschrift steht "Jewedere sinen", wobei "Jewedere" später ergänzt wurde. Graff gibt nur <ref>nen</ref> an.</note>
          <l xml:id="fr45_721.10">
             <gap reason="unleserlich" extent="unbekannt"/>
             <unclear reason="Zweifel">v</unclear>f die reyſe wol gezam.</l>
@@ -415,34 +411,14 @@
             <gap reason="unleserlich" extent="unbekannt"/>
             <supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">ſin</supplied>
          </l>
-         <note resp="#MiGe_Gegenleser" target="#?1_721.15 #Fr45002rb">: Graff gibt nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">Welch ir</a>
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">kl<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>y<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="unbekannt"/>achten<gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="unbekannt"/>
-            </a> (dabei vor und nach <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">achten</a> je vier unleserliche Buchstaben) an, der Abschreiber transkribiert <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">mochten sin</a>. Am Original ist deutlich zu erkennen, dass der erste Vokal des Verbs ein <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">a</a> ist. Aus diesem Grund wird <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">kl</supplied>
-               <gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="1"
-                    unit="Buchstabe"/>
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">y</supplied>
-               <gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="unbekannt"/>a<supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">cht</supplied>en <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">ſin</supplied>
-            </a> transkribert.</note>
+         <note resp="#MiGe_Gegenleser" target="#?1_721.15 #Fr45002rb">: Graff gibt nach <ref>Welch ir</ref>
+            <ref>kl<gap reason="unleserlich" extent="1" unit="Buchstabe"/>y<gap reason="unleserlich" extent="unbekannt"/>achten<gap reason="unleserlich" extent="unbekannt"/>
+            </ref> (dabei vor und nach <ref>achten</ref> je vier unleserliche Buchstaben) an, der Abschreiber transkribiert <ref>mochten sin</ref>. Am Original ist deutlich zu erkennen, dass der erste Vokal des Verbs ein <ref>a</ref> ist. Aus diesem Grund wird <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied>
+               <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied>
+               <gap reason="unleserlich" extent="unbekannt"/>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">ſin</supplied>
+            </ref> transkribert.</note>
          <l xml:id="fr45_721.16">pfelle die vil liechten ſchin.</l>
          <l xml:id="fr45_721.17">Gaben von des goldes ſwere.</l>
          <l xml:id="fr45_721.18">des konges valkenere.</l>
@@ -737,11 +713,9 @@
             <supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_761.08 #Fr45003ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <supplied xmlns="http://www.tei-c.org/ns/1.0"
-                         reason="unleserlich"
-                         resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied>
-            </a>: Der Wortlaut stammt aus der im Header erwähnten Abschrift aus dem LWL. Es weist nichts darauf hin, dass er der Lachmannschen Ausgabe entnommen wurde. Folglich dürfte der Wurmfrass an der entsprechenden Stelle im Fragment jünger sein als die erwähnte Abschrift.</note>
+            <ref>
+               <supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied>
+            </ref>: Der Wortlaut stammt aus der im Header erwähnten Abschrift aus dem LWL. Es weist nichts darauf hin, dass er der Lachmannschen Ausgabe entnommen wurde. Folglich dürfte der Wurmfrass an der entsprechenden Stelle im Fragment jünger sein als die erwähnte Abschrift.</note>
          <l xml:id="fr45_761.09">
             <supplied reason="unleserlich" resp="Sekundärliteratur">A</supplied>r<unclear reason="Zweifel">t</unclear>
             <gap reason="Fragmentverlust" extent="unbekannt"/> die mere ſagete.</l>
@@ -1109,7 +1083,7 @@
             </choice>zogin lie<gap reason="Fragmentverlust" extent="unbekannt"/>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_764.20 #Fr45003vb">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank"/>: Die im Header erwähnte Abschrift gibt <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lieht gemal</a> an. Da <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gemal</a> in runden Klammern steht, ist davon auszugehen, dass das Wort mit Hilfe der Lachmannschen Ausgabe ergänzt wurde und nur <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">lieht</a> lesbar war.</note>
+            <ref/>: Die im Header erwähnte Abschrift gibt <ref>lieht gemal</ref> an. Da <ref>gemal</ref> in runden Klammern steht, ist davon auszugehen, dass das Wort mit Hilfe der Lachmannschen Ausgabe ergänzt wurde und nur <ref>lieht</ref> lesbar war.</note>
          <l xml:id="fr45_764.21">Nam feẏrafiz mit der hant</l>
          <l xml:id="fr45_764.22">ſwaz ſie vrovn vn<choice>
                <am>̄</am>

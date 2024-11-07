@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr62
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr62</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -124,12 +124,9 @@
          <l xml:id="fr62_521.01">
             <seg type="Initiale" subtype="Prachtinitiale" n="9">J</seg>ch bin noh ledih von ſulhem pin</l>
          <note resp="#MiGe_Transkribent" target="#?1_521.01 #Fr62;1ra">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <seg xmlns="http://www.tei-c.org/ns/1.0"
-                    type="Initiale"
-                    subtype="Prachtinitiale"
-                    n="9">J</seg>
-            </a>:Die Initiale beginnt bereits in Vers 520.30 und ist in den Farben gelbgold und rot gehalten.</note>
+            <ref>
+               <seg type="Initiale" subtype="Prachtinitiale" n="9">J</seg>
+            </ref>:Die Initiale beginnt bereits in Vers 520.30 und ist in den Farben gelbgold und rot gehalten.</note>
          <l xml:id="fr62_521.02">welt aber ir vn<choice>
                <am>̄</am>
                <ex>d</ex>
@@ -338,7 +335,7 @@
             </subst> einer wide</l>
          <l xml:id="fr62_524.29">woldez han gerochen</l>
          <l xml:id="fr62_524.30">hetich dich niht verſprochen.</l>
-         <note resp="#MiGe_Transkribent" target="#?1_524.30 #Fr62;1vb">:Auf der rechten Seite der Verse 524.28ff. befindet sich eine <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">S</a>-Pracht"initiale" in den Farben gelb und rot, die sich nicht zuordnen lässt.</note>
+         <note resp="#MiGe_Transkribent" target="#?1_524.30 #Fr62;1vb">:Auf der rechten Seite der Verse 524.28ff. befindet sich eine <ref>S</ref>-Pracht"initiale" in den Farben gelb und rot, die sich nicht zuordnen lässt.</note>
          <l xml:id="fr62_525.01">
             <seg type="Initiale" subtype="Prachtinitiale" n="2">S</seg>waz dort geſcah du biſt nu hie.</l>
          <l xml:id="fr62_525.02">du horteſt ouh wol ſprechen ie.</l>
@@ -577,11 +574,9 @@
             </unclear>
          </l>
          <note resp="#MiGe_Gegenleser" target="#?1_557.24-0 #Fr62002v">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">
-               <gap xmlns="http://www.tei-c.org/ns/1.0"
-                    reason="unleserlich"
-                    extent="unbekannt"/>
-            </a>: Erkennbar ist ein anscheinend hochgestelltes Zeichen, das eine 2 oder eine 3 sein könnte.</note>
+            <ref>
+               <gap reason="unleserlich" extent="unbekannt"/>
+            </ref>: Erkennbar ist ein anscheinend hochgestelltes Zeichen, das eine 2 oder eine 3 sein könnte.</note>
       </body>
    </text>
 </TEI>
