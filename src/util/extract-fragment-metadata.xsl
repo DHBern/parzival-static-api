@@ -183,19 +183,19 @@
                 </array>
                 <string key="info">
                   <xsl:variable name="info">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
                 <string key="info-h1">
                   <xsl:variable name="info-h1">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/title[@type='main']"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/title[@type='main']"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h1,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
                 <string key="info-h2">
                   <xsl:variable name="info-h2">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/list"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$sigil]/list"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
@@ -221,19 +221,19 @@
                 </array>
                 <string key="info">
                   <xsl:variable name="info">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
                 <string key="info-h1">
                   <xsl:variable name="info-h1">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/title[@type='main']"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/title[@type='main']"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h1,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
                 <string key="info-h2">
                   <xsl:variable name="info-h2">
-                    <xsl:apply-templates select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/list"/>
+                    <xsl:apply-templates mode="extract-fragment-metadata" select="doc('../data/hs-descs.xml')//p[@corresp='Parzival-Projekt_'||$handle]/list"/>
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
@@ -249,37 +249,37 @@
     <xsl:message>Task `{$task}` done.</xsl:message>
   </xsl:template>
   
-  <xsl:template match="p" exclude-result-prefixes="#all">
+  <xsl:template match="p" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
     <p xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates select="node() except title except list"/>
+      <xsl:apply-templates mode="extract-fragment-metadata" select="node() except title except list"/>
     </p>
   </xsl:template>
   
-  <xsl:template match="ref" exclude-result-prefixes="#all">
+  <xsl:template match="ref" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
     <a href="{@target}" target="_blank" xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="extract-fragment-metadata"/>
     </a>
   </xsl:template>
   
-  <xsl:template match="title" exclude-result-prefixes="#all">
-    <xsl:apply-templates/>
+  <xsl:template match="title" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
+    <xsl:apply-templates mode="extract-fragment-metadata"/>
   </xsl:template>
   
-  <xsl:template match="list" exclude-result-prefixes="#all">
+  <xsl:template match="list" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
     <ul xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="extract-fragment-metadata"/>
     </ul>
   </xsl:template>
   
-  <xsl:template match="item" exclude-result-prefixes="#all">
+  <xsl:template match="item" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
     <li xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="extract-fragment-metadata"/>
     </li>
   </xsl:template>
   
-  <xsl:template match="hi[@rend='sup']" exclude-result-prefixes="#all">
+  <xsl:template match="hi[@rend='sup']" mode="extract-fragment-metadata" exclude-result-prefixes="#all">
     <sup xmlns="http://www.w3.org/1999/xhtml">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="extract-fragment-metadata"/>
     </sup>
   </xsl:template>
   
