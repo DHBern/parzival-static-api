@@ -48,7 +48,7 @@
             </xsl:variable>
             <xsl:variable name="names" as="map(*)*" select="
                 doc('../data/names.xml')//body//@xml:id ! 
-                map:entry(., ./parent::*/*[local-name()=('persName','placeName','form')]/text()
+                map:entry(., ./parent::*/*[local-name()=('persName','placeName','form')]/text() => string-join(' ')
                 ) => map:merge()"/>
             
             <xsl:variable name="payload">
