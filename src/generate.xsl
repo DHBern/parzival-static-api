@@ -35,6 +35,8 @@
   <xsl:include href="util/metadata-ms-page.xsl"/>
   <xsl:include href="util/metadata-ms-verses.xsl"/>
   <xsl:include href="util/extract-fragment-metadata.xsl"/>
+  <xsl:include href="util/metadata-names.xsl"/>
+  <xsl:include href="util/build-index.xsl"/>
   
   <xd:doc>
     <xd:desc>Initial template.</xd:desc>
@@ -87,6 +89,22 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'metadata-ms-verses'"/>
+    </xsl:call-template>
+
+    <xsl:call-template name="metadata-names" use-when="$all or $do => contains-token('metadata-names')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'metadata-names'"/>
+    </xsl:call-template>
+
+    <xsl:call-template name="build-index" use-when="$all or $do => contains-token('build-index')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'build-index'"/>
     </xsl:call-template>
     
     <xsl:if test="$do='' and not($all)">

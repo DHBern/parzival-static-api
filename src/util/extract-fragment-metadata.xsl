@@ -158,6 +158,12 @@
       
       <xsl:variable name="payload">
         <map>
+          <map key="meta">
+            <string key="task">{$task}</string>
+            <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
+            <string key="generated-on">{current-dateTime()}</string>
+            <string key="description">Fragment metadata.</string>
+          </map>
           <array key="hyparchetypes">
             <xsl:sequence select="let $xml := $hyparchetypes => json-to-xml() return $xml/*/*"/>
           </array>
