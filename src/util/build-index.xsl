@@ -48,7 +48,7 @@
             </xsl:variable>
             <xsl:variable name="names" as="map(*)*" select="
                 doc('../data/names.xml')//body//@xml:id ! 
-                map:entry(., ./parent::*/*[local-name()=('persName','placeName','form')]/text() => string-join(' ')) 
+                map:entry(., ./parent::*/*[local-name()=('persName','placeName','form')]/text() => string-join('; ')) 
                 => map:merge()"/>
             
             <xsl:variable name="payload">
@@ -77,7 +77,9 @@
                                 <xsl:if test="*[@ref]">
                                     <array key="terms">
                                         <xsl:for-each select="*[@ref]">
-                                            <string>{map:get($names,@ref => substring-after(':'))}</string>
+                                            <xsl:for-each select="map:get($names,@ref => substring-after(':')) => tokenize(';\s')">
+                                                <string>{.}</string>
+                                            </xsl:for-each>
                                         </xsl:for-each>
                                     </array>
                                 </xsl:if>
