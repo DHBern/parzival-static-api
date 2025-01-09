@@ -225,9 +225,21 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(role) return
                         html:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(hi) return
-                        html:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
+                        if (@rend='unterstrichen') then
+                            html:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
+                        else
+                            if (@rend='rasur') then
+                                html:inline($config, ., ("tei-hi2", "rasure", css:map-rend-to-class(.)), .)
+                            else
+                                $config?apply($config, ./node())
                     case element(note) return
-                        html:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
+                        if (@type='Notiz') then
+                            html:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
+                        else
+                            if (@type='Marginalie') then
+                                html:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
+                            else
+                                printcss:note($config, ., ("tei-note3", css:map-rend-to-class(.)), ., @place, @n)
                     case element(code) return
                         html:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -242,7 +254,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(del) return
-                        html:inline($config, ., ("tei-del1", "deleted", css:map-rend-to-class(.)), .)
+                        if (@hand='#sr') then
+                            html:inline($config, ., ("tei-del1", "del_sr", css:map-rend-to-class(.)), .)
+                        else
+                            html:inline($config, ., ("tei-del2", "deleted", css:map-rend-to-class(.)), .)
                     case element(cell) return
                         (: Insert table cell. :)
                         html:cell($config, ., ("tei-cell", css:map-rend-to-class(.)), ., ())
@@ -271,7 +286,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(ab) return
                         html:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
-                        html:inline($config, ., ("tei-add1", css:map-rend-to-class(.)), .)
+                        if (@hand="#sr") then
+                            html:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)
+                        else
+                            html:inline($config, ., ("tei-add2", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         html:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(head) return
@@ -464,7 +482,34 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
                     case element(seg) return
-                        html:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
+                        if (@subtype='nicht_ausgeführt') then
+                            html:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
+                        else
+                            if (@type='Versumstellung') then
+                                html:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)
+                            else
+                                if (@type='kleine_Variante') then
+                                    html:inline($config, ., ("tei-seg3", "small-variant", css:map-rend-to-class(.)), .)
+                                else
+                                    if (@type='singuläre_Lesart') then
+                                        html:inline($config, ., ("tei-seg4", "singular-reading", css:map-rend-to-class(.)), .)
+                                    else
+                                        if (@type='große_Variante') then
+                                            html:inline($config, ., ("tei-seg5", "large-variant", css:map-rend-to-class(.)), .)
+                                        else
+                                            if (@subtype='Großinitiale') then
+                                                html:inline($config, ., ("tei-seg6", "capital-initial", css:map-rend-to-class(.)), .)
+                                            else
+                                                if (@subtype='Majuskel') then
+                                                    html:inline($config, ., ("tei-seg7", "majuscule", css:map-rend-to-class(.)), .)
+                                                else
+                                                    if (@subtype='Prachtinitiale') then
+                                                        html:inline($config, ., ("tei-seg8", "glory-initial", css:map-rend-to-class(.)), .)
+                                                    else
+                                                        if (@type='Initiale') then
+                                                            html:inline($config, ., css:get-rendition(., ("tei-seg9", "initial", css:map-rend-to-class(.))), .)
+                                                        else
+                                                            $config?apply($config, ./node())
                     case element(notatedMusic) return
                         html:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(profileDesc) return
@@ -500,11 +545,23 @@ declare function model:apply($config as map(*), $input as node()*) {
                         return
                                                 html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-name", css:map-rend-to-class(.)), $content)
                     case element(reg) return
-                        html:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                        if (@type='Synkope') then
+                            html:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                        else
+                            $config?apply($config, ./node())
                     case element(milestone) return
-                        html:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                        if (@unit='Versumstellung') then
+                            html:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                        else
+                            $config?apply($config, ./node())
                     case element(subst) return
-                        html:inline($config, ., ("tei-subst1", css:map-rend-to-class(.)), .)
+                        if (@hand='#ls1') then
+                            html:inline($config, ., ("tei-subst1", "subst_ls", css:map-rend-to-class(.)), .)
+                        else
+                            if (@hand='#sr') then
+                                html:inline($config, ., ("tei-subst2", "subst_sr", css:map-rend-to-class(.)), .)
+                            else
+                                $config?apply($config, ./node())
                     case element(exist:match) return
                         html:match($config, ., .)
                     case element() return

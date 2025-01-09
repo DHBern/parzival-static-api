@@ -216,9 +216,21 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(role) return
                         fo:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(hi) return
-                        fo:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
+                        if (@rend='unterstrichen') then
+                            fo:inline($config, ., ("tei-hi1", "underline", css:map-rend-to-class(.)), .)
+                        else
+                            if (@rend='rasur') then
+                                fo:inline($config, ., ("tei-hi2", "rasure", css:map-rend-to-class(.)), .)
+                            else
+                                $config?apply($config, ./node())
                     case element(note) return
-                        fo:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
+                        if (@type='Notiz') then
+                            fo:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
+                        else
+                            if (@type='Marginalie') then
+                                fo:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
+                            else
+                                fo:note($config, ., ("tei-note3", css:map-rend-to-class(.)), ., @place, @n)
                     case element(code) return
                         fo:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -233,7 +245,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(del) return
-                        fo:inline($config, ., ("tei-del1", "deleted", css:map-rend-to-class(.)), .)
+                        if (@hand='#sr') then
+                            fo:inline($config, ., ("tei-del1", "del_sr", css:map-rend-to-class(.)), .)
+                        else
+                            fo:inline($config, ., ("tei-del2", "deleted", css:map-rend-to-class(.)), .)
                     case element(cell) return
                         (: Insert table cell. :)
                         fo:cell($config, ., ("tei-cell", css:map-rend-to-class(.)), ., ())
@@ -262,7 +277,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(ab) return
                         fo:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
-                        fo:inline($config, ., ("tei-add1", css:map-rend-to-class(.)), .)
+                        if (@hand="#sr") then
+                            fo:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)
+                        else
+                            fo:inline($config, ., ("tei-add2", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         fo:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(head) return
@@ -441,7 +459,34 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 fo:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
                     case element(seg) return
-                        fo:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
+                        if (@subtype='nicht_ausgeführt') then
+                            fo:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
+                        else
+                            if (@type='Versumstellung') then
+                                fo:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)
+                            else
+                                if (@type='kleine_Variante') then
+                                    fo:inline($config, ., ("tei-seg3", "small-variant", css:map-rend-to-class(.)), .)
+                                else
+                                    if (@type='singuläre_Lesart') then
+                                        fo:inline($config, ., ("tei-seg4", "singular-reading", css:map-rend-to-class(.)), .)
+                                    else
+                                        if (@type='große_Variante') then
+                                            fo:inline($config, ., ("tei-seg5", "large-variant", css:map-rend-to-class(.)), .)
+                                        else
+                                            if (@subtype='Großinitiale') then
+                                                fo:inline($config, ., ("tei-seg6", "capital-initial", css:map-rend-to-class(.)), .)
+                                            else
+                                                if (@subtype='Majuskel') then
+                                                    fo:inline($config, ., ("tei-seg7", "majuscule", css:map-rend-to-class(.)), .)
+                                                else
+                                                    if (@subtype='Prachtinitiale') then
+                                                        fo:inline($config, ., ("tei-seg8", "glory-initial", css:map-rend-to-class(.)), .)
+                                                    else
+                                                        if (@type='Initiale') then
+                                                            fo:inline($config, ., css:get-rendition(., ("tei-seg9", "initial", css:map-rend-to-class(.))), .)
+                                                        else
+                                                            $config?apply($config, ./node())
                     case element(notatedMusic) return
                         fo:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(profileDesc) return
@@ -477,11 +522,23 @@ declare function model:apply($config as map(*), $input as node()*) {
                         return
                                                 fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-name", css:map-rend-to-class(.)), $content)
                     case element(reg) return
-                        fo:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                        if (@type='Synkope') then
+                            fo:inline($config, ., ("tei-reg", "syncope", css:map-rend-to-class(.)), .)
+                        else
+                            $config?apply($config, ./node())
                     case element(milestone) return
-                        fo:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                        if (@unit='Versumstellung') then
+                            fo:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                        else
+                            $config?apply($config, ./node())
                     case element(subst) return
-                        fo:inline($config, ., ("tei-subst1", css:map-rend-to-class(.)), .)
+                        if (@hand='#ls1') then
+                            fo:inline($config, ., ("tei-subst1", "subst_ls", css:map-rend-to-class(.)), .)
+                        else
+                            if (@hand='#sr') then
+                                fo:inline($config, ., ("tei-subst2", "subst_sr", css:map-rend-to-class(.)), .)
+                            else
+                                $config?apply($config, ./node())
                     case element() return
                         if (namespace-uri(.) = 'http://www.tei-c.org/ns/1.0') then
                             $config?apply($config, ./node())
