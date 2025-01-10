@@ -59,8 +59,9 @@
                 </elementSpec>
             <elementSpec ident="name" mode="add">
                     <model behaviour="inline">
-            <param name="content" value="."/>
-            <pb:template xmlns="" xml:space="preserve">.</pb:template>
+            <param name="default" value="."/>
+            <param name="ref" value="@ref"/>
+            <pb:template xmlns="" xml:space="preserve"><span data-ref="[[ref]]">[[default]]</span></pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="reg" mode="add">
@@ -96,8 +97,28 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="hi" mode="change">
+                    <model predicate="@rend='rot'" behaviour="inline" cssClass="red"/>
                     <model predicate="@rend='unterstrichen'" behaviour="inline" cssClass="underline"/>
                     <model predicate="@rend='rasur'" behaviour="inline" cssClass="rasure"/>
+                </elementSpec>
+                <elementSpec ident="choice" mode="change">
+                    <model predicate="am and ex" behaviour="inline">
+            <param name="default" value="ex[1]"/>
+            <param name="alternate" value="am[1]"/>
+            <pb:template xmlns="" xml:space="preserve">([[default]])</pb:template>
+        </model>
+                    <model predicate="sic and corr" behaviour="alternate">
+            <param name="default" value="corr[1]"/>
+            <param name="alternate" value="sic[1]"/>
+        </model>
+                    <model predicate="abbr and expan" behaviour="alternate">
+            <param name="default" value="expan[1]"/>
+            <param name="alternate" value="abbr[1]"/>
+        </model>
+                    <model predicate="orig and reg" behaviour="alternate">
+            <param name="default" value="reg[1]"/>
+            <param name="alternate" value="orig[1]"/>
+        </model>
                 </elementSpec>
             </schemaSpec>
         </body>
