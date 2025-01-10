@@ -31,6 +31,10 @@ declare %private function model:template-ptr($config as map(*), $node as node()*
                               <pb-option name="appXPath" on="./rdg[contains(@label, 'original')]" off="">Original Clefs</pb-option>
                               </pb-mei></t>/*
 };
+(: generated template function for element spec: lb :)
+declare %private function model:template-lb($config as map(*), $node as node()*, $params as map(*)) {
+    ``[|]``
+};
 (: generated template function for element spec: name :)
 declare %private function model:template-name($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><span data-ref="{$config?apply-children($config, $node, $params?ref)}">{$config?apply-children($config, $node, $params?default)}</span></t>/*
@@ -50,6 +54,10 @@ declare %private function model:template-choice($config as map(*), $node as node
 (: generated template function for element spec: mei:mdiv :)
 declare %private function model:template-mei_mdiv($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><pb-mei player="player" data="{$config?apply-children($config, $node, $params?data)}"/></t>/*
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap3($config as map(*), $node as node()*, $params as map(*)) {
+    ``[-*-]``
 };
 (:~
 
@@ -142,7 +150,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             $config?apply($config, ./node())
                     case element(milestone) return
                         if (@unit='Versumstellung') then
-                            latex:inline($config, ., ("tei-milestone", "verse", "-change", css:map-rend-to-class(.)), .)
+                            latex:inline($config, ., ("tei-milestone", "versechange", css:map-rend-to-class(.)), .)
                         else
                             $config?apply($config, ./node())
                     case element(l) return
@@ -205,7 +213,17 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(docTitle) return
                         latex:block($config, ., css:get-rendition(., ("tei-docTitle", css:map-rend-to-class(.))), .)
                     case element(lb) return
-                        latex:break($config, ., css:get-rendition(., ("tei-lb", css:map-rend-to-class(.))), ., 'line', @n)
+                        let $params := 
+                            map {
+                                "type": 'line',
+                                "label": @n,
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-lb($config, ., $params)
+                        return
+                                                latex:inline(map:merge(($config, map:entry("template", true()))), ., css:get-rendition(., ("tei-lb", css:map-rend-to-class(.))), $content)
                     case element(anchor) return
                         latex:anchor($config, ., ("tei-anchor", css:map-rend-to-class(.)), ., @xml:id)
                     case element(TEI) return
@@ -360,19 +378,19 @@ declare function model:apply($config as map(*), $input as node()*) {
                         latex:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
                         if (@hand="#sr") then
-                            latex:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)
+                            latex:inline($config, ., ("tei-add", "sr", css:map-rend-to-class(.)), .)
                         else
-                            latex:inline($config, ., ("tei-add2", css:map-rend-to-class(.)), .)
+                            $config?apply($config, ./node())
                     case element(revisionDesc) return
                         latex:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(subst) return
-                        if (@hand='#ls1') then
+                        if (@hand[starts-with(., '#ls')]) then
                             latex:inline($config, ., ("tei-subst1", "subst_ls", css:map-rend-to-class(.)), .)
                         else
-                            if (@hand='#sr') then
+                            if (@hand[starts-with(., '#sr')]) then
                                 latex:inline($config, ., ("tei-subst2", "subst_sr", css:map-rend-to-class(.)), .)
                             else
-                                $config?apply($config, ./node())
+                                latex:inline($config, ., ("tei-subst3", "subst", css:map-rend-to-class(.)), .)
                     case element(head) return
                         if ($parameters?header='short') then
                             latex:inline($config, ., ("tei-head1", css:map-rend-to-class(.)), replace(string-join(.//text()[not(parent::ref)]), '^(.*?)[^\w]*$', '$1'))
@@ -478,7 +496,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             (: simple inline, if in parent choice. :)
                             latex:inline($config, ., ("tei-corr1", css:map-rend-to-class(.)), .)
                         else
-                            latex:inline($config, ., ("tei-corr2", css:map-rend-to-class(.)), .)
+                            latex:inline($config, ., ("tei-corr2", "corr", css:map-rend-to-class(.)), .)
                     case element(foreign) return
                         latex:inline($config, ., ("tei-foreign", css:map-rend-to-class(.)), .)
                     case element(mei:mdiv) return
@@ -541,7 +559,15 @@ declare function model:apply($config as map(*), $input as node()*) {
                             if (@extent) then
                                 latex:inline($config, ., ("tei-gap2", css:map-rend-to-class(.)), @extent)
                             else
-                                latex:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
+                                let $params := 
+                                    map {
+                                        "content": .
+                                    }
+
+                                                                let $content := 
+                                    model:template-gap3($config, ., $params)
+                                return
+                                                                latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)
                     case element(quote) return
                         if (ancestor::p) then
                             (: If it is inside a paragraph then it is inline, otherwise it is block level :)
