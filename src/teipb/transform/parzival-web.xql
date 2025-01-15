@@ -272,7 +272,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             if (@type='Marginalie') then
                                 html:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                             else
-                                html:note($config, ., ("tei-note3", css:map-rend-to-class(.)), ., @place, @n)                                => model:map($node, $trackIds)
+                                html:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                     case element(code) return
                         html:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(postscript) return
@@ -530,9 +530,11 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 html:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                             else
                                 if (@type='kleine_Variante') then
+                                    (: no special styles :)
                                     html:inline($config, ., ("tei-seg3", "small-variant", css:map-rend-to-class(.)), .)                                    => model:map($node, $trackIds)
                                 else
                                     if (@type='singuläre_Lesart') then
+                                        (: no special styles :)
                                         html:inline($config, ., ("tei-seg4", "singular-reading", css:map-rend-to-class(.)), .)                                        => model:map($node, $trackIds)
                                     else
                                         if (@type='große_Variante') then

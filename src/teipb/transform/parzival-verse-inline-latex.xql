@@ -327,7 +327,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             if (@type='Marginalie') then
                                 latex:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
                             else
-                                latex:note($config, ., ("tei-note3", css:map-rend-to-class(.)), ., @place, @n)
+                                latex:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)
                     case element(dateline) return
                         latex:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -585,9 +585,11 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 latex:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)
                             else
                                 if (@type='kleine_Variante') then
+                                    (: no special styles :)
                                     latex:inline($config, ., ("tei-seg3", "small-variant", css:map-rend-to-class(.)), .)
                                 else
                                     if (@type='singuläre_Lesart') then
+                                        (: no special styles :)
                                         latex:inline($config, ., ("tei-seg4", "singular-reading", css:map-rend-to-class(.)), .)
                                     else
                                         if (@type='große_Variante') then

@@ -41,8 +41,12 @@
                 <elementSpec ident="seg" mode="change">
                     <model predicate="@subtype='nicht_ausgeführt'" behaviour="inline" cssClass="not-executed"/>
                     <model predicate="@type='Versumstellung'" behaviour="inline" cssClass="verse -change"/>
-                    <model predicate="@type='kleine_Variante'" behaviour="inline" cssClass="small-variant"/>
-                    <model predicate="@type='singuläre_Lesart'" behaviour="inline" cssClass="singular-reading"/>
+                    <model predicate="@type='kleine_Variante'" behaviour="inline" cssClass="small-variant">
+            <desc>no special styles</desc>
+        </model>
+                    <model predicate="@type='singuläre_Lesart'" behaviour="inline" cssClass="singular-reading">
+            <desc>no special styles</desc>
+        </model>
                     <model predicate="@type='große_Variante'" behaviour="inline" cssClass="large-variant"/>
                     <model predicate="@subtype='Großinitiale'" behaviour="inline" cssClass="capital-initial"/>
                     <model predicate="@subtype='Majuskel'" behaviour="inline" cssClass="majuscule"/>
@@ -87,10 +91,7 @@
                 <elementSpec ident="note" mode="change">
                     <model predicate="@type='Notiz'" behaviour="inline" cssClass="note"/>
                     <model predicate="@type='Marginalie'" behaviour="inline" cssClass="marginalia"/>
-                    <model behaviour="note">
-            <param name="place" value="@place"/>
-            <param name="label" value="@n"/>
-        </model>
+                    <model behaviour="inline" cssClass="note"/>
                 </elementSpec>
                 <elementSpec ident="hi" mode="change">
                     <model predicate="@rend='rot'" behaviour="inline" cssClass="red"/>

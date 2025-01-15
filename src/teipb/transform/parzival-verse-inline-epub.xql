@@ -306,7 +306,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             if (@type='Marginalie') then
                                 html:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
                             else
-                                epub:note($config, ., ("tei-note3", css:map-rend-to-class(.)), ., @place, @n)
+                                html:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)
                     case element(dateline) return
                         epub:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -577,9 +577,11 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 html:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)
                             else
                                 if (@type='kleine_Variante') then
+                                    (: no special styles :)
                                     html:inline($config, ., ("tei-seg3", "small-variant", css:map-rend-to-class(.)), .)
                                 else
                                     if (@type='singuläre_Lesart') then
+                                        (: no special styles :)
                                         html:inline($config, ., ("tei-seg4", "singular-reading", css:map-rend-to-class(.)), .)
                                     else
                                         if (@type='große_Variante') then
