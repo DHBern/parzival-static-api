@@ -39,39 +39,23 @@
             <schemaSpec start="TEI teiCorpus" ident="parzival" source="teipublisher.odd"> <elementSpec ident="lem" mode="add"/>
                 <elementSpec ident="l" mode="change"/>
                 <elementSpec ident="seg" mode="change">
-                    <model behaviour="inline" cssClass="not-executed">
-            <param name="subtype" value="nicht_ausgeführt"/>
-            <param name="type" value="Initiale"/>
+                    <model predicate="@subtype='nicht_ausgeführt'" behaviour="inline" cssClass="not-executed"/>
+                    <model predicate="@type='Versumstellung'" behaviour="inline" cssClass="verse -change"/>
+                    <model predicate="@type='kleine_Variante'" behaviour="inline" cssClass="small-variant">
+            <desc>no special styles</desc>
         </model>
-                    <model behaviour="inline" cssClass="verse -change">
-            <param name="type" value="Versumstellung"/>
+                    <model predicate="@type='singuläre_Lesart'" behaviour="inline" cssClass="singular-reading">
+            <desc>no special styles</desc>
         </model>
-                    <model behaviour="inline" cssClass="small-variant">
-            <param name="type" value="kleine_Variante"/>
-        </model>
-                    <model behaviour="inline" cssClass="singular-reading">
-            <param name="type" value="singuläre_Lesart"/>
-        </model>
-                    <model behaviour="inline" cssClass="large-variant">
-            <param name="type" value="große_Variante"/>
-        </model>
-                    <model behaviour="inline" cssClass="capital-initial">
-            <param name="type" value="Initiale"/>
-            <param name="subtype" value="Großinitiale"/>
-        </model>
-                    <model behaviour="inline" cssClass="majuscule">
-            <param name="subtype" value="Majuskel"/>
-            <param name="type" value="Initiale"/>
-        </model>
-                    <model behaviour="inline" cssClass="glory-initial">
-            <param name="subtype" value="Prachtinitiale"/>
-            <param name="type" value="Initiale"/>
+                    <model predicate="@type='große_Variante'" behaviour="inline" cssClass="large-variant"/>
+                    <model predicate="@subtype='Großinitiale'" behaviour="inline" cssClass="capital-initial"/>
+                    <model predicate="@subtype='Majuskel'" behaviour="inline" cssClass="majuscule"/>
+                    <model predicate="@subtype='Prachtinitiale'" behaviour="inline" cssClass="glory-initial">
             <outputRendition xml:space="preserve">
             
             </outputRendition>
         </model>
-                    <model behaviour="inline" cssClass="initial" useSourceRendition="true">
-            <param name="type" value="Initiale"/>
+                    <model predicate="@type='Initiale'" behaviour="inline" cssClass="initial" useSourceRendition="true">
             <outputRendition xml:space="preserve">
             
             </outputRendition>
@@ -79,68 +63,94 @@
                 </elementSpec>
             <elementSpec ident="name" mode="add">
                     <model behaviour="inline">
-            <param name="content" value="."/>
-            <pb:template xmlns="" xml:space="preserve">.</pb:template>
+            <param name="default" value="."/>
+            <param name="ref" value="@ref"/>
+            <pb:template xmlns="" xml:space="preserve"><span data-ref="[[ref]]">[[default]]</span></pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="reg" mode="add">
-                    <model behaviour="inline" cssClass="syncope">
+                    <model predicate="@type='Synkope'" behaviour="inline" cssClass="syncope">
             <param name="type" value="Synkope"/>
         </model>
                 </elementSpec>
                 <elementSpec ident="milestone" mode="add">
-                    <model behaviour="inline" cssClass="verse -change">
-            <param name="unit" value="Versumstellung"/>
-        </model>
+                    <model predicate="@unit='Versumstellung'" behaviour="inline" cssClass="versechange"/>
                 </elementSpec>
                 <elementSpec ident="subst" mode="add">
-                    <model behaviour="inline">
-            <param name="hand" value="#ls1"/>
-        </model>
-                    <model behaviour="inline">
-            <param name="hand" value="#sr"/>
-        </model>
+                    <model predicate="@hand[starts-with(., '#ls')]" behaviour="inline" cssClass="subst_ls"/>
+                    <model predicate="@hand[starts-with(., '#sr')]" behaviour="inline" cssClass="subst_sr"/>
+                    <model behaviour="inline" cssClass="subst"/>
                 </elementSpec>
                 <elementSpec ident="add" mode="change">
-                    <model behaviour="inline"/>
-                    <model behaviour="inline">
-            <outputRendition xml:space="preserve">
-            color: green; text-decoration: underline;
-            </outputRendition>
-        </model>
+                    <model predicate="@hand=&#34;#sr&#34;" behaviour="inline" cssClass="sr"/>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
+                    <model predicate="@hand='#sr'" behaviour="inline" cssClass="del_sr"/>
                     <model behaviour="inline" cssClass="deleted"/>
-                    <model behaviour="inline">
-            <outputRendition xml:space="preserve">
-            text-decoration: line-through;
-            </outputRendition>
-        </model>
                 </elementSpec>
                 <elementSpec ident="note" mode="change">
-                    <model behaviour="inline" cssClass="note">
-            <param name="type" value="Notiz"/>
-        </model>
-                    <model behaviour="inline" cssClass="marginalia">
-            <param name="type" value="marginalie"/>
-        </model>
-                    <model behaviour="note">
-            <param name="place" value="@place"/>
-            <param name="label" value="@n"/>
-        </model>
+                    <model predicate="@type='Notiz'" behaviour="inline" cssClass="note"/>
+                    <model predicate="@type='Marginalie'" behaviour="inline" cssClass="marginalia"/>
+                    <model behaviour="inline" cssClass="note"/>
                 </elementSpec>
                 <elementSpec ident="hi" mode="change">
-                    <model behaviour="inline" cssClass="underline">
-            <param name="rend" value="unterstrichen"/>
+                    <model predicate="@rend='rot'" behaviour="inline" cssClass="red"/>
+                    <model predicate="@rend='unterstrichen'" behaviour="inline" cssClass="underline"/>
+                    <model predicate="@rend='rasur'" behaviour="inline" cssClass="rasure"/>
+                </elementSpec>
+                <elementSpec ident="choice" mode="change">
+                    <model predicate="am and ex" behaviour="inline">
+            <param name="default" value="ex[1]"/>
+            <param name="alternate" value="am[1]"/>
+            <pb:template xmlns="" xml:space="preserve">([[default]])</pb:template>
         </model>
-                    <model behaviour="inline" cssClass="rasure">
-            <param name="rend" value="rasur"/>
+                    <model predicate="sic and corr" behaviour="alternate">
+            <param name="default" value="corr[1]"/>
+            <param name="alternate" value="sic[1]"/>
         </model>
+                    <model predicate="abbr and expan" behaviour="alternate">
+            <param name="default" value="expan[1]"/>
+            <param name="alternate" value="abbr[1]"/>
+        </model>
+                    <model predicate="orig and reg" behaviour="alternate">
+            <param name="default" value="reg[1]"/>
+            <param name="alternate" value="orig[1]"/>
+        </model>
+                </elementSpec>
+                <elementSpec ident="lb" mode="change">
                     <model behaviour="inline" useSourceRendition="true">
+            <param name="type" value="'line'"/>
+            <param name="label" value="@n"/>
+            <pb:template xmlns="" xml:space="preserve">|</pb:template>
+        </model>
+                </elementSpec>
+                <elementSpec ident="gap" mode="change">
+                    <model predicate="desc" behaviour="inline">
             <outputRendition xml:space="preserve">
-            font-style: italic;
+            color: grey;
             </outputRendition>
         </model>
+                    <model predicate="@extent" behaviour="inline">
+            <param name="content" value="@extent"/>
+            <outputRendition xml:space="preserve" scope="before">
+            content: '[..';
+            </outputRendition>
+            <outputRendition xml:space="preserve" scope="after">
+            content: '..]';
+            </outputRendition>
+            <outputRendition xml:space="preserve">
+            color: grey;
+            </outputRendition>
+        </model>
+                    <model behaviour="inline" cssClass="gap">
+            <pb:template xmlns="" xml:space="preserve">-*-</pb:template>
+        </model>
+                </elementSpec>
+                <elementSpec ident="corr" mode="change">
+                    <model predicate="parent::choice and count(parent::*/*) gt 1" behaviour="inline">
+            <desc>simple inline, if in parent choice. </desc>
+        </model>
+                    <model behaviour="inline" cssClass="corr"/>
                 </elementSpec>
             </schemaSpec>
         </body>
