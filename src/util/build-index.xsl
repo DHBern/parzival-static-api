@@ -68,6 +68,7 @@
                                 <string key="id">{@xml:id}</string>
                                 <string key="sigla">{$sigil}</string>
                                 <string key="verse">{@xml:id => tokenize('\.') => tail()}</string>
+                                <string key="d">{@xml:id => replace('^._*(\d{1,3})\..*$','$1')}</string>
                                 <string key="content">
                                     <xsl:apply-templates mode="janus"/>
                                 </string>
