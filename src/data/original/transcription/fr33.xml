@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>06.09.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -55,6 +57,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -89,7 +94,7 @@
 <l xml:id="fr33_66.21">E<supplied reason="unleserlich" resp="Sekundärliteratur">r dete gar gerne</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_66.22">Wie <gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">begu&#x0366;nnen</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_66.23">Hie <supplied reason="unleserlich" resp="Sekundärliteratur">hat der ku&#x036F;nic von</supplied> <gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_66.23 #Fr33001ra"><ref>ku&#x036F;nic</ref>: Rosenfeld gibt <ref>künic</ref> an.</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_66.23 #Fr33001ra"><ref>ku&#x036F;nic</ref>: Rosenfeld gibt <ref>künic</ref> an.</note>
 <l xml:id="fr33_66.24">vo<unclear reason="Zweifel">n</unclear> <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_66.25">De&#x017F; <supplied reason="unleserlich" resp="Sekundärliteratur">fure ist da gein gar</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_66.26">W<supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ortgal</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
@@ -149,13 +154,13 @@
 <l xml:id="fr33_68.19"><gap reason="unleserlich" extent="unbekannt"/>in creieren</l>
 <l xml:id="fr33_68.20">vo<unclear reason="Zweifel">n</unclear> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>egenen fieren</l>
 <l xml:id="fr33_68.21"><gap reason="unleserlich" extent="unbekannt"/> P<gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>celarz</l>
-<note resp="#MiGe_Gegenleser" target="#?1_68.21 #Fr33001rb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>celarz</ref>: Rosenfeld: <ref>Scilarz</ref></note>
+<note resp="#MiGe_Gegenleser" target="#fr33_68.21 #Fr33001rb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>celarz</ref>: Rosenfeld: <ref>Scilarz</ref></note>
 <l xml:id="fr33_68.22"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">Gurnemanz</supplied> von graharz</l>
 <l xml:id="fr33_68.23">Die <supplied reason="unleserlich" resp="Sekundärliteratur">djo&#x017F;tierten</supplied> vf <gap reason="unleserlich" extent="unbekannt"/> plan</l>
-<note resp="#MiGe_Gegenleser" target="#?1_68.23 #Fr33001rb"><ref>vf <gap reason="unleserlich" extent="unbekannt"/> plan</ref>: Rosenfeld: "zwischen vf und plan Raum für mindestens sieben Buchstaben (nicht mehr erkennbar)."</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_68.23 #Fr33001rb"><ref>vf <gap reason="unleserlich" extent="unbekannt"/> plan</ref>: Rosenfeld: "zwischen vf und plan Raum für mindestens sieben Buchstaben (nicht mehr erkennbar)."</note>
 <l xml:id="fr33_68.24"><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_68.25"><supplied reason="unleserlich" resp="Sekundärliteratur">Dort</supplied> <gap reason="unleserlich" extent="unbekannt"/> hie <gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_68.25 #Fr33001rb">: Rosenfeld: "hie und dort vertauscht"</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_68.25 #Fr33001rb">: Rosenfeld: "hie und dort vertauscht"</note>
 <l xml:id="fr33_68.26"><gap reason="unleserlich" extent="unbekannt"/> ein tropel</l>
 <l xml:id="fr33_68.27"><gap reason="unleserlich" extent="unbekannt"/> ritter&#x017F; dat</l>
 <l xml:id="fr33_68.28"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">enwa&#x017F;</supplied> dekein ander rat</l>
@@ -182,7 +187,7 @@
 <l xml:id="fr33_69.19"><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_69.20"><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_69.21"><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg></unclear><gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#RSo_Lektor" target="#?1_69.21 #33001rb"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg></unclear></ref>: Die Position der Initiale ist nicht ganz sicher, da bei diesem Abschnitt nichts mehr lesbar ist. Ich habe Zeilen gezählt.</note>
+<note resp="#RSo_Lektor" target="#fr33_69.21 #33001rb"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg></unclear></ref>: Die Position der Initiale ist nicht ganz sicher, da bei diesem Abschnitt nichts mehr lesbar ist. Ich habe Zeilen gezählt.</note>
 <l xml:id="fr33_69.22"><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_69.23"><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_69.24"><gap reason="unleserlich" extent="unbekannt"/></l>
@@ -193,7 +198,7 @@
 <l xml:id="fr33_70.07"><gap reason="unleserlich" extent="unbekannt"/></l>
 <pb xml:id="fr33001v"/><cb xml:id="fr33001va"/>
 <l xml:id="fr33_70.08-0"><note type="Notiz">Doch <gap reason="unleserlich" extent="unbekannt"/> vnd vns<choice><am>&#x0309;</am><ex>er</ex></choice> <gap reason="unleserlich" extent="unbekannt"/>lich<choice><am>&#x0304;</am><ex>en</ex></choice> niht</note></l>
-<note resp="#RSo_Lektor" target="#?1_70.08-1 #33001v">: Die Notiz sollte noch genauer nachgelesen werden, eventuell in Sek.lit.</note>
+<note resp="#RSo_Lektor" target="#fr33_70.08-1 #33001v">: Die Notiz sollte noch genauer nachgelesen werden, eventuell in Sek.lit.</note>
 <l xml:id="fr33_70.08">Von manigem kuenen <subst hand="#sr"><del>*</del><add><hi rend="rasur"><gap/></hi></add></subst> armen man</l>
 <l xml:id="fr33_70.09">Die doch der hohe gerten niht</l>
 <l xml:id="fr33_70.10">de&#x017F; der kuningin zil vergiht</l>
@@ -295,7 +300,7 @@
 <l xml:id="fr33_73.07">Da wart ver&#x017F;wendet der walt</l>
 <l xml:id="fr33_73.08">vn<choice><am>&#x0304;</am><ex>d</ex></choice> ritter abe gevalt</l>
 <l xml:id="fr33_73.09">Sie wunden &#x017F;ich &#x017F;o hor<supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied> ich &#x017F;agen</l>
-<note resp="#MiGe_Gegenleser" target="#?1_73.09 #Fr33001vb"><ref>hor<supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Roseneld: "t unleserlich, aber ursprünglich vorhanden"</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_73.09 #Fr33001vb"><ref>hor<supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Roseneld: "t unleserlich, aber ursprünglich vorhanden"</note>
 <l xml:id="fr33_73.10">hin anden ort da hielten zagen</l>
 <l xml:id="fr33_73.11">Der &#x017F;trit wa&#x017F; wol &#x017F;o nahen</l>
 <l xml:id="fr33_75.04">da liefen. vn<choice><am>&#x0304;</am><ex>d</ex></choice> lagen</l>
@@ -372,7 +377,7 @@
 <l xml:id="fr33_109.13"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg>o quam ein alt wi&#x017F;e man</l>
 <l xml:id="fr33_109.14">durch clagen vber die vrouwen &#x017F;an</l>
 <l xml:id="fr33_109.15">Da die mit deme tode <subst hand="#sr"><del>*</del><add><hi rend="rasur"><gap/></hi></add></subst> ranc</l>
-<note resp="#MiGe_Gegenleser" target="#?1_109.15 #Fr33002ra"><ref><subst hand="#sr"><del>*</del><add><hi rend="rasur"><gap/></hi></add></subst></ref>: Rosenfeld: "nach tode Rasur von sieben Buchstaben"</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_109.15 #Fr33002ra"><ref><subst hand="#sr"><del>*</del><add><hi rend="rasur"><gap/></hi></add></subst></ref>: Rosenfeld: "nach tode Rasur von sieben Buchstaben"</note>
 <l xml:id="fr33_109.16">die zene er ir von ein ander twanc</l>
 <l xml:id="fr33_109.17">M<supplied reason="unleserlich" resp="Sekundärliteratur">an</supplied> goz ir wazzer in den munt</l>
 <cb xml:id="fr33002rb"/>
@@ -465,7 +470,7 @@
 <l xml:id="fr33_112.13">Sin&#x017F; vater vroide vn<choice><am>&#x0304;</am><ex>d</ex></choice> de&#x017F; not</l>
 <l xml:id="fr33_112.14">Sin leben vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;inen tot</l>
 <l xml:id="fr33_112.15">De&#x017F; habet ir wol <supplied reason="unleserlich" resp="Sekundärliteratur">ein</supplied> teil vernumen</l>
-<note resp="#MiGe_Gegenleser" target="#?1_112.15 #Fr33002va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ein</supplied></ref>: Rosenfeld: "ein abgerieben."</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_112.15 #Fr33002va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ein</supplied></ref>: Rosenfeld: "ein abgerieben."</note>
 <l xml:id="fr33_112.16">nv wizzet wa von iv &#x017F;i ku&#x0366;men</l>
 <l xml:id="fr33_112.17">Di&#x017F;&#x017F;es mere&#x017F; &#x017F;ach walte</l>
 <l xml:id="fr33_112.18">vn<choice><am>&#x0304;</am><ex>d</ex></choice> wie man den behalte</l>
@@ -481,7 +486,7 @@
 <l xml:id="fr33_112.28">Er wart mit <gap reason="unleserlich" extent="2" unit="Buchstabe"/>er<gap reason="unleserlich" extent="1" unit="Buchstabe"/>en &#x017F;it ein &#x017F;mit</l>
 <l xml:id="fr33_112.29">Vil vivre&#x017F; er von helmen <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr33_112.30">Sin herze menlich ellen <gap reason="unleserlich" extent="1" unit="Buchstabe"/>ru&#x0366;c</l>
-<l xml:id="fr33_113.01"></l>
+<l xml:id="fr33_113.01-k"></l>
 <l xml:id="fr33_113.02"></l>
 <l xml:id="fr33_113.03-a">Die kuningin &#x017F;prach in all<supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied> vliz</l>
 <l xml:id="fr33_113.04">Bonfiz. Girofiz. Be<supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied>f<supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied>z</l>
@@ -495,7 +500,7 @@
 <l xml:id="fr33_113.12">die wibe&#x017F; mi&#x017F;&#x017F;ewende ie vloch</l>
 <cb xml:id="fr33002vb"/>
 <l xml:id="fr33_113.13">Sie d<supplied reason="unleserlich" resp="Sekundärliteratur">u</supplied>hte &#x017F;ie hete <supplied reason="unleserlich" resp="Sekundärliteratur">Gamureten</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#?1_113.13 #Fr33002vb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">Gamureten</supplied></ref>: Rosenfeld: "Gamureten abgerieben."</note>
+<note resp="#MiGe_Gegenleser" target="#fr33_113.13 #Fr33002vb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">Gamureten</supplied></ref>: Rosenfeld: "Gamureten abgerieben."</note>
 <l xml:id="fr33_113.14">Wider an ir arm er beten</l>
 <l xml:id="fr33_113.15">Sine k<gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">te</supplied> &#x017F;ich niht an <gap reason="unleserlich" extent="1" unit="Buchstabe"/>o&#x017F;<gap reason="unleserlich" extent="1" unit="Buchstabe"/>eit</l>
 <l xml:id="fr33_113.16">die demut <supplied reason="unleserlich" resp="Sekundärliteratur">w</supplied><gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied> bereit</l>
@@ -513,7 +518,7 @@
 <l xml:id="fr33_113.28">Mit ir herzen iamer touwe</l>
 <l xml:id="fr33_113.29">Jr ovgen regente<supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied> vf den knaben</l>
 <l xml:id="fr33_113.30">Si <unclear reason="Zweifel"><gap reason="unleserlich" extent="unbekannt"/></unclear> kunde wibe&#x017F; truwe <gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#RSo_Transkribent" target="#?1_113.30 #33002vb"><ref><unclear reason="Zweifel"><gap reason="unleserlich" extent="unbekannt"/></unclear></ref>: Es ist nicht zu entscheiden, ob hier ein Wort fehlt oder nicht.</note>
+<note resp="#RSo_Transkribent" target="#fr33_113.30 #33002vb"><ref><unclear reason="Zweifel"><gap reason="unleserlich" extent="unbekannt"/></unclear></ref>: Es ist nicht zu entscheiden, ob hier ein Wort fehlt oder nicht.</note>
 <l xml:id="fr33_114.01">Suf<supplied reason="unleserlich" resp="Sekundärliteratur">zen</supplied> vn<choice><am>&#x0304;</am><ex>d</ex></choice> lachen</l>
 <l xml:id="fr33_114.02">k<supplied reason="unleserlich" resp="Sekundärliteratur">u</supplied><gap reason="unleserlich" extent="unbekannt"/> ir munt wol g<gap reason="unleserlich" extent="1" unit="Buchstabe"/>machen</l>
 <l xml:id="fr33_114.03">Sie vroude &#x017F;ich ir &#x017F;uns geb<gap reason="unleserlich" extent="1" unit="Buchstabe"/>r<gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>

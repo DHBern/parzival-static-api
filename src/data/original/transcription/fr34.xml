@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>22.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -52,6 +54,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -67,7 +72,7 @@
 <note>11.9.2018, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quelle: Wolfgang Golther, Altdeutsche Funde aus der Münchener Universitätsbibliothek, in: ZfdA 37 (1893), S. 276-288, hier S. 280f.</note>
 <pb xml:id="fr34001r"/><cb xml:id="fr34001ra"/>
 <l xml:id="fr34_609.10">Vnd daz vor mir niht welt verdagen.</l>
-<note resp="#RSo_Lektor" target="#?1_609.10 #34001ra">: Unbekannter Vers. Nach Bonath/Lomnitzer mögl. ein Ersatzvers für 609.10.</note>
+<note resp="#RSo_Lektor" target="#fr34_609.10 #34001ra">: Unbekannter Vers. Nach Bonath/Lomnitzer mögl. ein Ersatzvers für 609.10.</note>
 <l xml:id="fr34_609.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr34_609.14">Habt ir daz niht gerochen.</l>
 <l xml:id="fr34_609.15">Daz ir nach tode val&#x017F;ch &#x017F;aget</l>
@@ -121,11 +126,10 @@
 <l xml:id="fr34_612.05"><gap reason="Fragmentverlust" extent="unbekannt"/> der &#x017F;chilt &#x017F;in reht &#x017F;ol han.</l>
 <l xml:id="fr34_612.06">Anders habet ir mi&#x017F;&#x017F;etan.</l>
 <l xml:id="fr34_612.07">De&#x017F; &#x017F;chiltes amt i&#x017F;t wol &#x017F;o hoh.</l>
-<note resp="#RSo_Lektor" target="#?1_612.07 #34001va"><ref>hoh</ref>: Hinter der Falte verbirgt sich kein <ref>c</ref> in <ref>hoh</ref>.</note>
+<note resp="#RSo_Lektor" target="#fr34_612.07 #34001va"><ref>hoh</ref>: Hinter der Falte verbirgt sich kein <ref>c</ref> in <ref>hoh</ref>.</note>
 <l xml:id="fr34_612.08"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>az der &#x017F;pot &#x017F;ich da von zoch.</l>
 <l xml:id="fr34_612.09"><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>wer ritter&#x017F;chaft ie gepflach.</l>
-<l xml:id="fr34_612.10">vrowe ob ich &#x017F;o <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;prechen</supplied> mach</l>
-<l xml:id="fr34_612.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_612.10">vrowe ob ich &#x017F;o <gap reason="Fragmentverlust" extent="unbekannt"/>t mach</l>
 <l xml:id="fr34_612.13"><supplied reason="unleserlich" resp="Sekundärliteratur">Et&#x017F;</supplied>wenne irs anders iahet.</l>
 <l xml:id="fr34_612.14">Sit ir mich von er&#x017F;t &#x017F;ahet</l>
 <l xml:id="fr34_612.15">Daz lazze ich &#x017F;in nemet hin den chranz.</l>

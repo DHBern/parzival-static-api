@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>22.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -35,6 +37,18 @@
     </sourceDesc>
   </fileDesc>
   <encodingDesc>
+  <listPrefixDef>
+    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+      <p>"regp" verweist auf die Personennamen.</p>
+    </prefixDef>
+    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"rego" verweist auf die Ortsnamen.</p>
+    </prefixDef>
+    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+    </prefixDef>
+  </listPrefixDef>
   <charDecl>
    <char xml:id="finis">
     <charName>Finis-Zeichen</charName>
@@ -58,6 +72,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -72,7 +89,7 @@
 <note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
 <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
 <pb xml:id="fr16001r"/><cb xml:id="fr16001ra"/>
-<l xml:id="fr16_622.06">nam gawan&#x017F; a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.06">nam <name ref="regp:p0103" type="Person">gawan&#x017F;</name> a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr16_622.07">da &#x017F;i &#x017F;az en bi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr16_622.08">zwene gebra<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr16_622.09">mit wine ei<choice><am>&#x0304;</am><ex>n</ex></choice> g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -119,7 +136,7 @@
 <l xml:id="fr16_625.13">Tincten vn<choice><am>&#x0304;</am><ex>d</ex></choice> permint</l>
 <pb xml:id="fr16001v"/><cb xml:id="fr16001va"/>
 <l xml:id="fr16_626.30">e<choice><am>&#x0309;</am><ex>r</ex></choice> reit nach w<choice><am>&#x0309;</am><ex>er</ex></choice>declich<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;carn</l>
-<l xml:id="fr16_627.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">A</seg>rniven zorn beiagete</l>
+<l xml:id="fr16_627.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>rniven zorn beiagete</l>
 <l xml:id="fr16_627.02">d<choice><am>c</am><ex>az</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> cnappe ir niht en&#x017F;agete</l>
 <l xml:id="fr16_627.03">Vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;i v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;weic d<choice><am>&#x0309;</am><ex>er</ex></choice> mere</l>
 <l xml:id="fr16_627.04">war e<choice><am>&#x0309;</am><ex>r</ex></choice> ge&#x017F;endet were</l>
@@ -137,7 +154,7 @@
 <l xml:id="fr16_630.15">die zwe<gap reason="Fragmentverlust" extent="unbekannt"/>urtoi&#x017F;</l>
 <l xml:id="fr16_630.16">dur di h<choice><am>&#x0309;</am><ex>er</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/>groi&#x017F;</l>
 <l xml:id="fr16_630.17"><subst hand="#sr"><del>d*</del><add>&#x017F;i</add></subst> da<gap reason="Fragmentverlust" extent="unbekannt"/>drumbe</l>
-<l xml:id="fr16_630.18">gegn w<gap reason="Fragmentverlust" extent="unbekannt"/>tvmbe</l>
+<l xml:id="fr16_630.18">gegn <gap reason="Fragmentverlust" extent="unbekannt"/>tvmbe</l>
 <l xml:id="fr16_630.19"><gap reason="Fragmentverlust" extent="unbekannt"/> wi&#x017F;e</l>
 <l xml:id="fr16_630.20"><gap reason="Fragmentverlust" extent="unbekannt"/>p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>&#x017F;e</l>
 <l xml:id="fr16_630.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>

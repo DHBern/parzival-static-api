@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>07.11.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -54,6 +56,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -107,7 +112,7 @@
 <l xml:id="fr69_168.23">D<choice><am>&#x0309;</am><ex>er</ex></choice> enphie<choice><am>&#x0304;</am><ex>n</ex></choice>c den ga&#x017F;t do d<choice><am>c</am><ex>az</ex></choice> ge&#x017F;&#x017F;chach.</l>
 <l xml:id="fr69_168.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_168.27">Du&#x0301; gab der werlde al&#x017F;olche <subst hand="#sr"><del>fcht</del><add>fvcht</add></subst></l>
-<note resp="#LC_Gegenleser" target="#?1_168.27 #Fr69001rb"><ref>Du&#x0301;</ref>: Majuskel D könnte auch S sein. An 177.24 aber ähnlich.</note>
+<note resp="#LC_Gegenleser" target="#fr69_168.27 #Fr69001rb"><ref>Du&#x0301;</ref>: Majuskel D könnte auch S sein. An 177.24 aber ähnlich.</note>
 <l xml:id="fr69_168.28">Dur warheit vnd vmb ir zucht.</l>
 <l xml:id="fr69_168.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr69001rc"/>
@@ -137,9 +142,9 @@
 <l xml:id="fr69_172.16">Hat gegen p<unclear reason="Zweifel"><choice><am rend="hochgestellt">i</am><ex>ri</ex></choice></unclear>&#x017F;e kurze fri&#x017F;t.</l>
 <l xml:id="fr69_172.17">Da wirt d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;lich<choice><am>&#x0309;</am><ex>er</ex></choice>e klage.</l>
 <l xml:id="fr69_172.18">D<choice><am>c</am><ex>az</ex></choice> du&#x0301;rre holz in dem hage.</l>
-<note resp="#LC_Gegenleser" target="#?1_172.18 #Fr69001va"><ref>du&#x0301;rre</ref>: Es könnte sich auch um einen Zirkumflex auf u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_172.18 #Fr69001va"><ref>du&#x0301;rre</ref>: Es könnte sich auch um einen Zirkumflex auf u handeln.</note>
 <l xml:id="fr69_172.24"><unclear reason="Zweifel">Du&#x0301;</unclear> w<choice><am>&#x0309;</am><ex>er</ex></choice>de du&#x0301; hat &#x017F;inne.</l>
-<note resp="#LC_Gegenleser" target="#?1_172.24 #Fr69001va"><ref><unclear reason="Zweifel">Du&#x0301;</unclear></ref>: Es könnte sich hier auch um eine Korrektur handeln <subst hand="#sr"><del>Dy</del><add>Du&#x0301;</add></subst>. Auch bei Autopsie nicht klar zu erkennen.</note>
+<note resp="#LC_Gegenleser" target="#fr69_172.24 #Fr69001va"><ref><unclear reason="Zweifel">Du&#x0301;</unclear></ref>: Es könnte sich hier auch um eine Korrektur handeln <subst hand="#sr"><del>Dy</del><add>Du&#x0301;</add></subst>. Auch bei Autopsie nicht klar zu erkennen.</note>
 <l xml:id="fr69_172.25">Gen val&#x017F;che li&#x017F;tekliche kun&#x017F;t.</l>
 <l xml:id="fr69_172.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_173.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -149,18 +154,18 @@
 <l xml:id="fr69_173.07"><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/><g ref="#alin1"/> neic</l>
 <l xml:id="fr69_173.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_173.12">Noch &#x017F;uld lerne<choice><am>&#x0304;</am><ex>n</ex></choice> mere.</l>
-<note resp="#LC_Gegenleser" target="#?1_173.12 #Fr69001va">: Der Punkt ähnelt mehr einem Bindestrich. Wurde so auch von Schneider/Viehhauser in Abdruck gesetzt.</note>
+<note resp="#LC_Gegenleser" target="#fr69_173.12 #Fr69001va">: Der Punkt ähnelt mehr einem Bindestrich. Wurde so auch von Schneider/Viehhauser in Abdruck gesetzt.</note>
 <l xml:id="fr69_173.13">Kvn&#x017F;t an ritt<choice><am>&#x0309;</am><ex>er</ex></choice>lichen &#x017F;itten.</l>
 <l xml:id="fr69_173.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_173.16"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_173.17">Da<choice><am>&#x0304;</am><ex>n</ex></choice>ne er u&#x0301; zehal&#x017F;e tete.</l>
-<note resp="#LC_Gegenleser" target="#?1_173.17 #Fr69001vb"><ref>u&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_173.17 #Fr69001vb"><ref>u&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
 <l xml:id="fr69_173.18">Es i&#x017F;t vns nit <subst hand="#sr"><del>ze&#x017F;&#x017F;*</del><add>ze&#x017F;pete</add></subst>.</l>
 <l xml:id="fr69_173.19"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr69001vb"/>
 <l xml:id="fr69_174.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_174.22">Sin Juge<choice><am>&#x0304;</am><ex>n</ex></choice>t hette ellen vnde kraf<lb/>t</l>
-<note resp="#LC_Gegenleser" target="#?1_174.22 #Fr69001vb"><ref>kraf<lb/>t</ref>: Das 't' befindet sich auf der Zeile von Vers 174.22, der nicht die ganze Zeile einnimmt.</note>
+<note resp="#LC_Gegenleser" target="#fr69_174.22 #Fr69001vb"><ref>kraf<lb/>t</ref>: Das 't' befindet sich auf der Zeile von Vers 174.22, der nicht die ganze Zeile einnimmt.</note>
 <l xml:id="fr69_174.23">D<choice><am>&#x0309;</am><ex>er</ex></choice> Ju<choice><am>&#x0304;</am><ex>n</ex></choice>ge &#x017F;u&#x0364;ze ane bart.</l>
 <l xml:id="fr69_174.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_174.26">D<choice><am>c</am><ex>az</ex></choice> ors <gap reason="Fragmentverlust" extent="unbekannt"/> er <unclear reason="Zweifel">reit</unclear></l>
@@ -171,9 +176,9 @@
 <l xml:id="fr69_175.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_175.14">Ob wir in bi witzen &#x017F;chowen</l>
 <l xml:id="fr69_175.15">S<unclear reason="Zweifel">o</unclear> lo&#x0364;&#x017F;chet im &#x017F;in Jam<choice><am>&#x0309;</am><ex>er</ex></choice>s not.</l>
-<note resp="#LC_Gegenleser" target="#?1_175.15 #Fr69001vb"><ref>im</ref>: Der i-Punkt über <ref>im</ref> könnte auch ein Nasalstrich sein.</note>
+<note resp="#LC_Gegenleser" target="#fr69_175.15 #Fr69001vb"><ref>im</ref>: Der i-Punkt über <ref>im</ref> könnte auch ein Nasalstrich sein.</note>
 <l xml:id="fr69_175.16">Fu&#x0301;r &#x017F;in<choice><am>&#x0309;</am><ex>er</ex></choice> drier &#x017F;u&#x0301;ne tot.</l>
-<note resp="#LC_Gegenleser" target="#?1_175.16 #Fr69001vb"><ref>Fu&#x0301;r</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_175.16 #Fr69001vb"><ref>Fu&#x0301;r</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
 <l xml:id="fr69_175.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_175.22">Zeti&#x017F;che als ichs han v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen</l>
 <l xml:id="fr69_175.23">Do er die maget kome<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ach.</l>
@@ -194,10 +199,10 @@
 <l xml:id="fr69_177.14">Jr &#x017F;it min vieder &#x017F;un v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn</l>
 <l xml:id="fr69_177.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_177.23">D<unclear reason="Zweifel">u&#x0301;</unclear> dr<unclear reason="Zweifel">u&#x0301;</unclear> f<unclear reason="Zweifel">u&#x0301;</unclear>r mine <subst hand="#sr"><del>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>nd<unclear reason="Zweifel">u&#x0301;</unclear></del><add>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>d<unclear reason="Zweifel">u&#x0301;</unclear></add></subst> kint</l>
-<note resp="#LC_Gegenleser" target="#?1_177.23 #Fr69001vc"><ref><subst hand="#sr"><del>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>nd<unclear reason="Zweifel">u&#x0301;</unclear></del><add>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>d<unclear reason="Zweifel">u&#x0301;</unclear></add></subst></ref>: Zuvor nicht als Korrektur aufgefasst. Das 'd' ist allerdings unterstrichen und auch Schneider/Viehhauser deuten dies als Korrektur.</note>
+<note resp="#LC_Gegenleser" target="#fr69_177.23 #Fr69001vc"><ref><subst hand="#sr"><del>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>nd<unclear reason="Zweifel">u&#x0301;</unclear></del><add>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>d<unclear reason="Zweifel">u&#x0301;</unclear></add></subst></ref>: Zuvor nicht als Korrektur aufgefasst. Das 'd' ist allerdings unterstrichen und auch Schneider/Viehhauser deuten dies als Korrektur.</note>
 <l xml:id="fr69_177.24">Du&#x0301; ellenthaft er&#x017F;torben &#x017F;int</l>
 <l xml:id="fr69_177.25">Sus lat iedoch du&#x0301; ritt<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft.</l>
-<note resp="#LC_Gegenleser" target="#?1_177.25 #Fr69001vc"><ref>du&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_177.25 #Fr69001vc"><ref>du&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
 <l xml:id="fr69_177.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_178.01">Lib vnd ir lant nit wold<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> geben</l>
 <l xml:id="fr69_178.02">Jn ir helfe er v<choice><am>&#x0309;</am><ex>er</ex></choice>los &#x017F;in leben.</l>
@@ -209,8 +214,8 @@
 <pb xml:id="fr69002r"/><cb xml:id="fr69002ra"/>
 <l xml:id="fr69_179.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_179.10">Des Fu&#x0302;r&#x017F;ten Jam<choice><am>&#x0309;</am><ex>er</ex></choice>s drie <del hand="#sr"><unclear reason="Zweifel">s</unclear></del></l>
-<note resp="#GVi_Transkribent" target="#?1_179.10 #Fr69002ra">: Verweislinie (?) rechts am Rand.</note>
-<note resp="#LC_Gegenleser" target="#?1_179.10 #Fr69002ra"><ref><del hand="#sr"><unclear reason="Zweifel">s</unclear></del> </ref>: Es ist nicht klar, ob es sich hier wirklich um den Buchstaben 'S' handelt und nicht um ein Korrekturzeichen (auch im Zusammenhang mit der möglichen Verweislinie).</note>
+<note resp="#GVi_Transkribent" target="#fr69_179.10 #Fr69002ra">: Verweislinie (?) rechts am Rand.</note>
+<note resp="#LC_Gegenleser" target="#fr69_179.10 #Fr69002ra"><ref><del hand="#sr"><unclear reason="Zweifel">s</unclear></del> </ref>: Es ist nicht klar, ob es sich hier wirklich um den Buchstaben 'S' handelt und nicht um ein Korrekturzeichen (auch im Zusammenhang mit der möglichen Verweislinie).</note>
 <l xml:id="fr69_179.11">W<choice><am>c</am><ex>az</ex></choice> ru&#x0301;wig an d<choice><am>c</am><ex>az</ex></choice> vierde kom<choice><am>&#x0304;</am><ex>n</ex></choice></l>
 <l xml:id="fr69_179.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_179.15">Sin lib mit <unclear reason="Zweifel"><subst hand="#sr"><del>zu&#x0301;che</del><add>zu&#x0301;chte<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst></unclear> fu&#x0366;rte</l>
@@ -221,15 +226,15 @@
 <l xml:id="fr69_180.12">Slege<unclear reason="Zweifel">l</unclear>s vrkunde</l>
 <l xml:id="fr69_180.13">Lac da ane ma&#x017F;ze vil.</l>
 <l xml:id="fr69_180.14">Su&#x0301;ln gro&#x017F;ze rone<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in &#x017F;legels <lb/><g ref="#alin1"/> zil</l>
-<note resp="#GVi_Transkribent" target="#?1_180.14 #Fr69002ra"><ref>gro&#x017F;ze</ref>: Ansatz zu weiterem Buchstaben am Wortende.</note>
+<note resp="#GVi_Transkribent" target="#fr69_180.14 #Fr69002ra"><ref>gro&#x017F;ze</ref>: Ansatz zu weiterem Buchstaben am Wortende.</note>
 <l xml:id="fr69_180.15">Doch reit <add hand="#sr">er</add> wenic irre.</l>
 <l xml:id="fr69_180.16">Wan die &#x017F;lichte an d<choice><am>&#x0309;</am><ex>er</ex></choice> virre</l>
 <l xml:id="fr69_180.17">Kom er des tages vo<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear> grahars</l>
 <l xml:id="fr69_180.18">Jn d<choice><am>c</am><ex>az</ex></choice> kv&#x0301;ngriche zebrobars.</l>
-<note resp="#LC_Gegenleser" target="#?1_180.18 #Fr69002ra"><ref>kv&#x0301;ngriche</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_180.18 #Fr69002ra"><ref>kv&#x0301;ngriche</ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
 <l xml:id="fr69_180.19">Dur wilde gebirge hoch.</l>
 <cb xml:id="fr69002rb"/>
-<l xml:id="fr69_181.17"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr69_181.17"><milestone unit="Versumstellung"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_181.19">Wander &#x017F;o ku&#x0364;nlichen reit</l>
 <l xml:id="fr69_181.20">Gen d<choice><am>&#x0309;</am><ex>er</ex></choice> brugge vf de<choice><am>&#x0304;</am><ex>m</ex></choice> veld<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> breit.</l>
 <l xml:id="fr69_181.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -285,7 +290,7 @@
 <l xml:id="fr69_187.13">Doch &#x017F;chiet vo<choice><am>&#x0304;</am><ex>n</ex></choice> di&#x017F;en &#x017F;t<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>tten</l>
 <l xml:id="fr69_187.14"><gap reason="Fragmentverlust" extent="unbekannt"/>witen vnd enitten</l>
 <l xml:id="fr69_187.15"><gap reason="Fragmentverlust" extent="unbekannt"/>Cvnnewaren d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> lalant.</l>
-<note resp="#LC_Gegenleser" target="#?1_187.15 #Fr69002va"><ref>d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></ref>: Es könnte sich auch um ein d<choice><am>&#x0309;</am><ex>er</ex></choice> handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_187.15 #Fr69002va"><ref>d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></ref>: Es könnte sich auch um ein d<choice><am>&#x0309;</am><ex>er</ex></choice> handeln.</note>
 <l xml:id="fr69_187.16"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;wa man lobes die be&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> va<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
 <l xml:id="fr69_187.17">Da man fro&#x036E;wen &#x017F;cho&#x0364;ne gew&#x0366;c</l>
 <l xml:id="fr69_187.18">Jr gla&#x017F;tes &#x017F;chin va&#x017F;te v<choice><am>&#x0304;</am><ex>n</ex></choice>d<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;lu&#x0366;c</l>
@@ -302,7 +307,7 @@
 <l xml:id="fr69_188.30">D<unclear reason="Zweifel">u&#x0301;</unclear> er&#x017F;te rede <subst hand="#sr"><del>e*</del><add>w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear></add></subst> billich min</l>
 <l xml:id="fr69_189.01">Vil gu&#x0364;tlich h<choice><am>&#x0309;</am><ex>er</ex></choice> an mich.</l>
 <l xml:id="fr69_189.02">Sit <unclear reason="Zweifel">v&#x0301;</unclear>ns ze&#x017F;itze<choice><am>&#x0304;</am><ex>n</ex></choice>ne hie ge&#x017F;chach</l>
-<note resp="#LC_Gegenleser" target="#?1_189.02 #Fr69002vb"><ref><unclear reason="Zweifel">v&#x0301;</unclear>ns</ref>: Akut über dem 'n'.</note>
+<note resp="#LC_Gegenleser" target="#fr69_189.02 #Fr69002vb"><ref><unclear reason="Zweifel">v&#x0301;</unclear>ns</ref>: Akut über dem 'n'.</note>
 <l xml:id="fr69_189.20">Danan reit ich in dis lant.</l>
 <l xml:id="fr69_189.21">Do &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch du&#x0301; zu&#x0301;chteriche magt</l>
 <l xml:id="fr69_189.22">Hette es and<choice><am>&#x0309;</am><ex>er</ex></choice>s ieman mir ge&#x017F;ag<lb/>t</l>
@@ -353,7 +358,7 @@
 <l xml:id="fr69_194.19">Lies mich armen wei&#x017F;en.</l>
 <l xml:id="fr69_194.20">Jn vorchtlichen frei&#x017F;en.</l>
 <l xml:id="fr69_194.21">Mag fu&#x0301;r&#x017F;ten vnde man.</l>
-<note resp="#LC_Gegenleser" target="#?1_194.21 #Fr69003ra"><ref>fu&#x0301;r&#x017F;te</ref>: Könnte auch ein Zirkumflex über dem u sein.</note>
+<note resp="#LC_Gegenleser" target="#fr69_194.21 #Fr69003ra"><ref>fu&#x0301;r&#x017F;te</ref>: Könnte auch ein Zirkumflex über dem u sein.</note>
 <l xml:id="fr69_194.22">Riche vnd arme vnd<choice><am>&#x0309;</am><ex>er</ex></choice>tan.</l>
 <l xml:id="fr69_194.23">W<choice><am>c</am><ex>az</ex></choice> mir gros ellenthaftes her</l>
 <l xml:id="fr69_194.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -376,7 +381,7 @@
 <l xml:id="fr69_196.02">Du&#x0301; nacht het ende vnd kom d<choice><am>&#x0309;</am><ex>er</ex></choice> tac.</l>
 <l xml:id="fr69_196.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_196.13">Kirchen mv&#x0301;n&#x017F;ter &#x017F;u&#x0366;cht du&#x0301; diet.</l>
-<note resp="#LC_Gegenleser" target="#?1_196.13 #Fr69003rb"><ref>mv&#x0301;n&#x017F;ter</ref>: Könnte auch ein Zirkumflex über dem v sein. Im Vergleich mit <ref>du&#x0301;</ref> auch unterschiedliche Diakritika.</note>
+<note resp="#LC_Gegenleser" target="#fr69_196.13 #Fr69003rb"><ref>mv&#x0301;n&#x017F;ter</ref>: Könnte auch ein Zirkumflex über dem v sein. Im Vergleich mit <ref>du&#x0301;</ref> auch unterschiedliche Diakritika.</note>
 <l xml:id="fr69_196.14">Die clamide von fo&#x0364;iden &#x017F;chiet.</l>
 <l xml:id="fr69_196.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_196.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -404,9 +409,8 @@
 <l xml:id="fr69_198.03">Er bat im gurnemanze</l>
 <l xml:id="fr69_198.04">Bringen die fianze.</l>
 <l xml:id="fr69_198.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr69_198.10"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr69_198.09"><milestone unit="Vers" type="Versumstellung"/></l>
-<note resp="#LC_Gegenleser" target="#?1_198.09 #Fr69003rc">: Auf den Vers 198.09 folgt 198.11. Es ist nicht klar, ob es sich beim vorangegangenen fragmentarischen Vers um 198.10 handelt. Allerdings in Hs. nk auch Umkehrung von 198.09 und 198.10.</note>
+<l xml:id="fr69_198.09"><milestone unit="Versumstellung"/>Swa man &#x017F;eit d<choice><am>c</am><ex>az</ex></choice> von dir.</l>
+<note resp="#LC_Gegenleser" target="#fr69_198.09 #Fr69003rc">: Auf den Vers 198.09 folgt 198.11. Es ist nicht klar, ob es sich beim vorangegangenen fragmentarischen Vers um 198.10 handelt. Allerdings in Hs. nk auch Umkehrung von 198.09 und 198.10.</note>
 <l xml:id="fr69_198.11">Das du mich ha&#x017F;t betw<choice><am>&#x0304;</am><ex>n</ex></choice>gen</l>
 <l xml:id="fr69_198.12">So i&#x017F;t dir wol gelu<choice><am>&#x0304;</am><ex>n</ex></choice>gen</l>
 <l xml:id="fr69_198.22"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -448,7 +452,7 @@
 <l xml:id="fr69_201.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_201.07">Si ha<choice><am>&#x0304;</am><ex>n</ex></choice>t &#x017F;pi&#x017F;e vnd wines vil.</l>
 <l xml:id="fr69_201.08">Do warp als ich v&#x0301; &#x017F;age<choice><am>&#x0304;</am><ex>n</ex></choice> wil.</l>
-<note resp="#LC_Gegenleser" target="#?1_201.08 #Fr69003va"><ref>v&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über v handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_201.08 #Fr69003va"><ref>v&#x0301;</ref>: Es könnte sich auch um einen Zirkumflex über v handeln.</note>
 <l xml:id="fr69_201.09">Parcifal der reine.</l>
 <l xml:id="fr69_201.10">Von er&#x017F;t die &#x017F;pi&#x017F;e er kleine.</l>
 <l xml:id="fr69_201.11"><unclear reason="Zweifel">T</unclear>eilte mit &#x017F;in &#x017F;elbes ha<choice><am>&#x0304;</am><ex>n</ex></choice>t.</l>
@@ -461,7 +465,7 @@
 <l xml:id="fr69_201.25"><gap reason="Fragmentverlust" extent="unbekannt"/> <unclear reason="Zweifel">parrierent</unclear></l>
 <l xml:id="fr69_201.26"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">&#x017F;i</unclear>ch dar gen zierent.</l>
 <l xml:id="fr69_201.27"><gap reason="Fragmentverlust" extent="unbekannt"/>e&#x017F;ten &#x017F;int &#x017F;i an ku&#x0301;&#x017F;che<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/><g ref="#alin1"/> &#x017F;itte<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear></l>
-<note resp="#LC_Gegenleser" target="#?1_201.27 #Fr69003va"><ref>ku&#x0301;&#x017F;che<choice><am>&#x0304;</am><ex>n</ex></choice></ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
+<note resp="#LC_Gegenleser" target="#fr69_201.27 #Fr69003va"><ref>ku&#x0301;&#x017F;che<choice><am>&#x0304;</am><ex>n</ex></choice></ref>: Es könnte sich auch um einen Zirkumflex über u handeln.</note>
 <l xml:id="fr69_202.03"><gap reason="Fragmentverlust" extent="unbekannt"/> man.</l>
 <l xml:id="fr69_202.04"><gap reason="Fragmentverlust" extent="unbekannt"/>l fru&#x0301;ndinne &#x017F;chone<choice><am>&#x0304;</am><ex>n</ex></choice> kan.</l>
 <l xml:id="fr69_202.05"><gap reason="Fragmentverlust" extent="unbekannt"/>denket als es licht i&#x017F;t war</l>
@@ -470,7 +474,7 @@
 <l xml:id="fr69_202.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_202.21">Den ma<choice><am>&#x0304;</am><ex>n</ex></choice> den rotte<choice><am>&#x0304;</am><ex>n</ex></choice> ritt<choice><am>&#x0309;</am><ex>er</ex></choice> hies.</l>
 <l xml:id="fr69_202.22">Die ku&#x0301;ngin er maget lies.</l>
-<note resp="#LC_Gegenleser" target="#?1_202.22 #Fr69003vb"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_202.22 #Fr69003vb"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
 <l xml:id="fr69_202.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_202.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_202.28">Wan er w<choice><am>c</am><ex>az</ex></choice> ir h<choice><am>&#x0309;</am><ex>er</ex></choice>zen trut.</l>
@@ -490,11 +494,11 @@
 <l xml:id="fr69_203.29">V&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;oldiere Jehent be&#x017F;under</l>
 <l xml:id="fr69_203.30">D<choice><am>c</am><ex>az</ex></choice> von d<choice><am>&#x0309;</am><ex>er</ex></choice> tauelrund<choice><am>&#x0309;</am><ex>er</ex></choice>.</l>
 <l xml:id="fr69_204.01">Du&#x0301; ku&#x0301;ngin habe be&#x017F;ant.</l>
-<note resp="#LC_Gegenleser" target="#?1_204.01 #Fr69003vb"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_204.01 #Fr69003vb"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
 <l xml:id="fr69_204.02">Jethern von gugum<choice><am>&#x0309;</am><ex>er</ex></choice>lant.</l>
 <l xml:id="fr69_204.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_204.04"><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/><g ref="#alin1"/> kur</l>
-<note resp="#LC_Gegenleser" target="#?1_204.04 #Fr69003vb"><ref><lb/><g ref="#alin1"/> kur</ref>: <ref><lb/><g ref="#alin1"/> kur</ref> befindet sich auf der Zeile von Vers 204.01.</note>
+<note resp="#LC_Gegenleser" target="#fr69_204.04 #Fr69003vb"><ref><lb/><g ref="#alin1"/> kur</ref>: <ref><lb/><g ref="#alin1"/> kur</ref> befindet sich auf der Zeile von Vers 204.01.</note>
 <l xml:id="fr69_204.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_204.06">Condewier amurs wil mich ha<choice><am>&#x0304;</am><ex>n</ex></choice></l>
 <l xml:id="fr69_204.07">Vnd ich ir lib vnd ir lant.</l>
@@ -529,7 +533,7 @@
 <l xml:id="fr69_206.11">Gevangen hette dar ge&#x017F;ant.</l>
 <l xml:id="fr69_206.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_206.15">D<choice><am>c</am><ex>az</ex></choice> mit tru&#x0301;wen klagte ir <subst hand="#sr"><del>leit</del><add><unclear reason="Zweifel">not</unclear></add></subst></l>
-<note resp="#LC_Gegenleser" target="#?1_206.15 #Fr69003vc"><ref><subst hand="#sr"><del>leit</del><add><unclear reason="Zweifel">not</unclear></add></subst></ref>: <ref>leit</ref> wurde mit einer roten Markierung versehen. Es ist anzunehmen, dass es durch <ref>not</ref> auf der Zeile von Vers 206.14 ersetzt wurde, da der dieser Vers weniger Platz einnimmt.</note>
+<note resp="#LC_Gegenleser" target="#fr69_206.15 #Fr69003vc"><ref><subst hand="#sr"><del>leit</del><add><unclear reason="Zweifel">not</unclear></add></subst></ref>: <ref>leit</ref> wurde mit einer roten Markierung versehen. Es ist anzunehmen, dass es durch <ref>not</ref> auf der Zeile von Vers 206.14 ersetzt wurde, da der dieser Vers weniger Platz einnimmt.</note>
 <l xml:id="fr69_206.16">Den man da hei&#x017F;&#x017F;et d<choice><am>&#x0309;</am><ex>er</ex></choice> ritt<choice><am>&#x0309;</am><ex>er</ex></choice> rot.</l>
 <l xml:id="fr69_206.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_206.22"><gap reason="Fragmentverlust" extent="unbekannt"/>&#x017F;chrach vn<unclear reason="Zweifel">d</unclear> bego<choice><am>&#x0304;</am><ex>n</ex></choice>de rotten.</l>
@@ -540,7 +544,7 @@
 <l xml:id="fr69_207.04">Die rede lat hort w<choice><am>c</am><ex>az</ex></choice> ge&#x017F;chich<unclear reason="Zweifel"><gap reason="Fragmentverlust" extent="unbekannt"/></unclear></l>
 <l xml:id="fr69_207.05">Da wir d<choice><am>c</am><ex>az</ex></choice> mere lie&#x017F;zen .e.</l>
 <l xml:id="fr69_207.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#LC_Gegenleser" target="#?1_207.06 #Fr69004ra">: Auf der Zeile von 207.06 befindet sich ein <g ref="#alin1"/>, das allerdings nur schwer zu entziffern ist und keinem Vers zugeordnet werden kann.</note>
+<note resp="#LC_Gegenleser" target="#fr69_207.06 #Fr69004ra">: Auf der Zeile von 207.06 befindet sich ein <g ref="#alin1"/>, das allerdings nur schwer zu entziffern ist und keinem Vers zugeordnet werden kann.</note>
 <l xml:id="fr69_207.11">Da von behabten &#x017F;i d<choice><am>c</am><ex>az</ex></choice> wal.</l>
 <l xml:id="fr69_207.12">Jr land<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>s h<choice><am>&#x0309;</am><ex>er</ex></choice>re Parcifal.</l>
 <l xml:id="fr69_207.13"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;inen verre uor</l>
@@ -566,15 +570,15 @@
 <l xml:id="fr69_209.15">Do das erhorte clamide.</l>
 <l xml:id="fr69_209.20">J&#x017F;t er kamphbere.</l>
 <l xml:id="fr69_209.21">So d<choice><am>c</am><ex>az</ex></choice> &#x017F;i in da vv&#x0301;r hat erkant.</l>
-<note resp="#LC_Gegenleser" target="#?1_209.21 #Fr69004rb"><ref>vv&#x0301;r</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_209.21 #Fr69004rb"><ref>vv&#x0301;r</ref>: Zirkumflex.</note>
 <l xml:id="fr69_209.22">D<choice><am>c</am><ex>az</ex></choice> er ir lib vnd ir lant</l>
 <l xml:id="fr69_209.25"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">P</seg>arcifal d<choice><am>&#x0309;</am><ex>er</ex></choice> wart alfro.</l>
 <l xml:id="fr69_209.26">Do im du&#x0301; <subst hand="#sr"><del>redu</del><add>bot&#x017F;chaft</add></subst> al <lb/> &#x017F;o</l>
-<note resp="#LC_Gegenleser" target="#?1_209.26 #Fr69004rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_209.26 #Fr69004rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_209.27">Gen &#x017F;in eines kamphe wart <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_210.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_210.18">Ob &#x017F;eit du&#x0301; aventure war.</l>
-<note resp="#LC_Gegenleser" target="#?1_210.18 #Fr69004rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_210.18 #Fr69004rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_210.19">Griorz im &#x017F;ante ritt<choice><am>&#x0309;</am><ex>er</ex></choice> Clu&#x0366;c</l>
 <l xml:id="fr69_210.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_210.27"><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">S</seg></unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -584,7 +588,7 @@
 <l xml:id="fr69_211.03">Niwan als d<choice><am>c</am><ex>az</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_211.04">Vor d<choice><am>&#x0309;</am><ex>er</ex></choice> rabine gab</l>
 <l xml:id="fr69_211.05">D<choice><am>c</am><ex>az</ex></choice> w<choice><am>c</am><ex>az</ex></choice> gewape<choice><am>&#x0304;</am><ex>n</ex></choice>t wol fu&#x0301;r not.</l>
-<note resp="#LC_Gegenleser" target="#?1_211.05 #Fr69004rb"><ref>fu&#x0301;r</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_211.05 #Fr69004rb"><ref>fu&#x0301;r</ref>: Zirkumflex.</note>
 <l xml:id="fr69_211.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr69004rc"/>
 <l xml:id="fr69_211.22">D<choice><am>c</am><ex>az</ex></choice> er ors nit mere moch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -621,7 +625,7 @@
 <l xml:id="fr69_215.08">So &#x017F;ere mich nie di<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_215.16"><gap reason="Fragmentverlust" extent="unbekannt"/>ch wil die vart vo<choice><am>&#x0304;</am><ex>n</ex></choice> hi<choice><am>&#x0304;</am><ex>n</ex></choice>na<choice><am>&#x0304;</am><ex>n</ex></choice> han.</l>
 <l xml:id="fr69_215.17"><gap reason="Fragmentverlust" extent="unbekannt"/>it gelu&#x0301;b<gap reason="Fragmentverlust" extent="unbekannt"/>de er do da<choice><am>&#x0304;</am><ex>n</ex></choice>na<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chiet</l>
-<note resp="#LC_Gegenleser" target="#?1_215.17 #Fr69004va"><ref>gelu&#x0301;b<gap reason="Fragmentverlust" extent="unbekannt"/>de</ref>: Zirkumflex. Ausserdem ein kleines Loch zwischen b und d. Es ist nicht klar, ob hier noch ein Buchstabe stand.</note>
+<note resp="#LC_Gegenleser" target="#fr69_215.17 #Fr69004va"><ref>gelu&#x0301;b<gap reason="Fragmentverlust" extent="unbekannt"/>de</ref>: Zirkumflex. Ausserdem ein kleines Loch zwischen b und d. Es ist nicht klar, ob hier noch ein Buchstabe stand.</note>
 <l xml:id="fr69_215.18"><gap reason="Fragmentverlust" extent="unbekannt"/>en &#x017F;in hohvart .e. v<choice><am>&#x0309;</am><ex>er</ex></choice>riet.</l>
 <l xml:id="fr69_215.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_215.22">Er &#x017F;pra<choice><am>&#x0304;</am><ex>n</ex></choice>c druf ane &#x017F;tegereif.</l>
@@ -640,7 +644,7 @@
 <l xml:id="fr69_216.24">Si &#x017F;olte der pris v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn han.</l>
 <l xml:id="fr69_217.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_217.15">Jr fru&#x0301;nt &#x017F;i gegen dem vie<choice><am>&#x0304;</am><ex>n</ex></choice>d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> &#x017F;choz</l>
-<note resp="#LC_Gegenleser" target="#?1_217.15 #Fr69004vb"><ref>fru&#x0301;nt</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_217.15 #Fr69004vb"><ref>fru&#x0301;nt</ref>: Zirkumflex.</note>
 <l xml:id="fr69_217.16"><subst hand="#sr"><del>Leit</del><add>Lert</add></subst> in &#x017F;trite da ku<choice><am>&#x0304;</am><ex>m</ex></choice>b<choice><am>&#x0309;</am><ex>er</ex></choice> gros.</l>
 <l xml:id="fr69_217.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_217.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -660,7 +664,7 @@
 <l xml:id="fr69_218.28">Jedoch wil ich <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_218.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_219.01">Jm bat du&#x0301; Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfro&#x036E;we fier.</l>
-<note resp="#LC_Gegenleser" target="#?1_219.01 #Fr69004vc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_219.01 #Fr69004vc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_219.02">Ab nemen helm vnd harne&#x017F;chier</l>
 <l xml:id="fr69_219.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_219.23"><gap reason="Fragmentverlust" extent="unbekannt"/>amurs fru<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>m</ex></choice></unclear>t mich gra.</l>
@@ -673,14 +677,14 @@
 <l xml:id="fr69_220.09">Mins vett<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>n &#x017F;un <subst hand="#sr"><del>Mon</del><add>Mobonagrin</add></subst>.</l>
 <l xml:id="fr69_220.10">Leit o&#x036E;ch da zela<choice><am>&#x0304;</am><ex>n</ex></choice>gen hohen pin</l>
 <l xml:id="fr69_220.11">Nu bin ich ku&#x0301;nec <gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#LC_Gegenleser" target="#?1_220.11 #Fr69004vc"><ref>ku&#x0301;nec</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_220.11 #Fr69004vc"><ref>ku&#x0301;nec</ref>: Zirkumflex.</note>
 <pb xml:id="fr69005r"/><cb xml:id="fr69005ra"/>
 <l xml:id="fr69_220.28">Nu dar naher dri<choice><am>&#x0304;</am><ex>n</ex></choice>ga drinc</l>
 <l xml:id="fr69_220.29">Schiere wart d<choice><am>c</am><ex>az</ex></choice> m<choice><am>&#x0309;</am><ex>er</ex></choice>e breit.</l>
 <l xml:id="fr69_220.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_221.05">Lei&#x017F;tet er dar an <unclear reason="Zweifel">v&#x0301;</unclear>w<choice><am>&#x0309;</am><ex>er</ex></choice> gebot</l>
 <l xml:id="fr69_221.06">Er ert v&#x0301;ch vnd den ritt<choice><am>&#x0309;</am><ex>er</ex></choice> rot.</l>
-<note resp="#LC_Gegenleser" target="#?1_221.06 #Fr69005ra"><ref>v&#x0301;ch</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_221.06 #Fr69005ra"><ref>v&#x0301;ch</ref>: Zirkumflex.</note>
 <l xml:id="fr69_221.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_221.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_221.10">Do wart er wol enpha<choice><am>&#x0304;</am><ex>n</ex></choice>gen</l>
@@ -697,11 +701,11 @@
 <l xml:id="fr69_222.18">D<choice><am>c</am><ex>az</ex></choice> teilt er &#x017F;o d<choice><am>c</am><ex>az</ex></choice> ma<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear> im holt.</l>
 <l xml:id="fr69_222.19">W<choice><am>c</am><ex>az</ex></choice> dur &#x017F;ine milte</l>
 <l xml:id="fr69_222.20">Vil banier nu&#x0301;wer &#x017F;chilte.</l>
-<note resp="#LC_Gegenleser" target="#?1_222.20 #Fr69005ra"><ref>nu&#x0301;wer</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_222.20 #Fr69005ra"><ref>nu&#x0301;wer</ref>: Zirkumflex.</note>
 <cb xml:id="fr69005rb"/>
 <l xml:id="fr69_223.06-1">Swes &#x017F;in h<choice><am>&#x0309;</am><ex>er</ex></choice>ze g<choice><am>&#x0309;</am><ex>er</ex></choice>te.</l>
 <l xml:id="fr69_223.06-2">Du&#x0301; tru&#x0301;we &#x017F;i des w<choice><am>&#x0309;</am><ex>er</ex></choice>te</l>
-<note resp="#LC_Gegenleser" target="#?1_223.06-2 #Fr69005rb"><ref>Du&#x0301; tru&#x0301;we</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_223.06-2 #Fr69005rb"><ref>Du&#x0301; tru&#x0301;we</ref>: Zirkumflex.</note>
 <l xml:id="fr69_223.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_223.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_223.12">Jr l<unclear reason="Zweifel">u&#x0301;</unclear>te ir lant dar zu&#x0366; ir lip.</l>
@@ -730,7 +734,7 @@
 <l xml:id="fr69_225.21">Jn drizeg milen erbo&#x036E;wen <subst hand="#sr"><del>*</del><add>&#x017F;i</add></subst></l>
 <l xml:id="fr69_225.22">Wan ein hus d<choice><am>c</am><ex>az</ex></choice> i&#x017F;t hie bi</l>
 <l xml:id="fr69_225.25">Dort an des veltz ende</l>
-<note resp="#LC_Gegenleser" target="#?1_225.25 #Fr69005rc"><ref>veltz</ref>: Das <ref>t</ref> wurde von GVi als <ref>c</ref> transkribiert. Wahrscheinlich an Anlehnung Fassung *m: <ref>velses</ref> (auch *D und *T). Fassung *G: <ref>veldes</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr69_225.25 #Fr69005rc"><ref>veltz</ref>: Das <ref>t</ref> wurde von GVi als <ref>c</ref> transkribiert. Wahrscheinlich an Anlehnung Fassung *m: <ref>velses</ref> (auch *D und *T). Fassung *G: <ref>veldes</ref>.</note>
 <l xml:id="fr69_225.26">Da kert zer ze&#x017F;wen hende.</l>
 <l xml:id="fr69_225.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_226.17">Mit &#x017F;turme ir nit <gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -742,10 +746,10 @@
 <l xml:id="fr69_226.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_227.03">Sit e&#x017F; d<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> vi&#x017F;ch<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> v<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>iach.</l>
 <l xml:id="fr69_227.04">Man bu&#x0301;tet u&#x0301;ch ere vnd gem<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#LC_Gegenleser" target="#?1_227.04 #Fr69005rc"><ref>bu&#x0301;tet</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_227.04 #Fr69005rc"><ref>bu&#x0301;tet</ref>: Zirkumflex.</note>
 <l xml:id="fr69_227.05">Dur in d<choice><am>&#x0309;</am><ex>er</ex></choice> v&#x0301; &#x017F;ante wider</l>
-<note resp="#LC_Gegenleser" target="#?1_227.05 #Fr69005rc">: Haken erkennbar nach <ref>wider</ref>.</note>
-<note resp="#LC_Gegenleser" target="#?1_227.05 #Fr69005rc"><ref>v&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_227.05 #Fr69005rc">: Haken erkennbar nach <ref>wider</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr69_227.05 #Fr69005rc"><ref>v&#x0301;</ref>: Zirkumflex.</note>
 <pb xml:id="fr69005v"/><cb xml:id="fr69005va"/>
 <l xml:id="fr69_227.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_227.22">An zo&#x036E;m vnd an &#x017F;tegreif.</l>
@@ -786,10 +790,10 @@
 <l xml:id="fr69_231.15">Da &#x017F;az manig ritt<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> cl<unclear reason="Zweifel">u&#x0366;</unclear>c.</l>
 <l xml:id="fr69_231.16">Da man Jam<choice><am>&#x0309;</am><ex>er</ex></choice> fu&#x0301;r &#x017F;i tru&#x0366;c.</l>
 <l xml:id="fr69_231.17"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot"><unclear reason="Zweifel">E</unclear></seg>in knappe &#x017F;pra<choice><am>&#x0304;</am><ex>n</ex></choice>c zer tu&#x0301;r h<choice><am>&#x0309;</am><ex>er</ex></choice> in</l>
-<note resp="#LC_Gegenleser" target="#?1_231.17 #Fr69005vb"><ref>tu&#x0301;r</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_231.17 #Fr69005vb"><ref>tu&#x0301;r</ref>: Zirkumflex.</note>
 <l xml:id="fr69_231.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_231.20">An d<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> &#x017F;niden hub &#x017F;ich blut.</l>
-<note resp="#GVi_Transkribent" target="#?1_231.20 #Fr69005vb">: Nächste Zeile leergelassen und mit Wellenlinie versehen.</note>
+<note resp="#GVi_Transkribent" target="#fr69_231.20 #Fr69005vb">: Nächste Zeile leergelassen und mit Wellenlinie versehen.</note>
 <l xml:id="fr69_231.21">Vnd lief den &#x017F;chaft <subst hand="#sr"><del>v*</del><add>v<choice><am>&#x0304;</am><ex>n</ex></choice>z</add></subst> a<choice><am>&#x0304;</am><ex>n</ex></choice> die ha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
 <cb xml:id="fr69005vc"/>
 <l xml:id="fr69_232.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -810,8 +814,8 @@
 <l xml:id="fr69_233.23">Sw<choice><am>&#x0309;</am><ex>er</ex></choice> in zeeine<choice><am>&#x0304;</am><ex>m</ex></choice> ti&#x017F;che mas.</l>
 <l xml:id="fr69_233.24">Dar ob d<choice><am>&#x0309;</am><ex>er</ex></choice> wirt dur richeit &#x017F;as</l>
 <l xml:id="fr69_233.28">Vier die tauel legten.</l>
-<l xml:id="fr69_233.30"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr69_233.29"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr69_233.30"><milestone unit="Versumstellung"/>Vf &#x017F;tollen die da kame<choice><am>&#x0304;</am><ex>n</ex></choice> .e.</l>
+<l xml:id="fr69_233.29"><milestone unit="Versumstellung"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <pb xml:id="fr69006r"/><cb xml:id="fr69006ra"/>
 <l xml:id="fr69_234.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_234.24">Si hetten &#x017F;tachel wol ge&#x017F;nitten</l>
@@ -870,7 +874,7 @@
 <l xml:id="fr69_238.12">So mu&#x0364;zt ir mit mir liegen.</l>
 <l xml:id="fr69_238.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_238.16">Spi&#x017F;e nu&#x0301;we od<choice><am>&#x0309;</am><ex>er</ex></choice> alt.</l>
-<note resp="#LC_Gegenleser" target="#?1_238.16 #Fr69006rb"><ref>nu&#x0301;we</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_238.16 #Fr69006rb"><ref>nu&#x0301;we</ref>: Zirkumflex.</note>
 <l xml:id="fr69_238.17">D<choice><am>c</am><ex>az</ex></choice> zam vnd d<choice><am>c</am><ex>az</ex></choice> wilde</l>
 <l xml:id="fr69_238.18"><gap reason="Fragmentverlust" extent="unbekannt"/> wart nie kein bilde.</l>
 <l xml:id="fr69_238.24">Als ma<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear> &#x017F;agt <gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -897,7 +901,7 @@
 <l xml:id="fr69_240.17">Wider z<unclear reason="Zweifel">u&#x0366;</unclear> dem grale</l>
 <l xml:id="fr69_240.18">Dem wirte vnd Parcifale.</l>
 <l xml:id="fr69_240.19">Mit zu&#x0301;chten neic du&#x0301; ku&#x0301;ngin</l>
-<note resp="#LC_Gegenleser" target="#?1_240.19 #Fr69006rc"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_240.19 #Fr69006rc"><ref>ku&#x0301;ngin</ref>: Zirkumflex.</note>
 <l xml:id="fr69_240.20">Vnd al du&#x0301; Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfro&#x036E;welin</l>
 <l xml:id="fr69_240.21">Si brachten wid<choice><am>&#x0309;</am><ex>er</ex></choice> in z<choice><am>&#x0309;</am><ex>er</ex></choice> tu&#x0301;r</l>
 <l xml:id="fr69_240.22">D<choice><am>c</am><ex>az</ex></choice> &#x017F;i mit in <unclear reason="Zweifel">e</unclear>. brachte fu&#x0301;r</l>
@@ -906,7 +910,7 @@
 <l xml:id="fr69_240.27">Den aller &#x017F;cho&#x0364;n&#x017F;ten man.</l>
 <l xml:id="fr69_240.28"><gap reason="Fragmentverlust" extent="unbekannt"/>an</l>
 <l xml:id="fr69_241.04">Du w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>dent <unclear reason="Zweifel">v&#x0301;</unclear> von mir erkant.</l>
-<note resp="#GVi_Transkribent" target="#?1_241.04 #Fr69006rc">: Zeichen mit unklarer Bedeutung links der Spalte.</note>
+<note resp="#GVi_Transkribent" target="#fr69_241.04 #Fr69006rc">: Zeichen mit unklarer Bedeutung links der Spalte.</note>
 <l xml:id="fr69_241.05">H<choice><am>&#x0309;</am><ex>er</ex></choice> nah &#x017F;o de&#x017F; wirt zit</l>
 <l xml:id="fr69_241.06">Be&#x017F;cheidenliche vnd ane &#x017F;trit.</l>
 <l xml:id="fr69_241.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -946,7 +950,7 @@
 <l xml:id="fr69_243.29">Spranc vnd<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>s teckelachen</l>
 <l xml:id="fr69_243.30">Si &#x017F;prachen ir &#x017F;uld wachen.</l>
 <l xml:id="fr69_244.01">Durch <unclear reason="Zweifel">v&#x0301;</unclear>ns noch eine wile</l>
-<note resp="#LC_Gegenleser" target="#?1_244.01 #Fr69006vb"><ref>noch</ref>: Haken zwischen <ref>o</ref> und <ref>c</ref>, der auch ein Abkürzungszeichen sein könnte.</note>
+<note resp="#LC_Gegenleser" target="#fr69_244.01 #Fr69006vb"><ref>noch</ref>: Haken zwischen <ref>o</ref> und <ref>c</ref>, der auch ein Abkürzungszeichen sein könnte.</note>
 <l xml:id="fr69_244.06"><gap reason="Fragmentverlust" extent="unbekannt"/>zen.</l>
 <l xml:id="fr69_244.07">Echt vu&#x0366;gt in gedanke not</l>
 <l xml:id="fr69_244.08">D<choice><am>c</am><ex>az</ex></choice> im &#x017F;in mu<choice><am>&#x0304;</am><ex>n</ex></choice>t w<choice><am>c</am><ex>az</ex></choice> &#x017F;o rot.</l>
@@ -1035,14 +1039,14 @@
 <l xml:id="fr69_251.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_251.11">D<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;elbe lie&#x017F; vier w<choice><am>&#x0309;</am><ex>er</ex></choice>du kint</l>
 <l xml:id="fr69_251.12">Bi richeit du&#x0301; in iam<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;int.</l>
-<note resp="#LC_Gegenleser" target="#?1_251.12 #Fr69007rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_251.12 #Fr69007rb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_251.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_252.01">Vnd den wirt fro&#x0364;iden lere</l>
 <l xml:id="fr69_252.02">La ho&#x0364;ren beidu&#x0301; mere</l>
 <l xml:id="fr69_252.03">Ob wendic i&#x017F;t &#x017F;in vrei&#x017F;e.</l>
 <l xml:id="fr69_252.04">Wol dich d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;elden rei&#x017F;e.</l>
 <l xml:id="fr69_252.05">Wan &#x017F;w<choice><am>c</am><ex>az</ex></choice> die lu&#x0301;fte ha<choice><am>&#x0304;</am><ex>n</ex></choice>t be&#x017F;lagen.</l>
-<note resp="#LC_Gegenleser" target="#?1_252.05 #Fr69007rb"><ref>lu&#x0301;fte</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_252.05 #Fr69007rb"><ref>lu&#x0301;fte</ref>: Zirkumflex.</note>
 <l xml:id="fr69_252.06">Dar obe mu&#x0366;&#x017F;tu hohe tragen</l>
 <l xml:id="fr69_252.07">Dir diene<choice><am>&#x0304;</am><ex>n</ex></choice>t zam vnd wilt.</l>
 <l xml:id="fr69_252.08"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">dir d<choice><am>&#x0309;</am><ex>er</ex></choice></unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -1060,7 +1064,7 @@
 <l xml:id="fr69_254.12">Ganz vnd &#x017F;terker bas</l>
 <l xml:id="fr69_254.13">Wirt im valz vnd ecge &#x017F;in</l>
 <l xml:id="fr69_254.14">Vnd v<choice><am>&#x0309;</am><ex>er</ex></choice>lie&#x017F;ent du&#x0301; mal ir &#x017F;chin</l>
-<note resp="#LC_Gegenleser" target="#?1_254.14 #Fr69007rc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_254.14 #Fr69007rc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_254.15">D<choice><am>c</am><ex>az</ex></choice> &#x017F;w<choice><am>&#x0309;</am><ex>er</ex></choice>t bedarf wol &#x017F;egens wort.</l>
 <l xml:id="fr69_254.16">Jch f<unclear reason="Zweifel">u&#x0301;</unclear>rche du hab&#x017F;t d<unclear reason="Zweifel">u&#x0301;</unclear> gela&#x017F;zen<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_254.17">Hatz ab<choice><am>&#x0309;</am><ex>er</ex></choice> din mu<choice><am>&#x0304;</am><ex>n</ex></choice>t gelernet</l>
@@ -1100,7 +1104,7 @@
 <l xml:id="fr69_258.28">Ja enwart nie drach&#x017F;el &#x017F;o &#x017F;nel.</l>
 <l xml:id="fr69_258.29">Der &#x017F;i gedret hette bas.</l>
 <l xml:id="fr69_258.30">Swie mi<choice><am>&#x0304;</am><ex>n</ex></choice>neklich du&#x0301; fro&#x036E;we &#x017F;as</l>
-<note resp="#LC_Gegenleser" target="#?1_258.30 #Fr69007vb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_258.30 #Fr69007vb"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_259.01">Si mu&#x0364;&#x017F;t in doch erbarmen.</l>
 <l xml:id="fr69_259.02">Mit henden vnd mit armen.</l>
 <l xml:id="fr69_259.03">Begonde &#x017F;i &#x017F;ich decken.</l>
@@ -1132,7 +1136,7 @@
 <l xml:id="fr69_262.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_262.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_262.18">Trvnzen &#x017F;tarch al nu&#x0301;we.</l>
-<note resp="#LC_Gegenleser" target="#?1_262.18 #Fr69008ra"><ref>nu&#x0301;we</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_262.18 #Fr69008ra"><ref>nu&#x0301;we</ref>: Zirkumflex.</note>
 <l xml:id="fr69_262.19">Von in weieten gen dien lu&#x0301;ften</l>
 <l xml:id="fr69_262.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_262.25">Vron Je&#x017F;chuten mut de&#x017F; v<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>iach</l>
@@ -1195,14 +1199,14 @@
 <l xml:id="fr69_269.12">Min lib gen w<choice><am>&#x0309;</am><ex>er</ex></choice>deklich<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chame.</l>
 <l xml:id="fr69_269.15"><gap reason="Fragmentverlust" extent="unbekannt"/> worten <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_269.16">Min gelu&#x0301;cke vor der ho&#x0364;ch&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> ha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
-<note resp="#LC_Gegenleser" target="#?1_269.16 #Fr69008va"><ref>gelu&#x0301;cke</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_269.16 #Fr69008va"><ref>gelu&#x0301;cke</ref>: Zirkumflex.</note>
 <l xml:id="fr69_269.17">Jch hans da fur die treit got</l>
 <l xml:id="fr69_269.23"><gap reason="Fragmentverlust" extent="unbekannt"/>ch fu&#x0366;rt ich mere goldes dan</l>
 <l xml:id="fr69_269.24"><gap reason="Fragmentverlust" extent="unbekannt"/>ch w<choice><am>c</am><ex>az</ex></choice> ein tore vnd nicht ein ma<choice><am>&#x0304;</am><ex>n</ex></choice></l>
 <l xml:id="fr69_269.25"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_270.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_270.03"><gap reason="Fragmentverlust" extent="unbekannt"/>u&#x0301;r&#x017F;pan d<choice><am>c</am><ex>az</ex></choice> wart &#x017F;o v<choice><am>&#x0309;</am><ex>er</ex></choice>tan.</l>
-<note resp="#LC_Gegenleser" target="#?1_270.03 #Fr69008va"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>u&#x0301;r&#x017F;pan</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_270.03 #Fr69008va"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>u&#x0301;r&#x017F;pan</ref>: Zirkumflex.</note>
 <l xml:id="fr69_270.04"><gap reason="Fragmentverlust" extent="unbekannt"/>min torheit dank &#x017F;ol han.</l>
 <l xml:id="fr69_270.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_270.10"><gap reason="Fragmentverlust" extent="unbekannt"/> d<choice><am>c</am><ex>az</ex></choice> vi<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear>g<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>lin wid<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> an ir ha<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear>t</l>
@@ -1240,14 +1244,14 @@
 <l xml:id="fr69_274.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_274.03">Ge&#x017F;atelt vnd gezo&#x0364;met wol</l>
 <l xml:id="fr69_274.04">Man hu&#x0366;b &#x017F;i druf du&#x0301; ritten &#x017F;ol.</l>
-<note resp="#LC_Gegenleser" target="#?1_274.04 #Fr69008vc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_274.04 #Fr69008vc"><ref>du&#x0301;</ref>: Zirkumflex.</note>
 <l xml:id="fr69_274.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_274.10">Von <gap reason="Fragmentverlust" extent="unbekannt"/> vf gewape<unclear reason="Zweifel"><choice><am>&#x0304;</am><ex>n</ex></choice></unclear>t gienc</l>
 <l xml:id="fr69_274.11">Orilus zem or&#x017F;e &#x017F;in</l>
 <l xml:id="fr69_274.12">Er &#x017F;pranc druf vor d<choice><am>&#x0309;</am><ex>er</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zogin</l>
 <l xml:id="fr69_274.20"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;ahen</l>
 <l xml:id="fr69_274.21">Vil nah ein mil d<choice><am>c</am><ex>az</ex></choice> wa&#x017F;zer <unclear reason="Zweifel">nid<choice><am>&#x0309;</am><ex>er</ex></choice></unclear></l>
-<note resp="#GVi_Transkribent" target="#?1_274.21 #Fr69008vc">: Rechts neben der Spalte Abdruck eines <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">P</seg>, der wahrscheinlich von der gegenüberliegenden Recto-Seite stammt.</note>
+<note resp="#GVi_Transkribent" target="#fr69_274.21 #Fr69008vc">: Rechts neben der Spalte Abdruck eines <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">P</seg>, der wahrscheinlich von der gegenüberliegenden Recto-Seite stammt.</note>
 <l xml:id="fr69_274.22">D<choice><am>&#x0309;</am><ex>er</ex></choice> fu&#x0301;r&#x017F;te &#x017F;ante den rit<choice><am>&#x0309;</am><ex>er</ex></choice> wid<choice><am>&#x0309;</am><ex>er</ex></choice></l>
 <l xml:id="fr69_274.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_274.28">Vf einem plan vmb in do &#x017F;as</l>
@@ -1265,7 +1269,7 @@
 <l xml:id="fr69_293.08">Als im &#x017F;in t<unclear reason="Zweifel"><choice><am rend="hochgestellt">i</am><ex>ri</ex></choice></unclear>we do geriet</l>
 <l xml:id="fr69_293.09"><subst hand="#sr"><del>D<choice><am>&#x0309;</am><ex>er</ex></choice></del><add>D<choice><am>c</am><ex>az</ex></choice></add></subst> w<choice><am>&#x0309;</am><ex>er</ex></choice>de &#x017F;u&#x0364;ze clare wi<unclear reason="Zweifel">b</unclear>.</l>
 <l xml:id="fr69_293.10">Sante v&#x0301;ch zeboten an &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> lib.</l>
-<note resp="#LC_Gegenleser" target="#?1_293.10 #Fr69009rb"><ref>v&#x0301;ch</ref>: Zirkumflex.</note>
+<note resp="#LC_Gegenleser" target="#fr69_293.10 #Fr69009rb"><ref>v&#x0301;ch</ref>: Zirkumflex.</note>
 <cb xml:id="fr69009rc"/>
 <l xml:id="fr69_295.19"><unclear reason="Zweifel">Ob</unclear> den ronen dar <unclear reason="Zweifel">dv&#x0301;</unclear> gans ent<unclear reason="Zweifel">ra</unclear>n.</l>
 <l xml:id="fr69_295.20">So d<choice><am>c</am><ex>az</ex></choice> das ors vnd der man</l>
@@ -1299,7 +1303,7 @@
 <l xml:id="fr69_311.30-1">Parcifal der w<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear>de degen.</l>
 <l xml:id="fr69_311.30-2">Nv mu&#x0364;&#x017F;ze &#x017F;in d<choice><am>&#x0309;</am><ex>er</ex></choice> o&#x036E;ch fu&#x0301;rb<choice><am>c</am><ex>az</ex></choice> phlegen</l>
 <l xml:id="fr69_311.30-3">Der &#x017F;in vnz h<choice><am>&#x0309;</am><ex>er</ex></choice> gephlegen hat.</l>
-<note resp="#GVi_Transkribent" target="#?1_311.30-3 #Fr69010va">: Spalte b und c offensichtlich leer geblieben.</note>
+<note resp="#GVi_Transkribent" target="#fr69_311.30-3 #Fr69010va">: Spalte b und c offensichtlich leer geblieben.</note>
 <pb xml:id="fr69011r"/><cb xml:id="fr69011ra"/>
 <l xml:id="fr69_644.05">er mit werd<unclear reason="Zweifel"><choice><am>&#x0309;</am><ex>er</ex></choice></unclear> he<unclear reason="Zweifel">lf</unclear>e pflac.</l>
 <l xml:id="fr69_644.06">helfliche vnz an den tac.</l>
@@ -1383,7 +1387,7 @@
 <l xml:id="fr69_664.06">der mir e&#x0302; hat &#x017F;chade<choice><am>&#x0304;</am><ex>n</ex></choice> getan.</l>
 <l xml:id="fr69_664.07">der i&#x017F;t <unclear reason="Zweifel"><subst hand="#sr"><del>lic*</del><add>lichhe</add></subst></unclear> in min lant geritte<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
 <l xml:id="fr69_664.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#GVi_Transkribent" target="#?1_664.08 #fr69012rc">: Der Vers an dieser Stelle scheint nicht 664.08 zu sein (vielleicht 664.09), ist allerdings zu stark abgeschnitten.</note>
+<note resp="#GVi_Transkribent" target="#fr69_664.08 #fr69012rc">: Der Vers an dieser Stelle scheint nicht 664.08 zu sein (vielleicht 664.09), ist allerdings zu stark abgeschnitten.</note>
 <pb xml:id="fr69012v"/><cb xml:id="fr69012va"/>
 <l xml:id="fr69_666.02"><gap reason="Fragmentverlust" extent="unbekannt"/> al&#x017F; ez in tochte.</l>
 <l xml:id="fr69_666.03"><gap reason="Fragmentverlust" extent="unbekannt"/>hv&#x0366;<unclear reason="Zweifel">f</unclear> o&#x036E;ch &#x017F;in rei&#x017F;e.</l>
@@ -1597,7 +1601,7 @@
 <l xml:id="fr69_712.11">den k<unclear reason="Zweifel">a</unclear>mpf moht ich wol &#x017F;cheide<choice><am>&#x0304;</am><ex>n</ex></choice></l>
 <l xml:id="fr69_712.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_712.25">Sin kleinote&#x017F; vil ge&#x017F;ant</l>
-<note resp="#LC_Gegenleser" target="#?1_712.25 #Fr69015vc"><ref>ge&#x017F;ant</ref>: Unter dem Schaft-s befinden sich drei Striche. Von GVi als Hervorhebung getagt. Zudem ist auch der Balken vom t in die Länge gezogen.</note>
+<note resp="#LC_Gegenleser" target="#fr69_712.25 #Fr69015vc"><ref>ge&#x017F;ant</ref>: Unter dem Schaft-s befinden sich drei Striche. Von GVi als Hervorhebung getagt. Zudem ist auch der Balken vom t in die Länge gezogen.</note>
 <pb xml:id="fr69016r"/><cb xml:id="fr69016ra"/>
 <l xml:id="fr69_712.26">Er enpfienc o&#x036E;ch von min<choice><am>&#x0309;</am><ex>er</ex></choice> hant.</l>
 <l xml:id="fr69_712.27">D<unclear reason="Zweifel"><choice><am>c</am><ex>az</ex></choice></unclear> zerwaren liebe <gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -1648,7 +1652,7 @@
 <l xml:id="fr69_721.23">dem kv&#x0301;nige zeime geleite.</l>
 <l xml:id="fr69_721.24">vber de&#x017F; gevilde&#x017F; breite</l>
 <l xml:id="fr69_721.25">ez <sic>w<choice><am>&#x0309;</am><ex>er</ex></choice>et uch</sic> od<choice><am>&#x0309;</am><ex>er</ex></choice> bach.</l>
-<note resp="#LC_Gegenleser" target="#?1_721.25 #Fr69016va"><ref><sic>w<choice><am>&#x0309;</am><ex>er</ex></choice>et uch</sic></ref>: Lücke zwischen 't' und 'u'. Wahrscheinlich schon in der Vorlage falsch.</note>
+<note resp="#LC_Gegenleser" target="#fr69_721.25 #Fr69016va"><ref><sic>w<choice><am>&#x0309;</am><ex>er</ex></choice>et uch</sic></ref>: Lücke zwischen 't' und 'u'. Wahrscheinlich schon in der Vorlage falsch.</note>
 <l xml:id="fr69_721.26">Swa er die pa&#x017F;chahe<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ach.</l>
 <l xml:id="fr69_721.27">da reit d<choice><am>&#x0309;</am><ex>er</ex></choice> kv&#x0301;ni<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr69016vb"/>
@@ -1713,7 +1717,7 @@
 <pb xml:id="fr69017v"/><cb xml:id="fr69017va"/>
 <l xml:id="fr69_735.04">der t<unclear reason="Zweifel">o&#x036E;</unclear>fe&#x017F; k<unclear reason="Zweifel">v&#x0301;</unclear>nde nie gewan.</l>
 <l xml:id="fr69_735.05"><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">P</seg></unclear>arcifal reit balde.</l>
-<note resp="#GVi_Transkribent" target="#?1_735.06 #fr69_017va"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">P</seg></unclear>arcifal</ref>: Drei ausgesparte Zeilen sind noch zu erkennen, wieviel insgesamt eingerückt waren, bleibt unklar. Streng genommen läßt sich nicht sagen, ob die Initiale nicht auch ein <ref>D</ref> sein könnte, wahrscheinlich erscheint dies aber nicht.</note>
+<note resp="#GVi_Transkribent" target="#fr69_735.06 #fr69_017va"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">P</seg></unclear>arcifal</ref>: Drei ausgesparte Zeilen sind noch zu erkennen, wieviel insgesamt eingerückt waren, bleibt unklar. Streng genommen läßt sich nicht sagen, ob die Initiale nicht auch ein <ref>D</ref> sein könnte, wahrscheinlich erscheint dies aber nicht.</note>
 <l xml:id="fr69_735.06">gein eine<choice><am>&#x0304;</am><ex>m</ex></choice> groze<choice><am>&#x0304;</am><ex>n</ex></choice> walde.</l>
 <l xml:id="fr69_735.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_735.13">dan noch mag ichz v&#x0301; wol mer &#x017F;age<choice><am>&#x0304;</am><ex>n</ex></choice>.</l>
@@ -1722,7 +1726,7 @@
 <l xml:id="fr69_735.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_735.19"><gap reason="Fragmentverlust" extent="unbekannt"/>e&#x017F; wape<choice><am>&#x0304;</am><ex>n</ex></choice> roch.</l>
 <l xml:id="fr69_735.20"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">rre</unclear> <gap reason="unleserlich" extent="unbekannt"/>lle<choice><am>&#x0304;</am><ex>n</ex></choice> getroch</l>
-<note resp="#LC_Gegenleser" target="#?1_735.20 #Fr69017va"><ref><gap reason="unleserlich" extent="unbekannt"/>lle<choice><am>&#x0304;</am><ex>n</ex></choice></ref>: Rumpf, welcher Buchstaben unleserlich macht.</note>
+<note resp="#LC_Gegenleser" target="#fr69_735.20 #Fr69017va"><ref><gap reason="unleserlich" extent="unbekannt"/>lle<choice><am>&#x0304;</am><ex>n</ex></choice></ref>: Rumpf, welcher Buchstaben unleserlich macht.</note>
 <l xml:id="fr69_735.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr69017vb"/>
 <l xml:id="fr69_737.13"><choice><am>&#xA751;</am><ex>par</ex></choice>cifal reit nich eine.</l>
@@ -1763,7 +1767,7 @@
 <l xml:id="fr69_743.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr69_743.19">die beide lebend<gap reason="Fragmentverlust" extent="unbekannt"/> trv&#x0366;c &#x017F;in wib.</l>
 <l xml:id="fr69_743.20">do er iu&#x0301;nge&#x017F;t vmbe vienc <gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#GVi_Transkribent" target="#?1_743.20 #fr69018rb"><ref>iu&#x0301;nge&#x017F;t</ref>: Oder ist der Akzent nur ein verrutschter i-Punkt?</note>
+<note resp="#GVi_Transkribent" target="#fr69_743.20 #fr69018rb"><ref>iu&#x0301;nge&#x017F;t</ref>: Oder ist der Akzent nur ein verrutschter i-Punkt?</note>
 <cb xml:id="fr69018rc"/>
 <l xml:id="fr69_745.13"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;prach</l>
 <l xml:id="fr69_745.14">Nv gelo&#x036E;be helt daz ich <del hand="#sr">dir</del> <subst hand="#sr"><del>&#x017F;age</del><add>ge&#x017F;ach</add></subst></l>

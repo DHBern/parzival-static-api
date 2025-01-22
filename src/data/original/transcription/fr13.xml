@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>11.07.23</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -52,6 +54,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -74,17 +79,17 @@
 <l xml:id="fr13_128.13"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>es morg<gap reason="unleserlich" extent="unbekannt"/> <unclear reason="Zweifel">t</unclear>ag ir&#x017F;chein</l>
 <l xml:id="fr13_128.14">der knap<unclear reason="Zweifel">e</unclear> balt wart inein</l>
 <l xml:id="fr13_128.15">Jm waz kein artu&#x017F;e gach</l>
-<l xml:id="fr13_128.17">d<choice><am>&#x0309;</am><ex>er</ex></choice> werlt ri<unclear reason="Zweifel">w</unclear>e alda ge&#x017F;chach</l>
-<l xml:id="fr13_128.16">Sin mut<choice><am>&#x0309;</am><ex>er</ex></choice> in ku&#x017F;te vn<choice><am>&#x0304;</am><ex>d</ex></choice> lif im nach</l>
+<l xml:id="fr13_128.17"><milestone unit="Versumstellung"/>d<choice><am>&#x0309;</am><ex>er</ex></choice> werlt ri<unclear reason="Zweifel">w</unclear>e alda ge&#x017F;chach</l>
+<l xml:id="fr13_128.16"><milestone unit="Versumstellung"/>Sin mut<choice><am>&#x0309;</am><ex>er</ex></choice> in ku&#x017F;te vn<choice><am>&#x0304;</am><ex>d</ex></choice> lif im nach</l>
 <l xml:id="fr13_128.18">du &#x017F;i in nicht leng<unclear reason="Zweifel">ir</unclear> &#x017F;ach</l>
 <l xml:id="fr13_128.19">Du wart ir <unclear reason="Zweifel">v</unclear>e<gap reason="unleserlich" extent="unbekannt"/> danne baz</l>
-<note resp="#MiGe_Gegenleser" target="#?1_128.19 #Fr13001ra"><ref><unclear reason="Zweifel">v</unclear>e<gap reason="unleserlich" extent="unbekannt"/></ref>: Roethe liest <ref>we..st</ref>. Kann am Original weder bestätigt noch dementiert werden. Sicher ist aber, dass der erste unlesbare Buchstabe in v oder ein w ist.</note>
+<note resp="#MiGe_Gegenleser" target="#fr13_128.19 #Fr13001ra"><ref><unclear reason="Zweifel">v</unclear>e<gap reason="unleserlich" extent="unbekannt"/></ref>: Roethe liest <ref>we..st</ref>. Kann am Original weder bestätigt noch dementiert werden. Sicher ist aber, dass der erste unlesbare Buchstabe in v oder ein w ist.</note>
 <l xml:id="fr13_128.20">du vil di vr<unclear reason="Zweifel">o</unclear>we v<unclear reason="Zweifel">a</unclear>l&#x017F;chis laz</l>
 <l xml:id="fr13_128.21"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;neit</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#?1_128.21 #Fr13001ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;neit</supplied></ref>: Roethes Lesung passt zu den noch am Original erkennbaren Oberlängen.</note>
+<note resp="#MiGe_Gegenleser" target="#fr13_128.21 #Fr13001ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;neit</supplied></ref>: Roethes Lesung passt zu den noch am Original erkennbaren Oberlängen.</note>
 <cb xml:id="fr13001rb"/>
 <l xml:id="fr13_129.06"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="unbekannt"/><lb/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_129.06 #Fr13001rb">: Roethe erkennt bei diesem Vers Folgendes (von ihm mit Lachmann ergänzte Buchstaben befinden sich zwischen eckigen Klammern): (fore)st i<choice><am>&#x0304;</am><ex>n</ex></choice> pr(izljan her).</note>
+<note resp="#MiGe_Gegenleser" target="#fr13_129.06 #Fr13001rb">: Roethe erkennt bei diesem Vers Folgendes (von ihm mit Lachmann ergänzte Buchstaben befinden sich zwischen eckigen Klammern): (fore)st i<choice><am>&#x0304;</am><ex>n</ex></choice> pr(izljan her).</note>
 <l xml:id="fr13_129.07"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> quam <gap reason="unleserlich" extent="2" unit="Buchstabe"/> <lb/> einen b<unclear reason="Zweifel">a</unclear>ch ge<lb/>riten.</l>
 <l xml:id="fr13_129.08">den het<lb/>te ein h<unclear reason="Zweifel">an</unclear>e wol obir&#x017F;chriten<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
 <l xml:id="fr13_129.09">Swi <supplied reason="unleserlich" resp="Sekundärliteratur">da</supplied> &#x017F;tund<unclear reason="Zweifel">i</unclear>n blume<gap reason="unleserlich" extent="unbekannt"/> vn<choice><am>&#x0304;</am><ex>d</ex></choice> graz</l>
@@ -136,7 +141,7 @@
 <l xml:id="fr13_131.27">Seht dort &#x017F;teit brot vn<choice><am>&#x0304;</am><ex>d</ex></choice> win</l>
 <l xml:id="fr13_131.28">vn<choice><am>&#x0304;</am><ex>d</ex></choice> och zwei pertri&#x017F;kin</l>
 <l xml:id="fr13_131.29"><unclear reason="Zweifel">Al</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/> ein <supplied reason="unleserlich" resp="Sekundärliteratur">ju<choice><am>&#x0304;</am><ex>n</ex></choice>cf</supplied><unclear reason="Zweifel"><gap reason="Fragmentverlust" extent="unbekannt"/></unclear></l>
-<note resp="#MiGe_Gegenleser" target="#?1_131.29 #Fr13001vb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ju<choice><am>&#x0304;</am><ex>n</ex></choice>cf</supplied><unclear reason="Zweifel"><gap reason="Fragmentverlust" extent="unbekannt"/></unclear></ref>: 30.07.20, Nasalstrich und oberer Teil des Schaf-s sind am Original noch zu erkennen.</note>
+<note resp="#MiGe_Gegenleser" target="#fr13_131.29 #Fr13001vb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ju<choice><am>&#x0304;</am><ex>n</ex></choice>cf</supplied><unclear reason="Zweifel"><gap reason="Fragmentverlust" extent="unbekannt"/></unclear></ref>: 30.07.20, Nasalstrich und oberer Teil des Schaf-s sind am Original noch zu erkennen.</note>
 </body>
 </text>
 </TEI>

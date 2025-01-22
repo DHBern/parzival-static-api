@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>22.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -57,6 +59,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -140,10 +145,10 @@
 <cb xml:id="fr1001rb"/>
 <l xml:id="fr1_423.07"><hi rend="rot"><hi rend="Versal">D</hi></hi>iv kvnegin mit zv&#x0364;hten pflach.</l>
 <l xml:id="fr1_423.08"><hi rend="rot">G</hi>awan&#x017F; d<choice><am>&#x0309;</am><ex>er</ex></choice> ir <lb/> ze hercen lach.</l>
-<l xml:id="fr1_423.11"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr1_423.12"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr1_423.09"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr1_423.10"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr1_423.11"><milestone unit="Versumstellung"/>doch &#x017F;orgete vil div &#x017F;v&#x0364;ze <lb/> magt.</l>
+<l xml:id="fr1_423.12"><milestone unit="Versumstellung"/>vmbe Gawan&#x017F; tot wart mir ge&#x017F;agt. <lb/></l>
+<l xml:id="fr1_423.09"><milestone unit="Versumstellung"/>da wa&#x017F; d<choice><am>&#x0309;</am><ex>er</ex></choice> lantg<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ve allez mite.</l>
+<l xml:id="fr1_423.10"><milestone unit="Versumstellung"/>d<choice><am>&#x0309;</am><ex>er</ex></choice> en&#x017F;ciet &#x017F;i <lb/> nind<choice><am>&#x0309;</am><ex>er</ex></choice> von dem &#x017F;ite.</l>
 <l xml:id="fr1_423.13"><subst hand="#ls1u"><del><hi rend="rot">D</hi>a</del><add><hi rend="rot">S</hi>v&#x017F;</add></subst> waren di zwene <add hand="#ls1u">da</add> <lb/> inne.</l>
 <l xml:id="fr1_423.14">bi d<choice><am>&#x0309;</am><ex>er</ex></choice> kvneginne.</l>
 <l xml:id="fr1_423.15">vnze daz d<choice><am>&#x0309;</am><ex>er</ex></choice> tach lie <lb/> &#x017F;inen &#x017F;tri&#x0302;t.</l>
@@ -257,7 +262,7 @@
 <l xml:id="fr1_427.02">&#x017F;wem &#x017F;i gv&#x0364;tliche ein chv&#x0364;&#x017F;&#x017F;en <lb/> bot.</l>
 <l xml:id="fr1_427.03">de&#x017F; mv&#x0366;&#x017F;e &#x017F;wenden &#x017F;ich d<choice><am>&#x0309;</am><ex>er</ex></choice> walt.</l>
 <l xml:id="fr1_427.04">vo<choice><am>&#x0304;</am><ex>n</ex></choice> <lb/> maneg<choice><am>&#x0309;</am><ex>er</ex></choice> tio&#x017F;te <subst hand="#ls1u"><del>manech valt</del><add>vngezalt</add></subst>.</l>
-<note resp="#LC_Gegenleser" target="#?1_427.04 #Fr1001va"><ref><subst hand="#ls1u"><del>manech valt</del><add>vngezalt</add></subst></ref>: Mit roter Tinte zusätzlich durchgestrichen.</note>
+<note resp="#LC_Gegenleser" target="#fr1_427.04 #Fr1001va"><ref><subst hand="#ls1u"><del>manech valt</del><add>vngezalt</add></subst></ref>: Mit roter Tinte zusätzlich durchgestrichen.</note>
 <l xml:id="fr1_427.05">mit lobe wir <lb/>
 <cb xml:id="fr1001vb"/>
 &#x017F;olten grv&#x0364;zen.</l>
@@ -267,7 +272,7 @@
 <l xml:id="fr1_427.09">wande &#x017F;i lebte in &#x017F;o reinen &#x017F;iten.</l>
 <l xml:id="fr1_427.10">daz <lb/> nind<choice><am>&#x0309;</am><ex>er</ex></choice> wa&#x017F; vnd<choice><am>&#x0309;</am><ex>er</ex></choice> riten.</l>
 <l xml:id="fr1_427.11">ir p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>&#x017F; mit <subst hand="#sr"><del>val&#x017F;cer</del><add>val&#x017F;cen</add></subst> <subst hand="#ls1"><del><gap reason="unleserlich" extent="unbekannt"/><lb/>ben iehe</del><add><hi rend="rasur"><gap/></hi></add></subst></l>
-<note resp="#MiGe_Gegenleser" target="#?1_427.11 #Fr1001vb"><ref><subst hand="#ls1"><del><gap reason="unleserlich" extent="unbekannt"/><lb/>ben iehe</del><add><hi rend="rasur"><gap/></hi></add></subst></ref>: Zusätzliche Durchstreichung durch den Rubrikator.</note>
+<note resp="#MiGe_Gegenleser" target="#fr1_427.11 #Fr1001vb"><ref><subst hand="#ls1"><del><gap reason="unleserlich" extent="unbekannt"/><lb/>ben iehe</del><add><hi rend="rasur"><gap/></hi></add></subst></ref>: Zusätzliche Durchstreichung durch den Rubrikator.</note>
 <l xml:id="fr1_427.12"></l>
 <l xml:id="fr1_427.13"></l>
 <l xml:id="fr1_427.14"><unclear reason="Zweifel"><add hand="#ls1u"><gap reason="Fragmentverlust" extent="unbekannt"/>al&#x017F;o.</add></unclear></l>
@@ -324,8 +329,8 @@
 <l xml:id="fr1_429.04">daz ir decheiner wa&#x017F; wor<lb/>den wnt.</l>
 <l xml:id="fr1_429.05">ein gewaldech man vo<choice><am>&#x0304;</am><ex>n</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;ta<gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>
 <pb xml:id="fr1002r"/><cb xml:id="fr1002ra"/>
-<l xml:id="fr1_636.22-0"><note type="Notiz">Que vtilitas in &#x017F;angwine ps 29 7 4 V</note></l>
-<note resp="#RSo_Transkribent" target="#?1_636.22-0 #01002ra">: Wiedergabe nach Menger. Über <ref>ps</ref> befindet sich ein Nasalstrich.</note>
+<l xml:id="fr1_636.22-0"><note type="Notiz">Que vtilitas in &#x017F;angwine ps 29 et 4 V</note></l>
+<note resp="#RSo_Transkribent" target="#fr1_636.22-0 #01002ra">: Wiedergabe nach Menger. Über <ref>ps</ref> befindet sich ein Nasalstrich.</note>
 <l xml:id="fr1_636.22">den &#x017F;edel &#x017F;cv&#x0366;f her <hi rend="rot">G</hi>awan.</l>
 <l xml:id="fr1_636.23"><hi rend="rot">D</hi>er <hi rend="rot">T</hi>vrkoy&#x0307;te zv&#x0366; <lb/> zim &#x017F;az.</l>
 <l xml:id="fr1_636.24"><hi rend="rot">L</hi>y&#x0307;&#x017F;cois mit Gawan&#x017F; mv&#x0366;ter az.</l>
@@ -408,7 +413,7 @@ ge&#x017F;ehn.</l>
 <l xml:id="fr1_639.09">ir deheine&#x017F; chvn&#x017F;t wa&#x017F; <lb/> doch &#x017F;o ganz.</l>
 <l xml:id="fr1_639.10">&#x017F;ine mv&#x0364;&#x017F;en &#x017F;tri&#x0302;chen alten <lb/> tanz.</l>
 <l xml:id="fr1_639.11">niw&#x0366;er t&#x00E6;nze wa&#x017F; da wenech v<choice><am>&#x0309;</am><ex>er</ex></choice><lb/>nom<choice><am>&#x0304;</am><ex>en</ex></choice>.</l>
-<note resp="#LC_Gegenleser" target="#?1_639.11 #Fr1002rb"><ref>v<choice><am>&#x0309;</am><ex>er</ex></choice><lb/>nom<choice><am>&#x0304;</am><ex>en</ex></choice></ref>: Der Kürzungsstrich könnte auch von dem Korrektor stammen, da er in hellerer Tinte erscheint.</note>
+<note resp="#LC_Gegenleser" target="#fr1_639.11 #Fr1002rb"><ref>v<choice><am>&#x0309;</am><ex>er</ex></choice><lb/>nom<choice><am>&#x0304;</am><ex>en</ex></choice></ref>: Der Kürzungsstrich könnte auch von dem Korrektor stammen, da er in hellerer Tinte erscheint.</note>
 <l xml:id="fr1_639.12">d<choice><am>&#x0309;</am><ex>er</ex></choice> vn&#x017F; vo<choice><am>&#x0304;</am><ex>n</ex></choice> Dvringen vil i&#x017F;t chomen. <lb/></l>
 <l xml:id="fr1_639.13"><hi rend="rot"><hi rend="Versal">N</hi></hi>v danchte&#x017F; dem wirte.</l>
 <l xml:id="fr1_639.14">ir vro&#x036E;de er &#x017F;i <lb/> niht irte.</l>
@@ -543,7 +548,7 @@ im &#x017F;enftet daz i&#x017F;t gv&#x0366;t.</l>
 <l xml:id="fr1_643.20">da vo<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ich &#x017F;tarchez wnd<choice><am>&#x0309;</am><ex>er</ex></choice> hv&#x0366;p.</l>
 <l xml:id="fr1_643.21"><hi rend="rot">D</hi>ar zv&#x0366; al <lb/> d<choice><am>&#x0309;</am><ex>er</ex></choice> arzate chvn&#x017F;t.</l>
 <l xml:id="fr1_643.22">ob &#x017F;i im trv&#x0364;gen <subst hand="#sr"><del>gv&#x0366;*</del><add>gvn&#x017F;t</add></subst>. <lb/></l>
-<note resp="#RSo_Transkribent" target="#?1_643.22 #01002vb">: Vor <ref>gvn&#x017F;t</ref> befindet sich das Zeichen ''. Pfeiffer, Quellenmaterial, S. 44, ist zuzustimmen: "Das Fehlende guote war wohl am Rande nachgetragen, ist aber jetzt weggeschnitten."</note>
+<note resp="#RSo_Transkribent" target="#fr1_643.22 #01002vb">: Vor <ref>gvn&#x017F;t</ref> befindet sich das Zeichen ''. Pfeiffer, Quellenmaterial, S. 44, ist zuzustimmen: "Das Fehlende guote war wohl am Rande nachgetragen, ist aber jetzt weggeschnitten."</note>
 <l xml:id="fr1_643.23">mit tempri&#x0302;e v&#x0366;z wrce chraft.</l>
 <l xml:id="fr1_643.24">ane wi&#x0302;plich <lb/> ge&#x017F;elle&#x017F;caft.</l>
 <l xml:id="fr1_643.25">&#x017F;o mv&#x0364;&#x017F;er &#x017F;ine &#x017F;carpfe not.</l>

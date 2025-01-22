@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>03.09.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -57,6 +59,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -83,9 +88,9 @@
 <l xml:id="fr8_282.23"><gap reason="Fragmentverlust" extent="unbekannt"/>on &#x017F;inen truwen daz ge&#x017F;chach</l>
 <l xml:id="fr8_282.24"><gap reason="Fragmentverlust" extent="unbekannt"/>o er die blu&#x0366;tes zaher &#x017F;ach</l>
 <l xml:id="fr8_282.25"><gap reason="Fragmentverlust" extent="unbekannt"/>f deme &#x017F;ne die wa&#x017F; al wiz <unclear reason="Zweifel">/</unclear></l>
-<note resp="#JLa_Transkribent" target="#?1_282.25 #Fr8001ra">: Es ist fraglich, ob dem Strich am Versende die Funktion einer textgliedernden Virgel zukommt.</note>
+<note resp="#JLa_Transkribent" target="#fr8_282.25 #Fr8001ra">: Es ist fraglich, ob dem Strich am Versende die Funktion einer textgliedernden Virgel zukommt.</note>
 <l xml:id="fr8_282.26"><gap reason="Fragmentverlust" extent="unbekannt"/> gedachter <unclear reason="Zweifel">/</unclear> wer hat &#x017F;inen vliz</l>
-<note resp="#JLa_Transkribent" target="#?1_282.26 #fr8001ra"><ref>/</ref>: Es ist fraglich, ob dem Strich zwischen <ref>gedachter</ref> und <ref>wer</ref> die Funktion einer textgliedernden Virgel zukommt.</note>
+<note resp="#JLa_Transkribent" target="#fr8_282.26 #fr8001ra"><ref>/</ref>: Es ist fraglich, ob dem Strich zwischen <ref>gedachter</ref> und <ref>wer</ref> die Funktion einer textgliedernden Virgel zukommt.</note>
 <l xml:id="fr8_282.27"><gap reason="Fragmentverlust" extent="unbekannt"/>ewant an di&#x017F;&#x017F;e varewe klar</l>
 <l xml:id="fr8_282.28"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">o</unclear>nduweramurs ich mach v<choice><am>&#x0309;</am><ex>or</ex></choice>war</l>
 <l xml:id="fr8_282.29"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">i</unclear>&#x017F;&#x017F;e varewe dir gelichen</l>
@@ -137,7 +142,7 @@
 <l xml:id="fr8_284.13"><hi rend="Versal">S</hi>us was des knappen kry&#x0307;e</l>
 <l xml:id="fr8_284.14">Fy&#x0307;a fy&#x0307;a fya fi</l>
 <l xml:id="fr8_284.15">Jr vertane</l>
-<note resp="#JLa_Transkribent" target="#?1_284.15 #Fr80001rb"><ref>fi Jr vertane</ref>:Die Verse 284.14 und 284.15 befinden sich in einer Zeile. Das Majuskel-J lässt vermuten, dass der Schreiber das fi noch zu Vers 14 zählte.</note>
+<note resp="#JLa_Transkribent" target="#fr8_284.15 #Fr80001rb"><ref>fi Jr vertane</ref>:Die Verse 284.14 und 284.15 befinden sich in einer Zeile. Das Majuskel-J lässt vermuten, dass der Schreiber das fi noch zu Vers 14 zählte.</note>
 <l xml:id="fr8_284.16">Vnt&#x017F;aget i&#x017F;t Gawane</l>
 <l xml:id="fr8_284.17">Vnd al di&#x017F;&#x017F;er ritter&#x017F;chaft</l>
 <l xml:id="fr8_284.18">Gein wirdechlicher pri&#x017F;e kraft</l>
@@ -146,10 +151,10 @@
 <l xml:id="fr8_284.21">Tabelrunder i&#x017F;t ge&#x017F;chant</l>
 <l xml:id="fr8_284.22">Durch die &#x017F;nu&#x0366;re i&#x017F;t in gerant</l>
 <l xml:id="fr8_284.23"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>a wart von rittern michel &#x017F;chal</l>
-<note resp="#JLa_Transkribent" target="#?1_284.23 #Fr8001rb"><ref>wart</ref>:Über dem "t" befindet sich ein Punkt, bei dem es sich um einen Federansatz handeln könnte.</note>
+<note resp="#JLa_Transkribent" target="#fr8_284.23 #Fr8001rb"><ref>wart</ref>:Über dem "t" befindet sich ein Punkt, bei dem es sich um einen Federansatz handeln könnte.</note>
 <l xml:id="fr8_284.24">Sie begunden vragen vber al</l>
 <l xml:id="fr8_284.25">Ob ritter&#x017F;chaft da were getan</l>
-<note resp="#JLa_Transkribent" target="#?1_284.25 #Fr8001rb"><ref>getan</ref>:Über dem "n" des Wortes <ref>getan</ref> befindet sich ein "b" mit unklarer Bedeutung.</note>
+<note resp="#JLa_Transkribent" target="#fr8_284.25 #Fr8001rb"><ref>getan</ref>:Über dem "n" des Wortes <ref>getan</ref> befindet sich ein "b" mit unklarer Bedeutung.</note>
 <l xml:id="fr8_284.26">Do &#x017F;ag&#x00E6;te man in daz ein man</l>
 <l xml:id="fr8_284.27">Da hielde zeiner io&#x017F;t bereit</l>
 <l xml:id="fr8_284.28">Genu&#x0366;gen wa&#x017F; gelubede leit</l>
@@ -264,7 +269,7 @@
 <l xml:id="fr8_288.13"><hi rend="Versal">D</hi>o er der zar nicht me en &#x017F;ach</l>
 <pb xml:id="fr8002r"/><cb xml:id="fr8002ra"/>
 <l xml:id="fr8_669.07-0"><note type="Notiz">Driefachtiger V<unclear reason="Zweifel">e</unclear>h<unclear reason="Zweifel">e</unclear>&#x017F;chaft <lb/> Jn der Schl<unclear reason="Zweifel">u&#x0366;e</unclear>terie <lb/> des Lx <unclear reason="Zweifel">i&#x017F;t</unclear> Jars</note></l>
-<note resp="#MiGe_Gegenleser" target="#?1_669.07-0 #Fr8002ra">: Notiz steht auf Kopf.</note>
+<note resp="#MiGe_Gegenleser" target="#fr8_669.07-0 #Fr8002ra">: Notiz steht auf Kopf.</note>
 <l xml:id="fr8_669.07">Gieng ouch dar vnden</l>
 <l xml:id="fr8_669.08">Mit helmen druf gebunden</l>
 <l xml:id="fr8_669.09">Bi <subst hand="#sr"><del>manigem&#x017F;childe</del><add>manigem &#x017F;childe</add></subst> wol getan</l>
@@ -443,7 +448,7 @@
 <l xml:id="fr8_674.28">Stunt &#x017F;o ritterliche</l>
 <l xml:id="fr8_674.29">Daz &#x017F;iv wa&#x017F; ko&#x017F;teb<choice><am>&#x0309;</am><ex>er</ex></choice>e</l>
 <l xml:id="fr8_674.30">Vnd von armu&#x0366;te lere</l>
-<note resp="#JLa_Transkribent" target="#?1_674.29 #Fr8002vb">:Die Verse stehen auf einer Zeile.</note>
+<note resp="#JLa_Transkribent" target="#fr8_674.29 #Fr8002vb">:Die Verse stehen auf einer Zeile.</note>
 <l xml:id="fr8_675.01">Jn &#x017F;ine herberge do reit</l>
 <l xml:id="fr8_675.02">Maniger dem von herzen leit</l>
 <l xml:id="fr8_675.03">Wa&#x017F; &#x017F;in langez vz we&#x017F;en</l>

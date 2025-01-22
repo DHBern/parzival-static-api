@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>15.06.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -55,6 +57,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -73,7 +78,7 @@
 <l xml:id="fr60_255.23">Jch wandelz han ich iht getan</l>
 <l xml:id="fr60_255.24">Jr &#x017F;v&#x0364;lt wandels &#x017F;ein erlan</l>
 <l xml:id="fr60_255.25">Sprach dev magt mir i&#x017F;t wol bec<unclear reason="Zweifel">han</unclear>t</l>
-<note resp="#MiGe_Gegenleser" target="#?1_255.25 #Fr60001ra"><ref>bec<unclear reason="Zweifel">han</unclear>t</ref>: Stanonik gibt <ref>bekannt</ref> an, was aber in sprachlicher Hinsicht eher unwahrscheinlich ist.</note>
+<note resp="#MiGe_Gegenleser" target="#fr60_255.25 #Fr60001ra"><ref>bec<unclear reason="Zweifel">han</unclear>t</ref>: Stanonik gibt <ref>bekannt</ref> an, was aber in sprachlicher Hinsicht eher unwahrscheinlich ist.</note>
 <l xml:id="fr60_255.26">Ze mvnt&#x017F;chalva&#x017F;che an ev v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;want</l>
 <cb xml:id="fr60001rb"/>
 <l xml:id="fr60_256.29">wan<gap reason="unleserlich" extent="unbekannt"/> rait ein <gap reason="Fragmentverlust" extent="unbekannt"/>e wert</l>
@@ -83,7 +88,7 @@
 <l xml:id="fr60_257.03">Ge&#x017F;chelle vnt b<gap reason="Fragmentverlust" extent="unbekannt"/> v<choice><am>&#x0309;</am><ex>er</ex></choice>reret</l>
 <l xml:id="fr60_257.04">Groz zadel dara<gap reason="Fragmentverlust" extent="unbekannt"/>meret</l>
 <l xml:id="fr60_257.05">D<choice><am>&#x0309;</am><ex>er</ex></choice> frowen tr<supplied reason="unleserlich" resp="Sekundärliteratur">ovric</supplied> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#JKl_Transkribent" target="#?1_257.05 #fr60001rb">:Unterer Teil der Zeile abgeschnitten.</note>
+<note resp="#JKl_Transkribent" target="#fr60_257.05 #fr60001rb">:Unterer Teil der Zeile abgeschnitten.</note>
 <pb xml:id="fr60001v"/><cb xml:id="fr60001va"/>
 <l xml:id="fr60_258.06">Da von i&#x017F;t laide m<gap reason="Fragmentverlust" extent="unbekannt"/>e&#x017F;chehen</l>
 <l xml:id="fr60_258.07">Doch mvez ev frev<gap reason="Fragmentverlust" extent="unbekannt"/> ere</l>

@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>13.11.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -56,6 +58,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -67,9 +72,10 @@
 <note>Endredaktion 2017 AB</note>
 <note>07.10.2018, MiGe: sek-Tags ergänzt und teilweise Zweifeltags entfernt. Quelle: Hans-Friedrich Rosenfeld, Die Berliner Parzivalfragmente, in: Mittelalterliche Handschriften. Paläographische, kunsthistorische, literarische und bibliotheksgeschichtliche Untersuchungen. Festgabe zum 60. Geburtstag von Hermann Degering, hg. von Alois Bömer und Joachim Kirchner, Leipzig 1926 (Nachdruck Hildesheim/New York 1973), S. 192-202, hier S. 201f. (Kollation).</note>
 <note>Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr52 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<note>Die konstante Einrichtung der Spalten zu je 44 Zeilen erlauben eine Rekonstruktion der Anzahl an materiell bedingt nicht überlieferten Versen.</note>
 <pb xml:id="fr52001r"/><cb xml:id="fr52001ra"/>
 <l xml:id="fr52_678.15-0"><note type="Kustode">xvii</note></l>
-<note resp="#JKl_Transkribent" target="#?1_678.15-0 #001ra"><ref><note type="Kustode">xvii</note></ref>: Bonath schreibt, Blatt war innerstes einer Lage, kann also keine Kustode enthalten.</note>
+<note resp="#JKl_Transkribent" target="#fr52_678.15-0 #001ra"><ref><note type="Kustode">xvii</note></ref>: Bonath schreibt, Blatt war innerstes einer Lage, kann also keine Kustode enthalten.</note>
 <l xml:id="fr52_678.15">Al eine reit her gawan</l>
 <l xml:id="fr52_678.16">von dem her v<choice><am>&#x0309;</am><ex>er</ex></choice>re vf den plan</l>
 <l xml:id="fr52_678.17"><gap reason="unleserlich" extent="unbekannt"/>gk <gap reason="unleserlich" extent="unbekannt"/> mvze &#x017F;in walden</l>
@@ -86,21 +92,6 @@
 <l xml:id="fr52_678.28">von dem &#x017F;elbin manne</l>
 <l xml:id="fr52_678.29"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Mugt ir wol han v<choice><am>&#x0309;</am><ex>er</ex></choice>nvmen</l>
 <l xml:id="fr52_678.30"><gap reason="Fragmentverlust" extent="unbekannt"/> <lb/><g ref="#alin1"/> kvmen<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
-<l xml:id="fr52_679.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_679.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_679.16">ein al&#x017F;o lichten krantz</l>
 <l xml:id="fr52_679.17">Daz gawan diz riz erkande</l>
 <l xml:id="fr52_679.18">do vorcht<choice><am>&#x0309;</am><ex>er</ex></choice> di &#x017F;chande</l>
@@ -128,25 +119,6 @@
 <l xml:id="fr52_680.09">Durkel &#x017F;charte an enphienc</l>
 <l xml:id="fr52_680.10">Nv hort wi di tio&#x017F;t erginc</l>
 <l xml:id="fr52_680.11">Hurticlich vnd doch al&#x017F;o</l>
-<l xml:id="fr52_680.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.16"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.19"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.22"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.25"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.28"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_680.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_681.01">Da enwas nimant d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chide &#x017F;i</l>
 <l xml:id="fr52_681.02">Welt ir nv horen wi</l>
 <l xml:id="fr52_681.03">An den &#x017F;elben &#x017F;tvnden</l>
@@ -173,24 +145,6 @@
 <l xml:id="fr52_681.23"><gap reason="Fragmentverlust" extent="unbekannt"/>nd manige banire</l>
 <l xml:id="fr52_681.24">manic groze rotte &#x017F;chire</l>
 <l xml:id="fr52_681.25">Da was bv&#x017F;vnen krach</l>
-<l xml:id="fr52_681.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_681.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_681.28"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_681.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_681.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_682.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_682.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_682.15">Di w<choice><am>&#x0309;</am><ex>er</ex></choice>den pvntvrtoy&#x017F;e</l>
 <l xml:id="fr52_682.16">warn wol an dirre rei&#x017F;e</l>
@@ -246,22 +200,7 @@
 <l xml:id="fr52_684.22">hi en mac nicht and<choice><am>&#x0309;</am><ex>er</ex></choice>s an irgen</l>
 <l xml:id="fr52_684.23">Wen daz ich den kamph lei&#x017F;ten wil</l>
 <l xml:id="fr52_684.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_684.24 #Fr52002ra">: Rosenfeld gibt <ref>han doch. so vil wol (?)</ref> und "zur unteren Hälft4e abgeschnitten" an. Mit Hilfe des Digitalfaksimiles und Rosenfelds Angabe kann der Vers aber nicht sicher rekonstruiert werden.</note>
-<l xml:id="fr52_684.25"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_684.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_684.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_684.28"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_684.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_684.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_685.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<note resp="#MiGe_Gegenleser" target="#fr52_684.24 #Fr52002ra">: Rosenfeld gibt <ref>han doch. so vil wol (?)</ref> und "zur unteren Hälft4e abgeschnitten" an. Mit Hilfe des Digitalfaksimiles und Rosenfelds Angabe kann der Vers aber nicht sicher rekonstruiert werden.</note>
 <l xml:id="fr52_685.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_685.12">op ir gebitet des vragt ir</l>
 <l xml:id="fr52_685.13">Gegen luten di des min<choice><am>&#x0309;</am><ex>er</ex></choice> hant</l>
@@ -319,22 +258,6 @@
 <l xml:id="fr52_687.20"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">in</unclear>e &#x017F;chilt</l>
 <l xml:id="fr52_687.21"><gap reason="Fragmentverlust" extent="unbekannt"/>pent nv</l>
 <l xml:id="fr52_687.22"><gap reason="Fragmentverlust" extent="unbekannt"/>riffen z<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.24"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.25"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.28"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_687.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.01"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.02"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_688.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_688.10"><gap reason="Fragmentverlust" extent="unbekannt"/>ebot</l>
 <l xml:id="fr52_688.11"><gap reason="Fragmentverlust" extent="unbekannt"/>en</l>
 <l xml:id="fr52_688.12"><gap reason="Fragmentverlust" extent="unbekannt"/>envmen</l>
@@ -363,22 +286,6 @@
 <l xml:id="fr52_689.04">Al hi mit &#x017F;trite i&#x017F;t getan</l>
 <l xml:id="fr52_689.05">Jch han mich &#x017F;elber vb<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;triten</l>
 <l xml:id="fr52_689.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.14"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.16"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.17"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.19"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.20"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr52_689.22"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_689.23"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr52_689.24">ich bins din neve parzchival</l>
 <l xml:id="fr52_689.25">Gawan &#x017F;prach &#x017F;o i&#x017F;t iz recht</l>
@@ -390,7 +297,7 @@
 <l xml:id="fr52_690.01">Du ha&#x017F;t dir &#x017F;<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>lbe ange&#x017F;iget</l>
 <l xml:id="fr52_690.02">op din h<choice><am>&#x0309;</am><ex>er</ex></choice>ze truwe<unclear reason="Zweifel">n</unclear> phlige<gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>
 <l xml:id="fr52_690.03">Do di&#x017F;e r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied> was <subst hand="#sr"><del>gawan</del><add>getan</add></subst></l>
-<note resp="#MiGe_Gegenleser" target="#?1_690.03 #Fr52002vb"><ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></ref>: Rosenfeld zufolge stand nach <ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></ref> das Wort <supplied reason="unleserlich" resp="Sekundärliteratur">nv</supplied>. Dies kann mit Hilfe des Digitalfaksimiles weder bestätigt noch dementiert werden.</note>
+<note resp="#MiGe_Gegenleser" target="#fr52_690.03 #Fr52002vb"><ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></ref>: Rosenfeld zufolge stand nach <ref>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>d<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></ref> das Wort <supplied reason="unleserlich" resp="Sekundärliteratur">nv</supplied>. Dies kann mit Hilfe des Digitalfaksimiles weder bestätigt noch dementiert werden.</note>
 <l xml:id="fr52_690.04"><gap reason="unleserlich" extent="unbekannt"/> mochte min her gawan</l>
 </body>
 </text>

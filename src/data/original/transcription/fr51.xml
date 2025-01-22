@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,11 +13,12 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>22.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
         <msIdentifier>
+          <repository>Parzival-Projekt</repository>
           <idno>fr51</idno>
         </msIdentifier>
         <msFrag>
@@ -70,6 +73,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -255,7 +261,7 @@
 <l xml:id="fr51_238.02">Nv horet andere mare</l>
 <l xml:id="fr51_238.03">Hvndert knapen man ge bot</l>
 <l xml:id="fr51_238.04">Die namen in witzen twelen brot</l>
-<note resp="#MiGe_Gegenleser" target="#?1_238.04 #Fr51001vb">: Vermutlich Tintenfleck nach Ende des Verses.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_238.04 #Fr51001vb">: Vermutlich Tintenfleck nach Ende des Verses.</note>
 <l xml:id="fr51_238.05">Mit zuchten vor den grale</l>
 <l xml:id="fr51_238.06">Sie gingen alzomale</l>
 <pb xml:id="fr51002r"/><cb xml:id="fr51002ra"/>
@@ -337,7 +343,7 @@
 <l xml:id="fr51_252.03">Ob wendich &#x017F;i &#x017F;in vrey&#x017F;e</l>
 <l xml:id="fr51_252.04">Wol dich d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;alden rey&#x0307;&#x017F;e</l>
 <l xml:id="fr51_252.05">Wan<unclear reason="Zweifel">t</unclear> waz die luft hat be<supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;l</supplied><unclear reason="Zweifel">age</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#?1_252.05 #Fr51002rb"><ref>Wan<unclear reason="Zweifel">t</unclear></ref>: Auch am Original sieht der letzte Buchstabe des ersten Wortes mehr wie ein <ref>t</ref> aus als wie ein <ref>e</ref>.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_252.05 #Fr51002rb"><ref>Wan<unclear reason="Zweifel">t</unclear></ref>: Auch am Original sieht der letzte Buchstabe des ersten Wortes mehr wie ein <ref>t</ref> aus als wie ein <ref>e</ref>.</note>
 <l xml:id="fr51_252.06">Dar uffe mo&#x017F;tu hohe tragen</l>
 <l xml:id="fr51_252.07">Dir dienet zam vn<unclear reason="Zweifel">d</unclear> wilt</l>
 <l xml:id="fr51_252.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -423,7 +429,7 @@
 <l xml:id="fr51_254.26">Den wun&#x017F;ch vf d<choice><am>&#x0309;</am><ex>er</ex></choice> erden</l>
 <l xml:id="fr51_254.27">Ha&#x017F;tu <unclear reason="Zweifel">d</unclear><gap reason="unleserlich" extent="unbekannt"/> geweldichliche</l>
 <l xml:id="fr51_254.28"><gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/> i&#x017F;t <unclear reason="Zweifel">&#x017F;</unclear>o riche</l>
-<note resp="#MiGe_Gegenleser" target="#?1_254.28 #Fr51002vb"><ref><unclear reason="Zweifel">&#x017F;</unclear></ref>: Der kaum erkennbare Buchstabe vor de, <ref>o</ref> ähnelt am Original eher einem runden s als einem Schaft-s. Da aber <ref>so</ref> in Fr51 immer mit einem Schaft-s geschrieben wird, wird auch hier ein Schaft-s transkribiert.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_254.28 #Fr51002vb"><ref><unclear reason="Zweifel">&#x017F;</unclear></ref>: Der kaum erkennbare Buchstabe vor de, <ref>o</ref> ähnelt am Original eher einem runden s als einem Schaft-s. Da aber <ref>so</ref> in Fr51 immer mit einem Schaft-s geschrieben wird, wird auch hier ein Schaft-s transkribiert.</note>
 <pb xml:id="fr51003r"/><cb xml:id="fr51003ra"/>
 <l xml:id="fr51_601.19">Maniger claren vrowen</l>
 <l xml:id="fr51_601.20">Se &#x017F;prach ich laze iv &#x017F;chowen</l>
@@ -442,7 +448,7 @@
 <l xml:id="fr51_602.03">Sone dorf is nicht lengen</l>
 <l xml:id="fr51_602.04">Ellenthaft &#x017F;prengen</l>
 <l xml:id="fr51_602.05">M<unclear reason="Zweifel">o</unclear>z ir zo or&#x017F;e don aldus</l>
-<note resp="#MiGe_Gegenleser" target="#?1_602.05 #Fr51003ra"><ref>M<unclear reason="Zweifel">o</unclear>z</ref>: Die Lesung <ref>Mvz</ref> ist auch möglich, <ref>mov</ref> kommt in Fr51 aber deutlich öfter vor.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_602.05 #Fr51003ra"><ref>M<unclear reason="Zweifel">o</unclear>z</ref>: Die Lesung <ref>Mvz</ref> ist auch möglich, <ref>mov</ref> kommt in Fr51 aber deutlich öfter vor.</note>
 <l xml:id="fr51_602.06">Ober ligoes prillius</l>
 <l xml:id="fr51_602.07">Se helt al &#x017F;tille vf den plan</l>
 <l xml:id="fr51_602.08">Vor bas reit h<choice><am>&#x0309;</am><ex>er</ex></choice> gawan</l>
@@ -494,7 +500,7 @@
 <l xml:id="fr51_603.23">Orgelu&#x017F;e de glanze</l>
 <l xml:id="fr51_603.24">En iagete nach den k<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr51_603.25">Das en ellenthafter <gap reason="unleserlich" extent="unbekannt"/> <note type="Marginalie">das</note></l>
-<note resp="#MiGe_Gegenleser" target="#?1_603.25 #Fr510003rb">: Zur Linken des Verses steht <ref>DAS</ref> oder <ref>AS</ref>, wobei sich über dem mutmasslichen <ref>D</ref> ein nach rechts gerichteter Bogen befindet. Ob dieses Wort mit dem Anfang von Vers 603.25 oder einer Einfügung an einer nicht mehr lesbaren Stelle zusammenhängt, kann nicht beurteilt werden.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_603.25 #Fr510003rb">: Zur Linken des Verses steht <ref>DAS</ref> oder <ref>AS</ref>, wobei sich über dem mutmasslichen <ref>D</ref> ein nach rechts gerichteter Bogen befindet. Ob dieses Wort mit dem Anfang von Vers 603.25 oder einer Einfügung an einer nicht mehr lesbaren Stelle zusammenhängt, kann nicht beurteilt werden.</note>
 <l xml:id="fr51_603.26">D<choice><am>&#x0309;</am><ex>er</ex></choice> bom was al&#x017F;o bewa<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr51_603.27">Waren gawanes zw<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr51_603.28">Vmbe den kranz ha<gap reason="unleserlich" extent="unbekannt"/></l>
@@ -506,7 +512,7 @@
 <l xml:id="fr51_604.04">We orgelu&#x017F;en gle<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr51_604.05">Ine wolte ir minne &#x017F;o niht <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr51_604.06">Jch weiz wol was <gap reason="unleserlich" extent="unbekannt"/> &#x017F;ol g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_604.06 #Fr51003rb"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Rosenfeld gibt <ref>im</ref> an.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_604.06 #Fr51003rb"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Rosenfeld gibt <ref>im</ref> an.</note>
 <l xml:id="fr51_604.07">Do gawan das ris brach</l>
 <l xml:id="fr51_604.08">Vn<choice><am>&#x0304;</am><ex>de</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice> kranz wart &#x017F;ins h<gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr51_604.09">Do reit zo im en ritter <gap reason="unleserlich" extent="2" unit="Buchstabe"/>a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -537,7 +543,7 @@
 <l xml:id="fr51_605.03"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="1" unit="Buchstabe"/> vorte d<choice><am>&#x0309;</am><ex>er</ex></choice> degen mare</l>
 <l xml:id="fr51_605.04"><gap reason="Fragmentverlust" extent="unbekannt"/>en mvter &#x017F;perware</l>
 <l xml:id="fr51_605.05"><gap reason="Fragmentverlust" extent="unbekannt"/>unt of &#x017F;iner claren hant</l>
-<l xml:id="fr51_605.06"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied>eine hattin im ge&#x017F;ant</l>
+<l xml:id="fr51_605.06"><gap reason="Fragmentverlust" extent="unbekannt"/>enie hattin im ge&#x017F;ant</l>
 <l xml:id="fr51_605.07"><gap reason="Fragmentverlust" extent="unbekannt"/>wans werde &#x017F;we&#x017F;ter</l>
 <l xml:id="fr51_605.08"><gap reason="Fragmentverlust" extent="unbekannt"/>win van &#x017F;ince&#x017F;ter</l>
 <l xml:id="fr51_605.09"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="1" unit="Buchstabe"/> hu&#x0366;t vf &#x017F;ime hobte was</l>
@@ -625,7 +631,7 @@
 <l xml:id="fr51_607.29">Wer gaes mir vor ere gros</l>
 <l xml:id="fr51_607.30">Ob ich iv &#x017F;loge aldus blos</l>
 <l xml:id="fr51_608.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">J</seg>ch wil iu&#x0366;we bote &#x017F;in</l>
-<note resp="#MiGe_Gegenleser" target="#?1_608.01 #Fr51;4ra"><ref><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">J</seg>c</ref>: Für die Initiale wurden keine Zeilen eingerückt.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_608.01 #Fr51;4ra"><ref><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">J</seg>c</ref>: Für die Initiale wurden keine Zeilen eingerückt.</note>
 <l xml:id="fr51_608.02">Gebet mir h<choice><am>&#x0309;</am><ex>er</ex></choice> das vingerlin</l>
 <l xml:id="fr51_608.03">Vn<choice><am>&#x0304;</am><ex>de</ex></choice> lazet mich u&#x0366;wen dene&#x017F;t &#x017F;agen</l>
 <l xml:id="fr51_608.04">Vn<choice><am>&#x0304;</am><ex>de</ex></choice> u&#x0366;wen kvmber nicht vor dagen</l>
@@ -654,9 +660,9 @@
 <l xml:id="fr51_608.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr51004rb"/>
 <l xml:id="fr51_608.29">Jm pri&#x017F;es niman lichen m<gap reason="unleserlich" extent="2" unit="Buchstabe"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_608.29 #Fr51004rb"><ref>m<gap reason="unleserlich" extent="2" unit="Buchstabe"/></ref>: Möglicherweise besteht das Reimwort auch aus vier Buchstaben.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_608.29 #Fr51004rb"><ref>m<gap reason="unleserlich" extent="2" unit="Buchstabe"/></ref>: Möglicherweise besteht das Reimwort auch aus vier Buchstaben.</note>
 <l xml:id="fr51_608.30">Jch lebe iegen im &#x017F;trites d<unclear reason="Zweifel">a</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_608.30 #Fr51004rb"><ref>d<unclear reason="Zweifel">a</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/></ref>: Möglicherweise besteht das Reimwort auch aus vier Buchstaben</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_608.30 #Fr51004rb"><ref>d<unclear reason="Zweifel">a</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/></ref>: Möglicherweise besteht das Reimwort auch aus vier Buchstaben</note>
 <l xml:id="fr51_609.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o &#x017F;prach des kvninges lottes <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr51_609.02">Wiltir tru&#x0366;welichen tvn</l>
 <l xml:id="fr51_609.03">Vwer vre<unclear reason="Zweifel">und</unclear>nen ob iz de i&#x017F;t</l>
@@ -722,10 +728,10 @@
 <l xml:id="fr51_611.03">Mit ritern vn<choice><am>&#x0304;</am><ex>de</ex></choice> mit vrowen her</l>
 <l xml:id="fr51_611.04">Quamen durch ir zwier wer</l>
 <l xml:id="fr51_611.05"><unclear reason="Zweifel">D</unclear>us was benant das gedinch</l>
-<note resp="#MiGe_Gegenleser" target="#?1_611.05 #Fr51004va"><ref><unclear reason="Zweifel">D</unclear></ref>: Auch am Original sieht der Abfangsbuchstabe des Verses am ehesten wie ein Majuskel-D aus.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_611.05 #Fr51004va"><ref><unclear reason="Zweifel">D</unclear></ref>: Auch am Original sieht der Abfangsbuchstabe des Verses am ehesten wie ein Majuskel-D aus.</note>
 <l xml:id="fr51_611.06">Se b<supplied reason="unleserlich" resp="Sekundärliteratur">ed</supplied>e al eine an enen rinch</l>
 <l xml:id="fr51_611.07">Dus &#x017F;cheit h<choice><am>&#x0309;</am><ex>er</ex></choice> gawan</l>
-<note resp="#MiGe_Gegenleser" target="#?1_611.07 #F51004va"><ref>Dus</ref>: Auch am Original ist ebenfalls ein Majuskel-D am Versbeginn zu erkennen.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_611.07 #F51004va"><ref>Dus</ref>: Auch am Original ist ebenfalls ein Majuskel-D am Versbeginn zu erkennen.</note>
 <l xml:id="fr51_611.08">Van den &#x017F;elben werten man</l>
 <l xml:id="fr51_611.09">Mit vrouden h<choice><am>&#x0309;</am><ex>er</ex></choice> loi&#x017F;irte</l>
 <l xml:id="fr51_611.10">D<choice><am>&#x0309;</am><ex>er</ex></choice> krans in kvndirwirte</l>
@@ -742,7 +748,7 @@
 <l xml:id="fr51_611.21">Stunt &#x017F;e &#x017F;nelliche</l>
 <l xml:id="fr51_611.22">De h<choice><am>&#x0309;</am><ex>er</ex></choice>zoginne riche</l>
 <l xml:id="fr51_611.23"><gap reason="unleserlich" extent="unbekannt"/> zo &#x017F;inen vozen bot</l>
-<note resp="#MiGe_Gegenleser" target="#?1_611.23 #Fr51004va"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Möglicherweise steht <ref>Hin</ref> am Versanfang. Die Lesung ist aber derart unsicher (am Original, am Scan lässt sich gar nichts erkennen), dass sie auch nicht in Zweifel-Tags angegeben wird.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_611.23 #Fr51004va"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Möglicherweise steht <ref>Hin</ref> am Versanfang. Die Lesung ist aber derart unsicher (am Original, am Scan lässt sich gar nichts erkennen), dass sie auch nicht in Zweifel-Tags angegeben wird.</note>
 <l xml:id="fr51_611.24">Do &#x017F;prach h<choice><am>&#x0309;</am><ex>er</ex></choice>re &#x017F;ulcher not</l>
 <l xml:id="fr51_611.25"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">l&#x017F;</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr51004vb"/>
@@ -761,7 +767,7 @@
 <l xml:id="fr51_612.09">Wer ritter&#x017F;chaft zo rechte ie plach</l>
 <l xml:id="fr51_612.10">Vrowe ob ich &#x017F;o &#x017F;prechen mach</l>
 <l xml:id="fr51_612.11">Wer mir da bi hat ge&#x017F;ehn</l>
-<note resp="#MiGe_Gegenleser" target="#?1_612.11 #Fr40004vb"><ref>mir</ref>: Es steht wirklich <ref>mir</ref> und nicht <ref>mich</ref> (wie in er Gesamtüberlieferung) da.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_612.11 #Fr40004vb"><ref>mir</ref>: Es steht wirklich <ref>mir</ref> und nicht <ref>mich</ref> (wie in er Gesamtüberlieferung) da.</note>
 <l xml:id="fr51_612.12">D<choice><am>&#x0309;</am><ex>er</ex></choice> moz mir ritter&#x017F;chefte iehn</l>
 <l xml:id="fr51_612.13">Jtte&#x017F;wanne ir anders iahn</l>
 <l xml:id="fr51_612.14">Sint ir mich van er&#x017F;t &#x017F;ahn</l>
@@ -1059,7 +1065,7 @@
 <pb xml:id="fr51006v"/><cb xml:id="fr51006va"/>
 <l xml:id="fr51_633.29">D<gap reason="unleserlich" extent="unbekannt"/>ingerlin was ir bekant</l>
 <l xml:id="fr51_633.30">S<unclear reason="Zweifel">e</unclear> nam is mit <gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_633.30 #Fr51006va"><ref>S<unclear reason="Zweifel">e</unclear></ref>: Rosenfeld gibt <ref>Si</ref> an.</note>
+<note resp="#MiGe_Gegenleser" target="#fr51_633.30 #Fr51006va"><ref>S<unclear reason="Zweifel">e</unclear></ref>: Rosenfeld gibt <ref>Si</ref> an.</note>
 <l xml:id="fr51_634.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">S</seg>e <supplied reason="unleserlich" resp="Sekundärliteratur">&#x017F;pr</supplied>ach h<choice><am>&#x0309;</am><ex>er</ex></choice>re <gap reason="unleserlich" extent="unbekannt"/> wol</l>
 <l xml:id="fr51_634.02"><gap reason="unleserlich" extent="unbekannt"/>ch &#x017F;o vor iv <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr51_634.03"><gap reason="unleserlich" extent="unbekannt"/> v<gap reason="unleserlich" extent="unbekannt"/></l>

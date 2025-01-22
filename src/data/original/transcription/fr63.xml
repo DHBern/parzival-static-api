@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>22.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -55,6 +57,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -68,7 +73,7 @@
 <note>14.9.2018, MiGe: Bei der Ergänzung nach Pausch wurden anscheinend keine sek-Tags verwendet.</note>
 <pb xml:id="fr63001r"/><cb xml:id="fr63001ra"/>
 <l xml:id="fr63_630.16"><subst hand="#sr"><del>durh</del><add>dur<unclear reason="Zweifel">c</unclear>h</add></subst> di herzogin von Logro&#x0302;is.</l>
-<note resp="#LC_Gegenleser" target="#?1_630.16 #Fr63001ra"><ref>Logro&#x0302;is</ref>: Pausch transkribiert <ref>Lagrois</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_630.16 #Fr63001ra"><ref>Logro&#x0302;is</ref>: Pausch transkribiert <ref>Lagrois</ref>.</note>
 <l xml:id="fr63_630.17">danchte <hi rend="rot">G</hi>awane drumbe</l>
 <l xml:id="fr63_630.18">gein val&#x017F;heit div tvmbe</l>
 <l xml:id="fr63_630.19"><gap reason="Fragmentverlust" extent="unbekannt"/>nt di h<choice><am>&#x0309;</am><ex>er</ex></choice>zenlichen wi&#x017F;e.</l>
@@ -139,7 +144,7 @@
 <l xml:id="fr63_632.23">Er &#x017F;prach zter meide wol gevar.</l>
 <l xml:id="fr63_632.24">war chrieget d<choice><am>&#x0309;</am><ex>er</ex></choice> herzogin &#x017F;char.</l>
 <l xml:id="fr63_632.25">Sus manech ritter v&#x0302;z erchorn.</l>
-<note resp="#LC_Gegenleser" target="#?1_632.25 #Fr63001rb"><ref>v&#x0302;z</ref>: Pausch transkribiert hier <ref>v&#x0366;z</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_632.25 #Fr63001rb"><ref>v&#x0302;z</ref>: Pausch transkribiert hier <ref>v&#x0366;z</ref>.</note>
 <l xml:id="fr63_632.26">wer hat iwer huld v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn.</l>
 <l xml:id="fr63_632.27">Si &#x017F;prah daz hat <hi rend="rot">G</hi>ramolanz.</l>
 <l xml:id="fr63_632.28">der dir werdicheit chrantz.</l>
@@ -152,7 +157,7 @@
 <l xml:id="fr63_633.05">Von &#x017F;eine<choice><am>&#x0304;</am><ex>m</ex></choice> mvnd ich han v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen.</l>
 <pb xml:id="fr63001v"/><cb xml:id="fr63001va"/>
 <l xml:id="fr63_633.06-0"><note type="Notiz">Einembung des Gottshaus <lb/> Sannt Anndre Auf di&#x017F;es <lb/> 1571 Vnnd <lb/> 72 Jar: Auch 73.</note></l>
-<note resp="#LC_Gegenleser" target="#?1_633.06-0 #Fr63001va">: Vermerk nach Pausch 1977, S.102 geordnet.</note>
+<note resp="#LC_Gegenleser" target="#fr63_633.06-0 #Fr63001va">: Vermerk nach Pausch 1977, S.102 geordnet.</note>
 <l xml:id="fr63_633.06"><gap reason="Fragmentverlust" extent="unbekannt"/> er herzenlich i&#x017F;t chomen.</l>
 <l xml:id="fr63_633.07">Mit dien&#x017F;t ob ir&#x017F; gervhet</l>
 <l xml:id="fr63_633.08">&#x017F;o daz er helfe &#x017F;vhet.</l>
@@ -160,7 +165,7 @@
 <l xml:id="fr63_633.10">kunec durh kvneginne.</l>
 <l xml:id="fr63_633.11">Schol pilleih enpfahen not.</l>
 <l xml:id="fr63_633.12">frowe hiez iwer vater Lot.</l>
-<l xml:id="fr63_633.13">So &#x017F;it ir&#x017F;. di er meinet.</l>
+<l xml:id="fr63_633.13"><unclear reason="Zweifel">D</unclear>o &#x017F;it ir&#x017F;. di er meinet.</l>
 <l xml:id="fr63_633.14">nah der &#x017F;in herce weinet.</l>
 <l xml:id="fr63_633.15">Vnd heizzet ir <hi rend="rot">J</hi>tonie.</l>
 <l xml:id="fr63_633.16">&#x017F;o tvt ir im von herzen we.</l>
@@ -176,11 +181,11 @@
 <l xml:id="fr63_633.26">wart al dem antlutz chvnt.</l>
 <l xml:id="fr63_633.27">Dar nah &#x017F;chier wart &#x017F;i and<choice><am>&#x0309;</am><ex>er</ex></choice>s var.</l>
 <l xml:id="fr63_633.28">&#x017F;i greif al bluchlich dar.</l>
-<note resp="#LC_Gegenleser" target="#?1_633.28 #Fr63001va"><ref>bluchlich</ref>: Pausch transkribiert <ref>blu&#x0364;chlich</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_633.28 #Fr63001va"><ref>bluchlich</ref>: Pausch transkribiert <ref>blu&#x0364;chlich</ref>.</note>
 <l xml:id="fr63_633.29">Daz ving<choice><am>&#x0309;</am><ex>er</ex></choice>lein wart &#x017F;chir erchant</l>
 <l xml:id="fr63_633.30">&#x017F;i enpfienges mit ir chlarn hant</l>
 <l xml:id="fr63_634.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg><hi rend="rot">O</hi> &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch &#x017F;i herr ich &#x017F;ich nv wol.</l>
-<note resp="#LC_Gegenleser" target="#?1_634.01 #Fr63001va"><ref>&#x017F;ich</ref>: Pausch transkribiert <ref>&#x017F;ieh</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_634.01 #Fr63001va"><ref>&#x017F;ich</ref>: Pausch transkribiert <ref>&#x017F;ieh</ref>.</note>
 <l xml:id="fr63_634.02">ob ich &#x017F;o vor iv &#x017F;prechn &#x017F;chol.</l>
 <l xml:id="fr63_634.03">Daz ir von im ritet.</l>
 <l xml:id="fr63_634.04">nah dem herce &#x017F;tritet.</l>
@@ -196,7 +201,8 @@
 <l xml:id="fr63_634.14">mit gedanchen &#x017F;wes er an mih gert.</l>
 <l xml:id="fr63_634.15">Er het &#x017F;chire daz v<choice><am>&#x0309;</am><ex>er</ex></choice>nomen.</l>
 <cb xml:id="fr63001vb"/>
-<l xml:id="fr63_634.16">mocht ich iem furbas chom<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr63_634.16">mocht ich iem<gap reason="Fragmentverlust" extent="unbekannt"/> furbas</l>
+<note resp="#MiGe_Gegenleser" target="#fr63_634.16 #Fr63;001vb"><ref>iem<gap reason="Fragmentverlust" extent="unbekannt"/></ref>: er-Haken fehlt wahrscheinlich aufgrund von Beschädigung.</note>chom<gap reason="Fragmentverlust" extent="unbekannt"/>
 <l xml:id="fr63_634.17">Orgelu&#x017F;en ich gechu&#x017F;&#x017F;et han.</l>
 <l xml:id="fr63_634.18">div &#x017F;inen tot &#x017F;us werbn chan.</l>
 <l xml:id="fr63_634.19">Daz was ein chv&#x017F; den <hi rend="rot">J</hi>udas trvch.</l>
@@ -206,7 +212,7 @@
 <l xml:id="fr63_634.23">Vnt der herzoge von <hi rend="rot">G</hi>owerzin</l>
 <l xml:id="fr63_634.24">von mir gechv&#x017F;&#x017F;et &#x017F;cholden &#x017F;in.</l>
 <l xml:id="fr63_634.25">Mein &#x017F;v&#x0366;ne wirt in doch niem<choice><am>&#x0309;</am><ex>er</ex></choice> gan<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#LC_Gegenleser" target="#?1_634.25 #Fr63001vb"><ref>gan<gap reason="Fragmentverlust" extent="unbekannt"/></ref>: Pausch ergänzt zu <ref>ganz</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_634.25 #Fr63001vb"><ref>gan<gap reason="Fragmentverlust" extent="unbekannt"/></ref>: Pausch ergänzt zu <ref>ganz</ref>.</note>
 <l xml:id="fr63_634.26">di gein dem kvnege <unclear reason="Zweifel">.</unclear> <hi rend="rot">G</hi>ramovlan<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr63_634.27">Mit &#x017F;tete ir hazzen chvnne<choice><am>&#x0304;</am><ex>n</ex></choice> tragen</l>
 <l xml:id="fr63_634.28">mein muet<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chult ir daz v<choice><am>&#x0309;</am><ex>er</ex></choice>dagen</l>
@@ -215,19 +221,19 @@
 <l xml:id="fr63_635.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">H</seg>erre ir batet mich al&#x017F;us.</l>
 <l xml:id="fr63_635.02">daz ich enpfahen mvz ir chvs</l>
 <l xml:id="fr63_635.03">Doch vnv<choice><am>&#x0309;</am><ex>er</ex></choice>chorn an meinen mvnt.</l>
-<note resp="#LC_Gegenleser" target="#?1_635.03 #Fr63001vb"><ref>vnv<choice><am>&#x0309;</am><ex>er</ex></choice>chorn</ref>: er-Kürzungshaken nicht mehr erkennbar - von Pausch übernommen.</note>
+<note resp="#LC_Gegenleser" target="#fr63_635.03 #Fr63001vb"><ref>vnv<choice><am>&#x0309;</am><ex>er</ex></choice>chorn</ref>: er-Kürzungshaken nicht mehr erkennbar - von Pausch übernommen.</note>
 <l xml:id="fr63_635.04">des i&#x017F;t mein herre vnge&#x017F;vnt.</l>
-<note resp="#LC_Gegenleser" target="#?1_635.04 #Fr63001vb"><ref>herre</ref>: Pausch transkribiert <ref>herce</ref>. Jedoch sind die Bögen relativ klar zu einem <ref>r</ref> gebrochen. Allenfalls bei einer Autopsie überprüfen.</note>
+<note resp="#LC_Gegenleser" target="#fr63_635.04 #Fr63001vb"><ref>herre</ref>: Pausch transkribiert <ref>herce</ref>. Jedoch sind die Bögen relativ klar zu einem <ref>r</ref> gebrochen. Allenfalls bei einer Autopsie überprüfen.</note>
 <l xml:id="fr63_635.05">Wirt vns zwein iem<choice><am>&#x0309;</am><ex>er</ex></choice> vrovd erchant.</l>
 <l xml:id="fr63_635.06">div helfe &#x017F;tet in iwer hant.</l>
 <l xml:id="fr63_635.07">Fur war der kunec meinen lip.</l>
 <l xml:id="fr63_635.08">minnet fur elliv wip.</l>
 <l xml:id="fr63_635.09">Des wil ich in geniezen lan</l>
 <l xml:id="fr63_635.10">ich bin im holt fu&#x0364;r alle man.</l>
-<note resp="#LC_Gegenleser" target="#?1_635.10 #Fr63001vb"><ref>fu&#x0364;r</ref>: Pausch transkribiert <ref>fur</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_635.10 #Fr63001vb"><ref>fu&#x0364;r</ref>: Pausch transkribiert <ref>fur</ref>.</note>
 <l xml:id="fr63_635.11">Gote lere ivch helfe vn<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr63_635.12">&#x017F;o daz ir vns bi vrevden lat.</l>
-<note resp="#LC_Gegenleser" target="#?1_635.12 #Fr63001vb"><ref>vrevden</ref>: Pausch transkribiert <ref>vrovden</ref>.</note>
+<note resp="#LC_Gegenleser" target="#fr63_635.12 #Fr63001vb"><ref>vrevden</ref>: Pausch transkribiert <ref>vrovden</ref>.</note>
 <l xml:id="fr63_635.13">Do &#x017F;prach er frowe nv lert mich wie.</l>
 <l xml:id="fr63_635.14">er hat ivch dort ir habt in hie.</l>
 <l xml:id="fr63_635.15">Vnd &#x017F;it doch vnder&#x017F;chaiden.</l>

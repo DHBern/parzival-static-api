@@ -1,6 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
@@ -11,11 +13,12 @@
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>25.07.24</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
         <msIdentifier>
+          <repository>Parzival-Projekt</repository>
           <idno>fr68</idno>
         </msIdentifier>
         <msFrag>
@@ -75,6 +78,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -159,7 +165,7 @@
 <pb xml:id="fr68001v"/><cb xml:id="fr68001va"/>
 <l xml:id="fr68_428.21-01"><note type="Notiz">Hermanni Reickenfelts <lb/> Rechnung was bei &#x017F;einer Zeit <lb/> zu behuet der gemeinen <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>a<gap reason="unleserlich" extent="unbekannt"/> ist wegen der <lb/> Dienst ver<lb/>lacht v<gap reason="unleserlich" extent="unbekannt"/>d<gap reason="unleserlich" extent="unbekannt"/>er <lb/> das bezahlet</note></l>
 <l xml:id="fr68_428.21-02"><note type="Notiz">N. 345</note></l>
-<note resp="#SFa_Transkribent" target="#?1_428.21-0 #Fr68;1va">:Hand des 17. Jh., vgl. Hartmut Beckers, Neues zur 'Parzival'-Überlieferung aus Westfalen, Wolfram-Studien XIV, S. 391-404</note>
+<note resp="#SFa_Transkribent" target="#fr68_428.21-0 #Fr68;1va">:Hand des 17. Jh., vgl. Hartmut Beckers, Neues zur 'Parzival'-Überlieferung aus Westfalen, Wolfram-Studien XIV, S. 391-404</note>
 <l xml:id="fr68_428.21">daz ir mir werbet &#x017F;under twal</l>
 <l xml:id="fr68_428.22">mit guten truwen vmben gral</l>
 <l xml:id="fr68_428.23">do wart di &#x017F;une ge endet</l>
@@ -227,7 +233,7 @@
 <l xml:id="fr68_430.24">wen der lantgreue eine</l>
 <l xml:id="fr68_430.24-0"><note type="Kustode">xi</note></l>
 <pb xml:id="fr68002r"/><cb xml:id="fr68002ra"/>
-<l xml:id="fr68_614.05-0"><note type="Notiz">Su&#x0366;n wa fert der R<unclear reason="Zweifel">o</unclear>ck deme <lb/> Platzhalter <gap reason="unleserlich" extent="1" unit="Buchstabe"/>a&#x017F;ter v<gap reason="unleserlich" extent="unbekannt"/> Schilling</note></l>
+<l xml:id="fr68_614.05-0"><note type="Notiz">Su&#x0366;n wa fert der R<unclear reason="Zweifel">o</unclear>ck deme <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>a&#x017F;ter v<gap reason="unleserlich" extent="unbekannt"/> Schilling</note></l>
 <l xml:id="fr68_614.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr68_614.06">ih weiz <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr68_614.07">daz waz du<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -281,14 +287,13 @@
 <l xml:id="fr68_616.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">I</seg>ne bin &#x017F;o niht vertorben</l>
 <l xml:id="fr68_616.04">ine habe doh &#x017F;int geworben</l>
 <l xml:id="fr68_616.05">des ku&#x0366;ninges &#x017F;caden mit ko&#x017F;te</l>
-<l xml:id="fr68_616.06">vn<choice><am>&#x0304;</am><ex>de</ex></choice> manege &#x017F;carfe dro&#x017F;te</l>
+<l xml:id="fr68_616.06">vn<choice><am>&#x0304;</am><ex>de</ex></choice> manege &#x017F;carfe d<unclear reason="Zweifel">y</unclear>o&#x017F;te</l>
 <pb xml:id="fr68002v"/><cb xml:id="fr68002va"/>
-<l xml:id="fr68_616.15"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr68_616.16"><gap reason="Fragmentverlust" extent="unbekannt"/>t</l>
 <l xml:id="fr68_616.17"><gap reason="Fragmentverlust" extent="unbekannt"/>n &#x017F;tet</l>
 <l xml:id="fr68_616.18"><gap reason="Fragmentverlust" extent="unbekannt"/>gen get</l>
 <l xml:id="fr68_616.19"><gap reason="Fragmentverlust" extent="unbekannt"/>en dien&#x017F;te erwarp</l>
-<l xml:id="fr68_616.20"><gap reason="Fragmentverlust" extent="unbekannt"/>nde gar v<choice><am>&#x0309;</am><ex>er</ex></choice>tarp</l>
+<l xml:id="fr68_616.20"><gap reason="Fragmentverlust" extent="unbekannt"/>ude gar v<choice><am>&#x0309;</am><ex>er</ex></choice>tarp</l>
 <l xml:id="fr68_616.21"><gap reason="Fragmentverlust" extent="unbekannt"/> &#x017F;olde wern</l>
 <l xml:id="fr68_616.22"><gap reason="Fragmentverlust" extent="unbekannt"/>wes iamers gern</l>
 <l xml:id="fr68_616.23"><gap reason="Fragmentverlust" extent="unbekannt"/>inen dien&#x017F;te erwarp er &#x017F;er</l>
@@ -346,15 +351,15 @@
 <l xml:id="fr68_618.15">mit mangen &#x017F;tarken ritt<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;toltz</l>
 <l xml:id="fr68_618.16">beide in uelde vn<choice><am>&#x0304;</am><ex>de</ex></choice> ce holtz</l>
 <l xml:id="fr68_618.17">nah minne ih mange<choice><am>&#x0304;</am><ex>n</ex></choice> diene<choice><am>&#x0304;</am><ex>n</ex></choice> liez</l>
-<l xml:id="fr68_618.18">de<choice><am>&#x0304;</am><ex>n</ex></choice> ih doh lones niht gehiez</l>
+<l xml:id="fr68_618.18">de<choice><am>&#x0304;</am><ex>m</ex></choice> ih doh lones niht gehiez</l>
 <l xml:id="fr68_618.19">minen lip ge&#x017F;ah oh nieman</l>
 <l xml:id="fr68_618.20">ine mohte wol &#x017F;in dien&#x017F;t han</l>
 <l xml:id="fr68_618.21">we<choice><am>&#x0304;</am><ex>n</ex></choice> einer d<choice><am>&#x0309;</am><ex>er</ex></choice> truc wape<gap reason="unleserlich" extent="1" unit="Buchstabe"/> rot</l>
 <l xml:id="fr68_618.22">min ge&#x017F;inde er brahte in not</l>
 <l xml:id="fr68_618.23">vor logrois er quam geriten</l>
 <l xml:id="fr68_618.24">da entworhter &#x017F;ih mit &#x017F;u<gap reason="unleserlich" extent="2" unit="Buchstabe"/>e<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;iten</l>
-<l xml:id="fr68_618.25">d<choice><am>&#x0309;</am><ex>er</ex></choice> ih mih wenic froute</l>
-<l xml:id="fr68_618.26">&#x017F;in hant &#x017F;i nider &#x017F;troute</l>
+<l xml:id="fr68_618.26"><milestone unit="Versumstellung"/>d<choice><am>&#x0309;</am><ex>er</ex></choice> ih mih wenic froute</l>
+<l xml:id="fr68_618.25"><milestone unit="Versumstellung"/>&#x017F;in hant &#x017F;i nider &#x017F;troute</l>
 <l xml:id="fr68_618.27">zu&#x017F;chen logrois vn<choice><am>&#x0304;</am><ex>de</ex></choice> uw<choice><am>&#x0309;</am><ex>er</ex></choice> urvare</l>
 <l xml:id="fr68_618.28">miner ritt<choice><am>&#x0309;</am><ex>er</ex></choice> im uolgete<choice><am>&#x0304;</am><ex>n</ex></choice> funfe dare</l>
 <l xml:id="fr68_618.29">di ent&#x017F;chunfierter uf dem plan</l>
@@ -410,7 +415,7 @@
 <l xml:id="fr68_620.17">der h<gap reason="unleserlich" extent="1" unit="Buchstabe"/>t di auenture erliten</l>
 <l xml:id="fr68_620.18">vn<choice><am>&#x0304;</am><ex>de</ex></choice> den lewen vber&#x017F;triten</l>
 <l xml:id="fr68_620.19">vn<choice><am>&#x0304;</am><ex>de</ex></choice> d<gap reason="unleserlich" extent="1" unit="Buchstabe"/>n turkoiten &#x017F;ider</l>
-<l xml:id="fr68_620.20">ce reht<choice><am>&#x0309;</am><ex>er</ex></choice> dro&#x017F;t geuellet nider</l>
+<l xml:id="fr68_620.20">ce reht<choice><am>&#x0309;</am><ex>er</ex></choice> dyo&#x017F;t geuellet nider</l>
 <l xml:id="fr68_620.21">innen des reit gawan</l>
 <l xml:id="fr68_620.22">gein de<gap reason="unleserlich" extent="1" unit="Buchstabe"/> vrf<gap reason="unleserlich" extent="2" unit="Buchstabe"/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>f den plan</l>
 <l xml:id="fr68_620.23">da &#x017F;in vo<gap reason="unleserlich" extent="1" unit="Buchstabe"/> <unclear reason="Zweifel">d</unclear><gap reason="unleserlich" extent="unbekannt"/>nen &#x017F;ahen</l>
