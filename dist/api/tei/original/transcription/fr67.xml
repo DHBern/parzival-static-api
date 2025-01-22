@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="de">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
          <publicationStmt>
             <authority>Parzival-Projekt Bern</authority>
             <pubPlace>Bern</pubPlace>
-            <date>2017</date>
+            <date>13.11.24</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -76,7 +78,10 @@
             </char>
             <char xml:id="latAbbrEt2">
                <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+   </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
             </char>
          </charDecl>
       </encodingDesc>
@@ -84,15 +89,13 @@
    <text>
       <body>
          <p>
-            <note>Die Handschrift ist komplett verschollen</note>
-         </p>
-         <note>Abschnitt 757ff.</note>
-         <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
-         <pb xml:id="fr67001r"/>
+Die Handschrift ist komplett verschollen
+</p>
+Abschnitt 757ff.
+Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.
+<pb xml:id="fr67001r"/>
          <cb xml:id="fr67001ra"/>
-         <l xml:id="fr67_757.01">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
+         <l xml:id="fr67_757.01"/>
       </body>
    </text>
 </TEI>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="de">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">Parzival</title>
@@ -11,7 +13,7 @@
          <publicationStmt>
             <authority>Parzival-Projekt Bern</authority>
             <pubPlace>Bern</pubPlace>
-            <date>2017</date>
+            <date>22.07.24</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -80,87 +82,64 @@
             </char>
             <char xml:id="latAbbrEt2">
                <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+   </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
             </char>
          </charDecl>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <note>Abschnitt 630.16-635.26</note>
-         <note>Transkribiert von RSo am Bildschirm im November 2004</note>
-         <note>Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr63 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
-         <note>Gegengelesen und Endredaktion von JKl am 17.12.2016</note>
-         <note>Korrektur und Ergänzung nach Pausch 1977 von LC am 25.07.2017. (Pausch, Oskar: Ein Fragment von Wolframs 'Parzival' im Institut für österreichische Geschichtsforschung, in: Zeitschrift für deutsches Altertum und deutsche Literatur, 1977 (106). S. 101-107.)</note>
-         <note>14.9.2018, MiGe: Bei der Ergänzung nach Pausch wurden anscheinend keine sek-Tags verwendet.</note>
-         <pb xml:id="fr63001r"/>
+Abschnitt 630.16-635.26
+Transkribiert von RSo am Bildschirm im November 2004
+Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr63 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.
+Gegengelesen und Endredaktion von JKl am 17.12.2016
+Korrektur und Ergänzung nach Pausch 1977 von LC am 25.07.2017. (Pausch, Oskar: Ein Fragment von Wolframs 'Parzival' im Institut für österreichische Geschichtsforschung, in: Zeitschrift für deutsches Altertum und deutsche Literatur, 1977 (106). S. 101-107.)
+14.9.2018, MiGe: Bei der Ergänzung nach Pausch wurden anscheinend keine sek-Tags verwendet.
+<pb xml:id="fr63001r"/>
          <cb xml:id="fr63001ra"/>
-         <l xml:id="fr63_630.16">
-            <subst hand="#sr">
-               <del>durh</del>
-               <add>dur<unclear reason="Zweifel">c</unclear>h</add>
-            </subst> di herzogin von Logrôis.</l>
-         <note resp="#LC_Gegenleser" target="#?1_630.16 #Fr63001ra">
-            <ref>Logrôis</ref>: Pausch transkribiert <ref>Lagrois</ref>.</note>
-         <l xml:id="fr63_630.17">danchte <hi rend="rot">G</hi>awane drumbe</l>
+         <l xml:id="fr63_630.16">durhdurch di herzogin von Logrôis.</l>
+         <ref>Logrôis</ref>: Pausch transkribiert <ref>Lagrois</ref>.
+<l xml:id="fr63_630.17">danchte Gawane drumbe</l>
          <l xml:id="fr63_630.18">gein valſheit div tvmbe</l>
-         <l xml:id="fr63_630.19">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>nt di h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>zenlichen wiſe.</l>
+         <l xml:id="fr63_630.19">nt di h̉erzenlichen wiſe.</l>
          <l xml:id="fr63_630.20">gein wipleichem priſe.</l>
-         <l xml:id="fr63_630.21">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>v red geſchach.</l>
+         <l xml:id="fr63_630.21">v red geſchach.</l>
          <l xml:id="fr63_630.22">Gawan vier kvneginne ſach.</l>
-         <l xml:id="fr63_630.23">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> der herzoginne ſten.</l>
+         <l xml:id="fr63_630.23"> der herzoginne ſten.</l>
          <l xml:id="fr63_630.24">er bat di zwene naher gen.</l>
-         <l xml:id="fr63_630.25">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>urh ſine kvrtoſie.</l>
+         <l xml:id="fr63_630.25">urh ſine kvrtoſie.</l>
          <l xml:id="fr63_630.26">di ivngern drie.</l>
-         <l xml:id="fr63_630.27">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>iez er chvſſen diſe zwene.</l>
-         <l xml:id="fr63_630.28">nv was ovch frow <hi rend="rot">B</hi>ene.</l>
-         <l xml:id="fr63_630.29">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-            <hi rend="rot">G</hi>awane dar gegangen.</l>
-         <l xml:id="fr63_630.30">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> wart da wol enpfangen.</l>
-         <l xml:id="fr63_631.01">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> wirt niht lenger wolt ſten.</l>
+         <l xml:id="fr63_630.27">iez er chvſſen diſe zwene.</l>
+         <l xml:id="fr63_630.28">nv was ovch frow Bene.</l>
+         <l xml:id="fr63_630.29"> Gawane dar gegangen.</l>
+         <l xml:id="fr63_630.30"> wart da wol enpfangen.</l>
+         <l xml:id="fr63_631.01"> wirt niht lenger wolt ſten.</l>
          <l xml:id="fr63_631.02">er bat die zwene ſitzen gen.</l>
-         <l xml:id="fr63_631.03">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>v den frowen ſwa ſi wolten.</l>
+         <l xml:id="fr63_631.03">v den frowen ſwa ſi wolten.</l>
          <l xml:id="fr63_631.04">do ſi ſo tun ſcholten.</l>
          <l xml:id="fr63_631.05">Div bete tet in nicht ze we.</l>
-         <l xml:id="fr63_631.06">welhes iſt <hi rend="rot">J</hi>tonie.</l>
-         <l xml:id="fr63_631.07">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> ſprah der werde <hi rend="rot">G</hi>awan.</l>
-         <l xml:id="fr63_631.08">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> ſchol mich bi ir ſitzen lan.</l>
-         <l xml:id="fr63_631.09">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> vragt er Bene ſtille.</l>
-         <l xml:id="fr63_631.10">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> ez was ſine wille.</l>
-         <l xml:id="fr63_631.11">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> magt chlar.</l>
+         <l xml:id="fr63_631.06">welhes iſt Jtonie.</l>
+         <l xml:id="fr63_631.07"> ſprah der werde Gawan.</l>
+         <l xml:id="fr63_631.08"> ſchol mich bi ir ſitzen lan.</l>
+         <l xml:id="fr63_631.09"> vragt er Bene ſtille.</l>
+         <l xml:id="fr63_631.10"> ez was ſine wille.</l>
+         <l xml:id="fr63_631.11"> magt chlar.</l>
          <l xml:id="fr63_631.12">div den roten mvnt daz brvne har.</l>
          <l xml:id="fr63_631.13">Dort trait bi liechten ovgen.</l>
          <l xml:id="fr63_631.14">welt ir ſi ſprechen tovgen.</l>
          <l xml:id="fr63_631.15">Daz tut gefuegleiche.</l>
-         <l xml:id="fr63_631.16">ſprah frowe <hi rend="rot">B</hi>ene div zuchte reihe</l>
-         <l xml:id="fr63_631.17">Div weſſe <hi rend="rot">J</hi>tonie minnen not.</l>
+         <l xml:id="fr63_631.16">ſprah frowe Bene div zuchte reihe</l>
+         <l xml:id="fr63_631.17">Div weſſe Jtonie minnen not.</l>
          <l xml:id="fr63_631.18">vnt daz ir herce dienſt bot</l>
-         <l xml:id="fr63_631.19">Der werd kvnec <hi rend="rot">G</hi>ramolanz.</l>
+         <l xml:id="fr63_631.19">Der werd kvnec Gramolanz.</l>
          <l xml:id="fr63_631.20">mit ritterleichen triven ganz.</l>
          <l xml:id="fr63_631.21">Gawan ſaz nider zv der magt.</l>
          <l xml:id="fr63_631.22">ich ſage iv daz mir wart geſagt.</l>
          <l xml:id="fr63_631.23">Seiner rede er da begunde.</l>
-         <l xml:id="fr63_631.24">mit fuegen wand<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ez chvnde.</l>
+         <l xml:id="fr63_631.24">mit fuegen wand̉erez chvnde.</l>
          <l xml:id="fr63_631.25">Ouch chunde ſi bewaren.</l>
          <cb xml:id="fr63001rb"/>
          <l xml:id="fr63_631.26">daz von ſo churzen iaren.</l>
@@ -168,93 +147,56 @@
          <l xml:id="fr63_631.28">den hete ſi zucht gar genvch.</l>
          <l xml:id="fr63_631.29">Er het ſich vragen gein ir bewegn.</l>
          <l xml:id="fr63_631.30">ob ſi noch minne chvnde pflegn.</l>
-         <l xml:id="fr63_632.01">
-            <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o ſprah div magt mit ſinnen.</l>
+         <l xml:id="fr63_632.01">Do ſprah div magt mit ſinnen.</l>
          <l xml:id="fr63_632.02">herr wen ſcholt ich minnen.</l>
          <l xml:id="fr63_632.03">Sit mir mein erſter tag erſchein.</l>
          <l xml:id="fr63_632.04">ſo wart ritter nie chein.</l>
          <l xml:id="fr63_632.05">Ze dem ich ie geſpreche wort.</l>
          <l xml:id="fr63_632.06">wan als ir heut hat gehort.</l>
          <l xml:id="fr63_632.07">So mochten iv doh mere chomen.</l>
-         <l xml:id="fr63_632.08">wa ir mit manheit hat v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>nome<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice>.</l>
+         <l xml:id="fr63_632.08">wa ir mit manheit hat v̉ernomēn.</l>
          <l xml:id="fr63_632.09">Weiagten bris mit ritterſchaft.</l>
-         <l xml:id="fr63_632.10">vnd wer mit h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>zenleiher chraft.</l>
+         <l xml:id="fr63_632.10">vnd wer mit h̉erzenleiher chraft.</l>
          <l xml:id="fr63_632.11">Nach minnen dienſt bieten chan.</l>
-         <l xml:id="fr63_632.12">ſus ſprach mein her <hi rend="rot">G</hi>awan.</l>
+         <l xml:id="fr63_632.12">ſus ſprach mein her Gawan.</l>
          <l xml:id="fr63_632.13">Des antwurt im div chlare magt.</l>
-         <l xml:id="fr63_632.14">nah minne iſt dienſt mich v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>dagt.</l>
-         <l xml:id="fr63_632.15">Wan der h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>zogin von <hi rend="rot">L</hi>ogrois.</l>
+         <l xml:id="fr63_632.14">nah minne iſt dienſt mich v̉erdagt.</l>
+         <l xml:id="fr63_632.15">Wan der h̉erzogin von Logrois.</l>
          <l xml:id="fr63_632.16">dient manech ritter kvrtois.</l>
-         <l xml:id="fr63_632.17">Peidiv nah minne vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> vmb ir ſolt.</l>
+         <l xml:id="fr63_632.17">Peidiv nah minne vn̄d vmb ir ſolt.</l>
          <l xml:id="fr63_632.18">der hat manger hie geholt.</l>
          <l xml:id="fr63_632.19">Juſtiren da wirz ſahen.</l>
          <l xml:id="fr63_632.20">ir chainer nie ſo nahen.</l>
          <l xml:id="fr63_632.21">Chom als ir vns chomen ſit.</l>
          <l xml:id="fr63_632.22">den prief vf hohet iwrn ſtrit.</l>
          <l xml:id="fr63_632.23">Er ſprach zter meide wol gevar.</l>
-         <l xml:id="fr63_632.24">war chrieget d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> herzogin ſchar.</l>
+         <l xml:id="fr63_632.24">war chrieget d̉er herzogin ſchar.</l>
          <l xml:id="fr63_632.25">Sus manech ritter v̂z erchorn.</l>
-         <note resp="#LC_Gegenleser" target="#?1_632.25 #Fr63001rb">
-            <ref>v̂z</ref>: Pausch transkribiert hier <ref>vͦz</ref>.</note>
-         <l xml:id="fr63_632.26">wer hat iwer huld v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>lorn.</l>
-         <l xml:id="fr63_632.27">Si ſprah daz hat <hi rend="rot">G</hi>ramolanz.</l>
+         <ref>v̂z</ref>: Pausch transkribiert hier <ref>vͦz</ref>.
+<l xml:id="fr63_632.26">wer hat iwer huld v̉erlorn.</l>
+         <l xml:id="fr63_632.27">Si ſprah daz hat Gramolanz.</l>
          <l xml:id="fr63_632.28">der dir werdicheit chrantz.</l>
          <l xml:id="fr63_632.29">Treit als im div volge giht.</l>
          <l xml:id="fr63_632.30">herr des erchen ich anders niht.</l>
-         <l xml:id="fr63_633.01">
-            <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">D</seg>
-            <hi rend="rot">O</hi> ſprach mein her <hi rend="rot">G</hi>awan.</l>
+         <l xml:id="fr63_633.01">DO ſprach mein her Gawan.</l>
          <l xml:id="fr63_633.02">ir ſchult ſin furbas chvnd han.</l>
          <l xml:id="fr63_633.03">Sit er ſich bris nahet.</l>
          <l xml:id="fr63_633.04">vnt des mit willen gahet.</l>
-         <l xml:id="fr63_633.05">Von ſeine<choice>
-               <am>̄</am>
-               <ex>m</ex>
-            </choice> mvnd ich han v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>nomen.</l>
+         <l xml:id="fr63_633.05">Von ſeinēm mvnd ich han v̉ernomen.</l>
          <pb xml:id="fr63001v"/>
          <cb xml:id="fr63001va"/>
-         <l xml:id="fr63_633.06-0">
-            <note type="Notiz">Einembung des Gottshaus <lb/> Sannt Anndre Auf diſes <lb/> 1571 Vnnd <lb/> 72 Jar: Auch 73.</note>
-         </l>
-         <note resp="#LC_Gegenleser" target="#?1_633.06-0 #Fr63001va">: Vermerk nach Pausch 1977, S.102 geordnet.</note>
-         <l xml:id="fr63_633.06">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> er herzenlich iſt chomen.</l>
+         <l xml:id="fr63_633.06-0">Einembung des Gottshaus  Sannt Anndre Auf diſes  1571 Vnnd  72 Jar: Auch 73.</l>
+: Vermerk nach Pausch 1977, S.102 geordnet.
+<l xml:id="fr63_633.06"> er herzenlich iſt chomen.</l>
          <l xml:id="fr63_633.07">Mit dienſt ob irſ gervhet</l>
          <l xml:id="fr63_633.08">ſo daz er helfe ſvhet.</l>
          <l xml:id="fr63_633.09">Durch troſt an iwer minne.</l>
          <l xml:id="fr63_633.10">kunec durh kvneginne.</l>
          <l xml:id="fr63_633.11">Schol pilleih enpfahen not.</l>
          <l xml:id="fr63_633.12">frowe hiez iwer vater Lot.</l>
-         <l xml:id="fr63_633.13">So ſit irſ. di er meinet.</l>
+         <l xml:id="fr63_633.13">Do ſit irſ. di er meinet.</l>
          <l xml:id="fr63_633.14">nah der ſin herce weinet.</l>
-         <l xml:id="fr63_633.15">Vnd heizzet ir <hi rend="rot">J</hi>tonie.</l>
+         <l xml:id="fr63_633.15">Vnd heizzet ir Jtonie.</l>
          <l xml:id="fr63_633.16">ſo tvt ir im von herzen we.</l>
          <l xml:id="fr63_633.17">Ob ir triwe chvndet tragn.</l>
          <l xml:id="fr63_633.18">ſo ſchult ir wenden im ſin chlagn.</l>
@@ -266,148 +208,73 @@
          <l xml:id="fr63_633.24">ſi begund al rot verben ſih.</l>
          <l xml:id="fr63_633.25">Als e was gevar ir munt.</l>
          <l xml:id="fr63_633.26">wart al dem antlutz chvnt.</l>
-         <l xml:id="fr63_633.27">Dar nah ſchier wart ſi and<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>s var.</l>
+         <l xml:id="fr63_633.27">Dar nah ſchier wart ſi and̉ers var.</l>
          <l xml:id="fr63_633.28">ſi greif al bluchlich dar.</l>
-         <note resp="#LC_Gegenleser" target="#?1_633.28 #Fr63001va">
-            <ref>bluchlich</ref>: Pausch transkribiert <ref>bluͤchlich</ref>.</note>
-         <l xml:id="fr63_633.29">Daz ving<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>lein wart ſchir erchant</l>
+         <ref>bluchlich</ref>: Pausch transkribiert <ref>bluͤchlich</ref>.
+<l xml:id="fr63_633.29">Daz ving̉erlein wart ſchir erchant</l>
          <l xml:id="fr63_633.30">ſi enpfienges mit ir chlarn hant</l>
-         <l xml:id="fr63_634.01">
-            <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>
-            <hi rend="rot">O</hi> ſp<choice>
-               <am rend="hochgestellt">a</am>
-               <ex>ra</ex>
-            </choice>ch ſi herr ich ſich nv wol.</l>
-         <note resp="#LC_Gegenleser" target="#?1_634.01 #Fr63001va">
-            <ref>ſich</ref>: Pausch transkribiert <ref>ſieh</ref>.</note>
-         <l xml:id="fr63_634.02">ob ich ſo vor iv ſprechn ſchol.</l>
+         <l xml:id="fr63_634.01">DO ſparach ſi herr ich ſich nv wol.</l>
+         <ref>ſich</ref>: Pausch transkribiert <ref>ſieh</ref>.
+<l xml:id="fr63_634.02">ob ich ſo vor iv ſprechn ſchol.</l>
          <l xml:id="fr63_634.03">Daz ir von im ritet.</l>
          <l xml:id="fr63_634.04">nah dem herce ſtritet.</l>
          <l xml:id="fr63_634.05">Ob ir der zuht reht nv tut</l>
          <l xml:id="fr63_634.06">herre div leret ivch helendn mvt.</l>
          <l xml:id="fr63_634.07">Diſiv gab iſt mir ovh e geſant.</l>
          <l xml:id="fr63_634.08">von des werden kvnegeſ hant.</l>
-         <l xml:id="fr63_634.09">Von im ſaget war diz ving<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>lin.</l>
-         <l xml:id="fr63_634.10">er enpfiengez von d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> hende mein.</l>
-         <l xml:id="fr63_634.11">Swaz er chvmb<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>s ie gewan.</l>
+         <l xml:id="fr63_634.09">Von im ſaget war diz ving̉erlin.</l>
+         <l xml:id="fr63_634.10">er enpfiengez von d̉er hende mein.</l>
+         <l xml:id="fr63_634.11">Swaz er chvmb̉ers ie gewan.</l>
          <l xml:id="fr63_634.12">da pin ich gar vnſchvldich an.</l>
-         <l xml:id="fr63_634.13">Wan <subst hand="#sr">
-               <del>einen</del>
-               <add>ſinen</add>
-            </subst> leip han ich gewert.</l>
+         <l xml:id="fr63_634.13">Wan einenſinen leip han ich gewert.</l>
          <l xml:id="fr63_634.14">mit gedanchen ſwes er an mih gert.</l>
-         <l xml:id="fr63_634.15">Er het ſchire daz v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>nomen.</l>
+         <l xml:id="fr63_634.15">Er het ſchire daz v̉ernomen.</l>
          <cb xml:id="fr63001vb"/>
-         <l xml:id="fr63_634.16">mocht ich iem furbas chom<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr63_634.17">Orgeluſen ich gechuſſet han.</l>
+         <l xml:id="fr63_634.16">mocht ich iem furbas</l>
+         <ref>iem</ref>: er-Haken fehlt wahrscheinlich aufgrund von Beschädigung.chom
+<l xml:id="fr63_634.17">Orgeluſen ich gechuſſet han.</l>
          <l xml:id="fr63_634.18">div ſinen tot ſus werbn chan.</l>
-         <l xml:id="fr63_634.19">Daz was ein chvſ den <hi rend="rot">J</hi>udas trvch.</l>
+         <l xml:id="fr63_634.19">Daz was ein chvſ den Judas trvch.</l>
          <l xml:id="fr63_634.20">da von man ſprichet noch genuch.</l>
-         <l xml:id="fr63_634.21">Elliv triwe an mir v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ſwant.</l>
-         <l xml:id="fr63_634.22">daz der <hi rend="rot">T</hi>urkoite florant</l>
-         <l xml:id="fr63_634.23">Vnt der herzoge von <hi rend="rot">G</hi>owerzin</l>
+         <l xml:id="fr63_634.21">Elliv triwe an mir v̉erſwant.</l>
+         <l xml:id="fr63_634.22">daz der Turkoite florant</l>
+         <l xml:id="fr63_634.23">Vnt der herzoge von Gowerzin</l>
          <l xml:id="fr63_634.24">von mir gechvſſet ſcholden ſin.</l>
-         <l xml:id="fr63_634.25">Mein ſvͦne wirt in doch niem<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> gan<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <note resp="#LC_Gegenleser" target="#?1_634.25 #Fr63001vb">
-            <ref>gan<gap reason="Fragmentverlust" extent="unbekannt"/>
-            </ref>: Pausch ergänzt zu <ref>ganz</ref>.</note>
-         <l xml:id="fr63_634.26">di gein dem kvnege <unclear reason="Zweifel">.</unclear>
-            <hi rend="rot">G</hi>ramovlan<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr63_634.27">Mit ſtete ir hazzen chvnne<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice> tragen</l>
-         <l xml:id="fr63_634.28">mein muet<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> ſchult ir daz v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>dagen</l>
-         <l xml:id="fr63_634.29">Vnd mein ſweſter <hi rend="rot">C</hi>undrie.</l>
-         <l xml:id="fr63_634.30">des bat <hi rend="rot">G</hi>awanen <hi rend="rot">J</hi>tonie.</l>
-         <l xml:id="fr63_635.01">
-            <seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: blau">H</seg>erre ir batet mich alſus.</l>
+         <l xml:id="fr63_634.25">Mein ſvͦne wirt in doch niem̉er gan</l>
+         <ref>gan</ref>: Pausch ergänzt zu <ref>ganz</ref>.
+<l xml:id="fr63_634.26">di gein dem kvnege . Gramovlan</l>
+         <l xml:id="fr63_634.27">Mit ſtete ir hazzen chvnnēn tragen</l>
+         <l xml:id="fr63_634.28">mein muet̉er ſchult ir daz v̉erdagen</l>
+         <l xml:id="fr63_634.29">Vnd mein ſweſter Cundrie.</l>
+         <l xml:id="fr63_634.30">des bat Gawanen Jtonie.</l>
+         <l xml:id="fr63_635.01">Herre ir batet mich alſus.</l>
          <l xml:id="fr63_635.02">daz ich enpfahen mvz ir chvs</l>
-         <l xml:id="fr63_635.03">Doch vnv<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>chorn an meinen mvnt.</l>
-         <note resp="#LC_Gegenleser" target="#?1_635.03 #Fr63001vb">
-            <ref>vnv<choice>
-                  <am>̉</am>
-                  <ex>er</ex>
-               </choice>chorn</ref>: er-Kürzungshaken nicht mehr erkennbar - von Pausch übernommen.</note>
-         <l xml:id="fr63_635.04">des iſt mein herre vngeſvnt.</l>
-         <note resp="#LC_Gegenleser" target="#?1_635.04 #Fr63001vb">
-            <ref>herre</ref>: Pausch transkribiert <ref>herce</ref>. Jedoch sind die Bögen relativ klar zu einem <ref>r</ref> gebrochen. Allenfalls bei einer Autopsie überprüfen.</note>
-         <l xml:id="fr63_635.05">Wirt vns zwein iem<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> vrovd erchant.</l>
+         <l xml:id="fr63_635.03">Doch vnv̉erchorn an meinen mvnt.</l>
+         <ref>vnv̉erchorn</ref>: er-Kürzungshaken nicht mehr erkennbar - von Pausch übernommen.
+<l xml:id="fr63_635.04">des iſt mein herre vngeſvnt.</l>
+         <ref>herre</ref>: Pausch transkribiert <ref>herce</ref>. Jedoch sind die Bögen relativ klar zu einem <ref>r</ref> gebrochen. Allenfalls bei einer Autopsie überprüfen.
+<l xml:id="fr63_635.05">Wirt vns zwein iem̉er vrovd erchant.</l>
          <l xml:id="fr63_635.06">div helfe ſtet in iwer hant.</l>
          <l xml:id="fr63_635.07">Fur war der kunec meinen lip.</l>
          <l xml:id="fr63_635.08">minnet fur elliv wip.</l>
          <l xml:id="fr63_635.09">Des wil ich in geniezen lan</l>
          <l xml:id="fr63_635.10">ich bin im holt fuͤr alle man.</l>
-         <note resp="#LC_Gegenleser" target="#?1_635.10 #Fr63001vb">
-            <ref>fuͤr</ref>: Pausch transkribiert <ref>fur</ref>.</note>
-         <l xml:id="fr63_635.11">Gote lere ivch helfe vn<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
+         <ref>fuͤr</ref>: Pausch transkribiert <ref>fur</ref>.
+<l xml:id="fr63_635.11">Gote lere ivch helfe vn</l>
          <l xml:id="fr63_635.12">ſo daz ir vns bi vrevden lat.</l>
-         <note resp="#LC_Gegenleser" target="#?1_635.12 #Fr63001vb">
-            <ref>vrevden</ref>: Pausch transkribiert <ref>vrovden</ref>.</note>
-         <l xml:id="fr63_635.13">Do ſprach er frowe nv lert mich wie.</l>
+         <ref>vrevden</ref>: Pausch transkribiert <ref>vrovden</ref>.
+<l xml:id="fr63_635.13">Do ſprach er frowe nv lert mich wie.</l>
          <l xml:id="fr63_635.14">er hat ivch dort ir habt in hie.</l>
          <l xml:id="fr63_635.15">Vnd ſit doch vnderſchaiden.</l>
          <l xml:id="fr63_635.16">mocht ich nv wol iv baiden.</l>
          <l xml:id="fr63_635.17">Mit triwen ſolihen rat gegeben</l>
          <l xml:id="fr63_635.18">des iwer werdichlihez leben.</l>
          <l xml:id="fr63_635.19">Genuz ich woltez werbn.</l>
-         <l xml:id="fr63_635.20">des enliez ich nicht v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>derbn.</l>
+         <l xml:id="fr63_635.20">des enliez ich nicht v̉erderbn.</l>
          <l xml:id="fr63_635.21">Si ſprach ſchult gewaltich ſin.</l>
-         <l xml:id="fr63_635.22">des werden chvneges vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> mein.</l>
-         <l xml:id="fr63_635.23">Ewer helfe vnt d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> gotes ſegen.</l>
-         <l xml:id="fr63_635.24">mvzze vnſer zweier mi<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice>ne pflegen</l>
+         <l xml:id="fr63_635.22">des werden chvneges vn̄d mein.</l>
+         <l xml:id="fr63_635.23">Ewer helfe vnt d̉er gotes ſegen.</l>
+         <l xml:id="fr63_635.24">mvzze vnſer zweier mīnne pflegen</l>
          <l xml:id="fr63_635.25">So daz ich ellende.</l>
       </body>
    </text>

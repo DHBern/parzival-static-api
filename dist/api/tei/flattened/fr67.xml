@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="de">
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr67
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr67</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Parzival-Projekt Bern</authority>
             <pubPlace>Bern</pubPlace>
-            <date>2017</date>
+            <date>13.11.24</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -48,7 +50,7 @@
                                 </p>
                   </objectDesc>
                   <objectDesc>
-                     <p xmlns="http://www.w3.org/1999/xhtml">Das Fragment ist verschollen. Gemäß einer im Nachlass von Eduard Hartl erhaltenen Postkarte eines Dr. Gregor Kurtz vom 27.5.1933 stammt das Fragment von einem abgesprungenen Einband und enthielt Buch XV 757ff.</p>
+                     <p>Das Fragment ist verschollen. Gemäß einer im Nachlass von Eduard Hartl erhaltenen Postkarte eines Dr. Gregor Kurtz vom 27.5.1933 stammt das Fragment von einem abgesprungenen Einband und enthielt Buch XV 757ff.</p>
                   </objectDesc>
                </physDesc>
             </msDesc>
@@ -76,23 +78,24 @@
             </char>
             <char xml:id="latAbbrEt2">
                <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+   </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
             </char>
          </charDecl>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <p xmlns="http://www.w3.org/1999/xhtml">
-            <note xmlns="http://www.tei-c.org/ns/1.0">Die Handschrift ist komplett verschollen</note>
-         </p>
-         <note>Abschnitt 757ff.</note>
-         <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
-         <pb xml:id="fr67001r"/>
+         <p>
+Die Handschrift ist komplett verschollen
+</p>
+Abschnitt 757ff.
+Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.
+<pb xml:id="fr67001r"/>
          <cb xml:id="fr67001ra"/>
-         <l xml:id="fr67_757.01">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
+         <l xml:id="fr67_757.01"/>
       </body>
    </text>
 </TEI>

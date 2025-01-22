@@ -3,9 +3,9 @@
    <teiHeader xml:lang="de">
       <fileDesc>
          <titleStmt>
-      Parzival
-      Transkription des Textzeugen fr46
-      <author>Wolfram von Eschenbach</author>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr46</title>
+            <author>Wolfram von Eschenbach</author>
             <editor>Parzival-Projekt Bern</editor>
          </titleStmt>
          <publicationStmt>
@@ -46,7 +46,7 @@
                             </p>
                   </objectDesc>
                   <objectDesc>
-                     <p xmlns="http://www.w3.org/1999/xhtml">Das Fragment ist verschollen. Transkribiert wurde von Photographien eines Briefes.</p>
+                     <p>Das Fragment ist verschollen. Transkribiert wurde von Photographien eines Briefes.</p>
                   </objectDesc>
                </physDesc>
             </msDesc>
@@ -74,46 +74,27 @@
             </char>
             <char xml:id="latAbbrEt2">
                <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-            </char>
+    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+   </char>
          </charDecl>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <note>Abschnitt 771.25-771.30</note>
-         <note>Transkribiert von GVi nach den Farbfotos (Studio) des Briefes von R. Priebsch an E.v.Steinmeyer vom 23.6.1901 (UB Erlangen, Briefnachlaß Steinmeyer, Ms. 2616, Nr. 189) am 29.4.2004.</note>
-         <note>Endredaktion durch JKl am 18.12.2016.</note>
-         <pb xml:id="fr46001r"/>
+Abschnitt 771.25-771.30
+Transkribiert von GVi nach den Farbfotos (Studio) des Briefes von R. Priebsch an E.v.Steinmeyer vom 23.6.1901 (UB Erlangen, Briefnachlaß Steinmeyer, Ms. 2616, Nr. 189) am 29.4.2004.
+Endredaktion durch JKl am 18.12.2016.
+<pb xml:id="fr46001r"/>
          <cb xml:id="fr46001ra"/>
          <l xml:id="fr46_771.25">So hat min hant mit strite</l>
-         <l xml:id="fr46_771.26">Jn gedrenge vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> an d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> wite</l>
-         <note resp="#GVi_Transkribent" target="#?1_771.26 #Fr46001r">
-            <a xmlns="http://www.w3.org/1999/xhtml" href="" target="_blank">gedrenge</a>: Wort von Priebsch unterstrichen, offenbar um die *G-Lesart anzuzeigen.</note>
-         <l xml:id="fr46_771.27">vil ritt<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>schafte erzeiget</l>
+         <l xml:id="fr46_771.26">Jn gedrenge vn̄d an d̉er wite</l>
+         <ref>gedrenge</ref>: Wort von Priebsch unterstrichen, offenbar um die *G-Lesart anzuzeigen.
+<l xml:id="fr46_771.27">vil ritt̉erschafte erzeiget</l>
          <pb xml:id="fr46001v"/>
          <cb xml:id="fr46001va"/>
          <l xml:id="fr46_771.28">Etzliches pris geneiget</l>
-         <l xml:id="fr46_771.29">D<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> des vil vngewenit w<choice>
-               <am/>
-               <ex>a</ex>
-            </choice>z ie</l>
-         <l xml:id="fr46_771.30">Ein teil ich d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> benenne hie.</l>
+         <l xml:id="fr46_771.29">D̉er des vil vngewenit waz ie</l>
+         <l xml:id="fr46_771.30">Ein teil ich d̉er benenne hie.</l>
       </body>
    </text>
 </TEI>
