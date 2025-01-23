@@ -24,6 +24,6 @@ Lastly, the repository also contains a template for a TEIPublisher application (
 
 ## Future options
 
-* Consider CI using Github actions with Node.js and [`SaxonJS`](https://www.npmjs.com/package/saxon-js).
+* Consider CI using Github actions with [`use-saxon`](https://github.com/marketplace/actions/use-saxon).
 * Consider some degree of "dynamisation" using `SaxonJS`.
 * Discern sensible and clear-cut border between static backend and TEIPublisher; how far can we push the border?
