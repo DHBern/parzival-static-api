@@ -21,6 +21,8 @@
   
   <xsl:output indent="true"/>
   
+  <xsl:variable name="apos">&apos;</xsl:variable>
+  
   <xsl:variable name="hyparchetypes" as="text()" expand-text="false">
     <![CDATA[
     [
@@ -176,7 +178,10 @@
                 <string key="handle">{$sigil}</string>
                 <string key="sigil">{if (matches($sigil,'[a-z]k'))
                   then $sigil => substring-before('k')
-                  else $sigil => upper-case()
+                  else 
+                    if ($sigil='vv')
+                    then 'V'||$apos
+                    else $sigil => upper-case()
                   }</string>
                 <string key="aka">{}</string>
                 <array key="part">
