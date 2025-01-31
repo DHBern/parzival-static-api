@@ -40,61 +40,99 @@
         <xsl:param name="verbose" as="xs:boolean"/>
         <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
         
-        <xsl:result-document href="{$path_api}/json/search-index.json" method="json" indent="true">
-            <xsl:variable name="serialization-parameters">
-                <output:serialization-parameters>
-                    <output:method value="xml"/><!-- html method breaks various things -->
-                </output:serialization-parameters>
-            </xsl:variable>
-            <xsl:variable name="names" as="map(*)*" select="
-                doc('../data/names.xml')//body//@xml:id ! 
-                map:entry(., ./parent::*/*[local-name()=('persName','placeName','form')]/text() => string-join('; ')) 
-                => map:merge()"/>
-            
-            <xsl:variable name="payload">
-                <map>
-                    <map key="meta">
-                        <string key="task">{$task}</string>
-                        <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
-                        <string key="generated-on">{current-dateTime()}</string>
-                        <string key="description">Verse-level information for search index.</string>
-                    </map>
-                    <array key="docs">
-                        <xsl:variable name="docs-uris" select="uri-collection($path_src||'data/original/transcription/?select=*.xml')"/>
-                        <xsl:for-each select="$docs-uris ! doc(.)//l">
-                            <xsl:sort select="base-uri()"/>
-                            <xsl:variable name="sigil" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
-                            <map>
-                                <string key="id">{@xml:id}</string>
-                                <string key="sigla">{$sigil}</string>
-                                <string key="verse">{@xml:id => tokenize('\.') => tail()}</string>
-                                <string key="d">{@xml:id => replace('^(?:fr\d{1,2})?.k?_*(\d{1,3})\..*$','$1')}</string>
-                                <string key="content">
-                                    <xsl:apply-templates mode="janus"/>
-                                </string>
-                                <string key="content_all">
-                                    <xsl:apply-templates mode="all"/>
-                                </string>
-                                <xsl:if test="*[@ref]">
-                                    <array key="terms">
-                                        <xsl:for-each select="*[@ref]">
-                                            <xsl:for-each select="map:get($names,@ref => substring-after(':')) => tokenize(';\s')">
-                                                <string>{.}</string>
-                                            </xsl:for-each>
-                                        </xsl:for-each>
-                                    </array>
-                                </xsl:if>
-                            </map>
-                        </xsl:for-each>
-                    </array>
-                    
-                </map>
-            </xsl:variable>
-            <xsl:message use-when="$verbose">…writing {$path_api}/json/search-index.json…</xsl:message>
-            <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() }) => replace('\sxmlns=\p{P}.*?([\s>])','$1') => normalize-space() => replace('\s–','&#160;–') => parse-json()"/>
+        <xsl:result-document href="{$path_api}/json/search-index-transkript.json" method="json" indent="true">
+            <xsl:call-template name="build-index-scoped">
+                <xsl:with-param name="docs-uris" select="uri-collection($path_src || 'data/original/transcription/?select=*.xml')"/>
+                <xsl:with-param name="task" select="$task||' (transkript)'"/>
+            </xsl:call-template>
         </xsl:result-document>
-        
+        <xsl:result-document href="{$path_api}/json/search-index-fassung.json" method="json" indent="true">
+            <xsl:call-template name="build-index-scoped">
+                <xsl:with-param name="docs-uris" select="uri-collection($path_src || 'data/original/?select=*.xml')"/>
+                <xsl:with-param name="task" select="$task||' (fassung)'"/>
+            </xsl:call-template>
+            </xsl:result-document>
         <xsl:message>Task `{$task}` done.</xsl:message>
+    </xsl:template>
+    
+    <xsl:template name="build-index-scoped">
+        <xsl:param name="docs-uris" as="item()+"/>
+        <xsl:param name="task" as="xs:string"/>
+        
+        <xsl:variable name="serialization-parameters">
+            <output:serialization-parameters>
+                <output:method value="xml"/>
+                <!-- html method breaks various things -->
+            </output:serialization-parameters>
+        </xsl:variable>
+        <xsl:variable name="names" as="map(*)*" select="
+                doc('../data/names.xml')//body//@xml:id !
+                map:entry(., ./parent::*/*[local-name() = ('persName', 'placeName', 'form')]/text() => string-join('; '))
+                => map:merge()"/>
+
+        <xsl:variable name="payload">
+            <map>
+                <map key="meta">
+                    <string key="task">{$task}</string>
+                    <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return
+                        base-uri() => replace($regex,'$1')}</string>
+                    <string key="generated-on">{current-dateTime()}</string>
+                    <string key="description">Verse-level information for search index.</string>
+                </map>
+                <array key="docs">
+                    <!--<xsl:variable name="docs-uris" select="
+                            uri-collection($path_src || 'data/original/transcription/?select=*.xml'),
+                            uri-collection($path_src || 'data/original/?select=*.xml')"/>-->
+                    <xsl:for-each select="$docs-uris ! doc(.)//l">
+                        <xsl:sort select="base-uri()"/>
+                        <xsl:variable name="type" as="xs:string" select="
+                                if (matches(base-uri(), 'syn\d')) then
+                                    'f'
+                                else
+                                    't'"/>
+                        <xsl:variable name="id" as="xs:string" select="
+                                if ($type = 'f') then
+                                    @n => replace('\s', '_')
+                                else
+                                    @xml:id"/>
+                        <xsl:variable name="sigil" as="xs:string" select="
+                                if ($type = 'f') then
+                                    preceding-sibling::head
+                                else
+                                    base-uri() => replace('.+/(.+)\.xml', '$1')"/>
+                        <map>
+                            <string key="type">{$type}</string>
+                            <string key="id">{$id}</string>
+                            <string key="sigla">{$sigil}</string>
+                            <string key="verse">{$id => tokenize('\.') => tail()}</string>
+                            <string key="d">{if ($type='f') then
+                                ancestor::div[@type='Dreissiger']/@n else $id =>
+                                replace('^(?:fr\d{1,2})?.k?_*(\d{1,3})\..*$','$1')}</string>
+                            <string key="content">
+                                <xsl:apply-templates mode="janus"/>
+                            </string>
+                            <string key="content_all">
+                                <xsl:apply-templates mode="all"/>
+                            </string>
+                            <xsl:if test="*[@ref]">
+                                <array key="terms">
+                                    <xsl:for-each select="*[@ref]">
+                                        <xsl:for-each
+                                            select="map:get($names, @ref => substring-after(':')) => tokenize(';\s')">
+                                            <string>{.}</string>
+                                        </xsl:for-each>
+                                    </xsl:for-each>
+                                </array>
+                            </xsl:if>
+                        </map>
+                    </xsl:for-each>
+                </array>
+
+            </map>
+        </xsl:variable>
+        <xsl:message use-when="$verbose">…writing {$path_api}/json/search-index-{$task=>replace('.*\((.*)\)','$1')}.json…</xsl:message>
+        <xsl:sequence select="$payload => xml-to-json(map { 'indent' : true() }) => replace('\sxmlns=\p{P}.*?([\s>])','$1') => normalize-space() => replace('\s–','&#160;–') => parse-json()"/>
+        
     </xsl:template>
 
     <!-- all TEI elements in use -->
