@@ -18,6 +18,8 @@
     </xd:desc>
   </xd:doc>
   
+  <!-- uses mode "pass-through" from pass-through-originals.xsl -->
+
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b>flatten-originals</xd:b></xd:p>
@@ -40,7 +42,7 @@
       <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}…</xsl:message>
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8">
-        <xsl:apply-templates select="doc(.)/node()">
+        <xsl:apply-templates select="doc(.)/node()" mode="pass-through">
           <xsl:with-param name="idno" select="$idno"/>
         </xsl:apply-templates>
       </xsl:result-document>

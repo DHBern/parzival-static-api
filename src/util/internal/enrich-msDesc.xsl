@@ -20,7 +20,7 @@
 
     <xsl:mode on-no-match="shallow-copy"/>
 
-    <xsl:template match="physDesc[parent::msDesc[msIdentifier/altIdentifier/@type='Parzival-Projekt']]">
+    <xsl:template match="physDesc[parent::msDesc[msIdentifier/altIdentifier/@type='Parzival-Projekt']]" mode="pass-through">
         <xsl:param name="idno" as="xs:string?"/>
         <xsl:variable name="idno" as="xs:string" select="$idno => substring-before('.xml') => normalize-space()"/>
         <xsl:copy>
@@ -33,7 +33,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="msDesc[not(physDesc)]">
+    <xsl:template match="msDesc[not(physDesc)]" mode="pass-through">
         <xsl:param name="idno" as="xs:string?"/>
         <xsl:variable name="idno" as="xs:string" select="$idno => substring-before('.xml') => normalize-space()"/>
         <xsl:copy>
