@@ -25,7 +25,7 @@ import module namespace global="http://www.tei-c.org/tei-simple/config" at "../m
 
 (: generated template function for element spec: l :)
 declare %private function model:template-l($config as map(*), $node as node()*, $params as map(*)) {
-    <t xmlns=""><span class="verse" data-verse="{$config?apply-children($config, $node, $params?id)}">{$config?apply-children($config, $node, $params?id)}</span><span class="content">{$config?apply-children($config, $node, $params?content)}</span></t>/*
+    <t xmlns=""><span class="verse" data-verse="{$config?apply-children($config, $node, $params?id)}">{$config?apply-children($config, $node, $params?verse)}</span><span class="content">{$config?apply-children($config, $node, $params?content)}</span></t>/*
 };
 (: generated template function for element spec: ptr :)
 declare %private function model:template-ptr($config as map(*), $node as node()*, $params as map(*)) {
@@ -161,7 +161,8 @@ declare function model:apply($config as map(*), $input as node()*) {
                         let $params := 
                             map {
                                 "id": substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),
-                                "content": .
+                                "content": .,
+                                "verse": concat(substring-before(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),'.'),'.',number(substring-after(if (@xml:id) then @xml:id else @n, '.')))
                             }
 
                                                 let $content := 
