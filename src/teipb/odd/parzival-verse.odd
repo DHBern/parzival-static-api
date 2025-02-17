@@ -41,8 +41,9 @@
                     <model behaviour="block" cssClass="line" useSourceRendition="true">
             <param name="id" value="substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' ')"/>
             <param name="content" value="."/>
-            <param name="verse" value="concat(substring-before(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),'.'),'.',number(substring-after(if (@xml:id) then @xml:id else @n, '.')))"/>
-            <pb:template xmlns="" xml:space="preserve"><span class="verse" data-verse="[[id]]">[[verse]]</span><span class="content">[[content]]</span></pb:template>
+            <param name="verse" value="let $verse := substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' ') let $afterDot := substring-after($verse, '.') let $beforeDash := if (contains($afterDot, '-')) then substring-before($afterDot, '-') else $afterDot  return concat(     substring-before($verse, '.'), '.',     number($beforeDash) )"/>
+            <param name="afterDash" value="let $afterDot := substring-after(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '), '.') return if (contains($afterDot, '-')) then substring-after($afterDot, '-') else ''"/>
+            <pb:template xmlns="" xml:space="preserve"><span class="verse" data-verse="[[id]]">[[verse]]<sup>[[afterDash]]</sup></span><span class="content">[[content]]</span></pb:template>
         </model>
                 </elementSpec>
                 <elementSpec ident="cb" mode="change">

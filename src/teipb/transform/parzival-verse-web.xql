@@ -23,7 +23,7 @@ import module namespace global="http://www.tei-c.org/tei-simple/config" at "../m
 
 (: generated template function for element spec: l :)
 declare %private function model:template-l($config as map(*), $node as node()*, $params as map(*)) {
-    <t xmlns=""><span class="verse" data-verse="{$config?apply-children($config, $node, $params?id)}">{$config?apply-children($config, $node, $params?verse)}</span><span class="content">{$config?apply-children($config, $node, $params?content)}</span></t>/*
+    <t xmlns=""><span class="verse" data-verse="{$config?apply-children($config, $node, $params?id)}">{$config?apply-children($config, $node, $params?verse)}<sup>{$config?apply-children($config, $node, $params?afterDash)}</sup></span><span class="content">{$config?apply-children($config, $node, $params?content)}</span></t>/*
 };
 (: generated template function for element spec: ptr :)
 declare %private function model:template-ptr($config as map(*), $node as node()*, $params as map(*)) {
@@ -160,7 +160,8 @@ declare function model:apply($config as map(*), $input as node()*) {
                             map {
                                 "id": substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),
                                 "content": .,
-                                "verse": concat(substring-before(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),'.'),'.',number(substring-after(if (@xml:id) then @xml:id else @n, '.')))
+                                "verse": let $verse := substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' ') let $afterDot := substring-after($verse, '.') let $beforeDash := if (contains($afterDot, '-')) then substring-before($afterDot, '-') else $afterDot  return concat(     substring-before($verse, '.'), '.',     number($beforeDash) ),
+                                "afterDash": let $afterDot := substring-after(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '), '.') return if (contains($afterDot, '-')) then substring-after($afterDot, '-') else ''
                             }
 
                                                 let $content := 
