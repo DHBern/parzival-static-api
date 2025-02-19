@@ -142,14 +142,14 @@
     
     <!-- two modes: janus for janus elements (only one of two alternatives is processed) and all to process all -->
     <xsl:template match="choice" mode="janus">
-        <xsl:apply-templates select="am"/>
+        <xsl:apply-templates select="am" mode="janus"/>
     </xsl:template>
     <xsl:template match="choice" mode="all">
         <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="subst" mode="janus">
-        <xsl:apply-templates select="add"/>
+        <xsl:apply-templates select="add" mode="janus"/>
     </xsl:template>
     <xsl:template match="subst" mode="all">
         <xsl:apply-templates mode="all"/>
