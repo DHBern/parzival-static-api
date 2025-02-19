@@ -220,7 +220,7 @@
               <xsl:variable name="handle" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
               <map>
                 <string key="handle">{$handle}</string>
-                <string key="sigil">{map:get($fragment-sigla,$handle)}</string>
+                <string key="sigil">{map:get($fragment-sigla,$handle) => replace('(Fr\.\s\d+).*','$1')}</string>
                 <string key="aka">{TEI/teiHeader//msFrag/msIdentifier/idno => string-join(', ') => replace($quot,'')}</string>
                 <array key="part">
                   <xsl:for-each select=".//msIdentifier[not(repository='Parzival-Projekt')]">
