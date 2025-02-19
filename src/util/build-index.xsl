@@ -107,7 +107,7 @@
                             <string key="verse">{$id => tokenize('\.') => tail()}</string>
                             <string key="d">{if ($type='f') then
                                 ancestor::div[@type='Dreissiger']/@n else $id =>
-                                replace('^(?:fr\d{1,2})?.k?_*(\d{1,3})\..*$','$1')}</string>
+                                replace('^(?:fr\d{1,2})?.[kv]?_*(\d{1,3})\..*$','$1')}</string>
                             <string key="content">
                                 <xsl:apply-templates mode="janus"/>
                             </string>
