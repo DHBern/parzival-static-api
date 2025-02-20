@@ -1,37 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Transkription des Textzeugen fr67</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>13.11.24</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Stuttgart</settlement>
-                  <repository>Stadtarchiv</repository>
-                  <idno>ohne Signatur</idno>
-                  <altIdentifier type="Parzival-Projekt">
-                     <idno>fr67</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <p corresp="Parzival-Projekt_fr67">
-                        <title type="main">Fr. 67:</title>
-                        <list>
-                           <item>Stuttgart, Stadtarchiv, ohne Signatur, verschollen</item>
-                        </list>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr67</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>13.11.24</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Stuttgart</settlement>
+          <repository>Stadtarchiv</repository>
+          <idno>ohne Signatur</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr67</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr67">
+                                <title type="main">Fr. 67:</title>
+                                <list>
+                                    <item>Stuttgart, Stadtarchiv, ohne Signatur, verschollen</item>
+                                </list>
                                 Pergament
                                 
                                 – 1 Blatt
@@ -47,55 +42,53 @@
                                 – Fassungszugehörigkeit nicht feststellbar        
                                 
                                 – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1058">Handschriftencensus,</ref>.
-                                </p>
-                  </objectDesc>
-                  <objectDesc>
-                     <p>Das Fragment ist verschollen. Gemäß einer im Nachlass von Eduard Hartl erhaltenen Postkarte eines Dr. Gregor Kurtz vom 27.5.1933 stammt das Fragment von einem abgesprungenen Einband und enthielt Buch XV 757ff.</p>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <charDecl>
-            <char xml:id="finis">
-               <charName>Finis-Zeichen</charName>
-            </char>
-            <char xml:id="alin1">
-               <charName>Alinea-Zeichen</charName>
-            </char>
-            <char xml:id="deligatur">
-               <charName>de-Ligatur</charName>
-            </char>
-            <char xml:id="latAbbrRum">
-               <charName>Lateinische Abkürung für -rum</charName>
-            </char>
-            <char xml:id="latAbbrIs">
-               <charName>Lateinische Abkürzung für -is</charName>
-            </char>
-            <char xml:id="latAbbrEt">
-               <charName>Lateinische Abkürzung für -et/-it</charName>
-            </char>
-            <char xml:id="latAbbrEt2">
-               <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-            </char>
-            <char xml:id="zeilenfuellsel">
-               <charName>Zeilenfüllsel</charName>
-            </char>
-         </charDecl>
-      </encodingDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>
-            <note>Die Handschrift ist komplett verschollen</note>
-         </p>
-         <note>Abschnitt 757ff.</note>
-         <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
-         <pb xml:id="fr67001r"/>
-         <cb xml:id="fr67001ra"/>
-         <l xml:id="fr67_757.01"/>
-      </body>
-   </text>
+                                </p></objectDesc>
+        <objectDesc>
+        <p>Das Fragment ist verschollen. Gemäß einer im Nachlass von Eduard Hartl erhaltenen Postkarte eines Dr. Gregor Kurtz vom 27.5.1933 stammt das Fragment von einem abgesprungenen Einband und enthielt Buch XV 757ff.</p>
+        </objectDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<p>
+<note>Die Handschrift ist komplett verschollen</note>
+</p>
+<note>Abschnitt 757ff.</note>
+<note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
+<pb xml:id="fr67001r"/><cb xml:id="fr67001ra"/>
+<l xml:id="fr67_757.01"/>
+</body>
+</text>
 </TEI>

@@ -1,37 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Transkription des Textzeugen fr16</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>22.07.24</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Würzburg</settlement>
-                  <repository>Staatsarchiv</repository>
-                  <idno>ohne Signatur</idno>
-                  <altIdentifier type="Parzival-Projekt">
-                     <idno>fr16</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <p corresp="Parzival-Projekt_fr16">
-                        <title type="main">Fr. 16 (t):</title>
-                        <list>
-                           <item>Würzburg, Staatsarchiv, ohne Signatur (verbrannt) (Fotografien: München, Bayerische Akademie der Wissenschaften, Hartl-Nachlass, Inv. Nr. H 19)</item>
-                        </list>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr16</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>22.07.24</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Würzburg</settlement>
+          <repository>Staatsarchiv</repository>
+          <idno>ohne Signatur</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr16</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr16">
+                                <title type="main">Fr. 16 (t):</title>
+                                <list>
+                                    <item>Würzburg, Staatsarchiv, ohne Signatur (verbrannt) (Fotografien: München, Bayerische Akademie der Wissenschaften, Hartl-Nachlass, Inv. Nr. H 19)</item>
+                                </list>
                                 Pergament
                                 
                                 – 4 Streifen eines Blattes
@@ -49,433 +44,161 @@
                                 – Fassungszugehörigkeit: wohl *D      
                                 
                                 – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1035">Handschriftencensus,</ref>.
-                            </p>
-                  </objectDesc>
-                  <objectDesc>
-                     <p>Das Fragment ist verbrannt. Transkribiert wurde von Fotografien: München, Bayerische Akademie der Wissenschaften, Hartl-Nachlass, Inv. Nr. H 19, Teil 1.</p>
-                  </objectDesc>
-                  <handDesc>
-                     <handNote xml:id="sr">Schreiber</handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <listPrefixDef>
-            <prefixDef ident="regp"
-                       matchPattern="([a-z0-9]+)"
-                       replacementPattern="namen.xml#$1">
-               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-               <p>"regp" verweist auf die Personennamen.</p>
-            </prefixDef>
-            <prefixDef ident="rego"
-                       matchPattern="([a-z0-9]+)"
-                       replacementPattern="namen.xml#$1">
-               <p>"rego" verweist auf die Ortsnamen.</p>
-            </prefixDef>
-            <prefixDef ident="regs"
-                       matchPattern="([a-z0-9]+)"
-                       replacementPattern="namen.xml#$1">
-               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-            </prefixDef>
-         </listPrefixDef>
-         <charDecl>
-            <char xml:id="finis">
-               <charName>Finis-Zeichen</charName>
-            </char>
-            <char xml:id="alin1">
-               <charName>Alinea-Zeichen</charName>
-            </char>
-            <char xml:id="deligatur">
-               <charName>de-Ligatur</charName>
-            </char>
-            <char xml:id="latAbbrRum">
-               <charName>Lateinische Abkürung für -rum</charName>
-            </char>
-            <char xml:id="latAbbrIs">
-               <charName>Lateinische Abkürzung für -is</charName>
-            </char>
-            <char xml:id="latAbbrEt">
-               <charName>Lateinische Abkürzung für -et/-it</charName>
-            </char>
-            <char xml:id="latAbbrEt2">
-               <charName>Lateinische Abkürzung für -et</charName>
-               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-            </char>
-            <char xml:id="zeilenfuellsel">
-               <charName>Zeilenfüllsel</charName>
-            </char>
-         </charDecl>
-      </encodingDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <note>Abschnitt 622.06-622.19, 623.17-623.22, 625.08-625.13, 626.08-625.13, 626.30-627.03, 628.22-628.27, 630.13-631.13</note>
-         <note>Transkribiert von MiGe ab Schwarz-Weiss-Fotos (Studio) am 2. Juni 2014</note>
-         <note>Gegengelesen von SFa ab Schwarz-Weiss-Fotos (Studio) am 18. Juni 2014</note>
-         <note>Korrekturen durchgeführt von CG am 21.11.2016.</note>
-         <note>Endredaktion von JKl ab Schwarz-Weiss-Fotos (Studio) am 25.12.2016</note>
-         <note>Gegengelesen und Endredaktion I gemacht von JW am 21.09.2017</note>
-         <note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
-         <note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
-         <pb xml:id="fr16001r"/>
-         <cb xml:id="fr16001ra"/>
-         <l xml:id="fr16_622.06">nam <name ref="regp:p0103" type="Person">gawanſ</name> a<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.07">da ſi ſaz en bi<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.08">zwene gebra<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.09">mit wine ei<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice> g<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.10">vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> zwei blank<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.11">div ſueze mag<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.12">vf ein<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> twehel<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.13">die ſpiſe e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> vlo<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.14">Gawan vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> div<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.15">Mohtenſ wazz<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.16">ob twahenſ w<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.17">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> ſi doch beidi<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.18">mit vroude e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.19">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> mit ir ez<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.20">durch die e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> le<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.21">beidiv vroude <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.22">ſ<gap reason="unleserlich" extent="2" unit="Buchstabe"/>enne ſi ir <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.23">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> da geruere<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.24">ſo wart im n<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.24-1">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> beſach die ſ<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.24-2">ir guetlich ſ<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.24-3">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> clagete nih<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.24-4">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> vand an ir <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.25">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> nach ir <gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.26">ſin riuwe be<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.26-1">alſ d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> einen v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.26-2">wurfe an ſin <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.26-3">ſin ougen be<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.26-4">ſin h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ze geg<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.27">vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> wart ſin <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_622.28">ir ſuez<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> mu<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice>t <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <cb xml:id="fr16001rb"/>
-         <l xml:id="fr16_623.17">vrouwe ich ſah in hivte lebn</l>
-         <l xml:id="fr16_623.18">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> wart mir vur ei<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice> orſ gegeben</l>
-         <l xml:id="fr16_623.19">welt ir ledigen den ſelben man</l>
-         <l xml:id="fr16_623.20">dar vmbe ſol ich ſwalwen han</l>
-         <l xml:id="fr16_623.21">div kunigi<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice>ne ſecundillen waſ</l>
-         <l xml:id="fr16_623.22">vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> die îv ſante Anfortaſ</l>
-         <cb xml:id="fr16001rc"/>
-         <l xml:id="fr16_625.08">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> wu<gap reason="Fragmentverlust" extent="unbekannt"/>e liep od<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> leit</l>
-         <l xml:id="fr16_625.09">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> deſ niemanne da</l>
-         <l xml:id="fr16_625.10">Gewuge noch and<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ſwa</l>
-         <l xml:id="fr16_625.11">Wan da erz w<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ben ſolte</l>
-         <l xml:id="fr16_625.12">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> bat d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> man <subst hand="#sr">
-               <del>vn<choice>
-                     <am>̄</am>
-                     <ex>d</ex>
-                  </choice>
-               </del>
-               <add>im</add>
-            </subst> holte</l>
-         <l xml:id="fr16_625.13">Tincten vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> permint</l>
-         <pb xml:id="fr16001v"/>
-         <cb xml:id="fr16001va"/>
-         <l xml:id="fr16_626.30">e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> reit nach w<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>declich<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> ſcarn</l>
-         <l xml:id="fr16_627.01">
-            <seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>rniven zorn beiagete</l>
-         <l xml:id="fr16_627.02">d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> cnappe ir niht enſagete</l>
-         <l xml:id="fr16_627.03">Vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> ſi v<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>ſweic d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> mere</l>
-         <l xml:id="fr16_627.04">war e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice> geſendet were</l>
-         <l xml:id="fr16_627.05">ſi bat den d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> porten pflac</l>
-         <cb xml:id="fr16001vb"/>
-         <l xml:id="fr16_628.22">dem h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>zogen vo<choice>
-               <am>̄</am>
-               <ex>n</ex>
-            </choice> Gauezin</l>
-         <l xml:id="fr16_628.23">vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> dem vurſten florande</l>
-         <l xml:id="fr16_628.24">d<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> in manigem lande</l>
-         <l xml:id="fr16_628.25">hat gedient werdekeit</l>
-         <l xml:id="fr16_628.26">Nv ſcaffet d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> div ſin bereit</l>
-         <l xml:id="fr16_628.27">bi eine<choice>
-               <am>̄</am>
-               <ex>m</ex>
-            </choice> cnappen e<choice>
-               <am>̉</am>
-               <ex>r</ex>
-            </choice>nbot</l>
-         <cb xml:id="fr16001vc"/>
-         <l xml:id="fr16_630.13">vn<choice>
-               <am>̄</am>
-               <ex>d</ex>
-            </choice> liſc<gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_630.14">wurde<gap reason="unleserlich" extent="1" unit="Buchstabe"/>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>are</l>
-         <l xml:id="fr16_630.15">die zwe<gap reason="Fragmentverlust" extent="unbekannt"/>urtoiſ</l>
-         <l xml:id="fr16_630.16">dur di h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice>
-            <gap reason="Fragmentverlust" extent="unbekannt"/>groiſ</l>
-         <l xml:id="fr16_630.17">
-            <subst hand="#sr">
-               <del>d*</del>
-               <add>ſi</add>
-            </subst> da<gap reason="Fragmentverlust" extent="unbekannt"/>drumbe</l>
-         <l xml:id="fr16_630.18">gegn <gap reason="Fragmentverlust" extent="unbekannt"/>tvmbe</l>
-         <l xml:id="fr16_630.19">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> wiſe</l>
-         <l xml:id="fr16_630.20">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>p<choice>
-               <am rend="hochgestellt">i</am>
-               <ex>ri</ex>
-            </choice>ſe</l>
-         <l xml:id="fr16_630.21">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_630.22">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>ne <subst hand="#sr">
-               <del>l</del>
-               <add>ſach</add>
-            </subst>
-         </l>
-         <l xml:id="fr16_630.23">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>n</l>
-         <l xml:id="fr16_630.24">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>h<choice>
-               <am>̉</am>
-               <ex>er</ex>
-            </choice> gen</l>
-         <l xml:id="fr16_630.25">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_630.26">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_630.27">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>zwene</l>
-         <l xml:id="fr16_630.28">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-            <unclear reason="Zweifel">w</unclear>e <unclear reason="Zweifel">bene</unclear>
-         </l>
-         <l xml:id="fr16_630.29">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>angen</l>
-         <l xml:id="fr16_630.30">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>ol en pfangen</l>
-         <l xml:id="fr16_631.01">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>ol<gap reason="unleserlich" extent="1" unit="Buchstabe"/>e ſten</l>
-         <l xml:id="fr16_631.02">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>zen gen</l>
-         <l xml:id="fr16_631.03">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> ſi wolten</l>
-         <l xml:id="fr16_631.04">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_631.05">
-            <gap reason="Fragmentverlust" extent="unbekannt"/> zewe</l>
-         <l xml:id="fr16_631.06">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_631.07">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-         </l>
-         <l xml:id="fr16_631.08">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-            <gap reason="unleserlich" extent="1" unit="Buchstabe"/>zen lan</l>
-         <l xml:id="fr16_631.09">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>lle</l>
-         <l xml:id="fr16_631.10">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>le</l>
-         <l xml:id="fr16_631.11">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>magt clar</l>
-         <l xml:id="fr16_631.12">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>d<choice>
-               <am>c</am>
-               <ex>az</ex>
-            </choice> brvne har</l>
-         <l xml:id="fr16_631.13">
-            <gap reason="Fragmentverlust" extent="unbekannt"/>
-            <gap reason="unleserlich" extent="1" unit="Buchstabe"/> ougen</l>
-      </body>
-   </text>
+                            </p></objectDesc>
+        <objectDesc>
+        <p>Das Fragment ist verbrannt. Transkribiert wurde von Fotografien: München, Bayerische Akademie der Wissenschaften, Hartl-Nachlass, Inv. Nr. H 19, Teil 1.</p>
+        </objectDesc>
+        <handDesc>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <listPrefixDef>
+    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+      <p>"regp" verweist auf die Personennamen.</p>
+    </prefixDef>
+    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"rego" verweist auf die Ortsnamen.</p>
+    </prefixDef>
+    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
+      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+    </prefixDef>
+  </listPrefixDef>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 622.06-622.19, 623.17-623.22, 625.08-625.13, 626.08-625.13, 626.30-627.03, 628.22-628.27, 630.13-631.13</note>
+<note>Transkribiert von MiGe ab Schwarz-Weiss-Fotos (Studio) am 2. Juni 2014</note>
+<note>Gegengelesen von SFa ab Schwarz-Weiss-Fotos (Studio) am 18. Juni 2014</note>
+<note>Korrekturen durchgeführt von CG am 21.11.2016.</note>
+<note>Endredaktion von JKl ab Schwarz-Weiss-Fotos (Studio) am 25.12.2016</note>
+<note>Gegengelesen und Endredaktion I gemacht von JW am 21.09.2017</note>
+<note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
+<note>Kein Abdruck des Fragments in der Sekundärliteratur vorhanden.</note>
+<pb xml:id="fr16001r"/><cb xml:id="fr16001ra"/>
+<l xml:id="fr16_622.06">nam <name ref="regp:p0103" type="Person">gawanſ</name> a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.07">da ſi ſaz en bi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.08">zwene gebra<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.09">mit wine ei<choice><am>̄</am><ex>n</ex></choice> g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.10">vn<choice><am>̄</am><ex>d</ex></choice> zwei blank<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.11">div ſueze mag<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.12">vf ein<choice><am>̉</am><ex>er</ex></choice> twehel<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.13">die ſpiſe e<choice><am>̉</am><ex>r</ex></choice> vlo<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.14">Gawan vn<choice><am>̄</am><ex>d</ex></choice> div<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.15">Mohtenſ wazz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.16">ob twahenſ w<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.17">d<choice><am>c</am><ex>az</ex></choice> ſi doch beidi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.18">mit vroude e<choice><am>̉</am><ex>r</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.19">d<choice><am>c</am><ex>az</ex></choice> e<choice><am>̉</am><ex>r</ex></choice> mit ir ez<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.20">durch die e<choice><am>̉</am><ex>r</ex></choice> le<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.21">beidiv vroude <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.22">ſ<gap reason="unleserlich" extent="2" unit="Buchstabe"/>enne ſi ir <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.23">d<choice><am>c</am><ex>az</ex></choice> da geruere<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.24">ſo wart im n<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.24-1">e<choice><am>̉</am><ex>r</ex></choice> beſach die ſ<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.24-2">ir guetlich ſ<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.24-3">e<choice><am>̉</am><ex>r</ex></choice> clagete nih<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.24-4">e<choice><am>̉</am><ex>r</ex></choice> vand an ir <gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.25">d<choice><am>c</am><ex>az</ex></choice> e<choice><am>̉</am><ex>r</ex></choice> nach ir <gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.26">ſin riuwe be<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.26-1">alſ d<choice><am>̉</am><ex>er</ex></choice> einen v<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.26-2">wurfe an ſin <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.26-3">ſin ougen be<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.26-4">ſin h<choice><am>̉</am><ex>er</ex></choice>ze geg<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.27">vn<choice><am>̄</am><ex>d</ex></choice> wart ſin <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_622.28">ir ſuez<choice><am>̉</am><ex>er</ex></choice> mu<choice><am>̄</am><ex>n</ex></choice>t <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<cb xml:id="fr16001rb"/>
+<l xml:id="fr16_623.17">vrouwe ich ſah in hivte lebn</l>
+<l xml:id="fr16_623.18">e<choice><am>̉</am><ex>r</ex></choice> wart mir vur ei<choice><am>̄</am><ex>n</ex></choice> orſ gegeben</l>
+<l xml:id="fr16_623.19">welt ir ledigen den ſelben man</l>
+<l xml:id="fr16_623.20">dar vmbe ſol ich ſwalwen han</l>
+<l xml:id="fr16_623.21">div kunigi<choice><am>̄</am><ex>n</ex></choice>ne ſecundillen waſ</l>
+<l xml:id="fr16_623.22">vn<choice><am>̄</am><ex>d</ex></choice> die îv ſante Anfortaſ</l>
+<cb xml:id="fr16001rc"/>
+<l xml:id="fr16_625.08">e<choice><am>̉</am><ex>r</ex></choice> wu<gap reason="Fragmentverlust" extent="unbekannt"/>e liep od<choice><am>̉</am><ex>er</ex></choice> leit</l>
+<l xml:id="fr16_625.09">d<choice><am>c</am><ex>az</ex></choice> e<choice><am>̉</am><ex>r</ex></choice> deſ niemanne da</l>
+<l xml:id="fr16_625.10">Gewuge noch and<choice><am>̉</am><ex>er</ex></choice>ſwa</l>
+<l xml:id="fr16_625.11">Wan da erz w<choice><am>̉</am><ex>er</ex></choice>ben ſolte</l>
+<l xml:id="fr16_625.12">e<choice><am>̉</am><ex>r</ex></choice> bat d<choice><am>c</am><ex>az</ex></choice> man <subst hand="#sr"><del>vn<choice><am>̄</am><ex>d</ex></choice></del><add>im</add></subst> holte</l>
+<l xml:id="fr16_625.13">Tincten vn<choice><am>̄</am><ex>d</ex></choice> permint</l>
+<pb xml:id="fr16001v"/><cb xml:id="fr16001va"/>
+<l xml:id="fr16_626.30">e<choice><am>̉</am><ex>r</ex></choice> reit nach w<choice><am>̉</am><ex>er</ex></choice>declich<choice><am>̉</am><ex>er</ex></choice> ſcarn</l>
+<l xml:id="fr16_627.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>rniven zorn beiagete</l>
+<l xml:id="fr16_627.02">d<choice><am>c</am><ex>az</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> cnappe ir niht enſagete</l>
+<l xml:id="fr16_627.03">Vn<choice><am>̄</am><ex>d</ex></choice> ſi v<choice><am>̉</am><ex>er</ex></choice>ſweic d<choice><am>̉</am><ex>er</ex></choice> mere</l>
+<l xml:id="fr16_627.04">war e<choice><am>̉</am><ex>r</ex></choice> geſendet were</l>
+<l xml:id="fr16_627.05">ſi bat den d<choice><am>̉</am><ex>er</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> porten pflac</l>
+<cb xml:id="fr16001vb"/>
+<l xml:id="fr16_628.22">dem h<choice><am>̉</am><ex>er</ex></choice>zogen vo<choice><am>̄</am><ex>n</ex></choice> Gauezin</l>
+<l xml:id="fr16_628.23">vn<choice><am>̄</am><ex>d</ex></choice> dem vurſten florande</l>
+<l xml:id="fr16_628.24">d<choice><am>̉</am><ex>er</ex></choice> in manigem lande</l>
+<l xml:id="fr16_628.25">hat gedient werdekeit</l>
+<l xml:id="fr16_628.26">Nv ſcaffet d<choice><am>c</am><ex>az</ex></choice> div ſin bereit</l>
+<l xml:id="fr16_628.27">bi eine<choice><am>̄</am><ex>m</ex></choice> cnappen e<choice><am>̉</am><ex>r</ex></choice>nbot</l>
+<cb xml:id="fr16001vc"/>
+<l xml:id="fr16_630.13">vn<choice><am>̄</am><ex>d</ex></choice> liſc<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_630.14">wurde<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/>are</l>
+<l xml:id="fr16_630.15">die zwe<gap reason="Fragmentverlust" extent="unbekannt"/>urtoiſ</l>
+<l xml:id="fr16_630.16">dur di h<choice><am>̉</am><ex>er</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/>groiſ</l>
+<l xml:id="fr16_630.17"><subst hand="#sr"><del>d*</del><add>ſi</add></subst> da<gap reason="Fragmentverlust" extent="unbekannt"/>drumbe</l>
+<l xml:id="fr16_630.18">gegn <gap reason="Fragmentverlust" extent="unbekannt"/>tvmbe</l>
+<l xml:id="fr16_630.19"><gap reason="Fragmentverlust" extent="unbekannt"/> wiſe</l>
+<l xml:id="fr16_630.20"><gap reason="Fragmentverlust" extent="unbekannt"/>p<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>ſe</l>
+<l xml:id="fr16_630.21"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_630.22"><gap reason="Fragmentverlust" extent="unbekannt"/>ne <subst hand="#sr"><del>l</del><add>ſach</add></subst></l>
+<l xml:id="fr16_630.23"><gap reason="Fragmentverlust" extent="unbekannt"/>n</l>
+<l xml:id="fr16_630.24"><gap reason="Fragmentverlust" extent="unbekannt"/>h<choice><am>̉</am><ex>er</ex></choice> gen</l>
+<l xml:id="fr16_630.25"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_630.26"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_630.27"><gap reason="Fragmentverlust" extent="unbekannt"/>zwene</l>
+<l xml:id="fr16_630.28"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">w</unclear>e <unclear reason="Zweifel">bene</unclear></l>
+<l xml:id="fr16_630.29"><gap reason="Fragmentverlust" extent="unbekannt"/>angen</l>
+<l xml:id="fr16_630.30"><gap reason="Fragmentverlust" extent="unbekannt"/>ol en pfangen</l>
+<l xml:id="fr16_631.01"><gap reason="Fragmentverlust" extent="unbekannt"/>ol<gap reason="unleserlich" extent="1" unit="Buchstabe"/>e ſten</l>
+<l xml:id="fr16_631.02"><gap reason="Fragmentverlust" extent="unbekannt"/>zen gen</l>
+<l xml:id="fr16_631.03"><gap reason="Fragmentverlust" extent="unbekannt"/> ſi wolten</l>
+<l xml:id="fr16_631.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_631.05"><gap reason="Fragmentverlust" extent="unbekannt"/> zewe</l>
+<l xml:id="fr16_631.06"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_631.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr16_631.08"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="1" unit="Buchstabe"/>zen lan</l>
+<l xml:id="fr16_631.09"><gap reason="Fragmentverlust" extent="unbekannt"/>lle</l>
+<l xml:id="fr16_631.10"><gap reason="Fragmentverlust" extent="unbekannt"/>le</l>
+<l xml:id="fr16_631.11"><gap reason="Fragmentverlust" extent="unbekannt"/>magt clar</l>
+<l xml:id="fr16_631.12"><gap reason="Fragmentverlust" extent="unbekannt"/>d<choice><am>c</am><ex>az</ex></choice> brvne har</l>
+<l xml:id="fr16_631.13"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="1" unit="Buchstabe"/> ougen</l>
+</body>
+</text>
 </TEI>
