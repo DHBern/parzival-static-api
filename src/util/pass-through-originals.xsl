@@ -41,7 +41,7 @@
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
       <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/original/{. => substring-after('original/')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}" method="xml" encoding="UTF-8">
+      <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}" method="xml" encoding="UTF-8" indent="false">
         <xsl:apply-templates select="doc(.)/node()" mode="pass-through">
           <xsl:with-param name="idno" select="$idno"/>
         </xsl:apply-templates>
