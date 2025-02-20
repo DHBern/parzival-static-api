@@ -56,7 +56,19 @@ declare %private function model:template-mei_mdiv($config as map(*), $node as no
     <t xmlns=""><pb-mei player="player" data="{$config?apply-children($config, $node, $params?data)}"/></t>/*
 };
 (: generated template function for element spec: gap :)
+declare %private function model:template-gap($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap2($config as map(*), $node as node()*, $params as map(*)) {
+    ``[::]``
+};
+(: generated template function for element spec: gap :)
 declare %private function model:template-gap3($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:::]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap4($config as map(*), $node as node()*, $params as map(*)) {
     ``[-*-]``
 };
 (: generated template function for element spec: cb :)
@@ -333,7 +345,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                             if (@type='Marginalie') then
                                 latex:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
                             else
-                                latex:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)
+                                if (not(@type='Kapitelüberschrift')) then
+                                    latex:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)
+                                else
+                                    $config?apply($config, ./node())
                     case element(dateline) return
                         latex:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -559,21 +574,48 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(encodingDesc) return
                         latex:omit($config, ., ("tei-encodingDesc", css:map-rend-to-class(.)), .)
                     case element(gap) return
-                        if (desc) then
-                            latex:inline($config, ., ("tei-gap1", css:map-rend-to-class(.)), .)
+                        if (number(@extent)=1) then
+                            let $params := 
+                                map {
+                                    "content": .
+                                }
+
+                                                        let $content := 
+                                model:template-gap($config, ., $params)
+                            return
+                                                        latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap1", "gap", css:map-rend-to-class(.)), $content)
                         else
-                            if (@extent) then
-                                latex:inline($config, ., ("tei-gap2", css:map-rend-to-class(.)), @extent)
-                            else
+                            if (number(@extent)=2) then
                                 let $params := 
                                     map {
                                         "content": .
                                     }
 
                                                                 let $content := 
-                                    model:template-gap3($config, ., $params)
+                                    model:template-gap2($config, ., $params)
                                 return
-                                                                latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)
+                                                                latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap2", "gap", css:map-rend-to-class(.)), $content)
+                            else
+                                if (@reason="Fragmentverlust" or @extent="unbekannt" or number(@extent)>=3) then
+                                    let $params := 
+                                        map {
+                                            "content": .
+                                        }
+
+                                                                        let $content := 
+                                        model:template-gap3($config, ., $params)
+                                    return
+                                                                        latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)
+                                else
+                                    let $params := 
+                                        map {
+                                            "content": .
+                                        }
+
+                                                                        let $content := 
+                                        model:template-gap4($config, ., $params)
+                                    return
+                                                                        latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)
                     case element(quote) return
                         if (ancestor::p) then
                             (: If it is inside a paragraph then it is inline, otherwise it is block level :)
