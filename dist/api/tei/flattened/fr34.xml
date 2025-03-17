@@ -1,37 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Transkription des Textzeugen fr34</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>22.07.24</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>München</settlement>
-                  <repository>Universitätsbibliothek der LMU</repository>
-                  <idno>8° Cod. ms. 154 (= Cim. 80b), Fragm. I</idno>
-                  <altIdentifier type="Parzival-Projekt">
-                     <idno>fr34</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <p corresp="Parzival-Projekt_fr34">
-                        <title type="main">Fr. 34 (G<hi rend="sup">t</hi>):</title>
-                        <list>
-                           <item>München, Universitätsbibliothek der LMU, 8° Cod. ms. 154 (= Cim. 80b), Fragm. I</item>
-                        </list>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr34</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>22.07.24</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>München</settlement>
+          <repository>Universitätsbibliothek der LMU</repository>
+          <idno>8° Cod. ms. 154 (= Cim. 80b), Fragm. I</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr34</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr34">
+                                <title type="main">Fr. 34 (G<hi rend="sup">t</hi>):</title>
+                                <list>
+                                    <item>München, Universitätsbibliothek der LMU, 8° Cod. ms. 154 (= Cim. 80b), Fragm. I</item>
+                                </list>
                                 Pergament
                                 
                                 – 7 Querstreifen einer oberen Blatthälfte
@@ -51,138 +46,135 @@
                                 – Fassungszugehörigkeit: *G [*GI]     
                                 
                                 – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1018">Handschriftencensus,</ref>.
-                            </p>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <charDecl>
-            <char xml:id="finis">
-               <charName>Finis-Zeichen</charName>
-            </char>
-            <char xml:id="alin1">
-               <charName>Alinea-Zeichen</charName>
-            </char>
-            <char xml:id="deligatur">
-               <charName>de-Ligatur</charName>
-            </char>
-            <char xml:id="latAbbrRum">
-               <charName>Lateinische Abkürung für -rum</charName>
-            </char>
-            <char xml:id="latAbbrIs">
-               <charName>Lateinische Abkürzung für -is</charName>
-            </char>
-            <char xml:id="latAbbrEt">
-               <charName>Lateinische Abkürzung für -et/-it</charName>
-            </char>
-            <char xml:id="latAbbrEt2">
-               <charName>Lateinische Abkürzung für -et</charName>
-    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+                            </p></objectDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
    </char>
-            <char xml:id="zeilenfuellsel">
-               <charName>Zeilenfüllsel</charName>
-            </char>
-         </charDecl>
-      </encodingDesc>
-   </teiHeader>
-   <text>
-      <body>
-Abschnitt 609,10-613,22
-Transkription am Original durch RSo im August 2004
-Zweimal (611.3), beim 2. Schreiber, wurden Platzhalter xͯ für probl. Supraskripte verwendet.
-An Richtlinien angepasst im Mai 2013 JKl
-Gegengelesen ab Farbfotos (Studio) und Korrekturen eingefügt von SiLa im November 2016.
-Endredaktion 1 am 25.4.2017 von SiLa; abgeschlossen am 4.5. von SiLa.
-Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.
-11.9.2018, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quelle: Wolfgang Golther, Altdeutsche Funde aus der Münchener Universitätsbibliothek, in: ZfdA 37 (1893), S. 276-288, hier S. 280f.
-<pb xml:id="fr34001r"/>
-         <cb xml:id="fr34001ra"/>
-         <l xml:id="fr34_609.10">Vnd daz vor mir niht welt verdagen.</l>
-: Unbekannter Vers. Nach Bonath/Lomnitzer mögl. ein Ersatzvers für 609.10.
-<l xml:id="fr34_609.13"/>
-         <l xml:id="fr34_609.14">Habt ir daz niht gerochen.</l>
-         <l xml:id="fr34_609.15">Daz ir nach tode valſch ſaget</l>
-         <l xml:id="fr34_609.16">Sin ſvn iſt des gar vnverzaget</l>
-         <l xml:id="fr34_609.17">Jn ſol des niht verdriezzen.</l>
-         <l xml:id="fr34_609.18">Mag er niht geniezzen.</l>
-         <l xml:id="fr34_609.19">Siner ſweſter wol gevar.</l>
-         <l xml:id="fr34_609.20">Zephande er git ſin leben dar.</l>
-         <l xml:id="fr34_609.21">Herre ich heizze Gawan.</l>
-         <l xml:id="fr34_609.22">Swaſ iv min vater hat getan.</l>
-         <l xml:id="fr34_609.23">Daz rechet an mir er iſt tot.</l>
-         <l xml:id="fr34_609.24">Ich ſol uvͤr ſin laſter not.</l>
-         <l xml:id="fr34_609.25">Han. min werdichlichez leben.</l>
-         <l xml:id="fr34_609.26">Vf champf vuͤr in zegeiſel geben.</l>
-         <l xml:id="fr34_609.27"/>
-         <l xml:id="fr34_609.30">Bediv lieb vnd leit.</l>
-         <l xml:id="fr34_610.01">Ein dinch tvt mir doch an iv wol.</l>
-         <l xml:id="fr34_610.02">Daz ich mit iv ſtriten ſol.</l>
-         <cb xml:id="fr34001rb"/>
-         <l xml:id="fr34_610.17">Zeſabins bi der ch</l>
-         <l xml:id="fr34_610.19"/>
-         <l xml:id="fr34_610.20"> grozzer ſchowe. er chomen da.</l>
-         <l xml:id="fr34_610.21">Dar nach an dem anderm tage.</l>
-         <l xml:id="fr34_610.22">Chvm ich dvrch min alte chlage.</l>
-         <l xml:id="fr34_610.23">Vf den planz tſcheffranze.</l>
-         <l xml:id="fr34_610.24">Nach gelt diſes chranze.</l>
-         <l xml:id="fr34_610.25">Gramoflanz in mit im bat.</l>
-         <l xml:id="fr34_610.26">Zeroys ſabins dvrch di ſtat.</l>
-         <l xml:id="fr34_610.27">Jr mvͤget niht an her brvke han.</l>
-         <l xml:id="fr34_610.28">Do ſprach min her Gawan.</l>
-         <l xml:id="fr34_610.29">Jch wil hin alſo her.</l>
-         <l xml:id="fr34_610.30">Anders niht iſt min ger</l>
-         <l xml:id="fr34_611.01">Si gaben fiantze</l>
-         <l xml:id="fr34_611.02">Daz ſi zefloritſchantze.</l>
-         <l xml:id="fr34_611.03">Mit Froͯwen vnd mit Riͯt̉ern her</l>
-         <l xml:id="fr34_611.04">Chom </l>
-         <l xml:id="fr34_611.05"/>
-         <l xml:id="fr34_611.06">vf einen rinch</l>
-         <l xml:id="fr34_611.07">Svſ ſchiet min her Gawan.</l>
-         <l xml:id="fr34_611.08">Dannen von dem werden man.</l>
-         <l xml:id="fr34_611.09"/>
-         <pb xml:id="fr34001v"/>
-         <cb xml:id="fr34001va"/>
-         <l xml:id="fr34_611.27">Vuͤr war mir iwer arbeit.</l>
-         <l xml:id="fr34_611.28">Fvͤget ſolhez hertzen leit</l>
-         <l xml:id="fr34_611.29">Die enphahen ſol getrewez wip.</l>
-         <l xml:id="fr34_611.30">Vmb ir libens vrivndeſ lip.</l>
-         <l xml:id="fr34_612.01">xO ſprach er vrowe iſt daz war.</l>
-         <l xml:id="fr34_612.02">Daz ir mich grvezzet an var.</l>
-         <l xml:id="fr34_612.03">het ir den pris.</l>
-         <l xml:id="fr34_612.04"> pin doch wol ſo wis.</l>
-         <l xml:id="fr34_612.05"> der ſchilt ſin reht ſol han.</l>
-         <l xml:id="fr34_612.06">Anders habet ir miſſetan.</l>
-         <l xml:id="fr34_612.07">Deſ ſchiltes amt iſt wol ſo hoh.</l>
-         <ref>hoh</ref>: Hinter der Falte verbirgt sich kein <ref>c</ref> in <ref>hoh</ref>.
-<l xml:id="fr34_612.08">Daz der ſpot ſich da von zoch.</l>
-         <l xml:id="fr34_612.09">Swer ritterſchaft ie gepflach.</l>
-         <l xml:id="fr34_612.10">vrowe ob ich ſo t mach</l>
-         <l xml:id="fr34_612.13">Etſwenne irs anders iahet.</l>
-         <l xml:id="fr34_612.14">Sit ir mich von erſt ſahet</l>
-         <l xml:id="fr34_612.15">Daz lazze ich ſin nemet hin den chranz.</l>
-         <cb xml:id="fr34001vb"/>
-         <l xml:id="fr34_612.30">An cidegaſte. dem vz erchorn.</l>
-         <l xml:id="fr34_613.03"/>
-         <l xml:id="fr34_613.04">Ez wære dirre oder der</l>
-         <l xml:id="fr34_613.05">Die mvter ie gebaren.</l>
-         <l xml:id="fr34_613.06">Bi ſiner cite iaren.</l>
-         <l xml:id="fr34_613.07">Die mvſen im iehen der werdicheit.</l>
-         <l xml:id="fr34_613.08">Die ander bris nie vber ſtreit.</l>
-         <l xml:id="fr34_613.09">Er waſ ein qvehbrvnne der tvgent.</l>
-         <l xml:id="fr34_613.10">Mit alſo berhafter ivgent.</l>
-         <l xml:id="fr34_613.11">Gar bewart vor valſcher pfliht.</l>
-         <l xml:id="fr34_613.12">Vz der vinſter an daz liht.</l>
-         <l xml:id="fr34_613.13">Het er ſich erblechet.</l>
-         <l xml:id="fr34_613.14">Sinen pris ſo hoh gerechet.</l>
-         <l xml:id="fr34_613.15">Daz in nimen chvnd ereichen.</l>
-         <l xml:id="fr34_613.16">Amor waſ ſin herzeichen.</l>
-         <l xml:id="fr34_613.17">Sin bris ſo hoh</l>
-         <l xml:id="fr34_613.18"/>
-         <l xml:id="fr34_613.20">Wie lvchtet ob allen ſternen.</l>
-         <l xml:id="fr34_613.21">Der ſnelle ſatvrnvs.</l>
-         <l xml:id="fr34_613.22">Der triwen ein m</l>
-      </body>
-   </text>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 609,10-613,22</note>
+<note>Transkription am Original durch RSo im August 2004</note>
+<note>Zweimal (611.3), beim 2. Schreiber, wurden Platzhalter xͯ für probl. Supraskripte verwendet.</note>
+<note>An Richtlinien angepasst im Mai 2013 JKl</note>
+<note>Gegengelesen ab Farbfotos (Studio) und Korrekturen eingefügt von SiLa im November 2016.</note>
+<note>Endredaktion 1 am 25.4.2017 von SiLa; abgeschlossen am 4.5. von SiLa.</note>
+<note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
+<note>11.9.2018, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quelle: Wolfgang Golther, Altdeutsche Funde aus der Münchener Universitätsbibliothek, in: ZfdA 37 (1893), S. 276-288, hier S. 280f.</note>
+<pb xml:id="fr34001r"/><cb xml:id="fr34001ra"/>
+<l xml:id="fr34_609.10">Vnd daz vor mir niht welt verdagen.</l>
+<note resp="#RSo_Lektor" target="#fr34_609.10 #34001ra">: Unbekannter Vers. Nach Bonath/Lomnitzer mögl. ein Ersatzvers für 609.10.</note>
+<l xml:id="fr34_609.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_609.14">Habt ir daz niht gerochen.</l>
+<l xml:id="fr34_609.15">Daz ir nach tode valſch ſaget</l>
+<l xml:id="fr34_609.16">Sin ſvn iſt des gar vnverzaget</l>
+<l xml:id="fr34_609.17">Jn ſol des niht verdriezzen.</l>
+<l xml:id="fr34_609.18">Mag er niht geniezzen.</l>
+<l xml:id="fr34_609.19">Siner ſweſter wol gevar.</l>
+<l xml:id="fr34_609.20">Zephande er git ſin leben dar.</l>
+<l xml:id="fr34_609.21">Herre ich heizze Gawan.</l>
+<l xml:id="fr34_609.22">Swaſ iv min vater hat getan.</l>
+<l xml:id="fr34_609.23">Daz rechet an mir er iſt tot.</l>
+<l xml:id="fr34_609.24"><supplied reason="unleserlich" resp="Sekundärliteratur">I</supplied>ch ſol uvͤr ſin laſter not.</l>
+<l xml:id="fr34_609.25">Han. min werdichlichez leben.</l>
+<l xml:id="fr34_609.26">Vf champf vuͤr in zegeiſel geben.</l>
+<l xml:id="fr34_609.27"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_609.30">Bediv lieb vnd leit.</l>
+<l xml:id="fr34_610.01">Ein dinch tvt mir doch an iv wol.</l>
+<l xml:id="fr34_610.02">Daz ich mit <supplied reason="unleserlich" resp="Sekundärliteratur">iv</supplied> ſ<supplied reason="unleserlich" resp="Sekundärliteratur">triten</supplied> ſol.</l>
+<cb xml:id="fr34001rb"/>
+<l xml:id="fr34_610.17">Zeſabins bi d<supplied reason="unleserlich" resp="Sekundärliteratur">er ch</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_610.19"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_610.20"><gap reason="Fragmentverlust" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">grozzer</supplied> ſchowe. er chomen da.</l>
+<l xml:id="fr34_610.21">Dar nach an dem anderm tage.</l>
+<l xml:id="fr34_610.22">Chvm ich dvrch min alte chlage.</l>
+<l xml:id="fr34_610.23">Vf den planz tſcheffranze.</l>
+<l xml:id="fr34_610.24">Nach gelt diſes chranze.</l>
+<l xml:id="fr34_610.25">Gramoflanz in mit im bat.</l>
+<l xml:id="fr34_610.26">Zeroys ſabins dvrch di ſtat.</l>
+<l xml:id="fr34_610.27">Jr mvͤget <supplied reason="unleserlich" resp="Sekundärliteratur">ni</supplied>ht an her brvke han.</l>
+<l xml:id="fr34_610.28">Do ſprach min her Gawan.</l>
+<l xml:id="fr34_610.29">Jch wil hin alſo her.</l>
+<l xml:id="fr34_610.30">Anders niht iſt min ger</l>
+<l xml:id="fr34_611.01">Si gaben fiantze</l>
+<l xml:id="fr34_611.02">Daz ſi zefloritſchantze.</l>
+<l xml:id="fr34_611.03">Mit Froͯwen vnd mit Riͯt<choice><am>̉</am><ex>er</ex></choice>n her</l>
+<l xml:id="fr34_611.04">Ch<supplied reason="unleserlich" resp="Sekundärliteratur">om</supplied> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_611.05"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_611.06"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">v</unclear>f einen rinch</l>
+<l xml:id="fr34_611.07">Svſ ſchiet min her Gawan.</l>
+<l xml:id="fr34_611.08">Dannen von dem werden man.</l>
+<l xml:id="fr34_611.09"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr34001v"/><cb xml:id="fr34001va"/>
+<l xml:id="fr34_611.27">Vuͤr war mir iwer arbeit.</l>
+<l xml:id="fr34_611.28">Fvͤget ſolhez hertzen leit</l>
+<l xml:id="fr34_611.29">Die enphahen ſol getrewez wip.</l>
+<l xml:id="fr34_611.30">Vmb ir libens vrivndeſ lip.</l>
+<l xml:id="fr34_612.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>O ſprach er vrowe iſt daz war.</l>
+<l xml:id="fr34_612.02">Daz ir mich grvezzet an var.</l>
+<l xml:id="fr34_612.03"><gap reason="Fragmentverlust" extent="unbekannt"/>het ir den pris.</l>
+<l xml:id="fr34_612.04"><gap reason="Fragmentverlust" extent="unbekannt"/> pin doch wol ſo wis.</l>
+<l xml:id="fr34_612.05"><gap reason="Fragmentverlust" extent="unbekannt"/> der ſchilt ſin reht ſol han.</l>
+<l xml:id="fr34_612.06">Anders habet ir miſſetan.</l>
+<l xml:id="fr34_612.07">Deſ ſchiltes amt iſt wol ſo hoh.</l>
+<note resp="#RSo_Lektor" target="#fr34_612.07 #34001va"><ref>hoh</ref>: Hinter der Falte verbirgt sich kein <ref>c</ref> in <ref>hoh</ref>.</note>
+<l xml:id="fr34_612.08"><supplied reason="unleserlich" resp="Sekundärliteratur">D</supplied>az der ſpot ſich da von zoch.</l>
+<l xml:id="fr34_612.09"><supplied reason="unleserlich" resp="Sekundärliteratur">S</supplied>wer ritterſchaft ie gepflach.</l>
+<l xml:id="fr34_612.10">vrowe ob ich ſo <gap reason="Fragmentverlust" extent="unbekannt"/>t mach</l>
+<l xml:id="fr34_612.13"><supplied reason="unleserlich" resp="Sekundärliteratur">Etſ</supplied>wenne irs anders iahet.</l>
+<l xml:id="fr34_612.14">Sit ir mich von erſt ſahet</l>
+<l xml:id="fr34_612.15">Daz lazze ich ſin nemet hin den chranz.</l>
+<cb xml:id="fr34001vb"/>
+<l xml:id="fr34_612.30">An cidegaſte. dem vz erchorn.</l>
+<l xml:id="fr34_613.03"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_613.04">Ez wære dirre oder der</l>
+<l xml:id="fr34_613.05">Die mvter ie gebaren.</l>
+<l xml:id="fr34_613.06">Bi ſiner cite iaren.</l>
+<l xml:id="fr34_613.07">Die mvſen im iehen der werdicheit.</l>
+<l xml:id="fr34_613.08">Die ander bris nie vber ſtreit.</l>
+<l xml:id="fr34_613.09">Er waſ ein qvehbrvnne der tvgent.</l>
+<l xml:id="fr34_613.10">Mit alſo berhafter ivgent.</l>
+<l xml:id="fr34_613.11">Gar bewart vor valſcher pfliht.</l>
+<l xml:id="fr34_613.12">Vz der vinſter an daz liht.</l>
+<l xml:id="fr34_613.13">Het er ſich erblechet.</l>
+<l xml:id="fr34_613.14">Sinen pris ſo hoh gerechet.</l>
+<l xml:id="fr34_613.15">Daz in nimen chvnd ereichen.</l>
+<l xml:id="fr34_613.16">Amor waſ ſin herzeichen.</l>
+<l xml:id="fr34_613.17">Sin bris ſo <supplied reason="unleserlich" resp="Sekundärliteratur">hoh</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_613.18"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr34_613.20">Wie lvchtet ob allen ſternen.</l>
+<l xml:id="fr34_613.21">Der ſnelle ſatvrnvs.</l>
+<l xml:id="fr34_613.22">Der triwen ein m<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+</body>
+</text>
 </TEI>

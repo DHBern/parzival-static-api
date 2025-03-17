@@ -1,35 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="de">
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Transkription des Textzeugen fr10</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>2017</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Graz</settlement>
-                  <repository>Steiermärkisches Landesarchiv</repository>
-                  <idno>Fragm. Germ. 1</idno>
-                  <altIdentifier type="Parzival-Projekt">
-                     <idno>fr10</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <p corresp="Parzival-Projekt_fr10">
-                        <title type="main">Fr. 10 (i)</title>
-                        <list>
-                           <item>Graz, Steiermärkisches Landesarchiv, Fragm. Germ. 1</item>
-                        </list>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr10</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Graz</settlement>
+          <repository>Steiermärkisches Landesarchiv</repository>
+          <idno>Fragm. Germ. 1</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr10</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr10">
+                                <title type="main">Fr. 10 (i)</title>
+                                <list>
+                                    <item>Graz, Steiermärkisches Landesarchiv, Fragm. Germ. 1</item>
+                                </list>
                                 Pergament
                                 
                                 – 1 Doppelblatt
@@ -47,245 +44,240 @@
                                 – Fassungszugehörigkeit: *D      
                                 
                                 – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1013">Handschriftencensus</ref>.
-                            </p>
-                  </objectDesc>
-                  <handDesc>
-                     <handNote xml:id="sr">Schreiber</handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <charDecl>
-            <char xml:id="finis">
-               <charName>Finis-Zeichen</charName>
-            </char>
-            <char xml:id="alin1">
-               <charName>Alinea-Zeichen</charName>
-            </char>
-            <char xml:id="deligatur">
-               <charName>de-Ligatur</charName>
-            </char>
-            <char xml:id="latAbbrRum">
-               <charName>Lateinische Abkürung für -rum</charName>
-            </char>
-            <char xml:id="latAbbrIs">
-               <charName>Lateinische Abkürzung für -is</charName>
-            </char>
-            <char xml:id="latAbbrEt">
-               <charName>Lateinische Abkürzung für -et/-it</charName>
-            </char>
-            <char xml:id="latAbbrEt2">
-               <charName>Lateinische Abkürzung für -et</charName>
-    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+                            </p></objectDesc>
+        <handDesc>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
    </char>
-         </charDecl>
-      </encodingDesc>
-   </teiHeader>
-   <text>
-      <body>
-Abschnitt 667.21-671.01; 678.08-681.22
-Transkribiert von MiGe ab Farbfotos (Studio) im Mai 2014.
-Gegengelesen von SFa ab Farbfotos (Studio) Juli 2014.
-Kontrolliert von KHo ab Farbfotos (Studio) Dezember 2016
-Auf Seite 1v ist nicht wie auf den restlichen Seiten jeder erste Buchstabe eines Verses einzeln rubriziert, es wurde einfach eine vertikale rote Linie gezogen.
-sek-Tags ergänzt am 5.9.2018 von MiGe. Quelle: Pichler, Friedrich: Gräzer Bruchstück aus Wolframs Parzival, in: Zeitschrift für deutsche Philologie 10 (1879), S. 205-210 (mit Abdruck).
-Grundsätzlich wurde jeder erste Buchstabe eines Verses oder nach einer Initiale in Fr10 einzeln rubriziert. Auf Seite 1v wurden alle Anfangsbuchstaben jedes zweiten Verses mit einem durchgehenden Strich rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.
-Jeder zweite Anfangsbuchstabe ist grundsätzlich herausgestellt. Diese Anfangsbuchstaben waren lange als Versalie getaggt. Dieses Tagging wurde, da es sich dabei nicht um ein Gliederungsmittel handeln kann, am 8.9.20 von MiGe entfernt.
-Autopsie am Original am 8.9.20 durch MiGe.
-<pb xml:id="fr10001r"/>
-         <cb xml:id="fr10001ra"/>
-         <l xml:id="fr10_667.21-0">ad Numerum 62 - 1877</l>
-         <l xml:id="fr10_667.21">Jch von chinde pin erzogēn.</l>
-         <l xml:id="fr10_667.22">nu ſcaffet mir fur vnbetrogn.</l>
-         <l xml:id="fr10_667.23">Mein raiſe mit choſte dar.</l>
-         <l xml:id="fr10_667.24">Daz manſ fur reichait neme  war.</l>
-         <l xml:id="fr10_667.25">Vnd lat hie ouf unủernom</l>
-         <l xml:id="fr10_667.26">Daz Artuſ h̉er durch mich iſt  chom.</l>
-         <l xml:id="fr10_667.27">Si laiſten ſwaz er īn geboͤt.</l>
-         <l xml:id="fr10_667.28">Dez wart Plippalinot.</l>
-         <l xml:id="fr10_667.29">Dar nach vnmuͤzzich ſere</l>
-         <l xml:id="fr10_667.30">Chochn vrſiere.</l>
-         <l xml:id="fr10_668.01">Seitieze vnd ſneken.</l>
-         <l xml:id="fr10_668.02">mit roͤtte d̉er quechen.</l>
-         <l xml:id="fr10_668.03">Baiden ze oͤrſſ vn̄d zu fuͦz</l>
-         <l xml:id="fr10_668.04">mit dēm marſchalch vber m*muͦz.</l>
-         <l xml:id="fr10_668.05">Sariand vnd Garzovne.</l>
-         <l xml:id="fr10_668.06">Hin nach dem britune.</l>
-         <l xml:id="fr10_668.07">Si ch̉erten h̉er vnde da.</l>
-         <l xml:id="fr10_668.08">mit Gawanſ marſchach ouf  di ſla.</l>
-         <l xml:id="fr10_668.09">Si faͦrtn auch des ſeit gewiſ.</l>
-         <l xml:id="fr10_668.10">Ain gezelt daz Jblis.</l>
-         <l xml:id="fr10_668.11">Chlinſor durch minn ſande.</l>
-         <cb xml:id="fr10001rb"/>
-         <l xml:id="fr10_668.17">Wand einz </l>
-         <l xml:id="fr10_668.18">Bei Artuſen ſtuͦnd̉er ouf eīn </l>
-         <l xml:id="fr10_668.19">Wart daz gezelt ouf geſlag</l>
-         <l xml:id="fr10_668.20">Manich gezelt hoͤrt ich ſ</l>
-         <l xml:id="fr10_668.21">Sluͦg man drumb an weitn </l>
-         <l xml:id="fr10_668.22">Daz dauhte reichlycheu di</l>
-         <l xml:id="fr10_668.23">Von Artuſ wart ủernom.</l>
-         <l xml:id="fr10_668.24">Gawanſ marſchach wære</l>
-         <l xml:id="fr10_668.25">D̉er h̉ertzog auf den plan.</l>
-         <l xml:id="fr10_668.26">Vn̄d daz d̉er w̉erde Gawan.</l>
-         <l xml:id="fr10_668.27">Solt ouch chomen bei dēm t</l>
-         <l xml:id="fr10_668.28">Daz wart Ain gemaine ſa</l>
-         <l xml:id="fr10_668.29">Von all d̉er mæſſenei.</l>
-         <l xml:id="fr10_668.30">Gawan d̉er valſch vrei</l>
-         <l xml:id="fr10_669.01">Von houſe ſich rotirte</l>
-         <l xml:id="fr10_669.02">Sein raiſ er alſo zier</l>
-         <l xml:id="fr10_669.03">Da vōn muht ich eu wund</l>
-         <l xml:id="fr10_669.04">Manich ſaumær muͦſe </l>
-         <l xml:id="fr10_669.05">Chappellen vn̄d cham̉ergew</l>
-         <l xml:id="fr10_669.06">manich ſaum̉er niht harna</l>
-         <l xml:id="fr10_669.07">Gengen ouch dar under.</l>
-         <pb xml:id="fr10001v"/>
-         <cb xml:id="fr10001va"/>
-         <l xml:id="fr10_669.13"> vaſte</l>
-         <l xml:id="fr10_669.14"> gezoh wol ain raſt.</l>
-         <l xml:id="fr10_669.15"> leng waſ gemezzen.</l>
-         <l xml:id="fr10_669.16">e wart da niht uergezzn.</l>
-         <l xml:id="fr10_669.17">n Ain ritt̉er wol gevar</l>
-         <l xml:id="fr10_669.18">er ſchuͦf zu Ainer vrowen  ſchar.</l>
-         <l xml:id="fr10_669.19">warn chranche ſinne.</l>
-         <l xml:id="fr10_669.20">i redtun iht uōn minne.</l>
-         <l xml:id="fr10_669.21">rkoit Florunt.</l>
-         <l xml:id="fr10_669.22">inem geſellen wart er chānt.</l>
-         <l xml:id="fr10_669.23">gwinen von Norweg.</l>
-         <l xml:id="fr10_669.24">orſ d̉er gar vntræg.</l>
-         <l xml:id="fr10_669.25">bei d̉er ſuͤzn Cundrei.</l>
-         <l xml:id="fr10_669.26">in ſweſt̉er Jtonei.</l>
-         <l xml:id="fr10_669.27">Gawan ſolte reitn.</l>
-         <l xml:id="fr10_669.28">den ſelbn zeiten.</l>
-         <l xml:id="fr10_669.29">e vn̄d diu h̉ertzogin.</l>
-         <l xml:id="fr10_669.30">h geſellinn woltn ſin.</l>
-         <l xml:id="fr10_670.01"> ditz waſ et alſo chom</l>
-         <l xml:id="fr10_670.02">Gawānſ rinch waſ genom</l>
-         <l xml:id="fr10_670.03">vvrch Artuſ h̉er al da d̉er lac</l>
-         <l xml:id="fr10_670.04">man ſchonhait da gephlach</l>
-         <cb xml:id="fr10001vb"/>
-         <l xml:id="fr10_670.10">Sein marſchalch muſe walde.</l>
-         <l xml:id="fr10_670.11">Daz ainen nah̉er zu d̉er rait.</l>
-         <l xml:id="fr10_670.12">D̉er and̉ern dehaine do ủer mait.</l>
-         <l xml:id="fr10_670.13">Sine habten ſuſ alumbe.</l>
-         <l xml:id="fr10_670.14">hie diu weiſe dort diu tumbe.</l>
-         <l xml:id="fr10_670.15">Bei ieſlich̉er ain ritt̉er d̉er ir phlach</l>
-         <l xml:id="fr10_670.16">vn̄d d̉er ſich dienſteſ bewach.</l>
-         <l xml:id="fr10_670.17">Artus rinch den weiten.</l>
-         <l xml:id="fr10_670.18">man ſah an allen ſeiten.</l>
-         <l xml:id="fr10_670.19">mit vrowen vmbe vangen</l>
-         <l xml:id="fr10_670.20">Do wart aller erſt enphāngen.</l>
-         <l xml:id="fr10_670.21">Gawan d̉er ſældn reiche.</l>
-         <l xml:id="fr10_670.22">Jch wæn deſ minnchleiche.</l>
-         <l xml:id="fr10_670.23">Arniue ir toht̉er vn̄d ir chīnt.</l>
-         <l xml:id="fr10_670.24">mit Gawan ge erbt ſint</l>
-         <l xml:id="fr10_670.25">Vn̄d uon Logroiſ diu h̉ertzoginn.</l>
-         <l xml:id="fr10_670.26">vn̄d d̉er h̉ertzog vōn Gomerzin.</l>
-         <l xml:id="fr10_670.27">Vn̄d d̉er turkoite Florant.</l>
-         <l xml:id="fr10_670.28">Gēnn diſen leutn wart erchānt.</l>
-         <l xml:id="fr10_670.29">Artuſ ouz dēm gezelde gie*giench</l>
-         <l xml:id="fr10_670.30">D̉er ſi da vreuntleich enphiēnch.</l>
-         <l xml:id="fr10_671.01">Alſo tet diu chunigin ſein weip.</l>
-         <pb xml:id="fr10002r"/>
-         <cb xml:id="fr10002ra"/>
-         <l xml:id="fr10_678.08">Des tagſ wurd̉er gēnn breiſ erchānt.</l>
-         <l xml:id="fr10_678.09">Ainn chnappen het er des gebetn.</l>
-         <l xml:id="fr10_678.10">Daz er im bræhte Gringuletn.</l>
-         <l xml:id="fr10_678.11">Daz begunder leiſiern.</l>
-         <l xml:id="fr10_678.12">Er wolt ſich mouiern.</l>
-         <l xml:id="fr10_678.13">Daz er vntz orſſ wærn berait.</l>
-         <l xml:id="fr10_678.14">Mier wart ſein raiſe nie ſo lait</l>
-         <l xml:id="fr10_678.15">Al aine rait h̉er Gawan.</l>
-         <l xml:id="fr10_678.16">Vom h̉er v̉erre ouf dēn blan.</l>
-         <l xml:id="fr10_678.17">Gelukke muͦz ez walten.</l>
-         <l xml:id="fr10_678.18">Er ſah ainn ritt̉er haldn.</l>
-         <l xml:id="fr10_678.19">Bei dem wazzer ſabbins.</l>
-         <l xml:id="fr10_678.20">Den wiͤr wol mohtn haizn vlins.</l>
-         <l xml:id="fr10_678.21">D̉er manleichn chrefte</l>
-         <l xml:id="fr10_678.22">Er ſchow̉er d̉er ritt̉erſchaͤfte.</l>
-         <l xml:id="fr10_678.23">Sein h̉ertze valſch nie vnd̉er ſwānch.</l>
-         <l xml:id="fr10_678.24">Er waſ des leibſ wol ſo chrānch.</l>
-         <l xml:id="fr10_678.25">Swaz man haizt vnbreis.</l>
-         <l xml:id="fr10_678.26">Daz entruͦg er nie chain weis.</l>
-         <l xml:id="fr10_678.27">Halbz ving̉er lanch noch ſpānnen.</l>
-         <l xml:id="fr10_678.28">Von dēm ſelbn w̉erdin manne.</l>
-         <l xml:id="fr10_678.29">Mugt iͤr wol ê han ủer nom.</l>
-         <cb xml:id="fr10002rb"/>
-         <l xml:id="fr10_679.05">Jch ſolt ouch </l>
-         <l xml:id="fr10_679.06">Daz wil ich ouz den ſorg</l>
-         <l xml:id="fr10_679.07">D̉er waſ im ſtreit ainſ mānn</l>
-         <l xml:id="fr10_679.08">Ouz haidenſchaft v̉err vb̉er m</l>
-         <l xml:id="fr10_679.09">Was braht diu zimirde ſei</l>
-         <l xml:id="fr10_679.10">Noch roͤter denn ain Ru</l>
-         <l xml:id="fr10_679.11">Waſ ſein Curſit vn̄d deſ oͤrſſe</l>
-         <l xml:id="fr10_679.12">D̉er helt nach Auentw*Auentuỷer rait.</l>
-         <l xml:id="fr10_679.13">Sein ſchilt was gar durch ſt</l>
-         <l xml:id="fr10_679.14">Er het ouch gebrochn.</l>
-         <l xml:id="fr10_679.15">Von dēm paum des Gramo f</l>
-         <l xml:id="fr10_679.16">Ouf dēm huͦt ainn liehten chr</l>
-         <l xml:id="fr10_679.17">Daz Gawan daz reiſ erchan</l>
-         <l xml:id="fr10_679.18">Do varht er di ſchande.</l>
-         <l xml:id="fr10_679.19">Ob ſein d̉er chūnich da het erb</l>
-         <l xml:id="fr10_679.20">Wær d̉er drdurch ſtreit gēnn i</l>
-         <l xml:id="fr10_679.21">So muͦs ouch ſtreitn da ge</l>
-         <l xml:id="fr10_679.22">vn̄d ſoltenz ouch nimm̉er vro</l>
-         <l xml:id="fr10_679.23">Von montſaluaſt warn ſi</l>
-         <l xml:id="fr10_679.24">Paiden ors div alſus hie</l>
-         <l xml:id="fr10_679.25">Liezn naher ſtreichn.</l>
-         <l xml:id="fr10_679.26">Ouf den pond̉er hurtichleich</l>
-         <pb xml:id="fr10002v"/>
-         <cb xml:id="fr10002va"/>
-         <l xml:id="fr10_680.02-01">Vermerktt mein aúß gab wein vnd  traidtt aúff haúßnottúrfft von dem  Aúſtandt ſo ich in der 49 Jarigēn  raitúng ſhúldig bin belliben  Jm 1550 Jar</l>
-         <l xml:id="fr10_680.02-02">4 J 9</l>
-         <l xml:id="fr10_680.02"> tioſte geſlæht.</l>
-         <l xml:id="fr10_680.03"> ſi baid en ſamt erborn.</l>
-         <l xml:id="fr10_680.04">ich gewunen vn̄d uil vlorn.</l>
-         <l xml:id="fr10_680.05">ſwer behaltet da den preiſ.</l>
-         <l xml:id="fr10_680.06">hlagt ez doch nimm̉er iſt er weiſ</l>
-         <l xml:id="fr10_680.07"> ain and̉er ſtund ir triwe.</l>
-         <l xml:id="fr10_680.08"> werd alt noch niwe.</l>
-         <l xml:id="fr10_680.09">chl ſchartn nie enphiēnch.</l>
-         <l xml:id="fr10_680.10"> hort wie diu tioſt ergiēnch.</l>
-         <l xml:id="fr10_680.11">tichlichn vnd doch alſo.</l>
-         <l xml:id="fr10_680.12">mohtn baide ſein unvro.</l>
-         <l xml:id="fr10_680.13">hant ſipp vn̄d hoh geſelleſchaft.</l>
-         <l xml:id="fr10_680.14"> da mit h̉ertznlich̉er chraft.</l>
-         <l xml:id="fr10_680.15">ſcarphen ſtreit ez aīn and̉er chōm.</l>
-         <l xml:id="fr10_680.16">ſwēm d̉er breiſ da wirt genom̄n.</l>
-         <l xml:id="fr10_680.17">vreud iſt drum ſorgn phānt.</l>
-         <l xml:id="fr10_680.18"> tioſt braht ietwederſ hant.</l>
-         <l xml:id="fr10_680.19">di mag vn̄d geſellen.</l>
-         <l xml:id="fr10_680.20">nd̉er muͦſn vellen.</l>
-         <l xml:id="fr10_680.21">oͤrſſ vn̄d mit alle nider</l>
-         <l xml:id="fr10_680.22"> wurbn ſi da ſider.</l>
-         <l xml:id="fr10_680.23">rt al da v̉erzwichet.</l>
-         <l xml:id="fr10_680.24">ſw̉ertn ver blichet.</l>
-         <cb xml:id="fr10002vb"/>
-         <l xml:id="fr10_680.29"/>
-         <l xml:id="fr10_680.30">Da graif er niem̄en ſchaidenſ zuͦ.</l>
-         <l xml:id="fr10_681.01">Da enwaſ niem̄en dann ſi.</l>
-         <l xml:id="fr10_681.02">Welt ir nu hoͤrn furbaz wi.</l>
-         <l xml:id="fr10_681.03">An den ſelbn ſtunden.</l>
-         <l xml:id="fr10_681.04">Artus botn fundn.</l>
-         <l xml:id="fr10_681.05">Dem chūnich Gramoflantz mit h̉er.</l>
-         <l xml:id="fr10_681.06">Ouf ainem plan pei dēm m̉er.</l>
-         <l xml:id="fr10_681.07">Ainhalb vloͤz d̉er Sabbins.</l>
-         <l xml:id="fr10_681.08">Vn̄d And̉erthalb d̉er Poẏnzaclins.</l>
-         <l xml:id="fr10_681.09">Div zwai wazz̉er ran da.</l>
-         <l xml:id="fr10_681.10">D̉er blan waſ ueſt̉er and̉erſwa.</l>
-         <l xml:id="fr10_681.11">Roſce ſabbinſ dort</l>
-         <l xml:id="fr10_681.12">Div haubtſtat dēn vierdn ort.</l>
-         <l xml:id="fr10_681.13">Begraif mit muͦw̉ermuͦ̉er vn̄d mit garabn.</l>
-         <l xml:id="fr10_681.14">Vn̄d manigm turn erhabn.</l>
-         <l xml:id="fr10_681.15">Des h̉ers lotſciern waſ getan.</l>
-         <l xml:id="fr10_681.16">Wol meil lānch ouf dēn plan</l>
-         <l xml:id="fr10_681.17">Vn̄d ouch wol halb̉er meil brait.</l>
-         <l xml:id="fr10_681.18">Artus botn da wid̉er rait.</l>
-         <l xml:id="fr10_681.19">Manich ritt̉er gar vmbechant.</l>
-         <l xml:id="fr10_681.20">Turcopl vn̄d ſariant.</l>
-         <l xml:id="fr10_681.21">Ze Eiſen vn̄d mit lantzen.</l>
-         <l xml:id="fr10_681.22">Dar nach begunde ſwantzn.</l>
-      </body>
-   </text>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 667.21-671.01; 678.08-681.22</note>
+<note>Transkribiert von MiGe ab Farbfotos (Studio) im Mai 2014.</note>
+<note>Gegengelesen von SFa ab Farbfotos (Studio) Juli 2014.</note>
+<note>Kontrolliert von KHo ab Farbfotos (Studio) Dezember 2016</note>
+<note>Auf Seite 1v ist nicht wie auf den restlichen Seiten jeder erste Buchstabe eines Verses einzeln rubriziert, es wurde einfach eine vertikale rote Linie gezogen.</note>
+<note>sek-Tags ergänzt am 5.9.2018 von MiGe. Quelle: Pichler, Friedrich: Gräzer Bruchstück aus Wolframs Parzival, in: Zeitschrift für deutsche Philologie 10 (1879), S. 205-210 (mit Abdruck).</note>
+<note>Grundsätzlich wurde jeder erste Buchstabe eines Verses oder nach einer Initiale in Fr10 einzeln rubriziert. Auf Seite 1v wurden alle Anfangsbuchstaben jedes zweiten Verses mit einem durchgehenden Strich rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<note>Jeder zweite Anfangsbuchstabe ist grundsätzlich herausgestellt. Diese Anfangsbuchstaben waren lange als Versalie getaggt. Dieses Tagging wurde, da es sich dabei nicht um ein Gliederungsmittel handeln kann, am 8.9.20 von MiGe entfernt.</note>
+<note>Autopsie am Original am 8.9.20 durch MiGe.</note>
+<pb xml:id="fr10001r"/><cb xml:id="fr10001ra"/>
+<l xml:id="fr10_667.21-0"><note type="Notiz">ad <unclear reason="Fragliche Abkürzung">Numerum</unclear> 62 - 1877</note></l>
+<l xml:id="fr10_667.21">Jch von chinde pin erzoge<unclear reason="Zweifel"><choice><am>̄</am><ex>n</ex></choice></unclear>.</l>
+<l xml:id="fr10_667.22">nu ſcaffet mir fur vnbetrogn.</l>
+<l xml:id="fr10_667.23">Mein raiſe mit choſte dar.</l>
+<l xml:id="fr10_667.24">Daz manſ fur <unclear reason="Zweifel">r</unclear>eichait neme <lb/> war.</l>
+<l xml:id="fr10_667.25">Vnd lat hie ouf unu<choice><am>̉</am><ex>er</ex></choice>nom</l>
+<l xml:id="fr10_667.26">Daz Artuſ h<choice><am>̉</am><ex>er</ex></choice> durch mich iſt <lb/> chom.</l>
+<l xml:id="fr10_667.27"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">S</seg>i laiſten ſwaz er i<choice><am>̄</am><ex>n</ex></choice> geboͤt.</l>
+<l xml:id="fr10_667.28">Dez wart Plippalinot.</l>
+<l xml:id="fr10_667.29">Dar nach vnmuͤzzich ſere</l>
+<l xml:id="fr10_667.30">Chochn vrſiere.</l>
+<l xml:id="fr10_668.01">Seitieze vnd ſneken.</l>
+<l xml:id="fr10_668.02">mit roͤtte d<choice><am>̉</am><ex>er</ex></choice> quechen.</l>
+<l xml:id="fr10_668.03">Baiden ze oͤrſſ vn<choice><am>̄</am><ex>d</ex></choice> zu fuͦz</l>
+<l xml:id="fr10_668.04">mit de<choice><am>̄</am><ex>m</ex></choice> marſchalch vber <subst hand="#sr"><del>m*</del><add>muͦz</add></subst>.</l>
+<l xml:id="fr10_668.05">Sariand vnd Garzovne.</l>
+<l xml:id="fr10_668.06">Hin nach dem britune.</l>
+<l xml:id="fr10_668.07">Si ch<choice><am>̉</am><ex>er</ex></choice>ten h<choice><am>̉</am><ex>er</ex></choice> vnde da.</l>
+<l xml:id="fr10_668.08">mit Gawanſ marſchach ouf <lb/> di ſla.</l>
+<l xml:id="fr10_668.09">Si faͦrtn auch des ſeit gewiſ.</l>
+<l xml:id="fr10_668.10">Ain gezelt daz Jblis.</l>
+<l xml:id="fr10_668.11">Chlinſor durch minn ſande.</l>
+<cb xml:id="fr10001rb"/>
+<l xml:id="fr10_668.17">Wan<unclear reason="Zweifel">d</unclear> <unclear reason="Zweifel">einz</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.18">Bei Artuſen ſtuͦnd<choice><am>̉</am><ex>er</ex></choice> ouf ei<unclear reason="Zweifel"><choice><am>̄</am><ex>n</ex></choice></unclear> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.19">Wart daz gezelt ouf geſla<unclear reason="Zweifel">g</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.20">Manich gezelt hoͤrt ich ſ<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.21">Sluͦg man drumb an weitn <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.22">Daz dauhte reichlycheu d<unclear reason="Zweifel">i</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.23">Von Artuſ wart u<choice><am>̉</am><ex>er</ex></choice>nom.</l>
+<l xml:id="fr10_668.24">Gawanſ marſchach wære<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.25">D<choice><am>̉</am><ex>er</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzog auf den plan.</l>
+<l xml:id="fr10_668.26">Vn<choice><am>̄</am><ex>d</ex></choice> daz d<choice><am>̉</am><ex>er</ex></choice> w<choice><am>̉</am><ex>er</ex></choice>de Gawan.</l>
+<l xml:id="fr10_668.27">Solt ouch chomen bei de<choice><am>̄</am><ex>m</ex></choice> <unclear reason="Zweifel">t</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.28">Daz wart Ain gemaine ſa<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_668.29">Von all d<choice><am>̉</am><ex>er</ex></choice> mæſſenei.</l>
+<l xml:id="fr10_668.30">Gawan d<choice><am>̉</am><ex>er</ex></choice> valſch vrei</l>
+<l xml:id="fr10_669.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg><hi rend="nicht_rot">o</hi>n houſe ſich rotirte</l>
+<l xml:id="fr10_669.02"><hi rend="nicht_rot">S</hi>ein raiſ er alſo zier<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_669.03">Da vo<choice><am>̄</am><ex>n</ex></choice> muht ich eu wun<unclear reason="Zweifel">d</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_669.04">Manich ſaumær muͦſe <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_669.05">Chappellen vn<choice><am>̄</am><ex>d</ex></choice> cham<choice><am>̉</am><ex>er</ex></choice>gew<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_669.06">manich ſaum<choice><am>̉</am><ex>er</ex></choice> niht harna<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_669.07">Gengen ouch dar under.</l>
+<pb xml:id="fr10001v"/><cb xml:id="fr10001va"/>
+<l xml:id="fr10_669.13"><gap reason="Fragmentverlust" extent="unbekannt"/> <unclear reason="Zweifel">vaſte</unclear></l>
+<l xml:id="fr10_669.14"><gap reason="Fragmentverlust" extent="unbekannt"/> gezoh wol ain raſt.</l>
+<l xml:id="fr10_669.15"><gap reason="Fragmentverlust" extent="unbekannt"/> leng waſ gemezzen.</l>
+<l xml:id="fr10_669.16"><gap reason="Fragmentverlust" extent="unbekannt"/>e wart da niht uergezzn.</l>
+<l xml:id="fr10_669.17"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> Ain ritt<choice><am>̉</am><ex>er</ex></choice> wol gevar</l>
+<l xml:id="fr10_669.18"><gap reason="Fragmentverlust" extent="unbekannt"/>er ſchuͦf zu Ainer vrowen <lb/> ſchar.</l>
+<l xml:id="fr10_669.19"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">w</unclear>arn chranche ſinne.</l>
+<l xml:id="fr10_669.20"><gap reason="Fragmentverlust" extent="unbekannt"/>i red<unclear reason="Zweifel">tu</unclear>n iht uo<choice><am>̄</am><ex>n</ex></choice> minne.</l>
+<l xml:id="fr10_669.21"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">r</unclear>koit Flor<unclear reason="Zweifel">u</unclear>nt.</l>
+<l xml:id="fr10_669.22"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">i</unclear>nem geſellen wart er cha<choice><am>̄</am><ex>n</ex></choice>t.</l>
+<l xml:id="fr10_669.23"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">g</unclear>winen von Norweg.</l>
+<l xml:id="fr10_669.24"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">o</unclear>rſ d<choice><am>̉</am><ex>er</ex></choice> gar vntræg.</l>
+<l xml:id="fr10_669.25"><gap reason="Fragmentverlust" extent="unbekannt"/>bei d<choice><am>̉</am><ex>er</ex></choice> ſuͤzn <hi rend="rot">C</hi>undrei.</l>
+<l xml:id="fr10_669.26"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">i</unclear>n ſweſt<choice><am>̉</am><ex>er</ex></choice> <hi rend="rot">J</hi>tonei.</l>
+<l xml:id="fr10_669.27"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">G</unclear>awan ſolte reitn.</l>
+<l xml:id="fr10_669.28"><gap reason="Fragmentverlust" extent="unbekannt"/>den ſelbn zeiten.</l>
+<l xml:id="fr10_669.29"><gap reason="Fragmentverlust" extent="unbekannt"/>e vn<choice><am>̄</am><ex>d</ex></choice> diu h<choice><am>̉</am><ex>er</ex></choice>tzogin.</l>
+<l xml:id="fr10_669.30"><gap reason="Fragmentverlust" extent="unbekannt"/>h geſellinn woltn ſin.</l>
+<l xml:id="fr10_670.01"><gap reason="Fragmentverlust" extent="unbekannt"/> ditz waſ et alſo chom</l>
+<l xml:id="fr10_670.02">Gawa<choice><am>̄</am><ex>n</ex></choice>ſ rinch waſ genom</l>
+<l xml:id="fr10_670.03"><gap reason="Fragmentverlust" extent="unbekannt"/><choice><am rend="hochgestellt">v</am><ex>vr</ex></choice>ch Artuſ h<choice><am>̉</am><ex>er</ex></choice> al da d<choice><am>̉</am><ex>er</ex></choice> lac</l>
+<l xml:id="fr10_670.04"><gap reason="Fragmentverlust" extent="unbekannt"/>man ſchonhait da gephlach</l>
+<cb xml:id="fr10001vb"/>
+<l xml:id="fr10_670.10">Sein marſchalch muſe walde.</l>
+<l xml:id="fr10_670.11">Daz ainen nah<choice><am>̉</am><ex>er</ex></choice> zu d<choice><am>̉</am><ex>er</ex></choice> rait.</l>
+<l xml:id="fr10_670.12">D<choice><am>̉</am><ex>er</ex></choice> and<choice><am>̉</am><ex>er</ex></choice>n dehaine do u<choice><am>̉</am><ex>er</ex></choice> mait.</l>
+<l xml:id="fr10_670.13">Sine habten ſuſ alumbe.</l>
+<l xml:id="fr10_670.14">hie diu weiſe dort diu tumbe.</l>
+<l xml:id="fr10_670.15">Bei ieſlich<choice><am>̉</am><ex>er</ex></choice> ain ritt<choice><am>̉</am><ex>er</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> ir phlach</l>
+<l xml:id="fr10_670.16">vn<choice><am>̄</am><ex>d</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> ſich dienſteſ bewach.</l>
+<l xml:id="fr10_670.17">Artus rinch den weiten.</l>
+<l xml:id="fr10_670.18">man ſah an allen ſeiten.</l>
+<l xml:id="fr10_670.19"><hi rend="nicht_rot">m</hi>it vrowen vmbe vangen</l>
+<l xml:id="fr10_670.20">Do wart aller erſt enpha<choice><am>̄</am><ex>n</ex></choice>gen.</l>
+<l xml:id="fr10_670.21">Gawan d<choice><am>̉</am><ex>er</ex></choice> ſældn reiche.</l>
+<l xml:id="fr10_670.22">Jch wæn deſ minnchleiche.</l>
+<l xml:id="fr10_670.23">Arn<unclear reason="Zweifel"><supplied reason="Bogenhäufung" extent="2" unit="Schaft">iu</supplied></unclear>e ir toht<choice><am>̉</am><ex>er</ex></choice> vn<choice><am>̄</am><ex>d</ex></choice> ir chi<choice><am>̄</am><ex>n</ex></choice>t.</l>
+<l xml:id="fr10_670.24">mit Gawan ge erbt ſint</l>
+<l xml:id="fr10_670.25">Vn<choice><am>̄</am><ex>d</ex></choice> uon Logroiſ diu h<choice><am>̉</am><ex>er</ex></choice>tzoginn.</l>
+<l xml:id="fr10_670.26">vn<choice><am>̄</am><ex>d</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzog vo<choice><am>̄</am><ex>n</ex></choice> Gomerzin.</l>
+<l xml:id="fr10_670.27">Vn<choice><am>̄</am><ex>d</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> turkoite Florant.</l>
+<l xml:id="fr10_670.28">Ge<choice><am>̄</am><ex>n</ex></choice>n diſen leutn wart ercha<choice><am>̄</am><ex>n</ex></choice>t.</l>
+<l xml:id="fr10_670.29">Artuſ ouz de<choice><am>̄</am><ex>m</ex></choice> gezelde <subst hand="#sr"><del>gie*</del><add>giench</add></subst></l>
+<l xml:id="fr10_670.30">D<choice><am>̉</am><ex>er</ex></choice> ſi da vreuntleich enphie<choice><am>̄</am><ex>n</ex></choice>ch.</l>
+<l xml:id="fr10_671.01">Alſo tet diu chunigin ſein weip.</l>
+<pb xml:id="fr10002r"/><cb xml:id="fr10002ra"/>
+<l xml:id="fr10_678.08">Des tagſ wurd<choice><am>̉</am><ex>er</ex></choice> ge<choice><am>̄</am><ex>n</ex></choice>n breiſ ercha<unclear reason="Zweifel"><choice><am>̄</am><ex>n</ex></choice></unclear>t.</l>
+<l xml:id="fr10_678.09">Ainn chnappen het er des gebetn.</l>
+<l xml:id="fr10_678.10">Daz er im bræhte Gringuletn.</l>
+<l xml:id="fr10_678.11">Daz begunder leiſiern.</l>
+<l xml:id="fr10_678.12">Er wolt ſich mouiern.</l>
+<l xml:id="fr10_678.13">Daz er vntz orſſ wærn berait.</l>
+<l xml:id="fr10_678.14">Mier wart ſein raiſe nie ſo lait</l>
+<l xml:id="fr10_678.15">Al aine rait h<choice><am>̉</am><ex>er</ex></choice> Gawan.</l>
+<l xml:id="fr10_678.16">Vom h<choice><am>̉</am><ex>er</ex></choice> v<choice><am>̉</am><ex>er</ex></choice>re ouf de<choice><am>̄</am><ex>n</ex></choice> blan.</l>
+<l xml:id="fr10_678.17">Gelukke muͦz ez walten.</l>
+<l xml:id="fr10_678.18">Er ſah ainn ritt<choice><am>̉</am><ex>er</ex></choice> haldn.</l>
+<l xml:id="fr10_678.19">Bei dem wazzer ſabbins.</l>
+<l xml:id="fr10_678.20">Den wiͤr wol mohtn haizn vlins.</l>
+<l xml:id="fr10_678.21">D<choice><am>̉</am><ex>er</ex></choice> manleichn chrefte</l>
+<l xml:id="fr10_678.22">Er ſchow<choice><am>̉</am><ex>er</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> ritt<choice><am>̉</am><ex>er</ex></choice>ſchaͤfte.</l>
+<l xml:id="fr10_678.23">Sein h<choice><am>̉</am><ex>er</ex></choice>tze valſch nie vnd<choice><am>̉</am><ex>er</ex></choice> ſwa<choice><am>̄</am><ex>n</ex></choice>ch.</l>
+<l xml:id="fr10_678.24">Er waſ des leibſ wol ſo chra<choice><am>̄</am><ex>n</ex></choice>ch.</l>
+<l xml:id="fr10_678.25">Swaz man haizt vnbreis.</l>
+<l xml:id="fr10_678.26">Daz entruͦg er nie chain weis.</l>
+<l xml:id="fr10_678.27">Halbz ving<choice><am>̉</am><ex>er</ex></choice> lanch noch ſpa<choice><am>̄</am><ex>n</ex></choice>nen.</l>
+<l xml:id="fr10_678.28">Von de<choice><am>̄</am><ex>m</ex></choice> ſelbn w<choice><am>̉</am><ex>er</ex></choice>din manne.</l>
+<l xml:id="fr10_678.29">Mugt iͤr wol ê han u<choice><am>̉</am><ex>er</ex></choice> nom.</l>
+<cb xml:id="fr10002rb"/>
+<l xml:id="fr10_679.05">Jch <unclear reason="Zweifel">ſ</unclear>o<unclear reason="Zweifel">lt</unclear> <unclear reason="Zweifel">ouc</unclear>h <gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.06">Daz wil ich ouz den ſorg<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.07">D<choice><am>̉</am><ex>er</ex></choice> waſ im ſtreit ainſ ma<choice><am>̄</am><ex>n</ex></choice>n<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.08">Ouz haidenſchaft v<choice><am>̉</am><ex>er</ex></choice>r vb<choice><am>̉</am><ex>er</ex></choice> <unclear reason="Zweifel">m</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.09">Was braht diu zimirde ſe<unclear reason="Zweifel">i</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.10">Noch roͤter denn ain Ru<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.11">Waſ ſein Curſit vn<choice><am>̄</am><ex>d</ex></choice> deſ oͤrſſe<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.12">D<choice><am>̉</am><ex>er</ex></choice> helt nach <subst hand="#sr"><del>Auentw*</del><add>Auentuy<choice><am>̉</am><ex>er</ex></choice></add></subst> rait.</l>
+<l xml:id="fr10_679.13">Sein ſchilt was gar durch ſt<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.14">Er het ouch gebrochn.</l>
+<l xml:id="fr10_679.15">Von de<choice><am>̄</am><ex>m</ex></choice> paum des Gramo <unclear reason="Zweifel">f</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.16">Ouf de<choice><am>̄</am><ex>m</ex></choice> huͦt a<unclear reason="Zweifel">i</unclear>nn liehten chr<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.17">Daz Gawan daz reiſ ercha<unclear reason="Zweifel">n</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.18">Do varht er di ſchande.</l>
+<l xml:id="fr10_679.19">Ob ſein d<choice><am>̉</am><ex>er</ex></choice> chu<choice><am>̄</am><ex>n</ex></choice>ich da het erb<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.20">Wær d<choice><am>̉</am><ex>er</ex></choice> <subst hand="#sr"><del>dr</del><add>durch</add></subst> ſtreit ge<choice><am>̄</am><ex>n</ex></choice>n i<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.21">So muͦs ouch ſtreitn da g<unclear reason="Zweifel">e</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.22">vn<choice><am>̄</am><ex>d</ex></choice> ſoltenz ouch nimm<choice><am>̉</am><ex>er</ex></choice> vr<unclear reason="Zweifel">o</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_679.23">Von montſaluaſt warn ſi</l>
+<l xml:id="fr10_679.24">Paiden ors div alſus hie</l>
+<l xml:id="fr10_679.25">Liezn naher ſtreichn.</l>
+<l xml:id="fr10_679.26">Ouf den pond<choice><am>̉</am><ex>er</ex></choice> hurtichlei<unclear reason="Zweifel">ch</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr10002v"/><cb xml:id="fr10002va"/>
+<l xml:id="fr10_680.02-01"><note type="Notiz">Vermerktt mein aúß gab wein vnd <lb/> traidtt aúff haúßnottúrfft von dem <lb/> <unclear reason="Zweifel">A</unclear>úſtandt ſo ich in der 49 Jarige<unclear reason="Zweifel"><choice><am>̄</am><ex>n</ex></choice></unclear> <lb/> raitúng ſhúldig bin belliben <lb/> Jm 1550 Jar</note></l>
+<l xml:id="fr10_680.02-02"><note type="Notiz">4 <unclear reason="Zweifel">J</unclear> 9</note></l>
+<l xml:id="fr10_680.02"><gap reason="Fragmentverlust" extent="unbekannt"/> <unclear reason="Zweifel">tioſte</unclear> ge<unclear reason="Zweifel">ſl</unclear>æht.</l>
+<l xml:id="fr10_680.03"><gap reason="Fragmentverlust" extent="unbekannt"/> ſi baid en ſamt erborn.</l>
+<l xml:id="fr10_680.04"><gap reason="Fragmentverlust" extent="unbekannt"/>ich gewunen vn<choice><am>̄</am><ex>d</ex></choice> uil vlorn.</l>
+<l xml:id="fr10_680.05"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">ſ</unclear>wer behaltet da den preiſ.</l>
+<l xml:id="fr10_680.06"><gap reason="Fragmentverlust" extent="unbekannt"/>hlagt ez doch nimm<choice><am>̉</am><ex>er</ex></choice> iſt er weiſ</l>
+<l xml:id="fr10_680.07"><gap reason="Fragmentverlust" extent="unbekannt"/> ain and<choice><am>̉</am><ex>er</ex></choice> ſtund ir triwe.</l>
+<l xml:id="fr10_680.08"><gap reason="Fragmentverlust" extent="unbekannt"/> werd alt noch niwe.</l>
+<l xml:id="fr10_680.09"><gap reason="Fragmentverlust" extent="unbekannt"/>chl ſchartn nie enphie<choice><am>̄</am><ex>n</ex></choice>ch.</l>
+<l xml:id="fr10_680.10"><gap reason="Fragmentverlust" extent="unbekannt"/> hort wie diu tioſt ergie<choice><am>̄</am><ex>n</ex></choice>ch.</l>
+<l xml:id="fr10_680.11"><gap reason="Fragmentverlust" extent="unbekannt"/>tichlichn vnd doch alſo.</l>
+<l xml:id="fr10_680.12"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">m</unclear>ohtn baide ſein unvro.</l>
+<l xml:id="fr10_680.13"><gap reason="Fragmentverlust" extent="unbekannt"/>hant ſipp vn<choice><am>̄</am><ex>d</ex></choice> hoh geſelleſchaft.</l>
+<l xml:id="fr10_680.14"><gap reason="Fragmentverlust" extent="unbekannt"/> da mit h<choice><am>̉</am><ex>er</ex></choice>tznlich<choice><am>̉</am><ex>er</ex></choice> chraft.</l>
+<l xml:id="fr10_680.15"><gap reason="Fragmentverlust" extent="unbekannt"/>ſcarphen ſtreit ez ai<choice><am>̄</am><ex>n</ex></choice> and<choice><am>̉</am><ex>er</ex></choice> cho<choice><am>̄</am><ex>m</ex></choice>.</l>
+<l xml:id="fr10_680.16"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">ſ</unclear>we<choice><am>̄</am><ex>m</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> breiſ da wirt genom<choice><am>̄</am><ex>n</ex></choice>.</l>
+<l xml:id="fr10_680.17"><gap reason="Fragmentverlust" extent="unbekannt"/>vreud iſt drum ſorgn pha<choice><am>̄</am><ex>n</ex></choice>t.</l>
+<l xml:id="fr10_680.18"><gap reason="Fragmentverlust" extent="unbekannt"/> tioſt braht ietwederſ hant.</l>
+<l xml:id="fr10_680.19"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">d</unclear>i mag vn<choice><am>̄</am><ex>d</ex></choice> geſellen.</l>
+<l xml:id="fr10_680.20"><gap reason="Fragmentverlust" extent="unbekannt"/>nd<choice><am>̉</am><ex>er</ex></choice> muͦſn vellen.</l>
+<l xml:id="fr10_680.21"><gap reason="Fragmentverlust" extent="unbekannt"/>oͤrſſ vn<choice><am>̄</am><ex>d</ex></choice> mit alle nider</l>
+<l xml:id="fr10_680.22"><gap reason="Fragmentverlust" extent="unbekannt"/> wurbn ſi da ſider.</l>
+<l xml:id="fr10_680.23"><gap reason="Fragmentverlust" extent="unbekannt"/>rt al da v<choice><am>̉</am><ex>er</ex></choice>zwichet.</l>
+<l xml:id="fr10_680.24"><gap reason="Fragmentverlust" extent="unbekannt"/>ſw<choice><am>̉</am><ex>er</ex></choice>tn ver blichet.</l>
+<cb xml:id="fr10002vb"/>
+<l xml:id="fr10_680.29"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr10_680.30">Da graif er niem<choice><am>̄</am><ex>en</ex></choice> ſchaidenſ zuͦ.</l>
+<l xml:id="fr10_681.01">Da enwaſ niem<choice><am>̄</am><ex>en</ex></choice> dann ſi.</l>
+<l xml:id="fr10_681.02"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">W</seg>elt ir nu hoͤrn furbaz wi.</l>
+<l xml:id="fr10_681.03">An den ſelbn ſtunden.</l>
+<l xml:id="fr10_681.04">Artus botn fundn.</l>
+<l xml:id="fr10_681.05">Dem chu<choice><am>̄</am><ex>n</ex></choice>ich Gramoflantz mit h<choice><am>̉</am><ex>er</ex></choice>.</l>
+<l xml:id="fr10_681.06">Ouf ainem plan pei de<choice><am>̄</am><ex>m</ex></choice> m<choice><am>̉</am><ex>er</ex></choice>.</l>
+<l xml:id="fr10_681.07">Ainhalb vloͤz d<choice><am>̉</am><ex>er</ex></choice> Sabbins.</l>
+<l xml:id="fr10_681.08">Vn<choice><am>̄</am><ex>d</ex></choice> And<choice><am>̉</am><ex>er</ex></choice>thalb d<choice><am>̉</am><ex>er</ex></choice> Poẏnzaclins.</l>
+<l xml:id="fr10_681.09">Div zwai wazz<choice><am>̉</am><ex>er</ex></choice> ran da.</l>
+<l xml:id="fr10_681.10">D<choice><am>̉</am><ex>er</ex></choice> blan waſ ueſt<choice><am>̉</am><ex>er</ex></choice> and<choice><am>̉</am><ex>er</ex></choice>ſwa.</l>
+<l xml:id="fr10_681.11">Roſce ſabbinſ dort</l>
+<l xml:id="fr10_681.12">Div haubtſtat de<choice><am>̄</am><ex>n</ex></choice> vierdn ort.</l>
+<l xml:id="fr10_681.13">Begraif mit <subst hand="#sr"><del>muͦw<choice><am>̉</am><ex>er</ex></choice></del><add>muͦ<choice><am>̉</am><ex>er</ex></choice></add></subst> vn<choice><am>̄</am><ex>d</ex></choice> mit g<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>bn.</l>
+<l xml:id="fr10_681.14">Vn<choice><am>̄</am><ex>d</ex></choice> manigm turn erhabn.</l>
+<l xml:id="fr10_681.15">Des h<choice><am>̉</am><ex>er</ex></choice>s lotſciern waſ getan.</l>
+<l xml:id="fr10_681.16">Wol meil la<choice><am>̄</am><ex>n</ex></choice>ch ouf de<choice><am>̄</am><ex>n</ex></choice> plan</l>
+<l xml:id="fr10_681.17">Vn<choice><am>̄</am><ex>d</ex></choice> ouch wol halb<choice><am>̉</am><ex>er</ex></choice> meil brait.</l>
+<l xml:id="fr10_681.18">Artus botn da wid<choice><am>̉</am><ex>er</ex></choice> rait.</l>
+<l xml:id="fr10_681.19">Manich ritt<choice><am>̉</am><ex>er</ex></choice> gar vmbechant.</l>
+<l xml:id="fr10_681.20">Turcopl vn<choice><am>̄</am><ex>d</ex></choice> ſariant.</l>
+<l xml:id="fr10_681.21">Ze Eiſen vn<choice><am>̄</am><ex>d</ex></choice> mit <unclear reason="Zweifel">l</unclear>antzen.</l>
+<l xml:id="fr10_681.22">Dar nach begunde ſwantzn.</l>
+</body>
+</text>
 </TEI>

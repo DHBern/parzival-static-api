@@ -1,35 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader xml:lang="de">
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Transkription des Textzeugen fr61</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>2017</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Heidelberg</settlement>
-                  <repository>Universitätsbibliothek</repository>
-                  <idno>Heid. Hs. 3650</idno>
-                  <altIdentifier type="Parzival-Projekt">
-                     <idno>fr61</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <physDesc>
-                  <objectDesc>
-                     <p corresp="Parzival-Projekt_fr61">
-                        <title type="main">Fr. 61:</title>
-                        <list>
-                           <item>Heidelberg, Universitätsbibliothek, Heid. Hs. 3650</item>
-                        </list>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen fr61</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Heidelberg</settlement>
+          <repository>Universitätsbibliothek</repository>
+          <idno>Heid. Hs. 3650</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>fr61</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr61">
+                                <title type="main">Fr. 61:</title>
+                                <list>
+                                    <item>Heidelberg, Universitätsbibliothek, Heid. Hs. 3650</item>
+                                </list>
                                 Pergament
                                 
                                 – 2 Doppelblätter
@@ -49,713 +46,679 @@
                                 – Fassungszugehörigkeit: *G      
                                 
                                 – vgl. zur Hs. auch die Angaben im <ref target="http://www.handschriftencensus.de/1722">Handschriftencensus,</ref>.
-                            </p>
-                  </objectDesc>
-                  <handDesc>
-                     <handNote xml:id="ls1">Leser</handNote>
-                     <handNote xml:id="sr">Schreiber</handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <charDecl>
-            <char xml:id="finis">
-               <charName>Finis-Zeichen</charName>
-            </char>
-            <char xml:id="alin1">
-               <charName>Alinea-Zeichen</charName>
-            </char>
-            <char xml:id="deligatur">
-               <charName>de-Ligatur</charName>
-            </char>
-            <char xml:id="latAbbrRum">
-               <charName>Lateinische Abkürung für -rum</charName>
-            </char>
-            <char xml:id="latAbbrIs">
-               <charName>Lateinische Abkürzung für -is</charName>
-            </char>
-            <char xml:id="latAbbrEt">
-               <charName>Lateinische Abkürzung für -et/-it</charName>
-            </char>
-            <char xml:id="latAbbrEt2">
-               <charName>Lateinische Abkürzung für -et</charName>
-    Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.
+                            </p></objectDesc>
+        <handDesc>
+        <handNote xml:id="ls1">Leser</handNote>
+        <handNote xml:id="sr">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
    </char>
-         </charDecl>
-      </encodingDesc>
-   </teiHeader>
-   <text>
-      <body>
-Abschnitt 461.25-466.18; 495.13-500.09-01 668.29-679.08
-Transkription ab Farbfotos (Studio) März 2012 durch SFa.
-Gegengelesen ab Farbfotos (Studio) von MiGe im Mai 2012.
-An Richtlinien angepasst im Mai 2013 JKl
-Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr61 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.
-Korrekturen durchgeführt von CG am 22.11.2016.
-Endredaktion I und Autopsie durchgeführt von CG am 12.01.2017.
-Autopsiekorrekturen eingearbeitet, CG am 26.01.2017.
-Endredaktion II durchgeführt von CG am 16.11.2017.
-14.9.2018, MiGe: Die beiden einzigen unsicheren Stellen wurden mit Hilfe der Kollation von Nellmann (Eberhard Nellmann, Neues zur Parzival-Überlieferung, in: Zeitschrift für deutsche Philologie 85 (1966), S. 321-345, hier S. 321-342) ergänzt.
-Juli 2019, TL und MiGe: Ab Seite 3r ist nicht mehr regelmässig jede zweite Zeile eingerückt. Hinzu kommt, dass der Schreiber ab dieser Seite vermehrt zwei Verse (oder mehr als einen Vers) auf eine Zeile schreibt. Diese Stellen werden mit dem Tag <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>
-         <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/> umrahmt.
-<pb xml:id="fr61001r"/>
-         <cb xml:id="fr61001ra"/>
-         <l xml:id="fr61_461.25">Daz er mir denne hilffet nicht</l>
-         <l xml:id="fr61_461.26">ſo vil man im der hilffe gicht</l>
-         <l xml:id="fr61_461.27">Der wiert erſeufte vnd ſach an in</l>
-         <l xml:id="fr61_461.28">er ſprach herre habt ir ſin</l>
-         <l xml:id="fr61_461.29">So ſult ir got getrawen wol</l>
-         <l xml:id="fr61_461.30">er hilft ev wand er helffen ſol</l>
-         <l xml:id="fr61_462.01">Got mvezze vns helfen baẏden</l>
-         <l xml:id="fr61_462.02">herre ir ſchult mich beſchaẏden</l>
-         <l xml:id="fr61_462.03">Geruͤcht alrerſte ſitzen</l>
-         <l xml:id="fr61_462.04">ſagt mir mit chvnſte witzen</l>
-         <l xml:id="fr61_462.05">Wie der zorn ſich an geviench</l>
-         <l xml:id="fr61_462.06">Da von got ewern haz enpfiench</l>
-         <l xml:id="fr61_462.07">Durch ewer tzucht gedulde</l>
-         <l xml:id="fr61_462.08">v̉ernempt von mir ſein vnſchulde</l>
-         <l xml:id="fr61_462.09">êe daz iͤr miͤr von im icht chlagt</l>
-         <l xml:id="fr61_462.10">ſein helffe iſt imm̉er vnủertzagt</l>
-         <l xml:id="fr61_462.11">Doch ich ein lerær wær</l>
-         <l xml:id="fr61_462.12">D̉er wærn buech mær</l>
-         <l xml:id="fr61_462.13">Chvnde ich leſen vnd ſchreiben</l>
-         <l xml:id="fr61_462.14">wie der menſche ſchulle beleiben</l>
-         <l xml:id="fr61_462.15">Mit dienſt gegen d̉er helffe groz</l>
-         <l xml:id="fr61_462.16">Den ſtæter helffe nie v̉erdroz</l>
-         <l xml:id="fr61_462.17">Fuͤr der ſel ſenchen</l>
-         <l xml:id="fr61_462.18">ſeit getrewe an allez wenchen</l>
-         <l xml:id="fr61_462.19">Seint got ſelber ein trewe iſt</l>
-         <l xml:id="fr61_462.20">Dem was vnmær ie valſcher liſt</l>
-         <l xml:id="fr61_462.21">Wier ſchuln in des geniezzen lan</l>
-         <l xml:id="fr61_462.22">er hat vil durch vns getan</l>
-         <l xml:id="fr61_462.23">Seint ſein edler hocher art</l>
-         <l xml:id="fr61_462.24">Durch vns zemenſchen pilde wart</l>
-         <l xml:id="fr61_462.25">Got haizzet vnd iſt dev warhait</l>
-         <l xml:id="fr61_462.26">dem was ie valſch*valſchev fuͤr lait</l>
-         <l xml:id="fr61_462.27">Daz ſchult ir paz bedenchen</l>
-         <l xml:id="fr61_462.28">er enchan an niemen wenchen</l>
-         <l xml:id="fr61_462.29">Nu leret ewer gedanche</l>
-         <l xml:id="fr61_462.30">ſein germe im an wanche</l>
-         <cb xml:id="fr61001rb"/>
-         <l xml:id="fr61_463.01">Jer enmvgt im ab ertzurnen nicht</l>
-         <l xml:id="fr61_463.02">Swer euch gegen im in hazze ſicht</l>
-         <l xml:id="fr61_463.03">Der hat euch an den witzen chranch</l>
-         <l xml:id="fr61_463.04">ſecht wie lucifer gelanch</l>
-         <l xml:id="fr61_463.05">Vnd ſeinen not geſtallen</l>
-         <l xml:id="fr61_463.06">Seu waren doch an gallen</l>
-         <l xml:id="fr61_463.07">Ja herre wa namen ſeu den neit</l>
-         <l xml:id="fr61_463.08">Da von iͤr edeloſer ſtreit</l>
-         <l xml:id="fr61_463.09">Tzehelle enphæhet ſauren lon</l>
-         <l xml:id="fr61_463.10">Aſtaroch vnd Belzimon</l>
-         <l xml:id="fr61_463.11">Belet vnd Radamant</l>
-         <l xml:id="fr61_463.12">vnd ander die ich han erchant</l>
-         <l xml:id="fr61_463.13">Deu liecht himeliſche ſchar</l>
-         <l xml:id="fr61_463.14">wart durch neit nach helle var</l>
-         <l xml:id="fr61_463.15">Do lucifer die helle vart</l>
-         <l xml:id="fr61_463.16">Fuͤr. ein menſche nach im wart</l>
-         <ref>Fuͤr.</ref>: Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+   <char xml:id="latAbbrEt2">
+    <charName>Lateinische Abkürzung für -et</charName>
+    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Abschnitt 461.25-466.18; 495.13-500.09-01 668.29-679.08</note>
+<note>Transkription ab Farbfotos (Studio) März 2012 durch SFa.</note>
+<note>Gegengelesen ab Farbfotos (Studio) von MiGe im Mai 2012.</note>
+<note>An Richtlinien angepasst im Mai 2013 JKl</note>
+<note>Grundsätzlich wurden alle Anfangsbuchstaben jedes zweiten Verses in Fr61 rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
+<note>Korrekturen durchgeführt von CG am 22.11.2016.</note>
+<note>Endredaktion I und Autopsie durchgeführt von CG am 12.01.2017.</note>
+<note>Autopsiekorrekturen eingearbeitet, CG am 26.01.2017.</note>
+<note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
+<note>14.9.2018, MiGe: Die beiden einzigen unsicheren Stellen wurden mit Hilfe der Kollation von Nellmann (Eberhard Nellmann, Neues zur Parzival-Überlieferung, in: Zeitschrift für deutsche Philologie 85 (1966), S. 321-345, hier S. 321-342) ergänzt.</note>
+<note>Juli 2019, TL und MiGe: Ab Seite 3r ist nicht mehr regelmässig jede zweite Zeile eingerückt. Hinzu kommt, dass der Schreiber ab dieser Seite vermehrt zwei Verse (oder mehr als einen Vers) auf eine Zeile schreibt. Diese Stellen werden mit dem Tag <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/> umrahmt.</note>
+<pb xml:id="fr61001r"/><cb xml:id="fr61001ra"/>
+<l xml:id="fr61_461.25">Daz er mir denne hilffet nicht</l>
+<l xml:id="fr61_461.26">ſo vil man im der hilffe gicht</l>
+<l xml:id="fr61_461.27"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er wiert erſeufte vnd ſach <add hand="#sr">an</add> in</l>
+<l xml:id="fr61_461.28">er ſprach herre habt ir ſin</l>
+<l xml:id="fr61_461.29">So ſult ir got getrawen wol</l>
+<l xml:id="fr61_461.30">er hilft ev wand er helffen ſol</l>
+<l xml:id="fr61_462.01">Got mvezze vns helfen baẏden</l>
+<l xml:id="fr61_462.02">herre ir ſchult mich beſchaẏden</l>
+<l xml:id="fr61_462.03">Geruͤcht alrerſte ſitzen</l>
+<l xml:id="fr61_462.04">ſagt mir mit chvnſte witzen</l>
+<l xml:id="fr61_462.05">Wie der zorn ſich an geviench</l>
+<l xml:id="fr61_462.06">Da von got ewern haz enpfiench</l>
+<l xml:id="fr61_462.07">Durch ewer tzucht gedulde</l>
+<l xml:id="fr61_462.08">v<choice><am>̉</am><ex>er</ex></choice>nempt von mir ſein vnſchulde</l>
+<l xml:id="fr61_462.09">êe daz iͤr miͤr von im icht chlagt</l>
+<l xml:id="fr61_462.10">ſein helffe iſt imm<choice><am>̉</am><ex>er</ex></choice> vnu<choice><am>̉</am><ex>er</ex></choice>tzagt</l>
+<l xml:id="fr61_462.11">Doch ich ein lerær wær</l>
+<l xml:id="fr61_462.12">D<choice><am>̉</am><ex>er</ex></choice> wærn buech mær</l>
+<l xml:id="fr61_462.13">Chvnde ich leſen vnd ſchreiben</l>
+<l xml:id="fr61_462.14">wie der menſche ſchulle beleiben</l>
+<l xml:id="fr61_462.15">Mit dienſt gegen d<choice><am>̉</am><ex>er</ex></choice> helffe groz</l>
+<l xml:id="fr61_462.16">Den ſtæter helffe nie v<choice><am>̉</am><ex>er</ex></choice>droz</l>
+<l xml:id="fr61_462.17">Fuͤr der ſel ſenchen</l>
+<l xml:id="fr61_462.18">ſeit getrewe an allez wenchen</l>
+<l xml:id="fr61_462.19">Seint got ſelber ein trewe iſt</l>
+<l xml:id="fr61_462.20">Dem was vnmær ie valſcher liſt</l>
+<l xml:id="fr61_462.21">Wier ſchuln in des geniezzen lan</l>
+<l xml:id="fr61_462.22">er hat vil durch vns getan</l>
+<l xml:id="fr61_462.23">Seint ſein edler hocher art</l>
+<l xml:id="fr61_462.24">Durch vns zemenſchen pilde wart</l>
+<l xml:id="fr61_462.25">Got haizzet vnd iſt dev warhait</l>
+<l xml:id="fr61_462.26">dem was ie <subst hand="#sr"><del>valſch*</del><add>valſchev</add></subst> fuͤr lait</l>
+<l xml:id="fr61_462.27">Daz ſchult ir paz bedenchen</l>
+<l xml:id="fr61_462.28">er enchan an niemen wenchen</l>
+<l xml:id="fr61_462.29">Nu leret ewer gedanche</l>
+<l xml:id="fr61_462.30">ſein germe im an wanche</l>
+<cb xml:id="fr61001rb"/>
+<l xml:id="fr61_463.01">Jer enmvgt im ab ertzurnen nicht</l>
+<l xml:id="fr61_463.02">Swer euch gegen im in hazze ſicht</l>
+<l xml:id="fr61_463.03">Der hat euch an den witzen chranch</l>
+<l xml:id="fr61_463.04">ſecht wie lucifer gelanch</l>
+<l xml:id="fr61_463.05">Vnd ſeinen not geſtallen</l>
+<l xml:id="fr61_463.06">Seu waren doch an gallen</l>
+<l xml:id="fr61_463.07">Ja herre wa namen ſeu den neit</l>
+<l xml:id="fr61_463.08">Da von iͤr edeloſer ſtreit</l>
+<l xml:id="fr61_463.09">Tzehelle enphæhet ſauren lon</l>
+<l xml:id="fr61_463.10">Aſtaroch vnd Belzimon</l>
+<l xml:id="fr61_463.11">Belet vnd Radamant</l>
+<l xml:id="fr61_463.12">vnd ander die ich han erchant</l>
+<l xml:id="fr61_463.13">Deu liecht himeliſche ſchar</l>
+<l xml:id="fr61_463.14">wart durch neit nach helle var</l>
+<l xml:id="fr61_463.15">Do lucifer die helle vart</l>
+<l xml:id="fr61_463.16">Fuͤr. ein menſche nach im wart</l>
+<note resp="#CG_Lektor" target="#?1_463.16 #Fr61001rb"><ref>Fuͤr.</ref>: Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht</note>
 <l xml:id="fr61_463.17">daz got warcht auz der erden</l>
-         <l xml:id="fr61_463.18">adamen den werden</l>
-         <l xml:id="fr61_463.19">Von adames verche er euen brach</l>
-         <l xml:id="fr61_463.20">deu vns gab in den vngemach</l>
-         <l xml:id="fr61_463.21">Daz ſi ier ſchephær vberhoͤrte</l>
-         <l xml:id="fr61_463.22">vnd vnſer vreude ſtorte</l>
-         <l xml:id="fr61_463.23">Von in tzwain chom gebuͤrde frucht</l>
-         <l xml:id="fr61_463.24">ainem riet ſein vngenvcht</l>
-         <l xml:id="fr61_463.25">Daz er durch geitleichen rvͤm</l>
-         <l xml:id="fr61_463.26">ſeiner anen nam den magt*magtvͤm</l>
-         <l xml:id="fr61_463.27">Nu beginnet genvͤg des getzemen</l>
-         <l xml:id="fr61_463.28">êe ſeu ditz mer v̉ernemen</l>
-         <l xml:id="fr61_463.29">Daz v̉raiſchen wie daz mocht geſein</l>
-         <l xml:id="fr61_463.30">iz ward iedoch mit ſvnden ſchein</l>
-         <l xml:id="fr61_464.01">Parcifal hintz im do ſprach</l>
-         <l xml:id="fr61_464.02">Herre ich wæn ditz êeîe geſchach</l>
-         <l xml:id="fr61_464.03">Von wem ward d̉er man geborn</l>
-         <l xml:id="fr61_464.04">von dem ſein an ward v̉erlorn</l>
-         <l xml:id="fr61_464.05">Den magtvͤm als iͤr mir ſagt</l>
-         <l xml:id="fr61_464.06">daz machte iͤr gerner han v̉erdagt</l>
-         <ref>v̉erdagt</ref>: Nellmann gibt an, dass das <ref>v</ref> kaum lesbar sei und möglicherweise eine Rasur vorliege.
-<pb xml:id="fr61001v"/>
-         <cb xml:id="fr61001va"/>
-         <l xml:id="fr61_464.07">Der w=;eirt ſprach aber zv zim</l>
-         <l xml:id="fr61_464.08">von dem tzweiuel ich euchnimeuch nim</l>
-         <l xml:id="fr61_464.09">Sag ich nicht wan deu warhait</l>
-         <l xml:id="fr61_464.10">So lat eu ſein mein triegen lait</l>
-         <l xml:id="fr61_464.11">Deu erde adames mvͤter was</l>
-         <l xml:id="fr61_464.12">Von erden frucht adam genas</l>
-         <l xml:id="fr61_464.13">Dannoch was dev erde ein magte</l>
-         <l xml:id="fr61_464.14">noch enhan ich ev nicht geſagte</l>
-         <l xml:id="fr61_464.15">Wer ier den magtvͤm benam</l>
-         <l xml:id="fr61_464.16">Kaẏen vater was Adam</l>
-         <l xml:id="fr61_464.17">Der ſluech Abelen vmb chranches gvͤt</l>
-         <l xml:id="fr61_464.18">Do auf die rainen erde daz plvet</l>
-         <l xml:id="fr61_464.19">Viel. ir magtvͤm was v̉ervarn</l>
-         <ref>Viel.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.
+<l xml:id="fr61_463.18">adamen den werden</l>
+<l xml:id="fr61_463.19">Von adames verche er euen brach</l>
+<l xml:id="fr61_463.20">deu vns gab in den vngemach</l>
+<l xml:id="fr61_463.21">Daz ſi ier ſchephær vberhoͤrte</l>
+<l xml:id="fr61_463.22">vnd vnſer vreude ſtorte</l>
+<l xml:id="fr61_463.23">Von in tzwain chom gebuͤrde frucht</l>
+<l xml:id="fr61_463.24">ainem riet ſein vngenvcht</l>
+<l xml:id="fr61_463.25">Daz er durch geitleichen rvͤm</l>
+<l xml:id="fr61_463.26">ſeiner anen nam den <subst hand="#sr"><del>magt*</del><add>magtvͤm</add></subst></l>
+<l xml:id="fr61_463.27">Nu beginnet genvͤg des getzemen</l>
+<l xml:id="fr61_463.28">êe ſeu ditz mer v<choice><am>̉</am><ex>er</ex></choice>nemen</l>
+<l xml:id="fr61_463.29">Daz v<choice><am>̉</am><ex>r</ex></choice>aiſchen wie daz mocht geſein</l>
+<l xml:id="fr61_463.30">iz ward iedoch mit ſvnden ſchein</l>
+<l xml:id="fr61_464.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">P</seg>arcifal hintz im do ſprach</l>
+<l xml:id="fr61_464.02">Herre ich wæn ditz <subst hand="#sr"><del>êe</del><add>îe</add></subst> geſchach</l>
+<l xml:id="fr61_464.03">Von wem ward d<choice><am>̉</am><ex>er</ex></choice> man geborn</l>
+<l xml:id="fr61_464.04">von dem ſein an ward v<choice><am>̉</am><ex>er</ex></choice>lorn</l>
+<l xml:id="fr61_464.05">Den magtvͤm als iͤr mir ſagt</l>
+<l xml:id="fr61_464.06">daz machte iͤr gerner han <supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied><choice><am>̉</am><ex>er</ex></choice>dagt</l>
+<note resp="#MiGe_Gegenleser" target="#?1_464.06 #Fr61001va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied><choice><am>̉</am><ex>er</ex></choice>dagt</ref>: Nellmann gibt an, dass das <ref>v</ref> kaum lesbar sei und möglicherweise eine Rasur vorliege.</note>
+<pb xml:id="fr61001v"/><cb xml:id="fr61001va"/>
+<l xml:id="fr61_464.07">Der w=;eirt ſprach aber zv zim</l>
+<l xml:id="fr61_464.08">von dem tzweiuel ich <subst hand="#sr"><del>euchnim</del><add>euch nim</add></subst></l>
+<l xml:id="fr61_464.09">Sag ich nicht wan deu warhait</l>
+<l xml:id="fr61_464.10">So lat eu ſein mein triegen lait</l>
+<l xml:id="fr61_464.11">Deu erde adames mvͤter was</l>
+<l xml:id="fr61_464.12">Von erden frucht adam genas</l>
+<l xml:id="fr61_464.13">Dannoch was dev erde ein magte</l>
+<l xml:id="fr61_464.14">noch enhan ich ev nicht geſagte</l>
+<l xml:id="fr61_464.15">Wer ier den magtvͤm benam</l>
+<l xml:id="fr61_464.16">Kaẏen vater was Adam</l>
+<l xml:id="fr61_464.17">Der ſluech Abelen vmb chranches gvͤt</l>
+<l xml:id="fr61_464.18">Do auf die rainen erde daz plvet</l>
+<l xml:id="fr61_464.19">Viel. ir magtvͤm was v<choice><am>̉</am><ex>er</ex></choice>varn</l>
+<note resp="#CG_Lektor" target="#?1_464.19 #Fr61001va"><ref>Viel.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_464.20">Den nam Adames barn</l>
-         <l xml:id="fr61_464.21">Do huͤb ſich erſte menſchen neit</l>
-         <l xml:id="fr61_464.22">alſo wert er immer ſeit</l>
-         <l xml:id="fr61_464.23">Jn der werlt nicht ſo raines iſt</l>
-         <l xml:id="fr61_464.24">ſo deu magt an valſchen liſt</l>
-         <l xml:id="fr61_464.25">Nv pruͤft wie rain die maẏd ſint</l>
-         <l xml:id="fr61_464.26">got was einer maẏde chint</l>
-         <l xml:id="fr61_464.27">Von maẏden ſint tzwai menſchen chomen</l>
-         <l xml:id="fr61_464.28">got ſelbe antlutz hat genomen</l>
-         <l xml:id="fr61_464.29">Nach der erſten maẏde frucht</l>
-         <l xml:id="fr61_464.30">Daz was ſeiner hachen art ein tzuht</l>
-         <l xml:id="fr61_465.01">Von Adames chvnne</l>
-         <l xml:id="fr61_465.02">Huͤb ſich vnwunne</l>
-         <l xml:id="fr61_465.03">Seint er vns ſippe laugent nicht</l>
-         <l xml:id="fr61_465.04">dem ein igleich engel ob im ſicht</l>
-         <l xml:id="fr61_465.05">Daz deu ſvnde iſt d̉er ſunden wagen</l>
-         <l xml:id="fr61_465.06">ſo daz wier ſvnde mazze tragen</l>
-         <l xml:id="fr61_465.07">Dar vmb erbarme ſich des chraft</l>
-         <l xml:id="fr61_465.08">dem erbærmde geit geſelleſchaft</l>
-         <l xml:id="fr61_465.09">Seint daz ſein getrewev menſchait</l>
-         <l xml:id="fr61_465.10">mit trewen gegen vntrewe ſtrait</l>
-         <l xml:id="fr61_465.11">Jer ſchult auf in v̉erchieſen</l>
-         <l xml:id="fr61_465.12">welt iͤr ſeld nicht verlieſen</l>
-         <cb xml:id="fr61001vb"/>
-         <l xml:id="fr61_465.13">So lat wandel ſein da bei</l>
-         <l xml:id="fr61_465.14">ſeit ewer rede nicht zeso vrei</l>
-         <l xml:id="fr61_465.15">Wand wer ſein lait ſo richet</l>
-         <l xml:id="fr61_465.16">Daz er vncheuſche ſprichet</l>
-         <l xml:id="fr61_465.17">Von des lon tvͤn ich ev chvnt</l>
-         <l xml:id="fr61_465.18">im v̉ertailt ſein ſelbeſ mvnt</l>
-         <l xml:id="fr61_465.19">Nempt altev mer fuͤr newe</l>
-         <l xml:id="fr61_465.20">ob ſi euch lern trewe</l>
-         <l xml:id="fr61_465.21">D̉er parlierivre plato</l>
-         <l xml:id="fr61_465.22">ſprach pei ſeinen zeiten do</l>
-         <l xml:id="fr61_465.23">Vnd Sibille dev prophetiſſe</l>
-         <l xml:id="fr61_465.24">ſvnder fallierens miſſe</l>
-         <l xml:id="fr61_465.25">Seu ſagten da vor manich iar</l>
-         <l xml:id="fr61_465.26">Vns ſolte chomen fuͤr war</l>
-         <l xml:id="fr61_465.27">Fuer die hochſten ſchuld ein pfant</l>
-         <l xml:id="fr61_465.28">ze helle nam vns die hoͤchſte hant</l>
-         <l xml:id="fr61_465.29">Mit goͤtleicher minne</l>
-         <l xml:id="fr61_465.30">Die vncheuſchen liezze er drinne</l>
-         <l xml:id="fr61_466.01">Von dem warn minner</l>
-         <l xml:id="fr61_466.02">ſagent diſeu ſuezzen mer</l>
-         <l xml:id="fr61_466.03">Er iſt ein durch leuchtich liecht</l>
-         <l xml:id="fr61_466.04">vnd entwenchet ſeiner minne niecht</l>
-         <l xml:id="fr61_466.05">Swem er minne ertzaigen ſol</l>
-         <l xml:id="fr61_466.06">Dem wiert mit ſeiner minne wol</l>
-         <l xml:id="fr61_466.07">Die ſelben ſint getailet</l>
-         <l xml:id="fr61_466.08">Aller werlt iſt gevailet</l>
-         <l xml:id="fr61_466.09">Baẏden ſein minne vnd ſein haz</l>
-         <l xml:id="fr61_466.10">nv pruͤfet weders helffe paz</l>
-         <l xml:id="fr61_466.11">Der ſchuldig an rewe</l>
-         <l xml:id="fr61_466.12">fleuchet goͤtleichev trewe</l>
-         <l xml:id="fr61_466.13">Swer wandelt ſvnden ſchuld</l>
-         <l xml:id="fr61_466.14">D̉er dient nach werder hulde</l>
-         <l xml:id="fr61_466.15">Die treit er durch gedanche wert</l>
-         <l xml:id="fr61_466.16">gedanche ſich ſvnden laſters wert</l>
-         <l xml:id="fr61_466.17">Gedanch iſt an ſloz v̉erſpart</l>
-         <l xml:id="fr61_466.18">vor aller creatvr bewart</l>
-         <pb xml:id="fr61002r"/>
-         <cb xml:id="fr61002ra"/>
-         <l xml:id="fr61_495.13">Vber daz gebot ich mich bewach</l>
-         <l xml:id="fr61_495.14">Daz ich nach minne dienſtes pflach</l>
-         <l xml:id="fr61_495.15">Mier riet mein werleichev iugent</l>
-         <l xml:id="fr61_495.16">an eines werden weibes tvgent</l>
-         <l xml:id="fr61_495.17">Daz ich in iͤr dienſt rait</l>
-         <l xml:id="fr61_495.18">daz ich dikch hertleichen ſtrait</l>
-         <l xml:id="fr61_495.19">Die wilden auentewer</l>
-         <l xml:id="fr61_495.20">mich dauchten ſo gehewer</l>
-         <l xml:id="fr61_495.21">Daz ich ſelten Turniert</l>
-         <l xml:id="fr61_495.22">ir minne Conduiert</l>
-         <l xml:id="fr61_495.23">Mir vreud in daz hertze mein</l>
-         <l xml:id="fr61_495.24">durch ſei tet ich ſtreites ſchein</l>
-         <l xml:id="fr61_495.25">des twanch mich ir minne chraft</l>
-         <l xml:id="fr61_495.26">gegen d̉er wilden retterſchaft</l>
-         <l xml:id="fr61_495.27">Jͤr minne ich alſus chaufte</l>
-         <l xml:id="fr61_495.28">D̉er haiden vnd d̉er getaufte</l>
-         <l xml:id="fr61_495.29">Warn miͤr ſtreites geleich</l>
-         <l xml:id="fr61_495.30">ſi daucht mich lones reich</l>
-         <l xml:id="fr61_496.01">Sus pflag ich durch die werden</l>
-         <l xml:id="fr61_496.02">auf den drin tailen d̉er erden</l>
-         <l xml:id="fr61_496.03">Ze Evropa vnd in Aſia</l>
-         <l xml:id="fr61_496.04">vnd verre in Affrica</l>
-         <l xml:id="fr61_496.05">So ich reich ẏoſte wolte tvͤn</l>
-         <l xml:id="fr61_496.06">ſo rait ich gegen Gargarvͤn</l>
-         <l xml:id="fr61_496.07">Jch han auch manig ẏoſte getan</l>
-         <l xml:id="fr61_496.08">vor dem perge ze Feimvrgan</l>
-         <l xml:id="fr61_496.09"/>
-         <l xml:id="fr61_496.10"/>
-         <l xml:id="fr61_496.11">Sw̉er ainhalb wil ier ẏoſte han</l>
-         <l xml:id="fr61_496.12">Da choment auz fewerein man</l>
-         <l xml:id="fr61_496.13">And̉erhalb ſeu brinnent nicht</l>
-         <l xml:id="fr61_496.14">ſwaz man da ẏoſte ſicht</l>
-         <l xml:id="fr61_496.15">Do ich fuͤr den Rohas</l>
-         <l xml:id="fr61_496.16">Durch auentewer geſtrichen was</l>
-         <l xml:id="fr61_496.17">Miͤr wid̉errait ein werden diet</l>
-         <l xml:id="fr61_496.18">auz durch yoſt gegen biet</l>
-         <l xml:id="fr61_496.19">Jch fuͤr von Sibilie</l>
-         <l xml:id="fr61_496.20">Daz mer alvmbe gen Cecilie</l>
-         <cb xml:id="fr61002rb"/>
-         <l xml:id="fr61_496.21">Durch virgaul fuer Agleẏ</l>
-         <l xml:id="fr61_496.22">Auwe vnd heẏa heẏ</l>
-         <l xml:id="fr61_496.23">Daz ich deinen vater ie geſach</l>
-         <l xml:id="fr61_496.24">D̉er miͤr zeſehen da geſchach</l>
-         <l xml:id="fr61_496.25">Do ich ze Sibilie t*ogtetzogte in</l>
-         <l xml:id="fr61_496.26">Do het der werde Aſchewein</l>
-         <l xml:id="fr61_496.27">Vor miͤr geherwergt êe</l>
-         <l xml:id="fr61_496.28">ſein vart tuͤt mir immer we</l>
-         <l xml:id="fr61_496.29">Die er fuͤr ze Baldach</l>
-         <l xml:id="fr61_496.30">von einer ẏoſte er tot do lach</l>
-         <l xml:id="fr61_497.01">daz was êe von im dein ſag</l>
-         <l xml:id="fr61_497.02">iz iſt immer in meinſ h̉ertzen chlag</l>
-         <l xml:id="fr61_497.03">Mein bruͤder iſt gutes reich</l>
-         <l xml:id="fr61_497.04">v̉erholne retterleich</l>
-         <l xml:id="fr61_497.05">Er mich dikche von im ſande</l>
-         <l xml:id="fr61_497.06">ſo ich von Mvntſalvatſche wande</l>
-         <l xml:id="fr61_497.07">Sein inſigel nam ich da</l>
-         <l xml:id="fr61_497.08">vnd fuͤrt iz ze Kargogra</l>
-         <l xml:id="fr61_497.09">Da ſewet ſich der Plimizol</l>
-         <l xml:id="fr61_497.10">in dem piſtvͤm ze Barbigol</l>
-         <l xml:id="fr61_497.11">D̉er puͤrchgraf mich da beriet</l>
-         <l xml:id="fr61_497.12">auf daz inſigel êe ich von im ſchiet</l>
-         <l xml:id="fr61_497.13">Chnappen vnd and̉er choſte</l>
-         <l xml:id="fr61_497.14">gegen d̉er wilden ẏoſte</l>
-         <l xml:id="fr61_497.15">Vnd auf ander retterleichen vart</l>
-         <l xml:id="fr61_497.16">Des ward vil wenich von im geſpart</l>
-         <l xml:id="fr61_497.17">Jch mvͤſt alain chomen dar</l>
-         <l xml:id="fr61_497.18">an d̉er wid̉er raẏs liez ich gar</l>
-         <l xml:id="fr61_497.19">Bei im ſwaz ich geſindes phlach</l>
-         <l xml:id="fr61_497.20">ich rait da Mvntſalvatſche lach</l>
-         <l xml:id="fr61_497.21">Nv horet liber ohaim mein</l>
-         <l xml:id="fr61_497.22">Do mich d̉er werde vater dein</l>
-         <l xml:id="fr61_497.23">Datz Sibilie alrerſt erſach</l>
-         <l xml:id="fr61_497.24">Palde er mein zebruͤd̉er iach</l>
-         <l xml:id="fr61_497.25">Hertzenloẏden ſeinem weibe</l>
-         <l xml:id="fr61_497.26">Doch ward von ſeinem leibe</l>
-         <pb xml:id="fr61002v"/>
-         <cb xml:id="fr61002va"/>
-         <l xml:id="fr61_497.27">Mein antlutz êe nie geſehen</l>
-         <l xml:id="fr61_497.28">Man mueſt auch miͤr fuͤr war da iehen</l>
-         <l xml:id="fr61_497.29">Daz nie ſchoͤner mannes pilde wart</l>
-         <l xml:id="fr61_497.30">Dannoch was ich ane part</l>
-         <l xml:id="fr61_498.01">Jn mein herwerg er fuer</l>
-         <l xml:id="fr61_498.02">Fuͤr diſeu rede ich dikche ſwuͤr</l>
-         <l xml:id="fr61_498.03">Manigen vngeſwabten ait</l>
-         <l xml:id="fr61_498.04">Do er mich ſo uil an geſtrait</l>
-         <l xml:id="fr61_498.05">V̉erholn ich ims do ſagte</l>
-         <l xml:id="fr61_498.06">des er vreud vil beiagte</l>
-         <l xml:id="fr61_498.07">Er gab ſein chlainat miͤr</l>
-         <l xml:id="fr61_498.08">ſwaz ich im gab daz was ſein gier</l>
-         <l xml:id="fr61_498.09">Mein chefſſe die du ſæcht ee</l>
-         <l xml:id="fr61_498.10">deu iſt noch grvͤner danne ein chle</l>
-         <l xml:id="fr61_498.11">Hiez ich wurchen auz einem ſtain</l>
-         <l xml:id="fr61_498.12">Den miͤr gab der rain</l>
-         <l xml:id="fr61_498.13">Seinen nefen er miͤr ze chnechte liez</l>
-         <l xml:id="fr61_498.14">Jthern den ſein hertze hiez</l>
-         <l xml:id="fr61_498.15">Daz aller valſche an im v̉erſwant</l>
-         <l xml:id="fr61_498.16">Den chvnich von Chumchvm̉er lant</l>
-         <l xml:id="fr61_498.17">Wir machten wart nicht lang̉er ſparn</l>
-         <l xml:id="fr61_498.18">wir mvͤſten von ein and̉er varn</l>
-         <l xml:id="fr61_498.19">Er chert da der Baruch was</l>
-         <l xml:id="fr61_498.20">vnd ich fuͤr fuer den Rohas</l>
-         <l xml:id="fr61_498.21">Fuͤr zilie ich fuer. der walt iſt brait</l>
-         <ref>fuer.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.
+<l xml:id="fr61_464.21">Do huͤb ſich erſte menſchen neit</l>
+<l xml:id="fr61_464.22">alſo wert er immer ſeit</l>
+<l xml:id="fr61_464.23">Jn der werlt nicht ſo raines iſt</l>
+<l xml:id="fr61_464.24">ſo deu magt an valſchen liſt</l>
+<l xml:id="fr61_464.25">Nv pruͤft wie rain die maẏd ſint</l>
+<l xml:id="fr61_464.26">got was einer maẏde chint</l>
+<l xml:id="fr61_464.27">Von maẏden ſint tzwai menſchen cho<lb/><g ref="#alin1"/>men</l>
+<l xml:id="fr61_464.28">got ſelbe antlutz hat genomen</l>
+<l xml:id="fr61_464.29">Nach der erſten maẏde frucht</l>
+<l xml:id="fr61_464.30">Daz was ſeiner hachen art ein tzuht</l>
+<l xml:id="fr61_465.01">Von Adames chvnne</l>
+<l xml:id="fr61_465.02">Huͤb ſich vnwunne</l>
+<l xml:id="fr61_465.03">Seint er vns ſippe laugent nicht</l>
+<l xml:id="fr61_465.04">dem ein igleich engel ob im ſicht</l>
+<l xml:id="fr61_465.05">Daz deu ſvnde iſt d<choice><am>̉</am><ex>er</ex></choice> ſunden wagen</l>
+<l xml:id="fr61_465.06">ſo daz wier ſvnde mazze tragen</l>
+<l xml:id="fr61_465.07">Dar vmb erbarme ſich des chraft</l>
+<l xml:id="fr61_465.08">dem erbærmde geit geſelleſchaft</l>
+<l xml:id="fr61_465.09">Seint daz ſein getrewev menſchait</l>
+<l xml:id="fr61_465.10">mit trewen gegen vntrewe ſtrait</l>
+<l xml:id="fr61_465.11">Jer ſchult auf in v<choice><am>̉</am><ex>er</ex></choice>chieſen</l>
+<l xml:id="fr61_465.12">welt iͤr ſeld nicht verlieſen</l>
+<cb xml:id="fr61001vb"/>
+<l xml:id="fr61_465.13">So lat wandel ſein da bei</l>
+<l xml:id="fr61_465.14">ſeit ewer rede nicht <subst hand="#ls1"><del>ze</del><add>so</add></subst> vrei</l>
+<l xml:id="fr61_465.15">Wand wer ſein lait ſo richet</l>
+<l xml:id="fr61_465.16">Daz er vncheuſche ſprichet</l>
+<l xml:id="fr61_465.17">Von des lon tvͤn ich ev chvnt</l>
+<l xml:id="fr61_465.18">im v<choice><am>̉</am><ex>er</ex></choice>tailt ſein ſelbeſ mvnt</l>
+<l xml:id="fr61_465.19">Nempt altev mer fuͤr newe</l>
+<l xml:id="fr61_465.20">ob ſi euch lern trewe</l>
+<l xml:id="fr61_465.21">D<choice><am>̉</am><ex>er</ex></choice> parlierivre plato</l>
+<l xml:id="fr61_465.22">ſprach pei ſeinen zeiten do</l>
+<l xml:id="fr61_465.23">Vnd Sibille dev prophetiſſe</l>
+<l xml:id="fr61_465.24">ſvnder fallierens miſſe</l>
+<l xml:id="fr61_465.25">Seu ſagten da vor manich iar</l>
+<l xml:id="fr61_465.26">Vns ſolte chomen fuͤr war</l>
+<l xml:id="fr61_465.27">Fuer die hochſten ſchuld ein pfant</l>
+<l xml:id="fr61_465.28">ze helle nam vns die hoͤchſte hant</l>
+<l xml:id="fr61_465.29">Mit goͤtleicher minne</l>
+<l xml:id="fr61_465.30">Die vncheuſchen liezze er drinne</l>
+<l xml:id="fr61_466.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg>on dem warn minner</l>
+<l xml:id="fr61_466.02">ſagent diſeu ſuezzen mer</l>
+<l xml:id="fr61_466.03">Er iſt ein durch leuchtich liecht</l>
+<l xml:id="fr61_466.04">vnd entwenchet ſeiner minne niecht</l>
+<l xml:id="fr61_466.05">Swem er minne ertzaigen ſol</l>
+<l xml:id="fr61_466.06">Dem wiert mit ſeiner minne wol</l>
+<l xml:id="fr61_466.07">Die ſelben ſint getailet</l>
+<l xml:id="fr61_466.08">Aller werlt iſt gevailet</l>
+<l xml:id="fr61_466.09">Baẏden ſein minne vnd ſein haz</l>
+<l xml:id="fr61_466.10">nv pruͤfet weders helffe paz</l>
+<l xml:id="fr61_466.11">Der ſchuldig an rewe</l>
+<l xml:id="fr61_466.12">fleuchet goͤtleichev trewe</l>
+<l xml:id="fr61_466.13">Swer wandelt ſvnden ſchuld</l>
+<l xml:id="fr61_466.14">D<choice><am>̉</am><ex>er</ex></choice> dient nach werder hulde</l>
+<l xml:id="fr61_466.15">Die treit er durch gedanche wert</l>
+<l xml:id="fr61_466.16">gedanche ſich ſvnden laſters wert</l>
+<l xml:id="fr61_466.17">Gedanch iſt an ſloz v<choice><am>̉</am><ex>er</ex></choice>ſpart</l>
+<l xml:id="fr61_466.18">vor aller creatvr bewart</l>
+<pb xml:id="fr61002r"/><cb xml:id="fr61002ra"/>
+<l xml:id="fr61_495.13">Vber daz gebot ich mich bewach</l>
+<l xml:id="fr61_495.14">Daz ich nach minne dienſtes pflach</l>
+<l xml:id="fr61_495.15">Mier riet mein werleichev iugent</l>
+<l xml:id="fr61_495.16">an eines werden weibes tvgent</l>
+<l xml:id="fr61_495.17">Daz ich in iͤr dienſt rait</l>
+<l xml:id="fr61_495.18">daz ich dikch hertleichen ſtrait</l>
+<l xml:id="fr61_495.19">Die wilden auentewer</l>
+<l xml:id="fr61_495.20">mich dauchten ſo gehewer</l>
+<l xml:id="fr61_495.21">Daz ich ſelten Turniert</l>
+<l xml:id="fr61_495.22">ir minne Conduiert</l>
+<l xml:id="fr61_495.23">Mir vreud in daz hertze mein</l>
+<l xml:id="fr61_495.24">durch ſei tet ich ſtreites ſchein</l>
+<l xml:id="fr61_495.25">des twanch mich ir minne chraft</l>
+<l xml:id="fr61_495.26">gegen d<choice><am>̉</am><ex>er</ex></choice> wilden retterſchaft</l>
+<l xml:id="fr61_495.27">Jͤr minne ich alſus chaufte</l>
+<l xml:id="fr61_495.28">D<choice><am>̉</am><ex>er</ex></choice> haiden vnd d<choice><am>̉</am><ex>er</ex></choice> getaufte</l>
+<l xml:id="fr61_495.29">Warn miͤr ſtreites geleich</l>
+<l xml:id="fr61_495.30">ſi daucht mich lones reich</l>
+<l xml:id="fr61_496.01">Sus pflag ich durch die werden</l>
+<l xml:id="fr61_496.02">auf den drin tailen d<choice><am>̉</am><ex>er</ex></choice> erden</l>
+<l xml:id="fr61_496.03">Ze Evropa vnd in Aſia</l>
+<l xml:id="fr61_496.04">vnd verre in Affrica</l>
+<l xml:id="fr61_496.05">So ich reich ẏoſte wolte tvͤn</l>
+<l xml:id="fr61_496.06">ſo rait ich gegen Gargarvͤn</l>
+<l xml:id="fr61_496.07">Jch han auch manig ẏoſte getan</l>
+<l xml:id="fr61_496.08">vor dem perge ze Feimvrgan</l>
+<l xml:id="fr61_496.09"/>
+<l xml:id="fr61_496.10"/>
+<l xml:id="fr61_496.11">Sw<choice><am>̉</am><ex>er</ex></choice> ainhalb wil ier ẏoſte han</l>
+<l xml:id="fr61_496.12">Da choment auz fewerein man</l>
+<l xml:id="fr61_496.13">And<choice><am>̉</am><ex>er</ex></choice>halb ſeu brinnent nicht</l>
+<l xml:id="fr61_496.14">ſwaz man da ẏoſte ſicht</l>
+<l xml:id="fr61_496.15">Do ich fuͤr den Rohas</l>
+<l xml:id="fr61_496.16">Durch auentewer geſtrichen was</l>
+<l xml:id="fr61_496.17">Miͤr wid<choice><am>̉</am><ex>er</ex></choice>rait ein werden diet</l>
+<l xml:id="fr61_496.18">auz durch yoſt gegen biet</l>
+<l xml:id="fr61_496.19">Jch fuͤr von Sibilie</l>
+<l xml:id="fr61_496.20">Daz mer alvmbe gen <hi rend="rot">C</hi>ecilie</l>
+<cb xml:id="fr61002rb"/>
+<l xml:id="fr61_496.21">Durch virgaul fuer Agleẏ</l>
+<l xml:id="fr61_496.22">Auwe vnd heẏa heẏ</l>
+<l xml:id="fr61_496.23">Daz ich deinen vater ie geſach</l>
+<l xml:id="fr61_496.24">D<choice><am>̉</am><ex>er</ex></choice> miͤr zeſehen da geſchach</l>
+<l xml:id="fr61_496.25">Do ich ze Sibilie <subst hand="#ls1"><del>t*ogte</del><add>tzogte</add></subst> in</l>
+<l xml:id="fr61_496.26">Do het der werde Aſchewein</l>
+<l xml:id="fr61_496.27">Vor miͤr geherwergt êe</l>
+<l xml:id="fr61_496.28">ſein vart tuͤt mir immer we</l>
+<l xml:id="fr61_496.29">Die er fuͤr ze Baldach</l>
+<l xml:id="fr61_496.30">von einer ẏoſte er tot do lach</l>
+<l xml:id="fr61_497.01">daz was êe von im dein ſag</l>
+<l xml:id="fr61_497.02">iz iſt immer in meinſ h<choice><am>̉</am><ex>er</ex></choice>tzen chlag</l>
+<l xml:id="fr61_497.03">Mein bruͤder iſt gutes reich</l>
+<l xml:id="fr61_497.04">v<choice><am>̉</am><ex>er</ex></choice>holne retterleich</l>
+<l xml:id="fr61_497.05">Er mich dikche von im ſande</l>
+<l xml:id="fr61_497.06">ſo ich von Mvntſalvatſche wande</l>
+<l xml:id="fr61_497.07">Sein inſigel nam ich da</l>
+<l xml:id="fr61_497.08">vnd fuͤrt iz ze Kargogra</l>
+<l xml:id="fr61_497.09">Da ſewet ſich der Plimizol</l>
+<l xml:id="fr61_497.10">in dem piſtvͤm ze Barbigol</l>
+<l xml:id="fr61_497.11">D<choice><am>̉</am><ex>er</ex></choice> puͤrchgraf mich da beriet</l>
+<l xml:id="fr61_497.12">auf daz inſigel êe ich von im ſchiet</l>
+<l xml:id="fr61_497.13">Chnappen vnd and<choice><am>̉</am><ex>er</ex></choice> choſte</l>
+<l xml:id="fr61_497.14">gegen d<choice><am>̉</am><ex>er</ex></choice> wilden ẏoſte</l>
+<l xml:id="fr61_497.15">Vnd auf ander retterleichen vart</l>
+<l xml:id="fr61_497.16">Des ward vil wenich von im geſpart</l>
+<l xml:id="fr61_497.17">Jch mvͤſt alain chomen dar</l>
+<l xml:id="fr61_497.18">an d<choice><am>̉</am><ex>er</ex></choice> wid<choice><am>̉</am><ex>er</ex></choice> raẏs liez ich gar</l>
+<l xml:id="fr61_497.19">Bei im ſwaz ich geſindes phlach</l>
+<l xml:id="fr61_497.20">ich rait da Mvntſalvatſche lach</l>
+<l xml:id="fr61_497.21"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">N</seg>v horet liber ohaim mein</l>
+<l xml:id="fr61_497.22">Do mich d<choice><am>̉</am><ex>er</ex></choice> werde vater dein</l>
+<l xml:id="fr61_497.23">Datz Sibilie alrerſt erſach</l>
+<l xml:id="fr61_497.24">Palde er mein zebruͤd<choice><am>̉</am><ex>er</ex></choice> iach</l>
+<l xml:id="fr61_497.25">Hertzenloẏden ſeinem weibe</l>
+<l xml:id="fr61_497.26">Doch ward von ſeinem leibe</l>
+<pb xml:id="fr61002v"/><cb xml:id="fr61002va"/>
+<l xml:id="fr61_497.27">Mein antlutz êe nie geſehen</l>
+<l xml:id="fr61_497.28">Man mueſt auch miͤr fuͤr war da iehen</l>
+<l xml:id="fr61_497.29">Daz nie ſchoͤner mannes pilde wart</l>
+<l xml:id="fr61_497.30">Dannoch was ich ane part</l>
+<l xml:id="fr61_498.01">Jn mein herwerg er fuer</l>
+<l xml:id="fr61_498.02">Fuͤr diſeu rede ich dikche ſwuͤr</l>
+<l xml:id="fr61_498.03">Manigen vngeſwabten ait</l>
+<l xml:id="fr61_498.04">Do er mich ſo uil an geſtrait</l>
+<l xml:id="fr61_498.05">V<choice><am>̉</am><ex>er</ex></choice>holn ich ims do ſagte</l>
+<l xml:id="fr61_498.06">des er vreud vil beiagte</l>
+<l xml:id="fr61_498.07">Er gab ſein chlainat miͤr</l>
+<l xml:id="fr61_498.08">ſwaz ich im gab daz was ſein gier</l>
+<l xml:id="fr61_498.09">Mein chefſſe die du ſæcht ee</l>
+<l xml:id="fr61_498.10">deu iſt noch grvͤner danne ein chle</l>
+<l xml:id="fr61_498.11">Hiez ich wurchen auz einem ſtain</l>
+<l xml:id="fr61_498.12">Den miͤr gab der rain</l>
+<l xml:id="fr61_498.13">Seinen nefen er miͤr ze chnechte liez</l>
+<l xml:id="fr61_498.14">Jthern den ſein hertze hiez</l>
+<l xml:id="fr61_498.15">Daz aller valſche an im v<choice><am>̉</am><ex>er</ex></choice>ſwant</l>
+<l xml:id="fr61_498.16">Den chvnich von Chumchvm<choice><am>̉</am><ex>er</ex></choice> lant</l>
+<l xml:id="fr61_498.17">Wir machten wart nicht lang<choice><am>̉</am><ex>er</ex></choice> ſparn</l>
+<l xml:id="fr61_498.18">wir mvͤſten von ein and<choice><am>̉</am><ex>er</ex></choice> varn</l>
+<l xml:id="fr61_498.19">Er chert da der Baruch was</l>
+<l xml:id="fr61_498.20">vnd ich fuͤr fuer den Rohas</l>
+<l xml:id="fr61_498.21">Fuͤr zilie ich fuer. der walt iſt brait</l>
+<note resp="#CG_Lektor" target="#?1_498.21 #Fr61002va"><ref>fuer.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_498.22">drei mæntag ich da vil geſtrait</l>
-         <l xml:id="fr61_498.23">Mich dauchdaucht ich hiet da wol geſtriten</l>
-         <l xml:id="fr61_498.24">Dar nach ich ſchier chom geriten</l>
-         <l xml:id="fr61_498.25">Jn die weiten kandein</l>
-         <l xml:id="fr61_498.26">Dar nach d̉er ene dein</l>
-         <l xml:id="fr61_498.27">Kandein wart genennet</l>
-         <l xml:id="fr61_498.28">da ward Jther bechennet</l>
-         <l xml:id="fr61_498.29">Die ſelbe ſtat leit alda</l>
-         <l xml:id="fr61_498.30">da die Greẏa in die Tra</l>
-         <l xml:id="fr61_499.01">Mit golde ein wazzer rinnet</l>
-         <l xml:id="fr61_499.02">Da wart Jther geminnet</l>
-         <cb xml:id="fr61002vb"/>
-         <l xml:id="fr61_499.03">Dein paſen er da vant</l>
-         <l xml:id="fr61_499.04">deu was vrowe vb̉er daz lant</l>
-         <l xml:id="fr61_499.05">Kandein von Anſchowe</l>
-         <l xml:id="fr61_499.06">Hiez da weſen vrowe</l>
-         <l xml:id="fr61_499.07">Deu haizzet Lamire</l>
-         <l xml:id="fr61_499.08">So iſt daz lant genennet ſtire</l>
-         <l xml:id="fr61_499.09">Swer ſchiltes ampt vͤben wil</l>
-         <l xml:id="fr61_499.10">D̉er muͦz durch ſtreichen landes vil</l>
-         <l xml:id="fr61_499.11">Nu rewet mich d̉er chnappe rot</l>
-         <l xml:id="fr61_499.12">Durch den ſi mir grozze ere bot</l>
-         <l xml:id="fr61_499.13">Von Jther du piſt erborn</l>
-         <l xml:id="fr61_499.14">dein hant die ſippe hat erchorn</l>
-         <l xml:id="fr61_499.15">Got hat dein nicht v̉ergezzen doch</l>
-         <l xml:id="fr61_499.16">er chan dich wol gepruͤven noch</l>
-         <l xml:id="fr61_499.17">Wil du gen got mit trewen leben</l>
-         <l xml:id="fr61_499.18">ſo ſoltu im wandel dor vmb geben</l>
-         <l xml:id="fr61_499.19">Mit trewen ich diͤr daz chvnde</l>
-         <l xml:id="fr61_499.20">Du traiſt zwo grozze ſvnde</l>
-         <l xml:id="fr61_499.21">Jthern du haſt erſlagen</l>
-         <l xml:id="fr61_499.22">du ſolt auch dein mveter chlagen</l>
-         <l xml:id="fr61_499.23">Jͤr grozze trewe daz geriet</l>
-         <l xml:id="fr61_499.24">Dein vart ſei von dem leibe ſchiet</l>
-         <l xml:id="fr61_499.25">Die du ivngiſt von ir tæt</l>
-         <l xml:id="fr61_499.26">volge d̉er meinen ræt</l>
-         <l xml:id="fr61_499.27">Nim puͤzze fuͤr miſſewende</l>
-         <l xml:id="fr61_499.28">vnd ſarge vmb dein ende</l>
-         <l xml:id="fr61_499.29">Daz dir dein arbait hie erhol</l>
-         <l xml:id="fr61_499.30">daz dort dein ſel icht chvmb̉er dol</l>
-         <l xml:id="fr61_500.01">Der wierte an allez pagen</l>
-         <l xml:id="fr61_500.02">begunde in fuͤrbaz vragen</l>
-         <l xml:id="fr61_500.03">Nef nach han ich nicht v̉ernomen</l>
-         <l xml:id="fr61_500.04">von wanne diͤr ditz oͤrſſ ſei chomen</l>
-         <l xml:id="fr61_500.05">Herre ditz oͤrſſ ich erſtraicherſtrait</l>
-         <l xml:id="fr61_500.06">Do ich von Sẏgune rait</l>
-         <l xml:id="fr61_500.07">Vor einer chlauſen ich die beſprach</l>
-         <l xml:id="fr61_500.08">Dar nach ich flugelinge ſtach</l>
-         <l xml:id="fr61_500.09-0">.xiijꝰus</l>
-         <pb xml:id="fr61003r"/>
-         <cb xml:id="fr61003ra"/>
-         <l xml:id="fr61_668.29-0"/>
-         <l xml:id="fr61_668.29">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>All̉er d̉er mæſſeney.</l>
-         <l xml:id="fr61_668.30">Gawan d̉er valſcheſ vrei </l>
-         <l xml:id="fr61_669.01">Von haus ſich rottiert.</l>
-         <l xml:id="fr61_669.02">ſein raiſ er alſo  tziert<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_669.03">Da vōn ich wund̉er mochte ſagen.</l>
-         <l xml:id="fr61_669.04">manich ſaumer mvͤſte tragen</l>
-         <l xml:id="fr61_669.05">Chappelle vnd chamer gewant</l>
-         <l xml:id="fr61_669.06">manich ſaum mit *harnaſch erchant</l>
-         <l xml:id="fr61_669.07">Giengen auch da vnden</l>
-         <l xml:id="fr61_669.08">Helme drauf gepunden</l>
-         <l xml:id="fr61_669.09">Pei manigem ſchilt wol getan</l>
-         <l xml:id="fr61_669.10">manich ſchon Kaſtelan</l>
-         <l xml:id="fr61_669.11">Man bei den ſaumen tziechen ſach</l>
-         <l xml:id="fr61_669.12">rett̉er vnd vrowen nach</l>
-         <l xml:id="fr61_669.13">Riten an ein and̉er vaſte</l>
-         <l xml:id="fr61_669.14">daz getzog wol ein raſte</l>
-         <l xml:id="fr61_669.15">An d̉er lenge waſ gemezzen</l>
-         <l xml:id="fr61_669.16">Da enward nicht v̉ergezzen</l>
-         <l xml:id="fr61_669.17">Gawan einen retter dar</l>
-         <l xml:id="fr61_669.18">ſchuef zu einer vrowen chlar</l>
-         <l xml:id="fr61_669.19">Daz warn chranche ſinne</l>
-         <l xml:id="fr61_669.20">ob die ſprechen nicht von minne</l>
-         <l xml:id="fr61_669.21">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>D̉er Turkoyt Florant.</l>
-         <l xml:id="fr61_669.22">ſeinēn geſellēn ward erchānt </l>
-         <l xml:id="fr61_669.23">Saiven vōn Norweg.</l>
-         <l xml:id="fr61_669.24">Liſcoyſ d̉er gar vntreg </l>
-         <l xml:id="fr61_669.25">Rait pei gundrien.</l>
-         <l xml:id="fr61_669.26">Sein ſweſt̉er ẏtonien<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_669.27">Bei Gawane hiez man reiten</l>
-         <l xml:id="fr61_669.28">An den ſelben tzeiten</l>
-         <l xml:id="fr61_669.29">Arnive vnd deu Hertzogein</l>
-         <l xml:id="fr61_669.30">Auch da geſellinne wolten ſein</l>
-         <l xml:id="fr61_670.01">Nv ditz alſo waſ chomen</l>
-         <l xml:id="fr61_670.02">Gawanes rinch waſ genomen</l>
-         <l xml:id="fr61_670.03">Durch Artauſes her da er lach</l>
-         <l xml:id="fr61_670.04">waz man ſchowens da gepflach</l>
-         <l xml:id="fr61_670.05">Ee ditz volch durch gerit.</l>
-         <l xml:id="fr61_670.06">Gawan durch hofleichen ſit</l>
-         <l xml:id="fr61_670.07">Vnd durch w̉erdichleicheu dinch</l>
-         <l xml:id="fr61_670.08">Hiez er vmb Artauſes rinch</l>
-         <l xml:id="fr61_670.09">Die erſten vrowen halten</l>
-         <l xml:id="fr61_670.10">ſein marſchalch muͤſte walten</l>
-         <cb xml:id="fr61003rb"/>
-         <l xml:id="fr61_670.11">Daz ainev zuͤ d̉er and̉ern rait</l>
-         <l xml:id="fr61_670.12">d̉er dehainen v̉ermait</l>
-         <l xml:id="fr61_670.13">Seu enhielten ſus alumbe</l>
-         <l xml:id="fr61_670.14">Hie deu weis dort deu tvmbe</l>
-         <l xml:id="fr61_670.15">Bei iegleich ein retter d̉er ier pflach</l>
-         <l xml:id="fr61_670.16">vnd ſich dienſtes bewach</l>
-         <l xml:id="fr61_670.17">Artauſeſ rinch den weiten</l>
-         <l xml:id="fr61_670.18">man ſach in allen ſeiten</l>
-         <l xml:id="fr61_670.19">Mit vrowen vmbeuangen</l>
-         <l xml:id="fr61_670.20">Da ward ſchon enpfangen</l>
-         <l xml:id="fr61_670.21">Gawan d̉er ſelden reich</l>
-         <l xml:id="fr61_670.22">ich wen minnechleich</l>
-         <l xml:id="fr61_670.23">Arnive ir tocht̉er ieren chint</l>
-         <l xml:id="fr61_670.24">mit Gawane erbaizzet ſint</l>
-         <l xml:id="fr61_670.25">Von logroẏs deu Hertzogein</l>
-         <l xml:id="fr61_670.26">vnd d̉er Hertzog von Gowertzein</l>
-         <l xml:id="fr61_670.27">Vnd d̉er Turkoyt Florant</l>
-         <l xml:id="fr61_670.28">Gen diſen leuten w̉erde erchant</l>
-         <l xml:id="fr61_670.29">Artaus auz dem pavlvne gie</l>
-         <l xml:id="fr61_670.30">D̉er ſei vroleich enpfie</l>
-         <l xml:id="fr61_671.01">Alſo tet deu chuniginne ſein weip</l>
-         <l xml:id="fr61_671.02">ſeu enpfiengen Gawaneſ leip</l>
-         <l xml:id="fr61_671.03">Vnd and̉er ſein geſelleſchaft</l>
-         <l xml:id="fr61_671.04">mit getrewer liebe chraft</l>
-         <l xml:id="fr61_671.05">Da ward manich chuſ getan</l>
-         <l xml:id="fr61_671.06">von maniger vrowen wol getan</l>
-         <l xml:id="fr61_671.07">Artaus ſprach ze dem nefen ſein</l>
-         <l xml:id="fr61_671.08">wer ſint die geſellen dein</l>
-         <l xml:id="fr61_671.09">Gawan ſprach mein vrowen</l>
-         <l xml:id="fr61_671.10">ſol ich ſeu chuſſen ſchowen</l>
-         <l xml:id="fr61_671.11">Daz wer in ſanfte bewart</l>
-         <l xml:id="fr61_671.12">ſeu ſint paide von der art</l>
-         <l xml:id="fr61_671.13">D̉er Turkoyt Florant</l>
-         <l xml:id="fr61_671.14">ward gechuſſet zehant</l>
-         <l xml:id="fr61_671.15">Von d̉er hertzog von Gowerzein</l>
-         <l xml:id="fr61_671.16">Ginover deu chunigein</l>
-         <pb xml:id="fr61003v"/>
-         <cb xml:id="fr61003va"/>
-         <l xml:id="fr61_671.17">Gie wid̉er in daz getzelt</l>
-         <l xml:id="fr61_671.18">manigen daucht daz daz velt</l>
-         <l xml:id="fr61_671.19">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Vollez rett̉er wer.</l>
-         <l xml:id="fr61_671.20">Er enwarb nicht als d̉er  ſwer<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_671.21">Artaus ſpranch auf ein kaſtelan</l>
-         <l xml:id="fr61_671.22">alle diſe vrowen wol getan</l>
-         <l xml:id="fr61_671.23">Vnd alle die retter neben in</l>
-         <l xml:id="fr61_671.24">er rait den rinch vmbe hin</l>
-         <l xml:id="fr61_671.25">Mit tzuchten Artauſes mvnt</l>
-         <l xml:id="fr61_671.26">ſi enpfie an d̉er ſelben ſtunt</l>
-         <l xml:id="fr61_671.27">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Daz waſ gawaneſ wille.</l>
-         <l xml:id="fr61_671.28">Seu hapten alle  ſtille<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_671.29">Vntz er mit in von dannen rit</l>
-         <l xml:id="fr61_671.30">Daz waſ ein hofleicher ſit</l>
-         <l xml:id="fr61_672.01">Artaus erbaizte vnd gie dar ein</l>
-         <l xml:id="fr61_672.02">er ſaz zu dem nefen ſein</l>
-         <l xml:id="fr61_672.03">Den beſtuend er ſus mit mern</l>
-         <l xml:id="fr61_672.04">w̉er die vier vrowen wern</l>
-         <l xml:id="fr61_672.05">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Do huͤb mein h̉er Gawan.</l>
-         <l xml:id="fr61_672.06">An d̉er eltiſten an<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_672.07">Sus ſprach er zu dem Britavn</l>
-         <l xml:id="fr61_672.08">erchandet iͤr vtepandragavn</l>
-         <l xml:id="fr61_672.09">So iſt daz Arnive ſein weip</l>
-         <l xml:id="fr61_672.10">Von den tzwain chom eu d̉er leip</l>
-         <l xml:id="fr61_672.11">So iſt daz deu mvͤter mein</l>
-         <l xml:id="fr61_672.12">von Norweg deu chunigein</l>
-         <l xml:id="fr61_672.13">Die tzwo mein ſweſt̉er ſint</l>
-         <l xml:id="fr61_672.14">ſecht wie vletigeu chint</l>
-         <l xml:id="fr61_672.15">Ein and̉er chuſſen da geſchach</l>
-         <l xml:id="fr61_672.16">vreud vnd iamer ſach</l>
-         <l xml:id="fr61_672.17">Alle die iz ſehen wolten</l>
-         <l xml:id="fr61_672.18">von lieb ſi daz dolten</l>
-         <l xml:id="fr61_672.19">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Lachen vnd wainen.</l>
-         <l xml:id="fr61_672.20">Seu begunden wol  erſchainen<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_672.21">Von grozzer lieb daz geſchach</l>
-         <l xml:id="fr61_672.22">Artaus zu Gawane ſprach</l>
-         <l xml:id="fr61_672.23">Nef ich pin des mæreſ vrei</l>
-         <l xml:id="fr61_672.24">wer deu chlar vrowe ſei</l>
-         <l xml:id="fr61_672.25">Do ſprach Gawen der kurtoẏs</l>
-         <l xml:id="fr61_672.26">iz iſt deu chuniginne von Logroys</l>
-         <cb xml:id="fr61003vb"/>
-         <l xml:id="fr61_672.27">Jn d̉er genad pin ich hie da bei</l>
-         <l xml:id="fr61_672.28">miͤr iſt geſagt ir habt geſuͤchet ſei</l>
-         <l xml:id="fr61_672.29">Swaz ir des habt genozzen</l>
-         <l xml:id="fr61_672.30">daz tzaiget vnủerdrozzen</l>
-         <l xml:id="fr61_673.01">Jͤr mochtet einer witiben wol tvͤn</l>
-         <l xml:id="fr61_673.02">Artaus ſprach deiner mvͤmen ſvn</l>
-         <l xml:id="fr61_673.03">Gahireten ſi dort hat</l>
-         <l xml:id="fr61_673.04">vnd Garelen d̉er retters tat</l>
-         <l xml:id="fr61_673.05">Jn manigem poẏnder warcht</l>
-         <l xml:id="fr61_673.06">mit tat er vnervarcht</l>
-         <l xml:id="fr61_673.07">An meiner ſeiten wart genomen</l>
-         <l xml:id="fr61_673.08">Ain vnſer poynd̉er was ſo chomen</l>
-         <l xml:id="fr61_673.09">Mit huͦrte vntz an ir barbigan</l>
-         <l xml:id="fr61_673.10">Avoẏ wie iz da wart getan</l>
-         <l xml:id="fr61_673.11">Von dem w̉erden Meliantz vōn liezleizLeiz</l>
-         <l xml:id="fr61_673.12">vnd̉er einer banẏer weiz</l>
-         <l xml:id="fr61_673.13">Jſt er hin auf geuangen</l>
-         <l xml:id="fr61_673.14">Die panẏer het bevangen</l>
-         <l xml:id="fr61_673.15">Von tzobel ein ſwartzen ſtral</l>
-         <l xml:id="fr61_673.16">mit hertz bluͤtes mal</l>
-         <l xml:id="fr61_673.17">Nach manneſ chumb̉er geuar</l>
-         <l xml:id="fr61_673.18">Lẏravoyn rief alle di ſchar</l>
-         <l xml:id="fr61_673.19">Die dar vnd̉er durch ſtreitēn riten</l>
-         <l xml:id="fr61_673.20">Die habent den ſtreit hin auf erſtriten</l>
-         <l xml:id="fr61_673.21">Mir iſt mein nef Johfræit</l>
-         <l xml:id="fr61_673.22">Hin auf geuangen daz iſt miͤr lait</l>
-         <l xml:id="fr61_673.23">Deu nach huet was geſter mein</l>
-         <l xml:id="fr61_673.24">da von gedech miͤr diſen pein</l>
-         <l xml:id="fr61_673.25">Der chunich vil ſeinſ ſchadens v̉eriach</l>
-         <l xml:id="fr61_673.26">Deu H̉ertzoginne mit tzuchten ſprach</l>
-         <l xml:id="fr61_673.27">H̉err*eH̉erre ich ſag eu laſters puez</l>
-         <l xml:id="fr61_673.28">ir hetet mein dehainen gruͤz</l>
-         <l xml:id="fr61_673.29">Jr mvgt mir ſchaden han getan</l>
-         <l xml:id="fr61_673.30">Den ich doch nicht gedient han</l>
-         <l xml:id="fr61_674.01">Seint ir mich geſuechet hat</l>
-         <l xml:id="fr61_674.02">nv ler euch got ergetzens rat</l>
-         <pb xml:id="fr61004r"/>
-         <cb xml:id="fr61004ra"/>
-         <l xml:id="fr61_674.03">Jn des helffe ir ſeit geriten</l>
-         <l xml:id="fr61_674.04">Ob der hat mit miͤr geſtriten</l>
-         <l xml:id="fr61_674.05">So ward ich an wer erchant</l>
-         <l xml:id="fr61_674.06">vnd ze blozzer ſeite an gerant</l>
-         <l xml:id="fr61_674.07">Ob d̉er noch ſtreites an mich gert</l>
-         <l xml:id="fr61_674.08">D̉er wiͤrt wol geendet an*inane ſwert</l>
-         <l xml:id="fr61_674.09">Zu artauſen ſprach do Gawan</l>
-         <l xml:id="fr61_674.10">waz r*tetratet ir ob wir diſen plan</l>
-         <l xml:id="fr61_674.11">Paz mit rettern vber legen</l>
-         <l xml:id="fr61_674.12">ſeint wierz wol getuͦn megen</l>
-         <l xml:id="fr61_674.13">Jch erwirbe iz wol ze d̉er h̉ertzogein</l>
-         <l xml:id="fr61_674.14">Daz die ewern mvͤzzen ledich ſein</l>
-         <l xml:id="fr61_674.15">Vnd daz ir rett̉erſchaft do her</l>
-         <l xml:id="fr61_674.16">chvmpt mit manigēm newen ſper</l>
-         <l xml:id="fr61_674.17">Des volge ich ſprach Artaus</l>
-         <l xml:id="fr61_674.18">Die h̉ertzoginne do hin zu ir haus</l>
-         <l xml:id="fr61_674.19">Sante noch den werden</l>
-         <l xml:id="fr61_674.20">ich wen auf d̉er erden</l>
-         <l xml:id="fr61_674.21">Nie ſchoner ſamenvnge wart</l>
-         <l xml:id="fr61_674.22">gen herwerge ſeiner vart</l>
-         <l xml:id="fr61_674.23">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Gawan vrlaubes gert.</l>
-         <l xml:id="fr61_674.24">Des in d̉er chunich  wert<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_674.25">Die man mit im chomen ſach</l>
-         <l xml:id="fr61_674.26">fuern mit im an gemach</l>
-         <l xml:id="fr61_674.27"/>
-         <l xml:id="fr61_674.28"/>
-         <l xml:id="fr61_674.29">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Daz ſi waſ choſtewer.</l>
-         <l xml:id="fr61_674.30">vn̄d armvͤte ler </l>
-         <l xml:id="fr61_675.01">Jn ſein h̉erwerg rait.</l>
-         <l xml:id="fr61_675.02">Manig̉er dēm vōn h̉ertzen  lait<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_675.03">was. ſein langez auz weſen.</l>
-         <ref>was.</ref>:Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.
+<l xml:id="fr61_498.23">Mich <subst hand="#sr"><del>dauch</del><add>daucht</add></subst> ich hiet da wol geſtriten</l>
+<l xml:id="fr61_498.24">Dar nach ich ſchier chom geriten</l>
+<l xml:id="fr61_498.25">Jn die weiten kandein</l>
+<l xml:id="fr61_498.26">Dar nach d<choice><am>̉</am><ex>er</ex></choice> ene dein</l>
+<l xml:id="fr61_498.27">Kandein wart genennet</l>
+<l xml:id="fr61_498.28">da ward Jther bechennet</l>
+<l xml:id="fr61_498.29">Die ſelbe ſtat leit alda</l>
+<l xml:id="fr61_498.30">da die Greẏa in die Tra</l>
+<l xml:id="fr61_499.01">Mit golde ein wazzer rinnet</l>
+<l xml:id="fr61_499.02">Da wart Jther geminnet</l>
+<cb xml:id="fr61002vb"/>
+<l xml:id="fr61_499.03">Dein paſen er da vant</l>
+<l xml:id="fr61_499.04">deu was vrowe vb<choice><am>̉</am><ex>er</ex></choice> daz lant</l>
+<l xml:id="fr61_499.05">Kandein von Anſchowe</l>
+<l xml:id="fr61_499.06"><hi>H</hi>iez da weſen vrowe</l>
+<l xml:id="fr61_499.07">Deu haizzet Lamire</l>
+<l xml:id="fr61_499.08">So iſt daz lant genennet ſtire</l>
+<l xml:id="fr61_499.09">Swer ſchiltes ampt vͤben wil</l>
+<l xml:id="fr61_499.10">D<choice><am>̉</am><ex>er</ex></choice> muͦz durch ſtreichen landes vil</l>
+<l xml:id="fr61_499.11">Nu rewet mich d<choice><am>̉</am><ex>er</ex></choice> chnappe rot</l>
+<l xml:id="fr61_499.12">Durch den ſi mir grozze ere bot</l>
+<l xml:id="fr61_499.13">Von Jther du piſt erborn</l>
+<l xml:id="fr61_499.14">dein hant die ſippe hat erchorn</l>
+<l xml:id="fr61_499.15">Got hat dein nicht v<choice><am>̉</am><ex>er</ex></choice>gezzen doch</l>
+<l xml:id="fr61_499.16">er chan dich wol gepruͤven noch</l>
+<l xml:id="fr61_499.17">Wil du gen got mit trewen leben</l>
+<l xml:id="fr61_499.18">ſo ſoltu im wandel dor vmb geben</l>
+<l xml:id="fr61_499.19">Mit trewen ich diͤr daz chvnde</l>
+<l xml:id="fr61_499.20">Du traiſt zwo grozze ſvnde</l>
+<l xml:id="fr61_499.21">Jthern du haſt erſlagen</l>
+<l xml:id="fr61_499.22">du ſolt auch dein mveter chlagen</l>
+<l xml:id="fr61_499.23">Jͤr grozze trewe daz geriet</l>
+<l xml:id="fr61_499.24">Dein vart ſei von dem leibe ſchiet</l>
+<l xml:id="fr61_499.25">Die du ivngiſt von ir tæt</l>
+<l xml:id="fr61_499.26">volge d<choice><am>̉</am><ex>er</ex></choice> meinen ræt</l>
+<l xml:id="fr61_499.27">Nim puͤzze fuͤr miſſewende</l>
+<l xml:id="fr61_499.28">vnd ſarge vmb dein ende</l>
+<l xml:id="fr61_499.29">Daz dir dein arbait hie erhol</l>
+<l xml:id="fr61_499.30">daz dort dein ſel icht chvmb<choice><am>̉</am><ex>er</ex></choice> dol</l>
+<l xml:id="fr61_500.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er wierte an allez pagen</l>
+<l xml:id="fr61_500.02">begunde in fuͤrbaz vragen</l>
+<l xml:id="fr61_500.03">Nef nach han ich nicht v<choice><am>̉</am><ex>er</ex></choice>nomen</l>
+<l xml:id="fr61_500.04">von wanne diͤr ditz oͤrſſ ſei chomen</l>
+<l xml:id="fr61_500.05">Herre ditz oͤrſſ ich <subst hand="#sr"><del>erſtraich</del><add>erſtrai<hi rend="rasur">t</hi></add></subst></l>
+<l xml:id="fr61_500.06">Do ich von Sẏgune rait</l>
+<l xml:id="fr61_500.07">Vor einer chlauſen ich die beſprach</l>
+<l xml:id="fr61_500.08">Dar nach ich flugelinge ſtach</l>
+<l xml:id="fr61_500.09-0"><note type="Kustode">.xiij<choice><am>ꝰ</am><ex>us</ex></choice></note></l>
+<pb xml:id="fr61003r"/><cb xml:id="fr61003ra"/>
+<l xml:id="fr61_668.29-0"><note type="Kustode"><gap reason="unleserlich" extent="unbekannt"/></note></l>
+<l xml:id="fr61_668.29"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>All<choice><am>̉</am><ex>er</ex></choice> d<choice><am>̉</am><ex>er</ex></choice> mæſſeney.</l>
+<l xml:id="fr61_668.30">Gawan d<choice><am>̉</am><ex>er</ex></choice> valſcheſ vrei <lb/></l>
+<l xml:id="fr61_669.01">Von haus ſich rottiert.</l>
+<l xml:id="fr61_669.02">ſein raiſ er alſo <lb/><g ref="#alin1"/> tziert<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_669.03">Da vo<choice><am>̄</am><ex>n</ex></choice> ich wund<choice><am>̉</am><ex>er</ex></choice> mochte ſagen.</l>
+<l xml:id="fr61_669.04">manich ſaumer mvͤſte tragen</l>
+<l xml:id="fr61_669.05">Chappelle vnd chamer gewant</l>
+<l xml:id="fr61_669.06">manich ſaum mit <subst hand="#sr"><del>*</del><add>harnaſch</add></subst> erchant</l>
+<l xml:id="fr61_669.07">Giengen auch da vnden</l>
+<l xml:id="fr61_669.08">Helme drauf gepunden</l>
+<l xml:id="fr61_669.09">Pei manigem ſchilt wol getan</l>
+<l xml:id="fr61_669.10">manich ſchon Kaſtelan</l>
+<l xml:id="fr61_669.11">Man bei den ſaumen tziechen ſach</l>
+<l xml:id="fr61_669.12">rett<choice><am>̉</am><ex>er</ex></choice> vnd vrowen nach</l>
+<l xml:id="fr61_669.13">Riten an ein and<choice><am>̉</am><ex>er</ex></choice> vaſte</l>
+<l xml:id="fr61_669.14">daz getzog wol ein raſte</l>
+<l xml:id="fr61_669.15">An d<choice><am>̉</am><ex>er</ex></choice> lenge waſ gemezzen</l>
+<l xml:id="fr61_669.16">Da enward nicht v<choice><am>̉</am><ex>er</ex></choice>gezzen</l>
+<l xml:id="fr61_669.17">Gawan einen retter dar</l>
+<l xml:id="fr61_669.18">ſchuef zu einer vrowen chlar</l>
+<l xml:id="fr61_669.19">Daz warn chranche ſinne</l>
+<l xml:id="fr61_669.20">ob die ſprechen nicht von minne</l>
+<l xml:id="fr61_669.21"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>D<choice><am>̉</am><ex>er</ex></choice> Turkoyt Florant.</l>
+<l xml:id="fr61_669.22">ſeine<choice><am>̄</am><ex>n</ex></choice> geſelle<choice><am>̄</am><ex>n</ex></choice> ward ercha<choice><am>̄</am><ex>n</ex></choice>t <lb/></l>
+<l xml:id="fr61_669.23">Saiven vo<choice><am>̄</am><ex>n</ex></choice> Norweg.</l>
+<l xml:id="fr61_669.24">Liſcoyſ d<choice><am>̉</am><ex>er</ex></choice> gar vntreg <lb/></l>
+<l xml:id="fr61_669.25">Rait pei gundrien.</l>
+<l xml:id="fr61_669.26">Sein ſweſt<choice><am>̉</am><ex>er</ex></choice> ẏtonien<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_669.27">Bei Gawane hiez man reiten</l>
+<l xml:id="fr61_669.28">An den ſelben tzeiten</l>
+<l xml:id="fr61_669.29">Arnive vnd deu Hertzogein</l>
+<l xml:id="fr61_669.30">Auch da geſellinne wolten ſein</l>
+<l xml:id="fr61_670.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">N</seg>v ditz alſo waſ chomen</l>
+<l xml:id="fr61_670.02">Gawanes rinch waſ genomen</l>
+<l xml:id="fr61_670.03">Durch Artauſes her da er lach</l>
+<l xml:id="fr61_670.04">waz man ſchowens da gepflach</l>
+<l xml:id="fr61_670.05">Ee ditz volch durch gerit.</l>
+<l xml:id="fr61_670.06">Gawan durch hofleichen ſit</l>
+<l xml:id="fr61_670.07">Vnd durch w<choice><am>̉</am><ex>er</ex></choice>dichleicheu dinch</l>
+<l xml:id="fr61_670.08">Hiez er vmb Artauſes rinch</l>
+<l xml:id="fr61_670.09">Die erſten vrowen halten</l>
+<l xml:id="fr61_670.10">ſein marſchalch muͤſte walten</l>
+<cb xml:id="fr61003rb"/>
+<l xml:id="fr61_670.11">Daz ainev zuͤ d<choice><am>̉</am><ex>er</ex></choice> and<choice><am>̉</am><ex>er</ex></choice>n rait</l>
+<l xml:id="fr61_670.12">d<choice><am>̉</am><ex>er</ex></choice> dehainen v<choice><am>̉</am><ex>er</ex></choice>mait</l>
+<l xml:id="fr61_670.13">Seu enhielten ſus alumbe</l>
+<l xml:id="fr61_670.14">Hie deu weis dort deu tvmbe</l>
+<l xml:id="fr61_670.15">Bei iegleich ein retter d<choice><am>̉</am><ex>er</ex></choice> ier pflach</l>
+<l xml:id="fr61_670.16">vnd ſich dienſtes bewach</l>
+<l xml:id="fr61_670.17">Artauſeſ rinch den weiten</l>
+<l xml:id="fr61_670.18">man ſach in allen ſeiten</l>
+<l xml:id="fr61_670.19">Mit vrowen vmbeuangen</l>
+<l xml:id="fr61_670.20">Da ward ſchon enpfangen</l>
+<l xml:id="fr61_670.21">Gawan d<choice><am>̉</am><ex>er</ex></choice> ſelden reich</l>
+<l xml:id="fr61_670.22">ich wen minnechleich</l>
+<l xml:id="fr61_670.23">Arnive ir tocht<choice><am>̉</am><ex>er</ex></choice> ieren chint</l>
+<l xml:id="fr61_670.24">mit Gawane erbaizzet ſint</l>
+<l xml:id="fr61_670.25">Von logroẏs deu Hertzogein</l>
+<l xml:id="fr61_670.26">vnd d<choice><am>̉</am><ex>er</ex></choice> Hertzog von Gowertzein</l>
+<l xml:id="fr61_670.27">Vnd d<choice><am>̉</am><ex>er</ex></choice> Turkoyt Florant</l>
+<l xml:id="fr61_670.28">Gen diſen leuten w<choice><am>̉</am><ex>er</ex></choice>de erchant</l>
+<l xml:id="fr61_670.29">Artaus auz dem pavlvne gie</l>
+<l xml:id="fr61_670.30">D<choice><am>̉</am><ex>er</ex></choice> ſei vroleich enpfie</l>
+<l xml:id="fr61_671.01">Alſo tet deu chuniginne ſein weip</l>
+<l xml:id="fr61_671.02">ſeu enpfiengen Gawaneſ leip</l>
+<l xml:id="fr61_671.03">Vnd and<choice><am>̉</am><ex>er</ex></choice> ſein geſelleſchaft</l>
+<l xml:id="fr61_671.04">mit getrewer liebe chraft</l>
+<l xml:id="fr61_671.05">Da ward manich chuſ getan</l>
+<l xml:id="fr61_671.06">von maniger vrowen wol getan</l>
+<l xml:id="fr61_671.07">Artaus ſprach ze dem nefen ſein</l>
+<l xml:id="fr61_671.08">wer ſint die geſellen dein</l>
+<l xml:id="fr61_671.09">Gawan ſprach mein vrowen</l>
+<l xml:id="fr61_671.10">ſol ich ſeu chuſſen ſchowen</l>
+<l xml:id="fr61_671.11">Daz wer in ſanfte bewart</l>
+<l xml:id="fr61_671.12">ſeu ſint paide von der art</l>
+<l xml:id="fr61_671.13">D<choice><am>̉</am><ex>er</ex></choice> Turkoyt Florant</l>
+<l xml:id="fr61_671.14">ward gechuſſet zehant</l>
+<l xml:id="fr61_671.15">Von d<choice><am>̉</am><ex>er</ex></choice> hertzog von Gowerzein</l>
+<l xml:id="fr61_671.16">Ginover deu chunigein</l>
+<pb xml:id="fr61003v"/><cb xml:id="fr61003va"/>
+<l xml:id="fr61_671.17">Gie wid<choice><am>̉</am><ex>er</ex></choice> in daz getzelt</l>
+<l xml:id="fr61_671.18">manigen daucht daz daz velt</l>
+<l xml:id="fr61_671.19"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Vollez rett<choice><am>̉</am><ex>er</ex></choice> wer.</l>
+<l xml:id="fr61_671.20">Er enwarb nicht als d<choice><am>̉</am><ex>er</ex></choice> <lb/><g ref="#alin1"/> ſwer<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_671.21">Artaus ſpranch auf ein kaſtelan</l>
+<l xml:id="fr61_671.22">alle diſe vrowen wol getan</l>
+<l xml:id="fr61_671.23">Vnd alle die retter neben in</l>
+<l xml:id="fr61_671.24">er rait den rinch vmbe hin</l>
+<l xml:id="fr61_671.25">Mit tzuchten Artauſes mvnt</l>
+<l xml:id="fr61_671.26">ſi enpfie an d<choice><am>̉</am><ex>er</ex></choice> ſelben ſtunt</l>
+<l xml:id="fr61_671.27"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Daz waſ gawaneſ wille.</l>
+<l xml:id="fr61_671.28">Seu hapten alle <lb/><g ref="#alin1"/> ſtille<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_671.29">Vntz er mit in von dannen rit</l>
+<l xml:id="fr61_671.30">Daz waſ ein hofleicher ſit</l>
+<l xml:id="fr61_672.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>rtaus erbaizte vnd gie dar ein</l>
+<l xml:id="fr61_672.02">er ſaz zu dem nefen ſein</l>
+<l xml:id="fr61_672.03">Den beſtuend er ſus mit mern</l>
+<l xml:id="fr61_672.04">w<choice><am>̉</am><ex>er</ex></choice> die vier vrowen wern</l>
+<l xml:id="fr61_672.05"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Do huͤb mein h<choice><am>̉</am><ex>er</ex></choice> Gawan.</l>
+<l xml:id="fr61_672.06">An d<choice><am>̉</am><ex>er</ex></choice> eltiſten an<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_672.07">Sus ſprach er zu dem Britavn</l>
+<l xml:id="fr61_672.08">erchandet iͤr vtepandragavn</l>
+<l xml:id="fr61_672.09">So iſt daz Arnive ſein weip</l>
+<l xml:id="fr61_672.10">Von den tzwain chom eu d<choice><am>̉</am><ex>er</ex></choice> leip</l>
+<l xml:id="fr61_672.11">So iſt daz deu mvͤter mein</l>
+<l xml:id="fr61_672.12">von Norweg deu chunigein</l>
+<l xml:id="fr61_672.13">Die tzwo mein ſweſt<choice><am>̉</am><ex>er</ex></choice> ſint</l>
+<l xml:id="fr61_672.14">ſecht wie vletigeu chint</l>
+<l xml:id="fr61_672.15">Ein and<choice><am>̉</am><ex>er</ex></choice> chuſſen da geſchach</l>
+<l xml:id="fr61_672.16">vreud vnd iamer ſach</l>
+<l xml:id="fr61_672.17">Alle die iz ſehen wolten</l>
+<l xml:id="fr61_672.18">von lieb ſi daz dolten</l>
+<l xml:id="fr61_672.19"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Lachen vnd wainen.</l>
+<l xml:id="fr61_672.20">Seu begunden wol <lb/><g ref="#alin1"/> erſchainen<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_672.21">Von grozzer lieb daz geſchach</l>
+<l xml:id="fr61_672.22">Artaus zu Gawane ſprach</l>
+<l xml:id="fr61_672.23">Nef ich pin des mæreſ vrei</l>
+<l xml:id="fr61_672.24">wer deu chlar vrowe ſei</l>
+<l xml:id="fr61_672.25">Do ſprach Gawen der kurtoẏs</l>
+<l xml:id="fr61_672.26">iz iſt deu chuniginne von Logroys</l>
+<cb xml:id="fr61003vb"/>
+<l xml:id="fr61_672.27">Jn d<choice><am>̉</am><ex>er</ex></choice> genad pin ich hie da bei</l>
+<l xml:id="fr61_672.28">miͤr iſt geſagt ir habt geſuͤchet ſei</l>
+<l xml:id="fr61_672.29">Swaz ir des habt genozzen</l>
+<l xml:id="fr61_672.30">daz tzaiget vnu<choice><am>̉</am><ex>er</ex></choice>drozzen</l>
+<l xml:id="fr61_673.01">Jͤr mochtet einer witiben wol tvͤn</l>
+<l xml:id="fr61_673.02">Artaus ſprach deiner mvͤmen ſvn</l>
+<l xml:id="fr61_673.03">Gahireten ſi dort hat</l>
+<l xml:id="fr61_673.04">vnd Garelen d<choice><am>̉</am><ex>er</ex></choice> retters tat</l>
+<l xml:id="fr61_673.05">Jn manigem poẏnder warcht</l>
+<l xml:id="fr61_673.06">mit tat er vnervarcht</l>
+<l xml:id="fr61_673.07">An meiner ſeiten wart genomen</l>
+<l xml:id="fr61_673.08">Ain vnſer poynd<choice><am>̉</am><ex>er</ex></choice> was ſo chomen</l>
+<l xml:id="fr61_673.09">Mit huͦrte vntz an ir barbigan</l>
+<l xml:id="fr61_673.10">Avoẏ wie iz da wart getan</l>
+<l xml:id="fr61_673.11">Von dem w<choice><am>̉</am><ex>er</ex></choice>den Meliantz vo<choice><am>̄</am><ex>n</ex></choice> <subst hand="#sr"><del>liez</del><add><subst hand="#ls1"><del>leiz</del><add>Leiz</add></subst></add></subst></l>
+<l xml:id="fr61_673.12">vnd<choice><am>̉</am><ex>er</ex></choice> einer banẏer weiz</l>
+<l xml:id="fr61_673.13">Jſt er hin auf geuangen</l>
+<l xml:id="fr61_673.14">Die panẏer het bevangen</l>
+<l xml:id="fr61_673.15">Von tzobel ein ſwartzen ſtral</l>
+<l xml:id="fr61_673.16">mit hertz bluͤtes mal</l>
+<l xml:id="fr61_673.17">Nach manneſ chumb<choice><am>̉</am><ex>er</ex></choice> geuar</l>
+<l xml:id="fr61_673.18">Lẏravoyn rief alle di ſchar</l>
+<l xml:id="fr61_673.19">Die dar vnd<choice><am>̉</am><ex>er</ex></choice> durch ſtreite<choice><am>̄</am><ex>n</ex></choice> riten</l>
+<l xml:id="fr61_673.20">Die habent den ſtreit hin auf erſtriten</l>
+<l xml:id="fr61_673.21">Mir iſt mein nef Johfræit</l>
+<l xml:id="fr61_673.22">Hin auf geuangen daz iſt miͤr lait</l>
+<l xml:id="fr61_673.23">Deu nach huet was geſter mein</l>
+<l xml:id="fr61_673.24">da von gedech miͤr diſen pein</l>
+<l xml:id="fr61_673.25"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">D</seg>er chunich vil ſeinſ ſchadens v<choice><am>̉</am><ex>er</ex></choice><lb/><g ref="#alin1"/>iach</l>
+<l xml:id="fr61_673.26">Deu H<choice><am>̉</am><ex>er</ex></choice>tzoginne mit tzuchten ſprach</l>
+<l xml:id="fr61_673.27"><subst hand="#sr"><del>H<choice><am>̉</am><ex>er</ex></choice>r*e</del><add>H<choice><am>̉</am><ex>er</ex></choice>re</add></subst> ich ſag eu laſters puez</l>
+<l xml:id="fr61_673.28">ir hetet mein dehainen gruͤz</l>
+<l xml:id="fr61_673.29">Jr mvgt mir ſchaden han getan</l>
+<l xml:id="fr61_673.30">Den ich doch nicht gedient han</l>
+<l xml:id="fr61_674.01">Seint ir mich geſuechet hat</l>
+<l xml:id="fr61_674.02">nv ler euch got ergetzens rat</l>
+<pb xml:id="fr61004r"/><cb xml:id="fr61004ra"/>
+<l xml:id="fr61_674.03">Jn des helffe ir ſeit geriten</l>
+<l xml:id="fr61_674.04">Ob der hat mit miͤr geſtriten</l>
+<l xml:id="fr61_674.05">So ward ich an wer erchant</l>
+<l xml:id="fr61_674.06">vnd ze blozzer ſeite an gerant</l>
+<l xml:id="fr61_674.07">Ob d<choice><am>̉</am><ex>er</ex></choice> noch ſtreites an mich gert</l>
+<l xml:id="fr61_674.08">D<choice><am>̉</am><ex>er</ex></choice> wiͤrt wol geendet <subst hand="#sr"><del>an*in</del><add>an<hi rend="rasur">e<gap/></hi></add></subst> ſwert</l>
+<l xml:id="fr61_674.09">Zu artauſen ſprach do Gawan</l>
+<l xml:id="fr61_674.10">waz <subst hand="#sr"><del>r*tet</del><add>ratet</add></subst> ir ob wir diſen plan</l>
+<l xml:id="fr61_674.11">Paz mit rettern vber legen</l>
+<l xml:id="fr61_674.12">ſeint wierz wol getuͦn megen</l>
+<l xml:id="fr61_674.13">Jch erwirbe iz wol ze d<choice><am>̉</am><ex>er</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzogein</l>
+<l xml:id="fr61_674.14">Daz die ewern mvͤzzen ledich ſein</l>
+<l xml:id="fr61_674.15">Vnd daz ir rett<choice><am>̉</am><ex>er</ex></choice>ſchaft do her</l>
+<l xml:id="fr61_674.16">chvmpt mit manige<choice><am>̄</am><ex>m</ex></choice> newen ſper</l>
+<l xml:id="fr61_674.17">Des volge ich ſprach Artaus</l>
+<l xml:id="fr61_674.18">Die h<choice><am>̉</am><ex>er</ex></choice>tzoginne do hin zu ir haus</l>
+<l xml:id="fr61_674.19">Sante noch den werden</l>
+<l xml:id="fr61_674.20">ich wen auf d<choice><am>̉</am><ex>er</ex></choice> erden</l>
+<l xml:id="fr61_674.21">Nie ſchoner ſamenvnge wart</l>
+<l xml:id="fr61_674.22">gen herwerge ſeiner vart</l>
+<l xml:id="fr61_674.23"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Gawan vrlaubes gert.</l>
+<l xml:id="fr61_674.24">Des in d<choice><am>̉</am><ex>er</ex></choice> chunich <lb/><g ref="#alin1"/> wert<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_674.25">Die man mit im chomen ſach</l>
+<l xml:id="fr61_674.26">fuern mit im an gemach</l>
+<l xml:id="fr61_674.27"/>
+<l xml:id="fr61_674.28"/>
+<l xml:id="fr61_674.29"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Daz ſi waſ choſtewer.</l>
+<l xml:id="fr61_674.30">vn<choice><am>̄</am><ex>d</ex></choice> armvͤte ler <lb/></l>
+<l xml:id="fr61_675.01">Jn ſein h<choice><am>̉</am><ex>er</ex></choice>werg rait.</l>
+<l xml:id="fr61_675.02">Manig<choice><am>̉</am><ex>er</ex></choice> de<choice><am>̄</am><ex>m</ex></choice> vo<choice><am>̄</am><ex>n</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzen <lb/><g ref="#alin1"/> lait<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_675.03">was. ſein langez auz weſen.</l>
+<note resp="#CG_Lektor" target="#?1_675.03 #Fr61;4ra"><ref>was.</ref>:Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_675.04">nv waſ auch kaẏ geneſen</l>
-         <l xml:id="fr61_675.05">Bei dem Plimzol ze der ẏoſte</l>
-         <l xml:id="fr61_675.06">D̉er prueft Gawanes choſte</l>
-         <l xml:id="fr61_675.07">Meines h̉erren ſwager lot</l>
-         <l xml:id="fr61_675.08">von dem waſ vns dehain not</l>
-         <l xml:id="fr61_675.09">Eben heuzze vnd ſvnd̉ers ringensringes</l>
-         <l xml:id="fr61_675.10">doch gedacht er noch des dinges</l>
-         <l xml:id="fr61_675.11">Wand in Gawan dort nicht rach</l>
-         <l xml:id="fr61_675.12">Da im ſein zeſwer arme brach</l>
-         <l xml:id="fr61_675.13">Got mit den leuten wund̉er tuet</l>
-         <l xml:id="fr61_675.14">Wer gab Gawane die vrowen luͤt</l>
-         <cb xml:id="fr61004rb"/>
-         <l xml:id="fr61_675.15">Sprach kaẏ in ſeinem ſchimpfe</l>
-         <l xml:id="fr61_675.16">Daz was gen vreundenvreunde ein vngelimpfe</l>
-         <l xml:id="fr61_675.17">D̉er getrewe iſt vreundes ere vro</l>
-         <l xml:id="fr61_675.18">d̉er vngetrewe waffeno</l>
-         <l xml:id="fr61_675.19">Rueffet ſwenne im lieb geſchicht</l>
-         <l xml:id="fr61_675.20">iemen lieb vngern er ſicht</l>
-         <l xml:id="fr61_675.21">Gawan pflach ſelde vnd er</l>
-         <l xml:id="fr61_675.22">gert iemen furbaz mer</l>
-         <l xml:id="fr61_675.23">War wil d̉er mit gedanchen</l>
-         <l xml:id="fr61_675.24">ſo ſint die muͤtes chranchen</l>
-         <l xml:id="fr61_675.25">Gutes vnd hazzes vol</l>
-         <l xml:id="fr61_675.26">ſo tuet den ellenthaften wol</l>
-         <l xml:id="fr61_675.27">Swa ſeines vreundes ſtreit geſtet</l>
-         <l xml:id="fr61_675.28">Daz ſchande fluchtich vor im get</l>
-         <l xml:id="fr61_675.29">Seint Gawan an valſchen haz</l>
-         <l xml:id="fr61_675.30">menleich̉er trewe nie v̉ergaz</l>
-         <l xml:id="fr61_676.01">Dehain vnpilde dar an geſchach</l>
-         <l xml:id="fr61_676.02">ſwa man in pei den ſelden ſach</l>
-         <l xml:id="fr61_676.03">Wie d̉er von Norwæg</l>
-         <l xml:id="fr61_676.04">Seines volches pflæg.</l>
-         <l xml:id="fr61_676.05">Retter vnd vrowen</l>
-         <l xml:id="fr61_676.06">Da mochten reichait ſchowen</l>
-         <l xml:id="fr61_676.07">Artaus vnd ſein geſinde</l>
-         <l xml:id="fr61_676.08">von des werden lothes chinde</l>
-         <l xml:id="fr61_676.09">Seu ſchullen ſlaffen ſo man hat gaz</l>
-         <l xml:id="fr61_676.10">iͤr ruͤ han ich ſelten haz</l>
-         <l xml:id="fr61_676.11">Des margens chom vor tag geriten</l>
-         <l xml:id="fr61_676.12">Daz uolch mit we*leichenwerleichen ſiten</l>
-         <l xml:id="fr61_676.13">D̉er er h̉ertzoginne retter gar</l>
-         <l xml:id="fr61_676.14">man nam ir ze wiͤrde war</l>
-         <l xml:id="fr61_676.15">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Bei dem Aſchewein.</l>
-         <l xml:id="fr61_676.16">da Artaus vn̄d die ſein<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_676.17">Lagen. durch die tzogten ſeu wie</l>
-         <ref>Lagen.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.
-<l xml:id="fr61_676.18">And̉erhalb da Gawan hie</l>
-         <l xml:id="fr61_676.19">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Lach mit weitem ringe.</l>
-         <l xml:id="fr61_676.20">Sw̉er ſolch helffe  ertwinge<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_676.21">Mit ſeiner ellenthafter hant</l>
-         <l xml:id="fr61_676.22">den mach man han fuͤr preis erchant</l>
-         <pb xml:id="fr61004v"/>
-         <cb xml:id="fr61004va"/>
-         <l xml:id="fr61_676.23">Gawan ſeinen marſchach bat</l>
-         <l xml:id="fr61_676.24">Jn tzaigen h̉erwerge ſtat</l>
-         <l xml:id="fr61_676.25">Als der chuniginne marſchalch riet</l>
-         <l xml:id="fr61_676.26">von Logroẏs deu werde diet</l>
-         <l xml:id="fr61_676.27">Den rinch do ſvnd̉er tzierten</l>
-         <l xml:id="fr61_676.28">êe ſeu glotſchierten</l>
-         <l xml:id="fr61_676.29">Jz waſ wol mitter margen</l>
-         <l xml:id="fr61_676.30">nu nahent iz newen ſargen</l>
-         <l xml:id="fr61_677.01">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Artaus d̉er preis erchande.</l>
-         <l xml:id="fr61_677.02">Seinen poten  ſande<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_677.03">Ze Roẏ Sabins in die ſtat.</l>
-         <l xml:id="fr61_677.04">Den chunich Gramovlantz er bat</l>
-         <l xml:id="fr61_677.05">Seint iz vnwendich ſol ſein</l>
-         <l xml:id="fr61_677.06">daz er gen dem nefen mein</l>
-         <l xml:id="fr61_677.07">Seinen champf nicht wil v̉erbern</l>
-         <l xml:id="fr61_677.08">Deſ ſol auch in mein oͤhaim wern</l>
-         <l xml:id="fr61_677.09">Pit in gen vns ſchiͤr chomen</l>
-         <l xml:id="fr61_677.10">ſeint ſein gewalt iſt ſus v̉ernomen</l>
-         <l xml:id="fr61_677.11">Daz er iz nicht meẏden wil</l>
-         <l xml:id="fr61_677.12">iz wer einem and̉erm manne ze uil</l>
-         <l xml:id="fr61_677.13">Artauſes boten fuern dan</l>
-         <l xml:id="fr61_677.14">Do nam mein her Gawan</l>
-         <l xml:id="fr61_677.15">Liſcoẏſen vnd Floranden</l>
-         <l xml:id="fr61_677.16">die von manigen landen</l>
-         <l xml:id="fr61_677.17">Warn minne ſoldier</l>
-         <l xml:id="fr61_677.18">Bat er im tzaigen ſchier</l>
-         <l xml:id="fr61_677.19">Die d̉er h̉ertzoginne auf hochen ſolt</l>
-         <l xml:id="fr61_677.20">wærn dienſtleichen holt</l>
-         <l xml:id="fr61_677.21">Er rait zu in vn̄d enpfie ſeu ſo</l>
-         <l xml:id="fr61_677.22">Daz ſeu alle geleich ſprachen do</l>
-         <l xml:id="fr61_677.23">daz d̉er werd Gawan</l>
-         <l xml:id="fr61_677.24">wær ein mændleich gefueg̉er man</l>
-         <l xml:id="fr61_677.25">Da mit chom er von im wider</l>
-         <l xml:id="fr61_677.26">ſus warb er taugenleichen ſider</l>
-         <l xml:id="fr61_677.27">Jn ſein chamer do er gie</l>
-         <l xml:id="fr61_677.28">mit harnaſch er vmbe vie</l>
-         <l xml:id="fr61_677.29">Seinen leip ze den ſtunden</l>
-         <l xml:id="fr61_677.30">Durch daz ob ſein wunden</l>
-         <cb xml:id="fr61004vb"/>
-         <l xml:id="fr61_678.01">
-            <milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>So gehailet wern.</l>
-         <l xml:id="fr61_678.02">daz die maſen  ſein icht ſwern<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/>
-         </l>
-         <l xml:id="fr61_678.03">Er wolt penichen den leip</l>
-         <l xml:id="fr61_678.04">ſeint ſo manich magt vn̄d weip</l>
-         <l xml:id="fr61_678.05">Seinen champf ſolten ſehen</l>
-         <l xml:id="fr61_678.06">daz die retter mochten iehen</l>
-         <l xml:id="fr61_678.07">Ob ſein vnủertzagtev hant</l>
-         <l xml:id="fr61_678.08">Des tags gen preis werd erchant</l>
-         <l xml:id="fr61_678.09">Seinen chnappen het er des gepeten</l>
-         <l xml:id="fr61_678.10">Daz er im brecht Gringoleten</l>
-         <l xml:id="fr61_678.11">Do begunde er laiſiern</l>
-         <l xml:id="fr61_678.12">er wolt ſich norviern</l>
-         <l xml:id="fr61_678.13">daz er vnd daz oͤrſſ wern berait</l>
-         <l xml:id="fr61_678.14">mir ward ſein rais nie ſo lait</l>
-         <l xml:id="fr61_678.15">Alain rait her Gawan</l>
-         <l xml:id="fr61_678.16">von dem her auf den plan</l>
-         <l xml:id="fr61_678.17">Gelukch muͤzze iz walden</l>
-         <l xml:id="fr61_678.18">er ſaz an einer halden</l>
-         <l xml:id="fr61_678.19">Bei dem wazzer Sabins</l>
-         <l xml:id="fr61_678.20">D̉er wol mochte haizzen flins</l>
-         <l xml:id="fr61_678.21">d̉er mændleichen chrefte</l>
-         <l xml:id="fr61_678.22">er ſchower an retterſchefte</l>
-         <l xml:id="fr61_678.23">Sein h̉ertz preis nie v̉erſwanch</l>
-         <l xml:id="fr61_678.24">er waſ deſ leibes wol alſo chranch</l>
-         <l xml:id="fr61_678.25">Swaz man haizzet vnpreẏs</l>
-         <l xml:id="fr61_678.26">Daz getruͤch er nie dehain weẏs</l>
-         <l xml:id="fr61_678.27">Halbes vingerſ lanch noch ſpanne</l>
-         <l xml:id="fr61_678.28">von dem werden manne</l>
-         <l xml:id="fr61_678.29">Mugt ir êe wol han v̉ernomen</l>
-         <l xml:id="fr61_678.30">an den rechten ſtam daz mær iſt chomen</l>
-         <l xml:id="fr61_679.01">Ob von dem werden Gawan</l>
-         <l xml:id="fr61_679.02">werleich ẏoſt do wart getan</l>
-         <l xml:id="fr61_679.03">So envarcht ſeiner er</l>
-         <l xml:id="fr61_679.04">An ſtreit nie ſo ſer</l>
-         <l xml:id="fr61_679.05">Jch ſolt des and̉ern angeſt han</l>
-         <l xml:id="fr61_679.06">Daz wil ich auz den ſargen lan</l>
-         <l xml:id="fr61_679.07">Er was ie ſtreit einſ manneſ her</l>
-         <l xml:id="fr61_679.08">Auz haẏdenſchaft v̉erre vb̉er mer</l>
-      </body>
-   </text>
+<l xml:id="fr61_675.05">Bei dem Plimzol ze der ẏoſte</l>
+<l xml:id="fr61_675.06">D<choice><am>̉</am><ex>er</ex></choice> prueft Gawanes choſte</l>
+<l xml:id="fr61_675.07">Meines h<choice><am>̉</am><ex>er</ex></choice>ren ſwager lot</l>
+<l xml:id="fr61_675.08">von dem waſ vns dehain not</l>
+<l xml:id="fr61_675.09">Eben heuzze vnd ſvnd<choice><am>̉</am><ex>er</ex></choice>s <subst hand="#sr"><del>ringens</del><add>ringes</add></subst></l>
+<l xml:id="fr61_675.10">doch gedacht er noch des dinges</l>
+<l xml:id="fr61_675.11">Wand in Gawan dort nicht rach</l>
+<l xml:id="fr61_675.12">Da im ſein zeſwer arme brach</l>
+<l xml:id="fr61_675.13">Got mit den leuten wund<choice><am>̉</am><ex>er</ex></choice> tuet</l>
+<l xml:id="fr61_675.14">Wer gab Gawane die vrowen luͤt</l>
+<cb xml:id="fr61004rb"/>
+<l xml:id="fr61_675.15">Sprach kaẏ in ſeinem ſchimpfe</l>
+<l xml:id="fr61_675.16">Daz was gen <subst hand="#sr"><del>vreunden</del><add>vreunde<hi rend="rasur"><gap/></hi></add></subst> ein vngelimpfe</l>
+<l xml:id="fr61_675.17">D<choice><am>̉</am><ex>er</ex></choice> getrewe iſt vreundes ere vro</l>
+<l xml:id="fr61_675.18">d<choice><am>̉</am><ex>er</ex></choice> vngetrewe waffeno</l>
+<l xml:id="fr61_675.19">Rueffet ſwenne im lieb geſchicht</l>
+<l xml:id="fr61_675.20">iemen lieb vngern er ſicht</l>
+<l xml:id="fr61_675.21">Gawan pflach ſelde vnd er</l>
+<l xml:id="fr61_675.22">gert iemen furbaz mer</l>
+<l xml:id="fr61_675.23">War wil d<choice><am>̉</am><ex>er</ex></choice> mit gedanchen</l>
+<l xml:id="fr61_675.24">ſo ſint die muͤtes chranchen</l>
+<l xml:id="fr61_675.25">Gutes vnd hazzes vol</l>
+<l xml:id="fr61_675.26">ſo tuet den ellenthaften wol</l>
+<l xml:id="fr61_675.27">Swa ſeines vreundes ſtreit geſtet</l>
+<l xml:id="fr61_675.28">Daz ſchande fluchtich vor im get</l>
+<l xml:id="fr61_675.29">Seint Gawan an valſchen haz</l>
+<l xml:id="fr61_675.30">menleich<choice><am>̉</am><ex>er</ex></choice> trewe nie v<choice><am>̉</am><ex>er</ex></choice>gaz</l>
+<l xml:id="fr61_676.01">Dehain vnpilde dar an geſchach</l>
+<l xml:id="fr61_676.02">ſwa man in pei den ſelden ſach</l>
+<l xml:id="fr61_676.03">Wie d<choice><am>̉</am><ex>er</ex></choice> von Norwæg</l>
+<l xml:id="fr61_676.04">Seines volches pflæg.</l>
+<l xml:id="fr61_676.05">Retter vnd vrowen</l>
+<l xml:id="fr61_676.06">Da mochten reichait ſchowen</l>
+<l xml:id="fr61_676.07">Artaus vnd ſein geſinde</l>
+<l xml:id="fr61_676.08">von des werden lothes chinde</l>
+<l xml:id="fr61_676.09">Seu ſchullen ſlaffen ſo man hat gaz</l>
+<l xml:id="fr61_676.10">iͤr ruͤ han ich ſelten haz</l>
+<l xml:id="fr61_676.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>es margens chom vor tag geriten</l>
+<l xml:id="fr61_676.12">Daz uolch mit <subst hand="#sr"><del>we*leichen</del><add>werleichen</add></subst> ſiten</l>
+<l xml:id="fr61_676.13">D<choice><am>̉</am><ex>er</ex></choice> er h<choice><am>̉</am><ex>er</ex></choice>tzoginne retter gar</l>
+<l xml:id="fr61_676.14">man nam ir ze wiͤrde war</l>
+<l xml:id="fr61_676.15"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Bei dem Aſchewein.</l>
+<l xml:id="fr61_676.16">da Artaus vn<choice><am>̄</am><ex>d</ex></choice> die ſein<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_676.17">Lagen. durch die tzogten ſeu wie</l>
+<note resp="#CG_Lektor" target="#?1_676.17 #Fr61004rb"><ref>Lagen.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
+<l xml:id="fr61_676.18">And<choice><am>̉</am><ex>er</ex></choice>halb da Gawan hie</l>
+<l xml:id="fr61_676.19"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Lach mit weitem ringe.</l>
+<l xml:id="fr61_676.20">Sw<choice><am>̉</am><ex>er</ex></choice> ſolch helffe <lb/><g ref="#alin1"/> ertwinge<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_676.21">Mit ſeiner ellenthafter hant</l>
+<l xml:id="fr61_676.22">den mach man han fuͤr preis erchant</l>
+<pb xml:id="fr61004v"/><cb xml:id="fr61004va"/>
+<l xml:id="fr61_676.23">Gawan ſeinen marſchach bat</l>
+<l xml:id="fr61_676.24">Jn tzaigen h<choice><am>̉</am><ex>er</ex></choice>werge ſtat</l>
+<l xml:id="fr61_676.25">Als der chuniginne marſchalch riet</l>
+<l xml:id="fr61_676.26">von Logroẏs deu werde diet</l>
+<l xml:id="fr61_676.27">Den rinch do ſvnd<choice><am>̉</am><ex>er</ex></choice> tzierten</l>
+<l xml:id="fr61_676.28">êe ſeu glotſchierten</l>
+<l xml:id="fr61_676.29">Jz waſ wol mitter margen</l>
+<l xml:id="fr61_676.30">nu nahent iz newen ſargen</l>
+<l xml:id="fr61_677.01"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Artaus d<choice><am>̉</am><ex>er</ex></choice> preis erchande.</l>
+<l xml:id="fr61_677.02">Seinen poten <lb/><g ref="#alin1"/> ſande<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_677.03">Ze Roẏ Sabins in die ſtat.</l>
+<l xml:id="fr61_677.04">Den chunich Gramovlantz er bat</l>
+<l xml:id="fr61_677.05">Seint iz vnwendich ſol ſein</l>
+<l xml:id="fr61_677.06">daz er gen dem nefen mein</l>
+<l xml:id="fr61_677.07">Seinen champf nicht wil v<choice><am>̉</am><ex>er</ex></choice>bern</l>
+<l xml:id="fr61_677.08">Deſ ſol auch in mein oͤhaim wern</l>
+<l xml:id="fr61_677.09">Pit in gen vns ſchiͤr chomen</l>
+<l xml:id="fr61_677.10">ſeint ſein gewalt iſt ſus v<choice><am>̉</am><ex>er</ex></choice>nomen</l>
+<l xml:id="fr61_677.11">Daz er iz nicht meẏden wil</l>
+<l xml:id="fr61_677.12">iz wer einem and<choice><am>̉</am><ex>er</ex></choice>m manne ze uil</l>
+<l xml:id="fr61_677.13">Artauſes boten fuern dan</l>
+<l xml:id="fr61_677.14">Do nam mein her Gawan</l>
+<l xml:id="fr61_677.15">Liſcoẏſen vnd Floranden</l>
+<l xml:id="fr61_677.16">die von manigen landen</l>
+<l xml:id="fr61_677.17">Warn minne ſoldier</l>
+<l xml:id="fr61_677.18">Bat er im tzaigen ſchier</l>
+<l xml:id="fr61_677.19">Die d<choice><am>̉</am><ex>er</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzoginne auf hochen ſolt</l>
+<l xml:id="fr61_677.20">wærn dienſtleichen holt</l>
+<l xml:id="fr61_677.21">Er rait zu in vn<choice><am>̄</am><ex>d</ex></choice> enpfie ſeu ſo</l>
+<l xml:id="fr61_677.22">Daz ſeu alle geleich ſprachen do</l>
+<l xml:id="fr61_677.23">daz d<choice><am>̉</am><ex>er</ex></choice> werd Gawan</l>
+<l xml:id="fr61_677.24">wær ein mændleich gefueg<choice><am>̉</am><ex>er</ex></choice> man</l>
+<l xml:id="fr61_677.25">Da mit chom er von im wider</l>
+<l xml:id="fr61_677.26">ſus warb er taugenleichen ſider</l>
+<l xml:id="fr61_677.27">Jn ſein chamer do er gie</l>
+<l xml:id="fr61_677.28">mit harnaſch er vmbe vie</l>
+<l xml:id="fr61_677.29">Seinen leip ze den ſtunden</l>
+<l xml:id="fr61_677.30">Durch daz ob ſein wunden</l>
+<cb xml:id="fr61004vb"/>
+<l xml:id="fr61_678.01"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>So gehailet wern.</l>
+<l xml:id="fr61_678.02">daz die maſen <lb/><g ref="#alin1"/> ſein icht ſwern<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
+<l xml:id="fr61_678.03">Er wolt penichen den leip</l>
+<l xml:id="fr61_678.04">ſeint ſo manich magt vn<choice><am>̄</am><ex>d</ex></choice> weip</l>
+<l xml:id="fr61_678.05">Seinen champf ſolten ſehen</l>
+<l xml:id="fr61_678.06">daz die retter mochten iehen</l>
+<l xml:id="fr61_678.07">Ob ſein vnu<choice><am>̉</am><ex>er</ex></choice>tzagtev hant</l>
+<l xml:id="fr61_678.08">Des tags gen preis werd erchant</l>
+<l xml:id="fr61_678.09">Seinen chnappen het er des gepeten</l>
+<l xml:id="fr61_678.10">Daz er im brecht Gringoleten</l>
+<l xml:id="fr61_678.11">Do begunde er laiſiern</l>
+<l xml:id="fr61_678.12">er wolt ſich norviern</l>
+<l xml:id="fr61_678.13">daz er vnd daz oͤrſſ wern berait</l>
+<l xml:id="fr61_678.14">mir ward ſein rais nie ſo lait</l>
+<l xml:id="fr61_678.15"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">A</seg>lain rait her Gawan</l>
+<l xml:id="fr61_678.16">von dem her auf den plan</l>
+<l xml:id="fr61_678.17">Gelukch muͤzze iz walden</l>
+<l xml:id="fr61_678.18">er ſaz an einer halden</l>
+<l xml:id="fr61_678.19">Bei dem wazzer Sabins</l>
+<l xml:id="fr61_678.20">D<choice><am>̉</am><ex>er</ex></choice> wol mochte haizzen flins</l>
+<l xml:id="fr61_678.21">d<choice><am>̉</am><ex>er</ex></choice> mændleichen chrefte</l>
+<l xml:id="fr61_678.22">er ſchower an retterſchefte</l>
+<l xml:id="fr61_678.23">Sein h<choice><am>̉</am><ex>er</ex></choice>tz preis nie v<choice><am>̉</am><ex>er</ex></choice>ſwanch</l>
+<l xml:id="fr61_678.24">er waſ deſ leibes wol alſo chranch</l>
+<l xml:id="fr61_678.25">Swaz man haizzet vnpreẏs</l>
+<l xml:id="fr61_678.26">Daz getruͤch er nie dehain weẏs</l>
+<l xml:id="fr61_678.27">Halbes vingerſ lanch noch ſpanne</l>
+<l xml:id="fr61_678.28">von dem werden manne</l>
+<l xml:id="fr61_678.29">Mugt ir êe wol han v<choice><am>̉</am><ex>er</ex></choice>nomen</l>
+<l xml:id="fr61_678.30">an den rechten ſtam daz mær iſt cho<lb/><g ref="#alin1"/>men</l>
+<l xml:id="fr61_679.01">Ob von dem werden Gawan</l>
+<l xml:id="fr61_679.02">werleich ẏoſt do wart getan</l>
+<l xml:id="fr61_679.03">So envarcht ſeiner er</l>
+<l xml:id="fr61_679.04">An ſtreit nie ſo ſer</l>
+<l xml:id="fr61_679.05">Jch ſolt des and<choice><am>̉</am><ex>er</ex></choice>n angeſt han</l>
+<l xml:id="fr61_679.06">Daz wil ich auz den ſargen lan</l>
+<l xml:id="fr61_679.07">Er was ie ſtreit einſ manneſ her</l>
+<l xml:id="fr61_679.08">Auz haẏdenſchaft v<choice><am>̉</am><ex>er</ex></choice>re vb<choice><am>̉</am><ex>er</ex></choice> mer</l>
+</body>
+</text>
 </TEI>

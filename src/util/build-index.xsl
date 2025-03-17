@@ -107,7 +107,7 @@
                             <string key="verse">{$id => tokenize('\.') => tail()}</string>
                             <string key="d">{if ($type='f') then
                                 ancestor::div[@type='Dreissiger']/@n else $id =>
-                                replace('^(?:fr\d{1,2})?.k?_*(\d{1,3})\..*$','$1')}</string>
+                                replace('^(?:fr\d{1,2})?.[kv]?_*(\d{1,3})\..*$','$1')}</string>
                             <string key="content">
                                 <xsl:apply-templates mode="janus"/>
                             </string>
@@ -142,14 +142,14 @@
     
     <!-- two modes: janus for janus elements (only one of two alternatives is processed) and all to process all -->
     <xsl:template match="choice" mode="janus">
-        <xsl:apply-templates select="am"/>
+        <xsl:apply-templates select="am" mode="janus"/>
     </xsl:template>
     <xsl:template match="choice" mode="all">
         <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match="subst" mode="janus">
-        <xsl:apply-templates select="add"/>
+        <xsl:apply-templates select="add" mode="janus"/>
     </xsl:template>
     <xsl:template match="subst" mode="all">
         <xsl:apply-templates mode="all"/>

@@ -1,1201 +1,807 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Parzival</title>
-            <title type="sub">Synoptische Fassungsedition des Dreissigers 46</title>
-            <author>Wolfram von Eschenbach</author>
-            <editor>Parzival-Projekt Bern</editor>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Parzival-Projekt Bern</authority>
-            <pubPlace>Bern</pubPlace>
-            <date>06.01.25</date>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Digital born.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="Dreissiger" subtype="D" n="46">
-            <div type="Textteil" subtype="D" n="46">
-               <head>*D</head>
-               <l n="*D 46.01">"gêt nâher, mîn hêr Razalic.</l>
-               <l n="*D 46.01-1"/>
-               <l n="*D 46.02">ir sult küssen mîn wîp.</l>
-               <l n="*D 46.02-1"/>
-               <l n="*D 46.03">
-                  <corr type="Emendation">A</corr>lsô tuot ouch ir, hêr Gaschier."</l>
-               <l n="*D 46.04">Hiutegern den Schotten fier</l>
-               <l n="*D 46.05">bat er si küssen an ir munt;</l>
-               <l n="*D 46.06">der was von sîner tjost wunt.</l>
-               <l n="*D 46.07">er bat si alle sitzen.</l>
-               <l n="*D 46.08">al stênde sprach er mit witzen:</l>
-               <l n="*D 46.09">"ich sæhe ouch gerne den neven mîn,</l>
-               <l n="*D 46.10">m<corr type="Emendation">ö</corr>ht ez mit sînen hulden sîn,</l>
-               <l n="*D 46.11">der in hie gevangen hât.</l>
-               <l n="*D 46.12">ine hâns von sippe decheinen rât,</l>
-               <l n="*D 46.13">ine muoz in ledec machen."</l>
-               <l n="*D 46.14">diu künegîn begunde lachen.</l>
-               <l n="*D 46.15">Si hiez balde nâch im springen.</l>
-               <l n="*D 46.16">dort her begunde dringen</l>
-               <l n="*D 46.17">der minneclîche bêâ kunt.</l>
-               <l n="*D 46.18">der was von rîterschefte wunt</l>
-               <l n="*D 46.19">unt het ez ouch dâ vil guot getân.</l>
-               <l n="*D 46.20">Gaschier der Oriman</l>
-               <l n="*D 46.21">in dar brâhte. er was kurtoys.</l>
-               <l n="*D 46.22">sîn vater was ein Franzoys.</l>
-               <l n="*D 46.23">er was Kayletes swester barn.</l>
-               <l n="*D 46.24">in wîbes dienste er was gevarn.</l>
-               <l n="*D 46.25">er hiez Killirjacac.</l>
-               <l n="*D 46.26">aller manne schœne er widerwac.</l>
-               <l n="*D 46.27">Dô in Gahmuret gesach,</l>
-               <l n="*D 46.28">- ir antlütze sippe jach,</l>
-               <l n="*D 46.29">diu wâren ein and<reg type="Synkope">e</reg>r vil gelîch -,</l>
-               <l n="*D 46.30">er bat die küneginne rîch</l>
-            </div>
-            <div>
-               <listApp type="Verteilung" subtype="D" n="46">
-                  <app>
-                     <rdg>
-                        <wit>D</wit>
-                        <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Gliederung" subtype="D" n="46">
-                  <app type="Gliederung" loc="*D 46.01"/>
-                  <app type="Gliederung" loc="*D 46.02"/>
-                  <app type="Gliederung" loc="*D 46.03">
-                     <rdg>Initiale <wit>D</wit>
-                        <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*D 46.04"/>
-                  <app type="Gliederung" loc="*D 46.05"/>
-                  <app type="Gliederung" loc="*D 46.06"/>
-                  <app type="Gliederung" loc="*D 46.07"/>
-                  <app type="Gliederung" loc="*D 46.08"/>
-                  <app type="Gliederung" loc="*D 46.09"/>
-                  <app type="Gliederung" loc="*D 46.10"/>
-                  <app type="Gliederung" loc="*D 46.11"/>
-                  <app type="Gliederung" loc="*D 46.12"/>
-                  <app type="Gliederung" loc="*D 46.13"/>
-                  <app type="Gliederung" loc="*D 46.14"/>
-                  <app type="Gliederung" loc="*D 46.15">
-                     <rdg>Majuskel <wit>D</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*D 46.16"/>
-                  <app type="Gliederung" loc="*D 46.17"/>
-                  <app type="Gliederung" loc="*D 46.18"/>
-                  <app type="Gliederung" loc="*D 46.19"/>
-                  <app type="Gliederung" loc="*D 46.20"/>
-                  <app type="Gliederung" loc="*D 46.21"/>
-                  <app type="Gliederung" loc="*D 46.22"/>
-                  <app type="Gliederung" loc="*D 46.23"/>
-                  <app type="Gliederung" loc="*D 46.24"/>
-                  <app type="Gliederung" loc="*D 46.25"/>
-                  <app type="Gliederung" loc="*D 46.26"/>
-                  <app type="Gliederung" loc="*D 46.27">
-                     <rdg>Majuskel <wit>D</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*D 46.28"/>
-                  <app type="Gliederung" loc="*D 46.29"/>
-                  <app type="Gliederung" loc="*D 46.30"/>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Lesarten" subtype="D" n="46">
-                  <app type="Lesart" loc="*D 46.01">
-                     <lem>Razalic</lem>
-                     <rdg>Razalik <wit>D</wit> Razalich <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.02"/>
-                  <app type="Lesart" loc="*D 46.03">
-                     <lem>Alsô</lem>
-                     <rdg>÷lso <wit>D</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.03">
-                     <lem>Gaschier</lem>
-                     <rdg>Gaschîer <wit>D</wit> Gascier <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.04">
-                     <lem>Hiutegern</lem>
-                     <rdg>Hvtegern <wit>D</wit> hvͦtegern <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.04">
-                     <lem>Schotten</lem>
-                     <rdg>Scotten <wit>D</wit> (<wit>Fr14</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.05"/>
-                  <app type="Lesart" loc="*D 46.06"/>
-                  <app type="Lesart" loc="*D 46.07"/>
-                  <app type="Lesart" loc="*D 46.08">
-                     <lem>sprach er</lem>
-                     <rdg>er sprach <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.09"/>
-                  <app type="Lesart" loc="*D 46.10">
-                     <lem>möht</lem>
-                     <rdg>moht <wit>D</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.11">
-                     <lem>gevangen</lem>
-                     <rdg>gevangen <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.12"/>
-                  <app type="Lesart" loc="*D 46.13"/>
-                  <app type="Lesart" loc="*D 46.14"/>
-                  <app type="Lesart" loc="*D 46.15"/>
-                  <app type="Lesart" loc="*D 46.16"/>
-                  <app type="Lesart" loc="*D 46.17"/>
-                  <app type="Lesart" loc="*D 46.18"/>
-                  <app type="Lesart" loc="*D 46.19">
-                     <lem>ez</lem>
-                     <rdg>om. <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.20">
-                     <lem>Gaschier</lem>
-                     <rdg>Gascier <wit>D</wit>
-                        <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.20">
-                     <lem>Oriman</lem>
-                     <rdg>orman <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.21"/>
-                  <app type="Lesart" loc="*D 46.22">
-                     <lem>Franzoys</lem>
-                     <rdg>Franzôys <wit>D</wit> franzois <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.23">
-                     <lem>Kayletes</lem>
-                     <rdg>kailets <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.24"/>
-                  <app type="Lesart" loc="*D 46.25">
-                     <lem>Killirjacac</lem>
-                     <rdg>killiriacach <wit>D</wit> killiriakak <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.26"/>
-                  <app type="Lesart" loc="*D 46.27">
-                     <lem>Gahmuret</lem>
-                     <rdg>Gahmvret <wit>D</wit> Gahm:ret <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.27">
-                     <lem>gesach</lem>
-                     <rdg>er sach <wit>Fr14</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*D 46.28"/>
-                  <app type="Lesart" loc="*D 46.29"/>
-                  <app type="Lesart" loc="*D 46.30"/>
-               </listApp>
-            </div>
-         </div>
-         <div type="Dreissiger" subtype="m" n="46">
-            <div type="Textteil" subtype="m" n="46">
-               <head>*m</head>
-               <l n="*m 46.01">er sprach: "mîn hêrre Razali<corr type="Emendation">c</corr>,</l>
-               <l n="*m 46.01-1"/>
-               <l n="*m 46.02">gât nâher und küsset mîn wîp.</l>
-               <l n="*m 46.02-1"/>
-               <l n="*m 46.03">alsô tuot ouch ir, hêr Gaschier."</l>
-               <l n="*m 46.04">Hutegeren de<corr type="Emendation">n</corr> Schotten fier</l>
-               <l n="*m 46.05">bat er si küssen an den munt;</l>
-               <l n="*m 46.06">der was von sîner juste wunt.</l>
-               <l n="*m 46.07">er <corr type="Emendation">b</corr>at si alle sitzen.</l>
-               <l n="*m 46.08">al stênde sprach er mit witzen:</l>
-               <l n="*m 46.09">"ich sæhe ouch gerne den neven mîn,</l>
-               <l n="*m 46.10">m<corr type="Emendation">ö</corr>h<corr type="Emendation">t</corr> e<corr type="Emendation">z</corr> mit sînen hulden sîn,</l>
-               <l n="*m 46.11">der in hie gevangen hât.</l>
-               <l n="*m 46.12">
-                  <corr type="Emendation">in</corr>e hâ<corr type="Emendation">n</corr>s von sippe kein<reg type="Synkope">e</reg>n rât,</l>
-               <l n="*m 46.13">
-                  <corr type="Emendation">i</corr>
-                  <corr type="Emendation">n</corr>e muoze in ledic machen."</l>
-               <l n="*m 46.14">diu küniginne begunde lachen.</l>
-               <l n="*m 46.15">si hiez balde nâch ime springen.</l>
-               <l n="*m 46.16">dort her begunde dringen</l>
-               <l n="*m 46.17">der minneclîch bêâ kunt.</l>
-               <l n="*m 46.18">der was von ritterschafte wunt</l>
-               <l n="*m 46.19">und het ez ouch d<corr type="Emendation">â</corr> vil guot getân.</l>
-               <l n="*m 46.20">Gaschier der <corr type="Emendation">O</corr>r<corr type="Emendation">i</corr>man</l>
-               <l n="*m 46.21">in dar brâhte. er was kurtois.</l>
-               <l n="*m 46.22">sîn vater was ein Franzois.</l>
-               <l n="*m 46.23">er was Kailetes swester barn.</l>
-               <l n="*m 46.24">in wîbes dienste er was gevarn.</l>
-               <l n="*m 46.25">er hiez Kiliria<corr type="Emendation">c</corr>ac.</l>
-               <l n="*m 46.26">er aller manne schœne widerwac.</l>
-               <l n="*m 46.27">dô in Ga<corr type="Emendation">h</corr>muret gesach,</l>
-               <l n="*m 46.28">- ir an<corr type="Emendation">t</corr>litz sipp<corr type="Emendation">e</corr>
-                  <corr type="Emendation">j</corr>ach,</l>
-               <l n="*m 46.29">diu wâren ein ander vil gelîch -,</l>
-               <l n="*m 46.30">er bat <corr type="Emendation">die</corr> küniginne rîch</l>
-            </div>
-            <div>
-               <listApp type="Verteilung" subtype="m" n="46">
-                  <app>
-                     <rdg>
-                        <wit>mk</wit>
-                        <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Gliederung" subtype="m" n="46">
-                  <app type="Gliederung" loc="*m 46.01"/>
-                  <app type="Gliederung" loc="*m 46.02"/>
-                  <app type="Gliederung" loc="*m 46.03"/>
-                  <app type="Gliederung" loc="*m 46.04"/>
-                  <app type="Gliederung" loc="*m 46.05"/>
-                  <app type="Gliederung" loc="*m 46.06"/>
-                  <app type="Gliederung" loc="*m 46.07"/>
-                  <app type="Gliederung" loc="*m 46.08"/>
-                  <app type="Gliederung" loc="*m 46.09"/>
-                  <app type="Gliederung" loc="*m 46.10"/>
-                  <app type="Gliederung" loc="*m 46.11"/>
-                  <app type="Gliederung" loc="*m 46.12"/>
-                  <app type="Gliederung" loc="*m 46.13"/>
-                  <app type="Gliederung" loc="*m 46.14"/>
-                  <app type="Gliederung" loc="*m 46.15"/>
-                  <app type="Gliederung" loc="*m 46.16"/>
-                  <app type="Gliederung" loc="*m 46.17"/>
-                  <app type="Gliederung" loc="*m 46.18"/>
-                  <app type="Gliederung" loc="*m 46.19"/>
-                  <app type="Gliederung" loc="*m 46.20"/>
-                  <app type="Gliederung" loc="*m 46.21"/>
-                  <app type="Gliederung" loc="*m 46.22"/>
-                  <app type="Gliederung" loc="*m 46.23"/>
-                  <app type="Gliederung" loc="*m 46.24"/>
-                  <app type="Gliederung" loc="*m 46.25"/>
-                  <app type="Gliederung" loc="*m 46.26"/>
-                  <app type="Gliederung" loc="*m 46.27"/>
-                  <app type="Gliederung" loc="*m 46.28"/>
-                  <app type="Gliederung" loc="*m 46.29"/>
-                  <app type="Gliederung" loc="*m 46.30"/>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Lesarten" subtype="m" n="46">
-                  <app type="Lesart" loc="*m 46.01">
-                     <lem>Razalic</lem>
-                     <rdg>razalip <wit>mk</wit>
-                        <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.02"/>
-                  <app type="Lesart" loc="*m 46.03">
-                     <lem>ir</lem>
-                     <rdg>min <wit>nk</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.03">
-                     <lem>Gaschier</lem>
-                     <rdg>gascier <wit>mk</wit>
-                        <wit>nk</wit> gastaret <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.04">
-                     <lem>Hutegeren</lem>
-                     <rdg>Hu̽ttegeren <wit>mk</wit> Húttigeren <wit>nk</wit> Hu̽ttigeren <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.04">
-                     <lem>den</lem>
-                     <rdg>dender <wit>mk</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.05"/>
-                  <app type="Lesart" loc="*m 46.06"/>
-                  <app type="Lesart" loc="*m 46.07">
-                     <lem>bat</lem>
-                     <rdg>hat <wit>mk</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.08">
-                     <rdg>Mit hoffelichen witzen <wit>nk</wit> (<wit>ok</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.09">
-                     <lem>neven</lem>
-                     <rdg>nefe <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.10">
-                     <lem>möht ez</lem>
-                     <rdg>Moch er nachträglich korrigiert zu: Mochtes <wit>mk</wit> Mocht es <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.10">
-                     <lem>sînen</lem>
-                     <rdg>siner <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.11"/>
-                  <app type="Lesart" loc="*m 46.12">
-                     <lem>ine</lem>
-                     <rdg>Me <wit>mk</wit> Jch <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.12">
-                     <lem>hâns</lem>
-                     <rdg>hands <wit>mk</wit> han <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.13">
-                     <lem>ine</lem>
-                     <rdg>Me <wit>mk</wit> Jch <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.13">
-                     <lem>muoze</lem>
-                     <rdg>mu̽sse <wit>nk</wit> (<wit>ok</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.13">
-                     <lem>ledic</lem>
-                     <rdg>leidig <wit>mk</wit>
-                        <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.14"/>
-                  <app type="Lesart" loc="*m 46.15"/>
-                  <app type="Lesart" loc="*m 46.16"/>
-                  <app type="Lesart" loc="*m 46.17"/>
-                  <app type="Lesart" loc="*m 46.18"/>
-                  <app type="Lesart" loc="*m 46.19">
-                     <lem>dâ</lem>
-                     <rdg>do <wit>mk</wit>
-                        <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.19">
-                     <lem>guot</lem>
-                     <rdg>om. <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.20">
-                     <lem>Gaschier</lem>
-                     <rdg>Gascier <wit>mk</wit>
-                        <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.20">
-                     <lem>Oriman</lem>
-                     <rdg>ere man nachträglich korrigiert zu: eren man <wit>mk</wit> arme man <wit>nk</wit> ariman <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.21"/>
-                  <app type="Lesart" loc="*m 46.22">
-                     <lem>Franzois</lem>
-                     <rdg>franczos nachträglich korrigiert zu: franczoys <wit>mk</wit> frantzois <wit>nk</wit> franczois <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.23">
-                     <lem>Kailetes</lem>
-                     <rdg>kailittes <wit>mk</wit> kaẏlet <wit>nk</wit> kalet <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.23">
-                     <lem>swester</lem>
-                     <rdg>swestern <wit>nk</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.24"/>
-                  <app type="Lesart" loc="*m 46.25">
-                     <lem>Kiliriacac</lem>
-                     <rdg>Kiliria tag <wit>mk</wit> kili riatag <wit>nk</wit> kẏli riatag <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.26">
-                     <lem>er</lem>
-                     <rdg>Der <wit>nk</wit>
-                        <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.27">
-                     <lem>Gahmuret</lem>
-                     <rdg>gamiret nachträglich korrigiert zu: gamuret <wit>mk</wit> gamiret <wit>nk</wit> gamuret <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.28">
-                     <rdg>Jr antzlicz sippe was vnd iach <wit>mk</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.28">
-                     <lem>antlitz</lem>
-                     <rdg>anczelit <wit>ok</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.29">
-                     <lem>diu</lem>
-                     <rdg>Sú <wit>nk</wit> (<wit>ok</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*m 46.30">
-                     <lem>die küniginne</lem>
-                     <rdg>kunigine nachträglich korrigiert zu: die kunigine <wit>mk</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-         </div>
-         <div type="Dreissiger" subtype="G" n="46">
-            <div type="Textteil" subtype="G" n="46">
-               <head>*G</head>
-               <l n="*G 46.01">"gêt her, mîn hêr Razalic.</l>
-               <l n="*G 46.01-1"/>
-               <l n="*G 46.02">ir sult küssen mîn wîp.</l>
-               <l n="*G 46.02-1"/>
-               <l n="*G 46.03">sam tuot ir, mîn hêr Gatschier."</l>
-               <l n="*G 46.04">Hutegeren den Schotten fier</l>
-               <l n="*G 46.05">bat er si küssen an ir munt;</l>
-               <l n="*G 46.06">der was von sîner tjoste wunt.</l>
-               <l n="*G 46.07">er bat si alle sitzen.</l>
-               <l n="*G 46.08">alstênder sprach mit witzen:</l>
-               <l n="*G 46.09">"ich sæhe ouch gerne den neven mîn,</l>
-               <l n="*G 46.10">m<corr type="Emendation">ö</corr>ht ez mit sînen hulden sîn,</l>
-               <l n="*G 46.11">der in hie gevangen hât.</l>
-               <l n="*G 46.12">ichne hâns vor sippe neheinen rât,</l>
-               <l n="*G 46.13">ichne muoze in led<reg type="Synkope">i</reg>c machen."</l>
-               <l n="*G 46.14">diu kün<reg type="Synkope">i</reg>gîn begunde lachen.</l>
-               <l n="*G 46.15">si hiez in balde bringen.</l>
-               <l n="*G 46.16">dort her begunde dringen</l>
-               <l n="*G 46.17">der minn<reg type="Synkope">i</reg>clîche bêâ kunt.</l>
-               <l n="*G 46.18">der was von einer tjoste wunt</l>
-               <l n="*G 46.19">unde hetz ouch dâ vil guot getân.</l>
-               <l n="*G 46.20">Gatschier der Norman</l>
-               <l n="*G 46.21">brâhtin. er was kurtois.</l>
-               <l n="*G 46.22">sîn vater was ein Franzois</l>
-               <l n="*G 46.23">unde was Kailetes swester barn.</l>
-               <l n="*G 46.24">in wîbes dienster was gevarn.</l>
-               <l n="*G 46.25">er hiez Kiliriakac.</l>
-               <l n="*G 46.26">aller manne schœne er widerwac.</l>
-               <l n="*G 46.27">Als in Gahmuret ersach,</l>
-               <l n="*G 46.28">- ir antlütze sippe jach,</l>
-               <l n="*G 46.29">diu wâren ein ander vil gelîch -,</l>
-               <l n="*G 46.30">er bat die kün<reg type="Synkope">i</reg>ginne rîch</l>
-            </div>
-            <div>
-               <listApp type="Verteilung" subtype="G" n="46">
-                  <app>
-                     <rdg>
-                        <wit>G</wit>
-                        <wit>I</wit>
-                        <wit>O</wit>
-                        <wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>
-                        <wit>Z</wit>
-                        <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Gliederung" subtype="G" n="46">
-                  <app type="Gliederung" loc="*G 46.01">
-                     <rdg>Initiale <wit>O</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*G 46.02"/>
-                  <app type="Gliederung" loc="*G 46.03"/>
-                  <app type="Gliederung" loc="*G 46.04"/>
-                  <app type="Gliederung" loc="*G 46.05"/>
-                  <app type="Gliederung" loc="*G 46.06"/>
-                  <app type="Gliederung" loc="*G 46.07"/>
-                  <app type="Gliederung" loc="*G 46.08"/>
-                  <app type="Gliederung" loc="*G 46.09"/>
-                  <app type="Gliederung" loc="*G 46.10"/>
-                  <app type="Gliederung" loc="*G 46.11"/>
-                  <app type="Gliederung" loc="*G 46.12"/>
-                  <app type="Gliederung" loc="*G 46.13"/>
-                  <app type="Gliederung" loc="*G 46.14"/>
-                  <app type="Gliederung" loc="*G 46.15">
-                     <rdg>Initiale <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*G 46.16"/>
-                  <app type="Gliederung" loc="*G 46.17"/>
-                  <app type="Gliederung" loc="*G 46.18"/>
-                  <app type="Gliederung" loc="*G 46.19"/>
-                  <app type="Gliederung" loc="*G 46.20"/>
-                  <app type="Gliederung" loc="*G 46.21"/>
-                  <app type="Gliederung" loc="*G 46.22"/>
-                  <app type="Gliederung" loc="*G 46.23"/>
-                  <app type="Gliederung" loc="*G 46.24"/>
-                  <app type="Gliederung" loc="*G 46.25"/>
-                  <app type="Gliederung" loc="*G 46.26"/>
-                  <app type="Gliederung" loc="*G 46.27">
-                     <rdg>Initiale <wit>G</wit>
-                        <wit>I</wit>
-                        <wit>L</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>
-                        <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*G 46.28"/>
-                  <app type="Gliederung" loc="*G 46.29"/>
-                  <app type="Gliederung" loc="*G 46.30"/>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Lesarten" subtype="G" n="46">
-                  <app type="Lesart" loc="*G 46.01">
-                     <rdg>Die Verse 44.7-51.12 fehlen <wit>Z</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.01">
-                     <lem>gêt</lem>
-                     <rdg>÷et <wit>O</wit> Git <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.01">
-                     <lem>her</lem>
-                     <rdg>naher <wit>O</wit>
-                        <wit>L</wit>
-                        <wit>Q</wit> (<wit>R</wit>) <wit>Fr21</wit> nehir her <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.01">
-                     <lem>hêr</lem>
-                     <rdg>RHer <wit>O</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.01">
-                     <lem>Razalic</lem>
-                     <rdg>razalich <wit>G</wit> Razalip <wit>L</wit> kasalic <wit>M</wit> rasalip <wit>Q</wit> kazalich <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.02">
-                     <lem>küssen</lem>
-                     <rdg>kuschin <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.03">
-                     <lem>sam</lem>
-                     <rdg>Sam alse <wit>M</wit> Also <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.03">
-                     <lem>ir</lem>
-                     <rdg>ouch ir <wit>M</wit> schirir <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.03">
-                     <lem>mîn hêr</lem>
-                     <rdg>her <wit>I</wit> (<wit>L</wit>) om. <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.03">
-                     <lem>Gatschier</lem>
-                     <rdg>chatschier <wit>I</wit> kathasir <wit>M</wit> gaschir <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.04">
-                     <lem>Hutegeren</lem>
-                     <rdg>huͤtgern <wit>I</wit> Hvͦteger <wit>O</wit> Hu̽ttegeren <wit>L</wit> Hutigern <wit>M</wit> Hutegern <wit>Q</wit> Hútte gern <wit>R</wit> Hvͦtigeren <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.04">
-                     <lem>den</lem>
-                     <rdg>irden <wit>M</wit> der <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.04">
-                     <lem>Schotten</lem>
-                     <rdg>schoten <wit>G</wit> shotten <wit>I</wit> schotin <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.04">
-                     <lem>fier</lem>
-                     <rdg>schier <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.05">
-                     <lem>ir</lem>
-                     <rdg>den <wit>I</wit>
-                        <wit>Q</wit> orin <wit>M</wit> (<wit>R</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.06">
-                     <lem>der</lem>
-                     <rdg>Do <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.07"/>
-                  <app type="Lesart" loc="*G 46.08">
-                     <lem>alstênder sprach</lem>
-                     <rdg>Stende sprach er <wit>O</wit> Al steyne her batsprach <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.09">
-                     <lem>sæhe</lem>
-                     <rdg>sehc <wit>O</wit> sih <wit>Fr21</wit> sehe euch nachträglich korrigiert zu: sehe auch <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.10">
-                     <lem>möht</lem>
-                     <rdg>moht <wit>G</wit>
-                        <wit>O</wit> (<wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>) <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.10">
-                     <lem>sînen</lem>
-                     <rdg>uwern <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.10">
-                     <lem>sîn</lem>
-                     <rdg>gesein <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.11">
-                     <lem>der</lem>
-                     <rdg>Swer <wit>O</wit>
-                        <wit>Fr21</wit> Wer <wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.12">
-                     <lem>ichne</lem>
-                     <rdg>Jch <wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.12">
-                     <lem>hâns</lem>
-                     <rdg>hon <wit>Q</wit> (<wit>R</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.12">
-                     <lem>vor</lem>
-                     <rdg>von <wit>O</wit>
-                        <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.12">
-                     <lem>neheinen</lem>
-                     <rdg>sein keinen <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.13">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Synoptische Fassungsedition des Dreissigers 46</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>06.01.25</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Digital born.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Dreissiger" subtype="D" n="46">
+<div type="Textteil" subtype="D" n="46">
+<head>*D</head>
+<l n="*D 46.01">"<seg type="große_Variante" n="a1">gêt</seg> <seg type="große_Variante" n="b1">nâher</seg>, <seg type="große_Variante" n="c1">mîn hêr</seg> <name ref="regp:p0260" type="Person">Razalic</name>.</l>
+<l n="*D 46.01-1"/>
+<l n="*D 46.02"><seg type="große_Variante" n="b1">ir sult küssen</seg> mîn wîp.</l>
+<l n="*D 46.02-1"/>
+<l n="*D 46.03"><seg type="große_Variante" n="a1"><seg type="Initiale"><corr type="Emendation">A</corr></seg>lsô</seg> tuot <seg type="große_Variante" n="b1">ouch</seg> ir, hêr <name ref="regp:p0102" type="Person">Gaschier</name>."</l>
+<l n="*D 46.04"><name ref="regp:p0121" type="Person">Hiutegern</name> den <seg type="große_Variante" n="a1"><name ref="regp:p0281" type="Person">Schotten</name></seg> fier</l>
+<l n="*D 46.05">bat er si küssen an <seg type="große_Variante" n="a1">ir</seg> munt;</l>
+<l n="*D 46.06"><seg type="große_Variante" n="a1">der</seg> was von sîner tjost wunt.</l>
+<l n="*D 46.07">er bat si alle sitzen.</l>
+<l n="*D 46.08"><seg type="große_Variante" n="a1">al stênde</seg> <seg type="große_Variante" n="b1">sprach er</seg> mit witzen:</l>
+<l n="*D 46.09">"ich sæhe <seg type="große_Variante" n="a1">ouch</seg> gerne den neven mîn,</l>
+<l n="*D 46.10">m<corr type="Emendation">ö</corr>ht ez mit sînen hulden sîn,</l>
+<l n="*D 46.11">der in hie gevangen hât.</l>
+<l n="*D 46.12">ine hâns <seg type="große_Variante" n="b1">von</seg> sippe decheinen rât,</l>
+<l n="*D 46.13">i<seg type="große_Variante" n="a1">ne</seg> <seg type="kleine_Variante" n="a1">muoz</seg> in ledec machen."</l>
+<l n="*D 46.14">diu künegîn begunde lachen.</l>
+<l n="*D 46.15"><seg type="Initiale" subtype="Majuskel">S</seg>i hiez <seg type="große_Variante" n="b1">balde</seg> <seg type="große_Variante" n="c1">nâch im springen</seg>.</l>
+<l n="*D 46.16">dort her begunde dringen</l>
+<l n="*D 46.17">der minneclîche bêâ kunt.</l>
+<l n="*D 46.18"><seg type="große_Variante" n="a1">der</seg> was von <seg type="große_Variante" n="b1">rîterschefte</seg> wunt</l>
+<l n="*D 46.19">unt <seg type="große_Variante" n="a1">het ez</seg> <seg type="große_Variante" n="b1">ouch</seg> dâ vil <seg type="große_Variante" n="c1">guot</seg> getân.</l>
+<l n="*D 46.20"><name ref="regp:p0102" type="Person">Gaschier</name> der <name ref="regp:p0237" type="Person"><seg type="große_Variante" n="a1">Oriman</seg></name></l>
+<l n="*D 46.21"><seg type="große_Variante" n="a1">in dar brâhte</seg>. er was kurtoys.</l>
+<l n="*D 46.22">sîn vater was ein <name ref="regp:p0088" type="Person">Franzoys</name>.</l>
+<l n="*D 46.23"><seg type="große_Variante" n="a1">er</seg> was <name ref="regp:p0165" type="Person">Kayletes</name> swester barn.</l>
+<l n="*D 46.24">in wîbes dienste er was gevarn.</l>
+<l n="*D 46.25">er hiez <name ref="regp:p0167" type="Person">Killirjacac</name>.</l>
+<l n="*D 46.26"><seg type="große_Variante" n="a1">aller manne schœne er</seg> widerwac.</l>
+<l n="*D 46.27"><seg type="große_Variante" n="a1"><seg type="Initiale" subtype="Majuskel">D</seg>ô</seg> in <name ref="regp:p0094" type="Person">Gahmuret</name> <seg type="große_Variante" n="b1">gesach</seg>,</l>
+<l n="*D 46.28">- ir antlütze sippe jach,</l>
+<l n="*D 46.29">diu wâren ein and<reg type="Synkope">e</reg>r vil gelîch -,</l>
+<l n="*D 46.30">er bat die küneginne rîch</l>
+</div>
+<div><listApp type="Verteilung" subtype="D" n="46"><app><rdg>
+<wit>D</wit> <wit>Fr14</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="D" n="46">
+ <app type="Gliederung" loc="*D 46.01"/>
+ <app type="Gliederung" loc="*D 46.02"/>
+<app type="Gliederung" loc="*D 46.03">
+<rdg><note>Initiale</note> <wit>D</wit> <wit>Fr14</wit></rdg>
 </app>
-                  <app type="Lesart" loc="*G 46.13">
-                     <lem>ichne</lem>
-                     <rdg>ichene <wit>G</wit> Ich <wit>I</wit> (<wit>O</wit>
-                        <wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.13">
-                     <lem>muoze</lem>
-                     <rdg>mvͦz <wit>O</wit> (<wit>M</wit>
-                        <wit>Q</wit>) <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.13">
-                     <lem>ledic</lem>
-                     <rdg>leidig <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.14">
-                     <lem>diu</lem>
-                     <rdg>die <wit>I</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.14">
-                     <lem>lachen</lem>
-                     <rdg>zu lachen <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.15">
-                     <lem>in balde bringen</lem>
-                     <rdg>balde nach im springen <wit>O</wit>
-                        <wit>L</wit> (<wit>M</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>
-                        <wit>Fr21</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.16"/>
-                  <app type="Lesart" loc="*G 46.17">
-                     <lem>minniclîche</lem>
-                     <rdg>mundigliche <wit>Q</wit> manliche <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.17">
-                     <lem>bêâ kunt</lem>
-                     <rdg>gralkűnt <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.18">
-                     <lem>einer tjoste</lem>
-                     <rdg>riterschefte <wit>O</wit> (<wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit>
-                        <wit>R</wit>
-                        <wit>Fr21</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.19">
-                     <lem>hetz</lem>
-                     <rdg>hysz <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.19">
-                     <lem>dâ vil</lem>
-                     <rdg>da <wit>I</wit> do vil <wit>O</wit>
-                        <wit>Q</wit> vil <wit>L</wit>
-                        <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.20">
-                     <lem>Gatschier</lem>
-                     <rdg>Gatschiͤr <wit>I</wit> Gatischer <wit>M</wit> Gatschir <wit>Q</wit> Batschier <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.20">
-                     <lem>der</lem>
-                     <rdg>vnd <wit>L</wit> dyn <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.20">
-                     <lem>Norman</lem>
-                     <rdg>arme man <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.21">
-                     <lem>brâhtin</lem>
-                     <rdg>Brachten in <wit>L</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.21">
-                     <lem>er</lem>
-                     <rdg>die <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.21">
-                     <lem>kurtois</lem>
-                     <rdg>ein kurtoẏs <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.22">
-                     <lem>Franzois</lem>
-                     <rdg>franzoẏs <wit>G</wit> fronzoys <wit>I</wit> franzoys <wit>O</wit>
-                        <wit>R</wit> franczeis <wit>M</wit> frantzoysz <wit>Q</wit> franzeis <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.23">
-                     <lem>Kailetes</lem>
-                     <rdg>chailetes <wit>G</wit> Gahiletes <wit>I</wit> kayletes <wit>O</wit>
-                        <wit>R</wit>
-                        <wit>Fr21</wit> kaýletes <wit>L</wit> kayletes <wit>M</wit> haẏletes <wit>Q</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.23">
-                     <lem>swester barn</lem>
-                     <rdg>barn <wit>I</wit> swester svͦnbarn <wit>O</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.24">
-                     <lem>wîbes</lem>
-                     <rdg>wibe <wit>I</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.25">
-                     <lem>Kiliriakac</lem>
-                     <rdg>killirriakach <wit>G</wit> chlariacac <wit>I</wit> kyliriacac <wit>O</wit> kallirakach <wit>L</wit> biliakiliriakac <wit>M</wit> killiriack <wit>Q</wit> kalliriakac <wit>R</wit> killiriakac <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.26">
-                     <lem>aller</lem>
-                     <rdg>alle <wit>I</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.26">
-                     <lem>manne schœne</lem>
-                     <rdg>scho̽ne er der manen <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.26">
-                     <lem>er widerwac</lem>
-                     <rdg>enwider wac <wit>M</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.27">
-                     <lem>Als</lem>
-                     <rdg>Do <wit>O</wit>
-                        <wit>L</wit>
-                        <wit>M</wit>
-                        <wit>Q</wit> (<wit>R</wit>) <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.27">
-                     <lem>Gahmuret</lem>
-                     <rdg>Gamvret <wit>O</wit> gahmvret <wit>L</wit> gamuret <wit>M</wit> gamúret <wit>Q</wit> Gahmoret <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.28">
-                     <lem>antlütze</lem>
-                     <rdg>antlit zu <wit>R</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.29">
-                     <lem>ein</lem>
-                     <rdg>an <wit>Fr21</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*G 46.30">
-                     <lem>küniginne</lem>
-                     <rdg>kúnginnen <wit>R</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-         </div>
-         <div type="Dreissiger" subtype="T" n="46">
-            <div type="Textteil" subtype="T" n="46">
-               <head>*T</head>
-               <l n="*T 46.01">"gât, hêrre mîn, Razalic,</l>
-               <l n="*T 46.01-1">tretet an der sælden stîc.</l>
-               <l n="*T 46.02">ir sult küssen mîn wîp,</l>
-               <l n="*T 46.02-1">diu mir ist als der lîp.</l>
-               <l n="*T 46.03">sam tuot ir, hêrre Gatschier."</l>
-               <l n="*T 46.04">Hutegern, den degen fier,</l>
-               <l n="*T 46.05">bat er si küssen an sînen munt;</l>
-               <l n="*T 46.06">er was von sîner jost wunt.</l>
-               <l n="*T 46.07">er bat si alle sitzen.</l>
-               <l n="*T 46.08">alle stunde er sprach mit witzen:</l>
-               <l n="*T 46.09">"ich sæhe gerne den neven mîn,</l>
-               <l n="*T 46.10">m<corr type="Emendation">ö</corr>hte ez mit sînen hulden sîn,</l>
-               <l n="*T 46.11">der in hie gevangen hât.</l>
-               <l n="*T 46.12">ich enhâns von sippe dekeinen rât,</l>
-               <l n="*T 46.13">ich muoz in ledic machen."</l>
-               <l n="*T 46.14">diu künegîn begunde lachen.</l>
-               <l n="*T 46.15">si hiez balde nâch im springen.</l>
-               <l n="*T 46.16">dort her begunde dringen</l>
-               <l n="*T 46.17">der minneclîche bêâ kunt.</l>
-               <l n="*T 46.18">er was von ritterschaft wunt</l>
-               <l n="*T 46.19">und hât er dâ vil wol getân.</l>
-               <l n="*T 46.20">Gatschier der Norman</l>
-               <l n="*T 46.21">brâht in. er was kurtoys.</l>
-               <l n="*T 46.22">sîn vater was ein Franzoys.</l>
-               <l n="*T 46.23">er was Kayletes swester barn.</l>
-               <l n="*T 46.24">in wîbes dienste er was gevarn.</l>
-               <l n="*T 46.25">er hiez Kylliriakac.</l>
-               <l n="*T 46.26">aller manne schœne er widerwac.</l>
-               <l n="*T 46.27">Dô in Gahmuret ersach,</l>
-               <l n="*T 46.28">- ir antlütze sippe jach,</l>
-               <l n="*T 46.29">diu wâren ein ander vil gelîch -,</l>
-               <l n="*T 46.30">er bat die küneginne rîch</l>
-            </div>
-            <div>
-               <listApp type="Verteilung" subtype="T" n="46">
-                  <app>
-                     <rdg>
-                        <wit>U</wit>
-                        <wit>V</wit>
-                        <wit>W</wit>
-                        <wit>T</wit>
-                     </rdg>
-                  </app>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Gliederung" subtype="T" n="46">
-                  <app type="Gliederung" loc="*T 46.01"/>
-                  <app type="Gliederung" loc="*T 46.02"/>
-                  <app type="Gliederung" loc="*T 46.03"/>
-                  <app type="Gliederung" loc="*T 46.04"/>
-                  <app type="Gliederung" loc="*T 46.05"/>
-                  <app type="Gliederung" loc="*T 46.06"/>
-                  <app type="Gliederung" loc="*T 46.07"/>
-                  <app type="Gliederung" loc="*T 46.08"/>
-                  <app type="Gliederung" loc="*T 46.09">
-                     <rdg>Majuskel <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*T 46.10"/>
-                  <app type="Gliederung" loc="*T 46.11"/>
-                  <app type="Gliederung" loc="*T 46.12"/>
-                  <app type="Gliederung" loc="*T 46.13"/>
-                  <app type="Gliederung" loc="*T 46.14">
-                     <rdg>Majuskel <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*T 46.15"/>
-                  <app type="Gliederung" loc="*T 46.16"/>
-                  <app type="Gliederung" loc="*T 46.17"/>
-                  <app type="Gliederung" loc="*T 46.18"/>
-                  <app type="Gliederung" loc="*T 46.19"/>
-                  <app type="Gliederung" loc="*T 46.20"/>
-                  <app type="Gliederung" loc="*T 46.21"/>
-                  <app type="Gliederung" loc="*T 46.22"/>
-                  <app type="Gliederung" loc="*T 46.23"/>
-                  <app type="Gliederung" loc="*T 46.24"/>
-                  <app type="Gliederung" loc="*T 46.25"/>
-                  <app type="Gliederung" loc="*T 46.26"/>
-                  <app type="Gliederung" loc="*T 46.27">
-                     <rdg>Initiale <wit>U</wit>
-                        <wit>V</wit>
-                        <wit>W</wit>
-                        <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*T 46.28">
-                     <rdg>Majuskel <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Gliederung" loc="*T 46.29"/>
-                  <app type="Gliederung" loc="*T 46.30"/>
-               </listApp>
-            </div>
-            <div>
-               <listApp type="Lesarten" subtype="T" n="46">
-                  <app type="Lesart" loc="*T 46.01">
-                     <rdg>Gant har min *R*herre Razalig <wit>V</wit> Get her naher mein herre razzalick <wit>W</wit> er sprach her Razalic gêt her <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.01-1">
-                     <rdg>Vers 46.1¹ fehlt <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.02">
-                     <rdg>kvsset min wip daz ist min ger <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.02">
-                     <lem>ir sult küssen</lem>
-                     <rdg>Kússen solt ir <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.02-1">
-                     <rdg>Vers 46.2¹ fehlt <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.03">
-                     <lem>tuot ir</lem>
-                     <rdg>tuͦ oͮch <wit>V</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.03">
-                     <lem>Gatschier</lem>
-                     <rdg>Gathschier <wit>V</wit> Gatscier <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.04">
-                     <lem>Hutegern</lem>
-                     <rdg>Huͦtegern <wit>U</wit> Hutigern <wit>V</wit> Hútiger <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.04">
-                     <lem>degen</lem>
-                     <rdg>*schotten <wit>V</wit> schoten <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.05">
-                     <lem>bat er si</lem>
-                     <rdg>D*Den bat er sv́ <wit>V</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.05">
-                     <lem>küssen</lem>
-                     <rdg>oͮch kússen <wit>V</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.05">
-                     <lem>sînen</lem>
-                     <rdg>irn <wit>V</wit> den <wit>W</wit> ir <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.06">
-                     <lem>er</lem>
-                     <rdg>der <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.06">
-                     <lem>wunt</lem>
-                     <rdg>worden wunt <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.07"/>
-                  <app type="Lesart" loc="*T 46.08">
-                     <lem>alle stunde</lem>
-                     <rdg>al stande <wit>V</wit> (<wit>W</wit>) vnde stânde <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.08">
-                     <lem>er sprach</lem>
-                     <rdg>sprach er <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.09">
-                     <lem>sæhe</lem>
-                     <rdg>sehensehe <wit>U</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.09">
-                     <lem>gerne</lem>
-                     <rdg>ôvch gerne <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.10">
-                     <lem>möhte ez</lem>
-                     <rdg>Mochte ez <wit>U</wit> mah ezmahtez <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.10">
-                     <lem>mit</lem>
-                     <rdg>wol mit <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.11"/>
-                  <app type="Lesart" loc="*T 46.12">
-                     <lem>enhâns</lem>
-                     <rdg>han es <wit>W</wit> (<wit>T</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.12">
-                     <lem>von</lem>
-                     <rdg>vor <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.13">
-                     <lem>ich muoz</lem>
-                     <rdg>ine mvez <wit>T</wit> Ich muͤße <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.13">
-                     <lem>ledic</lem>
-                     <rdg>lidig <wit>V</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.14"/>
-                  <app type="Lesart" loc="*T 46.15">
-                     <lem>balde</lem>
-                     <rdg>om. <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.16">
-                     <lem>begunde</lem>
-                     <rdg>begund er <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.17"/>
-                  <app type="Lesart" loc="*T 46.18">
-                     <rdg>von riterscefte was er wunt <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.19">
-                     <lem>hât er</lem>
-                     <rdg>hat es <wit>V</wit> (<wit>W</wit>) hatez <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.19">
-                     <lem>dâ</lem>
-                     <rdg>do <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.19">
-                     <lem>wol</lem>
-                     <rdg>guͦt <wit>W</wit> (<wit>T</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.20">
-                     <lem>Gatschier</lem>
-                     <rdg>Gatscier <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.21"/>
-                  <app type="Lesart" loc="*T 46.22">
-                     <lem>Franzoys</lem>
-                     <rdg>franzoẏs <wit>V</wit> frantzoys <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.23">
-                     <lem>er</lem>
-                     <rdg>vnd <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.23">
-                     <lem>Kayletes</lem>
-                     <rdg>kylites <wit>U</wit> kaẏletes <wit>V</wit> kyeletes <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.23">
-                     <lem>swester</lem>
-                     <rdg>sweter <wit>V</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.24">
-                     <lem>wîbes</lem>
-                     <rdg>vrôvwen <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.24">
-                     <lem>er was</lem>
-                     <rdg>was er <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.25">
-                     <lem>er</lem>
-                     <rdg>vnd <wit>T</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.25">
-                     <lem>Kylliriakac</lem>
-                     <rdg>kyliriakac <wit>U</wit> kẏlliarakag <wit>V</wit> kilriatag <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.26"/>
-                  <app type="Lesart" loc="*T 46.27">
-                     <lem>Gahmuret</lem>
-                     <rdg>Gahmuͦret <wit>U</wit> Gamuret <wit>V</wit> (<wit>W</wit>)</rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.28">
-                     <lem>sippe</lem>
-                     <rdg>der sippe <wit>W</wit>
-                     </rdg>
-                  </app>
-                  <app type="Lesart" loc="*T 46.29"/>
-                  <app type="Lesart" loc="*T 46.30"/>
-               </listApp>
-            </div>
-         </div>
-      </body>
-   </text>
+ <app type="Gliederung" loc="*D 46.04"/>
+ <app type="Gliederung" loc="*D 46.05"/>
+ <app type="Gliederung" loc="*D 46.06"/>
+ <app type="Gliederung" loc="*D 46.07"/>
+ <app type="Gliederung" loc="*D 46.08"/>
+ <app type="Gliederung" loc="*D 46.09"/>
+ <app type="Gliederung" loc="*D 46.10"/>
+ <app type="Gliederung" loc="*D 46.11"/>
+ <app type="Gliederung" loc="*D 46.12"/>
+ <app type="Gliederung" loc="*D 46.13"/>
+ <app type="Gliederung" loc="*D 46.14"/>
+<app type="Gliederung" loc="*D 46.15">
+<rdg><note>Majuskel</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 46.16"/>
+ <app type="Gliederung" loc="*D 46.17"/>
+ <app type="Gliederung" loc="*D 46.18"/>
+ <app type="Gliederung" loc="*D 46.19"/>
+ <app type="Gliederung" loc="*D 46.20"/>
+ <app type="Gliederung" loc="*D 46.21"/>
+ <app type="Gliederung" loc="*D 46.22"/>
+ <app type="Gliederung" loc="*D 46.23"/>
+ <app type="Gliederung" loc="*D 46.24"/>
+ <app type="Gliederung" loc="*D 46.25"/>
+ <app type="Gliederung" loc="*D 46.26"/>
+<app type="Gliederung" loc="*D 46.27">
+<rdg><note>Majuskel</note> <wit>D</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*D 46.28"/>
+ <app type="Gliederung" loc="*D 46.29"/>
+ <app type="Gliederung" loc="*D 46.30"/>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="D" n="46">
+<app type="Lesart" loc="*D 46.01">
+<lem>Razalic</lem><rdg>Razalik <wit>D</wit> Razalich <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.02"/>
+<app type="Lesart" loc="*D 46.03">
+<lem>Alsô</lem><rdg>÷lso <wit>D</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.03">
+<lem>Gaschier</lem><rdg>Gaschîer <wit>D</wit> Gascier <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.04">
+<lem>Hiutegern</lem><rdg>Hvtegern <wit>D</wit> hvͦtegern <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.04">
+<lem>Schotten</lem><rdg>Scotten <wit>D</wit> (<wit>Fr14</wit>)</rdg>
+</app>
+ <app type="Lesart" loc="*D 46.05"/>
+ <app type="Lesart" loc="*D 46.06"/>
+ <app type="Lesart" loc="*D 46.07"/>
+<app type="Lesart" loc="*D 46.08">
+<lem>sprach er</lem><rdg><supplied resp="Sekundärliteratur">er</supplied> sprach <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.09"/>
+<app type="Lesart" loc="*D 46.10">
+<lem>möht</lem><rdg>moht <wit>D</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.11">
+<lem>gevangen</lem><rdg><supplied resp="Sekundärliteratur">ge</supplied>vangen <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.12"/>
+ <app type="Lesart" loc="*D 46.13"/>
+ <app type="Lesart" loc="*D 46.14"/>
+ <app type="Lesart" loc="*D 46.15"/>
+ <app type="Lesart" loc="*D 46.16"/>
+ <app type="Lesart" loc="*D 46.17"/>
+ <app type="Lesart" loc="*D 46.18"/>
+<app type="Lesart" loc="*D 46.19">
+<lem>ez</lem><rdg><note>om.</note> <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.20">
+<lem>Gaschier</lem><rdg>Gascier <wit>D</wit> <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.20">
+<lem>Oriman</lem><rdg>orman <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.21"/>
+<app type="Lesart" loc="*D 46.22">
+<lem>Franzoys</lem><rdg>Franzôys <wit>D</wit> franzois <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.23">
+<lem>Kayletes</lem><rdg>kailets <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.24"/>
+<app type="Lesart" loc="*D 46.25">
+<lem>Killirjacac</lem><rdg>killiriacach <wit>D</wit> killiriakak <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.26"/>
+<app type="Lesart" loc="*D 46.27">
+<lem>Gahmuret</lem><rdg>Gahmvret <wit>D</wit> <supplied resp="Sekundärliteratur">Gahm</supplied>:ret <wit>Fr14</wit></rdg>
+</app>
+<app type="Lesart" loc="*D 46.27">
+<lem>gesach</lem><rdg><supplied resp="Sekundärliteratur">er sach</supplied> <wit>Fr14</wit></rdg>
+</app>
+ <app type="Lesart" loc="*D 46.28"/>
+ <app type="Lesart" loc="*D 46.29"/>
+ <app type="Lesart" loc="*D 46.30"/>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="m" n="46">
+<div type="Textteil" subtype="m" n="46">
+<head>*m</head>
+<l n="*m 46.01"><seg type="große_Variante" n="a2">er</seg> <seg type="große_Variante" n="b2">sprach</seg>: "<seg type="große_Variante" n="c1">mîn hêrre</seg> <name ref="regp:p0260" type="Person">Razali<corr type="Emendation">c</corr></name>,</l>
+<l n="*m 46.01-1"/>
+<l n="*m 46.02"><seg type="große_Variante" n="a1">gât nâher und</seg> <seg type="große_Variante" n="b2">küsset</seg> mîn wîp.</l>
+<l n="*m 46.02-1"/>
+<l n="*m 46.03"><seg type="große_Variante" n="a1">alsô</seg> tuot <seg type="große_Variante" n="b1">ouch</seg> ir, hêr <name ref="regp:p0102" type="Person">Gaschier</name>."</l>
+<l n="*m 46.04"><name ref="regp:p0121" type="Person">Hutegeren</name> de<corr type="Emendation">n</corr> <seg type="große_Variante" n="a1"><name ref="regp:p0281" type="Person">Schotten</name></seg> fier</l>
+<l n="*m 46.05">bat er si küssen an <seg type="große_Variante" n="a2">den</seg> munt;</l>
+<l n="*m 46.06"><seg type="große_Variante" n="a1">der</seg> was von sîner juste wunt.</l>
+<l n="*m 46.07">er <corr type="Emendation">b</corr>at si alle sitzen.</l>
+<l n="*m 46.08"><seg type="große_Variante" n="a1">al stênde</seg> <seg type="große_Variante" n="b1">sprach er</seg> mit witzen:</l>
+<l n="*m 46.09">"ich sæhe <seg type="große_Variante" n="a1">ouch</seg> gerne den neven mîn,</l>
+<l n="*m 46.10">m<corr type="Emendation">ö</corr>h<corr type="Emendation">t</corr> e<corr type="Emendation">z</corr> mit sînen hulden sîn,</l>
+<l n="*m 46.11">der in hie gevangen hât.</l>
+<l n="*m 46.12"><corr type="Emendation">in</corr>e hâ<corr type="Emendation">n</corr><seg type="singuläre_Lesart">s</seg> <seg type="große_Variante" n="b1">von</seg> sippe kein<reg type="Synkope">e</reg>n rât,</l>
+<l n="*m 46.13"><corr type="Emendation">i</corr><seg type="große_Variante" n="a1"><corr type="Emendation">n</corr>e</seg> <seg type="kleine_Variante" n="a2">muoze</seg> in ledic machen."</l>
+<l n="*m 46.14">diu küniginne begunde lachen.</l>
+<l n="*m 46.15">si hiez <seg type="große_Variante" n="b1">balde</seg> <seg type="große_Variante" n="c1">nâch ime springen</seg>.</l>
+<l n="*m 46.16">dort her begunde dringen</l>
+<l n="*m 46.17">der minneclîch bêâ kunt.</l>
+<l n="*m 46.18"><seg type="große_Variante" n="a1">der</seg> was von <seg type="große_Variante" n="b1">ritterschafte</seg> wunt</l>
+<l n="*m 46.19">und <seg type="große_Variante" n="a1">het ez</seg> <seg type="große_Variante" n="b1">ouch</seg> d<corr type="Emendation">â</corr> vil <seg type="große_Variante" n="c1"><seg type="singuläre_Lesart">guot</seg></seg> getân.</l>
+<l n="*m 46.20"><name ref="regp:p0102" type="Person">Gaschier</name> der <name ref="regp:p0237" type="Person"><seg type="große_Variante" n="a1"><corr type="Emendation">O</corr>r<corr type="Emendation">i</corr>man</seg></name></l>
+<l n="*m 46.21"><seg type="große_Variante" n="a1">in dar brâhte</seg>. er was kurtois.</l>
+<l n="*m 46.22">sîn vater was ein <name ref="regp:p0088" type="Person">Franzois</name>.</l>
+<l n="*m 46.23"><seg type="große_Variante" n="a1">er</seg> was <name ref="regp:p0165" type="Person">Kailetes</name> swester barn.</l>
+<l n="*m 46.24">in wîbes dienste er was gevarn.</l>
+<l n="*m 46.25">er hiez <name ref="regp:p0167" type="Person">Kiliria<corr type="Emendation">c</corr>ac</name>.</l>
+<l n="*m 46.26"><seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">er</seg> aller manne schœne</seg> widerwac.</l>
+<l n="*m 46.27"><seg type="große_Variante" n="a1">dô</seg> in <name ref="regp:p0094" type="Person">Ga<corr type="Emendation">h</corr>muret</name> <seg type="große_Variante" n="b1">gesach</seg>,</l>
+<l n="*m 46.28">- ir an<corr type="Emendation">t</corr>litz sipp<corr type="Emendation">e</corr> <corr type="Emendation">j</corr>ach,</l>
+<l n="*m 46.29"><seg type="singuläre_Lesart">diu</seg> wâren ein ander vil gelîch -,</l>
+<l n="*m 46.30">er bat <corr type="Emendation">die</corr> küniginne rîch</l>
+</div>
+<div><listApp type="Verteilung" subtype="m" n="46"><app><rdg>
+<wit>mk</wit> <wit>nk</wit> <wit>ok</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="m" n="46">
+ <app type="Gliederung" loc="*m 46.01"/>
+ <app type="Gliederung" loc="*m 46.02"/>
+ <app type="Gliederung" loc="*m 46.03"/>
+ <app type="Gliederung" loc="*m 46.04"/>
+ <app type="Gliederung" loc="*m 46.05"/>
+ <app type="Gliederung" loc="*m 46.06"/>
+ <app type="Gliederung" loc="*m 46.07"/>
+ <app type="Gliederung" loc="*m 46.08"/>
+ <app type="Gliederung" loc="*m 46.09"/>
+ <app type="Gliederung" loc="*m 46.10"/>
+ <app type="Gliederung" loc="*m 46.11"/>
+ <app type="Gliederung" loc="*m 46.12"/>
+ <app type="Gliederung" loc="*m 46.13"/>
+ <app type="Gliederung" loc="*m 46.14"/>
+ <app type="Gliederung" loc="*m 46.15"/>
+ <app type="Gliederung" loc="*m 46.16"/>
+ <app type="Gliederung" loc="*m 46.17"/>
+ <app type="Gliederung" loc="*m 46.18"/>
+ <app type="Gliederung" loc="*m 46.19"/>
+ <app type="Gliederung" loc="*m 46.20"/>
+ <app type="Gliederung" loc="*m 46.21"/>
+ <app type="Gliederung" loc="*m 46.22"/>
+ <app type="Gliederung" loc="*m 46.23"/>
+ <app type="Gliederung" loc="*m 46.24"/>
+ <app type="Gliederung" loc="*m 46.25"/>
+ <app type="Gliederung" loc="*m 46.26"/>
+ <app type="Gliederung" loc="*m 46.27"/>
+ <app type="Gliederung" loc="*m 46.28"/>
+ <app type="Gliederung" loc="*m 46.29"/>
+ <app type="Gliederung" loc="*m 46.30"/>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="m" n="46">
+<app type="Lesart" loc="*m 46.01">
+<lem>Razalic</lem><rdg>razalip <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.02"/>
+<app type="Lesart" loc="*m 46.03">
+<lem>ir</lem><rdg>min <wit>nk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.03">
+<lem>Gaschier</lem><rdg>gascier <wit>mk</wit> <wit>nk</wit> gastaret <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.04">
+<lem>Hutegeren</lem><rdg>Hu̽ttegeren <wit>mk</wit> Húttigeren <wit>nk</wit> Hu̽ttigeren <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.04">
+<lem>den</lem><rdg><subst><del>den</del><add>der</add></subst> <wit>mk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.05"/>
+ <app type="Lesart" loc="*m 46.06"/>
+<app type="Lesart" loc="*m 46.07">
+<lem>bat</lem><rdg>hat <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.08">
+<rdg>Mit hoffelichen witzen <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 46.09">
+<lem>neven</lem><rdg>nefe <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.10">
+<lem>möht ez</lem><rdg>Moch er <note>nachträglich korrigiert zu:</note> Mochtes <wit>mk</wit> Mocht es <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.10">
+<lem>sînen</lem><rdg>siner <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.11"/>
+<app type="Lesart" loc="*m 46.12">
+<lem>ine</lem><rdg>Me <wit>mk</wit> Jch <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.12">
+<lem>hâns</lem><rdg>hands <wit>mk</wit> han <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.13">
+<lem>ine</lem><rdg>Me <wit>mk</wit> Jch <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.13">
+<lem>muoze</lem><rdg>mu̽sse <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 46.13">
+<lem>ledic</lem><rdg>leidig <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.14"/>
+ <app type="Lesart" loc="*m 46.15"/>
+ <app type="Lesart" loc="*m 46.16"/>
+ <app type="Lesart" loc="*m 46.17"/>
+ <app type="Lesart" loc="*m 46.18"/>
+<app type="Lesart" loc="*m 46.19">
+<lem>dâ</lem><rdg>do <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.19">
+<lem>guot</lem><rdg><note>om.</note> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.20">
+<lem>Gaschier</lem><rdg>Gascier <wit>mk</wit> <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.20">
+<lem>Oriman</lem><rdg>ere man <note>nachträglich korrigiert zu:</note> eren man <wit>mk</wit> arme man <wit>nk</wit> ariman <wit>ok</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.21"/>
+<app type="Lesart" loc="*m 46.22">
+<lem>Franzois</lem><rdg>franczos <note>nachträglich korrigiert zu:</note> franczoys <wit>mk</wit> frantzois <wit>nk</wit> franczois <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.23">
+<lem>Kailetes</lem><rdg>kailittes <wit>mk</wit> kaẏlet <wit>nk</wit> kalet <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.23">
+<lem>swester</lem><rdg>swestern <wit>nk</wit></rdg>
+</app>
+ <app type="Lesart" loc="*m 46.24"/>
+<app type="Lesart" loc="*m 46.25">
+<lem>Kiliriacac</lem><rdg>Kiliria tag <wit>mk</wit> kili riatag <wit>nk</wit> kẏli riatag <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.26">
+<lem>er</lem><rdg>Der <wit>nk</wit> <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.27">
+<lem>Gahmuret</lem><rdg>gamiret <note>nachträglich korrigiert zu:</note> gamuret <wit>mk</wit> gamiret <wit>nk</wit> gamuret <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.28">
+<rdg>Jr antzlicz sippe was vnd iach <wit>mk</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.28">
+<lem>antlitz</lem><rdg>anczelit <wit>ok</wit></rdg>
+</app>
+<app type="Lesart" loc="*m 46.29">
+<lem>diu</lem><rdg>Sú <wit>nk</wit> (<wit>ok</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*m 46.30">
+<lem>die küniginne</lem><rdg>kunigine <note>nachträglich korrigiert zu:</note> die kunigine <wit>mk</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="G" n="46">
+<div type="Textteil" subtype="G" n="46">
+<head>*G</head>
+<l n="*G 46.01">"<seg type="große_Variante" n="a1">gêt</seg> <seg type="große_Variante" n="b3">her</seg>, <seg type="große_Variante" n="c1">mîn hêr</seg> <name ref="regp:p0260" type="Person">Razalic</name>.</l>
+<l n="*G 46.01-1"/>
+<l n="*G 46.02"><seg type="große_Variante" n="b1">ir sult küssen</seg> mîn wîp.</l>
+<l n="*G 46.02-1"/>
+<l n="*G 46.03"><seg type="große_Variante" n="a2">sam</seg> tuot ir, <seg type="große_Variante" n="c1">mîn</seg> hêr <name ref="regp:p0102" type="Person">Gatschier</name>."</l>
+<l n="*G 46.04"><name ref="regp:p0121" type="Person">Hutegeren</name> den <seg type="große_Variante" n="a1"><name ref="regp:p0281" type="Person">Schotten</name></seg> fier</l>
+<l n="*G 46.05">bat er si küssen an <seg type="große_Variante" n="a1">ir</seg> munt;</l>
+<l n="*G 46.06"><seg type="große_Variante" n="a1">der</seg> was von sîner tjoste wunt.</l>
+<l n="*G 46.07">er bat si alle sitzen.</l>
+<l n="*G 46.08"><seg type="große_Variante" n="a1">alstênde</seg><seg type="große_Variante" n="b2">r sprach</seg> mit witzen:</l>
+<l n="*G 46.09">"ich sæhe <seg type="große_Variante" n="a1">ouch</seg> gerne den neven mîn,</l>
+<l n="*G 46.10">m<corr type="Emendation">ö</corr>ht ez mit sînen hulden sîn,</l>
+<l n="*G 46.11">der in hie gevangen hât.</l>
+<l n="*G 46.12">ichne hâns <seg type="große_Variante" n="b2">vor</seg> sippe neheinen rât,</l>
+<l n="*G 46.13">ich<seg type="große_Variante" n="a1">ne</seg> <seg type="kleine_Variante" n="a2">muoze</seg> in led<reg type="Synkope">i</reg>c machen."</l>
+<l n="*G 46.14">diu kün<reg type="Synkope">i</reg>gîn begunde lachen.</l>
+<l n="*G 46.15">si hiez <seg type="große_Variante" n="a1">in</seg> <seg type="große_Variante" n="b1">balde</seg> <seg type="große_Variante" n="c2">bringen</seg>.</l>
+<l n="*G 46.16">dort her begunde dringen</l>
+<l n="*G 46.17">der minn<reg type="Synkope">i</reg>clîche bêâ kunt.</l>
+<l n="*G 46.18"><seg type="große_Variante" n="a1">der</seg> was von <seg type="große_Variante" n="b2">einer tjoste</seg> wunt</l>
+<l n="*G 46.19">unde <seg type="große_Variante" n="a1">hetz</seg> <seg type="große_Variante" n="b1">ouch</seg> dâ vil <seg type="große_Variante" n="c1">guot</seg> getân.</l>
+<l n="*G 46.20"><name ref="regp:p0102" type="Person">Gatschier</name> der <name ref="regp:p0237" type="Person"><seg type="große_Variante" n="a2">Norman</seg></name></l>
+<l n="*G 46.21"><seg type="große_Variante" n="a2">brâhtin</seg>. er was kurtois.</l>
+<l n="*G 46.22">sîn vater was ein <name ref="regp:p0088" type="Person">Franzois</name></l>
+<l n="*G 46.23"><seg type="große_Variante" n="a2">unde</seg> was <name ref="regp:p0165" type="Person">Kailetes</name> swester barn.</l>
+<l n="*G 46.24">in wîbes dienster was gevarn.</l>
+<l n="*G 46.25">er hiez <name ref="regp:p0167" type="Person">Kiliriakac</name>.</l>
+<l n="*G 46.26"><seg type="große_Variante" n="a1">aller manne schœne er</seg> widerwac.</l>
+<l n="*G 46.27"><seg type="große_Variante" n="a2"><seg type="Initiale">A</seg>ls</seg> in <name ref="regp:p0094" type="Person">Gahmuret</name> <seg type="große_Variante" n="b2">ersach</seg>,</l>
+<l n="*G 46.28">- ir antlütze sippe jach,</l>
+<l n="*G 46.29">diu wâren ein ander vil gelîch -,</l>
+<l n="*G 46.30">er bat die kün<reg type="Synkope">i</reg>ginne rîch</l>
+</div>
+<div><listApp type="Verteilung" subtype="G" n="46"><app><rdg>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>M</wit> <wit>Q</wit> <wit>R</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="G" n="46">
+<app type="Gliederung" loc="*G 46.01">
+<rdg><note>Initiale</note> <wit>O</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 46.02"/>
+ <app type="Gliederung" loc="*G 46.03"/>
+ <app type="Gliederung" loc="*G 46.04"/>
+ <app type="Gliederung" loc="*G 46.05"/>
+ <app type="Gliederung" loc="*G 46.06"/>
+ <app type="Gliederung" loc="*G 46.07"/>
+ <app type="Gliederung" loc="*G 46.08"/>
+ <app type="Gliederung" loc="*G 46.09"/>
+ <app type="Gliederung" loc="*G 46.10"/>
+ <app type="Gliederung" loc="*G 46.11"/>
+ <app type="Gliederung" loc="*G 46.12"/>
+ <app type="Gliederung" loc="*G 46.13"/>
+ <app type="Gliederung" loc="*G 46.14"/>
+<app type="Gliederung" loc="*G 46.15">
+<rdg><note>Initiale</note> <wit>M</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 46.16"/>
+ <app type="Gliederung" loc="*G 46.17"/>
+ <app type="Gliederung" loc="*G 46.18"/>
+ <app type="Gliederung" loc="*G 46.19"/>
+ <app type="Gliederung" loc="*G 46.20"/>
+ <app type="Gliederung" loc="*G 46.21"/>
+ <app type="Gliederung" loc="*G 46.22"/>
+ <app type="Gliederung" loc="*G 46.23"/>
+ <app type="Gliederung" loc="*G 46.24"/>
+ <app type="Gliederung" loc="*G 46.25"/>
+ <app type="Gliederung" loc="*G 46.26"/>
+<app type="Gliederung" loc="*G 46.27">
+<rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Q</wit> <wit>R</wit> <wit>Fr21</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*G 46.28"/>
+ <app type="Gliederung" loc="*G 46.29"/>
+ <app type="Gliederung" loc="*G 46.30"/>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="G" n="46">
+<app type="Lesart" loc="*G 46.01">
+<rdg><note>Die Verse 44.7-51.12 fehlen</note> <wit>Z</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.01">
+<lem>gêt</lem><rdg>÷et <wit>O</wit> Git <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.01">
+<lem>her</lem><rdg>naher <wit>O</wit> <wit>L</wit> <wit>Q</wit> (<wit>R</wit>) <wit>Fr21</wit> nehir her <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.01">
+<lem>hêr</lem><rdg><subst><del>R</del><add>Her</add></subst> <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.01">
+<lem>Razalic</lem><rdg>razalich <wit>G</wit> Razalip <wit>L</wit> kasalic <wit>M</wit> rasalip <wit>Q</wit> kazalich <wit>Fr21</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.02">
+<lem>küssen</lem><rdg>kuschin <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.03">
+<lem>sam</lem><rdg>Sam alse <wit>M</wit> Also <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.03">
+<lem>ir</lem><rdg>ouch ir <wit>M</wit> <subst><del>schir</del><add>ir</add></subst> <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.03">
+<lem>mîn hêr</lem><rdg>her <wit>I</wit> (<wit>L</wit>) <note>om.</note> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.03">
+<lem>Gatschier</lem><rdg>chatschier <wit>I</wit> kathasir <wit>M</wit> gaschir <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.04">
+<lem>Hutegeren</lem><rdg>huͤtgern <wit>I</wit> Hvͦteger <wit>O</wit> Hu̽ttegeren <wit>L</wit> Hutigern <wit>M</wit> Hutegern <wit>Q</wit> Hútte gern <wit>R</wit> Hvͦtigeren <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.04">
+<lem>den</lem><rdg><subst><del>ir</del><add>den</add></subst> <wit>M</wit> der <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.04">
+<lem>Schotten</lem><rdg>schoten <wit>G</wit> shotten <wit>I</wit> schotin <wit>M</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.04">
+<lem>fier</lem><rdg>schier <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.05">
+<lem>ir</lem><rdg>den <wit>I</wit> <wit>Q</wit> orin <wit>M</wit> (<wit>R</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 46.06">
+<lem>der</lem><rdg>Do <wit>Q</wit></rdg>
+</app>
+ <app type="Lesart" loc="*G 46.07"/>
+<app type="Lesart" loc="*G 46.08">
+<lem>alstênder sprach</lem><rdg>Stende sprach er <wit>O</wit> Al steyne her <subst><del>bat</del><add>sprach</add></subst> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.09">
+<lem>sæhe</lem><rdg>sehc <wit>O</wit> sih <wit>Fr21</wit> sehe euch <note>nachträglich korrigiert zu:</note> sehe auch <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.10">
+<lem>möht</lem><rdg>moht <wit>G</wit> <wit>O</wit> (<wit>L</wit> <wit>M</wit> <wit>Q</wit> <wit>R</wit>) <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.10">
+<lem>sînen</lem><rdg>uwern <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.10">
+<lem>sîn</lem><rdg>gesein <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.11">
+<lem>der</lem><rdg>Swer <wit>O</wit> <wit>Fr21</wit> Wer <wit>L</wit> <wit>M</wit> <wit>Q</wit> <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.12">
+<lem>ichne</lem><rdg>Jch <wit>L</wit> <wit>M</wit> <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.12">
+<lem>hâns</lem><rdg>hon <wit>Q</wit> (<wit>R</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 46.12">
+<lem>vor</lem><rdg>von <wit>O</wit> <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.12">
+<lem>neheinen</lem><rdg>sein keinen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.13">
+</app>
+<app type="Lesart" loc="*G 46.13">
+<lem>ichne</lem><rdg>ichene <wit>G</wit> Ich <wit>I</wit> (<wit>O</wit> <wit>L</wit> <wit>M</wit> <wit>Q</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 46.13">
+<lem>muoze</lem><rdg>mvͦz <wit>O</wit> (<wit>M</wit> <wit>Q</wit>) <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.13">
+<lem>ledic</lem><rdg>leidig <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.14">
+<lem>diu</lem><rdg>die <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.14">
+<lem>lachen</lem><rdg>zu lachen <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.15">
+<lem>in balde bringen</lem><rdg>balde nach im springen <wit>O</wit> <wit>L</wit> (<wit>M</wit> <wit>Q</wit> <wit>R</wit> <wit>Fr21</wit>)</rdg>
+</app>
+ <app type="Lesart" loc="*G 46.16"/>
+<app type="Lesart" loc="*G 46.17">
+<lem>minniclîche</lem><rdg>mundigliche <wit>Q</wit> manliche <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.17">
+<lem>bêâ kunt</lem><rdg>gralkűnt <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.18">
+<lem>einer tjoste</lem><rdg>riterschefte <wit>O</wit> (<wit>L</wit> <wit>M</wit> <wit>Q</wit> <wit>R</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*G 46.19">
+<lem>hetz</lem><rdg>hysz <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.19">
+<lem>dâ vil</lem><rdg>da <wit>I</wit> do vil <wit>O</wit> <wit>Q</wit> vil <wit>L</wit> <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.20">
+<lem>Gatschier</lem><rdg>Gatschiͤr <wit>I</wit> Gatischer <wit>M</wit> Gatschir <wit>Q</wit> Batschier <wit>R</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.20">
+<lem>der</lem><rdg>vnd <wit>L</wit> dyn <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.20">
+<lem>Norman</lem><rdg>arme man <wit>M</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.21">
+<lem>brâhtin</lem><rdg>Brachten in <wit>L</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.21">
+<lem>er</lem><rdg>die <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.21">
+<lem>kurtois</lem><rdg>ein kurtoẏs <wit>Q</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.22">
+<lem>Franzois</lem><rdg>franzoẏs <wit>G</wit> fronzoys <wit>I</wit> franzoys <wit>O</wit> <wit>R</wit> franczeis <wit>M</wit> frantzoysz <wit>Q</wit> franzeis <wit>Fr21</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.23">
+<lem>Kailetes</lem><rdg>chailetes <wit>G</wit> Gahiletes <wit>I</wit> kayletes <wit>O</wit> <wit>R</wit> <wit>Fr21</wit> kaýletes <wit>L</wit> kayletes <wit>M</wit> haẏletes <wit>Q</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.23">
+<lem>swester barn</lem><rdg>barn <wit>I</wit> swester <subst><del>svͦn</del><add>barn</add></subst> <wit>O</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.24">
+<lem>wîbes</lem><rdg>wibe <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.25">
+<lem>Kiliriakac</lem><rdg>killirriakach <wit>G</wit> chlariacac <wit>I</wit> kyliriacac <wit>O</wit> kallirakach <wit>L</wit> <subst><del>bilia</del><add>kiliriakac</add></subst> <wit>M</wit> killiriack <wit>Q</wit> kalliriakac <wit>R</wit> killiriakac <wit>Fr21</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.26">
+<lem>aller</lem><rdg>alle <wit>I</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.26">
+<lem>manne schœne</lem><rdg>scho̽ne er der manen <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.26">
+<lem>er widerwac</lem><rdg>enwider wac <wit>M</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.27">
+<lem>Als</lem><rdg>Do <wit>O</wit> <wit>L</wit> <wit>M</wit> <wit>Q</wit> (<wit>R</wit>) <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.27">
+<lem>Gahmuret</lem><rdg>Gamvret <wit>O</wit> gahmvret <wit>L</wit> gamuret <wit>M</wit> gamúret <wit>Q</wit> Gahmoret <wit>Fr21</wit> </rdg>
+</app>
+<app type="Lesart" loc="*G 46.28">
+<lem>antlütze</lem><rdg>antlit zu <wit>R</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.29">
+<lem>ein</lem><rdg>an <wit>Fr21</wit></rdg>
+</app>
+<app type="Lesart" loc="*G 46.30">
+<lem>küniginne</lem><rdg>kúnginnen <wit>R</wit></rdg>
+</app>
+</listApp></div>
+</div>
+<div type="Dreissiger" subtype="T" n="46">
+<div type="Textteil" subtype="T" n="46">
+<head>*T</head>
+<l n="*T 46.01">"<seg type="singuläre_Lesart"><seg type="große_Variante" n="a1">gât</seg>, <seg type="große_Variante" n="c2">hêrre mîn</seg>, <name ref="regp:p0260" type="Person">Razalic</name></seg>,</l>
+<l n="*T 46.01-1">tretet an der sælden stîc.</l>
+<l n="*T 46.02"><seg type="große_Variante" n="b1">ir sult küssen</seg> mîn wîp,</l>
+<l n="*T 46.02-1">diu mir ist als der lîp.</l>
+<l n="*T 46.03"><seg type="große_Variante" n="a2">sam</seg> tuot ir, hêrre <name ref="regp:p0102" type="Person">Gatschier</name>."</l>
+<l n="*T 46.04"><name ref="regp:p0121" type="Person">Hutegern</name>, den <seg type="große_Variante" n="a2">degen</seg> fier,</l>
+<l n="*T 46.05">bat er si küssen an <seg type="große_Variante" n="a3"><seg type="singuläre_Lesart">sînen</seg></seg> munt;</l>
+<l n="*T 46.06"><seg type="große_Variante" n="a2">er</seg> was von sîner jost wunt.</l>
+<l n="*T 46.07">er bat si alle sitzen.</l>
+<l n="*T 46.08"><seg type="große_Variante" n="a2"><seg type="singuläre_Lesart">alle stunde</seg></seg> <seg type="große_Variante" n="b2">er sprach</seg> mit witzen:</l>
+<l n="*T 46.09">"ich sæhe gerne den neven mîn,</l>
+<l n="*T 46.10">m<corr type="Emendation">ö</corr>hte ez mit sînen hulden sîn,</l>
+<l n="*T 46.11">der in hie gevangen hât.</l>
+<l n="*T 46.12">ich enhâns <seg type="große_Variante" n="b1">von</seg> sippe dekeinen rât,</l>
+<l n="*T 46.13">ich <seg type="kleine_Variante" n="a1">muoz</seg> in ledic machen."</l>
+<l n="*T 46.14">diu künegîn begunde lachen.</l>
+<l n="*T 46.15">si hiez <seg type="große_Variante" n="b1">balde</seg> <seg type="große_Variante" n="c1">nâch im springen</seg>.</l>
+<l n="*T 46.16">dort her begunde dringen</l>
+<l n="*T 46.17">der minneclîche bêâ kunt.</l>
+<l n="*T 46.18"><seg type="große_Variante" n="a1">er</seg> was von <seg type="große_Variante" n="b1">ritterschaft</seg> wunt</l>
+<l n="*T 46.19">und <seg type="große_Variante" n="a2">hât <seg type="singuläre_Lesart">er</seg></seg> dâ vil <seg type="große_Variante" n="c2">wol</seg> getân.</l>
+<l n="*T 46.20"><name ref="regp:p0102" type="Person">Gatschier</name> der <name ref="regp:p0237" type="Person"><seg type="große_Variante" n="a2">Norman</seg></name></l>
+<l n="*T 46.21"><seg type="große_Variante" n="a2">brâht in</seg>. er was kurtoys.</l>
+<l n="*T 46.22">sîn vater was ein <name ref="regp:p0088" type="Person">Franzoys</name>.</l>
+<l n="*T 46.23"><seg type="große_Variante" n="a1">er</seg> was <name ref="regp:p0165" type="Person">Kayletes</name> swester barn.</l>
+<l n="*T 46.24">in wîbes dienste er was gevarn.</l>
+<l n="*T 46.25">er hiez <name ref="regp:p0167" type="Person">Kylliriakac</name>.</l>
+<l n="*T 46.26"><seg type="große_Variante" n="a1">aller manne schœne er</seg> widerwac.</l>
+<l n="*T 46.27"><seg type="große_Variante" n="a1"><seg type="Initiale">D</seg>ô</seg> in <name ref="regp:p0094" type="Person">Gahmuret</name> <seg type="große_Variante" n="b2">ersach</seg>,</l>
+<l n="*T 46.28">- ir antlütze sippe jach,</l>
+<l n="*T 46.29">diu wâren ein ander vil gelîch -,</l>
+<l n="*T 46.30">er bat die küneginne rîch</l>
+</div>
+<div><listApp type="Verteilung" subtype="T" n="46"><app><rdg>
+<wit>U</wit> <wit>V</wit> <wit>W</wit> <wit>T</wit>
+</rdg></app></listApp></div>
+<div><listApp type="Gliederung" subtype="T" n="46">
+ <app type="Gliederung" loc="*T 46.01"/>
+ <app type="Gliederung" loc="*T 46.02"/>
+ <app type="Gliederung" loc="*T 46.03"/>
+ <app type="Gliederung" loc="*T 46.04"/>
+ <app type="Gliederung" loc="*T 46.05"/>
+ <app type="Gliederung" loc="*T 46.06"/>
+ <app type="Gliederung" loc="*T 46.07"/>
+ <app type="Gliederung" loc="*T 46.08"/>
+<app type="Gliederung" loc="*T 46.09">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 46.10"/>
+ <app type="Gliederung" loc="*T 46.11"/>
+ <app type="Gliederung" loc="*T 46.12"/>
+ <app type="Gliederung" loc="*T 46.13"/>
+<app type="Gliederung" loc="*T 46.14">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 46.15"/>
+ <app type="Gliederung" loc="*T 46.16"/>
+ <app type="Gliederung" loc="*T 46.17"/>
+ <app type="Gliederung" loc="*T 46.18"/>
+ <app type="Gliederung" loc="*T 46.19"/>
+ <app type="Gliederung" loc="*T 46.20"/>
+ <app type="Gliederung" loc="*T 46.21"/>
+ <app type="Gliederung" loc="*T 46.22"/>
+ <app type="Gliederung" loc="*T 46.23"/>
+ <app type="Gliederung" loc="*T 46.24"/>
+ <app type="Gliederung" loc="*T 46.25"/>
+ <app type="Gliederung" loc="*T 46.26"/>
+<app type="Gliederung" loc="*T 46.27">
+<rdg><note>Initiale</note> <wit>U</wit> <wit>V</wit> <wit>W</wit> <wit>T</wit></rdg>
+</app>
+<app type="Gliederung" loc="*T 46.28">
+<rdg><note>Majuskel</note> <wit>T</wit></rdg>
+</app>
+ <app type="Gliederung" loc="*T 46.29"/>
+ <app type="Gliederung" loc="*T 46.30"/>
+</listApp></div>
+<div><listApp type="Lesarten" subtype="T" n="46">
+<app type="Lesart" loc="*T 46.01">
+<rdg>Gant har min <subst><del>*R*</del><add>herre Razalig</add></subst> <wit>V</wit> Get her naher mein herre razzalick <wit>W</wit> er sprach her Razalic gêt her <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.01-1">
+<rdg><note>Vers 46.1¹ fehlt</note> <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.02">
+<rdg>kvsset min wip daz ist min ger <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.02">
+<lem>ir sult küssen</lem><rdg>Kússen solt ir <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.02-1">
+<rdg><note>Vers 46.2¹ fehlt</note> <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.03">
+<lem>tuot ir</lem><rdg>tuͦ oͮch <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.03">
+<lem>Gatschier</lem><rdg>Gathschier <wit>V</wit> Gatscier <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.04">
+<lem>Hutegern</lem><rdg>Huͦtegern <wit>U</wit> Hutigern <wit>V</wit> Hútiger <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.04">
+<lem>degen</lem><rdg><subst><del>*</del><add>schotten</add></subst> <wit>V</wit> schoten <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.05">
+<lem>bat er si</lem><rdg><subst><del>D*</del><add>Den bat er sv́</add></subst> <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.05">
+<lem>küssen</lem><rdg>oͮch kússen <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.05">
+<lem>sînen</lem><rdg>irn <wit>V</wit> den <wit>W</wit> ir <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.06">
+<lem>er</lem><rdg>der <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.06">
+<lem>wunt</lem><rdg>worden wunt <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.07"/>
+<app type="Lesart" loc="*T 46.08">
+<lem>alle stunde</lem><rdg>al stande <wit>V</wit> (<wit>W</wit>) vnde stânde <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.08">
+<lem>er sprach</lem><rdg>sprach er <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.09">
+<lem>sæhe</lem><rdg><subst><del>sehen</del><add>sehe</add></subst> <wit>U</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.09">
+<lem>gerne</lem><rdg>ôvch gerne <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.10">
+<lem>möhte ez</lem><rdg>Mochte ez <wit>U</wit> <subst><del>mah ez</del><add>mahtez</add></subst> <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.10">
+<lem>mit</lem><rdg>wol mit <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.11"/>
+<app type="Lesart" loc="*T 46.12">
+<lem>enhâns</lem><rdg>han es <wit>W</wit> (<wit>T</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 46.12">
+<lem>von</lem><rdg>vor <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.13">
+<lem>ich muoz</lem><rdg>ine mvez <wit>T</wit> Ich muͤße <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.13">
+<lem>ledic</lem><rdg>lidig <wit>V</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.14"/>
+<app type="Lesart" loc="*T 46.15">
+<lem>balde</lem><rdg><note>om.</note> <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.16">
+<lem>begunde</lem><rdg>begund er <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.17"/>
+<app type="Lesart" loc="*T 46.18">
+<rdg>von riterscefte was er wunt <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.19">
+<lem>hât er</lem><rdg>hat es <wit>V</wit> (<wit>W</wit>) hatez <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.19">
+<lem>dâ</lem><rdg>do <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.19">
+<lem>wol</lem><rdg>guͦt <wit>W</wit> (<wit>T</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 46.20">
+<lem>Gatschier</lem><rdg>Gatscier <wit>T</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.21"/>
+<app type="Lesart" loc="*T 46.22">
+<lem>Franzoys</lem><rdg>franzoẏs <wit>V</wit> frantzoys <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.23">
+<lem>er</lem><rdg>vnd <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.23">
+<lem>Kayletes</lem><rdg>kylites <wit>U</wit> kaẏletes <wit>V</wit> kyeletes <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.23">
+<lem>swester</lem><rdg>sweter <wit>V</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.24">
+<lem>wîbes</lem><rdg>vrôvwen <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.24">
+<lem>er was</lem><rdg>was er <wit>W</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.25">
+<lem>er</lem><rdg>vnd <wit>T</wit></rdg>
+</app>
+<app type="Lesart" loc="*T 46.25">
+<lem>Kylliriakac</lem><rdg>kyliriakac <wit>U</wit> kẏlliarakag <wit>V</wit> kilriatag <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.26"/>
+<app type="Lesart" loc="*T 46.27">
+<lem>Gahmuret</lem><rdg>Gahmuͦret <wit>U</wit> Gamuret <wit>V</wit> (<wit>W</wit>)</rdg>
+</app>
+<app type="Lesart" loc="*T 46.28">
+<lem>sippe</lem><rdg>der sippe <wit>W</wit></rdg>
+</app>
+ <app type="Lesart" loc="*T 46.29"/>
+ <app type="Lesart" loc="*T 46.30"/>
+</listApp></div>
+</div>
+</body>
+</text>
 </TEI>

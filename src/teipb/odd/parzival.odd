@@ -91,7 +91,7 @@
                 <elementSpec ident="note" mode="change">
                     <model predicate="@type='Notiz'" behaviour="inline" cssClass="note"/>
                     <model predicate="@type='Marginalie'" behaviour="inline" cssClass="marginalia"/>
-                    <model behaviour="inline" cssClass="note"/>
+                    <model predicate="not(@type='Kapitelüberschrift')" behaviour="inline" cssClass="note"/>
                 </elementSpec>
                 <elementSpec ident="hi" mode="change">
                     <model predicate="@rend='rot'" behaviour="inline" cssClass="red"/>
@@ -125,22 +125,14 @@
         </model>
                 </elementSpec>
                 <elementSpec ident="gap" mode="change">
-                    <model predicate="desc" behaviour="inline">
-            <outputRendition xml:space="preserve">
-            color: grey;
-            </outputRendition>
+                    <model predicate="number(@extent)=1" behaviour="inline" cssClass="gap">
+            <pb:template xmlns="" xml:space="preserve">:</pb:template>
         </model>
-                    <model predicate="@extent" behaviour="inline">
-            <param name="content" value="@extent"/>
-            <outputRendition xml:space="preserve" scope="before">
-            content: '[..';
-            </outputRendition>
-            <outputRendition xml:space="preserve" scope="after">
-            content: '..]';
-            </outputRendition>
-            <outputRendition xml:space="preserve">
-            color: grey;
-            </outputRendition>
+                    <model predicate="number(@extent)=2" behaviour="inline" cssClass="gap">
+            <pb:template xmlns="" xml:space="preserve">::</pb:template>
+        </model>
+                    <model predicate="@reason=&#34;Fragmentverlust&#34; or @extent=&#34;unbekannt&#34; or number(@extent)&gt;=3" behaviour="inline" cssClass="gap">
+            <pb:template xmlns="" xml:space="preserve">:::</pb:template>
         </model>
                     <model behaviour="inline" cssClass="gap">
             <pb:template xmlns="" xml:space="preserve">-*-</pb:template>
@@ -152,6 +144,7 @@
         </model>
                     <model behaviour="inline" cssClass="corr"/>
                 </elementSpec>
+            <elementSpec ident="unclear" mode="change"/>
             </schemaSpec>
         </body>
     </text>
