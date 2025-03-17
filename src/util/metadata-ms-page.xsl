@@ -92,10 +92,10 @@
                     <!-- case: not fragment -->
                     <xsl:otherwise>
                       <xsl:variable name="n-cased" as="xs:string">
-                        <xsl:choose>
-                         <xsl:when test="matches(@n,'^[a-z|vv]\d')">{@n => upper-case() => replace('\.JPF','.jpf')}</xsl:when>
-                         <xsl:otherwise>{@n}</xsl:otherwise>
-                        </xsl:choose>
+                        <xsl:analyze-string select="@n" regex="^([a-z]v?)(\d.*)">
+                          <xsl:matching-substring>{regex-group(1)=>upper-case() || regex-group(2)}</xsl:matching-substring>
+                          <xsl:non-matching-substring>{.}</xsl:non-matching-substring>
+                        </xsl:analyze-string>
                       </xsl:variable>
                       <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$n-cased}.jpf/info.json</xsl:text>
                     </xsl:otherwise>
