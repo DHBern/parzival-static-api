@@ -87,10 +87,10 @@
                     <xsl:when test="matches(@n,'^fr\d')">
                       <xsl:variable name="fragment" select="(@n => tokenize('\d{3}[rv]'))[1]"/>
                       <xsl:variable name="fragment-nr" select="$fragment => substring-after('fr') => number()" as="xs:double"/>
-                      <xsl:text>https://iiif.ub.unibe.ch/image/v3/Parzival/{$fragment-nr => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
+                      <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$fragment-nr => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
                     </xsl:when>
                     <!-- case: not fragment -->
-                    <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/Parzival/{@n}.jpf/info.json</xsl:otherwise>
+                    <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/parzival/{@n}.jpf/info.json</xsl:otherwise>
                   </xsl:choose>
                 </string>
                 <array key="l">
