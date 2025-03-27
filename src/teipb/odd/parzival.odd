@@ -83,6 +83,7 @@
                 </elementSpec>
                 <elementSpec ident="add" mode="change">
                     <model predicate="@hand=&#34;#sr&#34;" behaviour="inline" cssClass="sr"/>
+                    <model behaviour="inline" cssClass="added"/>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
                     <model predicate="@hand='#sr'" behaviour="inline" cssClass="del_sr"/>

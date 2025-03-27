@@ -372,9 +372,9 @@ declare function model:apply($config as map(*), $input as node()*) {
                         fo:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)
                     case element(add) return
                         if (@hand="#sr") then
-                            fo:inline($config, ., ("tei-add", "sr", css:map-rend-to-class(.)), .)
+                            fo:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)
                         else
-                            $config?apply($config, ./node())
+                            fo:inline($config, ., ("tei-add2", "added", css:map-rend-to-class(.)), .)
                     case element(revisionDesc) return
                         fo:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)
                     case element(subst) return

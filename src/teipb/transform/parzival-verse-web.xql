@@ -376,9 +376,9 @@ declare function model:apply($config as map(*), $input as node()*) {
                         html:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(add) return
                         if (@hand="#sr") then
-                            html:inline($config, ., ("tei-add", "sr", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
+                            html:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                         else
-                            $config?apply($config, ./node())
+                            html:inline($config, ., ("tei-add2", "added", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                     case element(revisionDesc) return
                         html:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(subst) return
