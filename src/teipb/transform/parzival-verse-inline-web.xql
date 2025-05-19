@@ -48,7 +48,19 @@ declare %private function model:template-mei_mdiv($config as map(*), $node as no
     <t xmlns=""><pb-mei player="player" data="{$config?apply-children($config, $node, $params?data)}"/></t>/*
 };
 (: generated template function for element spec: gap :)
+declare %private function model:template-gap($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap2($config as map(*), $node as node()*, $params as map(*)) {
+    ``[::]``
+};
+(: generated template function for element spec: gap :)
 declare %private function model:template-gap3($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:::]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap4($config as map(*), $node as node()*, $params as map(*)) {
     ``[-*-]``
 };
 (:~
@@ -298,13 +310,19 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(code) return
                         html:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(note) return
-                        if (@type='Notiz') then
-                            html:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
+                        if (@resp) then
+                            html:omit($config, ., ("tei-note1", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                         else
-                            if (@type='Marginalie') then
-                                html:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
+                            if (@type='Notiz') then
+                                html:inline($config, ., ("tei-note2", "note", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                             else
-                                html:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
+                                if (@type='Marginalie') then
+                                    html:inline($config, ., ("tei-note3", "marginalia", css:map-rend-to-class(.)), .)                                    => model:map($node, $trackIds)
+                                else
+                                    if (not(@type='Kapitelüberschrift')) then
+                                        html:inline($config, ., ("tei-note4", "note", css:map-rend-to-class(.)), .)                                        => model:map($node, $trackIds)
+                                    else
+                                        $config?apply($config, ./node())
                     case element(dateline) return
                         html:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(postscript) return
@@ -355,9 +373,9 @@ declare function model:apply($config as map(*), $input as node()*) {
                         html:paragraph($config, ., ("tei-ab", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(add) return
                         if (@hand="#sr") then
-                            html:inline($config, ., ("tei-add", "sr", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
+                            html:inline($config, ., ("tei-add1", "sr", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                         else
-                            $config?apply($config, ./node())
+                            html:inline($config, ., ("tei-add2", "added", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                     case element(revisionDesc) return
                         html:omit($config, ., ("tei-revisionDesc", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(subst) return
@@ -543,21 +561,48 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(encodingDesc) return
                         html:omit($config, ., ("tei-encodingDesc", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(gap) return
-                        if (desc) then
-                            html:inline($config, ., ("tei-gap1", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
+                        if (number(@extent)=1) then
+                            let $params := 
+                                map {
+                                    "content": .
+                                }
+
+                                                        let $content := 
+                                model:template-gap($config, ., $params)
+                            return
+                                                        html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap1", "gap", css:map-rend-to-class(.)), $content)                            => model:map($node, $trackIds)
                         else
-                            if (@extent) then
-                                html:inline($config, ., ("tei-gap2", css:map-rend-to-class(.)), @extent)                                => model:map($node, $trackIds)
-                            else
+                            if (number(@extent)=2) then
                                 let $params := 
                                     map {
                                         "content": .
                                     }
 
                                                                 let $content := 
-                                    model:template-gap3($config, ., $params)
+                                    model:template-gap2($config, ., $params)
                                 return
-                                                                html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)                                => model:map($node, $trackIds)
+                                                                html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap2", "gap", css:map-rend-to-class(.)), $content)                                => model:map($node, $trackIds)
+                            else
+                                if (@reason="Fragmentverlust" or @extent="unbekannt" or number(@extent)>=3) then
+                                    let $params := 
+                                        map {
+                                            "content": .
+                                        }
+
+                                                                        let $content := 
+                                        model:template-gap3($config, ., $params)
+                                    return
+                                                                        html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)                                    => model:map($node, $trackIds)
+                                else
+                                    let $params := 
+                                        map {
+                                            "content": .
+                                        }
+
+                                                                        let $content := 
+                                        model:template-gap4($config, ., $params)
+                                    return
+                                                                        html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)                                    => model:map($node, $trackIds)
                     case element(quote) return
                         if (ancestor::p) then
                             (: If it is inside a paragraph then it is inline, otherwise it is block level :)
@@ -572,7 +617,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             html:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                         else
                             if (@type='Versumstellung') then
-                                html:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
+                                html:inline($config, ., ("tei-seg2", "verse-change", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                             else
                                 if (@type='kleine_Variante') then
                                     (: no special styles :)
