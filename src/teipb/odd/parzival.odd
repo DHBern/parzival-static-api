@@ -40,7 +40,7 @@
                 <elementSpec ident="l" mode="change"/>
                 <elementSpec ident="seg" mode="change">
                     <model predicate="@subtype='nicht_ausgeführt'" behaviour="inline" cssClass="not-executed"/>
-                    <model predicate="@type='Versumstellung'" behaviour="inline" cssClass="verse -change"/>
+                    <model predicate="@type='Versumstellung'" behaviour="inline" cssClass="verse-change"/>
                     <model predicate="@type='kleine_Variante'" behaviour="inline" cssClass="small-variant">
             <desc>no special styles</desc>
         </model>
@@ -90,6 +90,7 @@
                     <model behaviour="inline" cssClass="deleted"/>
                 </elementSpec>
                 <elementSpec ident="note" mode="change">
+                    <model predicate="@resp" behaviour="omit"/>
                     <model predicate="@type='Notiz'" behaviour="inline" cssClass="note"/>
                     <model predicate="@type='Marginalie'" behaviour="inline" cssClass="marginalia"/>
                     <model predicate="not(@type='Kapitelüberschrift')" behaviour="inline" cssClass="note"/>

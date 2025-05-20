@@ -321,16 +321,19 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(code) return
                         html:inline($config, ., ("tei-code", css:map-rend-to-class(.)), .)
                     case element(note) return
-                        if (@type='Notiz') then
-                            html:inline($config, ., ("tei-note1", "note", css:map-rend-to-class(.)), .)
+                        if (@resp) then
+                            html:omit($config, ., ("tei-note1", css:map-rend-to-class(.)), .)
                         else
-                            if (@type='Marginalie') then
-                                html:inline($config, ., ("tei-note2", "marginalia", css:map-rend-to-class(.)), .)
+                            if (@type='Notiz') then
+                                html:inline($config, ., ("tei-note2", "note", css:map-rend-to-class(.)), .)
                             else
-                                if (not(@type='Kapitelüberschrift')) then
-                                    html:inline($config, ., ("tei-note3", "note", css:map-rend-to-class(.)), .)
+                                if (@type='Marginalie') then
+                                    html:inline($config, ., ("tei-note3", "marginalia", css:map-rend-to-class(.)), .)
                                 else
-                                    $config?apply($config, ./node())
+                                    if (not(@type='Kapitelüberschrift')) then
+                                        html:inline($config, ., ("tei-note4", "note", css:map-rend-to-class(.)), .)
+                                    else
+                                        $config?apply($config, ./node())
                     case element(dateline) return
                         html:block($config, ., ("tei-dateline", css:map-rend-to-class(.)), .)
                     case element(postscript) return
@@ -625,7 +628,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             html:inline($config, ., ("tei-seg1", "not-executed", css:map-rend-to-class(.)), .)
                         else
                             if (@type='Versumstellung') then
-                                html:inline($config, ., ("tei-seg2", "verse", "-change", css:map-rend-to-class(.)), .)
+                                html:inline($config, ., ("tei-seg2", "verse-change", css:map-rend-to-class(.)), .)
                             else
                                 if (@type='kleine_Variante') then
                                     (: no special styles :)
