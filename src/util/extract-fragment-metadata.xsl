@@ -21,8 +21,6 @@
   
   <xsl:output indent="true"/>
   
-  <xsl:variable name="apos">&apos;</xsl:variable>
-  
   <xsl:variable name="hyparchetypes" as="text()" expand-text="false">
     <![CDATA[
     [
@@ -129,8 +127,6 @@
     'fr71' : 'Fr. 71',
     'fr72' : 'Fr. 72'
     }"/>
-  
-  <xsl:variable name="quot" as="xs:string">"</xsl:variable>
   
   <xd:doc scope="template">
     <xd:desc>

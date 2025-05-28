@@ -18,8 +18,13 @@
 #   pass-through-originals	: Copies all original TEI files (as received from editors) to dist.
 #   flatten-originals		: Copies all original TEI files to the same folder.
 #   contiguous-ranges		: Generate information on contiguously extant Dreissiger by document.
-#   metadata-ms-page		: Generate information on manuscript pages.
+#   metadata-nomenclature	: Extract naming information from files.
 #   extract-fragment-metadata	: Extract naming information from files.
+#   metadata-ms-page		: Generate information on manuscript pages.
+#   metadata-ms-verses		: Generate information on verses.
+#   metadata-names		: Generate information on persons, places, nyms.
+#   metadata-syn-apps		: Generate apparatus information.
+#   build-index			: Generate search index.
 #
 # or argument `all=` with value
 #
