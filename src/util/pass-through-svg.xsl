@@ -48,10 +48,10 @@
   </xsl:template>
   
   <!-- deactivate rect elements (editing artifacts) -->
-  <!--<xsl:template match="rect" mode="pass-through">
-    <xsl:text disable-output-escaping="yes">&lt;!-\-</xsl:text>
+  <xsl:template match="rect" mode="pass-through">
+    <xsl:text disable-output-escaping="yes">&lt;!--</xsl:text>
     <xsl:copy-of select="."/>
-    <xsl:text disable-output-escaping="yes">-\-&gt;</xsl:text>
-  </xsl:template>-->
+    <xsl:text disable-output-escaping="yes">--&gt;</xsl:text>
+  </xsl:template>
   
 </xsl:transform>
