@@ -48,7 +48,7 @@
                 </elementSpec>
                 <elementSpec ident="cb" mode="change">
                     <model behaviour="block">
-            <param name="label" value="concat(     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then &#34;Bl. &#34; else &#34;S. &#34;,     number(substring(@xml:id, 2, 3)),     if (contains(substring(@xml:id, 5, 1), 'r') or contains(substring(@xml:id, 5, 1), 'v'))     then substring(@xml:id, 5, 1) else '',     &#34;, Spalte &#34;, substring(@xml:id, string-length(@xml:id), 1) )"/>
+            <param name="label" value="let $id := @xml:id let $match := replace($id, '^([a-zA-Z]+\d*)(\d{3})([rv]?)([a-z])$', '$1|$2|$3|$4') let $parts := tokenize($match, '\|') return concat(   if ($parts[3] = 'r' or $parts[3] = 'v') then 'Bl. ' else 'S. ',   number($parts[2]),   $parts[3],   ', Spalte ',   $parts[4] )"/>
             <pb:template xmlns="" xml:space="preserve"><p>[[label]]</p></pb:template>
         </model>
                 </elementSpec>
