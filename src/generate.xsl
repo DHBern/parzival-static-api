@@ -30,6 +30,7 @@
   <xsl:param name="repository" as="xs:string" select="'parzival-static-api'"/>
   
   <xsl:include href="util/pass-through-originals.xsl"/>
+  <xsl:include href="util/pass-through-svg.xsl"/>
   <xsl:include href="util/flatten-originals.xsl"/>
   <xsl:include href="util/contiguous-ranges.xsl"/>
   <xsl:include href="util/extract-fragment-metadata.xsl"/>
@@ -53,6 +54,14 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'pass-through-originals'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="pass-through-svg" use-when="$all or $do => contains-token('pass-through-svg')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'pass-through-svg'"/>
     </xsl:call-template>
     
     <xsl:call-template name="flatten-originals" use-when="$all or $do => contains-token('flatten-originals')">
