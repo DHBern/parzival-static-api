@@ -193,15 +193,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 latex:block($config, ., css:get-rendition(., ("tei-q3", css:map-rend-to-class(.))), .)
                     case element(pb) return
-                        if (@facs) then
-                            (: No function found for behavior: webcomponent :)
-                            $config?apply($config, ./node())
-                        else
-                            if (starts-with(@facs, 'iiif:')) then
-                                (: No function found for behavior: webcomponent :)
-                                $config?apply($config, ./node())
-                            else
-                                latex:break($config, ., css:get-rendition(., ("tei-pb3", css:map-rend-to-class(.))), ., 'page', (concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else '')))
+                        latex:omit($config, ., ("tei-pb", css:map-rend-to-class(.)), .)
                     case element(epigraph) return
                         latex:block($config, ., ("tei-epigraph", css:map-rend-to-class(.)), .)
                     case element(lb) return

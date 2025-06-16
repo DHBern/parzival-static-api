@@ -191,15 +191,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:block($config, ., css:get-rendition(., ("tei-q3", css:map-rend-to-class(.))), .)                                => model:map($node, $trackIds)
                     case element(pb) return
-                        if (@facs) then
-                            (: Use the url from the facs attribute to link with IIIF image :)
-                            html:webcomponent($config, ., ("tei-pb1", css:map-rend-to-class(.)), ., 'pb-facs-link', map {"facs": @facs, "label": @n, "emit": 'transcription'})                            => model:map($node, $trackIds)
-                        else
-                            if (starts-with(@facs, 'iiif:')) then
-                                (: If facs attribute starts with iiif prefix, use the trailing part as a link to the IIIF image :)
-                                html:webcomponent($config, ., ("tei-pb2", css:map-rend-to-class(.)), ., 'pb-facs-link', map {"facs": replace(@facs, '^iiif:(.*)$', '$1'), "label": 'Page', "emit": 'transcription'})                                => model:map($node, $trackIds)
-                            else
-                                html:break($config, ., css:get-rendition(., ("tei-pb3", css:map-rend-to-class(.))), ., 'page', (concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else '')))                                => model:map($node, $trackIds)
+                        html:omit($config, ., ("tei-pb", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(epigraph) return
                         html:block($config, ., ("tei-epigraph", css:map-rend-to-class(.)), .)                        => model:map($node, $trackIds)
                     case element(lb) return
