@@ -16,6 +16,7 @@
 # and argument `do=` with one of:
 #
 #   pass-through-originals	: Copies all original TEI files (as received from editors) to dist.
+#   pass-through-svg		: Copies all original SVG files (as received from editors) to dist.
 #   flatten-originals		: Copies all original TEI files to the same folder.
 #   contiguous-ranges		: Generate information on contiguously extant Dreissiger by document.
 #   metadata-nomenclature	: Extract naming information from files.

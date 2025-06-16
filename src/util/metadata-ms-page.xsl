@@ -90,15 +90,7 @@
                       <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$fragment-nr => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
                     </xsl:when>
                     <!-- case: not fragment -->
-                    <xsl:otherwise>
-                      <xsl:variable name="n-cased" as="xs:string">
-                        <xsl:analyze-string select="@n" regex="^([a-z]v?)(\d.*)">
-                          <xsl:matching-substring>{regex-group(1)=>upper-case() || regex-group(2)}</xsl:matching-substring>
-                          <xsl:non-matching-substring>{.}</xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                      </xsl:variable>
-                      <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$n-cased}.jpf/info.json</xsl:text>
-                    </xsl:otherwise>
+                    <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/parzival/{@n}.jpf/info.json</xsl:otherwise>
                   </xsl:choose>
                 </string>
                 <array key="l">
