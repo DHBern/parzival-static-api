@@ -61,6 +61,10 @@ declare %private function model:template-gap3($config as map(*), $node as node()
 };
 (: generated template function for element spec: gap :)
 declare %private function model:template-gap4($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:::]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap5($config as map(*), $node as node()*, $params as map(*)) {
     ``[-*-]``
 };
 (: generated template function for element spec: cb :)
@@ -563,7 +567,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 return
                                                                 fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap2", "gap", css:map-rend-to-class(.)), $content)
                             else
-                                if (@reason="Fragmentverlust" or @extent="unbekannt" or number(@extent)>=3) then
+                                if (@reason="Fragmentverlust") then
                                     let $params := 
                                         map {
                                             "content": .
@@ -572,17 +576,28 @@ declare function model:apply($config as map(*), $input as node()*) {
                                                                         let $content := 
                                         model:template-gap3($config, ., $params)
                                     return
-                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)
+                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "fragment-loss", css:map-rend-to-class(.)), $content)
                                 else
-                                    let $params := 
-                                        map {
-                                            "content": .
-                                        }
+                                    if (@extent="unbekannt" or number(@extent)>=3) then
+                                        let $params := 
+                                            map {
+                                                "content": .
+                                            }
 
-                                                                        let $content := 
-                                        model:template-gap4($config, ., $params)
-                                    return
-                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)
+                                                                                let $content := 
+                                            model:template-gap4($config, ., $params)
+                                        return
+                                                                                fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)
+                                    else
+                                        let $params := 
+                                            map {
+                                                "content": .
+                                            }
+
+                                                                                let $content := 
+                                            model:template-gap5($config, ., $params)
+                                        return
+                                                                                fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap5", "gap", css:map-rend-to-class(.)), $content)
                     case element(quote) return
                         if (ancestor::p) then
                             (: If it is inside a paragraph then it is inline, otherwise it is block level :)

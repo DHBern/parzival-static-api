@@ -133,7 +133,10 @@
                     <model predicate="number(@extent)=2" behaviour="inline" cssClass="gap">
             <pb:template xmlns="" xml:space="preserve">::</pb:template>
         </model>
-                    <model predicate="@reason=&#34;Fragmentverlust&#34; or @extent=&#34;unbekannt&#34; or number(@extent)&gt;=3" behaviour="inline" cssClass="gap">
+                    <model predicate="@reason=&#34;Fragmentverlust&#34;" behaviour="inline" cssClass="fragment-loss">
+            <pb:template xmlns="" xml:space="preserve">:::</pb:template>
+        </model>
+                    <model predicate="@extent=&#34;unbekannt&#34; or number(@extent)&gt;=3" behaviour="inline" cssClass="gap">
             <pb:template xmlns="" xml:space="preserve">:::</pb:template>
         </model>
                     <model behaviour="inline" cssClass="gap">

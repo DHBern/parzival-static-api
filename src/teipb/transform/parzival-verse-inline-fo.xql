@@ -61,6 +61,10 @@ declare %private function model:template-gap3($config as map(*), $node as node()
 };
 (: generated template function for element spec: gap :)
 declare %private function model:template-gap4($config as map(*), $node as node()*, $params as map(*)) {
+    ``[:::]``
+};
+(: generated template function for element spec: gap :)
+declare %private function model:template-gap5($config as map(*), $node as node()*, $params as map(*)) {
     ``[-*-]``
 };
 (:~
@@ -205,15 +209,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(epigraph) return
                         fo:block($config, ., ("tei-epigraph", css:map-rend-to-class(.)), .)
                     case element(pb) return
-                        if (@facs) then
-                            (: No function found for behavior: webcomponent :)
-                            $config?apply($config, ./node())
-                        else
-                            if (starts-with(@facs, 'iiif:')) then
-                                (: No function found for behavior: webcomponent :)
-                                $config?apply($config, ./node())
-                            else
-                                fo:break($config, ., css:get-rendition(., ("tei-pb3", css:map-rend-to-class(.))), ., 'page', (concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else '')))
+                        fo:omit($config, ., ("tei-pb", css:map-rend-to-class(.)), .)
                     case element(docTitle) return
                         fo:block($config, ., css:get-rendition(., ("tei-docTitle", css:map-rend-to-class(.))), .)
                     case element(lb) return
@@ -565,7 +561,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 return
                                                                 fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap2", "gap", css:map-rend-to-class(.)), $content)
                             else
-                                if (@reason="Fragmentverlust" or @extent="unbekannt" or number(@extent)>=3) then
+                                if (@reason="Fragmentverlust") then
                                     let $params := 
                                         map {
                                             "content": .
@@ -574,17 +570,28 @@ declare function model:apply($config as map(*), $input as node()*) {
                                                                         let $content := 
                                         model:template-gap3($config, ., $params)
                                     return
-                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "gap", css:map-rend-to-class(.)), $content)
+                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap3", "fragment-loss", css:map-rend-to-class(.)), $content)
                                 else
-                                    let $params := 
-                                        map {
-                                            "content": .
-                                        }
+                                    if (@extent="unbekannt" or number(@extent)>=3) then
+                                        let $params := 
+                                            map {
+                                                "content": .
+                                            }
 
-                                                                        let $content := 
-                                        model:template-gap4($config, ., $params)
-                                    return
-                                                                        fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)
+                                                                                let $content := 
+                                            model:template-gap4($config, ., $params)
+                                        return
+                                                                                fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap4", "gap", css:map-rend-to-class(.)), $content)
+                                    else
+                                        let $params := 
+                                            map {
+                                                "content": .
+                                            }
+
+                                                                                let $content := 
+                                            model:template-gap5($config, ., $params)
+                                        return
+                                                                                fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-gap5", "gap", css:map-rend-to-class(.)), $content)
                     case element(quote) return
                         if (ancestor::p) then
                             (: If it is inside a paragraph then it is inline, otherwise it is block level :)
