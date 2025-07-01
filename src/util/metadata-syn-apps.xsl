@@ -156,7 +156,7 @@
   
   <xsl:template match="text()[matches(.,'\S')]" mode="distribution">
     <xsl:variable name="v-apos">V'</xsl:variable>
-    <xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos) => normalize-space()"/>
+    <a xmlns=""><xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos) => normalize-space()"/></a>
   </xsl:template>
   
   <xsl:template match="text()[matches(.,'^\s*$')]" mode="distribution">
