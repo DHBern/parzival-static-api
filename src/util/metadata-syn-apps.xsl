@@ -71,7 +71,9 @@
                   <string key="handle">{./div[@type='Textteil']/head}</string>
                   <string key="distribution">
                     <xsl:variable name="content">
-                      <xsl:apply-templates select="./div/listApp[@type='Verteilung']/app/rdg" mode="distribution"/>
+                      <xsl:apply-templates select="./div/listApp[@type='Verteilung']/app/rdg" mode="distribution">
+                        <xsl:with-param name="syn" select="$document => substring-after('syn')" tunnel="true"/>
+                      </xsl:apply-templates>
                     </xsl:variable>
                     <xsl:sequence select="serialize($content,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                   </string>
@@ -155,8 +157,9 @@
   </xsl:template>
   
   <xsl:template match="text()[matches(.,'\S')]" mode="distribution">
+    <xsl:param name="syn" tunnel="true"/>
     <xsl:variable name="v-apos">V'</xsl:variable>
-    <a xmlns=""><xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos) => normalize-space()"/></a>
+    <a xmlns="" data-thirties="{$syn}"><xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos) => normalize-space()"/></a>
   </xsl:template>
   
   <xsl:template match="text()[matches(.,'^\s*$')]" mode="distribution">
