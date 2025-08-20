@@ -34,6 +34,7 @@
   <xsl:include href="util/flatten-originals.xsl"/>
   <xsl:include href="util/contiguous-ranges.xsl"/>
   <xsl:include href="util/extract-fragment-metadata.xsl"/>
+  <xsl:include href="util/metadata-commentary.xsl"/>
   <xsl:include href="util/metadata-ms-page.xsl"/>
   <xsl:include href="util/metadata-ms-verses.xsl"/>
   <xsl:include href="util/metadata-names.xsl"/>
@@ -110,6 +111,14 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'metadata-names'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="metadata-commentary" use-when="$all or $do => contains-token('metadata-commentary')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'metadata-commentary'"/>
     </xsl:call-template>
     
     <xsl:call-template name="metadata-syn-apps" use-when="$all or $do => contains-token('metadata-syn-apps')">
