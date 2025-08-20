@@ -92,7 +92,7 @@
                                     't'"/>
                         <xsl:variable name="id" as="xs:string" select="
                                 if ($type = 'f') then
-                                    @n => replace('\s', '_')
+                                    @n => dsl:permute-verse-numbers() => replace('\s', '_')
                                 else
                                     @xml:id"/>
                         <xsl:variable name="sigil" as="xs:string" select="

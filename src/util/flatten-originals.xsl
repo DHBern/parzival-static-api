@@ -14,16 +14,17 @@
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> May 8, 2024</xd:p>
       <xd:p><xd:b>Author:</xd:b> pd</xd:p>
-      <xd:p>Copies all original TEI files (as received from editors) to dist.</xd:p>
+      <xd:p>Copies amended original TEI files (as received from editors) to dist.</xd:p>
     </xd:desc>
   </xd:doc>
   
   <!-- uses mode "pass-through" from pass-through-originals.xsl -->
+  <xsl:mode name="refine-originals" on-no-match="shallow-copy"/>
 
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b>flatten-originals</xd:b></xd:p>
-      <xd:p>Copies all original TEI files (as received from editors) to dist.</xd:p>
+      <xd:p>Copies amended original TEI files (as received from editors) to dist.</xd:p>
     </xd:desc>
     <xd:param name="repository">Repository name.</xd:param>
     <xd:param name="path_src">Relative path to source directory.</xd:param>
@@ -42,12 +43,57 @@
       <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}…</xsl:message>
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
-        <xsl:apply-templates select="doc(.)/node()" mode="pass-through">
-          <xsl:with-param name="idno" select="$idno"/>
-        </xsl:apply-templates>
+        <xsl:choose>
+          <!-- special treatment for syn69, syn70, syn71; rationale given below -->
+          <xsl:when test="matches(.,'syn69\.xml|syn70\.xml|syn71\.xml')">
+            <xsl:apply-templates select="doc(.)/node()" mode="refine-originals"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates select="doc(.)/node()" mode="pass-through">
+              <xsl:with-param name="idno" select="$idno"/>
+            </xsl:apply-templates>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
   </xsl:template>
+  
+  <!-- In Tustep, a workaround was applied to handle Lachmann's divergent numbering in Dreissiger 69-71.
+       This resulted in makeshift verse numbers in the output files, that need to be substituted. -->
+  <xsl:template match="@n" mode="refine-originals">
+    <xsl:attribute name="n" select="dsl:permute-verse-numbers(.)"/>
+  </xsl:template>
+  
+  <xsl:template match="@loc" mode="refine-originals">
+    <xsl:attribute name="loc" select="dsl:permute-verse-numbers(.)"/>
+  </xsl:template>
+  
+  <xd:doc>
+    <xd:desc>Lachmann's numbering deviated for verses 69.29 to 71.6 from trandition. 
+      This necessitated a workaround in Tustep that resulted in makeshift numbers such as 69.107.
+      This function substitutes them with appropriate verse numbers.</xd:desc>
+  </xd:doc>
+  <xsl:function name="dsl:permute-verse-numbers">
+    <xsl:param name="value" as="xs:string"/>
+    <xsl:sequence select="$value =>
+    replace('\s69\.107',' 70.7') =>
+    replace('\s69\.108',' 70.8') =>
+    replace('\s70\.101',' 71.1') =>
+    replace('\s70\.102',' 71.2') =>
+    replace('\s70\.103',' 71.3') =>
+    replace('\s70\.104',' 71.4') =>
+    replace('\s70\.105',' 71.5') =>
+    replace('\s70\.106',' 71.6') =>
+    replace('\s70\.929',' 69.29') =>
+    replace('\s70\.930',' 69.30') =>
+    replace('\s71\.901',' 70.1') =>
+    replace('\s71\.902',' 70.2') =>
+    replace('\s71\.903',' 70.3') =>
+    replace('\s71\.904',' 70.4') =>
+    replace('\s71\.905',' 70.5') =>
+    replace('\s71\.906',' 70.6')
+    "/>
+  </xsl:function>
   
 </xsl:transform>
