@@ -37,7 +37,7 @@
   <xd:doc>
     <xd:param name="split-output-syn">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output-syn" static="true" select="true()"/>
+  <xsl:param name="split-output-syn" static="true" select="false()"/>
   
   <xd:doc scope="template">
     <xd:desc>
@@ -159,7 +159,7 @@
   <xsl:template match="text()[matches(.,'\S')]" mode="distribution">
     <xsl:param name="syn" tunnel="true"/>
     <xsl:variable name="v-apos">V'</xsl:variable>
-    <a xmlns="" data-thirties="{$syn}"><xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos) => normalize-space()"/></a>
+    <a xmlns="" data-thirties="{$syn}"><xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV',$v-apos)"/></a>
   </xsl:template>
   
   <xsl:template match="text()[matches(.,'^\s*$')]" mode="distribution">
@@ -191,7 +191,7 @@
   </xsl:template>
   
   <xsl:template match="text()[matches(.,'\S')]" mode="structure">
-    <xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV','V'||$apos) => normalize-space()"/>
+    <xsl:sequence select=". => replace('(n|m|o)k','$1') => replace('VV','V'||$apos)"/>
   </xsl:template>
 
   <xsl:template match="app[node()]" mode="reading">
