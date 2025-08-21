@@ -20,6 +20,7 @@
   
   <!-- uses mode "pass-through" from pass-through-originals.xsl -->
   <xsl:mode name="refine-originals" on-no-match="shallow-copy"/>
+  <xsl:mode name="substitute-quotation-marks" on-no-match="shallow-copy"/>
 
   <xd:doc scope="template">
     <xd:desc>
@@ -42,7 +43,8 @@
     <xsl:for-each select="uri-collection($path_src||'data/original?recurse=yes;select=*.xml')">
       <xsl:variable name="idno" as="xs:string" select=".  => substring-after('original/transcription/')"/>
       <xsl:message use-when="$verbose">…writing {$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}…</xsl:message>
-      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
+      
+      <xsl:variable name="pass1">
         <xsl:choose>
           <!-- special treatment for syn69, syn70, syn71; rationale given below -->
           <xsl:when test="matches(.,'syn69\.xml|syn70\.xml|syn71\.xml')">
@@ -54,6 +56,23 @@
             </xsl:apply-templates>
           </xsl:otherwise>
         </xsl:choose>
+      </xsl:variable>
+      
+      <xsl:variable name="pass2">
+        <xsl:choose>
+          <xsl:when test="matches(.,'syn\d*\.xml')">
+            <xsl:apply-templates select="$pass1" mode="substitute-quotation-marks"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:sequence select="$pass1"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      
+      
+      
+      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
+        <xsl:sequence select="$pass2"/>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -94,6 +113,37 @@
     replace('\s71\.905',' 70.5') =>
     replace('\s71\.906',' 70.6')
     "/>
+  </xsl:function>
+  
+  <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="substitute-quotation-marks">
+    <xsl:sequence select=". => dsl:substitute-quotes()"/>
+  </xsl:template>
+  
+  <xd:doc>
+    <xd:desc>For Fassungen (syn) quotation marks are not differentiated in the Tustep output. 
+      Depending on the context, opening and closing Guillements are substituted.</xd:desc>
+  </xd:doc>
+  <xsl:function name="dsl:substitute-quotes">
+    <xsl:param name="value" as="xs:string"/>
+    <xsl:sequence select="$value
+      (: double quotes mid-string:)
+      => replace($quot||'(\p{P})','«$1') 
+      => replace($quot||'(\s+)','«$1') 
+      => replace('(\s+)'||$quot,'$1»') 
+      
+      (: double quotes at start/end of string:)
+      => replace('^'||$quot,'$1»')
+      => replace($quot||'$','«$1')
+      
+      (: apostrophes mid-string:)
+      => replace($apos||'(\p{P})','‹$1') 
+      => replace($apos||'(\s+)','‹$1') 
+      => replace('(\s+)'||$apos,'$1›') 
+      
+      (: apostrophes at start/end of string:)
+      => replace('^'||$apos,'$1›')
+      => replace($apos||'$','‹$1')
+      "/>
   </xsl:function>
   
 </xsl:transform>

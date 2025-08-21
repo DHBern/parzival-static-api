@@ -162,4 +162,13 @@
         <xsl:text> </xsl:text>
     </xsl:template>
 
+    <!-- substitute quotation marks
+    see flatten-originals.xsl for details -->
+    <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="all">
+      <xsl:sequence select=". => dsl:substitute-quotes()"/>
+    </xsl:template>
+    <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="janus">
+      <xsl:sequence select=". => dsl:substitute-quotes()"/>
+    </xsl:template>
+
 </xsl:transform>
