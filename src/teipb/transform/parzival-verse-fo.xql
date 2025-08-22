@@ -162,9 +162,12 @@ declare function model:apply($config as map(*), $input as node()*) {
                             $config?apply($config, ./node())
                     case element(milestone) return
                         if (@unit='Versumstellung') then
-                            fo:inline($config, ., ("tei-milestone", "versechange", css:map-rend-to-class(.)), .)
+                            fo:inline($config, ., ("tei-milestone1", "versechange", css:map-rend-to-class(.)), .)
                         else
-                            $config?apply($config, ./node())
+                            if (@unit='Bild') then
+                                fo:inline($config, ., ("tei-milestone2", "image", css:map-rend-to-class(.)), .)
+                            else
+                                fo:inline($config, ., ("tei-milestone3", "milestone", css:map-rend-to-class(.)), .)
                     case element(l) return
                         let $params := 
                             map {
