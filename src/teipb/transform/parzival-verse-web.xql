@@ -168,9 +168,12 @@ declare function model:apply($config as map(*), $input as node()*) {
                             $config?apply($config, ./node())
                     case element(milestone) return
                         if (@unit='Versumstellung') then
-                            html:inline($config, ., ("tei-milestone", "versechange", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
+                            html:inline($config, ., ("tei-milestone1", "versechange", css:map-rend-to-class(.)), .)                            => model:map($node, $trackIds)
                         else
-                            $config?apply($config, ./node())
+                            if (@unit='Bild') then
+                                html:inline($config, ., ("tei-milestone2", "image", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
+                            else
+                                html:inline($config, ., ("tei-milestone3", "milestone", css:map-rend-to-class(.)), .)                                => model:map($node, $trackIds)
                     case element(l) return
                         let $params := 
                             map {

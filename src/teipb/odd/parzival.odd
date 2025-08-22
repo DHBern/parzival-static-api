@@ -75,6 +75,8 @@
                 </elementSpec>
                 <elementSpec ident="milestone" mode="add">
                     <model predicate="@unit='Versumstellung'" behaviour="inline" cssClass="versechange"/>
+                    <model predicate="@unit='Bild'" behaviour="inline" cssClass="image"/>
+                    <model behaviour="inline" cssClass="milestone"/>
                 </elementSpec>
                 <elementSpec ident="subst" mode="add">
                     <model predicate="@hand[starts-with(., '#ls')]" behaviour="inline" cssClass="subst_ls"/>
