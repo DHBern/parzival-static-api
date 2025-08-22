@@ -37,7 +37,7 @@
   <xd:doc>
     <xd:param name="split-output-syn">Generate multiple (true) or one output file (false).</xd:param>
   </xd:doc>
-  <xsl:param name="split-output-syn" static="true" select="false()"/>
+  <xsl:param name="split-output-syn" static="true" select="true()"/>
   
   <xd:doc scope="template">
     <xd:desc>
