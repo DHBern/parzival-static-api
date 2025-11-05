@@ -69,6 +69,10 @@ declare %private function model:template-milestone2($config as map(*), $node as 
 };
 (: generated template function for element spec: milestone :)
 declare %private function model:template-milestone3($config as map(*), $node as node()*, $params as map(*)) {
+    ``[[Nicht ausgeführte Illustration; Nachtrag von späterer Hand]]``
+};
+(: generated template function for element spec: milestone :)
+declare %private function model:template-milestone4($config as map(*), $node as node()*, $params as map(*)) {
     ``[[Illustration]]``
 };
 (:~
@@ -651,7 +655,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 return
                                                                 fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-milestone2", "image", css:map-rend-to-class(.)), $content)
                             else
-                                if (@unit='Bild') then
+                                if (@unit='Nicht_ausgeführtes_Bild mit Nachtrag') then
                                     let $params := 
                                         map {
                                             "content": .
@@ -662,7 +666,18 @@ declare function model:apply($config as map(*), $input as node()*) {
                                     return
                                                                         fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-milestone3", "image", css:map-rend-to-class(.)), $content)
                                 else
-                                    fo:inline($config, ., ("tei-milestone4", "milestone", css:map-rend-to-class(.)), .)
+                                    if (@unit='Bild') then
+                                        let $params := 
+                                            map {
+                                                "content": .
+                                            }
+
+                                                                                let $content := 
+                                            model:template-milestone4($config, ., $params)
+                                        return
+                                                                                fo:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-milestone4", "image", css:map-rend-to-class(.)), $content)
+                                    else
+                                        fo:inline($config, ., ("tei-milestone5", "milestone", css:map-rend-to-class(.)), .)
                     case element(subst) return
                         if (@hand[starts-with(., '#ls')]) then
                             fo:inline($config, ., ("tei-subst1", "subst_ls", css:map-rend-to-class(.)), .)
