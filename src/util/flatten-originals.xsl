@@ -153,8 +153,13 @@
     <xd:desc>Tustep exports may contain upper-case file and line IDs (this first occurred 2025-11-10). 
       They are normalised to lower-case to keep mappings working.</xd:desc>
   </xd:doc>
-  <xsl:template match="@xml:id" mode="lowercase-xml-ids">
+  <xsl:template match="@xml:id[parent::*[local-name()=('l','pb','cb')]]" mode="lowercase-xml-ids">
     <xsl:attribute name="xml:id" select=". => lower-case()"/>
   </xsl:template>
   
+  <xsl:template match="note/@target | metamark/@target" mode="lowercase-xml-ids">
+    <xsl:attribute name="target" select="((tokenize(.,'\s') => head() => lower-case()) || ' ' || (tokenize(.,'\s') => tail() => string-join(' '))) => normalize-space()"/>
+  </xsl:template>
+
+
 </xsl:transform>
