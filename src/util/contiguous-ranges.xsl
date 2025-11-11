@@ -39,7 +39,7 @@
       <groups xmlns="https://dsl.unibe.ch">
         <xsl:for-each select="uri-collection($path_src||'data/original/transcription?recurse=yes;select=*.xml')">
           <xsl:variable name="document" as="xs:string" select="doc(.) => base-uri() => replace('.+/(.+)\.xml','$1')"/>
-          <xsl:variable name="dreissiger-by-document_sequence" as="item()+" select="doc(.)//*:l/@xml:id ! substring-after(.,$document||'_') 
+          <xsl:variable name="dreissiger-by-document_sequence" as="item()+" select="doc(.)//*:l/@xml:id ! lower-case(.) ! substring-after(.,$document||'_') 
             ! substring-before(.,'.') 
             => distinct-values()"/>
           <xsl:variable name="dreissiger-by-document_max" as="xs:integer" select="$dreissiger-by-document_sequence ! number() => max() => xs:integer()"/>
