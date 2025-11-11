@@ -21,6 +21,7 @@
   <!-- uses mode "pass-through" from pass-through-originals.xsl -->
   <xsl:mode name="refine-originals" on-no-match="shallow-copy"/>
   <xsl:mode name="substitute-quotation-marks" on-no-match="shallow-copy"/>
+  <xsl:mode name="lowercase-xml-ids" on-no-match="shallow-copy"/>
 
   <xd:doc scope="template">
     <xd:desc>
@@ -69,10 +70,12 @@
         </xsl:choose>
       </xsl:variable>
       
-      
+      <xsl:variable name="pass3">
+          <xsl:apply-templates select="$pass2" mode="lowercase-xml-ids"/>
+      </xsl:variable>
       
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
-        <xsl:sequence select="$pass2"/>
+        <xsl:sequence select="$pass3"/>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -145,5 +148,13 @@
       => replace($apos||'$','‹$1')
       "/>
   </xsl:function>
+  
+  <xd:doc>
+    <xd:desc>Tustep exports may contain upper-case file and line IDs (this first occurred 2025-11-10). 
+      They are normalised to lower-case to keep mappings working.</xd:desc>
+  </xd:doc>
+  <xsl:template match="@xml:id" mode="lowercase-xml-ids">
+    <xsl:attribute name="xml:id" select=". => lower-case()"/>
+  </xsl:template>
   
 </xsl:transform>
