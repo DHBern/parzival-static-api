@@ -75,7 +75,15 @@
                 </elementSpec>
                 <elementSpec ident="milestone" mode="add">
                     <model predicate="@unit='Versumstellung'" behaviour="inline" cssClass="versechange"/>
-                    <model predicate="@unit='Bild'" behaviour="inline" cssClass="image"/>
+                    <model predicate="@unit='Nicht_ausgeführtes_Bild'" behaviour="inline" cssClass="image">
+            <pb:template xmlns="" xml:space="preserve">[Nicht ausgeführte Illustration]</pb:template>
+        </model>
+                    <model predicate="@unit='Nicht_ausgeführtes_Bild mit Nachtrag'" behaviour="inline" cssClass="image">
+            <pb:template xmlns="" xml:space="preserve">[Nicht ausgeführte Illustration; Nachtrag von späterer Hand]</pb:template>
+        </model>
+                    <model predicate="@unit='Bild'" behaviour="inline" cssClass="image">
+            <pb:template xmlns="" xml:space="preserve">[Illustration]</pb:template>
+        </model>
                     <model behaviour="inline" cssClass="milestone"/>
                 </elementSpec>
                 <elementSpec ident="subst" mode="add">

@@ -34,7 +34,7 @@
       "sigil": "*m",
       "handle": "*m",
       "aka": "Gruppe der Lauberhandschriften",
-      "witnesses": ["mk", "n", "o"]
+      "witnesses": ["mk", "nk", "ok"]
       },
       {
       "sigil": "*G",
