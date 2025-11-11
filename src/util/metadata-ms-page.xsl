@@ -80,7 +80,7 @@
           <array key="{@n}">
             <xsl:for-each select="dsl:page[not(@n='')]">
               <map>
-                <string key="id">{@n}</string>
+                <string key="id">{@n => lower-case()}</string>
                 <string key="iiif">
                   <xsl:choose>
                     <!-- case: fragment -->
@@ -90,7 +90,7 @@
                       <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$fragment-nr => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
                     </xsl:when>
                     <!-- case: not fragment -->
-                    <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/parzival/{@n}.jpf/info.json</xsl:otherwise>
+                    <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/parzival/{@n => lower-case()}.jpf/info.json</xsl:otherwise>
                   </xsl:choose>
                 </string>
                 <array key="l">
