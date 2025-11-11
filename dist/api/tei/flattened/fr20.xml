@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr20</title>
+      <title type="sub">Transkription des Textzeugen Fr20</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
           <idno>Ms. germ. fol. 734 Nr. 4</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr20</idno>
+            <idno>Fr20</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr20">
@@ -79,6 +79,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -368,7 +371,7 @@
 <l xml:id="fr20_692.20"><gap reason="Fragmentverlust" extent="unbekannt"/> iſt leit din vngemach.</l>
 <l xml:id="fr20_692.21"><gap reason="Fragmentverlust" extent="unbekannt"/> mit min<choice><am>̉</am><ex>er</ex></choice> hant getan.</l>
 <l xml:id="fr20_692.22"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">g</unclear>in gein mir vf de<choice><am>̄</am><ex>n</ex></choice> plan.</l>
-<note resp="#MiGe_Transkribent" target="#?1_692.22 #Fr20;002va"><ref><unclear reason="Zweifel">g</unclear>in</ref>: Womöglich Korrektur von <ref>n</ref> zu <ref>g</ref>.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_692.22 #Fr20;002va"><ref><unclear reason="Zweifel">g</unclear>in</ref>: Womöglich Korrektur von <ref>n</ref> zu <ref>g</ref>.</note>
 <l xml:id="fr20_692.23"><gap reason="Fragmentverlust" extent="unbekannt"/>min dur ſtriten.</l>
 <l xml:id="fr20_692.24"><gap reason="Fragmentverlust" extent="unbekannt"/> gernir biten.</l>
 <l xml:id="fr20_692.25"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">d</unclear>e gernir nv ein wip.</l>
@@ -430,7 +433,7 @@
 <l xml:id="fr20_694.20">artuſ juncherrelin.</l>
 <l xml:id="fr20_694.21">viengin div orſ diſen zwein.</l>
 <l xml:id="fr20_694.22">anden orſin ſvnd<choice><am>̉</am><ex>er</ex></choice> <subst hand="#sr"><del>c*</del><add>camph</add></subst> oͮch ſchein.</l>
-<note resp="#MiGe_Transkribent" target="#?1_694.22 #Fr20;002vb"><ref><subst hand="#sr"><del>c*</del><add>camph</add></subst></ref>: Federansatz.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_694.22 #Fr20;002vb"><ref><subst hand="#sr"><del>c*</del><add>camph</add></subst></ref>: Federansatz.</note>
 <l xml:id="fr20_694.23">Gawan vn<choice><am>̄</am><ex>d</ex></choice> parzifal.</l>
 <l xml:id="fr20_694.24">vn<choice><am>̄</am><ex>d</ex></choice> froͮ bene div lieht gemal.</l>
 <l xml:id="fr20_694.25">riten wid<choice><am>̉</am><ex>er</ex></choice> gein ir her.</l>
@@ -459,7 +462,7 @@
 <l xml:id="fr20_718.02">leiſtich ſwaz mir der chunc gebot.</l>
 <l xml:id="fr20_718.03"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>artuſ unde bene.</l>
 <l xml:id="fr20_718.04">vn<choice><am>̄</am><ex>d</ex></choice> diſe chnappen <lb/><g ref="#alin1"/>zwene.<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
-<note resp="#MiGe_Transkribent" target="#?1_718.04 #Fr20_003ra"><ref><g ref="#alin1"/>zwene.</ref>: Das Wort befindet sich zur Rechten von Vers 717.29.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_718.04 #Fr20_003ra"><ref><g ref="#alin1"/>zwene.</ref>: Das Wort befindet sich zur Rechten von Vers 717.29.</note>
 <l xml:id="fr20_718.05">riten her vn<choice><am>̄</am><ex>d</ex></choice> dar.</l>
 <l xml:id="fr20_718.06">er lie div chint nemin war.</l>
 <l xml:id="fr20_718.07">liehte bliche an mæniger frowin.</l>
@@ -599,8 +602,8 @@
 <l xml:id="fr20_722.18">div geworht uon ſinceſtir.</l>
 <l xml:id="fr20_722.19">mit ir ſpærwære ſande ir huͦt.</l>
 <l xml:id="fr20_722.20">op ſi mir gnade tvͦt.</l>
-<l xml:id="fr20_722.22"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr20_722.21"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr20_722.22"><milestone unit="Versumstellung"/>op div erde wære ſo breit.</l>
+<l xml:id="fr20_722.21"><milestone unit="Versumstellung"/>alle irdiſchen richeit.</l>
 <l xml:id="fr20_722.23">da vur næmich ſi einen.</l>
 <l xml:id="fr20_722.24">ſi ſolz mit triwen meinen.</l>
 <l xml:id="fr20_722.25">vf ir gnade chum ich hie.</l>
@@ -654,9 +657,9 @@
 <l xml:id="fr20_724.12">beachvrſ unde affinamuſ.</l>
 <l xml:id="fr20_724.13">die chunigin man cuſſen ſach.</l>
 <l xml:id="fr20_724.14">artuſ <unclear reason="Zweifel">z</unclear>i gramoflanze ſprach.</l>
-<note resp="#MiGe_Transkribent" target="#?1_724.14 #Fr20;004ra"><ref><unclear reason="Zweifel">z</unclear>i</ref>: Das <ref>z</ref> könnte von einem Leser nachgetragen worden sein, hellere Tinte und andere Form.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_724.14 #Fr20;004ra"><ref><unclear reason="Zweifel">z</unclear>i</ref>: Das <ref>z</ref> könnte von einem Leser nachgetragen worden sein, hellere Tinte und andere Form.</note>
 <l xml:id="fr20_724.15"/>
-<note resp="#MiGe_Transkribent" target="#?1_724.15 #Fr20;004ra">: Die Zeile zwischen 724.14 und 724.16 wurde leer gelassen.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_724.15 #Fr20;004ra">: Die Zeile zwischen 724.14 und 724.16 wurde leer gelassen.</note>
 <l xml:id="fr20_724.16">ſeht obir diheine minnet.</l>
 <l xml:id="fr20_724.17">dirre frowin unde ch<unclear reason="Zweifel">u</unclear>ſſet die.</l>
 <l xml:id="fr20_724.18"><unclear reason="Zweifel">i</unclear>v bei<unclear reason="Zweifel">d</unclear>in ſiz geloͮbint hie.</l>
@@ -788,7 +791,7 @@
 <l xml:id="fr20_728.21">mit clarlichen lvten.</l>
 <l xml:id="fr20_728.22">ine mac iv niht gar betivten.</l>
 <l xml:id="fr20_728.23">vmbe ir namen vnd wa<choice><am>̄</am><ex>n</ex></choice>ne<choice><am>̄</am><ex>n</ex></choice> ſie wærin <lb/><g ref="#alin1"/>geborn.</l>
-<note resp="#MiGe_Transkribent" target="#?1_728.23 #Fr20;004vb"><ref><g ref="#alin1"/>geborn.</ref>: Das Wort befindet sich zur Rechten von Vers 728.21.</note>
+<note resp="#MiGe_Transkribent" target="#fr20_728.23 #Fr20;004vb"><ref><g ref="#alin1"/>geborn.</ref>: Das Wort befindet sich zur Rechten von Vers 728.21.</note>
 <l xml:id="fr20_728.24">da wart dur liep leit u<choice><am>̉</am><ex>er</ex></choice>chorn.</l>
 <l xml:id="fr20_728.24-1">vn<choice><am>̄</am><ex>d</ex></choice> ouch allir ſlahte zorn.</l>
 <l xml:id="fr20_728.25">orgeluſe div here.</l>

@@ -1,20 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr50</title>
+      <title type="sub">Transkription des Textzeugen Fr50</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <idno>fr50</idno>
+          <repository>Parzival-Projekt</repository>
+          <idno>Fr50</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr50">
                                 <title type="main">Fr. 50 (G<hi rend="sup">λ</hi> und j):</title>
                                 <list>
@@ -46,7 +47,7 @@
             <repository>"Bayerische Staatsbibliothek"</repository>
             <idno>"Cgm 5249/3a"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr50A</idno>
+              <idno>Fr50A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -61,7 +62,7 @@
             <repository>"Bayerische Staatsbibliothek"</repository>
             <idno>"Cgm 194/IV"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr50B</idno>
+              <idno>Fr50B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -92,6 +93,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -110,222 +114,222 @@
 <note>Endredaktion 1 abgeschlossen am 4.5.2017 von SiLa.</note>
 <note>Endredaktion II abgeschlossen am 24.11.2017 durch SiLa.</note>
 <note>14.9.2018, MiGe: Die Hinzuziehung des Abdrucks von Fr50 durch Friedrich Keinz (Friedrich Keinz, Über einige altdeutsche Denkmäler, in: Sitzungsberichte der Königl. Bayerischen Akademie der Wissenschaften zu München, Jg. 1869, Bd. II, München 1869, S. 290-321, hier S. 318f.) brachte keine neuen Erkenntnisse.</note>
-<pb xml:id="fr50001r"/><cb xml:id="fr50001ra"/>
-<l xml:id="fr50_79.09"><gap reason="Fragmentverlust" extent="unbekannt"/>ten vͦf daz velt</l>
-<l xml:id="fr50_79.10"><gap reason="Fragmentverlust" extent="unbekannt"/>prie gap ſtrites gelt</l>
-<l xml:id="fr50_79.11"><gap reason="Fragmentverlust" extent="unbekannt"/>n mohte wol ſi ein tvrnei</l>
-<l xml:id="fr50_79.12"><gap reason="Fragmentverlust" extent="unbekannt"/>ant da lach manich ſper entzwei</l>
-<cb xml:id="fr50001rb"/>
-<l xml:id="fr50_80.27">Daz er niht tvͦrnirte hie.</l>
-<l xml:id="fr50_80.28">daz en welle er leider wie.</l>
-<l xml:id="fr50_80.29">Er ſtap vor mvntehori</l>
-<l xml:id="fr50_80.30">da vor waſ im ein chvmber bi</l>
-<pb xml:id="fr50001v"/><cb xml:id="fr50001va"/>
-<l xml:id="fr50_82.15">Die andern priſ vnt ere</l>
-<l xml:id="fr50_82.16"><gap reason="Fragmentverlust" extent="unbekannt"/> zeit daz man ſi chere.</l>
-<l xml:id="fr50_82.17">V<gap reason="Fragmentverlust" extent="unbekannt"/>n ander nieman hie geſiht.</l>
-<l xml:id="fr50_82.18"><supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied> wert der phander liehtes niht</l>
-<cb xml:id="fr50001vb"/>
-<l xml:id="fr50_84.03">Er ſaz fvr ſi ſo nahen nider</l>
-<l xml:id="fr50_84.04">daz ſi in begreif vnd zoch in wide<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr50_84.05">Anderthalbe vaſte an ir lip</l>
-<l xml:id="fr50_84.06">ſi was ein magt vn<choice><am>̄</am><ex>d</ex></choice> niht ein wip.</l>
-<pb xml:id="fr50002r"/><cb xml:id="fr50002ra"/>
-<l xml:id="fr50_741.09">waren ver wirret dvrch hohen bris</l>
-<l xml:id="fr50_741.10">zeloben vf die bvkel ris.</l>
-<l xml:id="fr50_741.12"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr50_741.11"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr50_741.13">antrax dort genennet.</l>
-<l xml:id="fr50_741.14">karfvnkel hie erchennet.</l>
-<l xml:id="fr50_741.15">Dvrch der minne kvndwir</l>
-<l xml:id="fr50_741.16">ezidom daz reine tier.</l>
-<l xml:id="fr50_741.17">het im gewappen gegeben</l>
-<l xml:id="fr50_741.18">an der genade wold er leben</l>
-<l xml:id="fr50_741.19">Div chvnegin ſecvndille</l>
-<l xml:id="fr50_741.20">ditze wappen waz ir wille.</l>
-<l xml:id="fr50_741.21">Da ſtreit div reine lvterheit.</l>
-<l xml:id="fr50_741.22">groz triwe al da mit triwen ſtreit.</l>
-<l xml:id="fr50_741.23">Dvrch minne heten ſi ir leben.</l>
-<l xml:id="fr50_741.24">mit champh vͦf vrteil gegeben.</l>
-<l xml:id="fr50_741.25">Jtweders hant waſ ſicher bot</l>
-<l xml:id="fr50_741.26">der getovft. wol getroͮwet got.</l>
-<l xml:id="fr50_741.27">Sit er von trevrezent ſchiet.</l>
-<l xml:id="fr50_741.28">der im herzenlichen riet.</l>
-<l xml:id="fr50_741.29">er ſolde helfe an in gern.</l>
-<l xml:id="fr50_741.30">der in vrovde <subst hand="#sr"><del>wern</del><add><hi rend="rasur"><gap/></hi></add></subst> chvnde wern</l>
-<l xml:id="fr50_742.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er heiden trvch ſtarchiv lit</l>
-<l xml:id="fr50_742.02">wenn er ſchrit tabrvnit.</l>
-<l xml:id="fr50_742.03">Daz der chvnegin ſecvndillen was.</l>
-<l xml:id="fr50_742.04">von der minne kavkaſas.</l>
-<l xml:id="fr50_742.05">So gewan er niwen hohen mvͦt</l>
-<l xml:id="fr50_742.06">gein dem der ie was behvt.</l>
-<l xml:id="fr50_742.07">vor ſolhes ſtrites vber laſt.</l>
-<l xml:id="fr50_742.08">er was <gap reason="unleserlich" extent="unbekannt"/>mphentvre ein gaſt.</l>
-<l xml:id="fr50_742.09">Daz er nie gedolte.</l>
-<l xml:id="fr50_742.10">doh ſi manich zimier holte.</l>
-<l xml:id="fr50_742.11">Mit chvnſt ſi die arm ſwngen.</l>
-<l xml:id="fr50_742.12">daz fiͮwers bliche vͦz helmen ſprvngen</l>
-<l xml:id="fr50_742.13">vo<choice><am>̄</am><ex>n</ex></choice> ir ſwerten gie der ſvre wint</l>
-<l xml:id="fr50_742.14">got riet da gahmvretes chint.</l>
-<l xml:id="fr50_742.15">Daz wnſchen wir in beiden.</l>
-<l xml:id="fr50_742.16">dem getovften vn<choice><am>̄</am><ex>d</ex></choice> dem heiden</l>
-<l xml:id="fr50_742.17">Die nant ich vur einen.</l>
-<l xml:id="fr50_742.18">ſvs begvnden ſitz <subst hand="#sr"><del>vz</del><add>vͦh</add></subst> meinen</l>
-<l xml:id="fr50_742.19">waren einander bechant</l>
-<l xml:id="fr50_742.20">ſine ſazten niht ſo hohiv phant</l>
-<l xml:id="fr50_742.21">Jr ſtrit galt niht mere.</l>
-<l xml:id="fr50_742.22">wan vrovde vn<choice><am>̄</am><ex>d</ex></choice> ſælde vn<choice><am>̄</am><ex>d</ex></choice> ere.</l>
-<l xml:id="fr50_742.23">Swer da den bris gewinnet.</l>
-<l xml:id="fr50_742.24">ob der triwe minnet.</l>
-<l xml:id="fr50_742.25">werlich vrovde hat verlorn.</l>
-<l xml:id="fr50_742.26">vn<choice><am>̄</am><ex>d</ex></choice> immer herze riͮwe erchorn.</l>
-<cb xml:id="fr50002rb"/>
-<l xml:id="fr50_742.27">wes ſvmeſtv dich parcifal</l>
-<l xml:id="fr50_742.28">daz dv an die chvschen lieht gemal.</l>
-<l xml:id="fr50_742.29">Niht gedencheſt an div wip.</l>
-<l xml:id="fr50_742.30">wil dv behalten hie den lip.</l>
-<l xml:id="fr50_743.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er heiden trvch geſelleſchaft.</l>
-<l xml:id="fr50_743.02">dar an ovch lach ſin meiſtiv chraft.</l>
-<l xml:id="fr50_743.03">einiv daz er minne phlach.</l>
-<l xml:id="fr50_743.04">div mit ſtæte in ſinem herzen lach.</l>
-<l xml:id="fr50_743.05">Dar ander waren ſteine</l>
-<l xml:id="fr50_743.06">mit edelm arde reine.</l>
-<l xml:id="fr50_743.07">Jn hoh gemvt lerten.</l>
-<l xml:id="fr50_743.08">vn<choice><am>̄</am><ex>d</ex></choice> ſine chrafte merten.</l>
-<l xml:id="fr50_743.09">Mit mvt daz der getovfte.</l>
-<l xml:id="fr50_743.10">an ſtrit vn<choice><am>̄</am><ex>d</ex></choice> an lovfte.</l>
-<l xml:id="fr50_743.11">Mvdet vn<choice><am>̄</am><ex>d</ex></choice> an ſtarchen ſlegen.</l>
-<l xml:id="fr50_743.12">ob im nv <subst hand="#sr"><del>nv</del><add><hi rend="rasur"><gap/></hi></add></subst> niht gehelfen megen.</l>
-<l xml:id="fr50_743.13">Gvndwiramvrs vn<choice><am>̄</am><ex>d</ex></choice> der gral.</l>
-<l xml:id="fr50_743.14">werlicher parcifal.</l>
-<l xml:id="fr50_743.15">Nv mvſtv einen troſt doh habn.</l>
-<l xml:id="fr50_743.16">daz die claren ſvzzen chnaben</l>
-<l xml:id="fr50_743.17">So vrv niht verweiſent ſin.</l>
-<l xml:id="fr50_743.18">karadiez lohangin.</l>
-<l xml:id="fr50_743.19">Die bede lebentich trvch ſin wip.</l>
-<l xml:id="fr50_743.20">do er ivngeſt vmbe viench ir lip.</l>
-<l xml:id="fr50_743.21">Mit rehter chivſche erwerben chint.</l>
-<l xml:id="fr50_743.22">ich wæne div des mannes ſælde ſint.</l>
-<l xml:id="fr50_743.23">Der getovfte nam an chreften zvͦ.</l>
-<l xml:id="fr50_743.24">er daht ez was im niht zevrvͦ</l>
-<l xml:id="fr50_743.25">an ſin wip die chvneginne.</l>
-<l xml:id="fr50_743.26">vn<choice><am>̄</am><ex>d</ex></choice> an ir werden minne.</l>
-<l xml:id="fr50_743.27">Di er mit ſwertes ſchimphe erranch</l>
-<l xml:id="fr50_743.28">daz viver vz den helm ſpranch.</l>
-<l xml:id="fr50_743.29">vor peilrapeire clamide.</l>
-<l xml:id="fr50_743.30">tabrvnit vn<choice><am>̄</am><ex>d</ex></choice> taſme.</l>
-<l xml:id="fr50_744.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>en wart hie wider rvef gewegen</l>
-<l xml:id="fr50_744.02">parcifal begvnde ovh phlegn.</l>
-<l xml:id="fr50_744.03">Daz er peilrapeire ſchrite.</l>
-<l xml:id="fr50_744.04">gvndwiramvrs <sic>bezte</sic>.</l>
-<l xml:id="fr50_744.05">Dvch nivn chvnichriche al dar.</l>
-<l xml:id="fr50_744.06">ſi nam mit minnen chreften war.</l>
-<l xml:id="fr50_744.07">Do ſprvngen des ich wæne.</l>
-<l xml:id="fr50_744.08">von des heidens ſchilte ſpæne.</l>
-<l xml:id="fr50_744.09">etſlicher hvndert march wert.</l>
-<l xml:id="fr50_744.10">von kahaviez daz ſtarche ſwert.</l>
-<l xml:id="fr50_744.11">Mit ſlegn vͦf des heidens helm braſt.</l>
-<l xml:id="fr50_744.12">ſo daz der riche chvne gaſt.</l>
-<l xml:id="fr50_744.13">Mit ſtrvchen venige ſvhte.</l>
-<l xml:id="fr50_744.14">got des niht lenger rvhte.</l>
-<pb xml:id="fr50002v"/><cb xml:id="fr50002va"/>
-<l xml:id="fr50_744.15">Daz parcifal den re næme.</l>
-<l xml:id="fr50_744.16">in ſiner hende wol gezæme.</l>
-<l xml:id="fr50_744.17">Daz ſwert er Jther nam.</l>
-<l xml:id="fr50_744.18">als ſiner tvmpheit wol gezam.</l>
-<l xml:id="fr50_744.19">Der nie geſeich dvrch ſwertes ſwanch.</l>
-<l xml:id="fr50_744.20">der heiden ſnel do vf ſpranch.</l>
-<l xml:id="fr50_744.21">ez iſt noh vngeſcheiden.</l>
-<l xml:id="fr50_744.22">ze vrteil ez ſtet in beiden.</l>
-<l xml:id="fr50_744.23">vor der hohſten hende.</l>
-<l xml:id="fr50_744.24">daz div ir ſterben wende.</l>
-<l xml:id="fr50_744.25">Der heiden was mvtes riche.</l>
-<l xml:id="fr50_744.26">der ſprach do hofſchliche</l>
-<l xml:id="fr50_744.27">Jn franzoys daz er chvnde</l>
-<l xml:id="fr50_744.28">vz heideniſchem mvnde</l>
-<l xml:id="fr50_744.29">Jch ſihe wol heideniſcher man.</l>
-<l xml:id="fr50_744.30">din ſtrit wrde ane ſwert getan</l>
-<l xml:id="fr50_745.01">waz briſes beiagt ich an dir.</l>
-<l xml:id="fr50_745.02">ſtant ſtille vn<choice><am>̄</am><ex>d</ex></choice> ſage mir.</l>
-<l xml:id="fr50_745.03"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">W</seg>erlicher helt wer dv ſis</l>
-<l xml:id="fr50_745.04">vur war dv hætes minen bris</l>
-<l xml:id="fr50_745.05">behabt der lange iſt mich gewert.</l>
-<l xml:id="fr50_745.06">wær dir zebrochen niht din ſwert.</l>
-<l xml:id="fr50_745.07">Nv ſi von vns beiden fride.</l>
-<l xml:id="fr50_745.08">vnz baz gervwen div lide.</l>
-<l xml:id="fr50_745.09">Si ſazzen nider vͦf daz gras.</l>
-<l xml:id="fr50_745.10">manheit bi zvht an beiden was.</l>
-<l xml:id="fr50_745.11">vn<choice><am>̄</am><ex>d</ex></choice> ir beider iar von ſolher cite.</l>
-<l xml:id="fr50_745.12">ze ivnch noh ze alt bede an ſtrite.</l>
-<l xml:id="fr50_745.13">Der heiden zv dem getovften ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch.</l>
-<l xml:id="fr50_745.14">nv volge helt daz ich geſah.</l>
-<l xml:id="fr50_745.15">bi miner zit nie den man.</l>
-<l xml:id="fr50_745.16">d<choice><am>̉</am><ex>er</ex></choice> baz den briſ mohte han.</l>
-<l xml:id="fr50_745.17">Den man in ſtrite ſol beiagen.</l>
-<l xml:id="fr50_745.18">nv rvche helt mir bediv ſagen.</l>
-<l xml:id="fr50_745.19">dinen namen vn<choice><am>̄</am><ex>d</ex></choice> din art</l>
-<l xml:id="fr50_745.20">ſo iſt wol bewendet her min vart</l>
-<l xml:id="fr50_745.21">Do ſprach herzelovden ſvͦn.</l>
-<l xml:id="fr50_745.22">ſol ich daz dvrch varhte tvͦn</l>
-<l xml:id="fr50_745.23">Sone darf ez niemen an ivch gern</l>
-<l xml:id="fr50_745.24">ſol ich betwngelich wern.</l>
-<l xml:id="fr50_745.25">Der heiden von taſme.</l>
-<l xml:id="fr50_745.26">ſprach ich wil mich nennen e.</l>
-<l xml:id="fr50_745.27">vn<choice><am>̄</am><ex>d</ex></choice> la daz laſter weſen min.</l>
-<l xml:id="fr50_745.28">ich bin ferrefiz anſchivin.</l>
-<l xml:id="fr50_745.29">So riche wol daz min lant.</l>
-<l xml:id="fr50_745.30">mit zinſe dienet manech hant.</l>
-<l xml:id="fr50_746.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o diſiv rede von im geſchah.</l>
-<l xml:id="fr50_746.02">parcifal ze dem heiden ſprach.</l>
-<cb xml:id="fr50002vb"/>
-<l xml:id="fr50_746.03">wan von ſit ir ein anſchevin.</l>
-<l xml:id="fr50_746.04">anſchowe iſt von erbe min.</l>
-<l xml:id="fr50_746.05">Bvrge. lant vn<choice><am>̄</am><ex>d</ex></choice> ſtet.</l>
-<l xml:id="fr50_746.06">herre ir ſvlt dvrch min bet.</l>
-<l xml:id="fr50_746.07">Jv einen andern namen chieſen.</l>
-<l xml:id="fr50_746.08">ſol ich min lant verlieſen</l>
-<l xml:id="fr50_746.09">vn<choice><am>̄</am><ex>d</ex></choice> die werden ſtat ze belzenan.</l>
-<l xml:id="fr50_746.10">ſo het ir mir gewalte tan.</l>
-<l xml:id="fr50_746.11">vn<choice><am>̄</am><ex>d</ex></choice> iſt vnſer tweder ein anſchevin.</l>
-<l xml:id="fr50_746.12">daz ſol ich von arde ſin.</l>
-<l xml:id="fr50_746.13">Doh iſt mir vur war geſagt.</l>
-<l xml:id="fr50_746.14">daz ein helt vnverzagt.</l>
-<l xml:id="fr50_746.15">won inder heidenſchaft.</l>
-<l xml:id="fr50_746.16">vn<choice><am>̄</am><ex>d</ex></choice> hab mit ritterlicher chraft.</l>
-<l xml:id="fr50_746.17">Minne vn<choice><am>̄</am><ex>d</ex></choice> bris behalten.</l>
-<l xml:id="fr50_746.18">daz er mvzze beider walten.</l>
-<l xml:id="fr50_746.19">Der iſt <unclear reason="Zweifel"><subst hand="#sr"><del>ze</del><add><hi rend="rasur"><gap/></hi></add></subst></unclear> brvder mir genant.</l>
-<l xml:id="fr50_746.20">ſin hant in da vur bris erchant.</l>
-<l xml:id="fr50_746.21">Do ſprach aber parcifal.</l>
-<l xml:id="fr50_746.22">herre iwers antlvtzeſ mal.</l>
-<l xml:id="fr50_746.23">Het ich chvntlich erſehen.</l>
-<l xml:id="fr50_746.24">ſo wrde iv von mir ver iehen.</l>
-<l xml:id="fr50_746.25">alſo mir chvnt iſt getan.</l>
-<l xml:id="fr50_746.26">herre welt irz ane mich lan.</l>
-<l xml:id="fr50_746.27">So enblozzet iwer hovbet.</l>
-<l xml:id="fr50_746.28">ob ir mirz gelovbet.</l>
-<l xml:id="fr50_746.29">Min hant iv ſtrites gar verbirt.</l>
-<l xml:id="fr50_746.30">vnz ez ander ſtvnt gewappent wirt.</l>
-<l xml:id="fr50_747.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o ſprach der heideniſche man.</l>
-<l xml:id="fr50_747.02">dines ſtrites ich wenich angeſt han</l>
-<l xml:id="fr50_747.03">Stvnt ich gar bloz ſit ich han ſwert.</l>
-<l xml:id="fr50_747.04">dv wæreſt entſchvmphentvre gewert.</l>
-<l xml:id="fr50_747.05">Sit din ſwert zebrochen iſt.</l>
-<l xml:id="fr50_747.06">al din werlicher liſt</l>
-<l xml:id="fr50_747.07">Mach dich vor tode niht bewarn.</l>
-<l xml:id="fr50_747.08">ichn welle dich anders gern ſparn.</l>
-<l xml:id="fr50_747.09">E dv <subst hand="#sr"><del>begvnneſt</del><add>begvndeſt</add></subst> ringen.</l>
-<l xml:id="fr50_747.10">min ſwert daz liez ich dringen.</l>
-<l xml:id="fr50_747.11">bediv dvrch yſer. vn<choice><am>̄</am><ex>d</ex></choice> dvrch vel.</l>
-<l xml:id="fr50_747.12">der ſtarch heiden vn<choice><am>̄</am><ex>d</ex></choice> ſnel.</l>
-<l xml:id="fr50_747.13">Tet manlich ſin ſchin.</l>
-<l xml:id="fr50_747.14">daz ſwert ſol vnſer tweders ſin.</l>
-<l xml:id="fr50_747.15">Ez warf der chvne degen balt.</l>
-<l xml:id="fr50_747.16">verre von im in den walt.</l>
-<l xml:id="fr50_747.17">er ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch ſol hie nv ſtrit ergen.</l>
-<l xml:id="fr50_747.18">daz mvz geliche tſchantze ſten.</l>
-<l xml:id="fr50_747.19">Do ſprach der riche feyrafiz.</l>
-<l xml:id="fr50_747.20">helt dvrch diner zvhte fliz.</l>
+<pb xml:id="Fr50001r"/><cb xml:id="Fr50001ra"/>
+<l xml:id="Fr50_79.09"><gap reason="Fragmentverlust" extent="unbekannt"/>ten vͦf daz velt</l>
+<l xml:id="Fr50_79.10"><gap reason="Fragmentverlust" extent="unbekannt"/>prie gap ſtrites gelt</l>
+<l xml:id="Fr50_79.11"><gap reason="Fragmentverlust" extent="unbekannt"/>n mohte wol ſi ein tvrnei</l>
+<l xml:id="Fr50_79.12"><gap reason="Fragmentverlust" extent="unbekannt"/>ant da lach manich ſper entzwei</l>
+<cb xml:id="Fr50001rb"/>
+<l xml:id="Fr50_80.27">Daz er niht tvͦrnirte hie.</l>
+<l xml:id="Fr50_80.28">daz en welle er leider wie.</l>
+<l xml:id="Fr50_80.29">Er ſtap vor mvntehori</l>
+<l xml:id="Fr50_80.30">da vor waſ im ein chvmber bi</l>
+<pb xml:id="Fr50001v"/><cb xml:id="Fr50001va"/>
+<l xml:id="Fr50_82.15">Die andern priſ vnt ere</l>
+<l xml:id="Fr50_82.16"><gap reason="Fragmentverlust" extent="unbekannt"/> zeit daz man ſi chere.</l>
+<l xml:id="Fr50_82.17">V<gap reason="Fragmentverlust" extent="unbekannt"/>n ander nieman hie geſiht.</l>
+<l xml:id="Fr50_82.18"><supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied> wert der phander liehtes niht</l>
+<cb xml:id="Fr50001vb"/>
+<l xml:id="Fr50_84.03">Er ſaz fvr ſi ſo nahen nider</l>
+<l xml:id="Fr50_84.04">daz ſi in begreif vnd zoch in wide<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="Fr50_84.05">Anderthalbe vaſte an ir lip</l>
+<l xml:id="Fr50_84.06">ſi was ein magt vn<choice><am>̄</am><ex>d</ex></choice> niht ein wip.</l>
+<pb xml:id="Fr50002r"/><cb xml:id="Fr50002ra"/>
+<l xml:id="Fr50_741.09">waren ver wirret dvrch hohen bris</l>
+<l xml:id="Fr50_741.10">zeloben vf die bvkel ris.</l>
+<l xml:id="Fr50_741.12"><milestone unit="Versumstellung"/>ein ſtein des namen tvn ich iv chvnt.</l>
+<l xml:id="Fr50_741.11"><milestone unit="Versumstellung"/>vf dem bvkel hvſe ſtvnt.</l>
+<l xml:id="Fr50_741.13">antrax dort genennet.</l>
+<l xml:id="Fr50_741.14">karfvnkel hie erchennet.</l>
+<l xml:id="Fr50_741.15">Dvrch der minne kvndwir</l>
+<l xml:id="Fr50_741.16">ezidom daz reine tier.</l>
+<l xml:id="Fr50_741.17">het im gewappen gegeben</l>
+<l xml:id="Fr50_741.18">an der genade wold er leben</l>
+<l xml:id="Fr50_741.19">Div chvnegin ſecvndille</l>
+<l xml:id="Fr50_741.20">ditze wappen waz ir wille.</l>
+<l xml:id="Fr50_741.21">Da ſtreit div reine lvterheit.</l>
+<l xml:id="Fr50_741.22">groz triwe al da mit triwen ſtreit.</l>
+<l xml:id="Fr50_741.23">Dvrch minne heten ſi ir leben.</l>
+<l xml:id="Fr50_741.24">mit champh vͦf vrteil gegeben.</l>
+<l xml:id="Fr50_741.25">Jtweders hant waſ ſicher bot</l>
+<l xml:id="Fr50_741.26">der getovft. wol getroͮwet got.</l>
+<l xml:id="Fr50_741.27">Sit er von trevrezent ſchiet.</l>
+<l xml:id="Fr50_741.28">der im herzenlichen riet.</l>
+<l xml:id="Fr50_741.29">er ſolde helfe an in gern.</l>
+<l xml:id="Fr50_741.30">der in vrovde <subst hand="#sr"><del>wern</del><add><hi rend="rasur"><gap/></hi></add></subst> chvnde wern</l>
+<l xml:id="Fr50_742.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er heiden trvch ſtarchiv lit</l>
+<l xml:id="Fr50_742.02">wenn er ſchrit tabrvnit.</l>
+<l xml:id="Fr50_742.03">Daz der chvnegin ſecvndillen was.</l>
+<l xml:id="Fr50_742.04">von der minne kavkaſas.</l>
+<l xml:id="Fr50_742.05">So gewan er niwen hohen mvͦt</l>
+<l xml:id="Fr50_742.06">gein dem der ie was behvt.</l>
+<l xml:id="Fr50_742.07">vor ſolhes ſtrites vber laſt.</l>
+<l xml:id="Fr50_742.08">er was <gap reason="unleserlich" extent="unbekannt"/>mphentvre ein gaſt.</l>
+<l xml:id="Fr50_742.09">Daz er nie gedolte.</l>
+<l xml:id="Fr50_742.10">doh ſi manich zimier holte.</l>
+<l xml:id="Fr50_742.11">Mit chvnſt ſi die arm ſwngen.</l>
+<l xml:id="Fr50_742.12">daz fiͮwers bliche vͦz helmen ſprvngen</l>
+<l xml:id="Fr50_742.13">vo<choice><am>̄</am><ex>n</ex></choice> ir ſwerten gie der ſvre wint</l>
+<l xml:id="Fr50_742.14">got riet da gahmvretes chint.</l>
+<l xml:id="Fr50_742.15">Daz wnſchen wir in beiden.</l>
+<l xml:id="Fr50_742.16">dem getovften vn<choice><am>̄</am><ex>d</ex></choice> dem heiden</l>
+<l xml:id="Fr50_742.17">Die nant ich vur einen.</l>
+<l xml:id="Fr50_742.18">ſvs begvnden ſitz <subst hand="#sr"><del>vz</del><add>vͦh</add></subst> meinen</l>
+<l xml:id="Fr50_742.19">waren einander bechant</l>
+<l xml:id="Fr50_742.20">ſine ſazten niht ſo hohiv phant</l>
+<l xml:id="Fr50_742.21">Jr ſtrit galt niht mere.</l>
+<l xml:id="Fr50_742.22">wan vrovde vn<choice><am>̄</am><ex>d</ex></choice> ſælde vn<choice><am>̄</am><ex>d</ex></choice> ere.</l>
+<l xml:id="Fr50_742.23">Swer da den bris gewinnet.</l>
+<l xml:id="Fr50_742.24">ob der triwe minnet.</l>
+<l xml:id="Fr50_742.25">werlich vrovde hat verlorn.</l>
+<l xml:id="Fr50_742.26">vn<choice><am>̄</am><ex>d</ex></choice> immer herze riͮwe erchorn.</l>
+<cb xml:id="Fr50002rb"/>
+<l xml:id="Fr50_742.27">wes ſvmeſtv dich parcifal</l>
+<l xml:id="Fr50_742.28">daz dv an die chvschen lieht gemal.</l>
+<l xml:id="Fr50_742.29">Niht gedencheſt an div wip.</l>
+<l xml:id="Fr50_742.30">wil dv behalten hie den lip.</l>
+<l xml:id="Fr50_743.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er heiden trvch geſelleſchaft.</l>
+<l xml:id="Fr50_743.02">dar an ovch lach ſin meiſtiv chraft.</l>
+<l xml:id="Fr50_743.03">einiv daz er minne phlach.</l>
+<l xml:id="Fr50_743.04">div mit ſtæte in ſinem herzen lach.</l>
+<l xml:id="Fr50_743.05">Dar ander waren ſteine</l>
+<l xml:id="Fr50_743.06">mit edelm arde reine.</l>
+<l xml:id="Fr50_743.07">Jn hoh gemvt lerten.</l>
+<l xml:id="Fr50_743.08">vn<choice><am>̄</am><ex>d</ex></choice> ſine chrafte merten.</l>
+<l xml:id="Fr50_743.09">Mit mvt daz der getovfte.</l>
+<l xml:id="Fr50_743.10">an ſtrit vn<choice><am>̄</am><ex>d</ex></choice> an lovfte.</l>
+<l xml:id="Fr50_743.11">Mvdet vn<choice><am>̄</am><ex>d</ex></choice> an ſtarchen ſlegen.</l>
+<l xml:id="Fr50_743.12">ob im nv <subst hand="#sr"><del>nv</del><add><hi rend="rasur"><gap/></hi></add></subst> niht gehelfen megen.</l>
+<l xml:id="Fr50_743.13">Gvndwiramvrs vn<choice><am>̄</am><ex>d</ex></choice> der gral.</l>
+<l xml:id="Fr50_743.14">werlicher parcifal.</l>
+<l xml:id="Fr50_743.15">Nv mvſtv einen troſt doh habn.</l>
+<l xml:id="Fr50_743.16">daz die claren ſvzzen chnaben</l>
+<l xml:id="Fr50_743.17">So vrv niht verweiſent ſin.</l>
+<l xml:id="Fr50_743.18">karadiez lohangin.</l>
+<l xml:id="Fr50_743.19">Die bede lebentich trvch ſin wip.</l>
+<l xml:id="Fr50_743.20">do er ivngeſt vmbe viench ir lip.</l>
+<l xml:id="Fr50_743.21">Mit rehter chivſche erwerben chint.</l>
+<l xml:id="Fr50_743.22">ich wæne div des mannes ſælde ſint.</l>
+<l xml:id="Fr50_743.23">Der getovfte nam an chreften zvͦ.</l>
+<l xml:id="Fr50_743.24">er daht ez was im niht zevrvͦ</l>
+<l xml:id="Fr50_743.25">an ſin wip die chvneginne.</l>
+<l xml:id="Fr50_743.26">vn<choice><am>̄</am><ex>d</ex></choice> an ir werden minne.</l>
+<l xml:id="Fr50_743.27">Di er mit ſwertes ſchimphe erranch</l>
+<l xml:id="Fr50_743.28">daz viver vz den helm ſpranch.</l>
+<l xml:id="Fr50_743.29">vor peilrapeire clamide.</l>
+<l xml:id="Fr50_743.30">tabrvnit vn<choice><am>̄</am><ex>d</ex></choice> taſme.</l>
+<l xml:id="Fr50_744.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>en wart hie wider rvef gewegen</l>
+<l xml:id="Fr50_744.02">parcifal begvnde ovh phlegn.</l>
+<l xml:id="Fr50_744.03">Daz er peilrapeire ſchrite.</l>
+<l xml:id="Fr50_744.04">gvndwiramvrs <sic>bezte</sic>.</l>
+<l xml:id="Fr50_744.05">Dvch nivn chvnichriche al dar.</l>
+<l xml:id="Fr50_744.06">ſi nam mit minnen chreften war.</l>
+<l xml:id="Fr50_744.07">Do ſprvngen des ich wæne.</l>
+<l xml:id="Fr50_744.08">von des heidens ſchilte ſpæne.</l>
+<l xml:id="Fr50_744.09">etſlicher hvndert march wert.</l>
+<l xml:id="Fr50_744.10">von kahaviez daz ſtarche ſwert.</l>
+<l xml:id="Fr50_744.11">Mit ſlegn vͦf des heidens helm braſt.</l>
+<l xml:id="Fr50_744.12">ſo daz der riche chvne gaſt.</l>
+<l xml:id="Fr50_744.13">Mit ſtrvchen venige ſvhte.</l>
+<l xml:id="Fr50_744.14">got des niht lenger rvhte.</l>
+<pb xml:id="Fr50002v"/><cb xml:id="Fr50002va"/>
+<l xml:id="Fr50_744.15">Daz parcifal den re næme.</l>
+<l xml:id="Fr50_744.16">in ſiner hende wol gezæme.</l>
+<l xml:id="Fr50_744.17">Daz ſwert er Jther nam.</l>
+<l xml:id="Fr50_744.18">als ſiner tvmpheit wol gezam.</l>
+<l xml:id="Fr50_744.19">Der nie geſeich dvrch ſwertes ſwanch.</l>
+<l xml:id="Fr50_744.20">der heiden ſnel do vf ſpranch.</l>
+<l xml:id="Fr50_744.21">ez iſt noh vngeſcheiden.</l>
+<l xml:id="Fr50_744.22">ze vrteil ez ſtet in beiden.</l>
+<l xml:id="Fr50_744.23">vor der hohſten hende.</l>
+<l xml:id="Fr50_744.24">daz div ir ſterben wende.</l>
+<l xml:id="Fr50_744.25">Der heiden was mvtes riche.</l>
+<l xml:id="Fr50_744.26">der ſprach do hofſchliche</l>
+<l xml:id="Fr50_744.27">Jn franzoys daz er chvnde</l>
+<l xml:id="Fr50_744.28">vz heideniſchem mvnde</l>
+<l xml:id="Fr50_744.29">Jch ſihe wol heideniſcher man.</l>
+<l xml:id="Fr50_744.30">din ſtrit wrde ane ſwert getan</l>
+<l xml:id="Fr50_745.01">waz briſes beiagt ich an dir.</l>
+<l xml:id="Fr50_745.02">ſtant ſtille vn<choice><am>̄</am><ex>d</ex></choice> ſage mir.</l>
+<l xml:id="Fr50_745.03"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">W</seg>erlicher helt wer dv ſis</l>
+<l xml:id="Fr50_745.04">vur war dv hætes minen bris</l>
+<l xml:id="Fr50_745.05">behabt der lange iſt mich gewert.</l>
+<l xml:id="Fr50_745.06">wær dir zebrochen niht din ſwert.</l>
+<l xml:id="Fr50_745.07">Nv ſi von vns beiden fride.</l>
+<l xml:id="Fr50_745.08">vnz baz gervwen div lide.</l>
+<l xml:id="Fr50_745.09">Si ſazzen nider vͦf daz gras.</l>
+<l xml:id="Fr50_745.10">manheit bi zvht an beiden was.</l>
+<l xml:id="Fr50_745.11">vn<choice><am>̄</am><ex>d</ex></choice> ir beider iar von ſolher cite.</l>
+<l xml:id="Fr50_745.12">ze ivnch noh ze alt bede an ſtrite.</l>
+<l xml:id="Fr50_745.13">Der heiden zv dem getovften ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch.</l>
+<l xml:id="Fr50_745.14">nv volge helt daz ich geſah.</l>
+<l xml:id="Fr50_745.15">bi miner zit nie den man.</l>
+<l xml:id="Fr50_745.16">d<choice><am>̉</am><ex>er</ex></choice> baz den briſ mohte han.</l>
+<l xml:id="Fr50_745.17">Den man in ſtrite ſol beiagen.</l>
+<l xml:id="Fr50_745.18">nv rvche helt mir bediv ſagen.</l>
+<l xml:id="Fr50_745.19">dinen namen vn<choice><am>̄</am><ex>d</ex></choice> din art</l>
+<l xml:id="Fr50_745.20">ſo iſt wol bewendet her min vart</l>
+<l xml:id="Fr50_745.21">Do ſprach herzelovden ſvͦn.</l>
+<l xml:id="Fr50_745.22">ſol ich daz dvrch varhte tvͦn</l>
+<l xml:id="Fr50_745.23">Sone darf ez niemen an ivch gern</l>
+<l xml:id="Fr50_745.24">ſol ich betwngelich wern.</l>
+<l xml:id="Fr50_745.25">Der heiden von taſme.</l>
+<l xml:id="Fr50_745.26">ſprach ich wil mich nennen e.</l>
+<l xml:id="Fr50_745.27">vn<choice><am>̄</am><ex>d</ex></choice> la daz laſter weſen min.</l>
+<l xml:id="Fr50_745.28">ich bin ferrefiz anſchivin.</l>
+<l xml:id="Fr50_745.29">So riche wol daz min lant.</l>
+<l xml:id="Fr50_745.30">mit zinſe dienet manech hant.</l>
+<l xml:id="Fr50_746.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o diſiv rede von im geſchah.</l>
+<l xml:id="Fr50_746.02">parcifal ze dem heiden ſprach.</l>
+<cb xml:id="Fr50002vb"/>
+<l xml:id="Fr50_746.03">wan von ſit ir ein anſchevin.</l>
+<l xml:id="Fr50_746.04">anſchowe iſt von erbe min.</l>
+<l xml:id="Fr50_746.05">Bvrge. lant vn<choice><am>̄</am><ex>d</ex></choice> ſtet.</l>
+<l xml:id="Fr50_746.06">herre ir ſvlt dvrch min bet.</l>
+<l xml:id="Fr50_746.07">Jv einen andern namen chieſen.</l>
+<l xml:id="Fr50_746.08">ſol ich min lant verlieſen</l>
+<l xml:id="Fr50_746.09">vn<choice><am>̄</am><ex>d</ex></choice> die werden ſtat ze belzenan.</l>
+<l xml:id="Fr50_746.10">ſo het ir mir gewalte tan.</l>
+<l xml:id="Fr50_746.11">vn<choice><am>̄</am><ex>d</ex></choice> iſt vnſer tweder ein anſchevin.</l>
+<l xml:id="Fr50_746.12">daz ſol ich von arde ſin.</l>
+<l xml:id="Fr50_746.13">Doh iſt mir vur war geſagt.</l>
+<l xml:id="Fr50_746.14">daz ein helt vnverzagt.</l>
+<l xml:id="Fr50_746.15">won inder heidenſchaft.</l>
+<l xml:id="Fr50_746.16">vn<choice><am>̄</am><ex>d</ex></choice> hab mit ritterlicher chraft.</l>
+<l xml:id="Fr50_746.17">Minne vn<choice><am>̄</am><ex>d</ex></choice> bris behalten.</l>
+<l xml:id="Fr50_746.18">daz er mvzze beider walten.</l>
+<l xml:id="Fr50_746.19">Der iſt <unclear reason="Zweifel"><subst hand="#sr"><del>ze</del><add><hi rend="rasur"><gap/></hi></add></subst></unclear> brvder mir genant.</l>
+<l xml:id="Fr50_746.20">ſin hant in da vur bris erchant.</l>
+<l xml:id="Fr50_746.21">Do ſprach aber parcifal.</l>
+<l xml:id="Fr50_746.22">herre iwers antlvtzeſ mal.</l>
+<l xml:id="Fr50_746.23">Het ich chvntlich erſehen.</l>
+<l xml:id="Fr50_746.24">ſo wrde iv von mir ver iehen.</l>
+<l xml:id="Fr50_746.25">alſo mir chvnt iſt getan.</l>
+<l xml:id="Fr50_746.26">herre welt irz ane mich lan.</l>
+<l xml:id="Fr50_746.27">So enblozzet iwer hovbet.</l>
+<l xml:id="Fr50_746.28">ob ir mirz gelovbet.</l>
+<l xml:id="Fr50_746.29">Min hant iv ſtrites gar verbirt.</l>
+<l xml:id="Fr50_746.30">vnz ez ander ſtvnt gewappent wirt.</l>
+<l xml:id="Fr50_747.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o ſprach der heideniſche man.</l>
+<l xml:id="Fr50_747.02">dines ſtrites ich wenich angeſt han</l>
+<l xml:id="Fr50_747.03">Stvnt ich gar bloz ſit ich han ſwert.</l>
+<l xml:id="Fr50_747.04">dv wæreſt entſchvmphentvre gewert.</l>
+<l xml:id="Fr50_747.05">Sit din ſwert zebrochen iſt.</l>
+<l xml:id="Fr50_747.06">al din werlicher liſt</l>
+<l xml:id="Fr50_747.07">Mach dich vor tode niht bewarn.</l>
+<l xml:id="Fr50_747.08">ichn welle dich anders gern ſparn.</l>
+<l xml:id="Fr50_747.09">E dv <subst hand="#sr"><del>begvnneſt</del><add>begvndeſt</add></subst> ringen.</l>
+<l xml:id="Fr50_747.10">min ſwert daz liez ich dringen.</l>
+<l xml:id="Fr50_747.11">bediv dvrch yſer. vn<choice><am>̄</am><ex>d</ex></choice> dvrch vel.</l>
+<l xml:id="Fr50_747.12">der ſtarch heiden vn<choice><am>̄</am><ex>d</ex></choice> ſnel.</l>
+<l xml:id="Fr50_747.13">Tet manlich ſin ſchin.</l>
+<l xml:id="Fr50_747.14">daz ſwert ſol vnſer tweders ſin.</l>
+<l xml:id="Fr50_747.15">Ez warf der chvne degen balt.</l>
+<l xml:id="Fr50_747.16">verre von im in den walt.</l>
+<l xml:id="Fr50_747.17">er ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch ſol hie nv ſtrit ergen.</l>
+<l xml:id="Fr50_747.18">daz mvz geliche tſchantze ſten.</l>
+<l xml:id="Fr50_747.19">Do ſprach der riche feyrafiz.</l>
+<l xml:id="Fr50_747.20">helt dvrch diner zvhte fliz.</l>
 </body>
 </text>
 </TEI>

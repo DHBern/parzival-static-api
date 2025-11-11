@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr12</title>
+      <title type="sub">Transkription des Textzeugen Fr12</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
           <idno>Ms. germ. fol. 734 Nr. 7</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr12</idno>
+            <idno>Fr12</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr12">
@@ -71,6 +71,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -281,8 +284,8 @@
 <l xml:id="fr12_765.20">feyrefizen ſi mit chuſſe vntfienc</l>
 <l xml:id="fr12_765.21">Artus vnd ouh Gramanz</l>
 <l xml:id="fr12_765.22">mit getr<unclear reason="Zweifel">iw</unclear>elicher libe ganz</l>
-<note resp="#MSt_Transkribent" target="#?1_765.22 #fr12_1vb"><ref>getr<unclear reason="Zweifel">iw</unclear>elicher</ref>: Oder ist <ref>getruvelicher</ref> zu lesen?</note>
-<note resp="#MiGe_Gegenleser" target="#?1_765.22 #Fr012_1vb"><ref>getr<unclear reason="Zweifel">iw</unclear>elicher</ref>: Rosenfeld gibt <ref>getruwelicher</ref> an.</note>
+<note resp="#MSt_Transkribent" target="#fr12_765.22 #fr12_1vb"><ref>getr<unclear reason="Zweifel">iw</unclear>elicher</ref>: Oder ist <ref>getruvelicher</ref> zu lesen?</note>
+<note resp="#MiGe_Gegenleser" target="#fr12_765.22 #Fr012_1vb"><ref>getr<unclear reason="Zweifel">iw</unclear>elicher</ref>: Rosenfeld gibt <ref>getruwelicher</ref> an.</note>
 <l xml:id="fr12_765.23">Entfingen diſen heiden.</l>
 <l xml:id="fr12_765.24">da wart im von in beiden</l>
 <l xml:id="fr12_765.25">Mit dienſte erboten ere</l>

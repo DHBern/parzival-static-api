@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr70</title>
+      <title type="sub">Transkription des Textzeugen Fr70</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Openbare en Gelderse Wetenschappelijke Bibl.</repository>
           <idno>MS 78</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr70</idno>
+            <idno>Fr70</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr70">
@@ -85,6 +85,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -169,8 +172,8 @@
 <l xml:id="fr70_761.10">des hi vrovde vil be iagete</l>
 <l xml:id="fr70_761.11">Jofroit bat in ezzen vro</l>
 <l xml:id="fr70_761.12">vnd clarlichen griffen zo</l>
-<l xml:id="fr70_761.14"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr70_761.13"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr70_761.14"><milestone unit="Versumstellung"/>vnd hemeliche queme dar</l>
+<l xml:id="fr70_761.13"><milestone unit="Versumstellung"/>mit rietern vnd mit vrowen scar</l>
 <l xml:id="fr70_761.15">daz sez so ane vengen</l>
 <l xml:id="fr70_761.16">vnd werdichlichen vntfeingen</l>
 <l xml:id="fr70_761.17">des stolzen gamurettes kint</l>

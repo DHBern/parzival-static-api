@@ -1,20 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr32</title>
+      <title type="sub">Transkription des Textzeugen Fr32</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <idno>fr32</idno>
+          <repository>Parzival-Projekt</repository>
+          <idno>Fr32</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr32">
                                 <title type="main">Fr. 32 (G<hi rend="sup">r</hi>): </title>
                                 <list>
@@ -49,7 +50,7 @@
             <repository>"Zentralbibliothek"</repository>
             <idno>"Cod. Car C 182"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr32A</idno>
+              <idno>Fr32A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -65,7 +66,7 @@
             <repository>"Staatsarchiv des Kantons"</repository>
             <idno>"C VI 1, VI, Nr. 6b"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr32B</idno>
+              <idno>Fr32B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -95,6 +96,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -807,7 +811,7 @@
 <l xml:id="fr32_23.10">den ſtacher drabe d<choice><am>c</am><ex>az</ex></choice> w<choice><am>c</am><ex>az</ex></choice> dem leit</l>
 <l xml:id="fr32_23.11">ob ſin wirt mit im niht vâr</l>
 <l xml:id="fr32_23.12">er vnde ſine ritter gâr.</l>
-<note resp="#JWer_Transkribent" target="#?1_23.12 #Fr32003rc">: Nach dem Punkt von <ref>gâr.</ref> befindet sich ein hochgestelltes <ref>e</ref>. Seine Funktion ist unklar.</note>
+<note resp="#JWer_Transkribent" target="#fr32_23.12 #Fr32003rc">: Nach dem Punkt von <ref>gâr.</ref> befindet sich ein hochgestelltes <ref>e</ref>. Seine Funktion ist unklar.</note>
 <l xml:id="fr32_23.13">ia deſwar. ſi ſint ez vrô</l>
 <l xml:id="fr32_23.14">ſi ritten mit ein and<choice><am>̉</am><ex>er</ex></choice> do</l>
 <l xml:id="fr32_23.15">vn<choice><am>̄</am><ex>de</ex></choice> erbeizten vor dem palas</l>

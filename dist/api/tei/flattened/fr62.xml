@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr62</title>
+      <title type="sub">Transkription des Textzeugen Fr62</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Tresoar (Fries Historisch en Letterkundig Centrum)</repository>
           <idno>ms. 150 Hs ltr.F</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr62</idno>
+            <idno>Fr62</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr62">
@@ -76,6 +76,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -107,7 +110,7 @@
 <l xml:id="fr62_520.29">ſus ſalman walken ganpel here.</l>
 <l xml:id="fr62_520.30">di niht min manlicher were.</l>
 <l xml:id="fr62_521.01"><seg type="Initiale" subtype="Prachtinitiale" n="9">J</seg>ch bin noh ledih von ſulhem pin</l>
-<note resp="#MiGe_Transkribent" target="#?1_521.01 #Fr62;1ra"><ref><seg type="Initiale" subtype="Prachtinitiale" n="9">J</seg></ref>:Die Initiale beginnt bereits in Vers 520.30 und ist in den Farben gelbgold und rot gehalten.</note>
+<note resp="#MiGe_Transkribent" target="#fr62_521.01 #Fr62;1ra"><ref><seg type="Initiale" subtype="Prachtinitiale" n="9">J</seg></ref>:Die Initiale beginnt bereits in Vers 520.30 und ist in den Farben gelbgold und rot gehalten.</note>
 <l xml:id="fr62_521.02">welt aber ir vn<choice><am>̄</am><ex>d</ex></choice> di frowe min</l>
 <l xml:id="fr62_521.03">mir ſmehe rede bieten</l>
 <l xml:id="fr62_521.04">ſo muztir uh eine nieten</l>
@@ -230,7 +233,7 @@
 <l xml:id="fr62_524.28">der kuninc artus <subst hand="#sr"><del>mir</del><add>mit</add></subst> einer wide</l>
 <l xml:id="fr62_524.29">woldez han gerochen</l>
 <l xml:id="fr62_524.30">hetich dich niht verſprochen.</l>
-<note resp="#MiGe_Transkribent" target="#?1_524.30 #Fr62;1vb">:Auf der rechten Seite der Verse 524.28ff. befindet sich eine <ref>S</ref>-Pracht"initiale" in den Farben gelb und rot, die sich nicht zuordnen lässt.</note>
+<note resp="#MiGe_Transkribent" target="#fr62_524.30 #Fr62;1vb">:Auf der rechten Seite der Verse 524.28ff. befindet sich eine <ref>S</ref>-Pracht"initiale" in den Farben gelb und rot, die sich nicht zuordnen lässt.</note>
 <l xml:id="fr62_525.01"><seg type="Initiale" subtype="Prachtinitiale" n="2">S</seg>waz dort geſcah du biſt nu hie.</l>
 <l xml:id="fr62_525.02">du horteſt ouh wol ſprechen ie.</l>
 <pb xml:id="fr62002r"/><cb xml:id="fr62002ra"/>
@@ -378,7 +381,7 @@
 <l xml:id="fr62_557.23">Der wirt mit truwen clagete</l>
 <l xml:id="fr62_557.24">ſime gaſte er ſagete</l>
 <l xml:id="fr62_557.24-0"><unclear reason="Zweifel"><note type="Kustode"><gap reason="unleserlich" extent="unbekannt"/></note></unclear></l>
-<note resp="#MiGe_Gegenleser" target="#?1_557.24-0 #Fr62002v"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Erkennbar ist ein anscheinend hochgestelltes Zeichen, das eine 2 oder eine 3 sein könnte.</note>
+<note resp="#MiGe_Gegenleser" target="#fr62_557.24-0 #Fr62002v"><ref><gap reason="unleserlich" extent="unbekannt"/></ref>: Erkennbar ist ein anscheinend hochgestelltes Zeichen, das eine 2 oder eine 3 sein könnte.</note>
 </body>
 </text>
 </TEI>

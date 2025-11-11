@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr14</title>
+      <title type="sub">Transkription des Textzeugen Fr14</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Universitätsbibliothek</repository>
           <idno>Ms. B 1</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr14</idno>
+            <idno>Fr14</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr14">
@@ -76,6 +76,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -92,7 +95,7 @@
 <note>6.9.18, MiGe: sek-Tags ergänzt und dabei teilweise Zweifel-Tags entfernt. Quellen: Hartl, Eduard: Das Erlanger Parzivalfragment, in: Beiträge zur Geschichte der deutschen Sprache und Literatur 56 (1932), S. 145-151 (Abdruck der Verse 20.15-17, 22.08-11, 24.02-05, 25.23-27, 41.10-44.18, 44.20-47,30) und (ergänzt im Oktober 2020) Bonath, Untersuchungen II, S. 290-295. Grundsätzlich werden die Angaben bei Bonath bevorzugt. In der Sekundärliteratur werden normales s und Schaft-s nicht unterschieden. Bei aus Hartl oder Bonath entnommenen Passagen wird jedes s als Schaft-s wiedergegeben.</note>
 <pb xml:id="fr14001r"/><cb xml:id="fr14001ra"/>
 <l xml:id="fr14_20.07"><gap reason="Fragmentverlust" extent="unbekannt"/> c<hi>hl</hi>ic<hi>h</hi>en enp<hi>h</hi><unclear reason="Zweifel">i</unclear>nc<hi>h</hi>.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_20.07 #Fr14001ra"><ref>enp<hi>h</hi><unclear reason="Zweifel">i</unclear>nc<hi>h</hi></ref>: Bonath transkribiert <ref>enpfiench</ref>. Der vierte Buchstabe des Wortes ist ein <ref>h</ref>, kein <ref>f</ref>. Zudem ist, rein vom Platz her gesehen ist <ref>i</ref> wahrscheinlicher als <ref>ie</ref>.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_20.07 #Fr14001ra"><ref>enp<hi>h</hi><unclear reason="Zweifel">i</unclear>nc<hi>h</hi></ref>: Bonath transkribiert <ref>enpfiench</ref>. Der vierte Buchstabe des Wortes ist ein <ref>h</ref>, kein <ref>f</ref>. Zudem ist, rein vom Platz her gesehen ist <ref>i</ref> wahrscheinlicher als <ref>ie</ref>.</note>
 <l xml:id="fr14_20.08"><hi>d</hi>az im nach <hi>f</hi>roͮ<lb/>den ſit <subst hand="#sru"><del>ergench</del><add>ergiench</add></subst>.</l>
 <l xml:id="fr14_20.09">daz waſ ein elle<unclear reason="Zweifel">n</unclear>ſ rich<lb/>er man.</l>
 <l xml:id="fr14_20.10">mit ſiner hant het er getan. <lb/></l>
@@ -159,7 +162,7 @@
 <l xml:id="fr14_23.27">ez w<supplied reason="unleserlich" resp="Sekundärliteratur">æ</supplied>r<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied> ir liep od<choice><am>̉</am><ex>er</ex></choice> leit.</l>
 <l xml:id="fr14_23.28">daz beſloz <lb/> da vor ir wipheit.</l>
 <l xml:id="fr14_23.29">ein wen<unclear reason="Zweifel">i</unclear>ch ſi gegen im <lb/> do trat.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_23.29 #Fr14001va"><ref>wen<unclear reason="Zweifel">i</unclear>ch</ref>: Bonath transkribiert <ref>wenech</ref>. Was wirklich dasteht, ist unsicher.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_23.29 #Fr14001va"><ref>wen<unclear reason="Zweifel">i</unclear>ch</ref>: Bonath transkribiert <ref>wenech</ref>. Was wirklich dasteht, ist unsicher.</note>
 <l xml:id="fr14_23.30">ir gaſt ſi ſich chvſſen bat.</l>
 <l xml:id="fr14_24.01">ſi nam <lb/> in ſelbe mit der hant.</l>
 <l xml:id="fr14_24.02">gegen den vinden <lb/> an die want.</l>
@@ -176,18 +179,18 @@
 <l xml:id="fr14_24.13">ir hovbet man d<gap reason="Fragmentverlust" extent="unbekannt"/>durch wol ſach. <lb/></l>
 <l xml:id="fr14_24.14">div wirtin zir gaſte ſprach.</l>
 <l xml:id="fr14_24.15">daz ir <lb/> liep w<supplied reason="unleserlich" resp="Sekundärliteratur">æ</supplied>re ir chom.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_24.15 #Fr14001va"><ref>chom</ref>: Über dem <ref>m</ref> befindet sich ein Loch. Bonath zufolge könnte ein Kürzungsstrich weggefallen sein.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_24.15 #Fr14001va"><ref>chom</ref>: Über dem <ref>m</ref> befindet sich ein Loch. Bonath zufolge könnte ein Kürzungsstrich weggefallen sein.</note>
 <l xml:id="fr14_24.16">herre ich han vo<choice><am>̄</am><ex>n</ex></choice> iv <lb/> v<choice><am>̉</am><ex>er</ex></choice>nom<choice><am>̄</am><ex>en</ex></choice>.</l>
 <l xml:id="fr14_24.17">vil ritterlicher werd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>cheit.</l>
 <l xml:id="fr14_24.18">durch <lb/> iwer zvht lat iv nicht <add hand="#ls1u">ſin</add> leit.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_24.18 #Fr14001va"><ref><add hand="#ls1u">ſin</add></ref>: Bonath zufolge wurde das Wort mit blasserer Tinte über der Zeile nachgetragen.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_24.18 #Fr14001va"><ref><add hand="#ls1u">ſin</add></ref>: Bonath zufolge wurde das Wort mit blasserer Tinte über der Zeile nachgetragen.</note>
 <l xml:id="fr14_24.19">ob ich iv <lb/> minen chvmb<choice><am>̉</am><ex>er</ex></choice> chlage.</l>
 <l xml:id="fr14_24.20">den ich nahe in <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">mime</unclear></supplied> hercen tr<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">age</unclear></supplied></l>
 <l xml:id="fr14_24.21"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">M</seg>in helfe <supplied reason="unleserlich" resp="Sekundärliteratur">iv</supplied>ch <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr14001vb"/>
 <l xml:id="fr14_25.13"><gap reason="Fragmentverlust" extent="unbekannt"/> <hi>ſ</hi>o<hi>l</hi>dir.</l>
 <l xml:id="fr14_25.14">von <hi>N</hi>orman<hi>d</hi>ie <hi><unclear reason="Zweifel">G</unclear></hi>a<hi>ſ</hi>cir.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_25.14 #Fr14001vb"><ref><hi><unclear reason="Zweifel">G</unclear></hi>a<hi>ſ</hi>cir</ref>: Bonath transkribiert <ref>Cascir</ref>. Es gibt keine Majusken zum Vergleich.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_25.14 #Fr14001vb"><ref><hi><unclear reason="Zweifel">G</unclear></hi>a<hi>ſ</hi>cir</ref>: Bonath transkribiert <ref>Cascir</ref>. Es gibt keine Majusken zum Vergleich.</note>
 <l xml:id="fr14_25.15"><hi>ſ</hi>o wi<hi>ſ</hi>e <lb/> degen here.</l>
 <l xml:id="fr14_25.16">noch hat hie ritter mere.</l>
 <l xml:id="fr14_25.17">kai<lb/>let vo<choice><am>̄</am><ex>n</ex></choice> hoſcvraſt.</l>
@@ -203,7 +206,7 @@
 <l xml:id="fr14_25.27">ge<lb/>ſcah ſi nim<choice><am>̉</am><ex>er</ex></choice> mer dechein man.</l>
 <l xml:id="fr14_25.28">ſine mvͦ<lb/>ſen iamers wnd<choice><am>̉</am><ex>er</ex></choice> han.</l>
 <l xml:id="fr14_25.29">ir hercen regen di <lb/> g<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſſe warp.</l>
-<note resp="#MiGe_Gegenleser" target="#?1_25.29 #Fr14001vb"><ref>regen</ref>: Laut Bonath über dem ersten <ref>e</ref> ein r-ähnlicher Haken in blasser Tinte.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_25.29 #Fr14001vb"><ref>regen</ref>: Laut Bonath über dem ersten <ref>e</ref> ein r-ähnlicher Haken in blasser Tinte.</note>
 <l xml:id="fr14_25.30">ſit ander <unclear reason="Zweifel">t</unclear>ioſt ir herre ſtarp. <lb/></l>
 <l xml:id="fr14_26.01">der g<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">a</unclear></supplied>ſt zer wirtinne.</l>
 <l xml:id="fr14_26.02">ſprach mit ritters <lb/> ſinne.</l>
@@ -334,7 +337,7 @@ inen d<unclear reason="Zweifel">e</unclear>r an.</l>
 <l xml:id="fr14_44.27"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> pflach div k.</l>
 <l xml:id="fr14_44.28">einer werd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n ſvͦ<lb/><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">minne</supplied></l>
 <l xml:id="fr14_44.29">vn<choice><am>̄</am><ex>de</ex></choice> Gahmvret ir hercen <lb/> tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#?1_44.29 #Fr14002va"><ref>tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath Supraskriptum-o über dem unleserlichem Buchstaben.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_44.29 #Fr14002va"><ref>tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath Supraskriptum-o über dem unleserlichem Buchstaben.</note>
 <l xml:id="fr14_44.30">vng<unclear reason="Zweifel">e</unclear>lich waſ doch ir zwæir hvͦt. <lb/></l>
 <l xml:id="fr14_45.01">ſi brachten opferſ vil ir goten.</l>
 <l xml:id="fr14_45.02">di vo<choice><am>̄</am><ex>n</ex></choice> <lb/> der <supplied reason="unleserlich" resp="Sekundärliteratur">ſtat waz</supplied> waſ geboten.</l>
@@ -352,7 +355,7 @@ inen d<unclear reason="Zweifel">e</unclear>r an.</l>
 <l xml:id="fr14_45.14">ze reht<choice><am>̉</am><ex>er</ex></choice> tioſt het <lb/> <gap reason="unleserlich" extent="2" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">gevalt</supplied></l>
 <l xml:id="fr14_45.15">vier vn<choice><am>̄</am><ex>de</ex></choice> zwenzech <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied> <lb/> nider.</l>
 <l xml:id="fr14_45.16">vn<choice><am>̄</am><ex>de</ex></choice> zoch ir or<unclear reason="Zweifel">s</unclear> alm<supplied reason="unleserlich" resp="Sekundärliteratur">aiſtich</supplied> wider. <lb/></l>
-<note resp="#MiGe_Gegenleser" target="#?1_45.16 #Fr14002va"><ref>alm<supplied reason="unleserlich" resp="Sekundärliteratur">aiſtich</supplied></ref>: Bonath zufolge ist auch die Lesung <ref>almæiſtich</ref> möglich.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_45.16 #Fr14002va"><ref>alm<supplied reason="unleserlich" resp="Sekundärliteratur">aiſtich</supplied></ref>: Bonath zufolge ist auch die Lesung <ref>almæiſtich</ref> möglich.</note>
 <l xml:id="fr14_45.17">da <supplied reason="unleserlich" resp="Sekundärliteratur">waren</supplied> gevangen fvrſten dri.</l>
 <l xml:id="fr14_45.18">den <lb/> reit <supplied reason="unleserlich" resp="Sekundärliteratur">manech</supplied> ritter bi.</l>
 <l xml:id="fr14_45.19">ze hof vf d<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n <lb/> palaſ.</l>
@@ -372,7 +375,7 @@ inen d<unclear reason="Zweifel">e</unclear>r an.</l>
 <l xml:id="fr14_46.03"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: rot">A</seg>ls <supplied reason="unleserlich" resp="Sekundärliteratur">tvͦt</supplied> ovch ir her Gaſcier.</l>
 <l xml:id="fr14_46.04">hvͦte<lb/>gern den ſcotten fier.</l>
 <l xml:id="fr14_46.05">bat er ſi chvͦſ<lb/>ſen an ir <supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#?1_46.05 #Fr14002va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath befindet sich über dem unleserlichen Buchstaben nach dem <ref>m</ref> ein Supraskriptum-o.</note>
+<note resp="#MiGe_Gegenleser" target="#fr14_46.05 #Fr14002va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied></ref>: Laut Bonath befindet sich über dem unleserlichen Buchstaben nach dem <ref>m</ref> ein Supraskriptum-o.</note>
 <l xml:id="fr14_46.06">der waſ von ſiner <lb/> tioſt wnt.</l>
 <l xml:id="fr14_46.07">er bat ſi alle ſ<supplied reason="unleserlich" resp="Sekundärliteratur">iz</supplied>en.</l>
 <l xml:id="fr14_46.08"><gap reason="unleserlich" extent="unbekannt"/><lb/>de <supplied reason="unleserlich" resp="Sekundärliteratur">er</supplied> ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch mit wizzen.</l>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr6</title>
+      <title type="sub">Transkription des Textzeugen Fr6</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>University Library (Sydney Jones Library)</repository>
           <idno>Ms. M 8951</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr6</idno>
+            <idno>Fr6</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr6">
@@ -77,6 +77,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -87,291 +90,291 @@
 <note>Fragment 6 weist an einigen Versanfängen (wie die Hss. D und T) nicht abgesetzte Majuskeln mit textgliedernder Funktion auf. Vgl. Dissertation Viehhauser-Mery, S. 239f. Diese werden in der Transkription mit dem Tag <seg type="Initiale" subtype="Majuskel" n="1"/> umrahmt, wobei grossgeschriebene Eigennamen am Versanfang von diese Tagging unberücksichtigt bleiben.</note>
 <note>Gegengelesen und kontrolliert von KHo Dezember 2016.</note>
 <note>09.10.2018, MiGe: Nochmals abgeglichen mit Palmer 1989 und dabei teiweise sek-Tags ergänzt und Zweifeltags entfernt.</note>
-<pb xml:id="fr6001r"/><cb xml:id="fr6001ra"/>
-<l xml:id="fr6_770.03">der herzoge farielaſtiſ von affrick<unclear reason="Zweifel">e</unclear></l>
-<l xml:id="fr6_770.04">der kvnic liddamvſ von agrippe</l>
-<l xml:id="fr6_770.05">der kvnic tridanz von tinodonte</l>
-<l xml:id="fr6_770.06">der kvnic Arimaſpiſ von ſchipelpionte</l>
-<l xml:id="fr6_770.07">der herzoge lippidinſ von agremontin</l>
-<l xml:id="fr6_770.08">der kvnic milion von nomadienteſin</l>
-<l xml:id="fr6_770.09">der grave vo<unclear reason="Zweifel">n</unclear> aſſigarzionte gabbarinſ</l>
-<l xml:id="fr6_770.10">der kvnic von rivigitaſ tranſlapinſ</l>
-<l xml:id="fr6_770.11">der grave von hibeborticon filoneſ</l>
-<l xml:id="fr6_770.12">der kvnic von centrivn killicrateſ</l>
-<l xml:id="fr6_770.13">der grave liſavander von ipopotiticon</l>
-<l xml:id="fr6_770.14">der herzoge thiride von Elixodion</l>
-<l xml:id="fr6_770.15">der kvnic von oraſtegenteſin toariſ</l>
-<note resp="#GVi_Transkribent" target="#?1_770.15 #Fr6001ra"><ref>kvnic</ref>: Palmer transkribiert <ref>kvnec</ref>.</note>
-<l xml:id="fr6_770.16">der herzoge von ſatarkionte alamiſ</l>
-<l xml:id="fr6_770.17">der kvnic amincaſ von ſotofeititon</l>
-<l xml:id="fr6_770.18">der herzoge carvb von dvſcontemeton</l>
-<note resp="#GVi_Transkribent" target="#?1_770.18 #fr6001ra"><ref>dvſcontemeton</ref>: Palmer transkribiert <ref>duscontemeton</ref> (Schaft-s wird in seiner Transkription nicht berücksichtigt).</note>
-<l xml:id="fr6_770.19">der kvnic von arabie zoroaſter</l>
-<l xml:id="fr6_770.20">der grave poſizonivſ von tilitaſter</l>
-<l xml:id="fr6_770.21">der herzoge ſe<supplied reason="unleserlich" resp="Sekundärliteratur">nn</supplied>eſ von narioclin</l>
-<l xml:id="fr6_770.22">der grave ediſſon von lan<unclear reason="Zweifel">z</unclear>eſardin</l>
-<l xml:id="fr6_770.23">der grave von ianfvſe friſtineſ</l>
-<l xml:id="fr6_770.24">der herzoge von atrofegente meioneſ</l>
-<l xml:id="fr6_770.25">der herzoge von novriente a<unclear reason="Zweifel">r</unclear>keinor</l>
-<l xml:id="fr6_770.26">der grave von panfatiſ aſtor</l>
-<l xml:id="fr6_770.27">die von azagovc vnd von zazamanc</l>
-<l xml:id="fr6_770.28">von ganfaſſaſche der kvnic ietracranc</l>
-<l xml:id="fr6_770.29">der grave ivranſ von blemvnzin</l>
-<l xml:id="fr6_770.30">der herzoge affinamvſ von amantaſin</l>
-<l xml:id="fr6_771.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">I</seg>ch hete ein dinc vur ſchande</l>
-<l xml:id="fr6_771.02">man iach in minem lande</l>
-<l xml:id="fr6_771.03">nekein ritter bezzer mohte ſin</l>
-<l xml:id="fr6_771.04">danne Gahmvret anſcevin</l>
-<l xml:id="fr6_771.05">der ie orſ vber ſchrite</l>
-<l xml:id="fr6_771.06">d<choice><am>c</am><ex>az</ex></choice> waſ min wille vnd ovch min ſite</l>
-<cb xml:id="fr6001rb"/>
-<l xml:id="fr6_771.07">daz ich vuere vnz ich in vunde</l>
-<l xml:id="fr6_771.08">ſit gewan ich ſtriteſ kvnde</l>
-<l xml:id="fr6_771.09">ich vurte harte creftic her</l>
-<l xml:id="fr6_771.10">von minen landen vfez mer</l>
-<l xml:id="fr6_771.11">gegn ritterſchefte het ich mvt</l>
-<l xml:id="fr6_771.12">ſwelch lant waſ werlich vnd gvt</l>
-<l xml:id="fr6_771.13">d<choice><am>c</am><ex>az</ex></choice> twang ich mit miner hende</l>
-<l xml:id="fr6_771.14">vnze verre inz ellende</l>
-<l xml:id="fr6_771.15">da werten mich ir minne</l>
-<l xml:id="fr6_771.16">zwo riche kvneginne</l>
-<l xml:id="fr6_771.17">olimpia vnd clavditte</l>
-<l xml:id="fr6_771.18">Secvndille iſt nv div dritte</l>
-<l xml:id="fr6_771.19">ich han dvrch wip vil getan</l>
-<l xml:id="fr6_771.20">hivte alrerſt ich cvnde han</l>
-<l xml:id="fr6_771.21">daz min vater Gahmvret iſt tot</l>
-<l xml:id="fr6_771.22">min brvder ſage ovch ſine not</l>
-<l xml:id="fr6_771.23"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o ſprach der werde parcifal</l>
-<l xml:id="fr6_771.24">ſid ich ſchiet vonme gral</l>
-<l xml:id="fr6_771.25">ſo hat min hant mit ſtrite</l>
-<l xml:id="fr6_771.26">in der enge vnd ander wite</l>
-<l xml:id="fr6_771.27">vil riterſchefte erzeiget</l>
-<l xml:id="fr6_771.28">etſlicheſ priſ geneiget</l>
-<l xml:id="fr6_771.29">der deſ waſ vngewent ie</l>
-<l xml:id="fr6_771.30">der wil ich ein teil nennen hie</l>
-<l xml:id="fr6_772.01">von liriuoin der kvnic ſchirniel</l>
-<l xml:id="fr6_772.02">vnd von avendroin ſin brvder mirabel</l>
-<l xml:id="fr6_772.03">der kvnic ſerabil von rozokarz</l>
-<l xml:id="fr6_772.04">vnd der kvnic pibleſvn von lorneparz</l>
-<l xml:id="fr6_772.05">von ſirnegvnz den kvnic ſelingorz</l>
-<l xml:id="fr6_772.06">vnd von villegarinz ſtrangedorz</l>
-<l xml:id="fr6_772.07">von mirnetalſ der grave rogvdal</l>
-<l xml:id="fr6_772.08">vnd von pleiedvnze lavdvnal</l>
-<l xml:id="fr6_772.09">der kvnic onipriez von itolac</l>
-<l xml:id="fr6_772.10">vnd d<choice><am>̉</am><ex>er</ex></choice> kvnic zironal von <subst hand="#sr"><del>ſmblidac</del><add>ſemblidac</add></subst></l>
-<pb xml:id="fr6001v"/><cb xml:id="fr6001va"/>
-<l xml:id="fr6_772.11">von ieropliſ d<choice><am>̉</am><ex>er</ex></choice> herzoge ierneganz</l>
-<l xml:id="fr6_772.12">vnd von zambron d<choice><am>̉</am><ex>er</ex></choice> grave plineſcanz</l>
-<l xml:id="fr6_772.13">von tvtelvnz d<choice><am>̉</am><ex>er</ex></choice> grave longefiez</l>
-<l xml:id="fr6_772.14">vnd von privegarz d<choice><am>̉</am><ex>er</ex></choice> herzoge marangliez</l>
-<l xml:id="fr6_772.15">vnd ẏpictaco<choice><am>̄</am><ex>n</ex></choice> der herzoge ſtrennolaſ</l>
-<l xml:id="fr6_772.16">der grave von <unclear reason="Fragliche Abkürzung">lampregvn</unclear> parfoiaſ</l>
-<l xml:id="fr6_772.17">von aſchalvn der kvnic vergvlaht</l>
-<l xml:id="fr6_772.18">von prancile d<choice><am>̉</am><ex>er</ex></choice> grave Rohvdaht</l>
-<l xml:id="fr6_772.19">poſtefar von landrvndehte</l>
-<l xml:id="fr6_772.20">der herzoge leidebrein vo<choice><am>̄</am><ex>n</ex></choice> redvnzehte</l>
-<l xml:id="fr6_772.21">von leterbe collebal</l>
-<l xml:id="fr6_772.22">von arl iovedaſt der provenzal</l>
-<l xml:id="fr6_772.23">von tripparvn der grave carfoiaſ</l>
-<l xml:id="fr6_772.24">diz er gienc da tvrnieren waſ</l>
-<l xml:id="fr6_772.25">die wile ich nach dem Grale reit</l>
-<l xml:id="fr6_772.26">ſolt ich iv gar nennen da ich ſtreit</l>
-<l xml:id="fr6_772.27">daz weren vnkvndiv zil</l>
-<l xml:id="fr6_772.28">dvrch not mvͦſ ichſ verſwigen vil</l>
-<l xml:id="fr6_772.29">ſwaz ir mir kvnt iſt getan</l>
-<l xml:id="fr6_772.30">die wenich hie genennet han</l>
-<l xml:id="fr6_773.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>er heiden waſ von <subst hand="#lsu"><del>hezzen</del><add>herzen</add></subst> vro</l>
-<note resp="#GVi//(KHo)_Transkribent" target="#?1_773.01 #fr6001va"><ref>hezzen</ref>: Palmer transkribiert <ref>herzen</ref>, er hat ebenfalls die r-Marginalie als Korrektur aufgefasst.(In seiner Transkription ist die Korrektur allerdings nicht ersichtlich.)</note>
-<l xml:id="fr6_773.02">daz ſinſ brvder priſ alſo</l>
-<l xml:id="fr6_773.03">ſtvnt daz ſin hant erſtreit</l>
-<l xml:id="fr6_773.04">ſo manige hohe werdicheit</l>
-<l xml:id="fr6_773.05">deſ danket er im ſere</l>
-<l xml:id="fr6_773.06">er heteſ ſelbe ovch ere</l>
-<l xml:id="fr6_773.07"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>nnen deſ hiez tragen Gawan</l>
-<l xml:id="fr6_773.08">alſ ez vnwizzende were getan</l>
-<l xml:id="fr6_773.09">deſ heiden zimierde inden rinc</l>
-<l xml:id="fr6_773.10">daz prveveten ſi da vur hohiv dinc</l>
-<l xml:id="fr6_773.11">rittere vnd vrowen</l>
-<l xml:id="fr6_773.12">begvnden alle ſchowen</l>
-<l xml:id="fr6_773.13">den wapenroc den ſchilt d<choice><am>c</am><ex>az</ex></choice> kvrſit</l>
-<l xml:id="fr6_773.14">der helm waſ zenge noch zewit</l>
-<cb xml:id="fr6001vb"/>
-<l xml:id="fr6_773.15">ſi priſeten algemeine</l>
-<l xml:id="fr6_773.16">die tivren edelen ſteine</l>
-<l xml:id="fr6_773.17">die dran verwirket lagen</l>
-<l xml:id="fr6_773.18">niemen darf mich vragen</l>
-<l xml:id="fr6_773.19">von ir arde wie ſi weren</l>
-<l xml:id="fr6_773.20">die lihten vnd die ſweren</l>
-<l xml:id="fr6_773.21">ivch hete baz beſcheiden deſ</l>
-<l xml:id="fr6_773.22">eraclivſ oder ercveſ</l>
-<l xml:id="fr6_773.23">vnd der crieche alexander</l>
-<l xml:id="fr6_773.24">vnd dannoch einander</l>
-<l xml:id="fr6_773.25">der wiſe pictagoraſ</l>
-<l xml:id="fr6_773.26">der ein aſtronomirre waſ</l>
-<l xml:id="fr6_773.27">vnd ovch ſo wit ane ſtrit</l>
-<l xml:id="fr6_773.28">daz niemen ſit adameſ zit</l>
-<l xml:id="fr6_773.29">mohte im gelichen ſin getragen</l>
-<l xml:id="fr6_773.30">der kvnde wol von ſteinen ſagen</l>
-<l xml:id="fr6_774.01"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>ie vrowen rvnden da ſwelch wip</l>
-<l xml:id="fr6_774.02">da mite zierte ſinen lip</l>
-<l xml:id="fr6_774.03">het er gegn der gewenket</l>
-<l xml:id="fr6_774.04">ſo were ſin priſ verkrenket</l>
-<l xml:id="fr6_774.05">etſliche waſ im doch ſo holt</l>
-<l xml:id="fr6_774.06">ſi hete ſin denſt wol gedolt</l>
-<l xml:id="fr6_774.07">ich wene dvrch ſine vremden mal</l>
-<l xml:id="fr6_774.08">Gramovlanz artvſ vnd parcifal</l>
-<l xml:id="fr6_774.09">vnd ovch der wirt her Gawan</l>
-<l xml:id="fr6_774.10">die viere giengn ſvnder dan</l>
-<l xml:id="fr6_774.11">den vrowen wart beſcheiden</l>
-<l xml:id="fr6_774.12">in ir pflege der riche heiden</l>
-<l xml:id="fr6_774.13">Artvſ warp eine hochgezit</l>
-<l xml:id="fr6_774.14">daz div deſ morgenſ ane ſtrit</l>
-<l xml:id="fr6_774.15">vf dem velde ergienge</l>
-<l xml:id="fr6_774.16">daz man da mite enpfienge</l>
-<l xml:id="fr6_774.17">ſinen neven ferefiz</l>
-<l xml:id="fr6_774.18">anden gewerp kert ivren vliz</l>
-<pb xml:id="fr6002r"/><cb xml:id="fr6002ra"/>
-<l xml:id="fr6_783.19-01"><note type="Notiz"><gap reason="unleserlich" extent="1" unit="Buchstabe"/> melek<unclear reason="Zweifel">rez</unclear> er<gap reason="unleserlich" extent="1" unit="Buchstabe"/> ſchraipſ<gap reason="unleserlich" extent="2" unit="Buchstabe"/>ſchrai</note></l>
-<l xml:id="fr6_783.19-02"><note type="Notiz">dei<gap reason="unleserlich" extent="1" unit="Buchstabe"/> an am <lb/> Ane</note></l>
-<l xml:id="fr6_783.19">do ich zemvnſalvaſche waſ</l>
-<l xml:id="fr6_783.20">bi dem trvrigen Anfortaſ</l>
-<l xml:id="fr6_783.21">ſwaz ich da ſchilde hangen vant</l>
-<l xml:id="fr6_783.22">die waren gemal alſ iuwer gewant</l>
-<l xml:id="fr6_783.23">vil tvrtelvben traget ir hie</l>
-<l xml:id="fr6_783.24">vrowe nv ſagt mir wenne od<choice><am>̉</am><ex>er</ex></choice> wie</l>
-<l xml:id="fr6_783.25">ich ſvl gegn minen vrovden varn</l>
-<l xml:id="fr6_783.26">vnd lat mich daz niht langer ſparn</l>
-<l xml:id="fr6_783.27"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>o ſprach ſi lieber herre min</l>
-<l xml:id="fr6_783.28">ein man ſol din geverte ſin</l>
-<l xml:id="fr6_783.29">den wele geleiteſ wart an mich</l>
-<l xml:id="fr6_783.30">dvrch helfe niht lange ſvme dich</l>
-<l xml:id="fr6_784.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">U</seg>ber al den rinc wart vernomen</l>
-<l xml:id="fr6_784.02">Cvndrie lazvrziere were kom<choice><am>̄</am><ex>n</ex></choice></l>
-<l xml:id="fr6_784.03">vnd waz ir mere meinde</l>
-<l xml:id="fr6_784.04">orgelvſe dvrch liebe weinde</l>
-<l xml:id="fr6_784.05">daz div vrage von parcifale</l>
-<l xml:id="fr6_784.06">d<supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied> anfortaſſeſ qwale</l>
-<l xml:id="fr6_784.07">ſolte machen wendic</l>
-<l xml:id="fr6_784.08">Artvſ der priſeſ genendic</l>
-<l xml:id="fr6_784.09">zecvndrien mit zvhten ſprach</l>
-<l xml:id="fr6_784.10">vrowe ritet an ivwer gemach</l>
-<l xml:id="fr6_784.11">lat ivwer pflegen leret ſelbe wie</l>
-<l xml:id="fr6_784.12"><seg type="Initiale" subtype="Majuskel" n="1">S</seg>i ſprach iſt Arnive hie</l>
-<l xml:id="fr6_784.13">ſwelch gemach mir div git</l>
-<l xml:id="fr6_784.14">deſ wil ich leben diſiv zit</l>
-<l xml:id="fr6_784.15">vnz daz min herre hinnen vert</l>
-<l xml:id="fr6_784.16">iſt ir gevancniſſe erwert</l>
-<l xml:id="fr6_784.17">ſo erlovbet daz ich mveze ſchowen</l>
-<l xml:id="fr6_784.18">ſi. vnd andere vrowen</l>
-<l xml:id="fr6_784.19">den clinſor teilte ſinen var</l>
-<l xml:id="fr6_784.20">mit gevancniſſe manic iar</l>
-<l xml:id="fr6_784.21">zwene ritter hvbenſ vf ir pfert</l>
-<l xml:id="fr6_784.22">ze arniven reit div maget wert.</l>
-<cb xml:id="fr6002rb"/>
-<l xml:id="fr6_784.23"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">N</seg>v waſ ovch zit d<choice><am>c</am><ex>az</ex></choice> man da gaz</l>
-<l xml:id="fr6_784.24">parcifal bi ſinem brvder ſaz</l>
-<l xml:id="fr6_784.25">den bat er geſellicheit</l>
-<l xml:id="fr6_784.26">ferefiz waſ im al bereit</l>
-<l xml:id="fr6_784.27">gegn mvnſalvaſche zeriten</l>
-<l xml:id="fr6_784.28">an den ſelben ziten</l>
-<l xml:id="fr6_784.29">ſtvndenſ vf vber al den rinc</l>
-<l xml:id="fr6_784.30">ferefiz warp hohiv dinc</l>
-<l xml:id="fr6_785.01">er vragete den kvnic Gramovlanz</l>
-<l xml:id="fr6_785.02">ob div liebe were ganz</l>
-<l xml:id="fr6_785.03">zwiſchen im vnd d<choice><am>̉</am><ex>er</ex></choice> niftelen ſin</l>
-<l xml:id="fr6_785.04">daz er daz tete an im nv ſchin</l>
-<l xml:id="fr6_785.05">helfet mir ir vnd min neve Gawan</l>
-<l xml:id="fr6_785.06">ſwaz wir hie kvnige vnd vurſten han</l>
-<l xml:id="fr6_785.07">barvne vnd arme ritter gar</l>
-<l xml:id="fr6_785.08">daz der nekeiner hinnen var</l>
-<l xml:id="fr6_785.09">ê ſi min cleinote erſehen</l>
-<l xml:id="fr6_785.10">mir were ein laſter hie geſchehen</l>
-<l xml:id="fr6_785.11">ſchied ich vor gabe hinnen vri</l>
-<l xml:id="fr6_785.12">ſwaz hie varndeſ volkeſ ſi</l>
-<l xml:id="fr6_785.13">die warten alle gabe an mich</l>
-<l xml:id="fr6_785.14">neve artvſ ich wil biten dich</l>
-<l xml:id="fr6_785.15">deiz den hohen niht verſmahe</l>
-<l xml:id="fr6_785.16">deſ gewerbeſ gegn in gahe</l>
-<l xml:id="fr6_785.17">vnd wiſ deſ laſterſ vur mich pfant</l>
-<l xml:id="fr6_785.18">ſi ercanten nie ſo riche hant</l>
-<l xml:id="fr6_785.19">vnd gip mir boten in mine habe</l>
-<l xml:id="fr6_785.20">da der preſent ſol komen abe.</l>
-<l xml:id="fr6_785.21"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o lobeten ſi dem heiden</l>
-<l xml:id="fr6_785.22">ſine wolten ſich niht ſcheiden</l>
-<l xml:id="fr6_785.23">von dem velde in vier tagen</l>
-<l xml:id="fr6_785.24">der heiden wart vro ſvſ hort ich ſagn</l>
-<l xml:id="fr6_785.25">Artvſ im wiſe boten gap</l>
-<l xml:id="fr6_785.26">die er ſolte ſenden anz hap</l>
-<pb xml:id="fr6002v"/><cb xml:id="fr6002va"/>
-<l xml:id="fr6_785.27">ferefiz Gahmvreteſ kint</l>
-<l xml:id="fr6_785.28">nam tincten vnd permint</l>
-<l xml:id="fr6_785.29">ſin ſchrift warzeichenſ niht v<choice><am>̉</am><ex>er</ex></choice>darp</l>
-<l xml:id="fr6_785.30">ich wene ie brief ſo vil erwarp</l>
-<l xml:id="fr6_786.01"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>ie boten vuren endehafte dan</l>
-<l xml:id="fr6_786.02">parcifal ſine rede alſvſ hvb an</l>
-<l xml:id="fr6_786.03">in franzoiſ er zin allen ſprach</l>
-<l xml:id="fr6_786.04">alſ trevrizent dort vorne iach</l>
-<l xml:id="fr6_786.05">daz den Gral zekeinen ziten</l>
-<l xml:id="fr6_786.06">nieman mohte erſtriten</l>
-<l xml:id="fr6_786.07">wan der vor gote were dar benant</l>
-<l xml:id="fr6_786.08"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>iz mere kom vber elliv lant</l>
-<l xml:id="fr6_786.09">daz kein ſtrit in mohte erwerben</l>
-<l xml:id="fr6_786.10">vil livte lie do verderben</l>
-<l xml:id="fr6_786.11">nach dem Grale gewerbeſ liſt</l>
-<l xml:id="fr6_786.12">da von er noch verborgen iſt</l>
-<l xml:id="fr6_786.13"><seg type="Initiale" subtype="Fleuronee" n="5" rend="Farbe: rot-blau">P</seg>arcifal vnd ferefiz</l>
-<l xml:id="fr6_786.14">div wip lerten iamerſ vliz</l>
-<l xml:id="fr6_786.15">ſi hetenz vngerne vermiten</l>
-<l xml:id="fr6_786.16">in div vier ſtvcke deſ herſ ſi rite<choice><am>̄</am><ex>n</ex></choice></l>
-<l xml:id="fr6_786.17">ſi namen vrlovp zal der diet</l>
-<l xml:id="fr6_786.18">ietweder dan mit vrovden ſchiet</l>
-<l xml:id="fr6_786.19">gewapent wol gegn ſtriteſ wer</l>
-<l xml:id="fr6_786.20">anme dritten tage vzſ heiden her</l>
-<l xml:id="fr6_786.21">wart zeJoflanze braht</l>
-<l xml:id="fr6_786.22">ſo grozer gabe wart nie gedaht</l>
-<l xml:id="fr6_786.23">ſwelch kvnic da ſiner gabe enpfant</l>
-<l xml:id="fr6_786.24">daz half iemer mer ſin hant</l>
-<l xml:id="fr6_786.25">ieſlichem man nach maze ſin</l>
-<l xml:id="fr6_786.26">wart nie ſo tivre gabe ſchin</l>
-<l xml:id="fr6_786.27">al den vrowen riche preſente</l>
-<l xml:id="fr6_786.28">von triande vnd von novriente</l>
-<l xml:id="fr6_786.29"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>ne weiz wie daz her ſich ſchiede hie</l>
-<l xml:id="fr6_786.30">Cvndrie vn<choice><am>̄</am><ex>d</ex></choice> diſe zwene hin rite<choice><am>̄</am><ex>n</ex></choice> ſie</l>
-<cb xml:id="fr6002vb"/>
-<note resp="#KH_Gegenleser" target="#?1_787.01 #fr6002vb">: Es wurde eine Zeile ausgelassen, vielleicht für eine Kapitelüberschrift?</note>
-<l xml:id="fr6_787.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: blau-rot">A</seg>nfortaſ vnd die ſine</l>
-<l xml:id="fr6_787.02">noch vor iamer dolten pine</l>
-<l xml:id="fr6_787.03">ir tr<unclear reason="Zweifel">iu</unclear>we liez in inder not</l>
-<l xml:id="fr6_787.04">dicke er warp vmbe ſi den tot</l>
-<l xml:id="fr6_787.05">der were ovch ſchier an im geſchehen</l>
-<l xml:id="fr6_787.06">wan daz ſi in dicke liezen ſehen</l>
-<l xml:id="fr6_787.07">den Gral von deſ Graleſ craft</l>
-<l xml:id="fr6_787.08">er ſprach zeſiner ritterſchaft</l>
-<l xml:id="fr6_787.09">ich weiz wol pflegt ir triuwe</l>
-<l xml:id="fr6_787.10">ſo erbarmet ivch min rivwe</l>
-<l xml:id="fr6_787.11">wie lange ſol diz an mir wern</l>
-<l xml:id="fr6_787.12">welt ir iv ſelbe rehteſ gern</l>
-<l xml:id="fr6_787.13">ſo mvͦzet ir gelten mich vor gote</l>
-<l xml:id="fr6_787.14">ich ſtvnt ie gerne zivrem <supplied reason="unleserlich" resp="Sekundärliteratur">gebote</supplied></l>
-<l xml:id="fr6_787.15">ſit ich von erſt wapen trvc</l>
-<l xml:id="fr6_787.16">ich han engolten deſ genvc</l>
-<l xml:id="fr6_787.17">ob mir ie vmpriſ geſchach</l>
-<l xml:id="fr6_787.18">vnd ob daz ivwer keiner ſach</l>
-<l xml:id="fr6_787.19">ſit ir vor vntriuwe bewart</l>
-<l xml:id="fr6_787.20">ſo loſet mich dvrch deſ helmeſ art</l>
-<l xml:id="fr6_787.21">vnd dvrch deſ ſchildeſ orden</l>
-<l xml:id="fr6_787.22">ir ſit dicke innen worden</l>
-<l xml:id="fr6_787.23">ob ez iv niht verſmahte</l>
-<l xml:id="fr6_787.24">daz ich div beidiv brahte</l>
-<l xml:id="fr6_787.25">vnverzaget vf ritterlichiv werc</l>
-<l xml:id="fr6_787.26">ich han tal vnd berc</l>
-<l xml:id="fr6_787.27">mit maniger ivſt vbr zilt</l>
-<l xml:id="fr6_787.28">vnd mit dem ſwert alſo geſpilt</l>
-<l xml:id="fr6_787.29">daz eſ die viende an mir verdroz</l>
-<l xml:id="fr6_787.30">ſwie wenic ich deſ gegn ivch genoz</l>
-<l xml:id="fr6_788.01"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>ch vrovden ellende</l>
-<l xml:id="fr6_788.02">zem vrtellichem ende</l>
-<l xml:id="fr6_788.03">beclag ich eine ivch alle</l>
+<pb xml:id="Fr6001r"/><cb xml:id="Fr6001ra"/>
+<l xml:id="Fr6_770.03">der herzoge farielaſtiſ von affrick<unclear reason="Zweifel">e</unclear></l>
+<l xml:id="Fr6_770.04">der kvnic liddamvſ von agrippe</l>
+<l xml:id="Fr6_770.05">der kvnic tridanz von tinodonte</l>
+<l xml:id="Fr6_770.06">der kvnic Arimaſpiſ von ſchipelpionte</l>
+<l xml:id="Fr6_770.07">der herzoge lippidinſ von agremontin</l>
+<l xml:id="Fr6_770.08">der kvnic milion von nomadienteſin</l>
+<l xml:id="Fr6_770.09">der grave vo<unclear reason="Zweifel">n</unclear> aſſigarzionte gabbarinſ</l>
+<l xml:id="Fr6_770.10">der kvnic von rivigitaſ tranſlapinſ</l>
+<l xml:id="Fr6_770.11">der grave von hibeborticon filoneſ</l>
+<l xml:id="Fr6_770.12">der kvnic von centrivn killicrateſ</l>
+<l xml:id="Fr6_770.13">der grave liſavander von ipopotiticon</l>
+<l xml:id="Fr6_770.14">der herzoge thiride von Elixodion</l>
+<l xml:id="Fr6_770.15">der kvnic von oraſtegenteſin toariſ</l>
+<note resp="#GVi_Transkribent" target="#Fr6_770.15 #Fr6001ra"><ref>kvnic</ref>: Palmer transkribiert <ref>kvnec</ref>.</note>
+<l xml:id="Fr6_770.16">der herzoge von ſatarkionte alamiſ</l>
+<l xml:id="Fr6_770.17">der kvnic amincaſ von ſotofeititon</l>
+<l xml:id="Fr6_770.18">der herzoge carvb von dvſcontemeton</l>
+<note resp="#GVi_Transkribent" target="#Fr6_770.18 #fr6001ra"><ref>dvſcontemeton</ref>: Palmer transkribiert <ref>duscontemeton</ref> (Schaft-s wird in seiner Transkription nicht berücksichtigt).</note>
+<l xml:id="Fr6_770.19">der kvnic von arabie zoroaſter</l>
+<l xml:id="Fr6_770.20">der grave poſizonivſ von tilitaſter</l>
+<l xml:id="Fr6_770.21">der herzoge ſe<supplied reason="unleserlich" resp="Sekundärliteratur">nn</supplied>eſ von narioclin</l>
+<l xml:id="Fr6_770.22">der grave ediſſon von lan<unclear reason="Zweifel">z</unclear>eſardin</l>
+<l xml:id="Fr6_770.23">der grave von ianfvſe friſtineſ</l>
+<l xml:id="Fr6_770.24">der herzoge von atrofegente meioneſ</l>
+<l xml:id="Fr6_770.25">der herzoge von novriente a<unclear reason="Zweifel">r</unclear>keinor</l>
+<l xml:id="Fr6_770.26">der grave von panfatiſ aſtor</l>
+<l xml:id="Fr6_770.27">die von azagovc vnd von zazamanc</l>
+<l xml:id="Fr6_770.28">von ganfaſſaſche der kvnic ietracranc</l>
+<l xml:id="Fr6_770.29">der grave ivranſ von blemvnzin</l>
+<l xml:id="Fr6_770.30">der herzoge affinamvſ von amantaſin</l>
+<l xml:id="Fr6_771.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">I</seg>ch hete ein dinc vur ſchande</l>
+<l xml:id="Fr6_771.02">man iach in minem lande</l>
+<l xml:id="Fr6_771.03">nekein ritter bezzer mohte ſin</l>
+<l xml:id="Fr6_771.04">danne Gahmvret anſcevin</l>
+<l xml:id="Fr6_771.05">der ie orſ vber ſchrite</l>
+<l xml:id="Fr6_771.06">d<choice><am>c</am><ex>az</ex></choice> waſ min wille vnd ovch min ſite</l>
+<cb xml:id="Fr6001rb"/>
+<l xml:id="Fr6_771.07">daz ich vuere vnz ich in vunde</l>
+<l xml:id="Fr6_771.08">ſit gewan ich ſtriteſ kvnde</l>
+<l xml:id="Fr6_771.09">ich vurte harte creftic her</l>
+<l xml:id="Fr6_771.10">von minen landen vfez mer</l>
+<l xml:id="Fr6_771.11">gegn ritterſchefte het ich mvt</l>
+<l xml:id="Fr6_771.12">ſwelch lant waſ werlich vnd gvt</l>
+<l xml:id="Fr6_771.13">d<choice><am>c</am><ex>az</ex></choice> twang ich mit miner hende</l>
+<l xml:id="Fr6_771.14">vnze verre inz ellende</l>
+<l xml:id="Fr6_771.15">da werten mich ir minne</l>
+<l xml:id="Fr6_771.16">zwo riche kvneginne</l>
+<l xml:id="Fr6_771.17">olimpia vnd clavditte</l>
+<l xml:id="Fr6_771.18">Secvndille iſt nv div dritte</l>
+<l xml:id="Fr6_771.19">ich han dvrch wip vil getan</l>
+<l xml:id="Fr6_771.20">hivte alrerſt ich cvnde han</l>
+<l xml:id="Fr6_771.21">daz min vater Gahmvret iſt tot</l>
+<l xml:id="Fr6_771.22">min brvder ſage ovch ſine not</l>
+<l xml:id="Fr6_771.23"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o ſprach der werde parcifal</l>
+<l xml:id="Fr6_771.24">ſid ich ſchiet vonme gral</l>
+<l xml:id="Fr6_771.25">ſo hat min hant mit ſtrite</l>
+<l xml:id="Fr6_771.26">in der enge vnd ander wite</l>
+<l xml:id="Fr6_771.27">vil riterſchefte erzeiget</l>
+<l xml:id="Fr6_771.28">etſlicheſ priſ geneiget</l>
+<l xml:id="Fr6_771.29">der deſ waſ vngewent ie</l>
+<l xml:id="Fr6_771.30">der wil ich ein teil nennen hie</l>
+<l xml:id="Fr6_772.01">von liriuoin der kvnic ſchirniel</l>
+<l xml:id="Fr6_772.02">vnd von avendroin ſin brvder mirabel</l>
+<l xml:id="Fr6_772.03">der kvnic ſerabil von rozokarz</l>
+<l xml:id="Fr6_772.04">vnd der kvnic pibleſvn von lorneparz</l>
+<l xml:id="Fr6_772.05">von ſirnegvnz den kvnic ſelingorz</l>
+<l xml:id="Fr6_772.06">vnd von villegarinz ſtrangedorz</l>
+<l xml:id="Fr6_772.07">von mirnetalſ der grave rogvdal</l>
+<l xml:id="Fr6_772.08">vnd von pleiedvnze lavdvnal</l>
+<l xml:id="Fr6_772.09">der kvnic onipriez von itolac</l>
+<l xml:id="Fr6_772.10">vnd d<choice><am>̉</am><ex>er</ex></choice> kvnic zironal von <subst hand="#sr"><del>ſmblidac</del><add>ſemblidac</add></subst></l>
+<pb xml:id="Fr6001v"/><cb xml:id="Fr6001va"/>
+<l xml:id="Fr6_772.11">von ieropliſ d<choice><am>̉</am><ex>er</ex></choice> herzoge ierneganz</l>
+<l xml:id="Fr6_772.12">vnd von zambron d<choice><am>̉</am><ex>er</ex></choice> grave plineſcanz</l>
+<l xml:id="Fr6_772.13">von tvtelvnz d<choice><am>̉</am><ex>er</ex></choice> grave longefiez</l>
+<l xml:id="Fr6_772.14">vnd von privegarz d<choice><am>̉</am><ex>er</ex></choice> herzoge marangliez</l>
+<l xml:id="Fr6_772.15">vnd ẏpictaco<choice><am>̄</am><ex>n</ex></choice> der herzoge ſtrennolaſ</l>
+<l xml:id="Fr6_772.16">der grave von <unclear reason="Fragliche Abkürzung">lampregvn</unclear> parfoiaſ</l>
+<l xml:id="Fr6_772.17">von aſchalvn der kvnic vergvlaht</l>
+<l xml:id="Fr6_772.18">von prancile d<choice><am>̉</am><ex>er</ex></choice> grave Rohvdaht</l>
+<l xml:id="Fr6_772.19">poſtefar von landrvndehte</l>
+<l xml:id="Fr6_772.20">der herzoge leidebrein vo<choice><am>̄</am><ex>n</ex></choice> redvnzehte</l>
+<l xml:id="Fr6_772.21">von leterbe collebal</l>
+<l xml:id="Fr6_772.22">von arl iovedaſt der provenzal</l>
+<l xml:id="Fr6_772.23">von tripparvn der grave carfoiaſ</l>
+<l xml:id="Fr6_772.24">diz er gienc da tvrnieren waſ</l>
+<l xml:id="Fr6_772.25">die wile ich nach dem Grale reit</l>
+<l xml:id="Fr6_772.26">ſolt ich iv gar nennen da ich ſtreit</l>
+<l xml:id="Fr6_772.27">daz weren vnkvndiv zil</l>
+<l xml:id="Fr6_772.28">dvrch not mvͦſ ichſ verſwigen vil</l>
+<l xml:id="Fr6_772.29">ſwaz ir mir kvnt iſt getan</l>
+<l xml:id="Fr6_772.30">die wenich hie genennet han</l>
+<l xml:id="Fr6_773.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>er heiden waſ von <subst hand="#lsu"><del>hezzen</del><add>herzen</add></subst> vro</l>
+<note resp="#GVi//(KHo)_Transkribent" target="#Fr6_773.01 #fr6001va"><ref>hezzen</ref>: Palmer transkribiert <ref>herzen</ref>, er hat ebenfalls die r-Marginalie als Korrektur aufgefasst.(In seiner Transkription ist die Korrektur allerdings nicht ersichtlich.)</note>
+<l xml:id="Fr6_773.02">daz ſinſ brvder priſ alſo</l>
+<l xml:id="Fr6_773.03">ſtvnt daz ſin hant erſtreit</l>
+<l xml:id="Fr6_773.04">ſo manige hohe werdicheit</l>
+<l xml:id="Fr6_773.05">deſ danket er im ſere</l>
+<l xml:id="Fr6_773.06">er heteſ ſelbe ovch ere</l>
+<l xml:id="Fr6_773.07"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>nnen deſ hiez tragen Gawan</l>
+<l xml:id="Fr6_773.08">alſ ez vnwizzende were getan</l>
+<l xml:id="Fr6_773.09">deſ heiden zimierde inden rinc</l>
+<l xml:id="Fr6_773.10">daz prveveten ſi da vur hohiv dinc</l>
+<l xml:id="Fr6_773.11">rittere vnd vrowen</l>
+<l xml:id="Fr6_773.12">begvnden alle ſchowen</l>
+<l xml:id="Fr6_773.13">den wapenroc den ſchilt d<choice><am>c</am><ex>az</ex></choice> kvrſit</l>
+<l xml:id="Fr6_773.14">der helm waſ zenge noch zewit</l>
+<cb xml:id="Fr6001vb"/>
+<l xml:id="Fr6_773.15">ſi priſeten algemeine</l>
+<l xml:id="Fr6_773.16">die tivren edelen ſteine</l>
+<l xml:id="Fr6_773.17">die dran verwirket lagen</l>
+<l xml:id="Fr6_773.18">niemen darf mich vragen</l>
+<l xml:id="Fr6_773.19">von ir arde wie ſi weren</l>
+<l xml:id="Fr6_773.20">die lihten vnd die ſweren</l>
+<l xml:id="Fr6_773.21">ivch hete baz beſcheiden deſ</l>
+<l xml:id="Fr6_773.22">eraclivſ oder ercveſ</l>
+<l xml:id="Fr6_773.23">vnd der crieche alexander</l>
+<l xml:id="Fr6_773.24">vnd dannoch einander</l>
+<l xml:id="Fr6_773.25">der wiſe pictagoraſ</l>
+<l xml:id="Fr6_773.26">der ein aſtronomirre waſ</l>
+<l xml:id="Fr6_773.27">vnd ovch ſo wit ane ſtrit</l>
+<l xml:id="Fr6_773.28">daz niemen ſit adameſ zit</l>
+<l xml:id="Fr6_773.29">mohte im gelichen ſin getragen</l>
+<l xml:id="Fr6_773.30">der kvnde wol von ſteinen ſagen</l>
+<l xml:id="Fr6_774.01"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>ie vrowen rvnden da ſwelch wip</l>
+<l xml:id="Fr6_774.02">da mite zierte ſinen lip</l>
+<l xml:id="Fr6_774.03">het er gegn der gewenket</l>
+<l xml:id="Fr6_774.04">ſo were ſin priſ verkrenket</l>
+<l xml:id="Fr6_774.05">etſliche waſ im doch ſo holt</l>
+<l xml:id="Fr6_774.06">ſi hete ſin denſt wol gedolt</l>
+<l xml:id="Fr6_774.07">ich wene dvrch ſine vremden mal</l>
+<l xml:id="Fr6_774.08">Gramovlanz artvſ vnd parcifal</l>
+<l xml:id="Fr6_774.09">vnd ovch der wirt her Gawan</l>
+<l xml:id="Fr6_774.10">die viere giengn ſvnder dan</l>
+<l xml:id="Fr6_774.11">den vrowen wart beſcheiden</l>
+<l xml:id="Fr6_774.12">in ir pflege der riche heiden</l>
+<l xml:id="Fr6_774.13">Artvſ warp eine hochgezit</l>
+<l xml:id="Fr6_774.14">daz div deſ morgenſ ane ſtrit</l>
+<l xml:id="Fr6_774.15">vf dem velde ergienge</l>
+<l xml:id="Fr6_774.16">daz man da mite enpfienge</l>
+<l xml:id="Fr6_774.17">ſinen neven ferefiz</l>
+<l xml:id="Fr6_774.18">anden gewerp kert ivren vliz</l>
+<pb xml:id="Fr6002r"/><cb xml:id="Fr6002ra"/>
+<l xml:id="Fr6_783.19-01"><note type="Notiz"><gap reason="unleserlich" extent="1" unit="Buchstabe"/> melek<unclear reason="Zweifel">rez</unclear> er<gap reason="unleserlich" extent="1" unit="Buchstabe"/> ſchraipſ<gap reason="unleserlich" extent="2" unit="Buchstabe"/>ſchrai</note></l>
+<l xml:id="Fr6_783.19-02"><note type="Notiz">dei<gap reason="unleserlich" extent="1" unit="Buchstabe"/> an am <lb/> Ane</note></l>
+<l xml:id="Fr6_783.19">do ich zemvnſalvaſche waſ</l>
+<l xml:id="Fr6_783.20">bi dem trvrigen Anfortaſ</l>
+<l xml:id="Fr6_783.21">ſwaz ich da ſchilde hangen vant</l>
+<l xml:id="Fr6_783.22">die waren gemal alſ iuwer gewant</l>
+<l xml:id="Fr6_783.23">vil tvrtelvben traget ir hie</l>
+<l xml:id="Fr6_783.24">vrowe nv ſagt mir wenne od<choice><am>̉</am><ex>er</ex></choice> wie</l>
+<l xml:id="Fr6_783.25">ich ſvl gegn minen vrovden varn</l>
+<l xml:id="Fr6_783.26">vnd lat mich daz niht langer ſparn</l>
+<l xml:id="Fr6_783.27"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>o ſprach ſi lieber herre min</l>
+<l xml:id="Fr6_783.28">ein man ſol din geverte ſin</l>
+<l xml:id="Fr6_783.29">den wele geleiteſ wart an mich</l>
+<l xml:id="Fr6_783.30">dvrch helfe niht lange ſvme dich</l>
+<l xml:id="Fr6_784.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">U</seg>ber al den rinc wart vernomen</l>
+<l xml:id="Fr6_784.02">Cvndrie lazvrziere were kom<choice><am>̄</am><ex>n</ex></choice></l>
+<l xml:id="Fr6_784.03">vnd waz ir mere meinde</l>
+<l xml:id="Fr6_784.04">orgelvſe dvrch liebe weinde</l>
+<l xml:id="Fr6_784.05">daz div vrage von parcifale</l>
+<l xml:id="Fr6_784.06">d<supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied> anfortaſſeſ qwale</l>
+<l xml:id="Fr6_784.07">ſolte machen wendic</l>
+<l xml:id="Fr6_784.08">Artvſ der priſeſ genendic</l>
+<l xml:id="Fr6_784.09">zecvndrien mit zvhten ſprach</l>
+<l xml:id="Fr6_784.10">vrowe ritet an ivwer gemach</l>
+<l xml:id="Fr6_784.11">lat ivwer pflegen leret ſelbe wie</l>
+<l xml:id="Fr6_784.12"><seg type="Initiale" subtype="Majuskel" n="1">S</seg>i ſprach iſt Arnive hie</l>
+<l xml:id="Fr6_784.13">ſwelch gemach mir div git</l>
+<l xml:id="Fr6_784.14">deſ wil ich leben diſiv zit</l>
+<l xml:id="Fr6_784.15">vnz daz min herre hinnen vert</l>
+<l xml:id="Fr6_784.16">iſt ir gevancniſſe erwert</l>
+<l xml:id="Fr6_784.17">ſo erlovbet daz ich mveze ſchowen</l>
+<l xml:id="Fr6_784.18">ſi. vnd andere vrowen</l>
+<l xml:id="Fr6_784.19">den clinſor teilte ſinen var</l>
+<l xml:id="Fr6_784.20">mit gevancniſſe manic iar</l>
+<l xml:id="Fr6_784.21">zwene ritter hvbenſ vf ir pfert</l>
+<l xml:id="Fr6_784.22">ze arniven reit div maget wert.</l>
+<cb xml:id="Fr6002rb"/>
+<l xml:id="Fr6_784.23"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">N</seg>v waſ ovch zit d<choice><am>c</am><ex>az</ex></choice> man da gaz</l>
+<l xml:id="Fr6_784.24">parcifal bi ſinem brvder ſaz</l>
+<l xml:id="Fr6_784.25">den bat er geſellicheit</l>
+<l xml:id="Fr6_784.26">ferefiz waſ im al bereit</l>
+<l xml:id="Fr6_784.27">gegn mvnſalvaſche zeriten</l>
+<l xml:id="Fr6_784.28">an den ſelben ziten</l>
+<l xml:id="Fr6_784.29">ſtvndenſ vf vber al den rinc</l>
+<l xml:id="Fr6_784.30">ferefiz warp hohiv dinc</l>
+<l xml:id="Fr6_785.01">er vragete den kvnic Gramovlanz</l>
+<l xml:id="Fr6_785.02">ob div liebe were ganz</l>
+<l xml:id="Fr6_785.03">zwiſchen im vnd d<choice><am>̉</am><ex>er</ex></choice> niftelen ſin</l>
+<l xml:id="Fr6_785.04">daz er daz tete an im nv ſchin</l>
+<l xml:id="Fr6_785.05">helfet mir ir vnd min neve Gawan</l>
+<l xml:id="Fr6_785.06">ſwaz wir hie kvnige vnd vurſten han</l>
+<l xml:id="Fr6_785.07">barvne vnd arme ritter gar</l>
+<l xml:id="Fr6_785.08">daz der nekeiner hinnen var</l>
+<l xml:id="Fr6_785.09">ê ſi min cleinote erſehen</l>
+<l xml:id="Fr6_785.10">mir were ein laſter hie geſchehen</l>
+<l xml:id="Fr6_785.11">ſchied ich vor gabe hinnen vri</l>
+<l xml:id="Fr6_785.12">ſwaz hie varndeſ volkeſ ſi</l>
+<l xml:id="Fr6_785.13">die warten alle gabe an mich</l>
+<l xml:id="Fr6_785.14">neve artvſ ich wil biten dich</l>
+<l xml:id="Fr6_785.15">deiz den hohen niht verſmahe</l>
+<l xml:id="Fr6_785.16">deſ gewerbeſ gegn in gahe</l>
+<l xml:id="Fr6_785.17">vnd wiſ deſ laſterſ vur mich pfant</l>
+<l xml:id="Fr6_785.18">ſi ercanten nie ſo riche hant</l>
+<l xml:id="Fr6_785.19">vnd gip mir boten in mine habe</l>
+<l xml:id="Fr6_785.20">da der preſent ſol komen abe.</l>
+<l xml:id="Fr6_785.21"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o lobeten ſi dem heiden</l>
+<l xml:id="Fr6_785.22">ſine wolten ſich niht ſcheiden</l>
+<l xml:id="Fr6_785.23">von dem velde in vier tagen</l>
+<l xml:id="Fr6_785.24">der heiden wart vro ſvſ hort ich ſagn</l>
+<l xml:id="Fr6_785.25">Artvſ im wiſe boten gap</l>
+<l xml:id="Fr6_785.26">die er ſolte ſenden anz hap</l>
+<pb xml:id="Fr6002v"/><cb xml:id="Fr6002va"/>
+<l xml:id="Fr6_785.27">ferefiz Gahmvreteſ kint</l>
+<l xml:id="Fr6_785.28">nam tincten vnd permint</l>
+<l xml:id="Fr6_785.29">ſin ſchrift warzeichenſ niht v<choice><am>̉</am><ex>er</ex></choice>darp</l>
+<l xml:id="Fr6_785.30">ich wene ie brief ſo vil erwarp</l>
+<l xml:id="Fr6_786.01"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>ie boten vuren endehafte dan</l>
+<l xml:id="Fr6_786.02">parcifal ſine rede alſvſ hvb an</l>
+<l xml:id="Fr6_786.03">in franzoiſ er zin allen ſprach</l>
+<l xml:id="Fr6_786.04">alſ trevrizent dort vorne iach</l>
+<l xml:id="Fr6_786.05">daz den Gral zekeinen ziten</l>
+<l xml:id="Fr6_786.06">nieman mohte erſtriten</l>
+<l xml:id="Fr6_786.07">wan der vor gote were dar benant</l>
+<l xml:id="Fr6_786.08"><seg type="Initiale" subtype="Majuskel" n="1">D</seg>iz mere kom vber elliv lant</l>
+<l xml:id="Fr6_786.09">daz kein ſtrit in mohte erwerben</l>
+<l xml:id="Fr6_786.10">vil livte lie do verderben</l>
+<l xml:id="Fr6_786.11">nach dem Grale gewerbeſ liſt</l>
+<l xml:id="Fr6_786.12">da von er noch verborgen iſt</l>
+<l xml:id="Fr6_786.13"><seg type="Initiale" subtype="Fleuronee" n="5" rend="Farbe: rot-blau">P</seg>arcifal vnd ferefiz</l>
+<l xml:id="Fr6_786.14">div wip lerten iamerſ vliz</l>
+<l xml:id="Fr6_786.15">ſi hetenz vngerne vermiten</l>
+<l xml:id="Fr6_786.16">in div vier ſtvcke deſ herſ ſi rite<choice><am>̄</am><ex>n</ex></choice></l>
+<l xml:id="Fr6_786.17">ſi namen vrlovp zal der diet</l>
+<l xml:id="Fr6_786.18">ietweder dan mit vrovden ſchiet</l>
+<l xml:id="Fr6_786.19">gewapent wol gegn ſtriteſ wer</l>
+<l xml:id="Fr6_786.20">anme dritten tage vzſ heiden her</l>
+<l xml:id="Fr6_786.21">wart zeJoflanze braht</l>
+<l xml:id="Fr6_786.22">ſo grozer gabe wart nie gedaht</l>
+<l xml:id="Fr6_786.23">ſwelch kvnic da ſiner gabe enpfant</l>
+<l xml:id="Fr6_786.24">daz half iemer mer ſin hant</l>
+<l xml:id="Fr6_786.25">ieſlichem man nach maze ſin</l>
+<l xml:id="Fr6_786.26">wart nie ſo tivre gabe ſchin</l>
+<l xml:id="Fr6_786.27">al den vrowen riche preſente</l>
+<l xml:id="Fr6_786.28">von triande vnd von novriente</l>
+<l xml:id="Fr6_786.29"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>ne weiz wie daz her ſich ſchiede hie</l>
+<l xml:id="Fr6_786.30">Cvndrie vn<choice><am>̄</am><ex>d</ex></choice> diſe zwene hin rite<choice><am>̄</am><ex>n</ex></choice> ſie</l>
+<cb xml:id="Fr6002vb"/>
+<note resp="#KH_Gegenleser" target="#Fr6_787.01 #fr6002vb">: Es wurde eine Zeile ausgelassen, vielleicht für eine Kapitelüberschrift?</note>
+<l xml:id="Fr6_787.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: blau-rot">A</seg>nfortaſ vnd die ſine</l>
+<l xml:id="Fr6_787.02">noch vor iamer dolten pine</l>
+<l xml:id="Fr6_787.03">ir tr<unclear reason="Zweifel">iu</unclear>we liez in inder not</l>
+<l xml:id="Fr6_787.04">dicke er warp vmbe ſi den tot</l>
+<l xml:id="Fr6_787.05">der were ovch ſchier an im geſchehen</l>
+<l xml:id="Fr6_787.06">wan daz ſi in dicke liezen ſehen</l>
+<l xml:id="Fr6_787.07">den Gral von deſ Graleſ craft</l>
+<l xml:id="Fr6_787.08">er ſprach zeſiner ritterſchaft</l>
+<l xml:id="Fr6_787.09">ich weiz wol pflegt ir triuwe</l>
+<l xml:id="Fr6_787.10">ſo erbarmet ivch min rivwe</l>
+<l xml:id="Fr6_787.11">wie lange ſol diz an mir wern</l>
+<l xml:id="Fr6_787.12">welt ir iv ſelbe rehteſ gern</l>
+<l xml:id="Fr6_787.13">ſo mvͦzet ir gelten mich vor gote</l>
+<l xml:id="Fr6_787.14">ich ſtvnt ie gerne zivrem <supplied reason="unleserlich" resp="Sekundärliteratur">gebote</supplied></l>
+<l xml:id="Fr6_787.15">ſit ich von erſt wapen trvc</l>
+<l xml:id="Fr6_787.16">ich han engolten deſ genvc</l>
+<l xml:id="Fr6_787.17">ob mir ie vmpriſ geſchach</l>
+<l xml:id="Fr6_787.18">vnd ob daz ivwer keiner ſach</l>
+<l xml:id="Fr6_787.19">ſit ir vor vntriuwe bewart</l>
+<l xml:id="Fr6_787.20">ſo loſet mich dvrch deſ helmeſ art</l>
+<l xml:id="Fr6_787.21">vnd dvrch deſ ſchildeſ orden</l>
+<l xml:id="Fr6_787.22">ir ſit dicke innen worden</l>
+<l xml:id="Fr6_787.23">ob ez iv niht verſmahte</l>
+<l xml:id="Fr6_787.24">daz ich div beidiv brahte</l>
+<l xml:id="Fr6_787.25">vnverzaget vf ritterlichiv werc</l>
+<l xml:id="Fr6_787.26">ich han tal vnd berc</l>
+<l xml:id="Fr6_787.27">mit maniger ivſt vbr zilt</l>
+<l xml:id="Fr6_787.28">vnd mit dem ſwert alſo geſpilt</l>
+<l xml:id="Fr6_787.29">daz eſ die viende an mir verdroz</l>
+<l xml:id="Fr6_787.30">ſwie wenic ich deſ gegn ivch genoz</l>
+<l xml:id="Fr6_788.01"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>ch vrovden ellende</l>
+<l xml:id="Fr6_788.02">zem vrtellichem ende</l>
+<l xml:id="Fr6_788.03">beclag ich eine ivch alle</l>
 </body>
 </text>
 </TEI>

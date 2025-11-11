@@ -1,20 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr50</title>
+      <title type="sub">Transkription des Textzeugen Fr50</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <idno>fr50</idno>
+          <repository>Parzival-Projekt</repository>
+          <idno>Fr50</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr50">
                                 <title type="main">Fr. 50 (G<hi rend="sup">λ</hi> und j):</title>
                                 <list>
@@ -46,7 +47,7 @@
             <repository>"Bayerische Staatsbibliothek"</repository>
             <idno>"Cgm 5249/3a"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr50A</idno>
+              <idno>Fr50A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -61,7 +62,7 @@
             <repository>"Bayerische Staatsbibliothek"</repository>
             <idno>"Cgm 194/IV"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>fr50B</idno>
+              <idno>Fr50B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -91,6 +92,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -133,8 +137,8 @@
 <pb xml:id="fr50002r"/><cb xml:id="fr50002ra"/>
 <l xml:id="fr50_741.09">waren ver wirret dvrch hohen bris</l>
 <l xml:id="fr50_741.10">zeloben vf die bvkel ris.</l>
-<l xml:id="fr50_741.12"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr50_741.11"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr50_741.12"><milestone unit="Versumstellung"/>ein ſtein des namen tvn ich iv chvnt.</l>
+<l xml:id="fr50_741.11"><milestone unit="Versumstellung"/>vf dem bvkel hvſe ſtvnt.</l>
 <l xml:id="fr50_741.13">antrax dort genennet.</l>
 <l xml:id="fr50_741.14">karfvnkel hie erchennet.</l>
 <l xml:id="fr50_741.15">Dvrch der minne kvndwir</l>

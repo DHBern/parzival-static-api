@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr43</title>
+      <title type="sub">Transkription des Textzeugen Fr43</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Niedersächsische Staats- und Universitätsbibliothek</repository>
           <idno>4° Cod. Ms. philo. 184:Ib</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr43</idno>
+            <idno>Fr43</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr43">
@@ -76,6 +76,9 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+   </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -214,7 +217,7 @@
 <l xml:id="fr43_757.26">Vn<choice><am>̄</am><ex>d</ex></choice> ander werdeclicher liſt</l>
 <l xml:id="fr43_757.27">Der ſtoltze riche Ferefiz</l>
 <l xml:id="fr43_757.28">Truͦc mit dienſte grozen fliz</l>
-<note resp="#GVi_Gegenleser" target="#?1_757.28 #fr43_001va"><ref>Truͦc</ref>: <ref>T</ref> aus anderem Buchstaben korrigiert?</note>
+<note resp="#GVi_Gegenleser" target="#fr43_757.28 #fr43_001va"><ref>Truͦc</ref>: <ref>T</ref> aus anderem Buchstaben korrigiert?</note>
 <l xml:id="fr43_757.29">Nach wibe hulden vmbe daz</l>
 <l xml:id="fr43_757.30">Daz einiv lonſ im niht uergaz</l>
 <cb xml:id="fr43001vb"/>
@@ -289,7 +292,7 @@
 <l xml:id="fr43_819.25">Mit ræh<unclear reason="Zweifel">ten</unclear> wiplichen ſiten</l>
 <l xml:id="fr43_819.26">Mi<unclear reason="Zweifel">n</unclear> dieneſt wirt hie niht v<choice><am>̉</am><ex>er</ex></choice>mi<unclear reason="Zweifel">t</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr43_819.27">Ich ſol uil <unclear reason="Zweifel">i</unclear>uſte riten</l>
-<note resp="#MiGe_Gegenleser" target="#?1_819.27 #Fr43002va"><ref><unclear reason="Zweifel">i</unclear>uſte</ref>: Vor dem <ref>i</ref> scheint sich ein weiterer vertikaler Strich zu befinden. Möglicherweise wurde anfänglich zu einem anderen Buchstaben angesetzt.</note>
+<note resp="#MiGe_Gegenleser" target="#fr43_819.27 #Fr43002va"><ref><unclear reason="Zweifel">i</unclear>uſte</ref>: Vor dem <ref>i</ref> scheint sich ein weiterer vertikaler Strich zu befinden. Möglicherweise wurde anfänglich zu einem anderen Buchstaben angesetzt.</note>
 <l xml:id="fr43_819.28">Inſ Grales dienſte ſtriten</l>
 <l xml:id="fr43_819.29">Durch wip geſtrite ich nimm<choice><am>̉</am><ex>er</ex></choice> m<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr43_819.30">E<unclear reason="Zweifel">in</unclear> wip gap mir herze ſer</l>

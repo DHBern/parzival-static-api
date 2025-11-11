@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr56</title>
+      <title type="sub">Transkription des Textzeugen Fr56</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>2017</date>
+      <date>10.11.25</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Oberösterreichische Landesbibliothek</repository>
           <idno>Hs. 1130</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>fr56</idno>
+            <idno>Fr56</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr56">
@@ -73,6 +73,9 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
+   <char xml:id="zeilenfuellsel">
+    <charName>Zeilenfüllsel</charName>
+   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -100,7 +103,7 @@
 <l xml:id="fr56_73.25">Vnde het<unclear reason="Zweifel">ez</unclear> ovch d<unclear reason="Zweifel">a</unclear> vil gvͦt getan</l>
 <l xml:id="fr56_73.26"><unclear reason="Zweifel">d</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/> <unclear reason="Zweifel">l</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr56_73.28"><unclear reason="Zweifel">alſv</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">ſ</supplied> vinch er den deg<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied><unclear reason="Zweifel">n</unclear> wert</l>
-<note resp="#MiGe_Gegenleser" target="#?1_73.28 #Fr56001ra"><ref><unclear reason="Zweifel">alſv</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">ſ</supplied></ref>: Schiffmann unterscheidet in seinem Abdruck rundes und schafes s nicht. Da sich in Fr56 nie ein rundes s an einem Wortende befindet, wurde hier ein scharfes s gesetzt.</note>
+<note resp="#MiGe_Gegenleser" target="#fr56_73.28 #Fr56001ra"><ref><unclear reason="Zweifel">alſv</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">ſ</supplied></ref>: Schiffmann unterscheidet in seinem Abdruck rundes und schafes s nicht. Da sich in Fr56 nie ein rundes s an einem Wortende befindet, wurde hier ein scharfes s gesetzt.</note>
 <l xml:id="fr56_73.29"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>inderz orſ ſtach kayleteſ hant</l>
 <l xml:id="fr56_73.30">den herzogin von brabant</l>
 <l xml:id="fr56_74.01">Der fvrſte hiez Lamme<unclear reason="Zweifel">k</unclear>i<unclear reason="Zweifel">ne</unclear></l>
@@ -247,8 +250,8 @@
 <l xml:id="fr56_94.30"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">a</unclear>n wipliche<unclear reason="Zweifel">r</unclear> priſe</l>
 <l xml:id="fr56_95.01"><gap reason="Fragmentverlust" extent="unbekannt"/>v gehivr</l>
 <l xml:id="fr56_95.02"><gap reason="Fragmentverlust" extent="unbekannt"/>de die beſten ſtivr</l>
-<l xml:id="fr56_95.04"><milestone unit="Vers" type="Versumstellung"/></l>
-<l xml:id="fr56_95.03"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr56_95.04"><milestone unit="Versumstellung"/><gap reason="Fragmentverlust" extent="unbekannt"/>lliclichen zvͦ</l>
+<l xml:id="fr56_95.03"><milestone unit="Versumstellung"/><gap reason="Fragmentverlust" extent="unbekannt"/>er danne nvͦ</l>
 <l xml:id="fr56_95.05"><gap reason="Fragmentverlust" extent="unbekannt"/> armen</l>
 <l xml:id="fr56_95.06"><gap reason="Fragmentverlust" extent="unbekannt"/>e erbarmen</l>
 <l xml:id="fr56_95.07"><gap reason="Fragmentverlust" extent="unbekannt"/>er brvd<unclear reason="Zweifel">er</unclear> tot</l>
@@ -257,7 +260,7 @@
 <l xml:id="fr56_95.10"><gap reason="Fragmentverlust" extent="unbekannt"/>n iamer bi</l>
 <l xml:id="fr56_95.20"><gap reason="Fragmentverlust" extent="unbekannt"/> ſtet wer ich warp</l>
 <l xml:id="fr56_95.21"><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> diez g<gap reason="unleserlich" extent="2" unit="Buchstabe"/>t hant getan</l>
-<note resp="#MiGe_Gegenleser" target="#?1_95.21 #Fr56_2vb"><ref/>: Streifen mit unterem und obere Teil von Versw 95.21 falsch zusammemgeklebt, so dass der Vers nur schwierig lesbar ist. Vers mit 95.20 und 95.19 am unteren Ende müssten weiter links eingeklebt sein.</note>
+<note resp="#MiGe_Gegenleser" target="#fr56_95.21 #Fr56_2vb"><ref/>: Streifen mit unterem und obere Teil von Versw 95.21 falsch zusammemgeklebt, so dass der Vers nur schwierig lesbar ist. Vers mit 95.20 und 95.19 am unteren Ende müssten weiter links eingeklebt sein.</note>
 <l xml:id="fr56_95.22"><gap reason="Fragmentverlust" extent="unbekannt"/>vlt mich not rede er lan</l>
 <l xml:id="fr56_95.23"><gap reason="Fragmentverlust" extent="unbekannt"/>et hie manic riter baz</l>
 </body>
