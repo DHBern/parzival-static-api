@@ -103,7 +103,7 @@
                         <map>
                             <string key="type">{$type}</string>
                             <string key="id">{$id}</string>
-                            <string key="sigla">{$sigil}</string>
+                            <string key="handle">{$sigil}</string>
                             <string key="verse">{$id => tokenize('\.') => tail()}</string>
                             <string key="d">{if ($type='f') then
                                 ancestor::div[@type='Dreissiger']/@n else $id =>
