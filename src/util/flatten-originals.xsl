@@ -168,7 +168,7 @@
   
   <!-- pass 99; remove when data input fixed -->
   <xsl:template match="text()[matches(.,'^\[ybild\]$')]" mode="tmp-fix-for-ybild">
-    <milestone xmlns="http://www.tei-c.org/ns/1.0" unit="Nicht_ausgeführtes_Bild mit Nachtrag"/>
+    <milestone xmlns="http://www.tei-c.org/ns/1.0" unit="Nicht_ausgeführtes_Bild_mit_Nachtrag"/>
   </xsl:template>
 
 </xsl:transform>
