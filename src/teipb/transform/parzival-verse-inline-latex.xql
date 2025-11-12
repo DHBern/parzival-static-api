@@ -191,7 +191,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 return
                                                                 latex:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-milestone2", "image", css:map-rend-to-class(.)), $content)
                             else
-                                if (@unit='Nicht_ausgeführtes_Bild mit Nachtrag') then
+                                if (@unit='Nicht_ausgeführtes_Bild_mit_Nachtrag') then
                                     let $params := 
                                         map {
                                             "content": .
