@@ -8,7 +8,7 @@
   xmlns:array="http://www.w3.org/2005/xpath-functions/array"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   expand-text="true"
-  exclude-result-prefixes="xs xd"
+  exclude-result-prefixes="#all"
   version="3.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
@@ -22,6 +22,7 @@
   <xsl:mode name="refine-originals" on-no-match="shallow-copy"/>
   <xsl:mode name="substitute-quotation-marks" on-no-match="shallow-copy"/>
   <xsl:mode name="lowercase-xml-ids" on-no-match="shallow-copy"/>
+  <xsl:mode name="tmp-fix-for-ybild" on-no-match="shallow-copy"/>
 
   <xd:doc scope="template">
     <xd:desc>
@@ -74,8 +75,12 @@
           <xsl:apply-templates select="$pass2" mode="lowercase-xml-ids"/>
       </xsl:variable>
       
+      <xsl:variable name="pass99">
+        <xsl:apply-templates select="$pass3" mode="tmp-fix-for-ybild"/>
+      </xsl:variable>
+      
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
-        <xsl:sequence select="$pass3"/>
+        <xsl:sequence select="$pass99"/>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -160,6 +165,10 @@
   <xsl:template match="note/@target | metamark/@target" mode="lowercase-xml-ids">
     <xsl:attribute name="target" select="((tokenize(.,'\s') => head() => lower-case()) || ' ' || (tokenize(.,'\s') => tail() => string-join(' '))) => normalize-space()"/>
   </xsl:template>
-
+  
+  <!-- pass 99; remove when data input fixed -->
+  <xsl:template match="text()[matches(.,'^\[ybild\]$')]" mode="tmp-fix-for-ybild">
+    <milestone xmlns="http://www.tei-c.org/ns/1.0" unit="Nicht_ausgeführtes_Bild mit Nachtrag"/>
+  </xsl:template>
 
 </xsl:transform>
