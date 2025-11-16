@@ -38,7 +38,7 @@
     <xsl:param name="verbose" as="xs:boolean"/>
     <xsl:param name="task" as="xs:string"/>
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
-    <xsl:for-each select="uri-collection($path_src||'data/svg?recurse=yes;select=*.svg')">
+    <xsl:for-each select="uri-collection($path_src||'data/svg?recurse=yes;select=*.svg')[not(matches(.,'_(alt|save)\.svg'))]">
       <xsl:message use-when="$verbose">…writing {$path_api}/svg/{(. => tokenize('/'))[last()] => lower-case()}…</xsl:message>
       <xsl:result-document href="{$path_api}/svg/{(. => tokenize('/'))[last()] => lower-case()}" method="xml" encoding="UTF-8" indent="true">
         <xsl:apply-templates select="doc(.)/node()" mode="pass-through"/>
