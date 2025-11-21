@@ -84,10 +84,10 @@
                 <string key="iiif">
                   <xsl:choose>
                     <!-- case: fragment -->
-                    <xsl:when test="matches(@n,'^fr\d')">
+                    <xsl:when test="matches(@n,'^[Ff]r\d')">
                       <xsl:variable name="fragment" select="(@n => tokenize('\d{3}[rv]'))[1]"/>
-                      <xsl:variable name="fragment-nr" select="$fragment => substring-after('fr') => number()" as="xs:double"/>
-                      <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$fragment-nr => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
+                      <xsl:variable name="fragment-nr" select="$fragment => replace('^[Ff]r','') => number()" as="xs:double"/>
+                      <xsl:text>https://iiif.ub.unibe.ch/image/v3/parzival/{$fragment-nr => number() => format-number('000')}_{substring-after(@n,$fragment)}.jpf/info.json</xsl:text>
                     </xsl:when>
                     <!-- case: not fragment -->
                     <xsl:otherwise>https://iiif.ub.unibe.ch/image/v3/parzival/{@n => lower-case()}.jpf/info.json</xsl:otherwise>
