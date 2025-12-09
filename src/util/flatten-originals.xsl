@@ -159,7 +159,7 @@
       They are normalised to lower-case to keep mappings working.</xd:desc>
   </xd:doc>
   <xsl:template match="@xml:id[parent::*[local-name()=('l','pb','cb')]]" mode="lowercase-xml-ids">
-    <xsl:attribute name="xml:id" select=". => lower-case()"/>
+    <xsl:attribute name="xml:id" select="if (matches(.,'-\d{2}-I+$')) then . ! substring-before(.,'-I') => lower-case() || replace(.,'.+(-I+$)','$1') else . => lower-case()"/>
   </xsl:template>
   
   <xsl:template match="note/@target | metamark/@target" mode="lowercase-xml-ids">
