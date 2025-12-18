@@ -10,9 +10,11 @@ Lastly, the repository also contains a template for a TEIPublisher application (
 
 ## Usage
 
-* Execute the wrapper script with one of two options:
+* Execute the wrapper script with one of the following options:
   * `./parzival-static-api.sh --generate` to generate outputs for `dist/api`
   * `./parzival-static-api.sh --fetch-exports` to collect export files to `dist/api/export`
+  * `./parzival-static-api.sh --generate-monopsis` to generate the merged monopsis PDF
+    (`dist/api/pdf/einzeltextedition.pdf`) from locally stored source PDFs
 
 * Alternatively:
   * Move to `src` directory
@@ -21,6 +23,11 @@ Lastly, the repository also contains a template for a TEIPublisher application (
     * (Optionally) set `verbose=true` to track the execution of the pipeline.
     * To run all tasks use `all=true` instead of `do`.
     * Example command: `java -jar $path-to-saxon/saxon-he-12.5.jar -s:generate.xsl -xsl:generate.xsl do='pass-through-originals contiguous-ranges`.
+
+The monopsis PDF is generated from locally stored, non-public source PDFs located under `src/data/pdf/`. The corresponding workflow is implemented
+in Python and is intentionally kept separate from the XSLT-based generation pipeline.
+
+Further details and requirements can be found in `src/monopsis/README.md`.
 
 ## Future options
 

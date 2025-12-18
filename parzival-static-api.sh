@@ -31,6 +31,11 @@
 #
 #   true			: Run all these actions.
 #
+# Monopsis
+# --------
+#
+# See src/monopsis/README.md
+#
 # Fetch export files
 # ------------------
 #
@@ -43,6 +48,7 @@
 # Summary:
 # -----------------------
 # * execute `parzival-static-api.sh --generate` to generate outputs to the `dist` directory
+# * execute `parzival-static-api.sh --generate-monopsis` to generate monopsis PDF to the `dist` directory
 # * execute `parzival-static-api.sh --fetch-exports` to collect all export files (pdf/tex/tustep/txt)
 #
 
@@ -55,6 +61,12 @@ function generate {
   echo "Generating static API files to 'dist' directory."
   echo "Using Saxon at ${SAXON}."
   exec java -jar $SAXON -s:src/generate.xsl -xsl:src/generate.xsl do='' verbose=false "$@"
+}
+
+function generateMonopsis {
+  echo "Generating monopsis PDF…"
+
+  python3 src/monopsis/merge_monopsis_pdf.py src/data/pdf dist/api/pdf/einzeltextedition.pdf
 }
 
 function fetchExports {
@@ -110,13 +122,20 @@ function fetchExports {
 
 case "$1" in
   -g | --generate )
-    shift # do not pass the first argument ("generate")
+    shift
     generate "$@" 2>&1 | tee -a logfile.log
+    ;;
+  -m | --generate-monopsis )
+    generateMonopsis 2>&1 | tee -a logfile.log
     ;;
   -f | --fetch-exports )
     fetchExports 2>&1 | tee -a logfile.log
     ;;
   *)
-    echo "Argument missing (supply --generate or --fetch-exports)."
+    echo "Argument missing."
+    echo "Use:"
+    echo "  --generate              Generate static API files"
+    echo "  --generate-monopsis     Generate merged monopsis PDF"
+    echo "  --fetch-exports         Fetch export files"
     ;;
 esac
