@@ -3,6 +3,7 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:math="http://www.w3.org/2005/xpath-functions/math"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  xmlns:map="http://www.w3.org/2005/xpath-functions/map"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="xs math xd"
   expand-text="true"
@@ -14,7 +15,7 @@
       <xd:p></xd:p>
     </xd:desc>
   </xd:doc>
-  
+    
   <xsl:variable name="books-by-dreissiger" as="map(xs:integer,xs:string)">
     <xsl:map>
       <xsl:for-each select="1 to 57">
@@ -88,10 +89,26 @@
     <xsl:param name="path_api" as="xs:string"/>
     <xsl:param name="verbose" as="xs:boolean"/>
     <xsl:param name="task" as="xs:string"/>
+    
+    <xsl:variable name="meta" as="map(xs:integer,map(*))">
+      <!-- this was added after the fact and structurally differs from other meta objects -->
+      <xsl:map>
+        <xsl:map-entry key="0">
+          <xsl:map>
+            <xsl:map-entry key="'task'">{$task}</xsl:map-entry>
+            <xsl:map-entry key="'generated-by'">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</xsl:map-entry>
+            <xsl:map-entry key="'generated-on'" select="current-dateTime() => xs:string()"/>
+            <xsl:map-entry key="'description'" select="'Simple list that relates Dreissiger to containing books'"/>
+          </xsl:map>
+        </xsl:map-entry>
+      </xsl:map>
+    </xsl:variable>
+    
     <xsl:message use-when="$verbose">Starting task: {$task}</xsl:message>
     <xsl:message use-when="$verbose">…writing books-by-dreissiger.json…</xsl:message>
     <xsl:result-document href="{$path_api}/json/books-by-dreissiger.json" method="json" encoding="UTF-8" indent="true">
-      <xsl:sequence select="$books-by-dreissiger"/>
+      <!--<xsl:sequence select="$meta"/>-->
+      <xsl:sequence select="map:merge(($meta,$books-by-dreissiger))"/>
     </xsl:result-document>
     <xsl:message>Task `{$task}` done.</xsl:message>
   </xsl:template>
