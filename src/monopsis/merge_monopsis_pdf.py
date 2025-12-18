@@ -23,15 +23,15 @@ def add_metadata(pdf_path: Path):
     with pikepdf.Pdf.open(pdf_path, allow_overwriting_input=True) as pdf:
         info = pdf.docinfo
 
-        # Core descriptive metadata (empty by design)
-        info["/Title"] = ""
-        info["/Author"] = ""
-        info["/Subject"] = ""
-        info["/Keywords"] = ""
-        info["/Creator"] = ""
-        info["/Producer"] = ""
-        info["/Rights"] = ""
-        info["/Description"] = ""
+        # Core descriptive metadata
+        info["/Title"] = "Wolfram von Eschenbach, ›Parzival‹. Eintextedition der Dreißiger 1-827"
+        info["/Author"] = "Parzival-Projekt, Universität Bern"
+        info["/Subject"] = "Germanistische Mediävistik, Editorik"
+        info["/Keywords"] = "Parzival, Wolfram von Eschenbach, Mittelhochdeutsch, Textedition, Universität Bern"
+        info["/Creator"] = "https://github.com/DHBern/parzival-static-api"
+        info["/Producer"] = "pikepdf (Ghostscript)"
+        info["/Rights"] = "© Parzival-Projekt, Universität Bern"
+        info["/Description"] = "Die Eintextedition stellt den Text des Parzival in einer einzigen, durchgehenden Ansicht im PDF Format dar, basierend auf Tustep-Exporten pro Dreißiger. Es handelt sich um die gebündelte Präsentation der wichtigsten editorischen Informationen."
 
         # Dates: PDF date string (D:YYYYMMDDHHmmSS)
         now = datetime.now()

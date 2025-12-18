@@ -65,8 +65,7 @@ function generate {
 
 function generateMonopsis {
   echo "Generating monopsis PDF…"
-
-  python3 src/monopsis/merge_monopsis_pdf.py src/data/pdf dist/api/pdf/einzeltextedition.pdf
+  python3 src/monopsis/merge_monopsis_pdf.py src/data/pdf dist/api/pdf/eintextedition.pdf
 }
 
 function fetchExports {
