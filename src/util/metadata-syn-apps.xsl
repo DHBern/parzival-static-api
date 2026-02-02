@@ -173,7 +173,7 @@
       <xsl:apply-templates mode="structure"/>
     </xsl:variable>
     <map>
-      <string key="{@loc => tokenize('\.') => tail()}">
+      <string key="{@loc => dsl:permute-verse-numbers() => tokenize('\.') => tail()}">
         <xsl:sequence select="serialize($content,$serialization-parameters/output:serialization-parameters) 
           => normalize-space() => replace('class='||$quot||'(.+?)'||$quot,'class='||$apos||'$1'||$apos)"/>
       </string>
@@ -199,7 +199,7 @@
       <xsl:apply-templates mode="reading"/>
     </xsl:variable>
     <map>
-      <string key="{@loc => tokenize('\.') => tail()}">
+      <string key="{@loc => dsl:permute-verse-numbers() => tokenize('\.') => tail()}">
         <xsl:sequence select="serialize($content,$serialization-parameters/output:serialization-parameters) 
           => normalize-space() => replace('class='||$quot||'(.+?)'||$quot,'class='||$apos||'$1'||$apos)"/>
       </string>
