@@ -43,7 +43,7 @@
       "witnesses": ["g", "i", "l", "m", "o", "q", "r", "z"]
       },
       {
-      "sigil": "*T (U)",
+      "sigil": "*T",
       "handle": "*T",
       "aka": "Frühe Textfassung",
       "witnesses": ["t", "u", "v", "vv", "w"]
