@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr17</title>
+      <title type="sub">Transkription des Textzeugen fr17</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Bayerische Staatsbibliothek</repository>
           <idno>Cgm 194/III</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr17</idno>
+            <idno>fr17</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr17">
@@ -77,9 +77,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -103,7 +100,7 @@
 <l xml:id="fr17_161.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">J</seg>ther der lobeſ riche</l>
 <l xml:id="fr17_161.02">wart beſtatet wnnecliche</l>
 <l xml:id="fr17_161.03">Sin tot ſch<unclear reason="Zweifel">vͤ</unclear>p ſvften in div wip</l>
-<note resp="#SFa_Lektor" target="#fr17_161.03 #17001ra"><ref>ſch<unclear reason="Zweifel">vͤ</unclear>p</ref>: auch am Original nicht eindeutig zu erkennen; da übergeschriebenes <ref>o</ref> aber sonst immer eindeutig ist, hier eher <ref>e</ref>.</note>
+<note resp="#SFa_Lektor" target="#?1_161.03 #17001ra"><ref>ſch<unclear reason="Zweifel">vͤ</unclear>p</ref>: auch am Original nicht eindeutig zu erkennen; da übergeschriebenes <ref>o</ref> aber sonst immer eindeutig ist, hier eher <ref>e</ref>.</note>
 <l xml:id="fr17_161.04">Sin harnaſch ime verloſ ten lip.</l>
 <l xml:id="fr17_161.05">dar unbe waſ ſinſ end<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>ſ wer</l>
 <l xml:id="fr17_161.06">deſ tvnben parzivaleſ ger</l>
@@ -112,7 +109,7 @@
 <l xml:id="fr17_161.09">daz orſ einer ſite pflac</l>
 <l xml:id="fr17_161.10">Groz arbeit ez ringe wac</l>
 <l xml:id="fr17_161.11"><unclear reason="Zweifel"><subst hand="#sr"><del>e</del><add>ez</add></subst></unclear> ware <subst hand="#sr"><del><unclear reason="Zweifel">od</unclear></del><add><hi rend="rasur">chalt</hi></add></subst> oder heiz.</l>
-<note resp="#SFa_Gegenleser" target="#fr17_161.11 #17001ra"><ref><unclear reason="Zweifel"><subst hand="#sr"><del>e</del><add>ez</add></subst></unclear></ref>: Sonst üblicher Zwischenraum zum ausgerückten Anfangsbuchstaben fehlt - <ref>z</ref> nachgetragen?</note>
+<note resp="#SFa_Gegenleser" target="#?1_161.11 #17001ra"><ref><unclear reason="Zweifel"><subst hand="#sr"><del>e</del><add>ez</add></subst></unclear></ref>: Sonst üblicher Zwischenraum zum ausgerückten Anfangsbuchstaben fehlt - <ref>z</ref> nachgetragen?</note>
 <l xml:id="fr17_161.12">ezn liez durch reiſe deheinen ſweiz</l>
 <l xml:id="fr17_161.13"><subst hand="#sr"><del>e*</del><add>ez</add></subst> trate ſtein oder ronen.</l>
 <l xml:id="fr17_161.14">Man dorfte ime deheineſ <add hand="#ls1u">gurtenſ</add> wonen.</l>
@@ -144,7 +141,7 @@
 <l xml:id="fr17_162.10">er waſ breiter noch langer</l>
 <l xml:id="fr17_162.11">n<unclear reason="Zweifel">iv</unclear>wan z<gap reason="unleserlich" extent="unbekannt"/> mazze</l>
 <l xml:id="fr17_162.12">daz or<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſ vnt tiv ſtraze</l>
-<note resp="#SFa_Lektor" target="#fr17_162.12 #17001ra"><ref>or<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſ</ref>: Auch am Original nicht zu erkennen, was zwischen <ref>r</ref> und <ref>ſ</ref> steht; zwei Bögen übereinander, der untere gleicht einem <ref>o</ref>.</note>
+<note resp="#SFa_Lektor" target="#?1_162.12 #17001ra"><ref>or<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſ</ref>: Auch am Original nicht zu erkennen, was zwischen <ref>r</ref> und <ref>ſ</ref> steht; zwei Bögen übereinander, der untere gleicht einem <ref>o</ref>.</note>
 <l xml:id="fr17_162.13">in troͮgen da er ſizen vant</l>
 <l xml:id="fr17_162.14">deſ waſ tiv burch vn<choice><am>̄</am><ex>t</ex></choice> vͦch taz lant</l>
 <l xml:id="fr17_162.15">ein grozziv mvͦd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> in deſ bedwanc</l>
@@ -161,8 +158,8 @@
 <l xml:id="fr17_163.01">da wil ih iv dienen nach</l>
 <l xml:id="fr17_163.02">Sit mir min moͮter deſ veriach</l>
 <l xml:id="fr17_163.03"><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst> ir durch rateſ ſchuld<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>.</l>
-<note resp="#SFa_Gegenleser" target="#fr17_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
-<note resp="#SiLa_Lektor" target="#fr17_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
+<note resp="#SFa_Gegenleser" target="#?1_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
+<note resp="#SiLa_Lektor" target="#?1_163.03 #17001rb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>it</del><add><hi>S</hi>it</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
 <l xml:id="fr17_163.04">her chomen iͮwer huld<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></l>
 <l xml:id="fr17_163.05">Mvͦzt ir mir dvrch raten lan.</l>
 <l xml:id="fr17_163.06">vn<choice><am>̄</am><ex>t</ex></choice> welt ir rateſ volge han.</l>
@@ -208,7 +205,7 @@
 <l xml:id="fr17_164.16">wie iſt der minnen blic bewart</l>
 <l xml:id="fr17_164.17">Mich iamert iemer daz ih vant</l>
 <l xml:id="fr17_164.18">An der <subst hand="#sr"><del>wert</del><add>werlte</add></subst> <sic>voͮd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></sic> ſolich <subst hand="#sr"><del>gewat</del><add>gewant.</add></subst></l>
-<note resp="#SFa_Gegenleser" target="#fr17_164.18 #17001rb">: Lücke zwischen <ref><sic>voͮd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></sic></ref> und <ref> ſolich</ref> - Platz für <ref>al</ref>? Am Original ist keine Rasur zu erkennen.</note>
+<note resp="#SFa_Gegenleser" target="#?1_164.18 #17001rb">: Lücke zwischen <ref><sic>voͮd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice></sic></ref> und <ref> ſolich</ref> - Platz für <ref>al</ref>? Am Original ist keine Rasur zu erkennen.</note>
 <l xml:id="fr17_164.19">wol doch ter mvͦter div in trvͦc.</l>
 <l xml:id="fr17_164.20">an ime deſ wnſcheſ lit genvͦc.</l>
 <l xml:id="fr17_164.21">Sin zimierd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> iſt riche</l>
@@ -240,7 +237,7 @@
 <l xml:id="fr17_165.13">Sine wnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n woͮſch vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> bant</l>
 <l xml:id="fr17_165.14">der wirt mit ſin ſelbeſ hant.</l>
 <l xml:id="fr17_165.14-r"><del hand="#sr">der n<unclear reason="Zweifel"><gap reason="unleserlich" extent="unbekannt"/></unclear> mit ſin ſelbeſ hant</del></l>
-<note resp="#SiLa_Gegenleser" target="#fr17_165.14-r #17001va">: Der wiederholte Vers ist einmal vom Schreiber und ein zweites Mal vom Rubrikator gestrichen; möglicherweise weil die erste Streichung vom Schreiber nicht als Streichung erkannt wurde oder nicht deutlich genug war.</note>
+<note resp="#SiLa_Gegenleser" target="#?1_165.14-r #17001va">: Der wiederholte Vers ist einmal vom Schreiber und ein zweites Mal vom Rubrikator gestrichen; möglicherweise weil die erste Streichung vom Schreiber nicht als Streichung erkannt wurde oder nicht deutlich genug war.</note>
 <l xml:id="fr17_165.15">nv waſ oͮch vf geleit daz brot</l>
 <l xml:id="fr17_165.16">deſ waſ teme ivngen gaſte not.</l>
 <l xml:id="fr17_165.17">wand<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> in groz hvnger niht vermeit</l>
@@ -262,7 +259,7 @@
 <l xml:id="fr17_166.03">daz er waſte æze</l>
 <l xml:id="fr17_166.04">vnd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> der mvͦde ſin vergæzze</l>
 <l xml:id="fr17_166.05"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>ân hvͦp den tiſch do <sic>do d</sic> waſ zit.</l>
-<note resp="#MiGe_Lektor" target="#fr17_166.05 #Fr17001va"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>ân</ref>: Die Initiale wurde zuerst mit schwarzer Tinte vorgezeichnet und später mit roter Tinte mehr oder weniger passgenau nachgezogen.</note>
+<note resp="#MiGe_Lektor" target="#?1_166.05 #Fr17001va"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>ân</ref>: Die Initiale wurde zuerst mit schwarzer Tinte vorgezeichnet und später mit roter Tinte mehr oder weniger passgenau nachgezogen.</note>
 <l xml:id="fr17_166.06">ih wane daz ir mvͦd<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice> ſit</l>
 <l xml:id="fr17_166.07">Sprach ter wirt wart ir iht vro</l>
 <l xml:id="fr17_166.08">Gotewaiz min mvͦter ſlafet nv</l>
@@ -289,8 +286,8 @@
 <l xml:id="fr17_167.03">vn<choice><am>̄</am><ex>t</ex></choice> an libeſ varwe minneclich.</l>
 <l xml:id="fr17_167.04">die chomen <sic>zvhtte</sic> ſite gelich</l>
 <l xml:id="fr17_167.05"><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst> twͦgen vnde ſtrichen ſchier</l>
-<note resp="#SFa_Gegenleser" target="#fr17_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
-<note resp="#SiLa_Lektor" target="#fr17_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
+<note resp="#SFa_Gegenleser" target="#?1_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Platz für zweizeilige Initiale gelassen, nicht-ausgeführte Initiale durch verziertes Majuskel-S ersetzt.</note>
+<note resp="#SiLa_Lektor" target="#?1_167.05 #17001vb"><ref><subst hand="#ls1u"><del><seg type="Initiale" subtype="nicht_ausgeführt" n="2">x</seg>i</del><add><hi>S</hi>i</add></subst></ref>: Unsicher, ob die Majuskel vom Schreiber oder von späterer Hand eingefügt wurde; Tinte würde zum Schreiber passen.</note>
 <l xml:id="fr17_167.06">von ime ſin amiſier</l>
 <l xml:id="fr17_167.07">Mit ir blanchen linden henden.</l>
 <l xml:id="fr17_167.08">iane dorft in niht ellend<choice><am><g ref="#deligatur"/></am><ex>e</ex></choice>n</l>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr53</title>
+      <title type="sub">Transkription des Textzeugen fr53</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Národní knihovna České republiky</repository>
           <idno>Cod. XXIV.C.3</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr53</idno>
+            <idno>fr53</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr53">
@@ -76,9 +76,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -132,7 +129,7 @@
 <l xml:id="fr53_770.22">der graf ediſſon von lanteſardin.</l>
 <l xml:id="fr53_770.23">Von lentfvſe d<choice><am>̉</am><ex>er</ex></choice> graf friſtenes</l>
 <l xml:id="fr53_770.24">vn<choice><am>̄</am><ex>d</ex></choice> von atrofaigente d<choice><am>̉</am><ex>er</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzog maiones.</l>
-<note resp="#GVi_Gegenleser" target="#fr53_770.24 #fr53_01rb"><ref>h<choice><am>̉</am><ex>er</ex></choice>tzog maiones</ref>: Auf Rasur?</note>
+<note resp="#GVi_Gegenleser" target="#?1_770.24 #fr53_01rb"><ref>h<choice><am>̉</am><ex>er</ex></choice>tzog maiones</ref>: Auf Rasur?</note>
 <l xml:id="fr53_770.25">Von navriente arkenor</l>
 <l xml:id="fr53_770.26">vnd von panfatis d<choice><am>̉</am><ex>er</ex></choice> <sic>gralie</sic> aſtor.</l>
 <l xml:id="fr53_770.27">Von azzagavch vnd zazamanch</l>
@@ -181,14 +178,14 @@
 <l xml:id="fr53_772.09">Der chvnich ompriez von ytholach</l>
 <l xml:id="fr53_772.10">vnd d<choice><am>̉</am><ex>er</ex></choice> chvnich girolan von ſenblidach.</l>
 <l xml:id="fr53_772.11">Von gerobli d<choice><am>̉</am><ex>er</ex></choice> hertzog geradanz</l>
-<note resp="#GVi_Gegenleser" target="#fr53_772.11 #fr53_1va"><ref>geradanz</ref>: <ref>d</ref> aus <ref>t</ref> korrigiert?</note>
+<note resp="#GVi_Gegenleser" target="#?1_772.11 #fr53_1va"><ref>geradanz</ref>: <ref>d</ref> aus <ref>t</ref> korrigiert?</note>
 <l xml:id="fr53_772.12">vnd von zanbron d<choice><am>̉</am><ex>er</ex></choice> graf blineſchanz</l>
 <l xml:id="fr53_772.13">Von tatelevnz d<choice><am>̉</am><ex>er</ex></choice> graf longiviez</l>
 <l xml:id="fr53_772.14">vnd vo<choice><am>̄</am><ex>n</ex></choice> brevegariez h<choice><am>̉</am><ex>er</ex></choice>tzog marangliez.</l>
 <l xml:id="fr53_772.15">Von pitagon d<choice><am>̉</am><ex>er</ex></choice> hertzog ſyrnolas</l>
 <l xml:id="fr53_772.16">vn<choice><am>̄</am><ex>d</ex></choice> von lanpregvn d<choice><am>̉</am><ex>er</ex></choice> graf barvaras.</l>
-<note resp="#GVi_Gegenleser" target="#fr53_772.16 #fr53_1va"><ref>lanpregvn</ref>: Oder ist <ref>lempregvn</ref> zu lesen?</note>
-<note resp="#MiGe_Gegenleser" target="#fr53_772.16 #fr53_1va"><ref>lanpregvn</ref>: Bernt liest <ref>lanpregvn</ref>.</note>
+<note resp="#GVi_Gegenleser" target="#?1_772.16 #fr53_1va"><ref>lanpregvn</ref>: Oder ist <ref>lempregvn</ref> zu lesen?</note>
+<note resp="#MiGe_Gegenleser" target="#?1_772.16 #fr53_1va"><ref>lanpregvn</ref>: Bernt liest <ref>lanpregvn</ref>.</note>
 <l xml:id="fr53_772.17">Von aſcalvn der chvnich vergvlaht</l>
 <l xml:id="fr53_772.18">von pranzil der graf bogvdaht.</l>
 <l xml:id="fr53_772.19">Heſtefar von lavde vnderreht</l>

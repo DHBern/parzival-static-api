@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr71</title>
+      <title type="sub">Transkription des Textzeugen fr71</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Národní muzeum</repository>
           <idno>Sammlung Adolf Patera: 1 H a 144</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr71</idno>
+            <idno>fr71</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr71">
@@ -76,9 +76,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -208,8 +205,8 @@
 <l xml:id="fr71_21.26">begie d<choice><am>̉</am><ex>er</ex></choice> gehivͦre.</l>
 <l xml:id="fr71_21.27">Mit ſinem libe ſolhe tat.</l>
 <l xml:id="fr71_21.28">ſin het vliehens dheinen rat.</l>
-<l xml:id="fr71_21.30"><milestone unit="Versumstellung"/>Man moht in wol erchennen.</l>
-<l xml:id="fr71_21.29"><milestone unit="Versumstellung"/>Wan ich hort in nennen.</l>
+<l xml:id="fr71_21.30"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr71_21.29"><milestone unit="Vers" type="Versumstellung"/></l>
 <cb xml:id="fr71001vb"/>
 <l xml:id="fr71_22.01">Daz er den pris ze ſiner hant.</l>
 <l xml:id="fr71_22.02">het al eine vber mangiv Lant.</l>
@@ -377,7 +374,7 @@
 <l xml:id="fr71_27.27">Vͦz dvrh aventîvr râit.</l>
 <l xml:id="fr71_27.28">ein grozzer ſchad in niht v<choice><am>̉</am><ex>er</ex></choice>mait</l>
 <l xml:id="fr71_27.29"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">I</seg><unclear reason="Zweifel">n</unclear> dem voieiz ze achſagovch.</l>
-<note resp="#OBA_Transkribent" target="#fr71_27.29 #Fr71002vb"><ref><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">I</seg><unclear reason="Zweifel">n</unclear></ref>:"In" korrigiert zu "n"? Initiale "I" falsch vorgeschrieben?</note>
+<note resp="#OBA_Transkribent" target="#?1_27.29 #Fr71002vb"><ref><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">I</seg><unclear reason="Zweifel">n</unclear></ref>:"In" korrigiert zu "n"? Initiale "I" falsch vorgeschrieben?</note>
 <l xml:id="fr71_27.30">in tẏoſt in ſterbens niht enlovch.</l>
 <l xml:id="fr71_28.03">Daz waz min frivnt yſenhart.</l>
 <l xml:id="fr71_28.04">ir iͤtweder innen wart.</l>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr54</title>
+      <title type="sub">Transkription des Textzeugen fr54</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Universitätsbibliothek</repository>
           <idno>Hs. 678</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr54</idno>
+            <idno>fr54</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr54">
@@ -76,9 +76,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -95,105 +92,105 @@
 <note>Endredaktion II durchgeführt von CG am 16.11.2017.</note>
 <note>14.9.2018, MiGe: sek-Tags eingefügt und teilweise Zweifeltags entfernt. Quelle: Friedrich Wilhelm, Ein Parzivalbruchstück aus Freiburg im Breisgau, in: Münchener Museum für Philologie des Mittelalters und der Renaissance 1 (1912), S. 367f. (Abdruck der Verse 227.23-228.22, 229.05-15, 242.28-243.11). Auf dem Scan des Fragments ist nur sehr wenig zu erkennen und auch das Original ist - vor allem in den Spalten 1va und 2rb - teilweise sehr schwer zu lesen. Aus diesem Grund wurden nur an deutlichen bzw. nachvollziehbaren Stellen sek-Tags eingefügt.</note>
 <note>MiGe, 7.2.19: Kontrolle der sek-Tags und unleserlicher Stellen am Original.</note>
-<pb xml:id="Fr54001v"/><cb xml:id="Fr54001va"/>
-<l xml:id="Fr54_227.18"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_227.19"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_227.20"><unclear reason="Zweifel">ſprun</unclear><lb/>g<unclear reason="Zweifel">en</unclear> gein dem<gap reason="Fragmentverlust" extent="unbekannt"/>n ſin.</l>
-<l xml:id="Fr54_227.21"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_227.22"><gap reason="unleserlich" extent="unbekannt"/> im den ſtegr<unclear reason="Zweifel">ir</unclear>if.</l>
-<l xml:id="Fr54_227.23">Svſ mvͦſ<unclear reason="Zweifel">e</unclear><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">m</unclear> orſe ſten.</l>
-<l xml:id="Fr54_227.24">Di<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied> rit<lb/><choice><am>̉</am><ex>er</ex></choice> in bate<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="Fr54_227.25">D<unclear reason="Zweifel">i</unclear> furten <lb/> in an <gap reason="Fragmentverlust" extent="unbekannt"/> gemach</l>
-<l xml:id="Fr54_227.26"><gap reason="Fragmentverlust" extent="unbekannt"/> <unclear reason="Zweifel">vil ſ</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/> <lb/></l>
-<l xml:id="Fr54_227.27"><gap reason="Fragmentverlust" extent="unbekannt"/>ent<unclear reason="Zweifel">wa</unclear><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_227.28">Do ſi den ivng<gap reason="unleserlich" extent="2" unit="Buchstabe"/> <lb/> ane <supplied reason="unleserlich" resp="Sekundärliteratur">b</supplied>art</l>
-<l xml:id="Fr54_227.29">Geſahen alſuſ minnicli<unclear reason="Zweifel">h</unclear></l>
-<l xml:id="Fr54_227.30">Si iahen er wære ſælden rich. <lb/></l>
-<l xml:id="Fr54_228.01"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: x">x</seg>in waz<unclear reason="Zweifel">er</unclear> iſch der i<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied>nge man<unclear reason="Zweifel">.</unclear> <lb/></l>
-<l xml:id="Fr54_228.02">Er tw<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> ram uon im ſan.</l>
-<l xml:id="Fr54_228.03">Von <lb/> oͮgen unde von handen.</l>
-<l xml:id="Fr54_228.04"><unclear reason="Zweifel">I</unclear>ung <gap reason="unleserlich" extent="unbekannt"/> <lb/> alte wanden.</l>
-<l xml:id="Fr54_228.05">Daz der ander tach <unclear reason="Zweifel">vo<choice><am>̄</am><ex>n</ex></choice></unclear> <lb/> im erschin.</l>
-<l xml:id="Fr54_228.06">Svſ ſaz der minn<unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/><lb/>li<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">i</unclear>n</l>
-<l xml:id="Fr54_228.07">Gar uor alle<unclear reason="Zweifel">m</unclear> <gap reason="unleserlich" extent="unbekannt"/> <lb/></l>
-<l xml:id="Fr54_228.08"><gap reason="unleserlich" extent="unbekannt"/> pfe<unclear reason="Zweifel">lle</unclear> <unclear reason="Zweifel">u</unclear>on <gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">b</unclear>i.</l>
-<l xml:id="Fr54_228.09"><unclear reason="Zweifel">Deſ bro</unclear><gap reason="unleserlich" extent="unbekannt"/> <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>inen mantil dar.</l>
-<l xml:id="Fr54_228.10">Den legt an ſich <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">ere</unclear></l>
-<l xml:id="Fr54_228.11">Mit offner ſnuͦre <lb/></l>
-<l xml:id="Fr54_228.12"><gap reason="Fragmentverlust" extent="unbekannt"/>uͦ<unclear reason="Zweifel">re.</unclear></l>
-<l xml:id="Fr54_228.13">Do <lb/></l>
-<cb xml:id="Fr54001vb"/>
-<l xml:id="Fr54_229.04">Z hove ein rede ſpæhir man.</l>
-<l xml:id="Fr54_229.05">Hiez <lb/> <unclear reason="Zweifel">k</unclear>omen <unclear reason="Zweifel">ze</unclear> <unclear reason="Zweifel">ur</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">æ</supplied>velich.</l>
-<l xml:id="Fr54_229.06">Den gaſt ellens <lb/> riche.</l>
-<l xml:id="Fr54_229.07"><unclear reason="Zweifel">Ce</unclear>dem wirt alſ ob im wærr <lb/> zorn</l>
-<l xml:id="Fr54_229.08">Deſ het er nach den lip uer<lb/>lorn.</l>
-<l xml:id="Fr54_229.09">Von dem <subst hand="#sr"><del>ivngi*</del><add>ivngen</add></subst> partzifal. <lb/></l>
-<l xml:id="Fr54_229.10">Do er ſin ſwert ſo wol gemal</l>
-<l xml:id="Fr54_229.11">Bi <lb/> im niender ligen vant.</l>
-<l xml:id="Fr54_229.12">Zer fvſte <lb/> tw<unclear reason="Zweifel">a</unclear>nger ſine hant</l>
-<l xml:id="Fr54_229.13">Daz im daz <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">pl</supplied>ut <gap reason="unleserlich" extent="1" unit="Buchstabe"/>z <unclear reason="Zweifel">d</unclear>en nageln ſchoz</l>
-<l xml:id="Fr54_229.14">Vnde <lb/> den ermil gar begoz.</l>
-<l xml:id="Fr54_229.15">Nein <lb/> h<unclear reason="Zweifel">erre</unclear> ſprach div riterſchaft.</l>
-<l xml:id="Fr54_229.16"><unclear reason="Zweifel">Er</unclear> <lb/> iſt ein man der ſchimpfeſ chraft. <lb/></l>
-<l xml:id="Fr54_229.17"><gap reason="unleserlich" extent="2" unit="Buchstabe"/>at ſwie trurich wir alle ſin.</l>
-<l xml:id="Fr54_229.18">Tuͦt <lb/> iwer niht gein im ſchin.</l>
-<l xml:id="Fr54_229.19">Jrn ſvlt <lb/> <unclear reason="Zweifel">fur</unclear> ander<unclear reason="Zweifel">ſ </unclear> niht han uernomen <lb/></l>
-<l xml:id="Fr54_229.20"><unclear reason="Zweifel">W</unclear><gap reason="unleserlich" extent="2" unit="Buchstabe"/> daz der v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſch<unclear reason="Zweifel">æ</unclear>r ſi chomen <lb/></l>
-<l xml:id="Fr54_229.21">dar <subst hand="#sr"><del>d*</del><add>get</add></subst> ir ſit im lieber gaſt.</l>
-<l xml:id="Fr54_229.22">Vnde <lb/> ſchuttit abe iv zorneſ laſt. <lb/></l>
-<l xml:id="Fr54_229.23"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: x">s</seg>i <subst hand="#sr"><del>gingi*</del><add>gingen</add></subst> vf ein palaſ</l>
-<l xml:id="Fr54_229.24">Hvndert <lb/> chron da gehang<unclear reason="Zweifel">e</unclear>n waſ</l>
-<l xml:id="Fr54_229.25">Vil chertzen <lb/> <gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_229.26">ob den <gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<pb xml:id="Fr54002r"/><cb xml:id="Fr54002ra"/>
-<l xml:id="Fr54_242.28">Mit einem bette gertit.</l>
-<l xml:id="Fr54_242.29">Daz <gap reason="unleserlich" extent="unbekannt"/> ar<unclear reason="Zweifel">mvͦ</unclear>t immer mvͦtt.</l>
-<l xml:id="Fr54_242.30">Sit div erde <unclear reason="Zweifel">a</unclear><lb/>ſol ich richen bluet.</l>
-<l xml:id="Fr54_243.01">Dem bette waſ <unclear reason="Zweifel">ir</unclear> <lb/> <gap reason="unleserlich" extent="unbekannt"/> tiwer</l>
-<l xml:id="Fr54_243.02">Alſer gleſte vz einem fiwer.</l>
-<l xml:id="Fr54_243.03">Lach da vffe <supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>in phelle liht gemal. <lb/></l>
-<l xml:id="Fr54_243.04">Der riter bat do partzival.</l>
-<l xml:id="Fr54_243.05">Wider <unclear reason="Zweifel">var</unclear><lb/>en an ir gemach.</l>
-<l xml:id="Fr54_243.06">Do er d<gap reason="unleserlich" extent="1" unit="Buchstabe"/> nimme<unclear reason="Zweifel">r</unclear> <gap reason="unleserlich" extent="unbekannt"/><lb/>te ſach.</l>
-<l xml:id="Fr54_243.07">Mit vrloͮbe ſi ſchiden dan.</l>
-<l xml:id="Fr54_243.08">Hie hebt ſich ander dienſt an</l>
-<l xml:id="Fr54_243.09">V<unclear reason="Zweifel">il</unclear> <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>herzen unde div varwe ſin.</l>
-<l xml:id="Fr54_243.10"><unclear reason="Zweifel">G</unclear>ab<gap reason="unleserlich" extent="1" unit="Buchstabe"/>n <lb/> zegegen ſtrite ſchin.</l>
-<l xml:id="Fr54_243.11">Wie mohte lieh<lb/><unclear reason="Zweifel">te</unclear>r ſin der tach</l>
-<l xml:id="Fr54_243.12">Vor ſinem bette ei<choice><am>̄</am><ex>n</ex></choice> <lb/> andirz lach</l>
-<l xml:id="Fr54_243.13">dar vffe ein teppich da <lb/> er ſaz</l>
-<l xml:id="Fr54_243.14">Jvncherren ſnel u<gap reason="unleserlich" extent="unbekannt"/>iht <unclear reason="Zweifel"><add hand="#sr">ze</add></unclear> <lb/> laz.</l>
-<l xml:id="Fr54_243.15"><unclear reason="Zweifel">Ein tril</unclear> ir im dar naher ſpranch</l>
-<l xml:id="Fr54_243.16">Sine geſ<unclear reason="Zweifel">ch</unclear>uͦhten bein div waren <subst hand="#sr"><del>bl</del><add><lb/> blanch</add></subst>.</l>
-<l xml:id="Fr54_243.17">Oͮch zoh im mer <subst hand="#sr"><del>gewante*</del><add>gewanteſ</add></subst> ab.</l>
-<l xml:id="Fr54_243.18">Manich wol gebornir chnab.</l>
-<l xml:id="Fr54_243.19">Fletich <lb/> waren diſiv chindelin.</l>
-<l xml:id="Fr54_243.20">Nv ſeht dort <lb/> quam ceder t<unclear reason="Zweifel">u</unclear>r her in.</l>
-<l xml:id="Fr54_243.21"><unclear reason="Zweifel">Vier clar</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<cb xml:id="Fr54002rb"/>
-<l xml:id="Fr54_244.22"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.23"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.24"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.25"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.26"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.27"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.28"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.29"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_244.30"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.01"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.02"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.03">Was bi<gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.04"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.05"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.06"><gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.07"><gap reason="unleserlich" extent="unbekannt"/> tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/>vm gar wid<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.08">ga<unclear reason="Zweifel">hmurete</unclear> phlach.</l>
-<l xml:id="Fr54_245.09">Svs <unclear reason="Zweifel">wa</unclear>rt g<gap reason="Fragmentverlust" extent="unbekannt"/> <lb/> ſin <unclear reason="Zweifel">ovm</unclear>.</l>
-<l xml:id="Fr54_245.10">Mi<unclear reason="Zweifel">t</unclear> ſwerteſ ſlegn um<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.11">da vor mit <subst hand="#sr"><del>m*</del><add>maniger</add></subst> <gap reason="unleserlich" extent="unbekannt"/>ſt<gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.12"><gap reason="unleserlich" extent="unbekannt"/> hurtichlich <gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="Fr54_245.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr54001v"/><cb xml:id="fr54001va"/>
+<l xml:id="fr54_227.18"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_227.19"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_227.20"><unclear reason="Zweifel">ſprun</unclear><lb/>g<unclear reason="Zweifel">en</unclear> gein dem<gap reason="Fragmentverlust" extent="unbekannt"/>n ſin.</l>
+<l xml:id="fr54_227.21"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_227.22"><gap reason="unleserlich" extent="unbekannt"/> im den ſtegr<unclear reason="Zweifel">ir</unclear>if.</l>
+<l xml:id="fr54_227.23">Svſ mvͦſ<unclear reason="Zweifel">e</unclear><gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">m</unclear> orſe ſten.</l>
+<l xml:id="fr54_227.24">Di<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied> rit<lb/><choice><am>̉</am><ex>er</ex></choice> in bate<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr54_227.25">D<unclear reason="Zweifel">i</unclear> furten <lb/> in an <gap reason="Fragmentverlust" extent="unbekannt"/> gemach</l>
+<l xml:id="fr54_227.26"><gap reason="Fragmentverlust" extent="unbekannt"/> <unclear reason="Zweifel">vil ſ</unclear> <gap reason="Fragmentverlust" extent="unbekannt"/> <lb/></l>
+<l xml:id="fr54_227.27"><gap reason="Fragmentverlust" extent="unbekannt"/>ent<unclear reason="Zweifel">wa</unclear><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_227.28">Do ſi den ivng<gap reason="unleserlich" extent="2" unit="Buchstabe"/> <lb/> ane <supplied reason="unleserlich" resp="Sekundärliteratur">b</supplied>art</l>
+<l xml:id="fr54_227.29">Geſahen alſuſ minnicli<unclear reason="Zweifel">h</unclear></l>
+<l xml:id="fr54_227.30">Si iahen er wære ſælden rich. <lb/></l>
+<l xml:id="fr54_228.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="1">x</seg>in waz<unclear reason="Zweifel">er</unclear> iſch der i<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied>nge man<unclear reason="Zweifel">.</unclear> <lb/></l>
+<l xml:id="fr54_228.02">Er tw<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> ram uon im ſan.</l>
+<l xml:id="fr54_228.03">Von <lb/> oͮgen unde von handen.</l>
+<l xml:id="fr54_228.04"><unclear reason="Zweifel">I</unclear>ung <gap reason="unleserlich" extent="unbekannt"/> <lb/> alte wanden.</l>
+<l xml:id="fr54_228.05">Daz der ander tach <unclear reason="Zweifel">vo<choice><am>̄</am><ex>n</ex></choice></unclear> <lb/> im erschin.</l>
+<l xml:id="fr54_228.06">Svſ ſaz der minn<unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/><lb/>li<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">i</unclear>n</l>
+<l xml:id="fr54_228.07">Gar uor alle<unclear reason="Zweifel">m</unclear> <gap reason="unleserlich" extent="unbekannt"/> <lb/></l>
+<l xml:id="fr54_228.08"><gap reason="unleserlich" extent="unbekannt"/> pfe<unclear reason="Zweifel">lle</unclear> <unclear reason="Zweifel">u</unclear>on <gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">b</unclear>i.</l>
+<l xml:id="fr54_228.09"><unclear reason="Zweifel">Deſ bro</unclear><gap reason="unleserlich" extent="unbekannt"/> <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>inen mantil dar.</l>
+<l xml:id="fr54_228.10">Den legt an ſich <lb/> <gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">ere</unclear></l>
+<l xml:id="fr54_228.11">Mit offner ſnuͦre <lb/></l>
+<l xml:id="fr54_228.12"><gap reason="Fragmentverlust" extent="unbekannt"/>uͦ<unclear reason="Zweifel">re.</unclear></l>
+<l xml:id="fr54_228.13">Do <lb/></l>
+<cb xml:id="fr54001vb"/>
+<l xml:id="fr54_229.04">Z hove ein rede ſpæhir man.</l>
+<l xml:id="fr54_229.05">Hiez <lb/> <unclear reason="Zweifel">k</unclear>omen <unclear reason="Zweifel">ze</unclear> <unclear reason="Zweifel">ur</unclear><supplied reason="unleserlich" resp="Sekundärliteratur">æ</supplied>velich.</l>
+<l xml:id="fr54_229.06">Den gaſt ellens <lb/> riche.</l>
+<l xml:id="fr54_229.07"><unclear reason="Zweifel">Ce</unclear>dem wirt alſ ob im wærr <lb/> zorn</l>
+<l xml:id="fr54_229.08">Deſ het er nach den lip uer<lb/>lorn.</l>
+<l xml:id="fr54_229.09">Von dem <subst hand="#sr"><del>ivngi*</del><add>ivngen</add></subst> partzifal. <lb/></l>
+<l xml:id="fr54_229.10">Do er ſin ſwert ſo wol gemal</l>
+<l xml:id="fr54_229.11">Bi <lb/> im niender ligen vant.</l>
+<l xml:id="fr54_229.12">Zer fvſte <lb/> tw<unclear reason="Zweifel">a</unclear>nger ſine hant</l>
+<l xml:id="fr54_229.13">Daz im daz <lb/> <supplied reason="unleserlich" resp="Sekundärliteratur">pl</supplied>ut <gap reason="unleserlich" extent="1" unit="Buchstabe"/>z <unclear reason="Zweifel">d</unclear>en nageln ſchoz</l>
+<l xml:id="fr54_229.14">Vnde <lb/> den ermil gar begoz.</l>
+<l xml:id="fr54_229.15">Nein <lb/> h<unclear reason="Zweifel">erre</unclear> ſprach div riterſchaft.</l>
+<l xml:id="fr54_229.16"><unclear reason="Zweifel">Er</unclear> <lb/> iſt ein man der ſchimpfeſ chraft. <lb/></l>
+<l xml:id="fr54_229.17"><gap reason="unleserlich" extent="2" unit="Buchstabe"/>at ſwie trurich wir alle ſin.</l>
+<l xml:id="fr54_229.18">Tuͦt <lb/> iwer niht gein im ſchin.</l>
+<l xml:id="fr54_229.19">Jrn ſvlt <lb/> <unclear reason="Zweifel">fur</unclear> ander<unclear reason="Zweifel">ſ </unclear> niht han uernomen <lb/></l>
+<l xml:id="fr54_229.20"><unclear reason="Zweifel">W</unclear><gap reason="unleserlich" extent="2" unit="Buchstabe"/> daz der v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſch<unclear reason="Zweifel">æ</unclear>r ſi chomen <lb/></l>
+<l xml:id="fr54_229.21">dar <subst hand="#sr"><del>d*</del><add>get</add></subst> ir ſit im lieber gaſt.</l>
+<l xml:id="fr54_229.22">Vnde <lb/> ſchuttit abe iv zorneſ laſt. <lb/></l>
+<l xml:id="fr54_229.23"><seg type="Initiale" subtype="nicht_ausgeführt" n="1">s</seg>i <subst hand="#sr"><del>gingi*</del><add>gingen</add></subst> vf ein palaſ</l>
+<l xml:id="fr54_229.24">Hvndert <lb/> chron da gehang<unclear reason="Zweifel">e</unclear>n waſ</l>
+<l xml:id="fr54_229.25">Vil chertzen <lb/> <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_229.26">ob den <gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<pb xml:id="fr54002r"/><cb xml:id="fr54002ra"/>
+<l xml:id="fr54_242.28">Mit einem bette gertit.</l>
+<l xml:id="fr54_242.29">Daz <gap reason="unleserlich" extent="unbekannt"/> ar<unclear reason="Zweifel">mvͦ</unclear>t immer mvͦtt.</l>
+<l xml:id="fr54_242.30">Sit div erde <unclear reason="Zweifel">a</unclear><lb/>ſol ich richen bluet.</l>
+<l xml:id="fr54_243.01">Dem bette waſ <unclear reason="Zweifel">ir</unclear> <lb/> <gap reason="unleserlich" extent="unbekannt"/> tiwer</l>
+<l xml:id="fr54_243.02">Alſer gleſte vz einem fiwer.</l>
+<l xml:id="fr54_243.03">Lach da vffe <supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied>in phelle liht gemal. <lb/></l>
+<l xml:id="fr54_243.04">Der riter bat do partzival.</l>
+<l xml:id="fr54_243.05">Wider <unclear reason="Zweifel">var</unclear><lb/>en an ir gemach.</l>
+<l xml:id="fr54_243.06">Do er d<gap reason="unleserlich" extent="1" unit="Buchstabe"/> nimme<unclear reason="Zweifel">r</unclear> <gap reason="unleserlich" extent="unbekannt"/><lb/>te ſach.</l>
+<l xml:id="fr54_243.07">Mit vrloͮbe ſi ſchiden dan.</l>
+<l xml:id="fr54_243.08">Hie hebt ſich ander dienſt an</l>
+<l xml:id="fr54_243.09">V<unclear reason="Zweifel">il</unclear> <lb/> <gap reason="unleserlich" extent="1" unit="Buchstabe"/>herzen unde div varwe ſin.</l>
+<l xml:id="fr54_243.10"><unclear reason="Zweifel">G</unclear>ab<gap reason="unleserlich" extent="1" unit="Buchstabe"/>n <lb/> zegegen ſtrite ſchin.</l>
+<l xml:id="fr54_243.11">Wie mohte lieh<lb/><unclear reason="Zweifel">te</unclear>r ſin der tach</l>
+<l xml:id="fr54_243.12">Vor ſinem bette ei<choice><am>̄</am><ex>n</ex></choice> <lb/> andirz lach</l>
+<l xml:id="fr54_243.13">dar vffe ein teppich da <lb/> er ſaz</l>
+<l xml:id="fr54_243.14">Jvncherren ſnel u<gap reason="unleserlich" extent="unbekannt"/>iht <unclear reason="Zweifel"><add hand="#sr">ze</add></unclear> <lb/> laz.</l>
+<l xml:id="fr54_243.15"><unclear reason="Zweifel">Ein tril</unclear> ir im dar naher ſpranch</l>
+<l xml:id="fr54_243.16">Sine geſ<unclear reason="Zweifel">ch</unclear>uͦhten bein div waren <subst hand="#sr"><del>bl</del><add><lb/> blanch</add></subst>.</l>
+<l xml:id="fr54_243.17">Oͮch zoh im mer <subst hand="#sr"><del>gewante*</del><add>gewanteſ</add></subst> ab.</l>
+<l xml:id="fr54_243.18">Manich wol gebornir chnab.</l>
+<l xml:id="fr54_243.19">Fletich <lb/> waren diſiv chindelin.</l>
+<l xml:id="fr54_243.20">Nv ſeht dort <lb/> quam ceder t<unclear reason="Zweifel">u</unclear>r her in.</l>
+<l xml:id="fr54_243.21"><unclear reason="Zweifel">Vier clar</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<cb xml:id="fr54002rb"/>
+<l xml:id="fr54_244.22"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.23"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.24"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.25"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.26"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.27"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.28"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.29"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_244.30"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.01"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.02"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.03">Was bi<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.04"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.05"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.06"><gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.07"><gap reason="unleserlich" extent="unbekannt"/> tr<gap reason="unleserlich" extent="1" unit="Buchstabe"/>vm gar wid<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr54_245.08">ga<unclear reason="Zweifel">hmurete</unclear> phlach.</l>
+<l xml:id="fr54_245.09">Svs <unclear reason="Zweifel">wa</unclear>rt g<gap reason="Fragmentverlust" extent="unbekannt"/> <lb/> ſin <unclear reason="Zweifel">ovm</unclear>.</l>
+<l xml:id="fr54_245.10">Mi<unclear reason="Zweifel">t</unclear> ſwerteſ ſlegn um<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr54_245.11">da vor mit <subst hand="#sr"><del>m*</del><add>maniger</add></subst> <gap reason="unleserlich" extent="unbekannt"/>ſt<gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.12"><gap reason="unleserlich" extent="unbekannt"/> hurtichlich <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr54_245.13"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 </body>
 </text>
 </TEI>

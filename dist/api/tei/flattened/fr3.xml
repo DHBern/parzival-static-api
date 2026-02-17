@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr3</title>
+      <title type="sub">Transkription des Textzeugen fr3</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Herzogin Anna Amalia  bibliothek</repository>
           <idno>Cod. Fol. 439a (12)</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr3</idno>
+            <idno>fr3</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr3">
@@ -76,9 +76,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -91,7 +88,6 @@
 <note>Transkribiert von MiGe am 31.07.2013 ab digitalisiertem Zeitschriftenartikel.</note>
 <note>Gegengelesen von JLa am 8. August 2013 ab digitalisiertem Zeitschriftenartikel.</note>
 <note>Endredaktion durch JKl am 12.12.2016 ab digitalisiertem Zeitschriftenartikel, unl-Stellen nachbearb. am 20.12.2016.</note>
-<note>MiGe, 7.2.22: Lichtenstein macht keine Angabe zur Art der Initialen im Fragment. Aus Gründen der Wahrscheinlichkeit werden diese in der vorliegenden Datei als Lombarden bezeichnet.</note>
 <cb xml:id="fr3001rc"/>
 <l xml:id="fr3_237.05"><gap reason="Fragmentverlust" extent="unbekannt"/>schlachen gevar <gap reason="unleserlich" extent="unbekannt"/>ch wiz</l>
 <l xml:id="fr3_237.06"><gap reason="Fragmentverlust" extent="unbekannt"/>urden dar vf gele<gap reason="unleserlich" extent="2" unit="Buchstabe"/> mit vli</l>
@@ -107,13 +103,13 @@
 <l xml:id="fr3_238.03">Hvndert knapen ma<choice><am>̄</am><ex>n</ex></choice> gebot</l>
 <l xml:id="fr3_238.04">Di nam<gap reason="unleserlich" extent="2" unit="Buchstabe"/>n wîzen twehelen br<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_238.05">Mit zvchten vor de grale</l>
-<note resp="#MiGe_Transkribent" target="#fr3_238.05 #Fr3;369"><ref>de</ref>: Nasalstrich ging vergessen oder wurde abgerieben.</note>
+<note resp="#MiGe_Transkribent" target="#?1_238.05 #Fr3;369"><ref>de</ref>: Nasalstrich ging vergessen oder wurde abgerieben.</note>
 <l xml:id="fr3_238.06">Di giengen al zv male</l>
 <l xml:id="fr3_238.07"><gap reason="Fragmentverlust" extent="unbekannt"/>n<choice><am>̄</am><ex>d</ex></choice> teileden vor di tablen sich</l>
 <l xml:id="fr3_238.08"><gap reason="Fragmentverlust" extent="unbekannt"/>a<choice><am>̄</am><ex>n</ex></choice> sagete mîr daz sage ovch ich</l>
 <pb xml:id="fr3001v"/><cb xml:id="fr3001va"/>
 <l xml:id="fr3_238.09">vf v w îegeliches eit</l>
-<note resp="#MiGe_Transkribent" target="#fr3_238.09 #Fr3;369"><ref>v w îegeliches</ref>: Vermutlich fehlt er-Kürzel nach <ref>w</ref>.</note>
+<note resp="#MiGe_Transkribent" target="#?1_238.09 #Fr3;369"><ref>v w îegeliches</ref>: Vermutlich fehlt er-Kürzel nach <ref>w</ref>.</note>
 <l xml:id="fr3_238.10"><gap reason="Fragmentverlust" extent="unbekannt"/>az vor<gap reason="unleserlich" extent="unbekannt"/>le were bereit</l>
 <l xml:id="fr3_238.11">Sal ich d<gap reason="unleserlich" extent="unbekannt"/><sic>emanne</sic> trigen</l>
 <l xml:id="fr3_238.12">So mu<gap reason="unleserlich" extent="unbekannt"/> mit mir ligen</l>
@@ -126,9 +122,9 @@
 <l xml:id="fr3_239.07">Hete wirtschaft vo<choice><am>̄</am><ex>n</ex></choice> de<choice><am>̄</am><ex>m</ex></choice> gral</l>
 <l xml:id="fr3_239.08">Wol gemerkete parz<gap reason="unleserlich" extent="1" unit="Buchstabe"/>val</l>
 <l xml:id="fr3_239.09">Di richeit vn<choice><am>̄</am><ex>d</ex></choice> daz wnd<choice><am>̉</am><ex>er</ex></choice> groz <gap reason="unleserlich" extent="1" unit="Buchstabe"/> dr</l>
-<note resp="#MiGe_Transkribent" target="#fr3_239.09 #Fr3;369"><ref>dr</ref>: Die beiden Buchstaben sind der Beginn von "droz", welches über das vermutlich Vers 239.10 schliessende "v<choice><am>̉</am><ex>er</ex></choice>" übergeschrieben war.</note>
+<note resp="#MiGe_Transkribent" target="#?1_239.09 #Fr3;369"><ref>dr</ref>: Die beiden Buchstaben sind der Beginn von "droz", welches über das vermutlich Vers 239.10 schliessende "v<choice><am>̉</am><ex>er</ex></choice>" übergeschrieben war.</note>
 <l xml:id="fr3_239.10">Dvrch zvcht în vragens doch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr3_239.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">E</seg>r da<gap reason="unleserlich" extent="1" unit="Buchstabe"/>hte mîr riet gurnem<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr3_239.11"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">E</seg>r da<gap reason="unleserlich" extent="1" unit="Buchstabe"/>hte mîr riet gurnem<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_239.12">Mit grozen truwen ane scran<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <pb xml:id="fr3002r"/><cb xml:id="fr3002ra"/>
 <l xml:id="fr3_363.29">Set sîn gebere vn<choice><am>̄</am><ex>d</ex></choice> horet sîne wort</l>
@@ -155,7 +151,7 @@
 <l xml:id="fr3_364.20">Vn<choice><am>̄</am><ex>d</ex></choice> vwern kumber han v<choice><am>̉</am><ex>er</ex></choice>num<choice><am>̄</am><ex>n</ex></choice></l>
 <l xml:id="fr3_364.21">Den daz ir si willet rovben</l>
 <l xml:id="fr3_364.22">Des suldir vch gelovben</l>
-<l xml:id="fr3_364.23"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er vurste sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch laz mich i<choice><am>̄</am><ex>n</ex></choice> sehen</l>
+<l xml:id="fr3_364.23"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">D</seg>er vurste sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch laz mich i<choice><am>̄</am><ex>n</ex></choice> sehen</l>
 <l xml:id="fr3_364.24">Da mac nicht arges vz ges<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr3_364.25">Er reit da er gawan <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr3_364.26">Zwei ovgen vn<choice><am>̄</am><ex>d</ex></choice> ein h<gap reason="unleserlich" extent="unbekannt"/>ach</l>
@@ -174,7 +170,7 @@
 <l xml:id="fr3_365.08">Iz s<gap reason="unleserlich" extent="unbekannt"/>n</l>
 <l xml:id="fr3_365.09">Di<gap reason="unleserlich" extent="unbekannt"/>ze mi<choice><am>̄</am><ex>n</ex></choice>ne</l>
 <l xml:id="fr3_365.10">V<gap reason="unleserlich" extent="unbekannt"/>ke an h<gap reason="unleserlich" extent="unbekannt"/>nne</l>
-<l xml:id="fr3_365.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">O</seg>bie vn<choice><am>̄</am><ex>d</ex></choice> mel<gap reason="unleserlich" extent="1" unit="Buchstabe"/>anz</l>
+<l xml:id="fr3_365.11"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">O</seg>bie vn<choice><am>̄</am><ex>d</ex></choice> mel<gap reason="unleserlich" extent="1" unit="Buchstabe"/>anz</l>
 <l xml:id="fr3_365.12">Ir zwîer mi<choice><am>̄</am><ex>n</ex></choice>n. was so ganz</l>
 <l xml:id="fr3_365.13">Vn<choice><am>̄</am><ex>d</ex></choice> stunt m<gap reason="unleserlich" extent="1" unit="Buchstabe"/>t sulchen truwen</l>
 <l xml:id="fr3_365.14">Sîn zorn vch so<gap reason="unleserlich" extent="1" unit="Buchstabe"/>de ruwen</l>
@@ -187,7 +183,7 @@
 <l xml:id="fr3_365.21">Sus vlacht ir kusche sich i<choice><am>̄</am><ex>n</ex></choice> zorn</l>
 <l xml:id="fr3_365.22">Iz was îr beider ovgen <sic>zlon</sic></l>
 <l xml:id="fr3_365.23">Swa si den wden man gesach</l>
-<note resp="#MiGe_Transkribent" target="#fr3_365.23 #Fr3;371"><ref>wden</ref>: Über <ref>w</ref> Loch im Pergament.</note>
+<note resp="#MiGe_Transkribent" target="#?1_365.23 #Fr3;371"><ref>wden</ref>: Über <ref>w</ref> Loch im Pergament.</note>
 <l xml:id="fr3_365.24"><gap reason="unleserlich" extent="2" unit="Buchstabe"/> herze melianze iach</l>
 <l xml:id="fr3_365.25">Er muste <gap reason="unleserlich" extent="1" unit="Buchstabe"/>or vz d<choice><am>̉</am><ex>er</ex></choice> hoeste sîn</l>
 <l xml:id="fr3_365.26">Si dachte ob er mich leret pîn</l>
@@ -197,8 +193,8 @@
 <l xml:id="fr3_365.30"><gap reason="Fragmentverlust" extent="unbekannt"/> h<choice><am>̉</am><ex>er</ex></choice>ze sînne</l>
 <l xml:id="fr3_366.01"><gap reason="Fragmentverlust" extent="unbekannt"/> noch vil geſch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_366.02"><gap reason="Fragmentverlust" extent="unbekannt"/>dîz obien nîet</l>
-<l xml:id="fr3_366.03"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">N</seg><gap reason="Fragmentverlust" extent="unbekannt"/>at<choice><am>̉</am><ex>er</ex></choice> ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch</l>
-<note resp="#MiGe_Transkribent" target="#fr3_366.03 #Fr3;372"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">N</seg></ref>: Laut Anmerkung im Druck war Initiale rot.</note>
+<l xml:id="fr3_366.03"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">N</seg><gap reason="Fragmentverlust" extent="unbekannt"/>at<choice><am>̉</am><ex>er</ex></choice> ſp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch</l>
+<note resp="#MiGe_Transkribent" target="#?1_366.03 #Fr3;372"><ref><seg type="Initiale" subtype="nicht_ausgeführt" n="2">N</seg></ref>: Laut Anmerkung im Druck war Initiale rot.</note>
 <l xml:id="fr3_366.04">Do <gap reason="Fragmentverlust" extent="unbekannt"/> gawan sach</l>
 <l xml:id="fr3_366.05">V<gap reason="Fragmentverlust" extent="unbekannt"/> entfienc</l>
 <l xml:id="fr3_366.06"><gap reason="Fragmentverlust" extent="unbekannt"/> rede ane vîenc</l>
@@ -212,7 +208,7 @@
 <l xml:id="fr3_368.22">De<choice><am>̉</am><ex>r</ex></choice> megede wart z<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_368.23">Do si in di <gap reason="unleserlich" extent="unbekannt"/>nate ginc</l>
 <l xml:id="fr3_368.24">Gawan si mit zvcht entfinc</l>
-<l xml:id="fr3_368.25"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">Z</seg>v d<choice><am>̉</am><ex>er</ex></choice> suzîn er <gap reason="unleserlich" extent="2" unit="Buchstabe"/> saz</l>
+<l xml:id="fr3_368.25"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">Z</seg>v d<choice><am>̉</am><ex>er</ex></choice> suzîn er <gap reason="unleserlich" extent="2" unit="Buchstabe"/> saz</l>
 <l xml:id="fr3_368.26">Er danctir daz si nicht v<choice><am>̉</am><ex>er</ex></choice>gaz</l>
 <l xml:id="fr3_368.27">Sîn da ma<choice><am>̄</am><ex>n</ex></choice> im missebot</l>
 <l xml:id="fr3_368.28">Er sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch geleit ie rîtter not</l>
@@ -227,10 +223,10 @@
 <l xml:id="fr3_369.07">Vn<choice><am>̄</am><ex>d</ex></choice> ouch min schemelich<choice><am>̉</am><ex>er</ex></choice> sîn</l>
 <l xml:id="fr3_369.08">Daz git an vrouden <gap reason="unleserlich" extent="unbekannt"/> <sic>gwin</sic></l>
 <l xml:id="fr3_369.09">Si wande mir meisterin viach</l>
-<note resp="#MiGe_Transkribent" target="#fr3_369.09 #Fr3;373"><ref>viach</ref>: Womöglich er-Kürzel über <ref>v</ref> erloschen.</note>
+<note resp="#MiGe_Transkribent" target="#?1_369.09 #Fr3;373"><ref>viach</ref>: Womöglich er-Kürzel über <ref>v</ref> erloschen.</note>
 <l xml:id="fr3_369.10">Di rede were sinne dach</l>
 <l xml:id="fr3_369.11">Here ich bîn vw<gap reason="unleserlich" extent="unbekannt"/>n<choice><am>̄</am><ex>d</ex></choice><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Transkribent" target="#fr3_369.11 #Fr3;373"><ref>bîn</ref>: Es könnte auch "bitt" heissen.</note>
+<note resp="#MiGe_Transkribent" target="#?1_369.11 #Fr3;373"><ref>bîn</ref>: Es könnte auch "bitt" heissen.</note>
 <l xml:id="fr3_369.12">Daz lere mi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_369.13">Den nennich <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr3_369.14">Habet ir mich <gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -244,7 +240,7 @@
 <l xml:id="fr3_369.21">Ich han vwer vn<choice><am>̄</am><ex>d</ex></choice> mîn gegert</l>
 <l xml:id="fr3_369.22">Lat <sic>mîr mîch</sic> h<choice><am>̉</am><ex>er</ex></choice>re vngewert</l>
 <l xml:id="fr3_369.23">Vn<choice><am>̄</am><ex>d</ex></choice> <sic>sene<choice><am>̄</am><ex>m</ex></choice>liche</sic> vo<choice><am>̄</am><ex>n</ex></choice> v gen</l>
-<note resp="#JKl_Gegenleser" target="#fr3_369.23 #Fr3P372"><ref><sic>sene<choice><am>̄</am><ex>m</ex></choice>liche</sic></ref>: Würde für <sic>sene<choice><am>̄</am><ex>n</ex></choice>liche</sic> plädieren, die MHDBDB verzeichnet aber keine der beiden Formen.</note>
+<note resp="#JKl_Gegenleser" target="#?1_369.23 #Fr3P372"><ref><sic>sene<choice><am>̄</am><ex>m</ex></choice>liche</sic></ref>: Würde für <sic>sene<choice><am>̄</am><ex>n</ex></choice>liche</sic> plädieren, die MHDBDB verzeichnet aber keine der beiden Formen.</note>
 <l xml:id="fr3_369.24">Dar vmbe muz zv rechte sten</l>
 <l xml:id="fr3_369.25">Vw<choice><am>̉</am><ex>er</ex></choice> prîs vo<choice><am>̄</am><ex>n</ex></choice> vwers selbes zvcht</l>
 <l xml:id="fr3_369.26">Sit mîn magetumliche vlucht</l>
@@ -252,15 +248,15 @@
 <l xml:id="fr3_369.28">Obir here des geruchet</l>
 <l xml:id="fr3_369.29">Ich wil vch geben mî<choice><am>̄</am><ex>n</ex></choice>ne</l>
 <l xml:id="fr3_369.30">Mit herzelichem sînne</l>
-<l xml:id="fr3_370.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">O</seg>b ir manliche sîte hat</l>
+<l xml:id="fr3_370.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="2">O</seg>b ir manliche sîte hat</l>
 <l xml:id="fr3_370.02">So wenich wol daz îr nîcht lat</l>
 <l xml:id="fr3_370.03"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>r endient mîr wandîchs bîn wert</l>
-<note resp="#MiGe_Transkribent" target="#fr3_370.03 #Fr3;373"><ref><gap reason="unleserlich" extent="1" unit="Buchstabe"/>r</ref>: Entweder "Er" oder "Jr".</note>
+<note resp="#MiGe_Transkribent" target="#?1_370.03 #Fr3;373"><ref><gap reason="unleserlich" extent="1" unit="Buchstabe"/>r</ref>: Entweder "Er" oder "Jr".</note>
 <l xml:id="fr3_370.04">Sit ovch mîn vater helfe gert</l>
 <l xml:id="fr3_370.05">An vrunden vn<choice><am>̄</am><ex>d</ex></choice> an magen</l>
 <l xml:id="fr3_370.06">Lat v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>h des nîcht betragen</l>
 <l xml:id="fr3_370.07">Er endietît vns vf mînes êines lon</l>
-<note resp="#MiGe_Transkribent" target="#fr3_370.07 #Fr3;374"><ref>Er</ref>: Es könnte auch "Ir" heissen.</note>
+<note resp="#MiGe_Transkribent" target="#?1_370.07 #Fr3;374"><ref>Er</ref>: Es könnte auch "Ir" heissen.</note>
 <l xml:id="fr3_370.08">Er sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch vrowe vwes mu<choice><am>̄</am><ex>n</ex></choice>des don</l>
 <l xml:id="fr3_370.09">Wîl mich vo<choice><am>̄</am><ex>n</ex></choice> truwen scheiden</l>
 <l xml:id="fr3_370.10">Vntruwe v solde lêiden</l>
@@ -269,7 +265,7 @@
 <l xml:id="fr3_370.13">Doch lat mich dienst vn<choice><am>̄</am><ex>d</ex></choice> sinne.</l>
 <l xml:id="fr3_370.14">Keren gegen vw<choice><am>̉</am><ex>er</ex></choice> minne</l>
 <l xml:id="fr3_370.15"><gap reason="Fragmentverlust" extent="unbekannt"/>ch mî<choice><am>̄</am><ex>n</ex></choice>ne muget geben</l>
-<note resp="#MiGe_Transkribent" target="#fr3_370.15 #Fr3;374"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>ch</ref>: <ref>ch</ref> hier sehr deutlich. Folglich hat dieses Fragment hier eine von allen anderen Handschriften abweichende Lesart.</note>
+<note resp="#MiGe_Transkribent" target="#?1_370.15 #Fr3;374"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>ch</ref>: <ref>ch</ref> hier sehr deutlich. Folglich hat dieses Fragment hier eine von allen anderen Handschriften abweichende Lesart.</note>
 <l xml:id="fr3_370.16">Som<gap reason="unleserlich" extent="unbekannt"/> vunf iar er leben</l>
 <l xml:id="fr3_370.17">Daz <gap reason="unleserlich" extent="unbekannt"/> mî<choice><am>̄</am><ex>n</ex></choice>ne <sic>zil</sic> ein zal</l>
 <l xml:id="fr3_370.18">Nv dacht<choice><am>̉</am><ex>er</ex></choice> des wî partzeval</l>

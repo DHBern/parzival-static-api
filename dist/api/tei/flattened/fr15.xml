@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr15</title>
+      <title type="sub">Transkription des Textzeugen fr15</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Zentralbibliothek</repository>
           <idno>Cod. Z XIV 13</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr15</idno>
+            <idno>fr15</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr15">
@@ -71,9 +71,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -120,8 +117,8 @@
 <l xml:id="fr15_181.02">Mit ſene<gap reason="unleserlich" extent="unbekannt"/>an.</l>
 <l xml:id="fr15_181.03">Dar vb<gap reason="unleserlich" extent="unbekannt"/>ch.</l>
 <l xml:id="fr15_181.04">da maneh<gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="fr15_181.06"><milestone unit="Versumstellung"/>Pelrapeir<gap reason="unleserlich" extent="unbekannt"/></l>
-<l xml:id="fr15_181.05"><milestone unit="Versumstellung"/>ez vloz <gap reason="unleserlich" extent="unbekannt"/></l>
+<l xml:id="fr15_181.06"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr15_181.05"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr15_181.07">Seh<gap reason="unleserlich" extent="1" unit="Buchstabe"/> wi<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr15_181.08"><gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr15001rb"/>

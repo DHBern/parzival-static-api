@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr47</title>
+      <title type="sub">Transkription des Textzeugen fr47</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>Fr47</idno>
+          <idno>fr47</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr47">
                                 <title type="main">Fr. 47 (G<hi rend="sup">η</hi>):</title>
                                 <list>
@@ -47,7 +46,7 @@
             <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
             <idno>"Ms. germ. fol. 734 Nr. 5"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr47A</idno>
+              <idno>fr47A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -62,7 +61,7 @@
             <repository>"Staatliche Bibliothek"</repository>
             <idno>"Ms. lat. 68"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr47B</idno>
+              <idno>fr47B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -93,9 +92,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -125,7 +121,7 @@
 <l xml:id="fr47_160.14">Er waz vor wild valſch zam</l>
 <l xml:id="fr47_160.15">Der waz vil gar vo<choice><am>̄</am><ex>n</ex></choice> im geſchaben</l>
 <l xml:id="fr47_160.16">Nv muzz alzefrv <supplied reason="unleserlich" resp="Leimabklatsch">b</supplied>egraben</l>
-<note resp="#LCa_Transkribent" target="#fr47_160.16 #Fr47001ra"><ref>muzz</ref>: Wurde zuerst als <ref>m<unclear reason="Zweifel">uͤ</unclear>zz</ref> transkribiert, da auf dem Pergament ein Fleck zu sehen ist. Dieser bestätigt sich in Abgleich mit dem Abklatsch nicht. Könnte sich aber dennoch um ein Diakritikum handeln.</note>
+<note resp="#LCa_Transkribent" target="#?1_160.16 #Fr47001ra"><ref>muzz</ref>: Wurde zuerst als <ref>m<unclear reason="Zweifel">uͤ</unclear>zz</ref> transkribiert, da auf dem Pergament ein Fleck zu sehen ist. Dieser bestätigt sich in Abgleich mit dem Abklatsch nicht. Könnte sich aber dennoch um ein Diakritikum handeln.</note>
 <l xml:id="fr47_160.17">Ein ſloz ob dem breiz</l>
 <l xml:id="fr47_160.18">Vnd ſein hertz an zvhten weiz</l>
 <l xml:id="fr47_160.19">Ob de<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied> Triwe ein hantveſt</l>
@@ -147,7 +143,7 @@
 <l xml:id="fr47_161.04"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr47_161.05">Dar vmb waz ſein endez wer</l>
 <l xml:id="fr47_161.06">Dez tumbe<choice><am>̄</am><ex>n</ex></choice> Parhcifalez ger</l>
-<note resp="#JKl_Transkribent" target="#fr47_161.06 #f047001rb"><ref>Parhcifalez</ref>: Schreiber hat vmtl. h-förmiges z der Vorlage nicht erkannt und h geschrieben.</note>
+<note resp="#JKl_Transkribent" target="#?1_161.06 #f047001rb"><ref>Parhcifalez</ref>: Schreiber hat vmtl. h-förmiges z der Vorlage nicht erkannt und h geschrieben.</note>
 <l xml:id="fr47_161.07"><gap reason="unleserlich" extent="unbekannt"/>ſ<unclear reason="Zweifel"><supplied reason="unleserlich" resp="Leimabklatsch">ich</supplied></unclear> <unclear reason="Zweifel">b<supplied reason="unleserlich" resp="Leimabklatsch">a</supplied></unclear><gap reason="unleserlich" extent="unbekannt"/>ſ<unclear reason="Zweifel">an</unclear></l>
 <l xml:id="fr47_161.08">Vngern het er ez getan</l>
 <l xml:id="fr47_161.09">Daz Ors einer ſite phlach</l>
@@ -267,7 +263,7 @@
 <l xml:id="fr47_173.02">Alz die Sunne die hivt ſchain</l>
 <l xml:id="fr47_173.03">Vnd auch der man haizz tag</l>
 <l xml:id="fr47_173.04">Der <supplied reason="unleserlich" resp="Leimabklatsch">ew</supplied>derz ſich geſchaide<choice><am>̄</am><ex>n</ex></choice> mag</l>
-<note resp="#LCa_Transkribent" target="#fr47_173.04 #Fr47002ra"><ref><supplied reason="unleserlich" resp="Leimabklatsch">ew</supplied>derz</ref>: Über dem w ist im Abklatsch ein Fleck zu sehen, der auch als Diakritikum oder Korrektur gedeutet werden könnte.</note>
+<note resp="#LCa_Transkribent" target="#?1_173.04 #Fr47002ra"><ref><supplied reason="unleserlich" resp="Leimabklatsch">ew</supplied>derz</ref>: Über dem w ist im Abklatsch ein Fleck zu sehen, der auch als Diakritikum oder Korrektur gedeutet werden könnte.</note>
 <l xml:id="fr47_173.05">Si <unclear reason="Zweifel"><subst hand="#sr"><del>buende</del><add>bluende</add></subst></unclear> vz einen kern gar</l>
 <l xml:id="fr47_173.06">dez nemet chunſtliche<choice><am>̄</am><ex>n</ex></choice> war</l>
 <cb xml:id="fr47002rb"/>
@@ -328,7 +324,7 @@
 <l xml:id="fr47_174.30">Vallend er den acher maz</l>
 <l xml:id="fr47_175.01">Do muſte claine ſtuchellein</l>
 <l xml:id="fr47_175.02">Da vo<choice><am>̄</am><ex>n</ex></choice> den tr<unclear reason="Zweifel">innl</unclear>ern ſein</l>
-<note resp="#MiGe_Gegenleser" target="#fr47_175.02 #Fr47002va"><ref>tr<unclear reason="Zweifel">innl</unclear>ern</ref>: Rosenfeld transkribiert <ref>tumbern</ref>. Beide Lesungen sind möglich.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_175.02 #Fr47002va"><ref>tr<unclear reason="Zweifel">innl</unclear>ern</ref>: Rosenfeld transkribiert <ref>tumbern</ref>. Beide Lesungen sind möglich.</note>
 <l xml:id="fr47_175.03">Alſo ſtach er Jr fvͤnf nider</l>
 <l xml:id="fr47_175.04">Der wirt Jn na<choice><am>̄</am><ex>m</ex></choice> vnd furt Jn wider</l>
 <l xml:id="fr47_175.05">Seht da behielt er ſchimpfez breiz</l>
@@ -469,7 +465,7 @@
 <l xml:id="fr47_179.16">Awe wann daz Jn rurt</l>
 <l xml:id="fr47_179.17">Vil mange vnſuͤzze ſtreng</l>
 <l xml:id="fr47_179.18">Jm waz die weite ze <subst hand="#sr"><del>e*</del><add>eng</add></subst></l>
-<note resp="#LCa_Transkribent" target="#fr47_179.18 #fr47003vb"><ref><subst hand="#sr"><del>e*</del><add>eng</add></subst></ref>:Neben dem e ein Punkt zu erkennen. Es handelt sich vermutlich um eine nicht ausgeführte Korrektur, bei der der Schreiber nochmals neu zum eng angesetzt hat.</note>
+<note resp="#LCa_Transkribent" target="#?1_179.18 #fr47003vb"><ref><subst hand="#sr"><del>e*</del><add>eng</add></subst></ref>:Neben dem e ein Punkt zu erkennen. Es handelt sich vermutlich um eine nicht ausgeführte Korrektur, bei der der Schreiber nochmals neu zum eng angesetzt hat.</note>
 <l xml:id="fr47_179.19">Vn<choice><am>̄</am><ex>d</ex></choice> auch die brait gar zeſmal</l>
 <l xml:id="fr47_179.20">Elle grvͤn Jn davht val</l>
 <l xml:id="fr47_179.21">Sei<choice><am>̄</am><ex>n</ex></choice> rot harnaſch <subst hand="#sr"><del>davh</del><add>davht</add></subst> Jn blanch</l>
@@ -508,8 +504,8 @@
 <l xml:id="fr47_188.26">Jch wene mich ſmech dirr <gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr47_188.27">Durch daz mei<choice><am>̄</am><ex>n</ex></choice> leib vertwalt <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr47_188.28">Nain er tutz durch eine<choice><am>̄</am><ex>n</ex></choice> liſt</l>
-<l xml:id="fr47_188.30"><milestone unit="Versumstellung"/>Die erſt red iſt mein</l>
-<l xml:id="fr47_188.29"><milestone unit="Versumstellung"/>Er iſt gaſt ich bin wirtinn</l>
+<l xml:id="fr47_188.30"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr47_188.29"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr47_189.01">Dar nach er guͤtlich an mi<gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr47_189.02">Seit vnz zeſitzen hie geſcha<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr47_189.03">Er hat ſein zvht ge<choice><am>̄</am><ex>n</ex></choice>mir erb<gap reason="Fragmentverlust" extent="unbekannt"/></l>

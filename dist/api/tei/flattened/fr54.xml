@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr54</title>
+      <title type="sub">Transkription des Textzeugen fr54</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Universitätsbibliothek</repository>
           <idno>Hs. 678</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr54</idno>
+            <idno>fr54</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr54">
@@ -76,9 +76,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -109,7 +106,7 @@
 <l xml:id="fr54_227.28">Do ſi den ivng<gap reason="unleserlich" extent="2" unit="Buchstabe"/> <lb/> ane <supplied reason="unleserlich" resp="Sekundärliteratur">b</supplied>art</l>
 <l xml:id="fr54_227.29">Geſahen alſuſ minnicli<unclear reason="Zweifel">h</unclear></l>
 <l xml:id="fr54_227.30">Si iahen er wære ſælden rich. <lb/></l>
-<l xml:id="fr54_228.01"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: x">x</seg>in waz<unclear reason="Zweifel">er</unclear> iſch der i<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied>nge man<unclear reason="Zweifel">.</unclear> <lb/></l>
+<l xml:id="fr54_228.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="1">x</seg>in waz<unclear reason="Zweifel">er</unclear> iſch der i<supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied>nge man<unclear reason="Zweifel">.</unclear> <lb/></l>
 <l xml:id="fr54_228.02">Er tw<gap reason="unleserlich" extent="unbekannt"/><unclear reason="Zweifel">n</unclear> ram uon im ſan.</l>
 <l xml:id="fr54_228.03">Von <lb/> oͮgen unde von handen.</l>
 <l xml:id="fr54_228.04"><unclear reason="Zweifel">I</unclear>ung <gap reason="unleserlich" extent="unbekannt"/> <lb/> alte wanden.</l>
@@ -142,7 +139,7 @@
 <l xml:id="fr54_229.20"><unclear reason="Zweifel">W</unclear><gap reason="unleserlich" extent="2" unit="Buchstabe"/> daz der v<gap reason="unleserlich" extent="1" unit="Buchstabe"/>ſch<unclear reason="Zweifel">æ</unclear>r ſi chomen <lb/></l>
 <l xml:id="fr54_229.21">dar <subst hand="#sr"><del>d*</del><add>get</add></subst> ir ſit im lieber gaſt.</l>
 <l xml:id="fr54_229.22">Vnde <lb/> ſchuttit abe iv zorneſ laſt. <lb/></l>
-<l xml:id="fr54_229.23"><seg type="Initiale" subtype="Lombarde" n="1" rend="Farbe: x">s</seg>i <subst hand="#sr"><del>gingi*</del><add>gingen</add></subst> vf ein palaſ</l>
+<l xml:id="fr54_229.23"><seg type="Initiale" subtype="nicht_ausgeführt" n="1">s</seg>i <subst hand="#sr"><del>gingi*</del><add>gingen</add></subst> vf ein palaſ</l>
 <l xml:id="fr54_229.24">Hvndert <lb/> chron da gehang<unclear reason="Zweifel">e</unclear>n waſ</l>
 <l xml:id="fr54_229.25">Vil chertzen <lb/> <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr54_229.26">ob den <gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>

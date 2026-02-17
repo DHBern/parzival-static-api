@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr48</title>
+      <title type="sub">Transkription des Textzeugen fr48</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>Fr48</idno>
+          <idno>fr48</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr48">
                                 <title type="main">Fr. 48 (G<hi rend="sup">ϑ</hi>):</title>
                                 <list>
@@ -48,7 +47,7 @@
             <repository>"Bayerische Staatsbibliothek"</repository>
             <idno>"Cgm 5249/3e"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr48A</idno>
+              <idno>fr48A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -66,7 +65,7 @@
             <repository>"Germanisches Nationalmuseum"</repository>
             <idno>"Hs. 17439"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr48B</idno>
+              <idno>fr48B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -76,7 +75,7 @@
             <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
             <idno>"Ms. germ. fol. 923 Nr. 41"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr48C</idno>
+              <idno>fr48C</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -119,9 +118,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -142,7 +138,7 @@
 <note>Blätter 3-5 liegen in Nürnberg, nicht in der BSB!</note>
 <note>Versbeginn durchgängig rubriziert; AB 2017</note>
 <note>Endredaktion 2017 AB</note>
-<note>13.11.2018: Zeichen am Spaltenende (zwei Punkte mit waagrechtem Strich) werden als <g ref="#finis"/> getaggt.</note>
+<note>13.11.2018: Zeichen am Spaltenende (zwei Punkte mit waagrechtem Strich) werden als <g ref="#finis" type="Finiszeichen"/> getaggt.</note>
 <note>14.9.2018, MiGe: sek-Tags ergänzt und teilweise Zweifeltags entfernt. Quellen: 1. Karl Bartsch, Bruchstücke von Wolframs Parzival und Willehalm, in: Germania 16 (1871), S. 167-173, hier S. 171 (Kollation Nürnberger Teile). Die Hinzuziehung der Kollation der Münchner Teile von Rosenfeld (Hans-Friedrich Rosenfeld, Die Parzivalfragmente G? und G?, in: Zeitschrift für deutsche Philologie 54 (1929), S. 179-181) sowie der ebenfalls auf Rosenfeld zurückgehenden Kollation der Berliner Teile (Hans-Friedrich Rosenfeld, Die Berliner Parzivalfragmente, in: Mittelalterliche Handschriften. Paläographische, kunsthistorische, literarische und bibliotheksgeschichtliche Untersuchungen. Festgabe zum 60. Geburtstag von Hermann Degering, hg. von Alois Bömer und Joachim Kirchner, Leipzig 1926 (Nachdruck Hildesheim/New York 1973), S. 192-202, hier S. 202 (Kollation der Berliner Teile).) brachte keine neuen Erkenntnisse.</note>
 <note>Grundsätzlich wurde jeder erste Buchstabe eines Verses in Fr48 mit einem durchgehenden Strich rubriziert. Diese Rubrizierungen werden in der Transkription nicht separat vermerkt.</note>
 <pb xml:id="fr48001r"/><cb xml:id="fr48001ra"/>
@@ -157,7 +153,7 @@
 <l xml:id="fr48_90.15">Da zuͤrnt ſeiner muͦ<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <pb xml:id="fr48001v"/><cb xml:id="fr48001va"/>
 <l xml:id="fr48_91.07"><seg type="Initiale" subtype="Cadelle">J</seg>r wipleich preiſe mir fuͤget leẏt.</l>
-<note resp="#LC_Gegenleser" target="#fr48_91.07 #Fr48001v"><ref><seg type="Initiale" subtype="Cadelle">J</seg>r</ref>: Die Rubrizierung der Cadelle wurde zu einem Gesicht geformt und geht in die Initiale über.</note>
+<note resp="#LC_Gegenleser" target="#?1_91.07 #Fr48001v"><ref><seg type="Initiale" subtype="Cadelle">J</seg>r</ref>: Die Rubrizierung der Cadelle wurde zu einem Gesicht geformt und geht in die Initiale über.</note>
 <l xml:id="fr48_91.08">Si iſt ein bukel ob der werdicheit</l>
 <l xml:id="fr48_91.09"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-schwarz">J</seg>ch muͦz eins vnd dez ander clagen</l>
 <l xml:id="fr48_91.10">Jch ſach meins bruder wapen t<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>gen</l>
@@ -197,7 +193,7 @@
 <l xml:id="fr48_101.04">Si enphingen reicher gabe teil</l>
 <l xml:id="fr48_101.05">Lazet ſi reiten di da geſt ſein</l>
 <l xml:id="fr48_101.06">Den gab vrlaup der anſhevin</l>
-<note resp="#OBA_Transkribent" target="#fr48_101.06 #Fr48_002r">: Am unteren linken Rand befindet sich eine archivalische Notiz.</note>
+<note resp="#OBA_Transkribent" target="#?1_101.06 #Fr48_002r">: Am unteren linken Rand befindet sich eine archivalische Notiz.</note>
 <pb xml:id="fr48002v"/><cb xml:id="fr48002va"/>
 <l xml:id="fr48_101.07">Daz pantel daz ſein vat<choice><am>̉</am><ex>er</ex></choice> truͦg</l>
 <l xml:id="fr48_101.08">Von zobel auͦf ſeinen ſchilt man ſluͦg</l>
@@ -271,7 +267,7 @@
 <l xml:id="fr48_640.12">Gawan noch mi<choice><am>̄</am><ex>n</ex></choice>n<choice><am>̉</am><ex>er</ex></choice> hie v<choice><am>̉</am><ex>er</ex></choice>droz</l>
 <l xml:id="fr48_640.13">Deu <subst hand="#ls1"><del>kunginne</del><add>kuͤnginne</add></subst> <hi rend="rot">a</hi>rnive ſprach</l>
 <l xml:id="fr48_640.14">H<choice><am>̉</am><ex>er</ex></choice>re nuͦ <subst hand="#ls1"><del>prufet</del><add>pruͤfet</add></subst> ew<choice><am>̉</am><ex>er</ex></choice>n gemach</l>
-<l xml:id="fr48_640.15">Jr <subst hand="#ls1"><del>ſult</del><add>ſuͤlt</add></subst> an diſen ſtunden <hi rend="rot"><g ref="#zeilenfuellsel"/></hi></l>
+<l xml:id="fr48_640.15">Jr <subst hand="#ls1"><del>ſult</del><add>ſuͤlt</add></subst> an diſen ſtunden <hi rend="rot"><g ref="#finis" type="Zeilenfüllsel"/></hi></l>
 <l xml:id="fr48_640.16">Ruͦwen ewren wnden</l>
 <l xml:id="fr48_640.17">Hat ſich deu <hi rend="rot">h</hi>ertzoginn<hi rend="hochgestellt">e</hi> bewegen</l>
 <l xml:id="fr48_640.18">Daz ſi ewr wil mit decke phlegen</l>
@@ -321,7 +317,7 @@
 <l xml:id="fr48_652.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-schwarz">N</seg>u ſchuf d<choice><am>̉</am><ex>er</ex></choice> kuͤnich ſein vart</l>
 <l xml:id="fr48_652.02">Ouch wart d<choice><am>̉</am><ex>er</ex></choice> <hi rend="rot">T</hi>auelru<choice><am>̄</am><ex>n</ex></choice>der art</l>
 <l xml:id="fr48_652.03">Dez tages da vol rechet</l>
-<l xml:id="fr48_652.04">Ez het in freude <gap reason="Fragmentverlust" extent="unbekannt"/>cket <g ref="#finis"/></l>
+<l xml:id="fr48_652.04">Ez het in freude <gap reason="Fragmentverlust" extent="unbekannt"/>cket <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48004v"/><cb xml:id="fr48004va"/>
 <l xml:id="fr48_652.05">Daz d<choice><am>̉</am><ex>er</ex></choice> w<choice><am>̉</am><ex>er</ex></choice>de <hi rend="rot">G</hi>awan</l>
 <l xml:id="fr48_652.06">Dannoch ſein leben ſolde han</l>
@@ -399,8 +395,8 @@
 <l xml:id="fr48_658.15">Chlinſhor enphinch von ſein<choice><am>̉</am><ex>er</ex></choice> hant <mod hand="#sr"><metamark target="#fr48_658.15" function="transposition"/></mod> <note type="Marginalie">a</note></l>
 <listTranspose>
 <transpose>
-<ptr target="#Fr48_658.15"/>
-<ptr target="#Fr48_658.16"/>
+<ptr target="#fr48_658.15"/>
+<ptr target="#fr48_658.16"/>
 </transpose>
 </listTranspose>
 <l xml:id="fr48_658.17">Vnd an d<choice><am>̉</am><ex>er</ex></choice> ſelben zil</l>
@@ -452,7 +448,7 @@
 <l xml:id="fr48_746.09">Vn<choice><am>̄</am><ex>d</ex></choice> di werden ſtat Bealzanan</l>
 <l xml:id="fr48_746.10">So het ir mir gewalt getan</l>
 <l xml:id="fr48_746.11">Vn<choice><am>̄</am><ex>d</ex></choice> iſt vnſ<choice><am>̉</am><ex>er</ex></choice> ietwed<choice><am>̉</am><ex>er</ex></choice> ein Anſheuin</l>
-<l xml:id="fr48_746.12">Daz ſol ich von art ſ<gap reason="unleserlich" extent="unbekannt"/> <g ref="#finis"/></l>
+<l xml:id="fr48_746.12">Daz ſol ich von art ſ<gap reason="unleserlich" extent="unbekannt"/> <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48006v"/><cb xml:id="fr48006va"/>
 <l xml:id="fr48_746.13">Doch iſt mir <subst hand="#ls1"><del>fur</del><add>fuͤr</add></subst> bar geſagt</l>
 <l xml:id="fr48_746.14">Daz ein helt vnu<choice><am>̉</am><ex>er</ex></choice>zagt</l>
@@ -514,7 +510,7 @@
 <l xml:id="fr48_756.09">Geſchowet do d<choice><am>̉</am><ex>er</ex></choice> heiden reit</l>
 <l xml:id="fr48_756.10">D<choice><am>̉</am><ex>er</ex></choice> furt an ſolch cleit</l>
 <l xml:id="fr48_756.11">Wol beh<choice><am>̉</am><ex>er</ex></choice>bergt waz daz velt</l>
-<l xml:id="fr48_756.12">Si kerten fuͤr daz hoh zelt <g ref="#finis"/></l>
+<l xml:id="fr48_756.12">Si kerten fuͤr daz hoh zelt <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48007v"/><cb xml:id="fr48007va"/>
 <l xml:id="fr48_756.13-0"><note type="Notiz"><unclear reason="Zweifel">Suma Alles</unclear></note></l>
 <l xml:id="fr48_756.13">Gen Gawans ringe</l>
@@ -548,8 +544,8 @@
 <l xml:id="fr48_757.11">Deu kuͦnginn<hi rend="hochgestellt">e</hi> Secundille</l>
 <l xml:id="fr48_757.12">Ez waz ir h<choice><am>̉</am><ex>er</ex></choice>tzen wille</l>
 <pb xml:id="fr48008r"/><cb xml:id="fr48008ra"/>
-<l xml:id="fr48_759.13-0"><note type="Notiz">Das <unclear reason="Zweifel">nin</unclear> Kho<unclear reason="Zweifel">m</unclear>an zuͦ S. Jacobus Altar</note> <g ref="#finis"/></l>
-<note resp="#RSo_Lektor" target="#fr48_759.13-0 #48C008r">: Die Transkription entspricht jener von Wackernagel, die in der Mappe beiliegt.</note>
+<l xml:id="fr48_759.13-0"><note type="Notiz">Das <unclear reason="Zweifel">nin</unclear> Kho<unclear reason="Zweifel">m</unclear>an zuͦ S. Jacobus Altar</note> <g ref="#finis" type="Finiszeichen"/></l>
+<note resp="#RSo_Lektor" target="#?1_759.13-0 #48C008r">: Die Transkription entspricht jener von Wackernagel, die in der Mappe beiliegt.</note>
 <l xml:id="fr48_759.13">Do tet er kranck<hi rend="hochgestellt">e</hi> vorht ſchein</l>
 <l xml:id="fr48_759.14">Er warf verr<hi rend="hochgestellt">e</hi>. auz d<choice><am>̉</am><ex>er</ex></choice>. hant daz ſin</l>
 <l xml:id="fr48_759.15">Er voRht an min <subst hand="#ls1"><del>ſunde</del><add>ſuͤnde</add></subst></l>
@@ -610,7 +606,7 @@
 <l xml:id="fr48_761.09">Artus do m<choice><am>̉</am><ex>er</ex></choice>e ſagt<hi rend="hochgestellt">e</hi>.</l>
 <l xml:id="fr48_761.10">Dez er freude vil beiagt<hi rend="hochgestellt">e</hi>.</l>
 <l xml:id="fr48_761.11">Jofreit bat in ezzen fruͦ</l>
-<l xml:id="fr48_761.12">Vn<choice><am>̄</am><ex>d</ex></choice> clarlichen g<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>fen zuͦ. <g ref="#finis"/></l>
+<l xml:id="fr48_761.12">Vn<choice><am>̄</am><ex>d</ex></choice> clarlichen g<choice><am rend="hochgestellt">i</am><ex>ri</ex></choice>fen zuͦ. <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48009r"/><cb xml:id="fr48009ra"/>
 <l xml:id="fr48_775.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-schwarz">U</seg>tpand<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>guns ſuͦn</l>
 <l xml:id="fr48_775.02">Artuſen ſach man alſo tuͦn</l>
@@ -641,7 +637,7 @@
 <l xml:id="fr48_775.27">Gramoflanz vn<choice><am>̄</am><ex>d</ex></choice> Gawan</l>
 <l xml:id="fr48_775.28">Von in deu koſt wart getan</l>
 <l xml:id="fr48_775.29">Artus waz dez landes gaſt</l>
-<l xml:id="fr48_775.30">Sin<choice><am>̉</am><ex>er</ex></choice>. choſt idoch. <subst hand="#sr"><del>doniht</del><add>do niht</add></subst> gebraſt <g ref="#finis"/></l>
+<l xml:id="fr48_775.30">Sin<choice><am>̉</am><ex>er</ex></choice>. choſt idoch. <subst hand="#sr"><del>doniht</del><add>do niht</add></subst> gebraſt <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48009v"/><cb xml:id="fr48009va"/>
 <l xml:id="fr48_776.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-schwarz">E</seg>z iſt ſelten worden naht</l>
 <l xml:id="fr48_776.02">Wa<choice><am>̄</am><ex>n</ex></choice>n ez d<choice><am>̉</am><ex>er</ex></choice> ſunn<hi rend="hochgestellt">e</hi> iſt geſlacht</l>
@@ -672,7 +668,7 @@
 <l xml:id="fr48_776.27">Vn<choice><am>̄</am><ex>d</ex></choice> den h<choice><am>̉</am><ex>er</ex></choice>tzogen Gow<choice><am>̉</am><ex>er</ex></choice>tzin</l>
 <l xml:id="fr48_776.28">Vn<choice><am>̄</am><ex>d</ex></choice> floranden den geſellen ſein</l>
 <l xml:id="fr48_776.29">Di zwen<hi rend="hochgestellt">e</hi>. g<choice><am>̉</am><ex>er</ex></choice>ten ſuͦnd<choice><am>̉</am><ex>er</ex></choice>.</l>
-<l xml:id="fr48_776.30">Phlihte vber Tauelrund<choice><am>̉</am><ex>er</ex></choice> <g ref="#finis"/></l>
+<l xml:id="fr48_776.30">Phlihte vber Tauelrund<choice><am>̉</am><ex>er</ex></choice> <g ref="#finis" type="Finiszeichen"/></l>
 <l xml:id="fr48_776.30-01"><note type="Kustode">.xvij.</note></l>
 <l xml:id="fr48_776.30-02"><note type="Kustode">xxxxviij</note></l>
 <pb xml:id="fr48010r"/><cb xml:id="fr48010ra"/>
@@ -743,7 +739,7 @@
 <l xml:id="fr48_803.10">Dar leiſt ich im geſelleſchaft</l>
 <l xml:id="fr48_803.11">Gachmuret mein vat<choice><am>̉</am><ex>er</ex></choice> hiez</l>
 <l xml:id="fr48_803.12">D<choice><am>̉</am><ex>er</ex></choice> mirs mit rehtem Erbe. <subst hand="#sr"><del>hiez</del><add>l<hi rend="rasur">ẏ</hi>ez</add></subst></l>
-<note resp="#RSo_Transkribent" target="#fr48_803.12 #48A011r"><ref><subst hand="#sr"><del>hiez</del><add>lẏez</add></subst></ref>: Der Schreiber hat seinen Irrtum bemerkt und den unteren Ausläufer des "h" durch Rasur "gerade" gemacht.</note>
+<note resp="#RSo_Transkribent" target="#?1_803.12 #48A011r"><ref><subst hand="#sr"><del>hiez</del><add>lẏez</add></subst></ref>: Der Schreiber hat seinen Irrtum bemerkt und den unteren Ausläufer des "h" durch Rasur "gerade" gemacht.</note>
 <l xml:id="fr48_803.13">Mit ſelde ich ge erbet han den Gral</l>
 <l xml:id="fr48_803.14">Nu enphahet ir an diſem mal</l>
 <l xml:id="fr48_803.15">Jwer lehen von meinem kinde</l>
@@ -769,7 +765,7 @@
 <l xml:id="fr48_804.05">Vnd ſin muͦter wol getan</l>
 <l xml:id="fr48_804.06">Di Templeis vnd riten dan</l>
 <l xml:id="fr48_804.07">Gen Munſaluatſch balde</l>
-<l xml:id="fr48_804.08">Zu ein<choice><am>̉</am><ex>er</ex></choice> zeit auf diſem walde <g ref="#finis"/></l>
+<l xml:id="fr48_804.08">Zu ein<choice><am>̉</am><ex>er</ex></choice> zeit auf diſem walde <g ref="#finis" type="Finiszeichen"/></l>
 <pb xml:id="fr48011v"/><cb xml:id="fr48011va"/>
 <l xml:id="fr48_804.09-01"><note type="Notiz">Jm <add hand="#ls1u">15</add>44</note></l>
 <note resp="#LC_Gegenleser" target="#804.09 #01_Fr48011v">: Es ist fraglich, ob die Notizen vom gleichen Leser wie die Korrekturen stammen.</note>

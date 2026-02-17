@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr27</title>
+      <title type="sub">Transkription des Textzeugen fr27</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Bayerische Staatsbibliothek</repository>
           <idno>Cgm 5249/3d</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr27</idno>
+            <idno>fr27</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr27">
@@ -75,9 +75,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -169,7 +166,7 @@
 <l xml:id="fr27_330.23">Sit ich uf monſ<supplied reason="unleserlich" resp="Sekundärliteratur">auaſch</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr27_330.24">Daz mich von waren v<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr27_330.25">Ohteiz wie manig cla<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied><gap reason="unleserlich" extent="unbekannt"/></l>
-<note resp="#JLa_Transkribent" target="#fr27_330.25 #27001va"><ref>manig</ref>: Bei <ref>manig</ref> könnte eine Korrektur vorliegen, über dem Wort sind zwei kleine Kreuzchen zu erkennen.</note>
+<note resp="#JLa_Transkribent" target="#?1_330.25 #27001va"><ref>manig</ref>: Bei <ref>manig</ref> könnte eine Korrektur vorliegen, über dem Wort sind zwei kleine Kreuzchen zu erkennen.</note>
 <l xml:id="fr27_330.26">Swaz iemen wnd<choice><am>̉</am><ex>er</ex></choice>s hat g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr27_330.27">Dennoch pfliet ſin me<supplied reason="unleserlich" resp="Sekundärliteratur">r</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr27_330.28">Der wirt hat ſufceber<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -229,7 +226,7 @@
 <cb xml:id="fr27002rb"/>
 <l xml:id="fr27_334.01"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied>ſſenie vil</l>
 <l xml:id="fr27_334.02"><gap reason="Fragmentverlust" extent="unbekannt"/>in zil</l>
-<note resp="#MiGe_Gegenleser" target="#fr27_334.02 #Fr27002rb"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>in</ref>: Martin gibt <ref>im</ref> an, die Lesung ist aber am Scan nicht sicher nachzuvollziehen.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_334.02 #Fr27002rb"><ref><gap reason="Fragmentverlust" extent="unbekannt"/>in</ref>: Martin gibt <ref>im</ref> an, die Lesung ist aber am Scan nicht sicher nachzuvollziehen.</note>
 <l xml:id="fr27_334.03"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">w</supplied>en</l>
 <l xml:id="fr27_334.04"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ch</supplied>urowen</l>
 <l xml:id="fr27_334.05">V<gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied></l>

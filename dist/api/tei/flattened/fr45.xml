@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr45</title>
+      <title type="sub">Transkription des Textzeugen fr45</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>Fr45</idno>
+          <idno>fr45</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr45">
                                 <title type="main">Fr. 45 (G<hi rend="sup">ζ</hi>):</title>
                                 <list>
@@ -47,7 +46,7 @@
             <repository>"Stadtarchiv"</repository>
             <idno>"ohne  signatur"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr45A</idno>
+              <idno>fr45A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -63,7 +62,7 @@
             <repository>"Landschaftsverband Westfalen-Lippe-Museum für Kunst und Kultur, Westfälisches Landesmuseum"</repository>
             <idno>"Ms. 459"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr45B</idno>
+              <idno>fr45B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -105,9 +104,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -182,7 +178,7 @@
 <l xml:id="fr45_720.18">er ſol varen i<choice><am>̄</am><ex>n</ex></choice> mins geleites pflege.</l>
 <l xml:id="fr45_720.19">Deſn darp er nicht vor laſter ien.</l>
 <l xml:id="fr45_720.20">ich laz in w<supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>̉</am><ex>er</ex></choice>d</supplied>e lvde ſen.</l>
-<note resp="#MiGe_Gegenleser" target="#fr45_720.20 #Fr45002ra"><ref>w<supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>̉</am><ex>er</ex></choice>d</supplied>e</ref>: Was zwischen dem ersten und letzten Buchstaben steht, ist am Original nicht erkennbar. Allerdings lassen die Abstände darauf schliessen, dass ein er-Kürzel vorliegt.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_720.20 #Fr45002ra"><ref>w<supplied reason="unleserlich" resp="Sekundärliteratur"><choice><am>̉</am><ex>er</ex></choice>d</supplied>e</ref>: Was zwischen dem ersten und letzten Buchstaben steht, ist am Original nicht erkennbar. Allerdings lassen die Abstände darauf schliessen, dass ein er-Kürzel vorliegt.</note>
 <l xml:id="fr45_720.21"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>it orlobe ſie ſcheiden dan.</l>
 <l xml:id="fr45_720.22">d<choice><am>̉</am><ex>er</ex></choice> kong bleip alein uf dem plan</l>
 <l xml:id="fr45_720.23"><supplied reason="unleserlich" resp="Sekundärliteratur">B</supplied><unclear reason="Zweifel">e</unclear>ne vn<choice><am>̄</am><ex>d</ex></choice> die kindelin</l>
@@ -202,7 +198,7 @@
 <l xml:id="fr45_721.07">Gernot von Riuiers.</l>
 <l xml:id="fr45_721.08">vn<choice><am>̄</am><ex>d</ex></choice> affinam<choice><am>ꝰ</am><ex>us</ex></choice> von klitiers.</l>
 <l xml:id="fr45_721.09"><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied>ne<choice><am>̄</am><ex>n</ex></choice> geſellen nam.</l>
-<note resp="#MiGe_Gegenleser" target="#fr45_721.09 #Fr45002ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied>ne<choice><am>̄</am><ex>n</ex></choice></ref>: In der im Header erwähnten Abschrift steht "Jewedere sinen", wobei "Jewedere" später ergänzt wurde. Graff gibt nur <ref>nen</ref> an.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_721.09 #Fr45002ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied>ne<choice><am>̄</am><ex>n</ex></choice></ref>: In der im Header erwähnten Abschrift steht "Jewedere sinen", wobei "Jewedere" später ergänzt wurde. Graff gibt nur <ref>nen</ref> an.</note>
 <l xml:id="fr45_721.10"><gap reason="unleserlich" extent="unbekannt"/> <unclear reason="Zweifel">v</unclear>f die reyſe wol gezam.</l>
 <l xml:id="fr45_721.11"><gap reason="unleserlich" extent="1" unit="Buchstabe"/>w<unclear reason="Zweifel">e</unclear><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">f</unclear> waren ir vber al.</l>
 <l xml:id="fr45_721.12"><gap reason="unleserlich" extent="1" unit="Buchstabe"/><unclear reason="Zweifel">u<choice><am>̄</am><ex>n</ex></choice>che<choice><am>̉</am><ex>r</ex></choice></unclear>n vil ane zal.</l>
@@ -210,7 +206,7 @@
 <l xml:id="fr45_721.14">vf die <supplied reason="unleserlich" resp="Sekundärliteratur">reiſe</supplied> wart genant.</l>
 <cb xml:id="fr45002rb"/>
 <l xml:id="fr45_721.15">Welch ir <supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">m</supplied>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">ſin</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#fr45_721.15 #Fr45002rb">: Graff gibt nach <ref>Welch ir</ref> <ref>kl<gap reason="unleserlich" extent="1" unit="Buchstabe"/>y<gap reason="unleserlich" extent="unbekannt"/>achten<gap reason="unleserlich" extent="unbekannt"/></ref> (dabei vor und nach <ref>achten</ref> je vier unleserliche Buchstaben) an, der Abschreiber transkribiert <ref>mochten sin</ref>. Am Original ist deutlich zu erkennen, dass der erste Vokal des Verbs ein <ref>a</ref> ist. Aus diesem Grund wird <ref><supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied><gap reason="unleserlich" extent="unbekannt"/>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">ſin</supplied></ref> transkribert.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_721.15 #Fr45002rb">: Graff gibt nach <ref>Welch ir</ref> <ref>kl<gap reason="unleserlich" extent="1" unit="Buchstabe"/>y<gap reason="unleserlich" extent="unbekannt"/>achten<gap reason="unleserlich" extent="unbekannt"/></ref> (dabei vor und nach <ref>achten</ref> je vier unleserliche Buchstaben) an, der Abschreiber transkribiert <ref>mochten sin</ref>. Am Original ist deutlich zu erkennen, dass der erste Vokal des Verbs ein <ref>a</ref> ist. Aus diesem Grund wird <ref><supplied reason="unleserlich" resp="Sekundärliteratur">kl</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied><gap reason="unleserlich" extent="unbekannt"/>a<supplied reason="unleserlich" resp="Sekundärliteratur">cht</supplied>en <supplied reason="unleserlich" resp="Sekundärliteratur">ſin</supplied></ref> transkribert.</note>
 <l xml:id="fr45_721.16">pfelle die vil liechten ſchin.</l>
 <l xml:id="fr45_721.17">Gaben von des goldes ſwere.</l>
 <l xml:id="fr45_721.18">des konges valkenere.</l>
@@ -247,8 +243,8 @@
 <pb xml:id="fr45002v"/><cb xml:id="fr45002va"/>
 <l xml:id="fr45_722.19">Die <unclear reason="Zweifel">m</unclear><gap reason="unleserlich" extent="unbekannt"/> ſ<choice><am>ꝑ</am><ex>per</ex></choice>w<choice><am>̉</am><ex>er</ex></choice>e ſa<choice><am>̄</am><ex>n</ex></choice>te ir hot.</l>
 <l xml:id="fr45_722.20">ob ſie mir genade tuͦt.</l>
-<l xml:id="fr45_722.22"><milestone unit="Versumstellung"/>Ob die erde w<choice><am>̉</am><ex>er</ex></choice>e noch alſo breit.</l>
-<l xml:id="fr45_722.21"><milestone unit="Versumstellung"/>an erdeſcher richeit.</l>
+<l xml:id="fr45_722.22"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_722.21"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr45_722.23">Da vor nem ich ſie einen.</l>
 <l xml:id="fr45_722.24">ſie ſolz mit truwe<choice><am>̄</am><ex>n</ex></choice> meinen.</l>
 <l xml:id="fr45_722.25">Vf ir gnade kom ich hie.</l>
@@ -269,8 +265,8 @@
 <l xml:id="fr45_723.10">da von ir zorne<choice><am>̄</am><ex>n</ex></choice> was ſo kranc.</l>
 <l xml:id="fr45_723.11">Art<choice><am>ꝰ</am><ex>us</ex></choice> der britteneẏs.</l>
 <l xml:id="fr45_723.12">nam die vrowen kurteẏs.</l>
-<l xml:id="fr45_723.14"><milestone unit="Versumstellung"/>Die truͦgen vletigen lip.</l>
-<l xml:id="fr45_723.13"><milestone unit="Versumstellung"/>beide meẏde vn<choice><am>̄</am><ex>d</ex></choice> wip.</l>
+<l xml:id="fr45_723.14"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_723.13"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr45_723.15">Er hete d<choice><am>̉</am><ex>er</ex></choice> w<choice><am>̉</am><ex>er</ex></choice>den hu<choice><am>̄</am><ex>n</ex></choice>dert.</l>
 <l xml:id="fr45_723.16">vnd<choice><am>̉</am><ex>er</ex></choice> ein gecelt geſundert.</l>
 <l xml:id="fr45_723.17">Nich lieb<choice><am>̉</am><ex>er</ex></choice> machte ir geſchen.</l>
@@ -317,7 +313,7 @@
 <pb xml:id="fr45003r"/><cb xml:id="fr45003ra"/>
 <l xml:id="fr45_761.07">So <gap reason="Fragmentverlust" extent="unbekannt"/>limizol.</l>
 <l xml:id="fr45_761.08"><supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#fr45_761.08 #Fr45003ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied></ref>: Der Wortlaut stammt aus der im Header erwähnten Abschrift aus dem LWL. Es weist nichts darauf hin, dass er der Lachmannschen Ausgabe entnommen wurde. Folglich dürfte der Wurmfrass an der entsprechenden Stelle im Fragment jünger sein als die erwähnte Abschrift.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_761.08 #Fr45003ra"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">Jofreit fiz Ydoel</supplied></ref>: Der Wortlaut stammt aus der im Header erwähnten Abschrift aus dem LWL. Es weist nichts darauf hin, dass er der Lachmannschen Ausgabe entnommen wurde. Folglich dürfte der Wurmfrass an der entsprechenden Stelle im Fragment jünger sein als die erwähnte Abschrift.</note>
 <l xml:id="fr45_761.09"><supplied reason="unleserlich" resp="Sekundärliteratur">A</supplied>r<unclear reason="Zweifel">t</unclear><gap reason="Fragmentverlust" extent="unbekannt"/> die mere ſagete.</l>
 <l xml:id="fr45_761.10"><supplied reason="unleserlich" resp="Sekundärliteratur">des</supplied> er vroẏde vil beiagete.</l>
 <l xml:id="fr45_761.11">Jofreid bat in ezzen vro.</l>
@@ -342,8 +338,8 @@
 <l xml:id="fr45_761.30">iz wer dem gelte verre.</l>
 <l xml:id="fr45_762.01">Jofreyd was wid<choice><am>̉</am><ex>er</ex></choice> komen.</l>
 <l xml:id="fr45_762.02">von dem het art<choice><am>ꝰ</am><ex>us</ex></choice> v<choice><am>̉</am><ex>er</ex></choice>nomen.</l>
-<l xml:id="fr45_762.04"><milestone unit="Versumstellung"/>Ob er entpfahen wolde.</l>
-<l xml:id="fr45_762.03"><milestone unit="Versumstellung"/>wier werben ſolde.</l>
+<l xml:id="fr45_762.04"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_762.03"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr45_762.05">Sinen neben den heẏden.</l>
 <l xml:id="fr45_762.06">daz ſitzen wart beſcheiden.</l>
 <l xml:id="fr45_762.07">Jn artuſes ringe.</l>
@@ -423,15 +419,15 @@
 <cb xml:id="fr45003vb"/>
 <l xml:id="fr45_764.19">Als tet ſin brod<choice><am>̉</am><ex>er</ex></choice> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr45_764.20">die h<choice><am>̉</am><ex>er</ex></choice>zogin lie<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#fr45_764.20 #Fr45003vb"><ref/>: Die im Header erwähnte Abschrift gibt <ref>lieht gemal</ref> an. Da <ref>gemal</ref> in runden Klammern steht, ist davon auszugehen, dass das Wort mit Hilfe der Lachmannschen Ausgabe ergänzt wurde und nur <ref>lieht</ref> lesbar war.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_764.20 #Fr45003vb"><ref/>: Die im Header erwähnte Abschrift gibt <ref>lieht gemal</ref> an. Da <ref>gemal</ref> in runden Klammern steht, ist davon auszugehen, dass das Wort mit Hilfe der Lachmannschen Ausgabe ergänzt wurde und nur <ref>lieht</ref> lesbar war.</note>
 <l xml:id="fr45_764.21">Nam feẏrafiz mit der hant</l>
 <l xml:id="fr45_764.22">ſwaz ſie vrovn vn<choice><am>̄</am><ex>d</ex></choice> ritter vant.</l>
 <l xml:id="fr45_764.23">Da ſten. die bat ſie ſitzen alle.</l>
 <l xml:id="fr45_764.24">do reit dar zvͦ mit ſchalle.</l>
 <l xml:id="fr45_764.25">Art<choice><am>ꝰ</am><ex>us</ex></choice> mit den ſinen.</l>
 <l xml:id="fr45_764.26">man horte da buſinen.</l>
-<l xml:id="fr45_764.28"><milestone unit="Versumstellung"/>D<choice><am>̉</am><ex>er</ex></choice> broder Sagiuen.</l>
-<l xml:id="fr45_764.27"><milestone unit="Versumstellung"/>taburen. floẏte<choice><am>̄</am><ex>n</ex></choice>. ſtiuen.</l>
+<l xml:id="fr45_764.28"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr45_764.27"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr45_764.29">Reẏt da zvͦ mit krache.</l>
 <l xml:id="fr45_764.30">der vrolichen ſache.</l>
 <l xml:id="fr45_765.01">D<choice><am>̉</am><ex>er</ex></choice> heyden iach vor riche dinc.</l>

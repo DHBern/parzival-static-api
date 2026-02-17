@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr36</title>
+      <title type="sub">Transkription des Textzeugen fr36</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Stadtarchiv</repository>
           <idno>verschollen</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr36</idno>
+            <idno>fr36</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr36">
@@ -81,9 +81,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -119,8 +116,7 @@
 <l xml:id="fr36_14.08">dar chom der <sic>ivgne</sic> <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_14.09">Jm wart der parr<supplied reason="unleserlich" resp="Sekundärliteratur">u</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_14.10">er nam nach dienſt<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr36_14.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">G</seg>ahmvret der <gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#fr36_14.11 #Fr36;1ra"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">G</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_14.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">G</seg>ahmvret der <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <cb xml:id="fr36001rb"/>
 <l xml:id="fr36_15.07"><gap reason="Fragmentverlust" extent="unbekannt"/>der noch gebite</l>
 <l xml:id="fr36_15.08">wie vil er lande durch rit<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -130,8 +126,7 @@
 <l xml:id="fr36_15.12">mein ritterleichiv ſicherh<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_15.13">Alz mir div Auentivr gih<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_15.14">ich en han nv me gezivge<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr36_15.15"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>Jv ſeit ſein manlichiv <gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#fr36_15.15 #Fr36;1rb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_15.15"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>Jv ſeit ſein manlichiv <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_15.16"/>
 <l xml:id="fr36_15.17">ze marroch vnd ze per<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_15.18">Sein hant bezalt avch a<gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -179,7 +174,7 @@
 <l xml:id="fr36_19.14">ſ<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">n</supplied> nah.</l>
 <cb xml:id="fr36002rb"/>
 <l xml:id="fr36_20.11"><unclear reason="Zweifel">vil</unclear> mangen ſtich vnd ſlach</l>
-<note resp="#YCh_Transkribent" target="#fr36_20.11 #Fr36002rb"> : Die obere Hälfte durch die Makulatur unklar.</note>
+<note resp="#YCh_Transkribent" target="#?1_20.11 #Fr36002rb"> : Die obere Hälfte durch die Makulatur unklar.</note>
 <l xml:id="fr36_20.12">wan er einer porten pflach.</l>
 <l xml:id="fr36_20.13">Sider er mangen ritter vant.</l>
 <l xml:id="fr36_20.14">die die arm <sic>hiegnen</sic> in div bant.</l>
@@ -187,8 +182,7 @@
 <l xml:id="fr36_20.16">die heten ſoͤlhe wunden.</l>
 <l xml:id="fr36_20.17">Daz ſi doch taten riterſchaft</l>
 <l xml:id="fr36_20.18">ſi het lazzen niht ir kr<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr36_20.19"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er bvrgraue von <gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">at</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#fr36_20.19 #Fr36;2rb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_20.19"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>er bvrgraue von <gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">at</supplied></l>
 <l xml:id="fr36_20.20">ſeinen gaſt do m<supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied>t.</l>
 <l xml:id="fr36_20.21">Daz er niht verbær<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_20.22">al daz ſein wille <gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -199,8 +193,7 @@
 <l xml:id="fr36_21.22">vnd do ſi dannen wolden.</l>
 <l xml:id="fr36_21.23">Den barruch treiben mit gewalt.</l>
 <l xml:id="fr36_21.24">waz ir da nider wart gevalt.</l>
-<l xml:id="fr36_21.25"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>n der ſchumphentivre.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_21.25 #Fr36;2va"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_21.25"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">A</seg>n der ſchumphentivre.</l>
 <l xml:id="fr36_21.26">d<supplied reason="unleserlich" resp="Sekundärliteratur">a</supplied><gap reason="Fragmentverlust" extent="unbekannt"/>e der gehiwer.</l>
 <l xml:id="fr36_21.27">M<gap reason="Fragmentverlust" extent="unbekannt"/> libe ſoͤlhe tat.</l>
 <l xml:id="fr36_21.28">ſi <gap reason="Fragmentverlust" extent="unbekannt"/>n deheinen rat.</l>
@@ -233,8 +226,7 @@
 <l xml:id="fr36_97.10">daz ich den mvͦz<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_97.11">Daz lop ſir war<gap reason="Fragmentverlust" extent="unbekannt"/>gt.</l>
 <l xml:id="fr36_97.12">Ern pfie div lant vnd div magt.</l>
-<l xml:id="fr36_97.13"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>iſiv drew jvnchherrlin.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_97.13 #Fr36;3rb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_97.13"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>iſiv drew jvnchherrlin.</l>
 <l xml:id="fr36_97.14">anpheliſe der kvͤnegin.</l>
 <pb xml:id="fr36003v"/><cb xml:id="fr36003va"/>
 <l xml:id="fr36_98.16"><gap reason="Fragmentverlust" extent="unbekannt"/>de ze velde ſagen.</l>
@@ -276,7 +268,7 @@
 <cb xml:id="fr36004vb"/>
 <l xml:id="fr36_104.27">B<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_104.28">in <unclear reason="Zweifel">ſ</unclear><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#RSo_Lektor" target="#fr36_104.28 #fr36004vb">: Rechts neben der Lücke scheinen Buchstaben durch, die merkwürdigerweise spiegelverkehrt sein dürften. Sie gehören wohl nicht zum Abschnitt.</note>
+<note resp="#RSo_Lektor" target="#?1_104.28 #fr36004vb">: Rechts neben der Lücke scheinen Buchstaben durch, die merkwürdigerweise spiegelverkehrt sein dürften. Sie gehören wohl nicht zum Abschnitt.</note>
 <l xml:id="fr36_104.29">Vil <supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied><gap reason="Fragmentverlust" extent="unbekannt"/> ſazzen hie.</l>
 <l xml:id="fr36_104.30">die ſp<gap reason="Fragmentverlust" extent="unbekannt"/>gen dar vnd wachten ſie</l>
 <l xml:id="fr36_105.01">Do chom geriten tampanis.</l>
@@ -284,8 +276,7 @@
 <pb xml:id="fr36005r"/><cb xml:id="fr36005ra"/>
 <l xml:id="fr36_120.09"><seg type="Initiale" subtype="Cadelle">D</seg>ez wær ein maul geladen genuͦc.</l>
 <l xml:id="fr36_120.10">alz vnzerborhtz hin heim ers trvͦch.</l>
-<l xml:id="fr36_120.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg>ines tages gie er den weide gank.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_120.11 #Fr36;5ra"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">A</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_120.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">A</seg>ines tages gie er den weide gank.</l>
 <l xml:id="fr36_120.12">an ein ha<gap reason="unleserlich" extent="1" unit="Buchstabe"/>den div waz lank.</l>
 <l xml:id="fr36_120.13">Er brah durch blat ſtimme ein zwik.</l>
 <l xml:id="fr36_120.14">bi im nahen gie ein ſteik.</l>
@@ -294,8 +285,7 @@
 <l xml:id="fr36_120.17">Do<gap reason="Fragmentverlust" extent="unbekannt"/> han ich vernomen</l>
 <l xml:id="fr36_121.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_121.12">gefvͤge ein wunder an im birt.</l>
-<l xml:id="fr36_121.13"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>o kom gelæſchieret.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_121.13 #Fr36;5ra"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_121.13"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>o kom gelæſchieret.</l>
 <l xml:id="fr36_121.14">vnd wol gezimieret.</l>
 <l xml:id="fr36_121.15">Ein ritter dem waz <unclear reason="Zweifel">vng</unclear>emach.</l>
 <l xml:id="fr36_121.16">Der reit in ſtreitlichen nach.</l>
@@ -325,7 +315,7 @@
 <l xml:id="fr36_123.02">ob dv <gap reason="Fragmentverlust" extent="unbekannt"/><unclear reason="Zweifel">ſt</unclear> ſpehen</l>
 <l xml:id="fr36_123.03">Der <gap reason="Fragmentverlust" extent="unbekannt"/> fuͤrbaz</l>
 <l xml:id="fr36_123.28">miner mvter ivnch<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#MiGe_Gegenleser" target="#fr36_123.28 #Fr36005va"><ref>mvter</ref>: Über dem <ref>v</ref> könnte sich sich ein zum grössten Teil abgeschnittenes Supraskriptum-o befinden.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_123.28 #Fr36005va"><ref>mvter</ref>: Über dem <ref>v</ref> könnte sich sich ein zum grössten Teil abgeschnittenes Supraskriptum-o befinden.</note>
 <l xml:id="fr36_123.29">Jr vingerlin an ſn<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_123.30">div ſo niht an ein <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_124.01">Der knappe ſprach<gap reason="Fragmentverlust" extent="unbekannt"/>t.</l>
@@ -348,16 +338,14 @@
 <pb xml:id="fr36006r"/><cb xml:id="fr36006ra"/>
 <l xml:id="fr36_155.25">Chvnd ers niht auf geſtricken.</l>
 <l xml:id="fr36_155.26">noch ſvs her ab gezwicken.</l>
-<l xml:id="fr36_155.27"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg>il dick ers doch verſuͦhte</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_155.27 #Fr36;6ra"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">V</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_155.27"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">V</seg>il dick ers doch verſuͦhte</l>
 <l xml:id="fr36_155.28">wiſheit der vnberuͦchte</l>
 <l xml:id="fr36_155.29">Daz oͤrſe vnd ſin pfærdelin.</l>
 <l xml:id="fr36_155.30">er huͦben einen ſo hohen <supplied reason="unleserlich" resp="Sekundärliteratur">g</supplied>rin.</l>
 <l xml:id="fr36_156.01">Daz ez Iwanet <supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_156.02">von der ſtat vͤn<gap reason="Fragmentverlust" extent="unbekannt"/>s orte</l>
 <l xml:id="fr36_156.03">Fr<unclear reason="Zweifel">a</unclear>wen <supplied reason="unleserlich" resp="Sekundärliteratur">gin</supplied>oue<gap reason="Fragmentverlust" extent="unbekannt"/>r mak.</l>
-<l xml:id="fr36_156.27"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>v mvſt nv tragen ritters kleit.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_156.27 #Fr36;6ra"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_156.27"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>v mvſt nv tragen ritters kleit.</l>
 <l xml:id="fr36_156.28">div rede waz parcifaln leit.</l>
 <l xml:id="fr36_156.29">Do ſprach der degen gvͦter.</l>
 <l xml:id="fr36_156.30">ſo ſwaz mir gap min mvͦter.</l>
@@ -437,8 +425,7 @@
 <l xml:id="fr36_248.06">do waz ſein ſcheiden gar ze fruͦ.</l>
 <l xml:id="fr36_248.07">An der fluſt bærn zit.</l>
 <l xml:id="fr36_248.08">dem der nv zins von fræuden geit.</l>
-<l xml:id="fr36_248.09"><seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: rot">D</seg>o waz an im ver borgen.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_248.09 #Fr36;7ra"><ref><seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_248.09"><seg type="Initiale" subtype="Lombarde" n="4" rend="Farbe: x">D</seg>o waz an im ver borgen.</l>
 <l xml:id="fr36_248.10">vmb den wurf der ſorgen.</l>
 <l xml:id="fr36_248.11">waz getopelt vmb de<choice><am>̄</am><ex>n</ex></choice> gral vant.</l>
 <cb xml:id="fr36007rb"/>
@@ -458,8 +445,7 @@
 <l xml:id="fr36_249.06"><gap reason="Fragmentverlust" extent="unbekannt"/> die d<gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">en</supplied> vor.</l>
 <l xml:id="fr36_249.07"><gap reason="Fragmentverlust" extent="unbekannt"/> ſmal. di<unclear reason="Zweifel">v</unclear> e waz breit.</l>
 <l xml:id="fr36_249.08"><gap reason="Fragmentverlust" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">ſ</supplied>i gar daz waz im leit.</l>
-<l xml:id="fr36_249.09"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg>ære vrieſch do der ivnge man.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_249.09 #Fr36;7rb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">M</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_249.09"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">M</seg>ære vrieſch do der ivnge man.</l>
 <l xml:id="fr36_249.10">da von er hertzenleit gewan.</l>
 <l xml:id="fr36_249.11">do ver nam der helt ellens rich.</l>
 <l xml:id="fr36_249.12">einer frawen ſtimme iamerlich.</l>
@@ -507,8 +493,7 @@
 <l xml:id="fr36_251.08">vil mangen bris erwarp ſin hant.</l>
 <l xml:id="fr36_251.09">Der lak an einer tẏoſt tot.</l>
 <l xml:id="fr36_251.10">alz im ein kvͤneginne dar gebot.</l>
-<l xml:id="fr36_251.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er ſelbe lie vier werdiv kint.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_251.11 #Fr36;7vb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_251.11"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>er ſelbe lie vier werdiv kint.</l>
 <l xml:id="fr36_251.12">bi richeit driv mit iamer ſint.</l>
 <l xml:id="fr36_251.13">der vierde der hat armvͦt.</l>
 <l xml:id="fr36_251.14">Durch got fuͤr ſvͤnde er daz tvͦt.</l>
@@ -577,15 +562,14 @@
 <l xml:id="fr36_274.20"><gap reason="Fragmentverlust" extent="unbekannt"/>palovn ſahen.</l>
 <l xml:id="fr36_274.21">Vil nahen ein meil daz wazzer <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_274.22">der fuͤrſte ſande ritter <unclear reason="Zweifel">u</unclear>ider</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_274.22 #Fr36008rb"><ref><unclear reason="Zweifel">u</unclear>ider</ref>: Hartl liest <ref>nider</ref> und vermutet zudem, dass das Wort unterpungiert ist.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_274.22 #Fr36008rb"><ref><unclear reason="Zweifel">u</unclear>ider</ref>: Hartl liest <ref>nider</ref> und vermutet zudem, dass das Wort unterpungiert ist.</note>
 <l xml:id="fr36_274.23">Der in geweiſet het dar.</l>
 <l xml:id="fr36_274.24">frawe jeſcute div wol gevar</l>
 <l xml:id="fr36_274.25">Waz ſin geſinde vnd niemen <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_274.26">der vnloſe artus niht ze her</l>
 <l xml:id="fr36_274.27">Waz gegangen da er dez abe<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr36_274.28">auf einen blan vmb in da ſas</l>
-<l xml:id="fr36_274.29"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>iv werde maſſenie.</l>
-<note resp="#MiGe_Gegenleser" target="#fr36_274.29 #Fr36;7rb"><ref><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, ob die Farbe der Initiale tatsächlich rot ist.</note>
+<l xml:id="fr36_274.29"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: x">D</seg>iv werde maſſenie.</l>
 <l xml:id="fr36_274.30">orilus der valſches vrie.</l>
 <l xml:id="fr36_275.01">kam an den ſelben rink gerit<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <pb xml:id="fr36008v"/><cb xml:id="fr36008va"/>
@@ -622,8 +606,8 @@
 <l xml:id="fr36_276.18">daz lait mir dar an iſt geſchehen.</l>
 <l xml:id="fr36_276.19">Auch hilft mirs klagen der kvͤnſte man.</l>
 <l xml:id="fr36_276.20">den mvͦter ie gewan.</l>
-<l xml:id="fr36_276.22"><milestone unit="Versumstellung"/><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">H</seg>er kvͤnich frawͤ kvͤnigin er iv enbot</l>
-<l xml:id="fr36_276.21"><milestone unit="Versumstellung"/>der nennet ſich den ritter rot.</l>
+<l xml:id="fr36_276.22"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr36_276.21"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr36_276.23">Jv beiden ſamt den dienſt ſin.</l>
 <l xml:id="fr36_276.24">dar zvͦ benamen der ſweſter min.</l>
 <l xml:id="fr36_276.25">Er bitet ivch ſinen dienſt letzen.</l>

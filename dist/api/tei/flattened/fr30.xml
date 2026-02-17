@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr30</title>
+      <title type="sub">Transkription des Textzeugen fr30</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Salzburg Museum</repository>
           <idno>Hs. 2479</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr30</idno>
+            <idno>fr30</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr30">
@@ -75,9 +75,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -153,8 +150,8 @@
 <l xml:id="fr30_279.08">von der meide wol geworn.</l>
 <l xml:id="fr30_279.09">Doch ſchvf er dar ſpiſe genvͦc.</l>
 <l xml:id="fr30_279.10">kyngrvn ez fvr Oryllen trvͦc.</l>
-<l xml:id="fr30_279.12"><milestone unit="Versumstellung"/>Ez ſneit ir brvder ſin ſpiſe.</l>
-<l xml:id="fr30_279.11"><milestone unit="Versumstellung"/>frowe kvrnȩware div wiſe.</l>
+<l xml:id="fr30_279.12"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr30_279.11"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr30_279.13">M<gap reason="Fragmentverlust" extent="unbekannt"/>t ir blanchen linden hant.</l>
 <l xml:id="fr30_279.14">frowe ieſchvte vor karnant.</l>
 <l xml:id="fr30_279.15">Mit wiplichen zvhten az.</l>
@@ -244,8 +241,8 @@
 <l xml:id="fr30_282.09">Ovh begvnde luhten ſih d<choice><am>̉</am><ex>er</ex></choice> walt.</l>
 <l xml:id="fr30_282.10">wan daz ein rone waſ gewalt.</l>
 <l xml:id="fr30_282.11">Vf einen plan zvͦ dem er ſteich.</l>
-<note resp="#SFa_Transkribent" target="#fr30_282.11 #fr30001vb">: vmtl. Korrekturzeichen am Versende für Fehlvers(?)</note>
-<note resp="#CG_Gegenleser" target="#fr30_282.11 #fr30001vb">: Korrekturzeichen sieht wie ein Obelus aus, wie er in der gr.-röm. Tradition der Textkritik üblich ist.</note>
+<note resp="#SFa_Transkribent" target="#?1_282.11 #fr30001vb">: vmtl. Korrekturzeichen am Versende für Fehlvers(?)</note>
+<note resp="#CG_Gegenleser" target="#?1_282.11 #fr30001vb">: Korrekturzeichen sieht wie ein Obelus aus, wie er in der gr.-röm. Tradition der Textkritik üblich ist.</note>
 <l xml:id="fr30_282.12"/>
 <l xml:id="fr30_282.13">da wol tvͦſent kenſe lagen.</l>
 <l xml:id="fr30_282.14">Da wart ein michel pagen.</l>

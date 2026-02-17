@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr29</title>
+      <title type="sub">Transkription des Textzeugen fr29</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Germanisches Nationalmuseum</repository>
           <idno>Hs. 24137</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr29</idno>
+            <idno>fr29</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr29">
@@ -73,9 +73,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -117,8 +114,7 @@
 <l xml:id="fr29_7.28">Het ich dar inne me getan.</l>
 <l xml:id="fr29_7.29"><gap reason="Fragmentverlust" extent="unbekannt"/>rech lop mir bræhte.</l>
 <l xml:id="fr29_7.30">Etswa man min gedæhte.</l>
-<l xml:id="fr29_8.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">G</seg>ahmvͦret sprach aber san</l>
-<note resp="#MiGe_Gegenleser" target="#fr29_8.01 #Fr29;1ra"><ref><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">G</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, welche Farben die Initialen jeweils aufweisen. Bonath und Lomnitzer zufolge verfügen sie über die Farben <ref>rot mit blau, grün oder blau mit rot</ref>.</note>
+<l xml:id="fr29_8.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="3">G</seg>ahmvͦret sprach aber san</l>
 <l xml:id="fr29_8.02">Sehcehn knappen ich han.</l>
 <l xml:id="fr29_8.03">Sehse der von yser sint.</l>
 <l xml:id="fr29_8.04">Darzvͦ gebt mir vier kint.</l>
@@ -151,8 +147,7 @@
 <l xml:id="fr29_10.28">So livget mir daz mære.</l>
 <l xml:id="fr29_10.29">Daz man von siner helfe sagt.</l>
 <l xml:id="fr29_10.30">Sit er an mir svs ist verzagt.</l>
-<l xml:id="fr29_11.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg>o sprach der ivnge Anshevin.</l>
-<note resp="#MiGe_Gegenleser" target="#fr29_11.01 #Fr29;1va"><ref><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">D</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, welche Farben die Initialen jeweils aufweisen. Bonath und Lomnitzer zufolge verfügen sie über die Farben <ref>rot mit blau, grün oder blau mit rot</ref>.</note>
+<l xml:id="fr29_11.01"><seg type="Initiale" subtype="nicht_ausgeführt" n="3">D</seg>o sprach der ivnge Anshevin.</l>
 <l xml:id="fr29_11.02">Got troste îvch froͮwe des vater min.</l>
 <l xml:id="fr29_11.03">Den svln wir beidiv gerne clagen.</l>
 <l xml:id="fr29_11.04">Iv mac nîemen von mir gesagen.</l>
@@ -185,8 +180,7 @@
 <l xml:id="fr29_11.30">Ich getriͮwe iv des vil wol.</l>
 <l xml:id="fr29_12.01">Daz ir in deste werder hat.</l>
 <l xml:id="fr29_12.02">Swîe halt mir min dinc ergat.</l>
-<l xml:id="fr29_12.03"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">A</seg>ls vns div aventvre sagt.</l>
-<note resp="#MiGe_Gegenleser" target="#fr29_12.03 #Fr29;1vb"><ref><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">A</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, welche Farben die Initialen jeweils aufweisen. Bonath und Lomnitzer zufolge verfügen sie über die Farben <ref>rot mit blau, grün oder blau mit rot</ref>.</note>
+<l xml:id="fr29_12.03"><seg type="Initiale" subtype="nicht_ausgeführt" n="3">A</seg>ls vns div aventvre sagt.</l>
 <l xml:id="fr29_12.04">Do het der helt vnverzagt.</l>
 <l xml:id="fr29_12.05">Enpfangen dvrch liebe kraft.</l>
 <l xml:id="fr29_12.06">Vn<choice><am>̄</am><ex>d</ex></choice> dvrch wiplich geselleschaft.</l>
@@ -216,8 +210,8 @@
 <l xml:id="fr29_12.30">Vn<choice><am>̄</am><ex>d</ex></choice> ovch die heten gesehn.</l>
 <l xml:id="fr29_13.01">Siniv werch da er fremde wære.</l>
 <l xml:id="fr29_13.02">So gelovbte man daz mære.</l>
-<l xml:id="fr29_13.03"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">G</seg>ahmvͦret der site pflac.</l>
-<note resp="#MiGe_Gegenleser" target="#fr29_13.03 #Fr29;1vb"><ref><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">G</seg></ref>: Da von diesem Teil des Fragments nur eine Schwarz-Weiss-Kopie vorliegt, ist nicht sicher, welche Farben die Initialen jeweils aufweisen. Bonath und Lomnitzer zufolge verfügen sie über die Farben <ref>rot mit blau, grün oder blau mit rot</ref>.</note>
+<l xml:id="fr29_13.03"><seg type="Initiale" subtype="nicht_ausgeführt" n="3">G</seg>ahmvͦret der site pflac.</l>
+<note resp="#MiGe_Gegenleser" target="#?1_13.03 #Fr29002ra"><ref><seg type="Initiale" subtype="nicht_ausgeführt" n="3">G</seg>ahmvͦret</ref>: Die Initiale ist entweder rot oder blau (siehe Angaben bei Pfeiffer).</note>
 <l xml:id="fr29_13.04">Den rehtiv maze widerwac.</l>
 <l xml:id="fr29_13.05">Vn<choice><am>̄</am><ex>d</ex></choice> ander schanze dehêine.</l>
 <l xml:id="fr29_13.06">Sin rvͤmen daz was clêine.</l>
@@ -305,7 +299,7 @@
 <l xml:id="fr29_16.30">Weſ div bvrch w<supplied reason="unleserlich" resp="Sekundärliteratur">æ</supplied>re.</l>
 <l xml:id="fr29_17.01">W<supplied reason="unleserlich" resp="Sekundärliteratur">ande ir</supplied> chvn<supplied reason="unleserlich" resp="Sekundärliteratur">de</supplied> nie gewan.</l>
 <l xml:id="fr29_17.02"><supplied reason="unleserlich" resp="Sekundärliteratur">Er</supplied> noch dehein ſin ſchifman.</l>
-<l xml:id="fr29_17.03"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">S</seg>i taten ſinen boten chvnt.</l>
+<l xml:id="fr29_17.03"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">S</seg>i taten ſinen boten chvnt.</l>
 <l xml:id="fr29_17.04"><supplied reason="unleserlich" resp="Sekundärliteratur">ſi</supplied> hiezze Patelamvnt.</l>
 <l xml:id="fr29_17.05">Daz war<supplied reason="unleserlich" resp="Sekundärliteratur">t</supplied> im minneclich<supplied reason="unleserlich" resp="Sekundärliteratur">e</supplied> enboten.</l>
 <l xml:id="fr29_17.06">Vn<choice><am>̄</am><ex>d</ex></choice> manten in bi ir goten.</l>
@@ -330,7 +324,7 @@
 <l xml:id="fr29_17.25">Waren alle die von zazamanc.</l>
 <l xml:id="fr29_17.26">Bi den dvht in die wile lanc.</l>
 <cb xml:id="fr29002vb"/>
-<note resp="#MiGe_Gegenleser" target="#fr29_18.09 #Fr29002vb">: Über dem, was von Spalte b noch vorhanden ist, scheint sich eine Initiale befunden zu haben. Darauf weist ein vertikaler Strich hin, der zur Linken der Spalte circa ab Vers 18.13 zu erkennen ist.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_18.09 #Fr29002vb">: Über dem, was von Spalte b noch vorhanden ist, scheint sich eine Initiale befunden zu haben. Darauf weist ein vertikaler Strich hin, der zur Linken der Spalte circa ab Vers 18.13 zu erkennen ist.</note>
 <l xml:id="fr29_18.09">Hetz fvr einen anc<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_18.10">Ze ſehn in lv<supplied reason="unleserlich" resp="Sekundärliteratur">zel deſ</supplied> <gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_18.11"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="unbekannt"/> mvͦſen ſ<gap reason="unleserlich" extent="unbekannt"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -354,7 +348,7 @@
 <l xml:id="fr29_18.29">Etſlicher waſ ei<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_18.30">Dar nach mvͦſe <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_19.01"><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: grün-rot"><gap reason="unleserlich" extent="1" unit="Buchstabe"/></seg></unclear>ht orſ mit z<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<note resp="#SiLa_Gegenleser" target="#fr29_19.01 #29002vb"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: grün-rot"><gap reason="unleserlich" extent="1" unit="Buchstabe"/></seg></unclear></ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
+<note resp="#SiLa_Gegenleser" target="#?1_19.01 #29002vb"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: grün-rot"><gap reason="unleserlich" extent="1" unit="Buchstabe"/></seg></unclear></ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
 <l xml:id="fr29_19.02">verdecket al z<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_19.03">daz nivnde ſi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr29_19.04"><supplied reason="unleserlich" resp="Sekundärliteratur">ei</supplied>nen ſchilt deſ <gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -470,7 +464,7 @@
 <l xml:id="fr29_22.28">Vil <gap reason="unleserlich" extent="unbekannt"/>dech<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr29_22.29">Der marſchalck ſ<supplied reason="unleserlich" resp="Sekundärliteratur">iner froͮwen</supplied> be<gap reason="unleserlich" extent="1" unit="Buchstabe"/></l>
 <l xml:id="fr29_22.30">Balde wart do Ga<supplied reason="unleserlich" resp="Sekundärliteratur">hmuͦre</supplied>t.</l>
-<l xml:id="fr29_23.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">R</seg>ichiv clei<gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">dar</supplied> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">agen</supplied></l>
+<l xml:id="fr29_23.01"><seg type="Initiale" subtype="Lombarde" n="3" rend="Farbe: rot">R</seg>ichiv clei<gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">dar</supplied> <gap reason="unleserlich" extent="unbekannt"/><supplied reason="unleserlich" resp="Sekundärliteratur">agen</supplied></l>
 <l xml:id="fr29_23.02">Div legte<supplied reason="unleserlich" resp="Sekundärliteratur">r an ſuſ ho</supplied><gap reason="unleserlich" extent="2" unit="Buchstabe"/> <supplied reason="unleserlich" resp="Sekundärliteratur">ic</supplied>h ſagen.</l>
 <l xml:id="fr29_23.03">Daz div tv̂r wæ<gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr29_23.04">Ancher die ſ<supplied reason="unleserlich" resp="Sekundärliteratur">wær</supplied>en</l>
@@ -650,8 +644,8 @@
 <l xml:id="fr29_28.28">Dvrch die zæher maniger bliche<supplied reason="unleserlich" resp="Sekundärliteratur">.</supplied></l>
 <l xml:id="fr29_28.29">Si ſchamde gaſtlichen ſach.</l>
 <l xml:id="fr29_28.30">An Gahmvͦreten do veriach</l>
-<l xml:id="fr29_29.01"><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" rend="Farbe: rot-blau">J</seg></unclear>r ôvgen dem hercen ſan.</l>
-<note resp="#SiLa_Gegenleser" target="#fr29_29.01 #29004va"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Fleuronee" rend="Farbe: rot-blau">J</seg></unclear></ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
+<l xml:id="fr29_29.01"><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">J</seg></unclear>r ôvgen dem hercen ſan.</l>
+<note resp="#SiLa_Gegenleser" target="#?1_29.01 #29004va"><ref><unclear reason="Zweifel"><seg type="Initiale" subtype="Lombarde" rend="Farbe: rot">J</seg></unclear></ref>: Höhe der Initiale aufgrund von Fragmentverlust nicht eindeutig zu bestimmen.</note>
 <cb xml:id="fr29004vb"/>
 <l xml:id="fr29_30.05">Sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch er wolde gerne ſehn.</l>
 <l xml:id="fr29_30.06">Wa riterſchaft da wære geſchehn.</l>

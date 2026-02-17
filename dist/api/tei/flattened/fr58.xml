@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr58</title>
+      <title type="sub">Transkription des Textzeugen fr58</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Universitätsbibliothek</repository>
           <idno>Hs. 530</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr58</idno>
+            <idno>fr58</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr58">
@@ -76,9 +76,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -115,8 +112,8 @@
 <l xml:id="fr58_1.20">Zin anderhalp anme glaſe</l>
 <l xml:id="fr58_1.21">Gelicht vnd dez blinden <supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">tr</unclear></supplied>o<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">u</unclear></supplied>m</l>
 <l xml:id="fr58_1.22">Die gebent antluczes ro<supplied reason="unleserlich" resp="Sekundärliteratur"><unclear reason="Zweifel">u</unclear>m</supplied></l>
-<l xml:id="fr58_1.24"><milestone unit="Versumstellung"/>Dirre trube <subst hand="#sr"><del>liegter</del><add>liehter</add></subst> ſchin</l>
-<l xml:id="fr58_1.23"><milestone unit="Versumstellung"/>Auch mak mit ſtete nit geſin</l>
+<l xml:id="fr58_1.24">Dirre trube <subst hand="#sr"><del>liegter</del><add>liehter</add></subst> ſchin</l>
+<l xml:id="fr58_1.23">Auch mak mit ſtete nit geſin</l>
 <l xml:id="fr58_1.25">Der machet kurcz freude alle war</l>
 <l xml:id="fr58_1.26">Wer reuffet mich da nie <gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr58_1.27">Gewuhs y<choice><am>̄</am><ex>n</ex></choice>nen an miner<gap reason="Fragmentverlust" extent="unbekannt"/></l>

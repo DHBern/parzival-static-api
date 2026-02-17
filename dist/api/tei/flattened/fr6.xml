@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr6</title>
+      <title type="sub">Transkription des Textzeugen fr6</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>University Library (Sydney Jones Library)</repository>
           <idno>Ms. M 8951</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr6</idno>
+            <idno>fr6</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr6">
@@ -77,9 +77,6 @@
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
    </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
   </charDecl>
   </encodingDesc>
 </teiHeader>
@@ -104,11 +101,11 @@
 <l xml:id="fr6_770.13">der grave liſavander von ipopotiticon</l>
 <l xml:id="fr6_770.14">der herzoge thiride von Elixodion</l>
 <l xml:id="fr6_770.15">der kvnic von oraſtegenteſin toariſ</l>
-<note resp="#GVi_Transkribent" target="#fr6_770.15 #Fr6001ra"><ref>kvnic</ref>: Palmer transkribiert <ref>kvnec</ref>.</note>
+<note resp="#GVi_Transkribent" target="#?1_770.15 #Fr6001ra"><ref>kvnic</ref>: Palmer transkribiert <ref>kvnec</ref>.</note>
 <l xml:id="fr6_770.16">der herzoge von ſatarkionte alamiſ</l>
 <l xml:id="fr6_770.17">der kvnic amincaſ von ſotofeititon</l>
 <l xml:id="fr6_770.18">der herzoge carvb von dvſcontemeton</l>
-<note resp="#GVi_Transkribent" target="#fr6_770.18 #fr6001ra"><ref>dvſcontemeton</ref>: Palmer transkribiert <ref>duscontemeton</ref> (Schaft-s wird in seiner Transkription nicht berücksichtigt).</note>
+<note resp="#GVi_Transkribent" target="#?1_770.18 #fr6001ra"><ref>dvſcontemeton</ref>: Palmer transkribiert <ref>duscontemeton</ref> (Schaft-s wird in seiner Transkription nicht berücksichtigt).</note>
 <l xml:id="fr6_770.19">der kvnic von arabie zoroaſter</l>
 <l xml:id="fr6_770.20">der grave poſizonivſ von tilitaſter</l>
 <l xml:id="fr6_770.21">der herzoge ſe<supplied reason="unleserlich" resp="Sekundärliteratur">nn</supplied>eſ von narioclin</l>
@@ -184,7 +181,7 @@
 <l xml:id="fr6_772.29">ſwaz ir mir kvnt iſt getan</l>
 <l xml:id="fr6_772.30">die wenich hie genennet han</l>
 <l xml:id="fr6_773.01"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>er heiden waſ von <subst hand="#lsu"><del>hezzen</del><add>herzen</add></subst> vro</l>
-<note resp="#GVi//(KHo)_Transkribent" target="#fr6_773.01 #fr6001va"><ref>hezzen</ref>: Palmer transkribiert <ref>herzen</ref>, er hat ebenfalls die r-Marginalie als Korrektur aufgefasst.(In seiner Transkription ist die Korrektur allerdings nicht ersichtlich.)</note>
+<note resp="#GVi//(KHo)_Transkribent" target="#?1_773.01 #fr6001va"><ref>hezzen</ref>: Palmer transkribiert <ref>herzen</ref>, er hat ebenfalls die r-Marginalie als Korrektur aufgefasst.(In seiner Transkription ist die Korrektur allerdings nicht ersichtlich.)</note>
 <l xml:id="fr6_773.02">daz ſinſ brvder priſ alſo</l>
 <l xml:id="fr6_773.03">ſtvnt daz ſin hant erſtreit</l>
 <l xml:id="fr6_773.04">ſo manige hohe werdicheit</l>
@@ -341,7 +338,7 @@
 <l xml:id="fr6_786.29"><seg type="Initiale" subtype="Majuskel" n="1">J</seg>ne weiz wie daz her ſich ſchiede hie</l>
 <l xml:id="fr6_786.30">Cvndrie vn<choice><am>̄</am><ex>d</ex></choice> diſe zwene hin rite<choice><am>̄</am><ex>n</ex></choice> ſie</l>
 <cb xml:id="fr6002vb"/>
-<note resp="#KH_Gegenleser" target="#fr6_787.01 #fr6002vb">: Es wurde eine Zeile ausgelassen, vielleicht für eine Kapitelüberschrift?</note>
+<note resp="#KH_Gegenleser" target="#?1_787.01 #fr6002vb">: Es wurde eine Zeile ausgelassen, vielleicht für eine Kapitelüberschrift?</note>
 <l xml:id="fr6_787.01"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: blau-rot">A</seg>nfortaſ vnd die ſine</l>
 <l xml:id="fr6_787.02">noch vor iamer dolten pine</l>
 <l xml:id="fr6_787.03">ir tr<unclear reason="Zweifel">iu</unclear>we liez in inder not</l>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr65</title>
+      <title type="sub">Transkription des Textzeugen fr65</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Niedersächsisches Landesarchiv</repository>
           <idno>Hann. 75 Nr. 1865</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr65</idno>
+            <idno>fr65</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr65">
@@ -74,9 +74,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -162,7 +159,7 @@
 <l xml:id="fr65_152.07"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr65_152.08"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr65_152.09"><gap reason="Fragmentverlust" extent="unbekannt"/>iten</l>
-<note resp="#MiGe_Gegenleser" target="#fr65_152.09 #Fr65001vb"><ref>iten</ref>: Naß ordnet die Buchstabenfolge Vers 152.10 zu.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_152.09 #Fr65001vb"><ref>iten</ref>: Naß ordnet die Buchstabenfolge Vers 152.10 zu.</note>
 <l xml:id="fr65_152.10"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr65_152.11"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr65_152.12"><gap reason="Fragmentverlust" extent="unbekannt"/></l>

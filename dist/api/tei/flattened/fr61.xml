@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr61</title>
+      <title type="sub">Transkription des Textzeugen fr61</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc>
@@ -19,7 +19,7 @@
           <repository>Universitätsbibliothek</repository>
           <idno>Heid. Hs. 3650</idno>
           <altIdentifier type="Parzival-Projekt">
-            <idno>Fr61</idno>
+            <idno>fr61</idno>
           </altIdentifier>
         </msIdentifier>
         <physDesc><objectDesc><p corresp="Parzival-Projekt_fr61">
@@ -78,9 +78,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -152,7 +149,7 @@
 <l xml:id="fr61_463.14">wart durch neit nach helle var</l>
 <l xml:id="fr61_463.15">Do lucifer die helle vart</l>
 <l xml:id="fr61_463.16">Fuͤr. ein menſche nach im wart</l>
-<note resp="#CG_Lektor" target="#fr61_463.16 #Fr61001rb"><ref>Fuͤr.</ref>: Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht</note>
+<note resp="#CG_Lektor" target="#?1_463.16 #Fr61001rb"><ref>Fuͤr.</ref>: Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht</note>
 <l xml:id="fr61_463.17">daz got warcht auz der erden</l>
 <l xml:id="fr61_463.18">adamen den werden</l>
 <l xml:id="fr61_463.19">Von adames verche er euen brach</l>
@@ -173,7 +170,7 @@
 <l xml:id="fr61_464.04">von dem ſein an ward v<choice><am>̉</am><ex>er</ex></choice>lorn</l>
 <l xml:id="fr61_464.05">Den magtvͤm als iͤr mir ſagt</l>
 <l xml:id="fr61_464.06">daz machte iͤr gerner han <supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied><choice><am>̉</am><ex>er</ex></choice>dagt</l>
-<note resp="#MiGe_Gegenleser" target="#fr61_464.06 #Fr61001va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied><choice><am>̉</am><ex>er</ex></choice>dagt</ref>: Nellmann gibt an, dass das <ref>v</ref> kaum lesbar sei und möglicherweise eine Rasur vorliege.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_464.06 #Fr61001va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">v</supplied><choice><am>̉</am><ex>er</ex></choice>dagt</ref>: Nellmann gibt an, dass das <ref>v</ref> kaum lesbar sei und möglicherweise eine Rasur vorliege.</note>
 <pb xml:id="fr61001v"/><cb xml:id="fr61001va"/>
 <l xml:id="fr61_464.07">Der w=;eirt ſprach aber zv zim</l>
 <l xml:id="fr61_464.08">von dem tzweiuel ich <subst hand="#sr"><del>euchnim</del><add>euch nim</add></subst></l>
@@ -188,7 +185,7 @@
 <l xml:id="fr61_464.17">Der ſluech Abelen vmb chranches gvͤt</l>
 <l xml:id="fr61_464.18">Do auf die rainen erde daz plvet</l>
 <l xml:id="fr61_464.19">Viel. ir magtvͤm was v<choice><am>̉</am><ex>er</ex></choice>varn</l>
-<note resp="#CG_Lektor" target="#fr61_464.19 #Fr61001va"><ref>Viel.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
+<note resp="#CG_Lektor" target="#?1_464.19 #Fr61001va"><ref>Viel.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_464.20">Den nam Adames barn</l>
 <l xml:id="fr61_464.21">Do huͤb ſich erſte menſchen neit</l>
 <l xml:id="fr61_464.22">alſo wert er immer ſeit</l>
@@ -351,7 +348,7 @@
 <l xml:id="fr61_498.19">Er chert da der Baruch was</l>
 <l xml:id="fr61_498.20">vnd ich fuͤr fuer den Rohas</l>
 <l xml:id="fr61_498.21">Fuͤr zilie ich fuer. der walt iſt brait</l>
-<note resp="#CG_Lektor" target="#fr61_498.21 #Fr61002va"><ref>fuer.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
+<note resp="#CG_Lektor" target="#?1_498.21 #Fr61002va"><ref>fuer.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_498.22">drei mæntag ich da vil geſtrait</l>
 <l xml:id="fr61_498.23">Mich <subst hand="#sr"><del>dauch</del><add>daucht</add></subst> ich hiet da wol geſtriten</l>
 <l xml:id="fr61_498.24">Dar nach ich ſchier chom geriten</l>
@@ -592,7 +589,7 @@
 <l xml:id="fr61_675.01">Jn ſein h<choice><am>̉</am><ex>er</ex></choice>werg rait.</l>
 <l xml:id="fr61_675.02">Manig<choice><am>̉</am><ex>er</ex></choice> de<choice><am>̄</am><ex>m</ex></choice> vo<choice><am>̄</am><ex>n</ex></choice> h<choice><am>̉</am><ex>er</ex></choice>tzen <lb/><g ref="#alin1"/> lait<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
 <l xml:id="fr61_675.03">was. ſein langez auz weſen.</l>
-<note resp="#CG_Lektor" target="#fr61_675.03 #Fr61;4ra"><ref>was.</ref>:Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
+<note resp="#CG_Lektor" target="#?1_675.03 #Fr61;4ra"><ref>was.</ref>:Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_675.04">nv waſ auch kaẏ geneſen</l>
 <l xml:id="fr61_675.05">Bei dem Plimzol ze der ẏoſte</l>
 <l xml:id="fr61_675.06">D<choice><am>̉</am><ex>er</ex></choice> prueft Gawanes choſte</l>
@@ -638,7 +635,7 @@
 <l xml:id="fr61_676.15"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Bei dem Aſchewein.</l>
 <l xml:id="fr61_676.16">da Artaus vn<choice><am>̄</am><ex>d</ex></choice> die ſein<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>
 <l xml:id="fr61_676.17">Lagen. durch die tzogten ſeu wie</l>
-<note resp="#CG_Lektor" target="#fr61_676.17 #Fr61004rb"><ref>Lagen.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
+<note resp="#CG_Lektor" target="#?1_676.17 #Fr61004rb"><ref>Lagen.</ref>: Der Punkt steht für ein Zeichen, das wie heutiges Ausrufezeichen aussieht.</note>
 <l xml:id="fr61_676.18">And<choice><am>̉</am><ex>er</ex></choice>halb da Gawan hie</l>
 <l xml:id="fr61_676.19"><milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Anfang"/>Lach mit weitem ringe.</l>
 <l xml:id="fr61_676.20">Sw<choice><am>̉</am><ex>er</ex></choice> ſolch helffe <lb/><g ref="#alin1"/> ertwinge<milestone unit="Absatz" type="Absatz_mit_Zeilenumbruch" subtype="Ende"/></l>

@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
   <fileDesc>
     <titleStmt>
       <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen Fr18</title>
+      <title type="sub">Transkription des Textzeugen fr18</title>
       <author>Wolfram von Eschenbach</author>
       <editor>Parzival-Projekt Bern</editor>
     </titleStmt>
     <publicationStmt>
       <authority>Parzival-Projekt Bern</authority>
       <pubPlace>Bern</pubPlace>
-      <date>10.11.25</date>
+      <date>2017</date>
     </publicationStmt>
     <sourceDesc>
       <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>Fr18</idno>
+          <idno>fr18</idno>
         </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr18">
                                 <title type="main">Fr. 18 (G<hi rend="sup">v</hi>, F und G<hi rend="sup">l</hi>):</title>
                                 <list>
@@ -48,7 +47,7 @@
             <repository>"Württembergische Landesbibliothek"</repository>
             <idno>"Cod. poet. et phil. 4° 89"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr18A</idno>
+              <idno>fr18A</idno>
             </altIdentifier>
           </msIdentifier>
           <physDesc>
@@ -64,7 +63,7 @@
             <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
             <idno>"Ms. germ. fol. 734 Nr. 2"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr18B</idno>
+              <idno>fr18B</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -74,7 +73,7 @@
             <repository>"Germanisches Nationalmuseum"</repository>
             <idno>"Hs. 42520"</idno>
             <altIdentifier type="Parzival-Projekt">
-              <idno>Fr18C</idno>
+              <idno>fr18C</idno>
             </altIdentifier>
           </msIdentifier>
         </msFrag>
@@ -116,9 +115,6 @@
    <char xml:id="latAbbrEt2">
     <charName>Lateinische Abkürzung für -et</charName>
     <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
    </char>
   </charDecl>
   </encodingDesc>
@@ -543,8 +539,8 @@
 <l xml:id="fr18_634.30">Svſ bat Gawanen ẏtonẏe.</l>
 <l xml:id="fr18_635.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">H</seg><hi rend="rot">E</hi>rre ir batet mich alſvſ.</l>
 <l xml:id="fr18_635.02">Daz ich enphahen ſolt ir kvſ.</l>
-<l xml:id="fr18_635.04"><milestone unit="Versumstellung"/>Deſ iſt min herze vngeſvnt.</l>
-<l xml:id="fr18_635.03"><milestone unit="Versumstellung"/>Daz ich kvſt ir beider mvnt.</l>
+<l xml:id="fr18_635.04"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr18_635.03"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr18_635.05">Wirt vnſ zwein imm<choice><am>̉</am><ex>er</ex></choice> frovde erkant.</l>
 <l xml:id="fr18_635.06">Div helfe ſtet in iwer hant.</l>
 <l xml:id="fr18_635.07">Fvr war der kvnich minen lip.</l>
@@ -731,7 +727,7 @@
 <l xml:id="fr18_641.26">Da ſi gemacheſ na<gap reason="Fragmentverlust" extent="unbekannt"/> <gap reason="unleserlich" extent="unbekannt"/></l>
 <l xml:id="fr18_641.27"><subst hand="#sr"><del>In</del><add>Ir</add></subst> in genſe ſi beg<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr18_641.28">Mit zvhten die ſ<supplied reason="unleserlich" resp="Sekundärliteratur">i</supplied><gap reason="Fragmentverlust" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">kvnden</supplied></l>
-<note resp="#MiGe_Gegenleser" target="#fr18_641.28 #Fr18005rb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">kvnden</supplied></ref>: Schönfeld gibt <supplied reason="unleserlich" resp="Sekundärliteratur">kunden</supplied> an, das Wort wird im Fragment aber sonst durchgehend mit <ref>u</ref> geschrieben.</note>
+<note resp="#MiGe_Gegenleser" target="#?1_641.28 #Fr18005rb"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">kvnden</supplied></ref>: Schönfeld gibt <supplied reason="unleserlich" resp="Sekundärliteratur">kunden</supplied> an, das Wort wird im Fragment aber sonst durchgehend mit <ref>u</ref> geschrieben.</note>
 <l xml:id="fr18_641.29">Saẏue vn<choice><am>̄</am><ex>d</ex></choice> <supplied reason="unleserlich" resp="Sekundärliteratur">y</supplied>tony<supplied reason="unleserlich" resp="Sekundärliteratur"/>.</l>
 <l xml:id="fr18_641.30">Fvͦren dan. ſam tet ovch Kvndrie.</l>
 <l xml:id="fr18_642.01"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">B</seg><hi rend="rot">E</hi>ne vn<choice><am>̄</am><ex>d</ex></choice> <hi rend="rot">A</hi>Rnyue do.</l>
@@ -782,7 +778,7 @@
 <l xml:id="fr18_643.21"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="unbekannt"/> der <gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="unbekannt"/>t kvnſt.</l>
 <l xml:id="fr18_643.22"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="unbekannt"/>n gvͦte gvnſt.</l>
 <l xml:id="fr18_643.23"><gap reason="Fragmentverlust" extent="unbekannt"/>t tem<supplied reason="unleserlich" resp="Sekundärliteratur">peri</supplied> <supplied reason="unleserlich" resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear></supplied>rze kraft.</l>
-<note resp="#MiGe_Gegenleser" target="#fr18_643.23 #Fr18005va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear></supplied>rze</ref>: Rosenfeld gibt <ref>würze</ref> an. Ist damit möglicherweise <supplied reason="unleserlich" resp="Sekundärliteratur">wuͤrze</supplied> gemeint?</note>
+<note resp="#MiGe_Gegenleser" target="#?1_643.23 #Fr18005va"><ref><supplied reason="unleserlich" resp="Sekundärliteratur">w<unclear reason="Zweifel">u</unclear></supplied>rze</ref>: Rosenfeld gibt <ref>würze</ref> an. Ist damit möglicherweise <supplied reason="unleserlich" resp="Sekundärliteratur">wuͤrze</supplied> gemeint?</note>
 <l xml:id="fr18_643.24"><gap reason="Fragmentverlust" extent="unbekannt"/><gap reason="unleserlich" extent="1" unit="Buchstabe"/> wi<gap reason="Fragmentverlust" extent="unbekannt"/>lich g<gap reason="Fragmentverlust" extent="unbekannt"/>ſelleſchaft.</l>
 <cb xml:id="fr18005vb"/>
 <l xml:id="fr18_643.30"><gap reason="Fragmentverlust" extent="unbekannt"/></l>
@@ -1349,8 +1345,8 @@
 <l xml:id="fr18_711.18">Ob min brvͦder min A<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr18_711.19">Sleht dvrch ir loſen rat</l>
 <l xml:id="fr18_711.20">Deſ moht ir iehn fvr mi<supplied reason="unleserlich" resp="Sekundärliteratur">ſ</supplied><gap reason="unleserlich" extent="1" unit="Buchstabe"/><gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr18_711.22"><milestone unit="Versumstellung"/>Ir ſvlt in min geniezen l<gap reason="Fragmentverlust" extent="unbekannt"/></l>
-<l xml:id="fr18_711.21"><milestone unit="Versumstellung"/>Waz hat der kvnich im g<gap reason="Fragmentverlust" extent="unbekannt"/></l>
+<l xml:id="fr18_711.22"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr18_711.21"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr18_711.23">Treit min brvͦder ſinne.</l>
 <l xml:id="fr18_711.24">Er weiz vnſer zweier mi<gap reason="Fragmentverlust" extent="unbekannt"/></l>
 <l xml:id="fr18_711.25">So lvtter ane valſcheit.</l>
@@ -1446,8 +1442,8 @@
 <pb xml:id="fr18010r"/><cb xml:id="fr18010ra"/>
 <l xml:id="fr18_730.23">Gawan vn<choice><am>̄</am><ex>d</ex></choice> die geſellen ſin.</l>
 <l xml:id="fr18_730.24">ARnẏue div kvnegin.</l>
-<l xml:id="fr18_730.26"><milestone unit="Versumstellung"/>Vn<choice><am>̄</am><ex>d</ex></choice> der werde <hi rend="rot">P</hi>arcifal</l>
-<l xml:id="fr18_730.25"><milestone unit="Versumstellung"/>Vn<choice><am>̄</am><ex>d</ex></choice> div <hi rend="rot">H</hi>erzogin Lieht gemal.</l>
+<l xml:id="fr18_730.26"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr18_730.25"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr18_730.27">Saẏue vn<choice><am>̄</am><ex>d</ex></choice> kvndrie.</l>
 <l xml:id="fr18_730.28">Namen vrlovp Itonẏe.</l>
 <l xml:id="fr18_730.29">beleip bi ARtvſe da.</l>
@@ -1550,8 +1546,8 @@
 <l xml:id="fr18_734.04">Nvn wil ichz niht leng<choice><am>̉</am><ex>er</ex></choice> ſparn.</l>
 <l xml:id="fr18_734.05"><gap reason="unleserlich" extent="unbekannt"/> <supplied reason="unleserlich" resp="Sekundärliteratur">tvͦ</supplied> ez kvnt mit reht<choice><am>̉</am><ex>er</ex></choice> ſage.</l>
 <l xml:id="fr18_734.06">Wan ich in dem mvnde trage</l>
-<l xml:id="fr18_734.08"><milestone unit="Versumstellung"/>Wie der ſvze vn<choice><am>̄</am><ex>d</ex></choice> der gehivre.</l>
-<l xml:id="fr18_734.07"><milestone unit="Versumstellung"/><gap reason="Fragmentverlust" extent="unbekannt"/>az ſloz dirre aventivre.</l>
+<l xml:id="fr18_734.08"><milestone unit="Vers" type="Versumstellung"/></l>
+<l xml:id="fr18_734.07"><milestone unit="Vers" type="Versumstellung"/></l>
 <l xml:id="fr18_734.09"><gap reason="Fragmentverlust" extent="unbekannt"/>nfortaſ wart wol geſvnt.</l>
 <l xml:id="fr18_734.10"><gap reason="Fragmentverlust" extent="unbekannt"/>nſ tvͦt div aventivre kvnt.</l>
 <l xml:id="fr18_734.11">Wie von Pelrapeẏre div kvnegin.</l>
