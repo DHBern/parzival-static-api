@@ -153,7 +153,7 @@ def main():
     if len(sys.argv) == 3:
         final_pdf = Path(sys.argv[2])
     else:
-        final_pdf = Path("eintextedition.pdf")
+        final_pdf = Path("dist/api/pdf/Parzival_Eintextedition.pdf")
 
     if not input_dir.is_dir():
         print("Input path is not a directory", file=sys.stderr)
