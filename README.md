@@ -14,7 +14,7 @@ Lastly, the repository also contains a template for a TEIPublisher application (
   * `./parzival-static-api.sh --generate` to generate outputs for `dist/api`
   * `./parzival-static-api.sh --fetch-exports` to collect export files to `dist/api/export`
   * `./parzival-static-api.sh --generate-monopsis` to generate the merged monopsis PDF
-    (`dist/api/pdf/eintextedition.pdf`) from locally stored source PDFs
+    (`dist/api/pdf/Parzival_Eintextedition.pdf`) from locally stored source PDFs
 
 * Alternatively:
   * Move to `src` directory
