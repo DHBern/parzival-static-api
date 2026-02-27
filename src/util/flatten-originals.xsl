@@ -75,12 +75,8 @@
           <xsl:apply-templates select="$pass2" mode="lowercase-xml-ids"/>
       </xsl:variable>
       
-      <xsl:variable name="pass99">
-        <xsl:apply-templates select="$pass3" mode="tmp-fix-for-ybild"/>
-      </xsl:variable>
-      
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
-        <xsl:sequence select="$pass99"/>
+        <xsl:sequence select="$pass3"/>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -166,9 +162,4 @@
     <xsl:attribute name="target" select="((tokenize(.,'\s') => head() => lower-case()) || ' ' || (tokenize(.,'\s') => tail() => string-join(' '))) => normalize-space()"/>
   </xsl:template>
   
-  <!-- pass 99; remove when data input fixed -->
-  <xsl:template match="text()[matches(.,'^\[ybild\]$')]" mode="tmp-fix-for-ybild">
-    <milestone xmlns="http://www.tei-c.org/ns/1.0" unit="Nicht_ausgeführtes_Bild_mit_Nachtrag"/>
-  </xsl:template>
-
 </xsl:transform>
