@@ -61,6 +61,7 @@ function generate {
   echo "Generating static API files to 'dist' directory."
   echo "Using Saxon at ${SAXON}."
   exec java -jar $SAXON -s:src/generate.xsl -xsl:src/generate.xsl do='' verbose=false "$@"
+  fix_json_layout
 }
 
 function generateMonopsis {
@@ -115,6 +116,18 @@ function fetchExports {
   done
 
   echo "Done fetching."
+}
+
+function fix_json_layout() {
+  echo "Normalizing JSON…"
+
+  find dist/api -name "*.json" -type f | while read -r file; do
+    tmp=$(mktemp)
+
+    jq --indent 2 'to_entries | sort_by(.key) | from_entries' "$file" > "$tmp"
+
+    mv "$tmp" "$file"
+  done
 }
 
 ### Argument parsing / conditional function calls

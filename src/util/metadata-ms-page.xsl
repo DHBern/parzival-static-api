@@ -61,7 +61,7 @@
     
     <xsl:variable name="payload">
 <!--      <map>
-        <map key="meta">
+        <map key="_meta">
           <string key="task">{$task}</string>
           <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
           <string key="generated-on">{current-dateTime()}</string>
@@ -71,7 +71,7 @@
 <!--          <map key="pages">-->
       <xsl:for-each select="$pages/dsl:doc">
         <map>
-          <map key="meta">
+          <map key="_meta">
             <string key="task">{$task}</string>
             <string key="generated-by">{let $regex := '.*('||$repository||'/.+)' return base-uri() => replace($regex,'$1')}</string>
             <string key="generated-on">{current-dateTime()}</string>
