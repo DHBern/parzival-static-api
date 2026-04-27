@@ -165,10 +165,11 @@
     <!-- substitute quotation marks
     see flatten-originals.xsl for details -->
     <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="all">
-      <xsl:sequence select=". => dsl:substitute-quotes()"/>
+        <xsl:sequence select="dsl:substitute-quotes(.,true())"/>
     </xsl:template>
     <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="janus">
-      <xsl:sequence select=". => dsl:substitute-quotes()"/>
+        <xsl:variable name="at-start" as="xs:boolean" select="if (preceding::node()[1]/self::l) then true() else false()"/>-->
+      <xsl:sequence select="dsl:substitute-quotes(.,true())"/>
     </xsl:template>
 
 </xsl:transform>

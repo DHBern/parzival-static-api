@@ -120,34 +120,69 @@
   </xsl:function>
   
   <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="substitute-quotation-marks">
-    <xsl:sequence select=". => dsl:substitute-quotes()"/>
+    <xsl:variable name="line-id" select="ancestor::l/generate-id()"/>
+    <xsl:variable name="at-start" as="xs:boolean" select="
+      if (preceding::text()[ancestor::l/generate-id()=$line-id])
+      then false() else true()"/>
+    <xsl:sequence select="dsl:substitute-quotes(.,$at-start)"/>
   </xsl:template>
   
   <xd:doc>
     <xd:desc>For Fassungen (syn) quotation marks are not differentiated in the Tustep output. 
-      Depending on the context, opening and closing Guillements are substituted.</xd:desc>
+      Depending on the context, opening and closing Guillements are substituted.
+    
+      $at-start check is needed for ambiguous cases such as
+      <!-- <l n="*T 430.16">"<seg type="große_Variante" n="a3"><versal>W</versal>ol ir süezen mâge mîn!</seg>"</l> -->
+    </xd:desc>
   </xd:doc>
   <xsl:function name="dsl:substitute-quotes">
     <xsl:param name="value" as="xs:string"/>
-    <xsl:sequence select="$value
-      (: double quotes mid-string:)
-      => replace($quot||'(\p{P})','«$1') 
-      => replace($quot||'(\s+)','«$1') 
-      => replace('(\s+)'||$quot,'$1»') 
-      
-      (: double quotes at start/end of string:)
-      => replace('^'||$quot,'$1»')
-      => replace($quot||'$','«$1')
-      
-      (: apostrophes mid-string:)
-      => replace($apos||'(\p{P})','‹$1') 
-      => replace($apos||'(\s+)','‹$1') 
-      => replace('(\s+)'||$apos,'$1›') 
-      
-      (: apostrophes at start/end of string:)
-      => replace('^'||$apos,'$1›')
-      => replace($apos||'$','‹$1')
-      "/>
+    <xsl:param name="at-start" as="xs:boolean"/>
+    <xsl:choose>
+      <xsl:when test="$at-start">
+        <xsl:sequence select="$value
+          (: double quotes mid-string:)
+          => replace($quot||'(\p{P})','«$1') 
+          => replace($quot||'(\s+)','«$1') 
+          => replace('(\s+)'||$quot,'$1»') 
+          
+          (: double quotes at start/end of string:)
+          => replace('^'||$quot,'$1»')
+          => replace($quot||'$','«$1')
+          
+          (: apostrophes mid-string:)
+          => replace($apos||'(\p{P})','‹$1') 
+          => replace($apos||'(\s+)','‹$1') 
+          => replace('(\s+)'||$apos,'$1›') 
+          
+          (: apostrophes at start/end of string:)
+          => replace('^'||$apos,'$1›')
+          => replace($apos||'$','‹$1')
+          "/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:sequence select="$value
+          (: double quotes mid-string:)
+          => replace($quot||'(\p{P})','«$1') 
+          => replace($quot||'(\s+)','«$1') 
+          => replace('(\s+)'||$quot,'$1»') 
+          
+          (: double quotes at end/start of string:)
+          => replace($quot||'$','«$1')
+          => replace('^'||$quot,'$1»')
+          
+          (: apostrophes mid-string:)
+          => replace($apos||'(\p{P})','‹$1') 
+          => replace($apos||'(\s+)','‹$1') 
+          => replace('(\s+)'||$apos,'$1›') 
+          
+          (: apostrophes at end/start of string:)
+          => replace($apos||'$','‹$1')
+          => replace('^'||$apos,'$1›')
+          "/>
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:function>
   
   <xd:doc>
