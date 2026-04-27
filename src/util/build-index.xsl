@@ -168,8 +168,7 @@
         <xsl:sequence select="dsl:substitute-quotes(.,true())"/>
     </xsl:template>
     <xsl:template match="text()[matches(.,$quot||'|'||$apos)]" mode="janus">
-        <xsl:variable name="at-start" as="xs:boolean" select="if (preceding::node()[1]/self::l) then true() else false()"/>-->
-      <xsl:sequence select="dsl:substitute-quotes(.,true())"/>
+        <xsl:sequence select="dsl:substitute-quotes(.,true())"/>
     </xsl:template>
 
 </xsl:transform>
