@@ -124,7 +124,7 @@ function fix_json_layout() {
   find dist/api -name "*.json" -type f | while read -r file; do
     tmp=$(mktemp)
 
-    jq --indent 2 'to_entries | sort_by(.key) | from_entries' "$file" > "$tmp"
+    jq -S --indent 2 'to_entries | sort_by(.key) | from_entries' "$file" > "$tmp"
 
     mv "$tmp" "$file"
   done
