@@ -54,13 +54,14 @@
 
 
 # Supply path to Saxon executable.
-SAXON='/opt/saxon-he/SaxonHE12-5J/saxon-he-12.5.jar'
+SAXON="/opt/saxon-he/SaxonHE13-0J/saxon-he-13.0.jar"
+LIBS=/opt/saxon-he/SaxonHE13-0J/lib/*.jar
 
 # functions
 function generate {
   echo "Generating static API files to 'dist' directory."
   echo "Using Saxon at ${SAXON}."
-  exec java -jar $SAXON -s:src/generate.xsl -xsl:src/generate.xsl do='' verbose=false "$@"
+  exec java -cp "$SAXON:$LIBS" net.sf.saxon.Transform -s:src/generate.xsl -xsl:src/generate.xsl do='' verbose=false "$@"
   fix_json_layout
 }
 
