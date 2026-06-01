@@ -1,20 +1,29 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "01":"<span class='lem'>Parzival</span> ] <span class='rdg'>Parcival <a>D</a></span>" },
-        { "13":"<span class='rdg'>Condwir amvrs <a>D</a></span>" },
-        { "19":"<span class='rdg'><span class='note'>Die Verse 732.19-22 fehlen</span> <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"732\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "23":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "01":"<span class='lem'>Parzival</span> ] <span class='rdg'>Parcival <a>D</a></span>" },
+        { "13":"<span class='rdg'>Condwir amvrs <a>D</a></span>" },
+        { "19":"<span class='rdg'><span class='note'>Die Verse 732.19-22 fehlen</span> <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"732\">m</a></li><li><a data-thirties=\"732\">n</a></li><li><a data-thirties=\"732\">o</a></li><li><a data-thirties=\"732\">Fr69</a> <span>(732.27-30)</span></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='lem'>dâht</span> ] <span class='rdg'>gedochte <a>n</a></span>" },
         { "03":"<span class='lem'>kiuschen</span> ] <span class='rdg'>kussen <a>o</a></span>" },
@@ -34,12 +43,15 @@
         { "24":"<span class='lem'>jâmers</span> ] <span class='rdg'>kombers <a>n</a></span>" },
         { "27":"<span class='lem'>pflihte</span> ] <span class='rdg'>pflicte <a>Fr69</a></span>" },
         { "29":"<span class='lem'>mir daz</span> ] <span class='rdg'>mir <a>m</a> mriz <a>Fr69</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"732\">m</a></li><li><a data-thirties=\"732\">n</a></li><li><a data-thirties=\"732\">o</a></li><li><a data-thirties=\"732\">Fr69</a> <span>(732.27-30)</span></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"732\">G</a></li><li><a data-thirties=\"732\">I</a></li><li><a data-thirties=\"732\">L</a></li><li><a data-thirties=\"732\">M</a></li><li><a data-thirties=\"732\">Z</a></li><li><a data-thirties=\"732\">Fr18</a></li><li><a data-thirties=\"732\">Fr24</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>Z</a> <a>Fr18</a> <a>Fr24</a>" },
+        { "07":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Nû</span> ] <span class='rdg'>do <a>I</a></span>" },
         { "01":"<span class='lem'>dâhte</span> ] <span class='rdg'>gidachte <a>M</a></span>" },
@@ -84,15 +96,12 @@
         { "24":"<span class='lem'>mirz</span> ] <span class='rdg'>mir <a>Z</a></span>" },
         { "27":"<span class='lem'>niemen</span> ] <span class='rdg'>nimmer <a>Z</a></span>" },
         { "28":"<span class='lem'>berihte</span> ] <span class='rdg'>des berihte <a>I</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"732\">G</a></li><li><a data-thirties=\"732\">I</a></li><li><a data-thirties=\"732\">L</a></li><li><a data-thirties=\"732\">M</a></li><li><a data-thirties=\"732\">Z</a></li><li><a data-thirties=\"732\">Fr18</a></li><li><a data-thirties=\"732\">Fr24</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>Z</a> <a>Fr18</a> <a>Fr24</a>" },
-        { "07":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"732\">U</a></li><li><a data-thirties=\"732\">V</a></li><li><a data-thirties=\"732\">W</a></li><li><a data-thirties=\"732\">Q</a></li><li><a data-thirties=\"732\">R</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a> <a>Q</a> <a>R</a>" } ],
       "reading": [
         { "01":"<span class='lem'>Nû</span> ] <span class='rdg'>DO <a>W</a> (<a>Q</a>)</span>" },
         { "01":"<span class='lem'>dâhte</span> ] <span class='rdg'>gedachte <a>W</a></span>" },
@@ -130,16 +139,7 @@
         { "27":"<span class='lem'>nieman</span> ] <span class='rdg'>nymmer <a>W</a></span>" },
         { "29":"<span class='lem'>mir aller</span> ] <span class='rdg'>mirs <a>V</a> <a>W</a> <a>Q</a> mir daz <a>R</a></span>" },
         { "29":"<span class='lem'>wægeste dâr umb</span> ] <span class='rdg'>[*]: drúmme wegest <a>Q</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"732\">U</a></li><li><a data-thirties=\"732\">V</a></li><li><a data-thirties=\"732\">W</a></li><li><a data-thirties=\"732\">Q</a></li><li><a data-thirties=\"732\">R</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a> <a>Q</a> <a>R</a>" } ]
+      ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

@@ -1,6 +1,15 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"450\">D</a></li><li><a data-thirties=\"450\">Fr5</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Fr5</a>" } ],
       "reading": [
         { "03":"<span class='lem'>einen</span> ] <span class='rdg'>ein <a>Fr5</a></span>" },
         { "04":"<span class='lem'>suone spræchen</span> ] <span class='rdg'>volge sprêche <a>Fr5</a></span>" },
@@ -21,12 +30,12 @@
         { "27":"<span class='lem'>ir</span> ] <span class='rdg'>Mine <a>Fr5</a></span>" },
         { "29":"<span class='lem'>ir gundet mir</span> ] <span class='rdg'>ir mir gundin <a>Fr5</a></span>" },
         { "30":"<span class='lem'>iwern</span> ] <span class='rdg'>Jvwir <a>Fr5</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"450\">D</a></li><li><a data-thirties=\"450\">Fr5</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Fr5</a>" } ]
+      ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"450\">m</a></li><li><a data-thirties=\"450\">n</a></li><li><a data-thirties=\"450\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "03":"<span class='lem'>dâ</span> ] <span class='rdg'>do <a>m</a> <a>n</a></span>" },
         { "04":"<span class='lem'>suone spræchen</span> ] <span class='rdg'>sine spreche <a>o</a></span>" },
@@ -46,12 +55,15 @@
         { "28":"<span class='lem'>müeze</span> ] <span class='rdg'>[hiesse]: mu̽sse <a>n</a> musz <a>o</a></span>" },
         { "29":"<span class='lem'>günnet</span> ] <span class='rdg'>gúnnen <a>n</a></span>" },
         { "30":"<span class='lem'>iuwern</span> ] <span class='rdg'>V̽wer <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"450\">m</a></li><li><a data-thirties=\"450\">n</a></li><li><a data-thirties=\"450\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"450\">G</a></li><li><a data-thirties=\"450\">I</a></li><li><a data-thirties=\"450\">O</a></li><li><a data-thirties=\"450\">L</a></li><li><a data-thirties=\"450\">M</a></li><li><a data-thirties=\"450\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>O</a> <a>L</a> <a>M</a> <a>Z</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Ob</span> ] <span class='rdg'>÷b <a>O</a></span>" },
         { "01":"<span class='lem'>dinc</span> ] <span class='rdg'>[dich]: dinch <a>G</a></span>" },
@@ -94,15 +106,19 @@
         { "27":"<span class='lem'>süeze</span> ] <span class='rdg'>suszen <a>M</a></span>" },
         { "29":"<span class='lem'>gundet mir gemaches</span> ] <span class='rdg'>gemaches gunnet mir so <a>I</a> mir gvndet gemaches <a>O</a> (<a>L</a>) mir gunnet gimachis <a>M</a></span>" },
         { "30":"<span class='lem'>iuwern</span> ] <span class='rdg'>ewer <a>I</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"450\">G</a></li><li><a data-thirties=\"450\">I</a></li><li><a data-thirties=\"450\">O</a></li><li><a data-thirties=\"450\">L</a></li><li><a data-thirties=\"450\">M</a></li><li><a data-thirties=\"450\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>O</a> <a>L</a> <a>M</a> <a>Z</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"450\">T</a></li><li><a data-thirties=\"450\">U</a></li><li><a data-thirties=\"450\">V</a></li><li><a data-thirties=\"450\">W</a></li><li><a data-thirties=\"450\">Q</a></li><li><a data-thirties=\"450\">R</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>W</a> <a>Q</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "05":"<span class='note'>Versal</span> <a>T</a>" },
+        { "09":"<span class='note'>Versal</span> <a>T</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>W</a>" },
+        { "23":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Ob ich kleinez</span> ] <span class='rdg'>K cleines <a>T</a> Ob ich ein cleines <a>R</a></span>" },
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>dar ane <a>V</a> do <a>Q</a></span>" },
@@ -147,23 +163,7 @@
         { "27":"<span class='lem'>vröuden</span> ] <span class='rdg'>[*]: Vroͤiden vil <a>V</a> Ir <a>W</a> (<a>Q</a> <a>R</a>)</span>" },
         { "29":"<span class='lem'>gundet mir</span> ] <span class='rdg'>guͦnnet mir <a>U</a> mir gúnt <a>W</a> (<a>R</a>)</span>" },
         { "30":"<span class='lem'>iuwern</span> ] <span class='rdg'>Vwer <a>R</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"450\">T</a></li><li><a data-thirties=\"450\">U</a></li><li><a data-thirties=\"450\">V</a></li><li><a data-thirties=\"450\">W</a></li><li><a data-thirties=\"450\">Q</a></li><li><a data-thirties=\"450\">R</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>W</a> <a>Q</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "05":"<span class='note'>Versal</span> <a>T</a>" },
-        { "09":"<span class='note'>Versal</span> <a>T</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>W</a>" },
-        { "23":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

@@ -1,6 +1,19 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"624\">D</a></li><li><a data-thirties=\"624\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Z</a>" },
+        { "10":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "17":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Den</span> ] <span class='rdg'>÷en <a>D</a></span>" },
         { "03":"<span class='lem'>Itolac</span> ] <span class='rdg'>Jtolach <a>D</a> Jcolac <a>Z</a></span>" },
@@ -19,16 +32,12 @@
         { "28":"<span class='lem'>dô vuort</span> ] <span class='rdg'>Da furten <a>Z</a></span>" },
         { "29":"<span class='lem'>Arnive</span> ] <span class='rdg'>Arnîve <a>D</a></span>" },
         { "30":"<span class='lem'>sîne</span> ] <span class='rdg'>im sine <a>Z</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"624\">D</a></li><li><a data-thirties=\"624\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Z</a>" },
-        { "10":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "17":"<span class='note'>Majuskel</span> <a>D</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"624\">m</a></li><li><a data-thirties=\"624\">n</a></li><li><a data-thirties=\"624\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='lem'>Lischoisen</span> ] <span class='rdg'>Liscoise <a>m</a> Liscoisen <a>n</a> <a>o</a></span>" },
         { "01":"<span class='lem'>Gowertzin</span> ] <span class='rdg'>gowerczin <a>m</a> gowortzin <a>n</a> gewerczin <a>o</a></span>" },
@@ -52,12 +61,17 @@
         { "28":"<span class='lem'>gemach</span> ] <span class='rdg'>vngemach <a>m</a> gesach <a>o</a></span>" },
         { "29":"<span class='lem'>Arnive</span> ] <span class='rdg'>Arune <a>m</a> Arnuwe <a>n</a> <a>o</a></span>" },
         { "29":"<span class='lem'>kunden</span> ] <span class='rdg'>kunnen <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"624\">m</a></li><li><a data-thirties=\"624\">n</a></li><li><a data-thirties=\"624\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"624\">G</a></li><li><a data-thirties=\"624\">I</a></li><li><a data-thirties=\"624\">L</a></li><li><a data-thirties=\"624\">M</a></li><li><a data-thirties=\"624\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>Z</a>" },
+        { "03":"<span class='note'>Initiale</span> <a>L</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "25":"<span class='note'>Initiale</span> <a>G</a> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>den</span> ] <span class='rdg'>[der]: den <a>G</a> der <a>I</a></span>" },
         { "01":"<span class='lem'>herzogen</span> ] <span class='rdg'>herzoge <a>I</a> (<a>L</a>)</span>" },
@@ -95,17 +109,15 @@
         { "28":"<span class='lem'>si</span> ] <span class='rdg'><span class='note'>om.</span> <a>Z</a></span>" },
         { "29":"<span class='lem'>Arnive</span> ] <span class='rdg'>Anive <a>G</a> Arniue <a>I</a> Armýve <a>L</a></span>" },
         { "30":"<span class='lem'>si</span> ] <span class='rdg'><span class='note'>om.</span> <a>M</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"624\">G</a></li><li><a data-thirties=\"624\">I</a></li><li><a data-thirties=\"624\">L</a></li><li><a data-thirties=\"624\">M</a></li><li><a data-thirties=\"624\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>Z</a>" },
-        { "03":"<span class='note'>Initiale</span> <a>L</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "25":"<span class='note'>Initiale</span> <a>G</a> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"624\">U</a></li><li><a data-thirties=\"624\">V</a></li><li><a data-thirties=\"624\">W</a></li><li><a data-thirties=\"624\">Q</a></li><li><a data-thirties=\"624\">R</a></li><li><a data-thirties=\"624\">Fr39</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>Q</a> <a>Fr39</a>" },
+        { "07":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Versfolge 624.2-1</span> <a>R</a></span>" },
         { "01":"<span class='lem'>den</span> ] <span class='rdg'>Der <a>Q</a></span>" },
@@ -142,19 +154,7 @@
         { "28":"<span class='lem'>vuort</span> ] <span class='rdg'>fvͦrten <a>V</a> (<a>W</a> <a>Q</a> <a>Fr39</a>) fuͦrtencz <a>R</a></span>" },
         { "29":"<span class='lem'>Arnyve</span> ] <span class='rdg'>Arnyne <a>U</a> Arniue <a>V</a> Arnyue <a>W</a> <a>R</a> <a>Fr39</a> Arniúe <a>Q</a></span>" },
         { "29":"<span class='lem'>kunden</span> ] <span class='rdg'>kunde <a>U</a> wol kunden <a>W</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"624\">U</a></li><li><a data-thirties=\"624\">V</a></li><li><a data-thirties=\"624\">W</a></li><li><a data-thirties=\"624\">Q</a></li><li><a data-thirties=\"624\">R</a></li><li><a data-thirties=\"624\">Fr39</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>Q</a> <a>Fr39</a>" },
-        { "07":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

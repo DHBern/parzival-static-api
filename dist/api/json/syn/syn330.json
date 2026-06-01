@@ -1,16 +1,25 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [ { "23":"<span class='lem'>Munsalvæsche</span> ] <span class='rdg'>Mvnsalvæsce <a>D</a></span>" } ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"330\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "07":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "17":"<span class='note'>Majuskel</span> <a>D</a>" }
-      ]
+      ],
+      "reading": [ { "23":"<span class='lem'>Munsalvæsche</span> ] <span class='rdg'>Mvnsalvæsce <a>D</a></span>" } ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"330\">m</a></li><li><a data-thirties=\"330\">n</a></li><li><a data-thirties=\"330\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "02":"<span class='lem'>hœren nû</span> ] <span class='rdg'>ho̽rent nu̽ <a>m</a> Nu̽ ho̽ren <a>n</a></span>" },
         { "03":"<span class='lem'>enmac</span> ] <span class='rdg'>mag <a>n</a> <a>o</a></span>" },
@@ -35,12 +44,19 @@
         { "23":"<span class='lem'>Muntsalvasche</span> ] <span class='rdg'>mvnsaluasce <a>m</a> montsaluasce <a>n</a> munt saluasce <a>o</a></span>" },
         { "25":"<span class='lem'>ohteiz</span> ] <span class='rdg'>Ohteir <a>m</a> Ochten <a>n</a> (<a>o</a>)</span>" },
         { "27":"<span class='lem'>es</span> ] <span class='rdg'>sin <a>n</a> <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"330\">m</a></li><li><a data-thirties=\"330\">n</a></li><li><a data-thirties=\"330\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"330\">G</a></li><li><a data-thirties=\"330\">I</a></li><li><a data-thirties=\"330\">O</a></li><li><a data-thirties=\"330\">L</a></li><li><a data-thirties=\"330\">M</a></li><li><a data-thirties=\"330\">Q</a></li><li><a data-thirties=\"330\">R</a></li><li><a data-thirties=\"330\">Z</a></li><li><a data-thirties=\"330\">Fr21</a></li><li><a data-thirties=\"330\">Fr27</a> <span>(330.1-5 und 10-30)</span></li><li><a data-thirties=\"330\">Fr39</a> <span>(330.13-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>Q</a>" },
+        { "03":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "05":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>O</a> <a>M</a>" },
+        { "21":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "25":"<span class='note'>Initiale</span> <a>Z</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>hœren</span> ] <span class='rdg'>dvlten <a>G</a></span>" },
         { "02":"<span class='lem'>werlte</span> ] <span class='rdg'>lute <a>I</a></span>" },
@@ -93,19 +109,12 @@
         { "29":"<span class='lem'>hei</span> ] <span class='rdg'>Eý <a>L</a> (<a>M</a> <a>Q</a> <a>R</a> <a>Z</a> <a>Fr21</a> <a>Fr27</a> <a>Fr39</a>)</span>" },
         { "29":"<span class='lem'>helfelôser</span> ] <span class='rdg'>helfelose <a>O</a></span>" },
         { "29":"<span class='lem'>Anfortas</span> ] <span class='rdg'>anfrotas <a>I</a> Ampfortas <a>O</a> Amfortas <a>L</a> </span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"330\">G</a></li><li><a data-thirties=\"330\">I</a></li><li><a data-thirties=\"330\">O</a></li><li><a data-thirties=\"330\">L</a></li><li><a data-thirties=\"330\">M</a></li><li><a data-thirties=\"330\">Q</a></li><li><a data-thirties=\"330\">R</a></li><li><a data-thirties=\"330\">Z</a></li><li><a data-thirties=\"330\">Fr21</a></li><li><a data-thirties=\"330\">Fr27</a> <span>(330.1-5 und 10-30)</span></li><li><a data-thirties=\"330\">Fr39</a> <span>(330.13-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>Q</a>" },
-        { "03":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "05":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>O</a> <a>M</a>" },
-        { "21":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "25":"<span class='note'>Initiale</span> <a>Z</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"330\">T</a></li><li><a data-thirties=\"330\">U</a></li><li><a data-thirties=\"330\">V</a></li><li><a data-thirties=\"330\">W</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "03":"<span class='lem'>sône</span> ] <span class='rdg'>So <a>W</a></span>" },
         { "03":"<span class='lem'>râten</span> ] <span class='rdg'>rat <a>V</a> reiten <a>W</a></span>" },
@@ -136,16 +145,7 @@
         { "27":"<span class='lem'>pfliget</span> ] <span class='rdg'>plege <a>U</a></span>" },
         { "28":"<span class='lem'>siufzebære</span> ] <span class='rdg'>svfceberiv <a>T</a> sufteberes <a>U</a> sv́fzeberendes <a>V</a></span>" },
         { "29":"<span class='lem'>ei</span> ] <span class='rdg'>Ahy <a>W</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"330\">T</a></li><li><a data-thirties=\"330\">U</a></li><li><a data-thirties=\"330\">V</a></li><li><a data-thirties=\"330\">W</a></li></ul>",
-      "structure": [  ]
+      ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

@@ -1,6 +1,23 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"284\">D</a></li><li><a data-thirties=\"284\">Fr8</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>D</a>" },
+        { "08":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "13":"<span class='note'>Versal</span> <a>Fr8</a>" },
+        { "13":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>Fr8</a>" },
+        { "23":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "30":"<span class='note'>Versal</span> <a>Fr8</a>" }
+      ],
       "reading": [
         { "07":"<span class='lem'>deiz</span> ] <span class='rdg'>Daz er <a>Fr8</a></span>" },
         { "09":"<span class='lem'>schupfterz</span> ] <span class='rdg'>Schuͦf er daz <a>Fr8</a></span>" },
@@ -20,20 +37,12 @@
         { "27":"<span class='lem'>hielt</span> ] <span class='rdg'>hielde <a>Fr8</a></span>" },
         { "29":"<span class='lem'>Artus</span> ] <span class='rdg'>Arthus <a>Fr8</a></span>" },
         { "30":"<span class='lem'>daz</span> ] <span class='rdg'>dar <a>Fr8</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"284\">D</a></li><li><a data-thirties=\"284\">Fr8</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>D</a>" },
-        { "08":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "13":"<span class='note'>Versal</span> <a>Fr8</a>" },
-        { "13":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>Fr8</a>" },
-        { "23":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "30":"<span class='note'>Versal</span> <a>Fr8</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"284\">m</a></li><li><a data-thirties=\"284\">n</a></li><li><a data-thirties=\"284\">o</a></li></ul>",
+      "structure": [ { "23":"<span class='note'>Initiale</span> <a>m</a> <a>n</a> <a>o</a>" } ],
       "reading": [
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>Do <a>m</a> <a>n</a> <a>o</a></span>" },
         { "02":"<span class='lem'>er</span> ] <span class='rdg'>eyn <a>o</a></span>" },
@@ -65,12 +74,16 @@
         { "26":"<span class='lem'>vrieschen si</span> ] <span class='rdg'>vriesten si <a>m</a></span>" },
         { "27":"<span class='lem'>dâ hielt zeiner</span> ] <span class='rdg'>Do hielt er zeiner <a>m</a> Do hielt zu̽ einer <a>n</a> Do heilt zuͦ eẏner <a>o</a></span>" },
         { "28":"<span class='lem'>genuogen</span> ] <span class='rdg'>Gegnu̽gen <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"284\">m</a></li><li><a data-thirties=\"284\">n</a></li><li><a data-thirties=\"284\">o</a></li></ul>",
-      "structure": [ { "23":"<span class='note'>Initiale</span> <a>m</a> <a>n</a> <a>o</a>" } ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"284\">G</a></li><li><a data-thirties=\"284\">I</a></li><li><a data-thirties=\"284\">O</a></li><li><a data-thirties=\"284\">L</a></li><li><a data-thirties=\"284\">M</a></li><li><a data-thirties=\"284\">Q</a></li><li><a data-thirties=\"284\">R</a></li><li><a data-thirties=\"284\">Z</a></li><li><a data-thirties=\"284\">Fr40</a></li><li><a data-thirties=\"284\">Fr60</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>Z</a> <a>Fr60</a>" },
+        { "05":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>I</a> <a>L</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>Do <a>Q</a></span>" },
         { "01":"<span class='lem'>gezimiert</span> ] <span class='rdg'>gelimiert <a>Fr60</a></span>" },
@@ -132,16 +145,19 @@
         { "30":"<span class='lem'>balde</span> ] <span class='rdg'>baldes <a>L</a></span>" },
         { "30":"<span class='lem'>er</span> ] <span class='rdg'><span class='note'>om.</span> <a>L</a> er in <a>R</a></span>" },
         { "30":"<span class='lem'>engienc</span> ] <span class='rdg'>[enhiench]: engiench <a>G</a> ergiench <a>O</a> (<a>L</a> <a>Fr60</a>) erginge <a>R</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"284\">G</a></li><li><a data-thirties=\"284\">I</a></li><li><a data-thirties=\"284\">O</a></li><li><a data-thirties=\"284\">L</a></li><li><a data-thirties=\"284\">M</a></li><li><a data-thirties=\"284\">Q</a></li><li><a data-thirties=\"284\">R</a></li><li><a data-thirties=\"284\">Z</a></li><li><a data-thirties=\"284\">Fr40</a></li><li><a data-thirties=\"284\">Fr60</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>Z</a> <a>Fr60</a>" },
-        { "05":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>I</a> <a>L</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"284\">T</a></li><li><a data-thirties=\"284\">U</a></li><li><a data-thirties=\"284\">V</a></li><li><a data-thirties=\"284\">W</a></li></ul>",
+      "structure": [
+        { "04":"<span class='note'>Versal</span> <a>T</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>W</a>" },
+        { "13":"<span class='note'>Versal</span> <a>T</a>" },
+        { "14":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "23":"<span class='note'>Versal</span> <a>T</a>" },
+        { "26":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>Do <a>U</a> <a>V</a> <a>W</a></span>" },
         { "03":"<span class='lem'>die vart</span> ] <span class='rdg'>[D*]: Geverwet <a>V</a> Das pfert <a>W</a></span>" },
@@ -185,23 +201,7 @@
         { "30":"<span class='lem'>daz er</span> ] <span class='rdg'><span class='note'>om.</span> <a>W</a></span>" },
         { "30":"<span class='lem'>niender</span> ] <span class='rdg'>nider <a>U</a></span>" },
         { "30":"<span class='lem'>hienc</span> ] <span class='rdg'>gieng <a>W</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"284\">T</a></li><li><a data-thirties=\"284\">U</a></li><li><a data-thirties=\"284\">V</a></li><li><a data-thirties=\"284\">W</a></li></ul>",
-      "structure": [
-        { "04":"<span class='note'>Versal</span> <a>T</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>W</a>" },
-        { "13":"<span class='note'>Versal</span> <a>T</a>" },
-        { "14":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "23":"<span class='note'>Versal</span> <a>T</a>" },
-        { "26":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

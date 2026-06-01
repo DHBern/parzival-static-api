@@ -1,16 +1,25 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [  ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"739\">D</a></li></ul>",
       "structure": [
         { "03":"<span class='note'>Initiale</span> <a>D</a>" },
         { "11":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
-      ]
+      ],
+      "reading": [  ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"739\">m</a></li><li><a data-thirties=\"739\">n</a></li><li><a data-thirties=\"739\">o</a></li><li><a data-thirties=\"739\">V</a></li><li><a data-thirties=\"739\">V'</a></li><li><a data-thirties=\"739\">Fr69</a> <span>(739.22-24 und 30)</span></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 738.11-739.3 fehlen</span> <a>o</a></span>" },
         { "01":"<span class='rdg'><span class='note'>Die Verse 738.15-739.2 fehlen</span> <a>V'</a></span>" },
@@ -48,12 +57,18 @@
         { "27":"<span class='rdg'><span class='note'>Die Verse 739.27-30 fehlen</span> <a>V'</a></span>" },
         { "28":"<span class='lem'>manigem dræten</span> ] <span class='rdg'>mangen stretten <a>m</a> manigem stretem <a>n</a> mangem streten <a>o</a> [manige*]: manigem dretem <a>V</a></span>" },
         { "29":"<span class='lem'>den</span> ] <span class='rdg'>Des <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"739\">m</a></li><li><a data-thirties=\"739\">n</a></li><li><a data-thirties=\"739\">o</a></li><li><a data-thirties=\"739\">V</a></li><li><a data-thirties=\"739\">V'</a></li><li><a data-thirties=\"739\">Fr69</a> <span>(739.22-24 und 30)</span></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"739\">G</a></li><li><a data-thirties=\"739\">I</a></li><li><a data-thirties=\"739\">L</a></li><li><a data-thirties=\"739\">M</a></li><li><a data-thirties=\"739\">Z</a></li><li><a data-thirties=\"739\">Fr24</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a>" },
+        { "03":"<span class='note'>Initiale</span> <a>Fr24</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "27":"<span class='note'>Initiale</span> <a>M</a>" },
+        { "30":"<span class='note'>Initiale</span> <a>G</a> <a>Z</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>geschicket</span> ] <span class='rdg'>Gesswichet <a>I</a></span>" },
         { "02":"<span class='lem'>sporn</span> ] <span class='rdg'>den sporn <a>I</a></span>" },
@@ -93,18 +108,15 @@
         { "29":"<span class='lem'>den</span> ] <span class='rdg'>Die <a>Fr24</a></span>" },
         { "29":"<span class='lem'>zein ander</span> ] <span class='rdg'>zv einer <a>Z</a></span>" },
         { "30":"" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"739\">G</a></li><li><a data-thirties=\"739\">I</a></li><li><a data-thirties=\"739\">L</a></li><li><a data-thirties=\"739\">M</a></li><li><a data-thirties=\"739\">Z</a></li><li><a data-thirties=\"739\">Fr24</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a>" },
-        { "03":"<span class='note'>Initiale</span> <a>Fr24</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "27":"<span class='note'>Initiale</span> <a>M</a>" },
-        { "30":"<span class='note'>Initiale</span> <a>G</a> <a>Z</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"739\">U</a></li><li><a data-thirties=\"739\">W</a></li><li><a data-thirties=\"739\">Q</a></li><li><a data-thirties=\"739\">R</a></li></ul>",
+      "structure": [
+        { "03":"<span class='note'>Initiale</span> <a>R</a>" },
+        { "07":"<span class='note'>Initiale</span> <a>U</a> <a>W</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>gein der jost</span> ] <span class='rdg'>[gem*]: gendem strit <a>R</a></span>" },
         { "03":"<span class='lem'>geriten</span> ] <span class='rdg'>scharpff geritten <a>R</a></span>" },
@@ -141,19 +153,7 @@
         { "28":"<span class='lem'>manegem</span> ] <span class='rdg'>mangen <a>W</a> (<a>R</a>)</span>" },
         { "28":"<span class='lem'>dræten</span> ] <span class='rdg'>trate <a>Q</a> trette <a>R</a></span>" },
         { "29":"<span class='lem'>ein ander</span> ] <span class='rdg'>einandren <a>R</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"739\">U</a></li><li><a data-thirties=\"739\">W</a></li><li><a data-thirties=\"739\">Q</a></li><li><a data-thirties=\"739\">R</a></li></ul>",
-      "structure": [
-        { "03":"<span class='note'>Initiale</span> <a>R</a>" },
-        { "07":"<span class='note'>Initiale</span> <a>U</a> <a>W</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

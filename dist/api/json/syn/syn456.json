@@ -1,15 +1,24 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"456\">D</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Initiale</span> <a>D</a>" } ],
       "reading": [
         { "21":"<span class='lem'>dient her</span> ] <span class='rdg'>[die*]: dient her <a>D</a></span>" },
         { "23":"<span class='lem'>Parzival</span> ] <span class='rdg'>Parcival <a>D</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"456\">D</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Initiale</span> <a>D</a>" } ]
+      ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"456\">m</a></li><li><a data-thirties=\"456\">n</a></li><li><a data-thirties=\"456\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>do <a>m</a> <a>n</a> <a>o</a></span>" },
         { "02":"<span class='lem'>Funtaine lasalvasche</span> ] <span class='rdg'>Funtaine lasaluasce <a>m</a> Funtanie lasaluasce <a>n</a> Funtanie la saluasce <a>o</a></span>" },
@@ -24,12 +33,15 @@
         { "24":"<span class='lem'>al zehant</span> ] <span class='rdg'>vff das lant <a>n</a></span>" },
         { "27":"<span class='lem'>al dar heten</span> ] <span class='rdg'>aller lu̽tten hetten <a>m</a></span>" },
         { "28":"<span class='lem'>die</span> ] <span class='rdg'>sú <a>n</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"456\">m</a></li><li><a data-thirties=\"456\">n</a></li><li><a data-thirties=\"456\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"456\">G</a></li><li><a data-thirties=\"456\">I</a></li><li><a data-thirties=\"456\">O</a></li><li><a data-thirties=\"456\">L</a></li><li><a data-thirties=\"456\">M</a></li><li><a data-thirties=\"456\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>M</a> <a>Z</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>liez</span> ] <span class='rdg'>hiez <a>G</a></span>" },
         { "02":"<span class='lem'>Funtane lasalvasche</span> ] <span class='rdg'>funtane lasaluasche <a>I</a> Fontanie Mvntsalvatsche <a>O</a> Fontanie La savaische <a>L</a> Fontanie lasalvatsche <a>M</a> (<a>Z</a>)</span>" },
@@ -63,15 +75,17 @@
         { "26":"<span class='lem'>den</span> ] <span class='rdg'>dem <a>Z</a></span>" },
         { "28":"<span class='lem'>sîn râten</span> ] <span class='rdg'>sin rat <a>I</a> (<a>O</a> <a>M</a>) sine rat <a>L</a></span>" },
         { "29":"<span class='lem'>gebet</span> ] <span class='rdg'>nv gebt <a>O</a> (<a>Z</a>)</span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"456\">G</a></li><li><a data-thirties=\"456\">I</a></li><li><a data-thirties=\"456\">O</a></li><li><a data-thirties=\"456\">L</a></li><li><a data-thirties=\"456\">M</a></li><li><a data-thirties=\"456\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>M</a> <a>Z</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"456\">T</a></li><li><a data-thirties=\"456\">U</a></li><li><a data-thirties=\"456\">V</a></li><li><a data-thirties=\"456\">W</a></li><li><a data-thirties=\"456\">Q</a></li><li><a data-thirties=\"456\">R</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a> <a>Q</a>" },
+        { "05":"<span class='note'>Versal</span> <a>T</a>" },
+        { "23":"<span class='note'>Versal</span> <a>T</a>" },
+        { "29":"<span class='note'>Initiale</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 453.1-502.30 fehlen</span> <a>U</a></span>" },
         { "01":"<span class='lem'>dâ</span> ] <span class='rdg'>do <a>W</a> <a>R</a></span>" },
@@ -98,21 +112,7 @@
         { "22":"<span class='lem'>biten</span> ] <span class='rdg'>v́ch bitten <a>V</a></span>" },
         { "23":"<span class='lem'>Parcifal</span> ] <span class='rdg'>Parzifal <a>V</a> Partzifal <a>W</a> <a>Q</a> Parczifal <a>R</a> </span>" },
         { "29":"<span class='lem'>hêrre</span> ] <span class='rdg'>herberge <a>W</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"456\">T</a></li><li><a data-thirties=\"456\">U</a></li><li><a data-thirties=\"456\">V</a></li><li><a data-thirties=\"456\">W</a></li><li><a data-thirties=\"456\">Q</a></li><li><a data-thirties=\"456\">R</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a> <a>Q</a>" },
-        { "05":"<span class='note'>Versal</span> <a>T</a>" },
-        { "23":"<span class='note'>Versal</span> <a>T</a>" },
-        { "29":"<span class='note'>Initiale</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

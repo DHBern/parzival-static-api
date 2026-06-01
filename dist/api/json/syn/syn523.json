@@ -1,6 +1,15 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"523\">D</a></li><li><a data-thirties=\"523\">Fr11</a> <span>(523.4-30)</span></li></ul>",
+      "structure": [ { "01":"<span class='note'>Prachtinitiale</span> <a>D</a>" } ],
       "reading": [
         { "03":"<span class='lem'>denn inder</span> ] <span class='rdg'>den ninder <a>D</a></span>" },
         { "04":"<span class='lem'>sît</span> ] <span class='rdg'>seint daz <a>Fr11</a></span>" },
@@ -9,12 +18,12 @@
         { "18":"<span class='lem'>bejagent</span> ] <span class='rdg'>beiaget <a>Fr11</a></span>" },
         { "19":"<span class='lem'>iu</span> ] <span class='rdg'>ewer <a>Fr11</a></span>" },
         { "29":"<span class='lem'>dunket</span> ] <span class='rdg'>du̽nkchz <a>Fr11</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"523\">D</a></li><li><a data-thirties=\"523\">Fr11</a> <span>(523.4-30)</span></li></ul>",
-      "structure": [ { "01":"<span class='note'>Prachtinitiale</span> <a>D</a>" } ]
+      ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"523\">m</a></li><li><a data-thirties=\"523\">n</a></li><li><a data-thirties=\"523\">o</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" } ],
       "reading": [
         { "02":"<span class='lem'>vrouwe</span> ] <span class='rdg'><span class='note'>om.</span> <a>o</a></span>" },
         { "02":"<span class='lem'>mêre</span> ] <span class='rdg'>es mere <a>n</a> <a>o</a></span>" },
@@ -38,12 +47,16 @@
         { "28":"<span class='lem'>solt</span> ] <span class='rdg'>soltent <a>n</a></span>" },
         { "29":"<span class='lem'>dunket mich</span> ] <span class='rdg'>duncket uncket mich <a>m</a></span>" },
         { "30":"<span class='lem'>oder</span> ] <span class='rdg'>vnd <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"523\">m</a></li><li><a data-thirties=\"523\">n</a></li><li><a data-thirties=\"523\">o</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" } ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"523\">G</a></li><li><a data-thirties=\"523\">I</a></li><li><a data-thirties=\"523\">L</a></li><li><a data-thirties=\"523\">M</a></li><li><a data-thirties=\"523\">Z</a></li><li><a data-thirties=\"523\">Fr62</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Überschrift:</span> Hie ist her gawan vmb sin orss komen daz hat im ein wunder ritter genomen vnd stet her gawan bi der frowen zv fvzzen <a>Z</a>" },
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a> <a>Fr62</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Gawan</span> ] <span class='rdg'>Gauwan <a>I</a></span>" },
         { "01":"<span class='lem'>klagete</span> ] <span class='rdg'>clagt <a>Z</a></span>" },
@@ -78,16 +91,19 @@
         { "26":"<span class='lem'>ir</span> ] <span class='rdg'>ich <a>I</a></span>" },
         { "26":"<span class='lem'>wüestet</span> ] <span class='rdg'>woͮste <a>G</a></span>" },
         { "29":"<span class='lem'>ledic</span> ] <span class='rdg'>lede <a>M</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"523\">G</a></li><li><a data-thirties=\"523\">I</a></li><li><a data-thirties=\"523\">L</a></li><li><a data-thirties=\"523\">M</a></li><li><a data-thirties=\"523\">Z</a></li><li><a data-thirties=\"523\">Fr62</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Überschrift:</span> Hie ist her gawan vmb sin orss komen daz hat im ein wunder ritter genomen vnd stet her gawan bi der frowen zv fvzzen <a>Z</a>" },
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a> <a>Fr62</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"523\">T</a></li><li><a data-thirties=\"523\">U</a></li><li><a data-thirties=\"523\">V</a></li><li><a data-thirties=\"523\">W</a></li><li><a data-thirties=\"523\">O</a></li><li><a data-thirties=\"523\">Q</a></li><li><a data-thirties=\"523\">R</a></li><li><a data-thirties=\"523\">Fr40</a> <span>(523.5-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Überschrift:</span> Hye entreit der wunde man herrn gawan kastelan <a>Q</a>" },
+        { "01":"<span class='note'>Großinitiale</span> <a>T</a> <a>U</a>" },
+        { "01":"<span class='note'>Initiale</span> <a>V</a> <a>W</a> <a>O</a> <a>Q</a> <a>R</a>" },
+        { "05":"<span class='note'>Versal</span> <a>T</a>" },
+        { "13":"<span class='note'>Versal</span> <a>T</a>" },
+        { "27":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Gawan</span> ] <span class='rdg'>÷awan <a>T</a> (<a>O</a>) Gawin <a>R</a></span>" },
         { "02":"<span class='lem'>es</span> ] <span class='rdg'>des <a>Q</a> <a>R</a></span>" },
@@ -138,23 +154,7 @@
         { "28":"<span class='lem'>doch</span> ] <span class='rdg'>[*]: doch <a>V</a> <span class='note'>om.</span> <a>R</a></span>" },
         { "29":"<span class='lem'>reht</span> ] <span class='rdg'>[*]: reht <a>V</a> wert <a>W</a></span>" },
         { "30":"<span class='lem'>oder</span> ] <span class='rdg'>[*]: oder <a>V</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"523\">T</a></li><li><a data-thirties=\"523\">U</a></li><li><a data-thirties=\"523\">V</a></li><li><a data-thirties=\"523\">W</a></li><li><a data-thirties=\"523\">O</a></li><li><a data-thirties=\"523\">Q</a></li><li><a data-thirties=\"523\">R</a></li><li><a data-thirties=\"523\">Fr40</a> <span>(523.5-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Überschrift:</span> Hye entreit der wunde man herrn gawan kastelan <a>Q</a>" },
-        { "01":"<span class='note'>Großinitiale</span> <a>T</a> <a>U</a>" },
-        { "01":"<span class='note'>Initiale</span> <a>V</a> <a>W</a> <a>O</a> <a>Q</a> <a>R</a>" },
-        { "05":"<span class='note'>Versal</span> <a>T</a>" },
-        { "13":"<span class='note'>Versal</span> <a>T</a>" },
-        { "27":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

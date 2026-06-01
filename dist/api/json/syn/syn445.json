@@ -1,6 +1,15 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"445\">D</a></li><li><a data-thirties=\"445\">Fr5</a></li><li><a data-thirties=\"445\">Fr31</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Initiale</span> <a>Fr31</a>" } ],
       "reading": [
         { "02":"<span class='lem'>jehts im</span> ] <span class='rdg'>iehst im <a>D</a> iehent imes <a>Fr31</a></span>" },
         { "02":"<span class='lem'>schanden</span> ] <span class='rdg'>schande <a>Fr5</a></span>" },
@@ -29,12 +38,12 @@
         { "27":"<span class='lem'>selbe</span> ] <span class='rdg'><span class='note'>om.</span> <a>Fr5</a> <a>Fr31</a></span>" },
         { "28":"<span class='lem'>sô</span> ] <span class='rdg'>Do <a>Fr31</a></span>" },
         { "28":"<span class='lem'>der Munsalvæscher</span> ] <span class='rdg'>der Mvnsælvæscer <a>D</a> div muntsaluasch <a>Fr5</a> div mvntschalvasche <a>Fr31</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"445\">D</a></li><li><a data-thirties=\"445\">Fr5</a></li><li><a data-thirties=\"445\">Fr31</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Initiale</span> <a>Fr31</a>" } ]
+      ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"445\">m</a></li><li><a data-thirties=\"445\">n</a></li><li><a data-thirties=\"445\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='lem'>begreif</span> ] <span class='rdg'>Begreis <a>m</a></span>" },
         { "02":"<span class='lem'>jehts</span> ] <span class='rdg'>gehst <a>m</a> get es <a>n</a> genchtz <a>o</a></span>" },
@@ -63,12 +72,15 @@
         { "28":"<span class='lem'>daz</span> ] <span class='rdg'>das das <a>o</a></span>" },
         { "28":"<span class='lem'>Muntsalvasche</span> ] <span class='rdg'>munsaluasce <a>m</a> monsoluasce <a>n</a> montsaluasce <a>o</a></span>" },
         { "30":"<span class='lem'>vremde</span> ] <span class='rdg'>urende <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"445\">m</a></li><li><a data-thirties=\"445\">n</a></li><li><a data-thirties=\"445\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"445\">G</a></li><li><a data-thirties=\"445\">I</a></li><li><a data-thirties=\"445\">O</a></li><li><a data-thirties=\"445\">L</a></li><li><a data-thirties=\"445\">M</a></li><li><a data-thirties=\"445\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>L</a> <a>Z</a>" },
+        { "19":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>begreif</span> ] <span class='rdg'>÷egreif <a>O</a></span>" },
         { "02":"<span class='rdg'>nu iehet sin nih zeshanden <a>I</a> · Nv ieht yms nihtzeschanden <a>O</a> · Nv ieht ez im ir iht zu̽ schanden <a>L</a> · Nu set vns nicht zcu schanden <a>M</a> · Nv geht imz niht zv schanden <a>Z</a></span>" },
@@ -113,15 +125,16 @@
         { "28":"<span class='lem'>Muntsalvatscher</span> ] <span class='rdg'>muntshalvasche <a>I</a> mvntsalvatsche <a>O</a> Mutsalvatsche <a>M</a> montsalvatscher <a>Z</a></span>" },
         { "30":"<span class='rdg'>Jm was des grals fremde leit <a>Z</a></span>" },
         { "30":"<span class='lem'>was im</span> ] <span class='rdg'>yme was <a>M</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"445\">G</a></li><li><a data-thirties=\"445\">I</a></li><li><a data-thirties=\"445\">O</a></li><li><a data-thirties=\"445\">L</a></li><li><a data-thirties=\"445\">M</a></li><li><a data-thirties=\"445\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>L</a> <a>Z</a>" },
-        { "19":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"445\">T</a></li><li><a data-thirties=\"445\">U</a></li><li><a data-thirties=\"445\">V</a></li><li><a data-thirties=\"445\">W</a></li><li><a data-thirties=\"445\">Q</a></li><li><a data-thirties=\"445\">R</a></li></ul>",
+      "structure": [
+        { "02":"<span class='note'>Versal</span> <a>T</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" },
+        { "27":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>jehets im</span> ] <span class='rdg'>iehent im is <a>U</a> gecht ims <a>W</a> (<a>Q</a>) iehet vnsz <a>Q</a></span>" },
         { "03":"<span class='lem'>schergen</span> ] <span class='rdg'>[*]: scherien <a>V</a> schregen <a>R</a></span>" },
@@ -164,20 +177,7 @@
         { "28":"<span class='lem'>Munsalvasche</span> ] <span class='rdg'>mvnsalvasce <a>T</a> muͦntsalvatscher <a>U</a> [mvnscha*]: mvnschalvasche <a>V</a> montsaluatscher <a>W</a> muntsalvasche <a>Q</a></span>" },
         { "29":"<span class='lem'>vermeit</span> ] <span class='rdg'>vermitten <a>R</a></span>" },
         { "30":"<span class='rdg'>Vnd enru̽chttent war er Ritte <a>R</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"445\">T</a></li><li><a data-thirties=\"445\">U</a></li><li><a data-thirties=\"445\">V</a></li><li><a data-thirties=\"445\">W</a></li><li><a data-thirties=\"445\">Q</a></li><li><a data-thirties=\"445\">R</a></li></ul>",
-      "structure": [
-        { "02":"<span class='note'>Versal</span> <a>T</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" },
-        { "27":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

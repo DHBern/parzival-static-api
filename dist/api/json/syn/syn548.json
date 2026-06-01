@@ -1,21 +1,37 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "05":"<span class='lem'>Clinschor</span> ] <span class='rdg'>Clynscor <a>D</a></span>" },
-        { "16":"<span class='lem'>Lischoysen</span> ] <span class='rdg'>Liscoysen <a>D</a></span>" },
-        { "26":"<span class='lem'>möhte</span> ] <span class='rdg'>mohte <a>D</a></span>" },
-        { "27":"<span class='lem'>Lischoysen</span> ] <span class='rdg'>Liscoysen <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"548\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "13":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "05":"<span class='lem'>Clinschor</span> ] <span class='rdg'>Clynscor <a>D</a></span>" },
+        { "16":"<span class='lem'>Lischoysen</span> ] <span class='rdg'>Liscoysen <a>D</a></span>" },
+        { "26":"<span class='lem'>möhte</span> ] <span class='rdg'>mohte <a>D</a></span>" },
+        { "27":"<span class='lem'>Lischoysen</span> ] <span class='rdg'>Liscoysen <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"548\">m</a></li><li><a data-thirties=\"548\">n</a></li><li><a data-thirties=\"548\">o</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" },
+        { "14":"<span class='note'>Illustration mit Überschrift:</span> Also liscoisen der schiffman hern gawan zuͦ schiff furte vnd u̽ber mer wolten <a>o</a>" },
+        { "14":"<span class='note'>Initiale</span> <a>o</a>" },
+        { "15":"<span class='note'>Illustration mit Überschrift:</span> Also lẏscoẏsen der schiffman her gawan zu̽ schiff fu̽rte vnd vber mer wolte <a>n</a>" },
+        { "15":"<span class='note'>Großinitiale</span> <a>n</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>schifman</span> ] <span class='rdg'>schimpf man <a>m</a></span>" },
         { "02":"<span class='lem'>daz</span> ] <span class='rdg'>des <a>n</a></span>" },
@@ -42,19 +58,15 @@
         { "27":"<span class='lem'>dâ</span> ] <span class='rdg'>Do <a>m</a> <a>n</a> <a>o</a></span>" },
         { "27":"<span class='lem'>Lischoisen</span> ] <span class='rdg'>liscoisen <a>m</a> <a>n</a> lioscoisen <a>o</a></span>" },
         { "29":"<span class='lem'>underwunden</span> ] <span class='rdg'>vnder winden <a>m</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"548\">m</a></li><li><a data-thirties=\"548\">n</a></li><li><a data-thirties=\"548\">o</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" },
-        { "14":"<span class='note'>Illustration mit Überschrift:</span> Also liscoisen der schiffman hern gawan zuͦ schiff furte vnd u̽ber mer wolten <a>o</a>" },
-        { "14":"<span class='note'>Initiale</span> <a>o</a>" },
-        { "15":"<span class='note'>Illustration mit Überschrift:</span> Also lẏscoẏsen der schiffman her gawan zu̽ schiff fu̽rte vnd vber mer wolte <a>n</a>" },
-        { "15":"<span class='note'>Großinitiale</span> <a>n</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"548\">G</a></li><li><a data-thirties=\"548\">I</a></li><li><a data-thirties=\"548\">L</a></li><li><a data-thirties=\"548\">M</a></li><li><a data-thirties=\"548\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>sorge</span> ] <span class='rdg'>sorgen <a>I</a> (<a>M</a>) <a>Z</a></span>" },
         { "03":"<span class='lem'>dô</span> ] <span class='rdg'>Da <a>M</a></span>" },
@@ -93,15 +105,18 @@
         { "26":"<span class='lem'>gebûwet</span> ] <span class='rdg'>[erf]: erbuwen <a>I</a></span>" },
         { "27":"<span class='lem'>Lyshoisen</span> ] <span class='rdg'>liscoisen <a>I</a> Lytschoysen <a>L</a> lisoisen <a>M</a></span>" },
         { "29":"<span class='lem'>sich des</span> ] <span class='rdg'>des sich <a>I</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"548\">G</a></li><li><a data-thirties=\"548\">I</a></li><li><a data-thirties=\"548\">L</a></li><li><a data-thirties=\"548\">M</a></li><li><a data-thirties=\"548\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"548\">T</a></li><li><a data-thirties=\"548\">U</a></li><li><a data-thirties=\"548\">V</a></li><li><a data-thirties=\"548\">W</a></li><li><a data-thirties=\"548\">O</a></li><li><a data-thirties=\"548\">Q</a></li><li><a data-thirties=\"548\">R</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" },
+        { "09":"<span class='note'>Initiale</span> <a>O</a> <a>Q</a>" },
+        { "13":"<span class='note'>Versal</span> <a>T</a>" },
+        { "21":"<span class='note'>Versal</span> <a>T</a>" },
+        { "28":"<span class='note'>Initiale</span> <a>V</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Der</span> ] <span class='rdg'>÷er <a>T</a></span>" },
         { "02":"<span class='lem'>sorge</span> ] <span class='rdg'>sorgen <a>U</a> <a>V</a> <a>O</a> <a>R</a></span>" },
@@ -145,22 +160,7 @@
         { "27":"<span class='lem'>Lyschoysen</span> ] <span class='rdg'>Lyscoyen <a>T</a> lischoien <a>U</a> [*]: lẏschosen <a>V</a> lyshoien <a>W</a> Lyshoysen <a>O</a> lishoysen <a>Q</a> Lyschoisen <a>R</a></span>" },
         { "27":"<span class='lem'>în</span> ] <span class='rdg'>[*]: in <a>V</a></span>" },
         { "28":"<span class='lem'>gesinde</span> ] <span class='rdg'>[*]: ingesinde <a>V</a> geside <a>W</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"548\">T</a></li><li><a data-thirties=\"548\">U</a></li><li><a data-thirties=\"548\">V</a></li><li><a data-thirties=\"548\">W</a></li><li><a data-thirties=\"548\">O</a></li><li><a data-thirties=\"548\">Q</a></li><li><a data-thirties=\"548\">R</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" },
-        { "09":"<span class='note'>Initiale</span> <a>O</a> <a>Q</a>" },
-        { "13":"<span class='note'>Versal</span> <a>T</a>" },
-        { "21":"<span class='note'>Versal</span> <a>T</a>" },
-        { "28":"<span class='note'>Initiale</span> <a>V</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

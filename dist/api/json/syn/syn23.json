@@ -1,6 +1,18 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"23\">D</a></li><li><a data-thirties=\"23\">Fr9</a></li><li><a data-thirties=\"23\">Fr14</a> <span>(23.23-30)</span></li></ul>",
+      "structure": [
+        { "07":"<span class='note'>Versal</span> <a>D</a>" },
+        { "19":"<span class='note'>Initiale</span> <a>D</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>leit</span> ] <span class='rdg'>tete <a>Fr9</a></span>" },
         { "02":"<span class='lem'>alsus</span> ] <span class='rdg'>sus <a>Fr9</a></span>" },
@@ -21,15 +33,17 @@
         { "27":"<span class='lem'>wære</span> ] <span class='rdg'>wære <a>Fr14</a></span>" },
         { "29":"<span class='lem'>gein im dô</span> ] <span class='rdg'>do kegen im <a>Fr9</a></span>" },
         { "30":"<span class='lem'>ir</span> ] <span class='rdg'>Jrn <a>Fr9</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"23\">D</a></li><li><a data-thirties=\"23\">Fr9</a></li><li><a data-thirties=\"23\">Fr14</a> <span>(23.23-30)</span></li></ul>",
-      "structure": [
-        { "07":"<span class='note'>Versal</span> <a>D</a>" },
-        { "19":"<span class='note'>Initiale</span> <a>D</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"23\">m</a></li><li><a data-thirties=\"23\">n</a></li><li><a data-thirties=\"23\">o</a></li></ul>",
+      "structure": [
+        { "07":"<span class='note'>Illustration mit Überschrift:</span> Also gamiret mit sinen rittern vff sas vnd reit do bekam e* jme einer vnder wegen den stach er nẏder <a>n</a>" },
+        { "07":"<span class='note'>Überschrift:</span> Also Gahmuret vff sas vnd mit sinen rittern reit do bekam ime einre vnder wegen den stach er u̽ber abe <a>m</a>" },
+        { "07":"<span class='note'>Großinitiale</span> <a>n</a>" },
+        { "07":"<span class='note'>Initiale</span> <a>m</a> <a>o</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 22.19-23.6 fehlen</span> <a>o</a></span>" },
         { "01":"<span class='lem'>getragen</span> ] <span class='rdg'>tragen <a>n</a></span>" },
@@ -65,17 +79,18 @@
         { "29":"<span class='lem'>ein wênic</span> ] <span class='rdg'>Enwenig <a>o</a></span>" },
         { "30":"<span class='lem'>dô</span> ] <span class='rdg'><span class='note'>om.</span> <a>n</a> <a>o</a></span>" },
         { "30":"<span class='lem'>ir</span> ] <span class='rdg'>Jren <a>m</a> <a>n</a> <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"23\">m</a></li><li><a data-thirties=\"23\">n</a></li><li><a data-thirties=\"23\">o</a></li></ul>",
-      "structure": [
-        { "07":"<span class='note'>Illustration mit Überschrift:</span> Also gamiret mit sinen rittern vff sas vnd reit do bekam e* jme einer vnder wegen den stach er nẏder <a>n</a>" },
-        { "07":"<span class='note'>Überschrift:</span> Also Gahmuret vff sas vnd mit sinen rittern reit do bekam ime einre vnder wegen den stach er u̽ber abe <a>m</a>" },
-        { "07":"<span class='note'>Großinitiale</span> <a>n</a>" },
-        { "07":"<span class='note'>Initiale</span> <a>m</a> <a>o</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"23\">G</a></li><li><a data-thirties=\"23\">O</a></li><li><a data-thirties=\"23\">L</a></li><li><a data-thirties=\"23\">M</a></li><li><a data-thirties=\"23\">Q</a></li><li><a data-thirties=\"23\">R</a></li><li><a data-thirties=\"23\">W</a></li><li><a data-thirties=\"23\">Z</a></li><li><a data-thirties=\"23\">Fr29</a></li><li><a data-thirties=\"23\">Fr32</a></li><li><a data-thirties=\"23\">Fr36</a> <span>(23.1-8)</span></li><li><a data-thirties=\"23\">Fr71</a> <span>(23.1-17 und 20-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a> <a>Fr29</a>" },
+        { "08":"<span class='note'>Initiale</span> <a>G</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>Fr71</a>" },
+        { "17":"<span class='note'>Versal</span> <a>Fr32</a>" },
+        { "19":"<span class='note'>Initiale</span> <a>R</a> <a>W</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>rîchiu</span> ] <span class='rdg'>Riche <a>R</a> (<a>Fr32</a>)</span>" },
         { "01":"<span class='lem'>kleider</span> ] <span class='rdg'>wat <a>L</a></span>" },
@@ -131,18 +146,18 @@
         { "28":"<span class='lem'>wîpheit</span> ] <span class='rdg'>wipplicheit <a>R</a></span>" },
         { "29":"<span class='lem'>sim engegene</span> ] <span class='rdg'>sie do gegen im <a>L</a> (<a>W</a>)</span>" },
         { "30":"<span class='lem'>ir</span> ] <span class='rdg'>Ern <a>M</a> (<a>Z</a> <a>Fr71</a>)</span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"23\">G</a></li><li><a data-thirties=\"23\">O</a></li><li><a data-thirties=\"23\">L</a></li><li><a data-thirties=\"23\">M</a></li><li><a data-thirties=\"23\">Q</a></li><li><a data-thirties=\"23\">R</a></li><li><a data-thirties=\"23\">W</a></li><li><a data-thirties=\"23\">Z</a></li><li><a data-thirties=\"23\">Fr29</a></li><li><a data-thirties=\"23\">Fr32</a></li><li><a data-thirties=\"23\">Fr36</a> <span>(23.1-8)</span></li><li><a data-thirties=\"23\">Fr71</a> <span>(23.1-17 und 20-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a> <a>Fr29</a>" },
-        { "08":"<span class='note'>Initiale</span> <a>G</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>Fr71</a>" },
-        { "17":"<span class='note'>Versal</span> <a>Fr32</a>" },
-        { "19":"<span class='note'>Initiale</span> <a>R</a> <a>W</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"23\">T</a></li><li><a data-thirties=\"23\">U</a></li><li><a data-thirties=\"23\">V</a></li></ul>",
+      "structure": [
+        { "11":"<span class='note'>Versal</span> <a>T</a>" },
+        { "13":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "18":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "22":"<span class='note'>Versal</span> <a>T</a>" },
+        { "29":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>rîchiu</span> ] <span class='rdg'>rîche <a>T</a></span>" },
         { "05":"<span class='lem'>arabischem</span> ] <span class='rdg'>Arabescem <a>T</a> arabeschem <a>U</a></span>" },
@@ -164,22 +179,7 @@
         { "25":"<span class='lem'>var</span> ] <span class='rdg'>gevar <a>U</a> (<a>V</a>)</span>" },
         { "26":"<span class='lem'>er entslôz</span> ] <span class='rdg'>[*los]: entslos <a>V</a></span>" },
         { "30":"<span class='lem'>enpfienc</span> ] <span class='rdg'>vmbe vieng <a>V</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"23\">T</a></li><li><a data-thirties=\"23\">U</a></li><li><a data-thirties=\"23\">V</a></li></ul>",
-      "structure": [
-        { "11":"<span class='note'>Versal</span> <a>T</a>" },
-        { "13":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "18":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "22":"<span class='note'>Versal</span> <a>T</a>" },
-        { "29":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

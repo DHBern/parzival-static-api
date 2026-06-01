@@ -1,6 +1,20 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"112\">D</a></li><li><a data-thirties=\"112\">Fr33</a></li></ul>",
+      "structure": [
+        { "05":"<span class='note'>Initiale</span> <a>D</a>" },
+        { "09":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "21":"<span class='note'>Großinitiale</span> <a>Fr33</a>" },
+        { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>ze</span> ] <span class='rdg'>Zem <a>Fr33</a></span>" },
         { "03":"<span class='lem'>Gahmuretes</span> ] <span class='rdg'>Gahmvretes <a>D</a> Gamuretes <a>Fr33</a></span>" },
@@ -12,17 +26,15 @@
         { "19":"<span class='rdg'>Den barc man von ritterschaft <a>Fr33</a></span>" },
         { "21":"<span class='lem'>Dô</span> ] <span class='rdg'>Ho <a>Fr33</a></span>" },
         { "22":"<span class='lem'>wider</span> ] <span class='rdg'><span class='note'>om.</span> <a>Fr33</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"112\">D</a></li><li><a data-thirties=\"112\">Fr33</a></li></ul>",
-      "structure": [
-        { "05":"<span class='note'>Initiale</span> <a>D</a>" },
-        { "09":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "21":"<span class='note'>Großinitiale</span> <a>Fr33</a>" },
-        { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"112\">m</a></li><li><a data-thirties=\"112\">n</a></li><li><a data-thirties=\"112\">o</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Illustration mit Überschrift:</span> Also gamiret (gamu̽ret <a>o</a>) dot was vnd man in zuͦ dem (<span class='note'>om.</span> <a>o</a>) múnster begruͦp vnd sin frouwe grosz leit hette vmb in <a>n</a> (<a>o</a>)" },
+        { "01":"<span class='note'>Initiale</span> <a>n</a> <a>o</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>ze</span> ] <span class='rdg'>Zu̽ dem <a>n</a></span>" },
         { "02":"<span class='lem'>münster</span> ] <span class='rdg'>mu̽nsten <a>m</a></span>" },
@@ -49,15 +61,20 @@
         { "21":"<span class='lem'>dô</span> ] <span class='rdg'><span class='note'>om.</span> <a>o</a></span>" },
         { "22":"<span class='lem'>wider</span> ] <span class='rdg'><span class='note'>om.</span> <a>n</a> <a>o</a></span>" },
         { "28":"<span class='lem'>smit</span> ] <span class='rdg'>[lit]: smit smit <a>n</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"112\">m</a></li><li><a data-thirties=\"112\">n</a></li><li><a data-thirties=\"112\">o</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Illustration mit Überschrift:</span> Also gamiret (gamu̽ret <a>o</a>) dot was vnd man in zuͦ dem (<span class='note'>om.</span> <a>o</a>) múnster begruͦp vnd sin frouwe grosz leit hette vmb in <a>n</a> (<a>o</a>)" },
-        { "01":"<span class='note'>Initiale</span> <a>n</a> <a>o</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"112\">G</a></li><li><a data-thirties=\"112\">I</a></li><li><a data-thirties=\"112\">O</a></li><li><a data-thirties=\"112\">L</a></li><li><a data-thirties=\"112\">M</a></li><li><a data-thirties=\"112\">Q</a></li><li><a data-thirties=\"112\">R</a></li><li><a data-thirties=\"112\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a>" },
+        { "05":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>R</a> <a>Z</a>" },
+        { "09":"<span class='note'>Überschrift:</span> her parcifal <a>L</a>" },
+        { "09":"<span class='note'>Initiale</span> <a>I</a> <a>L</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>G</a>" },
+        { "27":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "29":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>bestatten</span> ] <span class='rdg'>÷Lestaten <a>O</a> Gestaten <a>Q</a> Bestattentent <a>R</a></span>" },
         { "01":"<span class='lem'>daz</span> ] <span class='rdg'><span class='note'>om.</span> <a>G</a> avch daz <a>O</a> (<a>L</a> <a>M</a> <a>Q</a> <a>Z</a>)</span>" },
@@ -117,20 +134,25 @@
         { "29":"<span class='lem'>von</span> ] <span class='rdg'>vom <a>Q</a></span>" },
         { "29":"<span class='lem'>helme</span> ] <span class='rdg'>helmen <a>I</a> <a>Z</a></span>" },
         { "30":"<span class='lem'>ellen</span> ] <span class='rdg'>eren <a>Q</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"112\">G</a></li><li><a data-thirties=\"112\">I</a></li><li><a data-thirties=\"112\">O</a></li><li><a data-thirties=\"112\">L</a></li><li><a data-thirties=\"112\">M</a></li><li><a data-thirties=\"112\">Q</a></li><li><a data-thirties=\"112\">R</a></li><li><a data-thirties=\"112\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a>" },
-        { "05":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>R</a> <a>Z</a>" },
-        { "09":"<span class='note'>Überschrift:</span> her parcifal <a>L</a>" },
-        { "09":"<span class='note'>Initiale</span> <a>I</a> <a>L</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>G</a>" },
-        { "27":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "29":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"112\">U</a></li><li><a data-thirties=\"112\">V</a></li><li><a data-thirties=\"112\">W</a></li><li><a data-thirties=\"112\">T</a></li></ul>",
+      "structure": [
+        { "05":"<span class='note'>Überschrift:</span> Hye ward partzifal gamurettes sun geboren diser auentúr herre <a>W</a>" },
+        { "05":"<span class='note'>Platz für Illustration ausgespart</span> <a>W</a>" },
+        { "05":"<span class='note'>Initiale</span> <a>W</a> <a>T</a>" },
+        { "09":"<span class='note'>Versal</span> <a>T</a>" },
+        { "11":"<span class='note'>Überschrift:</span> Hie ist kúnig Gamuretes buͦch vs der Parcifals vatter was So hebet hie an der prologus von Parcifal der vs welschem zuͦ túschem ist gemaht Vnde vohet hie sine kintheit an <a>V</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>V</a>" },
+        { "13":"<span class='note'>Überschrift:</span> Der prologus si hin geleit nv hoͤrent Parcifals kintheit Dar noch sin manheit hohen pris erwarp in maniger hande wis Als ir har nach beuinden wol dis buͦch es v́ch vnderwisen sol <a>V</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>V</a>" },
+        { "13":"<span class='note'>Versal</span> <a>T</a>" },
+        { "14":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "21":"<span class='note'>Versal</span> <a>T</a>" },
+        { "23":"<span class='note'>Majuskel</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'>bestatent sper vnd blvͦt <a>T</a></span>" },
         { "01":"<span class='lem'>bestatten</span> ] <span class='rdg'>besteten <a>W</a></span>" },
@@ -178,29 +200,7 @@
         { "27":"<span class='rdg'>do heter manlichiv lit <a>T</a></span>" },
         { "27":"<span class='lem'>schœniu lit</span> ] <span class='rdg'>schoͤnet glit <a>W</a></span>" },
         { "29":"<span class='lem'>von</span> ] <span class='rdg'>v̂z <a>T</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"112\">U</a></li><li><a data-thirties=\"112\">V</a></li><li><a data-thirties=\"112\">W</a></li><li><a data-thirties=\"112\">T</a></li></ul>",
-      "structure": [
-        { "05":"<span class='note'>Überschrift:</span> Hye ward partzifal gamurettes sun geboren diser auentúr herre <a>W</a>" },
-        { "05":"<span class='note'>Platz für Illustration ausgespart</span> <a>W</a>" },
-        { "05":"<span class='note'>Initiale</span> <a>W</a> <a>T</a>" },
-        { "09":"<span class='note'>Versal</span> <a>T</a>" },
-        { "11":"<span class='note'>Überschrift:</span> Hie ist kúnig Gamuretes buͦch vs der Parcifals vatter was So hebet hie an der prologus von Parcifal der vs welschem zuͦ túschem ist gemaht Vnde vohet hie sine kintheit an <a>V</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>V</a>" },
-        { "13":"<span class='note'>Überschrift:</span> Der prologus si hin geleit nv hoͤrent Parcifals kintheit Dar noch sin manheit hohen pris erwarp in maniger hande wis Als ir har nach beuinden wol dis buͦch es v́ch vnderwisen sol <a>V</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>V</a>" },
-        { "13":"<span class='note'>Versal</span> <a>T</a>" },
-        { "14":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "21":"<span class='note'>Versal</span> <a>T</a>" },
-        { "23":"<span class='note'>Majuskel</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-29T20:11:08.187275076+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }
