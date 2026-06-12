@@ -1,16 +1,25 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [ { "08":"<span class='lem'>möhte</span> ] <span class='rdg'>mohte <a>D</a></span>" } ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"571\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "11":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
-      ]
+      ],
+      "reading": [ { "08":"<span class='lem'>möhte</span> ] <span class='rdg'>mohte <a>D</a></span>" } ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"571\">m</a></li><li><a data-thirties=\"571\">n</a></li><li><a data-thirties=\"571\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='lem'>hœret</span> ] <span class='rdg'>horte <a>n</a> (<a>o</a>)</span>" },
         { "01":"<span class='lem'>ein brummen</span> ] <span class='rdg'>einen bronnen <a>n</a> (<a>o</a>)</span>" },
@@ -27,12 +36,15 @@
         { "23":"<span class='lem'>im</span> ] <span class='rdg'>im do <a>o</a></span>" },
         { "28":"<span class='lem'>zuckens</span> ] <span class='rdg'>zuckes <a>n</a> (<a>o</a>)</span>" },
         { "30":"<span class='lem'>vüezen</span> ] <span class='rdg'>bein <a>n</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"571\">m</a></li><li><a data-thirties=\"571\">n</a></li><li><a data-thirties=\"571\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"571\">G</a></li><li><a data-thirties=\"571\">I</a></li><li><a data-thirties=\"571\">L</a></li><li><a data-thirties=\"571\">M</a></li><li><a data-thirties=\"571\">Z</a></li><li><a data-thirties=\"571\">Fr23</a> <span>(571.1-8 und 14-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a> <a>Fr23</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Dô</span> ] <span class='rdg'>Da <a>M</a> (<a>Z</a>)</span>" },
         { "01":"<span class='lem'>hôrt</span> ] <span class='rdg'>gehorit <a>M</a> (<a>Z</a> <a>Fr23</a>)</span>" },
@@ -67,15 +79,17 @@
         { "29":"<span class='lem'>ein</span> ] <span class='rdg'>Sin <a>Fr23</a></span>" },
         { "29":"<span class='lem'>hin abe er im</span> ] <span class='rdg'>hin abe si im <a>G</a> er im abe <a>I</a> er im hin abe <a>Fr23</a></span>" },
         { "30":"<span class='lem'>drîn</span> ] <span class='rdg'>den <a>Fr23</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"571\">G</a></li><li><a data-thirties=\"571\">I</a></li><li><a data-thirties=\"571\">L</a></li><li><a data-thirties=\"571\">M</a></li><li><a data-thirties=\"571\">Z</a></li><li><a data-thirties=\"571\">Fr23</a> <span>(571.1-8 und 14-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a> <a>Fr23</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"571\">T</a></li><li><a data-thirties=\"571\">U</a></li><li><a data-thirties=\"571\">V</a></li><li><a data-thirties=\"571\">W</a></li><li><a data-thirties=\"571\">Q</a></li><li><a data-thirties=\"571\">R</a></li><li><a data-thirties=\"571\">Fr39</a> <span>(571.1-20 und 26-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "01":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "11":"<span class='note'>Versal</span> <a>T</a>" },
+        { "21":"<span class='note'>Initiale</span> <a>W</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 553.1-599.30 fehlen</span> <a>U</a></span>" },
         { "01":"<span class='lem'>gehôrt</span> ] <span class='rdg'>hort <a>V</a> <a>W</a> <a>Q</a> <a>R</a></span>" },
@@ -115,21 +129,7 @@
         { "28":"<span class='lem'>zuckes</span> ] <span class='rdg'>[*]: zuckes <a>V</a> zukens <a>R</a></span>" },
         { "29":"<span class='rdg'>[*]: Ein bein hin abe er im swang <a>V</a></span>" },
         { "30":"<span class='lem'>drîn vüezen</span> ] <span class='rdg'>[*]: drien fuͤssen <a>V</a> sein fussze <a>Q</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"571\">T</a></li><li><a data-thirties=\"571\">U</a></li><li><a data-thirties=\"571\">V</a></li><li><a data-thirties=\"571\">W</a></li><li><a data-thirties=\"571\">Q</a></li><li><a data-thirties=\"571\">R</a></li><li><a data-thirties=\"571\">Fr39</a> <span>(571.1-20 und 26-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "01":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "11":"<span class='note'>Versal</span> <a>T</a>" },
-        { "21":"<span class='note'>Initiale</span> <a>W</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

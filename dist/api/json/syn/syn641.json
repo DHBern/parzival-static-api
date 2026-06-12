@@ -1,6 +1,20 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"641\">D</a></li><li><a data-thirties=\"641\">Z</a></li><li><a data-thirties=\"641\">Fr1</a></li><li><a data-thirties=\"641\">Fr48</a> <span>(641.1-4)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Z</a> <a>Fr1</a> <a>Fr48</a>" },
+        { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "25":"<span class='note'>Versal</span> <a>Fr1</a>" },
+        { "25":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>ein ende nam</span> ] <span class='rdg'>nam ende <a>Z</a> (<a>Fr48</a>)</span>" },
         { "02":"<span class='lem'>varwen</span> ] <span class='rdg'>frawen <a>Fr48</a></span>" },
@@ -23,17 +37,12 @@
         { "29":"<span class='lem'>Sangive</span> ] <span class='rdg'>Sangîve <a>D</a> <a>Fr1</a> Seyve <a>Z</a></span>" },
         { "29":"<span class='lem'>Itonje</span> ] <span class='rdg'>Jtonie <a>D</a> <a>Fr1</a> Jconie <a>Z</a></span>" },
         { "30":"<span class='lem'>Cundrie</span> ] <span class='rdg'>Cvndrîe <a>D</a> kundrie <a>Z</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"641\">D</a></li><li><a data-thirties=\"641\">Z</a></li><li><a data-thirties=\"641\">Fr1</a></li><li><a data-thirties=\"641\">Fr48</a> <span>(641.1-4)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Z</a> <a>Fr1</a> <a>Fr48</a>" },
-        { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "25":"<span class='note'>Versal</span> <a>Fr1</a>" },
-        { "25":"<span class='note'>Majuskel</span> <a>D</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"641\">m</a></li><li><a data-thirties=\"641\">n</a></li><li><a data-thirties=\"641\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "02":"<span class='lem'>varwe</span> ] <span class='rdg'>frou̽ide <a>o</a></span>" },
         { "05":"<span class='lem'>vröude</span> ] <span class='rdg'>fro̽den <a>m</a> (<a>n</a> <a>o</a>)</span>" },
@@ -54,12 +63,17 @@
         { "29":"<span class='lem'>Ithonie</span> ] <span class='rdg'>jthonie <a>m</a> jthonien <a>n</a> Jtonie <a>o</a></span>" },
         { "30":"<span class='lem'>als</span> ] <span class='rdg'>auch <a>o</a></span>" },
         { "30":"<span class='lem'>Condrie</span> ] <span class='rdg'>condrien <a>n</a> Cúndrie <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"641\">m</a></li><li><a data-thirties=\"641\">n</a></li><li><a data-thirties=\"641\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"641\">G</a></li><li><a data-thirties=\"641\">I</a></li><li><a data-thirties=\"641\">L</a></li><li><a data-thirties=\"641\">M</a></li><li><a data-thirties=\"641\">Z</a></li><li><a data-thirties=\"641\">Fr18</a> <span>(641.1-4 und 10-30)</span></li><li><a data-thirties=\"641\">Fr48</a> <span>(641.1-4)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>Z</a> <a>Fr18</a> <a>Fr48</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>M</a>" },
+        { "27":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Dar nâch</span> ] <span class='rdg'>Do <a>I</a></span>" },
         { "01":"<span class='lem'>schier nam ende</span> ] <span class='rdg'>nam shier ende <a>I</a> ennde nam <a>M</a> schier ende kam <a>Fr18</a></span>" },
@@ -99,17 +113,16 @@
         { "29":"<span class='lem'>Itonie</span> ] <span class='rdg'>ytonie <a>G</a> Jtonie <a>I</a> (<a>L</a>) Jthonie <a>M</a> Jconie <a>Z</a> ytony: <a>Fr18</a> </span>" },
         { "30":"<span class='lem'>dan als tet</span> ] <span class='rdg'>tet danne ouch alle <a>M</a> dan als tet ouch <a>Z</a> dan sam tet ovch <a>Fr18</a></span>" },
         { "30":"<span class='lem'>Gundrie</span> ] <span class='rdg'>kundrien <a>M</a> kundrie <a>Z</a> (<a>Fr18</a>) </span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"641\">G</a></li><li><a data-thirties=\"641\">I</a></li><li><a data-thirties=\"641\">L</a></li><li><a data-thirties=\"641\">M</a></li><li><a data-thirties=\"641\">Z</a></li><li><a data-thirties=\"641\">Fr18</a> <span>(641.1-4 und 10-30)</span></li><li><a data-thirties=\"641\">Fr48</a> <span>(641.1-4)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>Z</a> <a>Fr18</a> <a>Fr48</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>M</a>" },
-        { "27":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"641\">U</a></li><li><a data-thirties=\"641\">V</a></li><li><a data-thirties=\"641\">W</a></li><li><a data-thirties=\"641\">Q</a></li><li><a data-thirties=\"641\">R</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>U</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>schiere ende nam</span> ] <span class='rdg'>schiere rvmde men <a>V</a> nam ein ende <a>W</a></span>" },
         { "01":"<span class='lem'>der</span> ] <span class='rdg'>den <a>V</a></span>" },
@@ -146,20 +159,7 @@
         { "29":"<span class='lem'>Seyve</span> ] <span class='rdg'>Seyue <a>V</a> <a>W</a> <a>Q</a> <a>R</a></span>" },
         { "29":"<span class='lem'>Itonje</span> ] <span class='rdg'>Jtonie <a>U</a> ytonẏe <a>V</a> ytonie <a>W</a> <a>Q</a> Nytonie <a>R</a></span>" },
         { "30":"<span class='lem'>Kuondrie</span> ] <span class='rdg'>kvndrie <a>V</a> (<a>W</a> <a>Q</a>) kondrie <a>R</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"641\">U</a></li><li><a data-thirties=\"641\">V</a></li><li><a data-thirties=\"641\">W</a></li><li><a data-thirties=\"641\">Q</a></li><li><a data-thirties=\"641\">R</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>U</a> <a>V</a> <a>W</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>U</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

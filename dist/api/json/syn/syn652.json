@@ -1,20 +1,29 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "13":"<span class='lem'>tavelrundære</span> ] <span class='rdg'>Tavelrvnderære <a>D</a></span>" },
-        { "25":"<span class='rdg'>v̂f Scastel marvêile <a>D</a></span>" },
-        { "26":"<span class='lem'>Arnive</span> ] <span class='rdg'>Arniwe <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"652\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "23":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "13":"<span class='lem'>tavelrundære</span> ] <span class='rdg'>Tavelrvnderære <a>D</a></span>" },
+        { "25":"<span class='rdg'>v̂f Scastel marvêile <a>D</a></span>" },
+        { "26":"<span class='lem'>Arnive</span> ] <span class='rdg'>Arniwe <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"652\">m</a></li><li><a data-thirties=\"652\">n</a></li><li><a data-thirties=\"652\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "03":"<span class='lem'>tages</span> ] <span class='rdg'>tage <a>m</a></span>" },
         { "03":"<span class='lem'>dâ</span> ] <span class='rdg'>do <a>m</a> <a>n</a> <a>o</a></span>" },
@@ -34,12 +43,15 @@
         { "25":"<span class='rdg'>Vff schattel marueẏle <a>o</a></span>" },
         { "26":"<span class='lem'>Arnive</span> ] <span class='rdg'>Arune <a>m</a> Arniwe <a>n</a></span>" },
         { "28":"<span class='lem'>mit</span> ] <span class='rdg'>by mit <a>n</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"652\">m</a></li><li><a data-thirties=\"652\">n</a></li><li><a data-thirties=\"652\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"652\">G</a></li><li><a data-thirties=\"652\">I</a></li><li><a data-thirties=\"652\">L</a></li><li><a data-thirties=\"652\">M</a></li><li><a data-thirties=\"652\">Z</a></li><li><a data-thirties=\"652\">Fr48</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a> <a>Fr48</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>ouch</span> ] <span class='rdg'>vnde auch <a>I</a> Ouch wart <a>L</a> <a>M</a> <a>Fr48</a> Ouch was <a>Z</a></span>" },
         { "02":"<span class='lem'>tavelrunder</span> ] <span class='rdg'>tauelunrunder <a>G</a></span>" },
@@ -64,15 +76,12 @@
         { "26":"<span class='lem'>diu</span> ] <span class='rdg'><span class='note'>om.</span> <a>I</a></span>" },
         { "27":"<span class='lem'>wan</span> ] <span class='rdg'>Do <a>Fr48</a></span>" },
         { "29":"<span class='lem'>gestrichen</span> ] <span class='rdg'>strichen <a>G</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"652\">G</a></li><li><a data-thirties=\"652\">I</a></li><li><a data-thirties=\"652\">L</a></li><li><a data-thirties=\"652\">M</a></li><li><a data-thirties=\"652\">Z</a></li><li><a data-thirties=\"652\">Fr48</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a> <a>Fr48</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"652\">Q</a></li><li><a data-thirties=\"652\">R</a></li><li><a data-thirties=\"652\">W</a></li><li><a data-thirties=\"652\">V</a></li><li><a data-thirties=\"652\">Fr40</a></li></ul>",
+      "structure": [ { "01":"<span class='note'>Initiale</span> <a>W</a> <a>V</a> <a>Fr40</a>" } ],
       "reading": [
         { "01":"<span class='lem'>warp</span> ] <span class='rdg'>[*]: warp <a>V</a></span>" },
         { "01":"<span class='lem'>sîne</span> ] <span class='rdg'>[*]: sine <a>V</a></span>" },
@@ -106,16 +115,7 @@
         { "26":"<span class='lem'>Arnyve</span> ] <span class='rdg'>Arniue <a>Q</a> Arnẏue <a>R</a> Arnyue <a>W</a> Arnive <a>V</a> <a>Fr40</a></span>" },
         { "26":"<span class='lem'>wart</span> ] <span class='rdg'>wart in <a>Q</a></span>" },
         { "27":"<span class='lem'>pfortener</span> ] <span class='rdg'>portner <a>R</a> (<a>W</a> <a>V</a> <a>Fr40</a>)</span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"652\">Q</a></li><li><a data-thirties=\"652\">R</a></li><li><a data-thirties=\"652\">W</a></li><li><a data-thirties=\"652\">V</a></li><li><a data-thirties=\"652\">Fr40</a></li></ul>",
-      "structure": [ { "01":"<span class='note'>Initiale</span> <a>W</a> <a>V</a> <a>Fr40</a>" } ]
+      ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

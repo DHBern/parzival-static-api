@@ -1,12 +1,12 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "01":"<span class='lem'>dienstes</span> ] <span class='rdg'>diens <a>D</a></span>" },
-        { "02":"<span class='lem'>daz</span> ] <span class='rdg'>des <a>D</a></span>" },
-        { "14":"<span class='lem'>diu</span> ] <span class='rdg'><span class='note'>om.</span> <a>D</a></span>" },
-        { "15":"<span class='lem'>dienstes</span> ] <span class='rdg'>diens <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"554\">D</a></li><li><a data-thirties=\"554\">Fr7</a> <span>(554.1-5)</span></li></ul>",
       "structure": [
@@ -14,9 +14,18 @@
         { "07":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "14":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "23":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "01":"<span class='lem'>dienstes</span> ] <span class='rdg'>diens <a>D</a></span>" },
+        { "02":"<span class='lem'>daz</span> ] <span class='rdg'>des <a>D</a></span>" },
+        { "14":"<span class='lem'>diu</span> ] <span class='rdg'><span class='note'>om.</span> <a>D</a></span>" },
+        { "15":"<span class='lem'>dienstes</span> ] <span class='rdg'>diens <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"554\">m</a></li><li><a data-thirties=\"554\">n</a></li><li><a data-thirties=\"554\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "02":"<span class='rdg'><span class='note'>Versdoppelung (²o); Lesarten des vorausgehenden Verses mit ¹o bezeichnet</span> <a>o</a></span>" },
         { "02":"<span class='rdg'>Vor den deppich sas 1<a>o</a></span>" },
@@ -36,12 +45,16 @@
         { "27":"<span class='lem'>ir mirz</span> ] <span class='rdg'>irs mir <a>n</a></span>" },
         { "27":"<span class='lem'>geruochet</span> ] <span class='rdg'>gerúchen <a>o</a></span>" },
         { "28":"<span class='lem'>zwein</span> ] <span class='rdg'>disen zwein <a>n</a> (<a>o</a>)</span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"554\">m</a></li><li><a data-thirties=\"554\">n</a></li><li><a data-thirties=\"554\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"554\">G</a></li><li><a data-thirties=\"554\">I</a></li><li><a data-thirties=\"554\">L</a></li><li><a data-thirties=\"554\">M</a></li><li><a data-thirties=\"554\">Z</a></li><li><a data-thirties=\"554\">Fr23</a></li><li><a data-thirties=\"554\">Fr62</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a> <a>Fr23</a> <a>Fr62</a>" },
+        { "03":"<span class='note'>Initiale</span> <a>I</a>" },
+        { "23":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>dienstes</span> ] <span class='rdg'>dienst <a>I</a> (<a>Fr23</a>)</span>" },
         { "02":"<span class='lem'>vürz bette</span> ] <span class='rdg'>vur den Gast <a>I</a></span>" },
@@ -87,16 +100,18 @@
         { "29":"<span class='lem'>obe</span> ] <span class='rdg'>abe <a>M</a> boben <a>Fr62</a></span>" },
         { "29":"<span class='lem'>mir</span> ] <span class='rdg'>mir da <a>Fr23</a></span>" },
         { "30":"<span class='lem'>mir</span> ] <span class='rdg'><span class='note'>om.</span> <a>L</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"554\">G</a></li><li><a data-thirties=\"554\">I</a></li><li><a data-thirties=\"554\">L</a></li><li><a data-thirties=\"554\">M</a></li><li><a data-thirties=\"554\">Z</a></li><li><a data-thirties=\"554\">Fr23</a></li><li><a data-thirties=\"554\">Fr62</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>L</a> <a>Z</a> <a>Fr23</a> <a>Fr62</a>" },
-        { "03":"<span class='note'>Initiale</span> <a>I</a>" },
-        { "23":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"554\">T</a></li><li><a data-thirties=\"554\">U</a></li><li><a data-thirties=\"554\">V</a></li><li><a data-thirties=\"554\">W</a></li><li><a data-thirties=\"554\">O</a></li><li><a data-thirties=\"554\">Q</a></li><li><a data-thirties=\"554\">R</a></li><li><a data-thirties=\"554\">Fr39</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>V</a> <a>O</a> <a>Q</a> <a>Fr39</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "07":"<span class='note'>Versal</span> <a>T</a>" },
+        { "14":"<span class='note'>Versal</span> <a>T</a>" },
+        { "23":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 553.1-599.30 fehlen</span> <a>U</a></span>" },
         { "01":"<span class='lem'>Diu</span> ] <span class='rdg'>÷iv <a>T</a> <a>O</a></span>" },
@@ -139,22 +154,7 @@
         { "27":"<span class='lem'>geruochtet</span> ] <span class='rdg'>geruͦchent <a>V</a> (<a>W</a> <a>Q</a> <a>R</a> <a>Fr39</a>) gervͦchte <a>O</a></span>" },
         { "28":"<span class='lem'>zwein</span> ] <span class='rdg'>treyen <a>Q</a></span>" },
         { "29":"<span class='lem'>uns</span> ] <span class='rdg'>vnz alhie <a>V</a> vns hie <a>R</a> <a>Fr39</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"554\">T</a></li><li><a data-thirties=\"554\">U</a></li><li><a data-thirties=\"554\">V</a></li><li><a data-thirties=\"554\">W</a></li><li><a data-thirties=\"554\">O</a></li><li><a data-thirties=\"554\">Q</a></li><li><a data-thirties=\"554\">R</a></li><li><a data-thirties=\"554\">Fr39</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>V</a> <a>O</a> <a>Q</a> <a>Fr39</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "07":"<span class='note'>Versal</span> <a>T</a>" },
-        { "14":"<span class='note'>Versal</span> <a>T</a>" },
-        { "23":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

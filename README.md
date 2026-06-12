@@ -22,7 +22,7 @@ Lastly, the repository also contains a template for a TEIPublisher application (
     * (Optionally) supply tasks to be executed using the `do` parameter (multiple tasks may be given space separated within quotation marks).
     * (Optionally) set `verbose=true` to track the execution of the pipeline.
     * To run all tasks use `all=true` instead of `do`.
-    * Example command: `java -jar $path-to-saxon/saxon-he-12.5.jar -s:generate.xsl -xsl:generate.xsl do='pass-through-originals contiguous-ranges`.
+    * Example command: `java -cp "$path-to-saxon:$path-to-saxon-libs" net.sf.saxon.Transform -s:src/generate.xsl -xsl:src/generate.xsl do='' verbose=false do='pass-through-originals contiguous-ranges`.
 
 The monopsis PDF is generated from locally stored, non-public source PDFs located under `src/data/pdf/`. The corresponding workflow is implemented
 in Python and is intentionally kept separate from the XSLT-based generation pipeline.
@@ -32,5 +32,3 @@ Further details and requirements can be found in `src/monopsis/README.md`.
 ## Future options
 
 * Consider CI using Github actions with [`use-saxon`](https://github.com/marketplace/actions/use-saxon).
-* Consider some degree of "dynamisation" using `SaxonJS`.
-* Discern sensible and clear-cut border between static backend and TEIPublisher; how far can we push the border?

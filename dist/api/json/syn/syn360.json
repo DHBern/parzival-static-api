@@ -1,20 +1,32 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "01":"<span class='lem'>Poydiconjunzes</span> ] <span class='rdg'>Poydiconivnzs <a>D</a></span>" },
-        { "02":"<span class='lem'>Meljanz</span> ] <span class='rdg'>Melianz <a>D</a></span>" },
-        { "06":"<span class='lem'>Obien</span> ] <span class='rdg'>Obyen <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"360\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "06":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "17":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "01":"<span class='lem'>Poydiconjunzes</span> ] <span class='rdg'>Poydiconivnzs <a>D</a></span>" },
+        { "02":"<span class='lem'>Meljanz</span> ] <span class='rdg'>Melianz <a>D</a></span>" },
+        { "06":"<span class='lem'>Obien</span> ] <span class='rdg'>Obyen <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"360\">m</a></li><li><a data-thirties=\"360\">n</a></li><li><a data-thirties=\"360\">o</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Poidiconiunz</span> ] <span class='rdg'>COidoconivnz <a>m</a> Coidicomintz <a>n</a> Coidicamincz <a>o</a></span>" },
         { "02":"<span class='lem'>Melianz</span> ] <span class='rdg'>meleanz <a>m</a> meliantz <a>n</a> meliancz <a>o</a></span>" },
@@ -49,15 +61,18 @@
         { "29":"<span class='lem'>garzûn</span> ] <span class='rdg'>garczẏm <a>o</a></span>" },
         { "29":"<span class='lem'>lief</span> ] <span class='rdg'>liesz <a>o</a></span>" },
         { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>obye <a>n</a> o̽bie <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"360\">m</a></li><li><a data-thirties=\"360\">n</a></li><li><a data-thirties=\"360\">o</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"360\">G</a></li><li><a data-thirties=\"360\">I</a></li><li><a data-thirties=\"360\">O</a></li><li><a data-thirties=\"360\">L</a></li><li><a data-thirties=\"360\">M</a></li><li><a data-thirties=\"360\">Q</a></li><li><a data-thirties=\"360\">R</a></li><li><a data-thirties=\"360\">Z</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>I</a> <a>O</a> <a>L</a> <a>Z</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "06":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
+        { "09":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>G</a> <a>I</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Poydeconiunzes</span> ] <span class='rdg'>poidekonivnzes <a>G</a> (<a>Z</a>) Poydecomunz <a>I</a> ÷Oydekvmvnzes <a>O</a> POý de Conivnz <a>L</a> Poidekvnivnz <a>M</a> Poydekoniunzes <a>Q</a> poydekomvirczes <a>R</a></span>" },
         { "01":"<span class='lem'>was</span> ] <span class='rdg'>wart <a>O</a> <a>L</a> <a>M</a> <a>Q</a> (<a>R</a>)</span>" },
@@ -119,18 +134,20 @@
         { "30":"<span class='lem'>wiez</span> ] <span class='rdg'>wie <a>O</a></span>" },
         { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>Obye <a>O</a> (<a>Q</a> <a>R</a>)</span>" },
         { "30":"<span class='lem'>vienc</span> ] <span class='rdg'>geuienc <a>I</a> (<a>O</a> <a>Z</a>)</span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"360\">G</a></li><li><a data-thirties=\"360\">I</a></li><li><a data-thirties=\"360\">O</a></li><li><a data-thirties=\"360\">L</a></li><li><a data-thirties=\"360\">M</a></li><li><a data-thirties=\"360\">Q</a></li><li><a data-thirties=\"360\">R</a></li><li><a data-thirties=\"360\">Z</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>I</a> <a>O</a> <a>L</a> <a>Z</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "06":"<span class='note'>Capitulumzeichen</span> <a>R</a>" },
-        { "09":"<span class='note'>nicht ausgeführte Illustration</span> <a>O</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>G</a> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"360\">T</a></li><li><a data-thirties=\"360\">V</a></li><li><a data-thirties=\"360\">W</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a>" },
+        { "06":"<span class='note'>Versal</span> <a>T</a>" },
+        { "09":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "10":"<span class='note'>Versal</span> <a>T</a>" },
+        { "17":"<span class='note'>Versal</span> <a>T</a>" },
+        { "21":"<span class='note'>Versal</span> <a>T</a>" },
+        { "29":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Poydekuniunzes</span> ] <span class='rdg'>[*]: Poẏdicomvnz <a>V</a> Poide guniunsenes <a>W</a></span>" },
         { "01":"<span class='lem'>wart</span> ] <span class='rdg'>waz <a>V</a> wit <a>W</a></span>" },
@@ -158,24 +175,7 @@
         { "27":"<span class='lem'>enpfâhen</span> ] <span class='rdg'>[*]: hie vil enphahen <a>V</a></span>" },
         { "29":"<span class='lem'>dan lief</span> ] <span class='rdg'>lief dannan <a>V</a></span>" },
         { "30":"<span class='lem'>Obye</span> ] <span class='rdg'>obẏe <a>V</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"360\">T</a></li><li><a data-thirties=\"360\">V</a></li><li><a data-thirties=\"360\">W</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a>" },
-        { "06":"<span class='note'>Versal</span> <a>T</a>" },
-        { "09":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "10":"<span class='note'>Versal</span> <a>T</a>" },
-        { "17":"<span class='note'>Versal</span> <a>T</a>" },
-        { "21":"<span class='note'>Versal</span> <a>T</a>" },
-        { "29":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

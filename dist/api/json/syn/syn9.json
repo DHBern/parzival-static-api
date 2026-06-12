@@ -1,19 +1,32 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "06":"<span class='lem'>lieht</span> ] <span class='rdg'>lîht <a>D</a></span>" },
-        { "12":"<span class='lem'>Gylstram</span> ] <span class='rdg'>Gẏlstram <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"9\">D</a></li></ul>",
       "structure": [
         { "03":"<span class='note'>Initiale</span> <a>D</a>" },
         { "17":"<span class='note'>Versal</span> <a>D</a>" },
         { "29":"<span class='note'>Initiale</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "06":"<span class='lem'>lieht</span> ] <span class='rdg'>lîht <a>D</a></span>" },
+        { "12":"<span class='lem'>Gylstram</span> ] <span class='rdg'>Gẏlstram <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"9\">m</a></li><li><a data-thirties=\"9\">n</a></li><li><a data-thirties=\"9\">o</a></li><li><a data-thirties=\"9\">W</a></li></ul>",
+      "structure": [
+        { "17":"<span class='note'>Initiale</span> <a>W</a>" },
+        { "29":"<span class='note'>Initiale</span> <a>m</a>" },
+        { "29":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>ob</span> ] <span class='rdg'>oh <a>m</a></span>" },
         { "01":"<span class='lem'>wir</span> ] <span class='rdg'>irre <a>o</a></span>" },
@@ -40,16 +53,17 @@
         { "28":"<span class='lem'>nû nâhet mîn</span> ] <span class='rdg'>Es nahet nun meim <a>W</a></span>" },
         { "29":"<span class='lem'>in</span> ] <span class='rdg'>im <a>W</a></span>" },
         { "29":"<span class='lem'>werte</span> ] <span class='rdg'>worte <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"9\">m</a></li><li><a data-thirties=\"9\">n</a></li><li><a data-thirties=\"9\">o</a></li><li><a data-thirties=\"9\">W</a></li></ul>",
-      "structure": [
-        { "17":"<span class='note'>Initiale</span> <a>W</a>" },
-        { "29":"<span class='note'>Initiale</span> <a>m</a>" },
-        { "29":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"9\">G</a></li><li><a data-thirties=\"9\">O</a></li><li><a data-thirties=\"9\">L</a></li><li><a data-thirties=\"9\">M</a></li><li><a data-thirties=\"9\">Q</a></li><li><a data-thirties=\"9\">Z</a></li><li><a data-thirties=\"9\">Fr32</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a> <a>Z</a>" },
+        { "08":"<span class='note'>Versal</span> <a>Fr32</a>" },
+        { "13":"<span class='note'>Initiale</span> <a>G</a>" },
+        { "29":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>Z</a> <a>Fr32</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>unt</span> ] <span class='rdg'>÷nd <a>O</a> vnde wenic <a>Fr32</a></span>" },
         { "01":"<span class='lem'>wir uns</span> ] <span class='rdg'>ê wir wir <a>Fr32</a></span>" },
@@ -93,17 +107,15 @@
         { "28":"<span class='lem'>nâhet</span> ] <span class='rdg'>nahent <a>O</a> gehit irczu <a>M</a></span>" },
         { "29":"<span class='lem'>dô</span> ] <span class='rdg'>alles <a>O</a> <a>Q</a> (<a>Z</a> <a>Fr32</a>) alsus <a>L</a> dannoch <a>M</a></span>" },
         { "30":"<span class='lem'>selbe</span> ] <span class='rdg'>selber <a>L</a> selben <a>M</a> (<a>Q</a>) <span class='note'>om.</span> <a>Z</a> danne <a>Fr32</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"9\">G</a></li><li><a data-thirties=\"9\">O</a></li><li><a data-thirties=\"9\">L</a></li><li><a data-thirties=\"9\">M</a></li><li><a data-thirties=\"9\">Q</a></li><li><a data-thirties=\"9\">Z</a></li><li><a data-thirties=\"9\">Fr32</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>O</a> <a>M</a> <a>Z</a>" },
-        { "08":"<span class='note'>Versal</span> <a>Fr32</a>" },
-        { "13":"<span class='note'>Initiale</span> <a>G</a>" },
-        { "29":"<span class='note'>Initiale</span> <a>L</a> <a>Q</a> <a>Z</a> <a>Fr32</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"9\">T</a></li><li><a data-thirties=\"9\">U</a></li><li><a data-thirties=\"9\">V</a></li></ul>",
+      "structure": [
+        { "17":"<span class='note'>Versal</span> <a>T</a>" },
+        { "29":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" }
+      ],
       "reading": [
         { "03":"<span class='lem'>verlâzen</span> ] <span class='rdg'>Gelazen <a>U</a></span>" },
         { "04":"<span class='lem'>glîchez</span> ] <span class='rdg'>glîches <a>T</a> gelichin <a>U</a> geliche <a>V</a></span>" },
@@ -126,19 +138,7 @@
         { "27":"<span class='lem'>daz</span> ] <span class='rdg'>Dar <a>U</a></span>" },
         { "28":"<span class='rdg'>nv nahet [*]: mir vrlobes tag <a>V</a></span>" },
         { "29":"<span class='lem'>alles</span> ] <span class='rdg'>allez <a>T</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"9\">T</a></li><li><a data-thirties=\"9\">U</a></li><li><a data-thirties=\"9\">V</a></li></ul>",
-      "structure": [
-        { "17":"<span class='note'>Versal</span> <a>T</a>" },
-        { "29":"<span class='note'>Initiale</span> <a>T</a> <a>U</a> <a>V</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

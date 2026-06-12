@@ -1,22 +1,31 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
-      "reading": [
-        { "01":"<span class='lem'>Poydiconjunz</span> ] <span class='rdg'>Poydiconivnz <a>D</a></span>" },
-        { "07":"<span class='lem'>Meljacanz</span> ] <span class='rdg'>Meliacanz <a>D</a></span>" },
-        { "09":"<span class='lem'>möhtet</span> ] <span class='rdg'>mohtet <a>D</a></span>" },
-        { "17":"<span class='lem'>Liz</span> ] <span class='rdg'>Lyz <a>D</a></span>" },
-        { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>Obîe <a>D</a></span>" }
-      ],
       "handle": "*D",
       "distribution": "<ul><li><a data-thirties=\"359\">D</a></li></ul>",
       "structure": [
         { "01":"<span class='note'>Initiale</span> <a>D</a>" },
         { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
         { "24":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
+      "reading": [
+        { "01":"<span class='lem'>Poydiconjunz</span> ] <span class='rdg'>Poydiconivnz <a>D</a></span>" },
+        { "07":"<span class='lem'>Meljacanz</span> ] <span class='rdg'>Meliacanz <a>D</a></span>" },
+        { "09":"<span class='lem'>möhtet</span> ] <span class='rdg'>mohtet <a>D</a></span>" },
+        { "17":"<span class='lem'>Liz</span> ] <span class='rdg'>Lyz <a>D</a></span>" },
+        { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>Obîe <a>D</a></span>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"359\">m</a></li><li><a data-thirties=\"359\">n</a></li><li><a data-thirties=\"359\">o</a></li></ul>",
+      "structure": [  ],
       "reading": [
         { "01":"<span class='rdg'><span class='note'>Die Verse 359.1-4 fehlen</span> <a>n</a> <a>o</a></span>" },
         { "01":"<span class='lem'>Poidiconiunz</span> ] <span class='rdg'>poidocunnivnz <a>m</a> </span>" },
@@ -46,12 +55,16 @@
         { "29":"<span class='lem'>iuwerre</span> ] <span class='rdg'>yre <a>m</a> ir <a>n</a> <a>o</a></span>" },
         { "30":"<span class='lem'>vrowe</span> ] <span class='rdg'>fro̽wew <a>m</a></span>" },
         { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>obye <a>n</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"359\">m</a></li><li><a data-thirties=\"359\">n</a></li><li><a data-thirties=\"359\">o</a></li></ul>",
-      "structure": [  ]
+      ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"359\">G</a></li><li><a data-thirties=\"359\">I</a></li><li><a data-thirties=\"359\">O</a></li><li><a data-thirties=\"359\">L</a></li><li><a data-thirties=\"359\">M</a></li><li><a data-thirties=\"359\">Q</a></li><li><a data-thirties=\"359\">R</a></li><li><a data-thirties=\"359\">Z</a></li><li><a data-thirties=\"359\">Fr22</a> <span>(359.19-30)</span></li><li><a data-thirties=\"359\">Fr39</a> <span>(359.1-2)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>M</a>" },
+        { "11":"<span class='note'>Initiale</span> <a>I</a> <a>O</a> <a>Q</a> <a>Z</a>" },
+        { "11":"<span class='note'>Capitulumzeichen</span> <a>R</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Poydeconiunz</span> ] <span class='rdg'>poydekoniunz <a>G</a> poydokomunz <a>I</a> Poydekomvnz <a>O</a> Poy de Conivnz <a>L</a> (<a>Fr39</a>) poide kvnivnz <a>M</a> poydekonvnz <a>Q</a> poẏdekomivnz <a>R</a> poidekonivnz <a>Z</a> </span>" },
         { "02":"<span class='rdg'><span class='note'>Vers 359.2 fehlt</span> <a>Q</a></span>" },
@@ -111,16 +124,15 @@
         { "30":"<span class='lem'>wils</span> ] <span class='rdg'>wil sin <a>I</a> Wil ichs <a>Q</a></span>" },
         { "30":"<span class='lem'>jehen</span> ] <span class='rdg'>liegen <a>O</a></span>" },
         { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>obi <a>I</a> Obye <a>O</a> (<a>R</a>) oblie <a>Q</a> frow obye <a>Z</a> Obîe <a>Fr22</a> </span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"359\">G</a></li><li><a data-thirties=\"359\">I</a></li><li><a data-thirties=\"359\">O</a></li><li><a data-thirties=\"359\">L</a></li><li><a data-thirties=\"359\">M</a></li><li><a data-thirties=\"359\">Q</a></li><li><a data-thirties=\"359\">R</a></li><li><a data-thirties=\"359\">Z</a></li><li><a data-thirties=\"359\">Fr22</a> <span>(359.19-30)</span></li><li><a data-thirties=\"359\">Fr39</a> <span>(359.1-2)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>M</a>" },
-        { "11":"<span class='note'>Initiale</span> <a>I</a> <a>O</a> <a>Q</a> <a>Z</a>" },
-        { "11":"<span class='note'>Capitulumzeichen</span> <a>R</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"359\">T</a></li><li><a data-thirties=\"359\">V</a></li><li><a data-thirties=\"359\">W</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a>" },
+        { "15":"<span class='note'>Versal</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>Poydekuniunz</span> ] <span class='rdg'>poydekvmvns <a>V</a> poyde guniuns <a>W</a></span>" },
         { "02":"<span class='lem'>Lunverunz</span> ] <span class='rdg'>lvnuernvns <a>V</a> lumiueruns <a>W</a></span>" },
@@ -154,19 +166,7 @@
         { "30":"<span class='lem'>es</span> ] <span class='rdg'>sy es <a>W</a></span>" },
         { "30":"<span class='lem'>jehen</span> ] <span class='rdg'>iehen vrowe <a>V</a></span>" },
         { "30":"<span class='lem'>Obie</span> ] <span class='rdg'>Obŷe <a>T</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"359\">T</a></li><li><a data-thirties=\"359\">V</a></li><li><a data-thirties=\"359\">W</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>T</a> <a>W</a>" },
-        { "15":"<span class='note'>Versal</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }

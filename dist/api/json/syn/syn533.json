@@ -1,6 +1,20 @@
 {
+  "_meta": {
+    "task": "metadata-syn-apps",
+    "generated-by": "parzival-static-api/src/generate.xsl",
+    "generated-on": "2026-06-01T16:41:53.697502237+02:00",
+    "description": "Apparatus information (distribution, structural, readings)."
+  },
   "versions": [
     {
+      "handle": "*D",
+      "distribution": "<ul><li><a data-thirties=\"533\">D</a></li><li><a data-thirties=\"533\">Fr7</a> <span>(533.1-18)</span></li><li><a data-thirties=\"533\">Fr31</a> <span>(533.3-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Fr7</a>" },
+        { "09":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
+        { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>minnen</span> ] <span class='rdg'>minne <a>Fr7</a></span>" },
         { "04":"<span class='lem'>riwen</span> ] <span class='rdg'>riͮwe <a>Fr31</a></span>" },
@@ -21,17 +35,15 @@
         { "29":"<span class='lem'>wanc</span> ] <span class='rdg'>wanke <a>Fr31</a></span>" },
         { "30":"<span class='lem'>ist</span> ] <span class='rdg'><span class='note'>om.</span> <a>Fr31</a></span>" },
         { "30":"<span class='lem'>hôch</span> ] <span class='rdg'>zoch <a>Fr31</a></span>" }
-      ],
-      "handle": "*D",
-      "distribution": "<ul><li><a data-thirties=\"533\">D</a></li><li><a data-thirties=\"533\">Fr7</a> <span>(533.1-18)</span></li><li><a data-thirties=\"533\">Fr31</a> <span>(533.3-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>D</a> <a>Fr7</a>" },
-        { "09":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "15":"<span class='note'>Majuskel</span> <a>D</a>" },
-        { "21":"<span class='note'>Majuskel</span> <a>D</a>" }
       ]
     },
     {
+      "handle": "*m",
+      "distribution": "<ul><li><a data-thirties=\"533\">m</a></li><li><a data-thirties=\"533\">n</a></li><li><a data-thirties=\"533\">o</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
+        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>hêr minnen druc</span> ] <span class='rdg'>her mynen truͦg <a>n</a> [herminen]: hereminen truͦg <a>o</a></span>" },
         { "02":"<span class='lem'>tuot der</span> ] <span class='rdg'>truͦg <a>o</a></span>" },
@@ -54,15 +66,15 @@
         { "23":"<span class='lem'>sî</span> ] <span class='rdg'>sigent <a>n</a></span>" },
         { "27":"<span class='lem'>verdrüzze</span> ] <span class='rdg'>vertros <a>o</a></span>" },
         { "28":"<span class='lem'>slüzze</span> ] <span class='rdg'>slos <a>o</a></span>" }
-      ],
-      "handle": "*m",
-      "distribution": "<ul><li><a data-thirties=\"533\">m</a></li><li><a data-thirties=\"533\">n</a></li><li><a data-thirties=\"533\">o</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>m</a>" },
-        { "01":"<span class='note'>Capitulumzeichen</span> <a>n</a>" }
       ]
     },
     {
+      "handle": "*G",
+      "distribution": "<ul><li><a data-thirties=\"533\">G</a></li><li><a data-thirties=\"533\">I</a></li><li><a data-thirties=\"533\">L</a></li><li><a data-thirties=\"533\">M</a></li><li><a data-thirties=\"533\">Z</a></li><li><a data-thirties=\"533\">Fr19</a> <span>(533.23-30)</span></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a>" },
+        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
+      ],
       "reading": [
         { "02":"<span class='lem'>ir</span> ] <span class='rdg'>Je <a>M</a></span>" },
         { "02":"<span class='lem'>vröuden</span> ] <span class='rdg'>freude <a>I</a> (<a>M</a> <a>Z</a>) [*]: mẏnne <a>L</a></span>" },
@@ -107,15 +119,16 @@
         { "30":"<span class='lem'>minne</span> ] <span class='rdg'><span class='note'>om.</span> <a>I</a></span>" },
         { "30":"<span class='lem'>obe</span> ] <span class='rdg'>uff <a>M</a></span>" },
         { "30":"<span class='lem'>hôch</span> ] <span class='rdg'>vil hoch <a>Fr19</a></span>" }
-      ],
-      "handle": "*G",
-      "distribution": "<ul><li><a data-thirties=\"533\">G</a></li><li><a data-thirties=\"533\">I</a></li><li><a data-thirties=\"533\">L</a></li><li><a data-thirties=\"533\">M</a></li><li><a data-thirties=\"533\">Z</a></li><li><a data-thirties=\"533\">Fr19</a> <span>(533.23-30)</span></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Initiale</span> <a>G</a> <a>I</a> <a>L</a> <a>Z</a>" },
-        { "15":"<span class='note'>Initiale</span> <a>I</a>" }
       ]
     },
     {
+      "handle": "*T",
+      "distribution": "<ul><li><a data-thirties=\"533\">T</a></li><li><a data-thirties=\"533\">U</a></li><li><a data-thirties=\"533\">V</a></li><li><a data-thirties=\"533\">W</a></li><li><a data-thirties=\"533\">O</a></li><li><a data-thirties=\"533\">Q</a></li><li><a data-thirties=\"533\">R</a></li><li><a data-thirties=\"533\">Fr40</a></li></ul>",
+      "structure": [
+        { "01":"<span class='note'>Majuskel</span> <a>T</a>" },
+        { "07":"<span class='note'>Initiale</span> <a>O</a> <a>Fr40</a>" },
+        { "21":"<span class='note'>Majuskel</span> <a>T</a>" }
+      ],
       "reading": [
         { "01":"<span class='lem'>hêr minnen druc</span> ] <span class='rdg'>her minnen trug <a>V</a> wer minne truͦg <a>R</a></span>" },
         { "02":"<span class='lem'>ir</span> ] <span class='rdg'>Jn <a>R</a></span>" },
@@ -174,20 +187,7 @@
         { "29":"<span class='lem'>wanc</span> ] <span class='rdg'>wane <a>W</a></span>" },
         { "29":"<span class='lem'>ie</span> ] <span class='rdg'>do <a>O</a></span>" },
         { "30":"<span class='lem'>diu</span> ] <span class='rdg'>die <a>T</a></span>" }
-      ],
-      "handle": "*T",
-      "distribution": "<ul><li><a data-thirties=\"533\">T</a></li><li><a data-thirties=\"533\">U</a></li><li><a data-thirties=\"533\">V</a></li><li><a data-thirties=\"533\">W</a></li><li><a data-thirties=\"533\">O</a></li><li><a data-thirties=\"533\">Q</a></li><li><a data-thirties=\"533\">R</a></li><li><a data-thirties=\"533\">Fr40</a></li></ul>",
-      "structure": [
-        { "01":"<span class='note'>Majuskel</span> <a>T</a>" },
-        { "07":"<span class='note'>Initiale</span> <a>O</a> <a>Fr40</a>" },
-        { "21":"<span class='note'>Majuskel</span> <a>T</a>" }
       ]
     }
-  ],
-  "_meta": {
-    "generated-by": "parzival-static-api/src/generate.xsl",
-    "task": "metadata-syn-apps",
-    "generated-on": "2026-05-22T13:16:10.138703846+02:00",
-    "description": "Apparatus information (distribution, structural, readings)."
-  }
+  ]
 }
