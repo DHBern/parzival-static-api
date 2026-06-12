@@ -57,9 +57,10 @@
         </model>
                     <model predicate="@type='Initiale'" behaviour="inline" cssClass="initial" useSourceRendition="true">
             <outputRendition xml:space="preserve">
-            
+
             </outputRendition>
         </model>
+                    <model predicate="@subtype='Versal'" behaviour="inline" cssClass="versal"/>
                 </elementSpec>
             <elementSpec ident="name" mode="add">
                     <model behaviour="inline">
