@@ -350,7 +350,10 @@ declare function model:apply($config as map(*), $input as node()*) {
                                 if (@rend='rasur') then
                                     html:inline($config, ., ("tei-hi3", "rasure", css:map-rend-to-class(.)), .)
                                 else
-                                    $config?apply($config, ./node())
+                                    if (@rend='Versal') then
+                                        html:inline($config, ., ("tei-hi4", "versal", css:map-rend-to-class(.)), .)
+                                    else
+                                        $config?apply($config, ./node())
                     case element(role) return
                         html:block($config, ., ("tei-role", css:map-rend-to-class(.)), .)
                     case element(code) return
@@ -696,10 +699,13 @@ declare function model:apply($config as map(*), $input as node()*) {
                                                     if (@subtype='Prachtinitiale') then
                                                         html:inline($config, ., ("tei-seg8", "glory-initial", css:map-rend-to-class(.)), .)
                                                     else
-                                                        if (@type='Initiale') then
-                                                            html:inline($config, ., css:get-rendition(., ("tei-seg9", "initial", css:map-rend-to-class(.))), .)
+                                                        if (@subtype='Versal') then
+                                                            html:inline($config, ., ("tei-seg9", "versal", css:map-rend-to-class(.)), .)
                                                         else
-                                                            $config?apply($config, ./node())
+                                                            if (@type='Initiale') then
+                                                                html:inline($config, ., css:get-rendition(., ("tei-seg10", "initial", css:map-rend-to-class(.))), .)
+                                                            else
+                                                                $config?apply($config, ./node())
                     case element(profileDesc) return
                         html:omit($config, ., ("tei-profileDesc", css:map-rend-to-class(.)), .)
                     case element(row) return
