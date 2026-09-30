@@ -128,6 +128,13 @@
     'fr72' : 'Fr. 72'
     }"/>
   
+    <xsl:variable name="witness-order" as="xs:string*">
+      <xsl:sequence select="('d', 'mk', 'nk', 'ok', 'g', 'i', 'l', 'm', 'o', 'q', 'r', 't', 'u', 'v', 'vv', 'w', 'z')"/>
+      <xsl:for-each select="1 to 72">
+        <xsl:sequence select="'fr' || ."/>
+      </xsl:for-each>
+    </xsl:variable>
+  
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b></xd:b></xd:p>
@@ -171,6 +178,7 @@
               <xsl:sort select="base-uri()"/>
               <xsl:variable name="sigil" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
               <map>
+                  <number key="order">{index-of($witness-order, $sigil)}</number>
                 <string key="handle">{$sigil}</string>
                 <string key="sigil">{if (matches($sigil,'[a-z]k'))
                   then $sigil => substring-before('k')
@@ -215,6 +223,7 @@
               <xsl:sort select="base-uri() => replace('.*/fr(\d+)\.xml$','$1') => number() => format-number('00')"/>
               <xsl:variable name="handle" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
               <map>
+                  <number key="order">{index-of($witness-order, $handle)}</number>
                 <string key="handle">{$handle}</string>
                 <string key="sigil">{map:get($fragment-sigla,$handle) => replace('(Fr\.\s\d+).*','$1')}</string>
                 <string key="aka">{TEI/teiHeader//msFrag/msIdentifier/idno => string-join(', ') => replace($quot,'')}</string>
