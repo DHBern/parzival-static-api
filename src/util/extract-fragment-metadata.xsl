@@ -168,7 +168,12 @@
           <array key="codices">
             <xsl:variable name="codices-uris" select="uri-collection($path_src||'data/original/transcription/?select=*.xml')[not(matches(.,'fr\d*\.xml'))]"/>
             <xsl:for-each select="$codices-uris ! doc(.)">
-              <xsl:sort select="base-uri()"/>
+              <!--<xsl:sort select="base-uri()"/>-->
+              <xsl:sort select="
+                index-of(
+                  ('d', 'mk', 'nk', 'ok', 'g', 'i', 'l', 'm', 'o','q', 'r', 't', 'u', 'v', 'vv', 'w', 'z'),
+                  base-uri() => replace('.*/([^/]+)\.xml$', '$1')
+                )"/>
               <xsl:variable name="sigil" as="xs:string" select="base-uri() => replace('.+/(.+)\.xml','$1')"/>
               <map>
                 <string key="handle">{$sigil}</string>
