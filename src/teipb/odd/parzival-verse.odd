@@ -48,7 +48,7 @@
                 </elementSpec>
                 <elementSpec ident="cb" mode="change">
                     <model behaviour="block">
-            <param name="label" value="let $id := @xml:id let $match := replace($id, '^([a-zA-Z]+\d*)(\d{3})([rv]?)([a-z])$', '$1|$2|$3|$4') let $parts := tokenize($match, '\|') return concat(   if ($parts[3] = 'r' or $parts[3] = 'v') then 'Bl. ' else 'S. ',   number($parts[2]),   $parts[3],   ', Spalte ',   $parts[4] )"/>
+            <param name="label" value="let $id := @xml:id let $match := replace(   $id,   '^([a-zA-Z]+\d*)(\d{3})([rvxy]?)([a-z])$',   '$1|$2|$3|$4' ) let $parts := tokenize($match, '\|') return concat(   if ($parts[3] = ('r', 'v', 'x', 'y')) then 'Bl. ' else 'S. ',   number($parts[2]),   $parts[3],   ', Spalte ',   $parts[4] )"/>
             <pb:template xmlns="" xml:space="preserve"><p>[[label]]</p></pb:template>
         </model>
                 </elementSpec>
