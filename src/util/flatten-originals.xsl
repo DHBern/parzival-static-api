@@ -75,7 +75,7 @@
           <xsl:apply-templates select="$pass2" mode="lowercase-xml-ids"/>
       </xsl:variable>
       
-      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="false">
+      <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="true">
         <xsl:sequence select="$pass3"/>
       </xsl:result-document>
     </xsl:for-each>

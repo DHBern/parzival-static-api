@@ -19,7 +19,7 @@
     </xd:doc>
 
     <xsl:mode on-no-match="shallow-copy"/>
-
+    
     <xsl:template match="physDesc[parent::msDesc[msIdentifier/altIdentifier/@type='Parzival-Projekt']]" mode="pass-through">
         <xsl:param name="idno" as="xs:string?"/>
         <xsl:variable name="idno" as="xs:string" select="$idno => substring-before('.xml') => normalize-space()"/>
@@ -37,7 +37,7 @@
         <xsl:param name="idno" as="xs:string?"/>
         <xsl:variable name="idno" as="xs:string" select="$idno => substring-before('.xml') => normalize-space()"/>
         <xsl:copy>
-            <xsl:copy-of select="msIdentifier"/>
+            <xsl:apply-templates select="msIdentifier"/>
             <xsl:if test="not(matches($idno => substring-before('.xml'),'fr'))">
                 <physDesc xmlns="http://www.tei-c.org/ns/1.0">
                     <objectDesc xmlns="http://www.tei-c.org/ns/1.0">
@@ -46,6 +46,18 @@
                 </physDesc>
             </xsl:if>
             <xsl:apply-templates select="node() except msIdentifier"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="text" mode="pass-through">
+        <xsl:param name="task"/>
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <!-- passed through originals are not indented, so no need for the space preserve signal -->
+            <xsl:if test="not($task='pass-through-originals')">
+                <xsl:attribute name="xml:space" select="'preserve'"/>
+            </xsl:if>
+            <xsl:apply-templates mode="pass-through"/>
         </xsl:copy>
     </xsl:template>
 

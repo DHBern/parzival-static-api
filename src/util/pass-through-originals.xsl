@@ -20,6 +20,8 @@
   
   <xsl:mode name="pass-through" on-no-match="shallow-copy"/>
   
+  <xsl:param name="task"/>
+  
   <xd:doc scope="template">
     <xd:desc>
       <xd:p><xd:b>pass-through-originals</xd:b></xd:p>
@@ -44,6 +46,7 @@
       <xsl:result-document href="{$path_api}/tei/original/{. => substring-after('original/')}" method="xml" encoding="UTF-8" indent="false">
         <xsl:apply-templates select="doc(.)/node()" mode="pass-through">
           <xsl:with-param name="idno" select="$idno"/>
+          <xsl:with-param name="task" select="$task"/>
         </xsl:apply-templates>
       </xsl:result-document>
     </xsl:for-each>
