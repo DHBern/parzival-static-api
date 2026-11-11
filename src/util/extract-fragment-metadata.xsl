@@ -211,6 +211,8 @@
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
+                <string key="citation_doi">{$citations.json?*[?id=$sigil]?citation_doi}</string>
+                <string key="citation_scope">{$citations.json?*[?id=$sigil]?citation_scope}</string>
               </map>
             </xsl:for-each>
           </array>
@@ -249,6 +251,7 @@
                   </xsl:variable>
                   <xsl:sequence select="serialize($info-h2,$serialization-parameters/output:serialization-parameters) => normalize-space()"/>
                 </string>
+                <string key="citation_doi">{$citations.json?*[?id=$handle]?citation_doi}</string>
               </map>
             </xsl:for-each>
           </array>

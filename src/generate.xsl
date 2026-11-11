@@ -25,6 +25,7 @@
   
   <xsl:param name="do" as="xs:string" static="true" select="''"/>
   <xsl:param name="all" as="xs:boolean" static="true" select="false()"/>
+  <xsl:param name="doi-event" as="xs:string" static="true" select="'draft'"/>
   
   <xsl:param name="verbose" as="xs:boolean" static="true" select="false()"/>
   <xsl:param name="repository" as="xs:string" select="'parzival-static-api'"/>
@@ -41,9 +42,14 @@
   <xsl:include href="util/metadata-syn-apps.xsl"/>
   <xsl:include href="util/books-by-dreissiger.xsl"/>
   <xsl:include href="util/build-index.xsl"/>
+  <xsl:include href="util/citations-json.xsl"/>
   
   <xsl:variable name="apos">&apos;</xsl:variable>
   <xsl:variable name="quot">&quot;</xsl:variable>
+  
+  <xsl:variable name="citations.json" as="array(*)">
+    <xsl:sequence select="dsl:citation.json()"/>
+  </xsl:variable>
   
   <xd:doc>
     <xd:desc>Initial template.</xd:desc>
@@ -144,6 +150,23 @@
       <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
       <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
       <xsl:with-param name="task" as="xs:string" select="'build-index'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="citations-json" use-when="$all or $do => contains-token('citations-json')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="task" as="xs:string" select="'citations-json'"/>
+    </xsl:call-template>
+    
+    <xsl:call-template name="citations-doi" use-when="$all or $do => contains-token('citations-doi')">
+      <xsl:with-param name="repository" as="xs:string" select="$repository"/>
+      <xsl:with-param name="path_src" as="xs:string" select="$path_src"/>
+      <xsl:with-param name="path_api" as="xs:string" select="$path_api"/>
+      <xsl:with-param name="verbose" as="xs:boolean" select="$verbose"/>
+      <xsl:with-param name="doi-event" as="xs:string" select="$doi-event"/>
+      <xsl:with-param name="task" as="xs:string" select="'citations-doi'"/>
     </xsl:call-template>
     
     <xsl:if test="$do='' and not($all)">

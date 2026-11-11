@@ -49,6 +49,22 @@
         </xsl:copy>
     </xsl:template>
     
+    <xsl:template match="msIdentifier" mode="pass-through">
+        <xsl:param name="idno"/>
+        <xsl:param name="task"/>
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates mode="pass-through"/>
+            <!-- no DOIs inserted into originals -->
+            <xsl:if test="not($task='pass-through-originals')">
+                <altIdentifier type="doi" xmlns="http://www.tei-c.org/ns/1.0">
+                    <xsl:variable name="id" select="$idno => substring-before('.xml')"/>
+                    <idno type="doi">{$citations.json?*[?id=$id]?citation_doi}</idno>
+                </altIdentifier>
+            </xsl:if>
+        </xsl:copy>
+    </xsl:template>
+    
     <xsl:template match="text" mode="pass-through">
         <xsl:param name="task"/>
         <xsl:copy>
