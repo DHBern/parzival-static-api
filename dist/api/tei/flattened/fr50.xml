@@ -1,26 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr50</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>2017</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <idno>fr50</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr50">
-                                <title type="main">Fr. 50 (G<hi rend="sup">λ</hi> und j):</title>
-                                <list>
-                                    <item>1. München, Bayerische Staatsbibliothek, Cgm 5249/3a (j)</item>
-                                    <item>2. München, Bayerische Staatsbibliothek, Cgm 194/IV (G<hi rend="sup">λ</hi>)</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr50</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fr50</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr50">
+                        <title type="main">Fr. 50 (G<hi rend="sup">λ</hi> und j):</title>
+                        <list>
+                           <item>1. München, Bayerische Staatsbibliothek, Cgm 5249/3a (j)</item>
+                           <item>2. München, Bayerische Staatsbibliothek, Cgm 194/IV (G<hi rend="sup">λ</hi>)</item>
+                        </list>
                                 Pergament
 
                                 – 1. 1 Querstreifen eines weiteren Blattes, 2. 1 Blatt
@@ -38,64 +43,65 @@
                                 – Fassungszugehörigkeit: wohl *G
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1045">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"München"</settlement>
-            <repository>"Bayerische Staatsbibliothek"</repository>
-            <idno>"Cgm 5249/3a"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr50A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="sr">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"München"</settlement>
-            <repository>"Bayerische Staatsbibliothek"</repository>
-            <idno>"Cgm 194/IV"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr50B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"München"</settlement>
+                     <repository>"Bayerische Staatsbibliothek"</repository>
+                     <idno>"Cgm 5249/3a"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr50A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"München"</settlement>
+                     <repository>"Bayerische Staatsbibliothek"</repository>
+                     <idno>"Cgm 194/IV"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr50B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 79.09-79.12, 80.27-80.30, 82.15-82.18, 84.03-84.06</note>
 <note>Transkribiert von OBA ab Farbfotos (Studio). August 2009.</note>

@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr20</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>2017</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Berlin</settlement>
-          <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
-          <idno>Ms. germ. fol. 734 Nr. 4</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>fr20</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr20">
-                                <title type="main">Fr. 20 (G<hi rend="sup">b</hi>):</title>
-                                <list>
-                                    <item>Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 4</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr20</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
+                  <idno>Ms. germ. fol. 734 Nr. 4</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>fr20</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr20">
+                        <title type="main">Fr. 20 (G<hi rend="sup">b</hi>):</title>
+                        <list>
+                           <item>Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 4</item>
+                        </list>
 
                                 Pergament
 
@@ -45,45 +48,46 @@
                                 – Fassungszugehörigkeit: *G [*GI]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1000">Handschriftencensus</ref>.
-                            </p></objectDesc>
-        <handDesc>
-        <handNote xml:id="ls1">Leser</handNote>
-        <handNote xml:id="lsu" cert="unknown">Leser</handNote>
-        <handNote xml:id="sr">Schreiber</handNote>
-        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="ls1">Leser</handNote>
+                     <handNote xml:id="lsu" cert="unknown">Leser</handNote>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                     <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 683.26-695.03, 717.21-729.08</note>
 <note>Transkribiert von MiGe ab Farbfotos (Studio) im Juni 2014</note>

@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr25</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>15.06.24</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Berlin</settlement>
-          <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
-          <idno>Ms. germ. fol. 734 Nr. 9</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>fr25</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr25">
-                                <title type="main">Fr. 25 (G<hi rend="sup">g</hi>):</title>
-                                <list>
-                                    <item>Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 9</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr25</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>15.06.24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek Preußischer Kulturbesitz</repository>
+                  <idno>Ms. germ. fol. 734 Nr. 9</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>fr25</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr25">
+                        <title type="main">Fr. 25 (G<hi rend="sup">g</hi>):</title>
+                        <list>
+                           <item>Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 9</item>
+                        </list>
                                 Pergament
 
                                 – 1 Blatt (aus 3 Teilen zusammengesetzt) und 1 Doppelblatt
@@ -44,46 +49,47 @@
                                 – Fassungszugehörigkeit: *G (436.21–441.12) und *T (558.3–567.20) [*OQR]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1039">Handschriftencensus</ref>.
-                            </p></objectDesc>
-        <handDesc>
-        <handNote xml:id="lsu" cert="unknown">Leser</handNote>
-        <handNote xml:id="sr">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="lsu" cert="unknown">Leser</handNote>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 436.(21)22-441.12; 558.03-567.20</note>
 <note>Abschnitt 436.(21)22-441.12 transkribiert von YCh am 30.03.2012</note>

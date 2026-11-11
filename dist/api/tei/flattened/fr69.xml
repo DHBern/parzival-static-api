@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr69</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>26.01.26</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Solothurn</settlement>
-          <repository>Staatsarchiv</repository>
-          <idno>Handschriftenfragmente R 1.4.234 (2)</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>fr69</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr69">
-                                <title type="main"> Fr. 69:</title>
-                                <list>
-                                    <item>Solothurn, Staatsarchiv, Handschriftenfragmente R 1.4.234 (2)</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr69</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>26.01.26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Solothurn</settlement>
+                  <repository>Staatsarchiv</repository>
+                  <idno>Handschriftenfragmente R 1.4.234 (2)</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>fr69</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr69">
+                        <title type="main"> Fr. 69:</title>
+                        <list>
+                           <item>Solothurn, Staatsarchiv, Handschriftenfragmente R 1.4.234 (2)</item>
+                        </list>
                                 Pergament
 
                                 – 42 Querstreifen
@@ -46,45 +51,46 @@
                                 – Fassungszugehörigkeit: wohl *m
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/15072">Handschriftencensus</ref>.
-                            </p></objectDesc>
-        <handDesc>
-        <handNote xml:id="sr">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 165.11-752.26</note>
 <note>Transkribiert von GVi am ??.??.???? ab ???.</note>

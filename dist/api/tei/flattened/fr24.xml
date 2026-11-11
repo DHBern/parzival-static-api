@@ -1,29 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr24</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>14.11.22</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>fr24</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr24">
-                                <title type="main">Fr. 24 (Gᶠ)</title>
-                                <list>
-                                    <item>1. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 8</item>
-                                    <item>2. Oberhollabrunn, Knabenseminar, ohne Signatur, verschollen</item>
-                                    <item>3. Amberg, Staatliche Provinzialbibliothek, 8° Ms. 1</item>
-                                    <item>4. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 40</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr24</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>14.11.22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr24</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr24">
+                        <title type="main">Fr. 24 (Gᶠ)</title>
+                        <list>
+                           <item>1. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 734 Nr. 8</item>
+                           <item>2. Oberhollabrunn, Knabenseminar, ohne Signatur, verschollen</item>
+                           <item>3. Amberg, Staatliche Provinzialbibliothek, 8° Ms. 1</item>
+                           <item>4. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 40</item>
+                        </list>
                                 Pergament
 
                                 – insgesamt 7 Blätter, davon 2 Doppel- und 3 Einzelblätter
@@ -40,92 +47,93 @@
 
                                 – Fassungszugehörigkeit: *G [wohl *LM]
 
-                                – vgl. <ref target="http://www.handschriftencensus.de/1037">Handschriftencensus</ref>.</p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Berlin"</settlement>
-            <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
-            <idno>"Ms. germ. fol. 734 Nr. 8"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr24A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="sr">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Oberhollabrunn"</settlement>
-            <repository>"Knabenseminar"</repository>
-            <idno>"ohne Signatur"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr24B</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <objectDesc>
-          <p>Das Fragment ist verschollen.</p>
-          </objectDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Amberg"</settlement>
-            <repository>"Staatliche Provinzialbibliothek"</repository>
-            <idno>"8° Ms. 1"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr24C</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Berlin"</settlement>
-            <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
-            <idno>"Ms. germ. fol. 923 Nr. 40"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr24D</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                                – vgl. <ref target="http://www.handschriftencensus.de/1037">Handschriftencensus</ref>.</p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Berlin"</settlement>
+                     <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
+                     <idno>"Ms. germ. fol. 734 Nr. 8"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr24A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Oberhollabrunn"</settlement>
+                     <repository>"Knabenseminar"</repository>
+                     <idno>"ohne Signatur"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr24B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <objectDesc>
+                        <p>Das Fragment ist verschollen.</p>
+                     </objectDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Amberg"</settlement>
+                     <repository>"Staatliche Provinzialbibliothek"</repository>
+                     <idno>"8° Ms. 1"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr24C</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Berlin"</settlement>
+                     <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
+                     <idno>"Ms. germ. fol. 923 Nr. 40"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr24D</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 369.06-374.02</note>
 <note>Abschnitt 676.08-681.04</note>

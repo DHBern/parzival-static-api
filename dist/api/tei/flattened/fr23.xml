@@ -1,27 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr23</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>15.06.24</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>fr23</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr23">
-                                <title type="main">Fr. 23 (G<hi rend="sup">e</hi>):</title>
-                                <list>
-                                    <item>1. Naumburg, Domstiftsbibliothek, Fragment 64</item>
-                                    <item>2. Wrocław, Biblioteka Uniwersytecka, Cod. Mil. II 441 membr. (früher Görlitz, Milichsche Bibliothek, Cod. Ch. Fol. 441)</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr23</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>15.06.24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr23</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr23">
+                        <title type="main">Fr. 23 (G<hi rend="sup">e</hi>):</title>
+                        <list>
+                           <item>1. Naumburg, Domstiftsbibliothek, Fragment 64</item>
+                           <item>2. Wrocław, Biblioteka Uniwersytecka, Cod. Mil. II 441 membr. (früher Görlitz, Milichsche Bibliothek, Cod. Ch. Fol. 441)</item>
+                        </list>
                                 Pergament
 
                                 – 1. 4 Querstreifen eines Blattes/Doppelblattes, 2. 2 Doppelblätter
@@ -39,67 +46,68 @@
                                 – Fassungszugehörigkeit: *G [*LM]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1003">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Naumburg"</settlement>
-            <repository>"Domstiftsbibliothek"</repository>
-            <idno>"Fragment 64"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr23A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="sr">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Wrocław"</settlement>
-            <repository>"Biblioteka Uniwesytecka"</repository>
-            <idno>"Mil. II 441 membr."</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr23B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Naumburg"</settlement>
+                     <repository>"Domstiftsbibliothek"</repository>
+                     <idno>"Fragment 64"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr23A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Wrocław"</settlement>
+                     <repository>"Biblioteka Uniwesytecka"</repository>
+                     <idno>"Mil. II 441 membr."</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr23B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 222.08-14; 223.19-23; 224.29-225.03; 226.09-14; 249.15-17; 516.11-517.17; 517.21-518.27; 520.11-521.16; 553.28-555.04; 555.08-556.14; 556.18-557.24; 557.28-559.04; 570.05-571.08; 571.15-572.18; 572.26-573.29; 574.06-575.10; 586.17-587.21; 587.27-589.02; 589.09-590.14; 590.20-591.24</note>
 <note>Durch den Neufund (Naumburg) ist Bonath/Lomnitzer (1989) 1a jetzt 3a.</note>

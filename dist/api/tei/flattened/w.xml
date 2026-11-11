@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen w</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>29.05.26</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Göttingen</settlement>
-          <repository>Niedersächsische Staats- und Universitätsbibliothek</repository>
-          <idno>4 P GERM I, 8883 INC RARA</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>w</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_w">
-                                <title type="main">Druck W (Gᵠ)</title>
-                                <list>
-                                    <item>Druck von Johann Mentelin </item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen w</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>29.05.26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Göttingen</settlement>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek</repository>
+                  <idno>4 P GERM I, 8883 INC RARA</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>w</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_w">
+                        <title type="main">Druck W (Gᵠ)</title>
+                        <list>
+                           <item>Druck von Johann Mentelin </item>
+                        </list>
                                 Papier
 
                                 – 159 Blätter
@@ -45,57 +50,64 @@
 
                                 – Fassungszughörigkeit: *m (1.1–10.9, 28.28–41.9 und 761.15–827.30), *G (10.10–28.27) und *T (41.10–761.14)
 
-                                – vgl. <ref target="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm">Gesamtkatalog der Wiegendrucke</ref>.</p></objectDesc>
-        <handDesc>
-        <handNote xml:id="sr">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                                – vgl. <ref target="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm">Gesamtkatalog der Wiegendrucke</ref>.</p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Buch I</note>
 <note>Abschnitt 1.01-20.27 transkribiert von RSo im April 2003 nach den Richtlinien vom 25. Februar 2003 (Autopsie Wien).</note>

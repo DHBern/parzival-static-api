@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen vv</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>16.05.22</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Rom</settlement>
-          <repository>Biblioteca Casanatense</repository>
-          <idno>Mss. 1409</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>V'</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_vv">
-                                <title type="main">Hs. V' (G<hi rend="sup">δδ</hi>)</title>
-                                <list>
-                                    <item>Roma, Biblioteca Casanatense, Ms. 1409 (früher: A I 19; davor: Cod. Pal. germ. 317) [<ref target="https://dhbern.github.io/rappoltsteiner-parzifal">Digitalfaksimile</ref>]</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen vv</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>16.05.22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Rom</settlement>
+                  <repository>Biblioteca Casanatense</repository>
+                  <idno>Mss. 1409</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>V'</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_vv">
+                        <title type="main">Hs. V' (G<hi rend="sup">δδ</hi>)</title>
+                        <list>
+                           <item>Roma, Biblioteca Casanatense, Ms. 1409 (früher: A I 19; davor: Cod. Pal. germ. 317) [<ref target="https://dhbern.github.io/rappoltsteiner-parzifal">Digitalfaksimile</ref>]</item>
+                        </list>
                                 Pergament
 
                                 – III (Papier) + 181 Blätter + I (Papier)
@@ -45,58 +50,65 @@
 
                                 – Fassungszugehörigkeit: *m (734.1–827.30)
 
-                                – vgl. <ref target="http://www.handschriftencensus.de/5612">Handschriftencensus</ref>.</p></objectDesc>
-        <handDesc>
-        <handNote xml:id="sr">Schreiber</handNote>
-        <handNote xml:id="sr2">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                                – vgl. <ref target="http://www.handschriftencensus.de/5612">Handschriftencensus</ref>.</p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                     <handNote xml:id="sr2">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Buch XV/XVI/Epilog</note>
 <note>Autopsie der Verse 748.21 bis 755.30, Rom 10. 6. 2002 (MSt)</note>

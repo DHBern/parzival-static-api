@@ -1,27 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr48</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>2017</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <idno>fr48</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr48">
-                                <title type="main">Fr. 48 (G<hi rend="sup">ϑ</hi>):</title>
-                                <list>
-                                    <item>1. München, Bayerische Staatsbibliothek, Cgm 5249/3e</item>
-                                    <item>2. Nürnberg, Germanisches Nationalmuseum, Hs. 17439</item>
-                                    <item>3. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 41</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr48</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fr48</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr48">
+                        <title type="main">Fr. 48 (G<hi rend="sup">ϑ</hi>):</title>
+                        <list>
+                           <item>1. München, Bayerische Staatsbibliothek, Cgm 5249/3e</item>
+                           <item>2. Nürnberg, Germanisches Nationalmuseum, Hs. 17439</item>
+                           <item>3. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 41</item>
+                        </list>
                                 Pergament
 
                                 – insgesamt 10½; Blätter, darunter 4 Doppelblätter
@@ -39,89 +44,96 @@
                                 – Fassungszugehörigkeit: *G
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1725">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"München"</settlement>
-            <repository>"Bayerische Staatsbibliothek"</repository>
-            <idno>"Cgm 5249/3e"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr48A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="ls1">Leser</handNote>
-          <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
-          <handNote xml:id="sr">Schreiber</handNote>
-          <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Nürnberg"</settlement>
-            <repository>"Germanisches Nationalmuseum"</repository>
-            <idno>"Hs. 17439"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr48B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Berlin"</settlement>
-            <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
-            <idno>"Ms. germ. fol. 923 Nr. 41"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr48C</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"München"</settlement>
+                     <repository>"Bayerische Staatsbibliothek"</repository>
+                     <idno>"Cgm 5249/3e"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr48A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="ls1">Leser</handNote>
+                        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Nürnberg"</settlement>
+                     <repository>"Germanisches Nationalmuseum"</repository>
+                     <idno>"Hs. 17439"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr48B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Berlin"</settlement>
+                     <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
+                     <idno>"Ms. germ. fol. 923 Nr. 41"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr48C</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 90.07-90.15; 91.07-91.15; 100.07-102.06</note>
 <note>Transkribiert von OBA ab Farbfotos (Studio). August 2009.</note>

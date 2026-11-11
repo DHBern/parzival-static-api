@@ -1,26 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr32</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>2017</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <idno>fr32</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr32">
-                                <title type="main">Fr. 32 (G<hi rend="sup">r</hi>): </title>
-                                <list>
-                                    <item>1. Zürich, Zentralbibliothek, Cod. Car C 182</item>
-                                    <item>2. Zürich, Staatsarchiv des Kantons, C VI 1, VI, Nr. 6b [<ref target="      https://skriptoriumzh.parzival.unibe.ch/FrgZh/frgzhtrpz.html">Digitalfaksimile</ref>]: 1 und 2</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr32</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fr32</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr32">
+                        <title type="main">Fr. 32 (G<hi rend="sup">r</hi>): </title>
+                        <list>
+                           <item>1. Zürich, Zentralbibliothek, Cod. Car C 182</item>
+                           <item>2. Zürich, Staatsarchiv des Kantons, C VI 1, VI, Nr. 6b [<ref target="      https://skriptoriumzh.parzival.unibe.ch/FrgZh/frgzhtrpz.html">Digitalfaksimile</ref>]: 1 und 2</item>
+                        </list>
                                 Pergament
 
                                 – 2 Doppelblätter
@@ -41,65 +46,66 @@
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1220">Handschriftencensus</ref>.
                                 <!-- und im <ref target="http://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=3553143"> Archivkatalog,</ref> des Staatsarchivs des Kantons Zürich.-->
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Zürich"</settlement>
-            <repository>"Zentralbibliothek"</repository>
-            <idno>"Cod. Car C 182"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr32A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="ls1">Leser</handNote>
-          <handNote xml:id="sr">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Zürich"</settlement>
-            <repository>"Staatsarchiv des Kantons"</repository>
-            <idno>"C VI 1, VI, Nr. 6b"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr32B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Zürich"</settlement>
+                     <repository>"Zentralbibliothek"</repository>
+                     <idno>"Cod. Car C 182"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr32A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="ls1">Leser</handNote>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Zürich"</settlement>
+                     <repository>"Staatsarchiv des Kantons"</repository>
+                     <idno>"C VI 1, VI, Nr. 6b"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr32B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 1.01-10.07</note>
 <note>Abschnitt 10.08-28.24</note>

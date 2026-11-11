@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader xml:lang="de">
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr70</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>2017</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Arnhem</settlement>
-          <repository>Openbare en Gelderse Wetenschappelijke Bibl.</repository>
-          <idno>MS 78</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>fr70</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_fr70">
-                                <title type="main"> Fr. 70: </title>
-                                <list>
-                                    <item>Arnhem, Openbare en Gelderse Wetenschappelijke Bibliotheek, MS 78, verschollen</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr70</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Arnhem</settlement>
+                  <repository>Openbare en Gelderse Wetenschappelijke Bibl.</repository>
+                  <idno>MS 78</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>fr70</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr70">
+                        <title type="main"> Fr. 70: </title>
+                        <list>
+                           <item>Arnhem, Openbare en Gelderse Wetenschappelijke Bibliotheek, MS 78, verschollen</item>
+                        </list>
                                 Pergament
 
                                 – 4 Doppelblätter
@@ -42,54 +45,61 @@
                                 – Fassungszugehörigkeit: *G
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/21834">Handschriftencensus</ref>; Abdruck von 759.1–761.30 in: Algemeene konst- en letterbode 66 (Nieuwe Reeks 1), 1854, Nr. 23, S. 182)
-                            </p></objectDesc>
-        <objectDesc>
-        <p>Das Fragment ist verschollen. Abgedruckt wurden nur die Verse 759.1-761.30 in: Algemeene konst- en letterbode 66 [Nieuwe Reeks 1], 1854, Nr. 23, S. 182.</p>
-        </objectDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+                  <objectDesc>
+                     <p>Das Fragment ist verschollen. Abgedruckt wurden nur die Verse 759.1-761.30 in: Algemeene konst- en letterbode 66 [Nieuwe Reeks 1], 1854, Nr. 23, S. 182.</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 759.01-761.30</note>
 <note>Transkribiert von OBA nach einem Abdruck in: Mededeelingen. Fragment van den "Parzival", in: Algemeene konst- en letterbode 66 (Nieuwe Reeks 1) (1854), Nr. 23, S. 182 (Juni 2009).</note>

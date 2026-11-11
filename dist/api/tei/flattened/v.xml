@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen v</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>24.08.26</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc>
-        <msIdentifier>
-          <settlement>Karlsruhe</settlement>
-          <repository>Badische Landesbibliothek</repository>
-          <idno>Donaueschingen 97</idno>
-          <altIdentifier type="Parzival-Projekt">
-            <idno>v</idno>
-          </altIdentifier>
-        </msIdentifier>
-        <physDesc><objectDesc><p corresp="Parzival-Projekt_v">
-                                <title type="main">Hs. V (G<hi rend="sup">δ</hi>)</title>
-                                <list>
-                                    <item>Karlsruhe, Badische Landesbibliothek, Donaueschingen 97 (früher: Donaueschingen, Fürstlich Fürstenbergische Hofbibliothek, Hs. 97) [<ref target="https://rappoltstein.parzival.unibe.ch">Digitalfaksimile</ref>]</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen v</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>24.08.26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Karlsruhe</settlement>
+                  <repository>Badische Landesbibliothek</repository>
+                  <idno>Donaueschingen 97</idno>
+                  <altIdentifier type="Parzival-Projekt">
+                     <idno>v</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_v">
+                        <title type="main">Hs. V (G<hi rend="sup">δ</hi>)</title>
+                        <list>
+                           <item>Karlsruhe, Badische Landesbibliothek, Donaueschingen 97 (früher: Donaueschingen, Fürstlich Fürstenbergische Hofbibliothek, Hs. 97) [<ref target="https://rappoltstein.parzival.unibe.ch">Digitalfaksimile</ref>]</item>
+                        </list>
                                 Pergament
 
                                 – 320 Blätter
@@ -45,61 +50,68 @@
 
                                 – Fassungszugehörigkeit: *T (1.1–733.30) und *m (734.1–827.30)
 
-                                – vgl. <ref target="http://www.handschriftencensus.de/5020">Handschriftencensus</ref>.</p></objectDesc>
-        <handDesc>
-        <handNote xml:id="ls1">Leser</handNote>
-        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
-        <handNote xml:id="ls2u" cert="unknown">Leser</handNote>
-        <handNote xml:id="sr">Schreiber</handNote>
-        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
-        </handDesc>
-        </physDesc>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                                – vgl. <ref target="http://www.handschriftencensus.de/5020">Handschriftencensus</ref>.</p>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="ls1">Leser</handNote>
+                     <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+                     <handNote xml:id="ls2u" cert="unknown">Leser</handNote>
+                     <handNote xml:id="sr">Schreiber</handNote>
+                     <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Buch I</note>
 <note>Abschnitt 1.01-20.30 transkribiert nach Farbfotos (Studio), überprüft bei Autopsie 26.11.2004 (GVi)</note>

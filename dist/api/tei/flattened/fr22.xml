@@ -1,27 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr22</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>23.07.24</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>fr22</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr22">
-                                <title type="main">Fr. 22 (G<hi rend="sup">d</hi>):</title>
-                                <list>
-                                    <item>1. Erfurt, Bistumsarchiv, Deutsche Fragmente Nr. 2</item>
-                                    <item>2. Leipzig, Universitätsbibliothek, Deutsche Fragmente 28</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr22</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>23.07.24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr22</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr22">
+                        <title type="main">Fr. 22 (G<hi rend="sup">d</hi>):</title>
+                        <list>
+                           <item>1. Erfurt, Bistumsarchiv, Deutsche Fragmente Nr. 2</item>
+                           <item>2. Leipzig, Universitätsbibliothek, Deutsche Fragmente 28</item>
+                        </list>
                                 Pergament
 
                                 – Reste von 4 Doppelblättern
@@ -43,67 +50,68 @@
                                 – Fassungszugehörigkeit: *G [*LM]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1266">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Erfurt"</settlement>
-            <repository>"Bistumsarchiv"</repository>
-            <idno>"Deutsche Fragmente Nr. 2"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr22A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="sr">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Leipzig"</settlement>
-            <repository>"Universitätsbibliothek"</repository>
-            <idno>"Deutsche Fragmente 28"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr22B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Erfurt"</settlement>
+                     <repository>"Bistumsarchiv"</repository>
+                     <idno>"Deutsche Fragmente Nr. 2"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr22A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Leipzig"</settlement>
+                     <repository>"Universitätsbibliothek"</repository>
+                     <idno>"Deutsche Fragmente 28"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr22B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Die Blätter 1,2,5 und 6 dieses Fragments liegen in Erfurt (Bistumsarchiv, Deutsche Fragmente Nr. 2, die Blätter 3,4,7 und 8 liegen in Leipzig (Universitätsbibliothek, Deutsche Fragmente Nr. 28</note>
 <note>Endredaktion aller Blätter durch JKl vom 05.-07.12.2016, unl-Stellen nachbearb. am 20.12.2016.</note>

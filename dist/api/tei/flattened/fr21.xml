@@ -1,27 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr21</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>11.10.22</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>fr21</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr21">
-                                <title type="main">Fr. 21 (G<hi rend="sup">c</hi>):</title>
-                                <list>
-                                    <item>1. Wien, österreichische Nationalbibliothek, Cod. 12780</item>
-                                    <item>2. Dortmund, Stadt- und Landesbibliothek, Hds. 168 (früher Privatbesitz Ehrenfeld, Wien)</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr21</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>11.10.22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr21</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr21">
+                        <title type="main">Fr. 21 (G<hi rend="sup">c</hi>):</title>
+                        <list>
+                           <item>1. Wien, österreichische Nationalbibliothek, Cod. 12780</item>
+                           <item>2. Dortmund, Stadt- und Landesbibliothek, Hds. 168 (früher Privatbesitz Ehrenfeld, Wien)</item>
+                        </list>
                                 Pergament
 
                                 – insgesamt 18 Blätter (8 Doppel- und 2 Einzelblätter)
@@ -39,69 +46,70 @@
                                 – Fassungszugehörigkeit: *G [*OQR]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1011">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Wien"</settlement>
-            <repository>"Österreichische Nationalbibliothek"</repository>
-            <idno>"Cod. 12780"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr21A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="ls1">Leser</handNote>
-          <handNote xml:id="sr">Schreiber</handNote>
-          <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Dortmund"</settlement>
-            <repository>"Stadt- und Landesbibliothek"</repository>
-            <idno>"Hds. 168"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr21B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Wien"</settlement>
+                     <repository>"Österreichische Nationalbibliothek"</repository>
+                     <idno>"Cod. 12780"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr21A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="ls1">Leser</handNote>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Dortmund"</settlement>
+                     <repository>"Stadt- und Landesbibliothek"</repository>
+                     <idno>"Hds. 168"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr21B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 34.09-47.17; 54.09-60.27; 67.(18)19-74.07; 87.(18)19-94.07; 101.(1-3)4-107.20; 168.10-174.28; 201.16-208.05; 215.03-216.20; 216.(21-24)25-220.1; 220.05-235.01; 248.12-261.17; 261.21-266.18; 266.22-268.09; 328.23-335.14; 364.07-370.26; 377.19-384.09; 424.08-430.27</note>
 <note>Abschnitte 101.04-107.20 und 248.12-261.17 transkribiert von RSo, April 2003; erneute Autopsie bis 255.30 im August 2005</note>

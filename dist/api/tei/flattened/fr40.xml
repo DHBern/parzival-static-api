@@ -1,29 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-  <fileDesc>
-    <titleStmt>
-      <title type="main">Parzival</title>
-      <title type="sub">Transkription des Textzeugen fr40</title>
-      <author>Wolfram von Eschenbach</author>
-      <editor>Parzival-Projekt Bern</editor>
-    </titleStmt>
-    <publicationStmt>
-      <authority>Parzival-Projekt Bern</authority>
-      <pubPlace>Bern</pubPlace>
-      <date>14.11.22</date>
-    </publicationStmt>
-    <sourceDesc>
-      <msDesc><msIdentifier>
-          <repository>Parzival-Projekt</repository>
-          <idno>fr40</idno>
-        </msIdentifier><physDesc><objectDesc><p corresp="Parzival-Projekt_fr40">
-                                <title type="main">Fr. 40 (G<hi rend="sup">α</hi>):</title>
-                                <list>
-                                    <item>1. Schwaz, Konventarchiv des Franziskanerklosters, Lade O, Frag. germ. 2</item>
-                                    <item>2. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 37</item>
-                                    <item>3. Graz, Zentralbibliothek der Wiener Franziskanerprovinz, A 1/26 (früher Maria-Lankowitz, Franziskanerkloster, ohne Signatur)</item>
-                                    <item>4. München, Bayerische Staatsbibliothek, Cgm 194/II</item>
-                                </list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Parzival</title>
+            <title type="sub">Transkription des Textzeugen fr40</title>
+            <author>Wolfram von Eschenbach</author>
+            <editor>Parzival-Projekt Bern</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Parzival-Projekt Bern</authority>
+            <pubPlace>Bern</pubPlace>
+            <date>14.11.22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Parzival-Projekt</repository>
+                  <idno>fr40</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <p corresp="Parzival-Projekt_fr40">
+                        <title type="main">Fr. 40 (G<hi rend="sup">α</hi>):</title>
+                        <list>
+                           <item>1. Schwaz, Konventarchiv des Franziskanerklosters, Lade O, Frag. germ. 2</item>
+                           <item>2. Berlin, Staatsbibliothek Preußischer Kulturbesitz, Ms. germ. fol. 923 Nr. 37</item>
+                           <item>3. Graz, Zentralbibliothek der Wiener Franziskanerprovinz, A 1/26 (früher Maria-Lankowitz, Franziskanerkloster, ohne Signatur)</item>
+                           <item>4. München, Bayerische Staatsbibliothek, Cgm 194/II</item>
+                        </list>
                                 Pergament
 
                                 – insgesamt 20 Blätter, davon 8 Doppelblätter
@@ -47,102 +54,109 @@
                                 – Fassungszugehörigkeit: *G und *T [*OQR]
 
                                 – vgl. <ref target="http://www.handschriftencensus.de/1715">Handschriftencensus</ref>.
-                            </p></objectDesc></physDesc>
-        
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Schwaz"</settlement>
-            <repository>"Konventarchiv des Franziskanerklosters"</repository>
-            <idno>"Lade O, Frag. germ. 2"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr40A</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <physDesc>
-          <handDesc>
-          <handNote xml:id="ls1">Leser</handNote>
-          <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
-          <handNote xml:id="sr">Schreiber</handNote>
-          <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
-          </handDesc>
-          </physDesc>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Berlin"</settlement>
-            <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
-            <idno>"Ms. germ. fol. 923 Nr. 37"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr40B</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"Graz"</settlement>
-            <repository>"Zentralbibliothek der Wiener Franziskanerprovinz"</repository>
-            <idno>"A 1/26"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr40C</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-        <msFrag>
-          <msIdentifier>
-            <settlement>"München"</settlement>
-            <repository>"Bayerische Staatsbibliothek"</repository>
-            <idno>"Cgm 194/II"</idno>
-            <altIdentifier type="Parzival-Projekt">
-              <idno>fr40D</idno>
-            </altIdentifier>
-          </msIdentifier>
-        </msFrag>
-      </msDesc>
-    </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-  <listPrefixDef>
-    <prefixDef ident="regp" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
-      <p>"regp" verweist auf die Personennamen.</p>
-    </prefixDef>
-    <prefixDef ident="rego" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"rego" verweist auf die Ortsnamen.</p>
-    </prefixDef>
-    <prefixDef ident="regs" matchPattern="([a-z0-9]+)" replacementPattern="namen.xml#$1">
-      <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
-    </prefixDef>
-  </listPrefixDef>
-  <charDecl>
-   <char xml:id="finis">
-    <charName>Finis-Zeichen</charName>
-   </char>
-   <char xml:id="alin1">
-    <charName>Alinea-Zeichen</charName>
-   </char>
-   <char xml:id="deligatur">
-    <charName>de-Ligatur</charName>
-   </char>
-   <char xml:id="latAbbrRum">
-    <charName>Lateinische Abkürung für -rum</charName>
-   </char>
-   <char xml:id="latAbbrIs">
-    <charName>Lateinische Abkürzung für -is</charName>
-   </char>
-   <char xml:id="latAbbrEt">
-    <charName>Lateinische Abkürzung für -et/-it</charName>
-   </char>
-   <char xml:id="latAbbrEt2">
-    <charName>Lateinische Abkürzung für -et</charName>
-    <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
-   </char>
-   <char xml:id="zeilenfuellsel">
-    <charName>Zeilenfüllsel</charName>
-   </char>
-  </charDecl>
-  </encodingDesc>
-</teiHeader>
-<text>
+                            </p>
+                  </objectDesc>
+               </physDesc>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Schwaz"</settlement>
+                     <repository>"Konventarchiv des Franziskanerklosters"</repository>
+                     <idno>"Lade O, Frag. germ. 2"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr40A</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <physDesc>
+                     <handDesc>
+                        <handNote xml:id="ls1">Leser</handNote>
+                        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+                        <handNote xml:id="sr">Schreiber</handNote>
+                        <handNote xml:id="sru" cert="unknown">Schreiber</handNote>
+                     </handDesc>
+                  </physDesc>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Berlin"</settlement>
+                     <repository>"Staatsbibliothek Preußischer Kulturbesitz"</repository>
+                     <idno>"Ms. germ. fol. 923 Nr. 37"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr40B</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"Graz"</settlement>
+                     <repository>"Zentralbibliothek der Wiener Franziskanerprovinz"</repository>
+                     <idno>"A 1/26"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr40C</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+               <msFrag>
+                  <msIdentifier>
+                     <settlement>"München"</settlement>
+                     <repository>"Bayerische Staatsbibliothek"</repository>
+                     <idno>"Cgm 194/II"</idno>
+                     <altIdentifier type="Parzival-Projekt">
+                        <idno>fr40D</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+               </msFrag>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="regp"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>Alle mit <gi>Name</gi> ausgezeichneten Stellen verweisen auf die Datei namen.xml, die eine Liste aller Personen- und Ortsnamen sowie eine Liste sonstiger Bezeichnungen, wie etwa Edelsteine, enthält.</p>
+               <p>"regp" verweist auf die Personennamen.</p>
+            </prefixDef>
+            <prefixDef ident="rego"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"rego" verweist auf die Ortsnamen.</p>
+            </prefixDef>
+            <prefixDef ident="regs"
+                       matchPattern="([a-z0-9]+)"
+                       replacementPattern="namen.xml#$1">
+               <p>"regs" verweist auf die sonstigen Bezeichnungen.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <charDecl>
+            <char xml:id="finis">
+               <charName>Finis-Zeichen</charName>
+            </char>
+            <char xml:id="alin1">
+               <charName>Alinea-Zeichen</charName>
+            </char>
+            <char xml:id="deligatur">
+               <charName>de-Ligatur</charName>
+            </char>
+            <char xml:id="latAbbrRum">
+               <charName>Lateinische Abkürung für -rum</charName>
+            </char>
+            <char xml:id="latAbbrIs">
+               <charName>Lateinische Abkürzung für -is</charName>
+            </char>
+            <char xml:id="latAbbrEt">
+               <charName>Lateinische Abkürzung für -et/-it</charName>
+            </char>
+            <char xml:id="latAbbrEt2">
+               <charName>Lateinische Abkürzung für -et</charName>
+               <note>Vgl. Cappelli, Lexicon abbreviaturarum, S. 408, Sp. a, letzte Zeile.</note>
+            </char>
+            <char xml:id="zeilenfuellsel">
+               <charName>Zeilenfüllsel</charName>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text xml:space="preserve">
 <body>
 <note>Abschnitt 177.11-182.24; 216.13-221.30</note>
 <note>Abschnitt 177.11-221.30: Transkribiert von OBA ab Farbfotos (Studio), März 2011</note>
