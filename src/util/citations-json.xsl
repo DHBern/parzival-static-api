@@ -231,7 +231,7 @@
                     <contributors>
                         <xsl:for-each select="$tei//titleStmt/respStmt/name">
                             <contributor contributorType="{preceding-sibling::resp}">
-                                <contributorName nameType="Personal">{.}</contributorName>
+                                <contributorName nameType="{if (string-length(.) lt 35) then 'Personal' else 'Organizational'}">{.}</contributorName>
                             </contributor>
                         </xsl:for-each>
                     </contributors>
