@@ -155,7 +155,7 @@
             <xsl:variable name="doi" select="$citations.json?*[?id=$id]?citation_doi"/>
             <xsl:variable name="tei" select="if (doc-available('../data/original/transcription/'||$id||'.xml')) then doc('../data/original/transcription/'||$id||'.xml')
                 else doc('../data/df-descs.xml')"/>
-            <xsl:variable name="dcXml">
+            <xsl:variable name="dcXml" as="element(Q{http://datacite.org/schema/kernel-4}resource)">
                 <xsl:call-template name="buildDcXml">
                     <xsl:with-param name="id" select="$id"/>
                     <xsl:with-param name="doi" select="$doi"/>
@@ -180,7 +180,8 @@
                                 map {
                                     'event': $doi-event,
                                     'doi': $doi,
-                                    'xml': $dcXml => dsl:base64(),
+                                    (:'xml': $dcXml => serialize(map {'method': 'xml','encoding': 'UTF-8','omit-xml-declaration': true()}) => dsl:base64(true()), :)
+                                    'xml': $dcXml => serialize() => dsl:base64(true()),
                                     'url': $citations.json?*[?id = $id]?url
                                 }
                             }
