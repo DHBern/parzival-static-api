@@ -152,7 +152,7 @@
         
         <xsl:for-each select="unparsed-text-lines('../data/doi-beacon.txt')[matches(.,'^[0-z]+\|\S+\|.+')]">
             <xsl:variable name="id" select="(. => tokenize('\|'))[2]"/>
-            <xsl:variable name="doi" select="$citations.json?*[?id=$id]?citation_doi"/>
+            <xsl:variable name="doi" select="$citations.json?*[?id=$id]?citation_doi => substring-after('.org/')"/>
             <xsl:variable name="tei" select="if (doc-available('../data/original/transcription/'||$id||'.xml')) then doc('../data/original/transcription/'||$id||'.xml')
                 else doc('../data/df-descs.xml')"/>
             <xsl:variable name="dcXml" as="element(Q{http://datacite.org/schema/kernel-4}resource)">
@@ -180,8 +180,8 @@
                                 map {
                                     'event': $doi-event,
                                     'doi': $doi,
-                                    (:'xml': $dcXml => serialize(map {'method': 'xml','encoding': 'UTF-8','omit-xml-declaration': true()}) => dsl:base64(true()), :)
-                                    'xml': $dcXml => serialize() => dsl:base64(true()),
+                                    'xml': $dcXml => serialize(map {'method': 'xml','encoding': 'UTF-8','omit-xml-declaration': true()}) => dsl:base64(false()),
+                                    (: 'xml': $dcXml => serialize() => dsl:base64(false()), :)
                                     'url': $citations.json?*[?id = $id]?url
                                 }
                             }
@@ -227,11 +227,13 @@
             <xsl:choose>
                 <xsl:when test="$tei/@xml:id">
                     <creators>
-                        <creator nameType="Organizational">{$tei//titleStmt/editor}</creator>
+                        <creator>
+                            <creatorName nameType="Organizational">{$tei//titleStmt/editor}</creatorName>
+                        </creator>
                     </creators>
                     <contributors>
                         <xsl:for-each select="$tei//titleStmt/respStmt/name">
-                            <contributor contributorType="{preceding-sibling::resp}">
+                            <contributor contributorType="{preceding-sibling::resp/@ana}">
                                 <contributorName nameType="{if (string-length(.) lt 35) then 'Personal' else 'Organizational'}">{.}</contributorName>
                             </contributor>
                         </xsl:for-each>
