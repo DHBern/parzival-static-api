@@ -23,6 +23,7 @@
   <xsl:mode name="substitute-quotation-marks" on-no-match="shallow-copy"/>
   <xsl:mode name="lowercase-xml-ids" on-no-match="shallow-copy"/>
   <xsl:mode name="tmp-fix-for-ybild" on-no-match="shallow-copy"/>
+  <xsl:mode name="substitute-en-dashes" on-no-match="shallow-copy"/>
 
   <xd:doc scope="template">
     <xd:desc>
@@ -75,8 +76,12 @@
           <xsl:apply-templates select="$pass2" mode="lowercase-xml-ids"/>
       </xsl:variable>
       
+      <xsl:variable name="pass4">
+        <xsl:apply-templates select="$pass3" mode="substitute-en-dashes"/>
+      </xsl:variable>
+      
       <xsl:result-document href="{$path_api}/tei/flattened/{. => replace('.+/(.*)','$1')}" method="xml" encoding="UTF-8" indent="true">
-        <xsl:sequence select="$pass3"/>
+        <xsl:sequence select="$pass4"/>
       </xsl:result-document>
     </xsl:for-each>
     <xsl:message>Task `{$task}` done.</xsl:message>
@@ -90,6 +95,10 @@
   
   <xsl:template match="@loc" mode="refine-originals">
     <xsl:attribute name="loc" select="dsl:permute-verse-numbers(.)"/>
+  </xsl:template>
+  
+  <xsl:template match="l/@n[contains(.,'–')]" mode="substitute-en-dashes">
+    <xsl:attribute name="n" select="data() => replace('–','-')"/>
   </xsl:template>
   
   <xd:doc>
