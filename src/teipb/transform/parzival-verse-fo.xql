@@ -215,8 +215,8 @@ declare function model:apply($config as map(*), $input as node()*) {
                             map {
                                 "id": substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '),
                                 "content": .,
-                                "verse": let $value := translate(   string(if (@xml:id) then @xml:id else @n),   '–', '-' ) let $verse := substring-after($value, if (@xml:id) then '_' else ' ') let $afterDot := substring-after($verse, '.') let $beforeDash := if (contains($afterDot, '-'))                    then substring-before($afterDot, '-')                    else $afterDot return concat(substring-before($verse, '.'), '.', number($beforeDash)),
-                                "afterDash": let $value := translate(   string(if (@xml:id) then @xml:id else @n),   '–', '-' ) let $afterDot := substring-after(   substring-after($value, if (@xml:id) then '_' else ' '),   '.' ) return if (contains($afterDot, '-')) then substring-after($afterDot, '-') else ''
+                                "verse": let $verse := substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' ') let $afterDot := substring-after($verse, '.') let $beforeDash := if (contains($afterDot, '-')) then substring-before($afterDot, '-') else $afterDot  return concat(     substring-before($verse, '.'), '.',     number($beforeDash) ),
+                                "afterDash": let $afterDot := substring-after(substring-after(if (@xml:id) then @xml:id else @n, if (@xml:id) then '_' else ' '), '.') return if (contains($afterDot, '-')) then substring-after($afterDot, '-') else ''
                             }
 
                                                 let $content := 
